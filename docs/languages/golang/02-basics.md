@@ -108,6 +108,22 @@ name := "Bob" // ❌ ERROR: no new variables on left side of :=
 ???+ Alias types
     - byte (alias for uint8)
     - rune (alias for int32)
+---
 
-## Zero values
-    
+##4. Zero values
+In Go, "zero values" are the default values assigned to variables when they are declared but not explicitly initialized.
+
+|Type| Zero Value|
+|----|----|
+|bool| false|
+|int, float|0, 0.0|
+|string| empty string (not Nil)|
+|pointer, func, interface{}, map, slice, chan| Nil |
+|struct| 	Fields = zero values|
+
+**Note:**
+
+- Some of the above data types are not explained in this chapter (such as struct, pointer...). They will be described in the subsequent chapters.
+- nil is used with reference types, not value types (to be explained in coming chapters)
+
+
