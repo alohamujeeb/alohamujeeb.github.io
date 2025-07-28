@@ -5,7 +5,7 @@
 
 
 
-=== "Linux"
+=== "Linux (Ubuntu)"
 
     Type following in the terminal
 
@@ -59,7 +59,7 @@ func main() {
 ```
 
 ## **How to compile and run the program**
-=== "Linux"
+=== "Linux (Ubuntu)"
 
     1. Open the terminal.
     2. Compile the program by typing **go build helloGo.go**
