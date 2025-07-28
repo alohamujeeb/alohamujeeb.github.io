@@ -1,9 +1,7 @@
 # **01-Getting Started**
 
+---
 ## **Go Installation**
-
-
-
 
 === "Linux (Ubuntu)"
 
@@ -31,6 +29,7 @@
         If everything is OK, you should see go version information.
 
 
+---
 
 ## **Hello World**
 
@@ -57,6 +56,8 @@ func main() {
     fmt.Println("Hello World")
 }
 ```
+
+---
 
 ## **How to compile and run the program**
 === "Linux (Ubuntu)"

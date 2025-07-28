@@ -12,8 +12,10 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.superfences
+  - admonition
+  - pymdownx.details
 
-
+  
 theme:
   name: material
 
@@ -90,6 +92,7 @@ nav:
       - Golang 101: 
         - Go Programming: languages/golang/index.md
         - 01-Getting Started: languages/golang/01-gettingstarted.md
+        - 02-Some Fundamentals: languages/golang/02-basics.md
       
   - Blogs:
     - blog/index.md
