@@ -55,6 +55,8 @@ plugins:
   - offline
   - tags
   - blog:
+      blog_dir: blog
+      blog_toc: true
       categories_allowed:
         - 5G-Communication
         - Embedded Systems
@@ -63,6 +65,7 @@ plugins:
         - Linux
         - Documentation
   - search
+  - meta
   - exclude-search:
       exclude:
         - documentation/*
