@@ -1,0 +1,92 @@
+---
+site_name: Mujeeb's Online Library
+site_url: https://alohamujeeb.github.io/index.html
+extra:
+  generator: false #Disable footer with "Made with Material for MkDocs" message
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.superfences
+
+
+theme:
+  name: material
+
+  palette:
+    #scheme: default
+    #primary: default
+    #accent: default
+    
+    # Palette toggle for light mode
+    - scheme: default
+      primary: indigo
+      accent: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: indigo
+      accent: default
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    
+        
+  features:
+    - navigation.path
+    - navigation.instant
+    - navigation.tabs # to display menu in the top bar
+    - navigation.tabs.sticky 
+    - navigation.footer #next and previous buttons
+    - navigation.indexes
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
+
+
+plugins: 
+  - offline
+  - tags
+  - blog:
+      categories_allowed:
+        - 5G-Communication
+        - Embedded Systems
+        - Robotics
+        - ROS2
+  - search
+  - exclude-search:
+      exclude:
+        - documentation/*
+        
+        
+# Page tree
+nav:
+  - Home: 
+    - Mujeeb's Online Library: index.md
+    - About Me: about/aboutme.md
+    - Whats New: whatsnew.md
+  - Linux&ROS:
+    - Linux-ROS2: 
+      - tutorials/index.md
+      - Linux: tutorials/linux/index.md
+      - ROS2: tutorials/ros2.md
+      - OpenRMF: tutorials/openrmf.md
+   
+  - Programming: 
+    - Languages: 
+      - languages/index.md  
+      - Golang 101: 
+        - Go Programming: languages/golang/index.md
+        - 01-Getting Started: languages/golang/01-gettingstarted.md
+      
+  - Blogs:
+    - blog/index.md
+  - Keywords: tags.md
+ 
