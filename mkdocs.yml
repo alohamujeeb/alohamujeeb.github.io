@@ -60,6 +60,8 @@ plugins:
         - Embedded Systems
         - Robotics
         - ROS2
+        - Linux
+        - Documentation
   - search
   - exclude-search:
       exclude:
