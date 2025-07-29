@@ -15,11 +15,7 @@ In Go, strings can be defined in two distinct ways, each offering unique benefit
 - These do not support escape sequences.
 - Useful for multiline text, embedded code, or preserving exact formatting.
 
-
-
-- Regular Strings (defined within double quotes)
-- Backtick Strings (defined within backtick characters)
-
+---
 
 ## Regular Strings
 - Regular strings are defined within double quotes, like C/C++, Java, and other languages.
@@ -36,7 +32,7 @@ In Go, strings can be defined in two distinct ways, each offering unique benefit
 |\b	|Backspace-Deletes previous char |(in some terminals)|
 
 
-## Raw Strings
+## Raw strings
 They are especially helpful for writing strings that should appear visually as they are typed.
 
 - Raw strings are enclosed in a pair of backtick characters ( \`...\` ).
@@ -60,8 +56,8 @@ html := `<html>
 
 	func main() {
 		var s1 string = "Hello, world!"
-		s2 := `Line 1
-				 \n\tLine 2
+		s2 := `Line 1
+				 \n\tLine 2
 			Line3`
 
 		fmt.Println(s1)
@@ -72,12 +68,12 @@ html := `<html>
 === "Output"
 	```
 	Hello, world!
-	Line 1
-				 \n\tLine 2
+	Line 1
+				 \n\tLine 2
 			Line3
 	```
 
-### Why use raw Strings
+### Why use raw strings
 Raw strings are especially useful in modern web-based and systems programming. Go includes raw stringsto make working with complex, formatted text easier and cleaner. 
 
 - They are quite handy for embedding code such as regular expressions, HTML, JSON, or SQL, without needing escape characters.
@@ -85,6 +81,90 @@ Raw strings are especially useful in modern web-based and systems programming. G
 - They preserve formatting exactly as written, including spaces, indentation, and line breaks.
 - They are more readable and visually clear, especially for large blocks of text.
 
+---
+### Creating variables (various ways)
+
+??? note "Click to find various examples showing variables"
+
+	=== "Snippets"
+		``` go
+		// create first and use later
+		var s string
+		s = "Hello, Go!"
+
+		//declar and initialize
+		var s1 string = "Hello"
+
+		//short variable declaration: commmon in functions
+		s2 := "World"
+
+		//using backtick (raw liternals)
+		s3 := `Multiline
+		raw string
+		with no escaping like \n or \t.`
+
+		//concatenation
+		s4 := "Hello, " + "World!"
+		
+		//Using fmt.Sprintf() for formatted strings
+		name := "Mujeeb"
+		s5 := fmt.Sprintf("Hello, %s!", name)
+
+		//form a byte slice
+		b := []byte{72, 101, 108, 108, 111}
+		s6 := string(b)  // "Hello"
+		```
+
+	=== "Complete Example"
+		``` go
+		package main
+
+		import (
+			"fmt"
+		)
+
+		func main() {
+			var s1 string
+			s1 = "Go is fun"
+
+			var s2 string = "Learning Go"
+
+			s3 := "With short syntax"
+
+			s4 := `This is a
+		multiline raw string.`
+
+			name := "Gopher"
+			s5 := fmt.Sprintf("Hello, %s!", name)
+
+			b := []byte{72, 105}
+			s6 := string(b) // "Hi"
+
+			r := []rune{'🚀', '✨'}
+			s7 := string(r)
+
+			fmt.Println(s1)
+			fmt.Println(s2)
+			fmt.Println(s3)
+			fmt.Println(s4)
+			fmt.Println(s5)
+			fmt.Println(s6)
+			fmt.Println(s7)
+		}
+		```
+		
+	=== "Output"
+		```
+		Go is fun
+		Learning Go
+		With short syntax
+		This is a
+				multiline raw string.
+		Hello, Gopher!
+		Hi
+		🚀✨
+		```
+---
 
 ## UTF-8 Format Coding
 - Strings in Go (both regular strings and raw strings) use UTF-8 encoding by default.

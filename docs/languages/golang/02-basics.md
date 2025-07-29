@@ -81,11 +81,11 @@ name := "Bob" // ❌ ERROR: no new variables on left side of :=
 
 ##3. Built-in data types
 
-???+ Basic tyes
+!!! note "Basic types"
     - bool
     - string
 
-??? Integer types
+!!! note "Integer types"
     - int
     - int8
     - int16
@@ -98,14 +98,15 @@ name := "Bob" // ❌ ERROR: no new variables on left side of :=
     - uint64
     - uintptr
     
-???+ Float types
+???+ note "Float types"
     - float32
     - float64
 
-???+ Complex types
+???+ note "Complex types"
     - complex64
     - complex128
-???+ Alias types
+	
+???+ note "Alias types"
     - byte (alias for uint8)
     - rune (alias for int32)
 ---
