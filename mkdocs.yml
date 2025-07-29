@@ -1,6 +1,6 @@
 ---
 site_name: Mujeeb's Online Library
-site_url: https://alohamujeeb.github.io/index.html
+site_url: https://alohamujeeb.github.io/
 extra:
   generator: false #Disable footer with "Made with Material for MkDocs" message
 
@@ -75,10 +75,11 @@ plugins:
         
 # Page tree
 nav:
-  - Home: 
-    - Mujeeb's Online Library: index.md
+  - Home:
+    - My Online Library: index.md
     - About Me: about/aboutme.md
     - Whats New: whatsnew.md
+    
   - Linux&ROS:
     - Linux-ROS2: 
       - tutorials/index.md

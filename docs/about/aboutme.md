@@ -1,5 +1,5 @@
 # My Brief Introduction
-
+---
 ## Introduction
 
 I'm a software developer based in Singapore with experience in::
@@ -16,6 +16,7 @@ I'm a software developer based in Singapore with experience in::
 
 Feel free to explore my work throughout the site.
 
+---
 ## My Other Pages
 [LinkedIn](https://www.linkedin.com/in/alohamujeeb/){:target="_blank"}
 
