@@ -1,5 +1,10 @@
 # **02-Some Fundamentals**
 
+- importing packages
+- creating variables 
+- short declarations
+- zero values
+
 ---
 
 ##1. **Importing packages**
@@ -72,13 +77,6 @@ For example,
     var length, width = 10.0, 14 //can you guess types?
     ```
     
-### Short declaration
-
-``` go
-name := "Alice"
-name := "Bob" // ❌ ERROR: no new variables on left side of :=
-```
-
 ##3. Built-in data types
 
 !!! note "Basic types"
@@ -111,7 +109,50 @@ name := "Bob" // ❌ ERROR: no new variables on left side of :=
     - rune (alias for int32)
 ---
 
-##4. Zero values
+## Short variable declaration
+
+- The short variable declaration syntax uses := to declare and initialize a variable in one concise statement.
+- It automatically infers the variable’s type from the value on the right-hand side.
+-It can only be used inside functions (not at the package level).
+
+**Syntax**
+``` go 
+//variableName := value
+func main() {
+    age := 25        // int inferred
+    fmt.Println(age) // Output: 25
+}
+```
+
+### Important points about short vaiable declation
+- Variable type is inferred automatically.
+- You cannot use := without initialization (no zero value-only declarations).
+- Very handy for quick and readable code inside functions.
+- **You cannot do this at the package level (outside functions)**
+- **You cannot declare a variable without initialization**
+
+We can change the value of the variable, but then we have to use "=" instead of ":="
+``` go
+
+func main() {
+    x := 10          // Declare and initialize x with 10
+    fmt.Println(x)   // Output: 10
+
+	//x :=20   COMPILATION ERROR
+    x = 20           // Reassign a new value to x
+    fmt.Println(x)   // Output: 20
+}
+```
+
+``` go
+name := "Alice"
+name := "Bob" // ❌ ERROR: no new variables on left side of :=
+```
+
+
+
+
+##5. Zero values
 In Go, "zero values" are the default values assigned to variables when they are declared but not explicitly initialized.
 
 |Type| Zero Value|

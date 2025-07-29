@@ -100,8 +100,8 @@ Raw strings are especially useful in modern web-based and systems programming. G
 
 		//using backtick (raw liternals)
 		s3 := `Multiline
-		raw string
-		with no escaping like \n or \t.`
+			raw string
+				with no escaping like \n or \t.`
 
 		//concatenation
 		s4 := "Hello, " + "World!"
@@ -113,6 +113,11 @@ Raw strings are especially useful in modern web-based and systems programming. G
 		//form a byte slice
 		b := []byte{72, 101, 108, 108, 111}
 		s6 := string(b)  // "Hello"
+		
+		// emoji example
+		emoji := "🚀✨"
+		fmt.Println(emoji)
+		
 		```
 
 	=== "Complete Example"
@@ -132,9 +137,10 @@ Raw strings are especially useful in modern web-based and systems programming. G
 			s3 := "With short syntax"
 
 			s4 := `This is a
-		multiline raw string.`
+						multiline raw string.
+				Line 3`
 
-			name := "Gopher"
+			name := "Mujeeb"
 			s5 := fmt.Sprintf("Hello, %s!", name)
 
 			b := []byte{72, 105}
@@ -159,8 +165,9 @@ Raw strings are especially useful in modern web-based and systems programming. G
 		Learning Go
 		With short syntax
 		This is a
-				multiline raw string.
-		Hello, Gopher!
+					multiline raw string.
+			   Line 3
+		Hello, Mujeeb!
 		Hi
 		🚀✨
 		```

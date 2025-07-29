@@ -94,8 +94,10 @@ nav:
         - Go Programming: languages/golang/index.md
         - 01-Getting Started: languages/golang/01-gettingstarted.md
         - 02-Some Fundamentals: languages/golang/02-basics.md
-        - 03-Data Types- Numbers and Boolean: languages/golang/03-datatypes-1.md
-        - 04-Data Types- Strings: languages/golang/04-datatypes-2.md
+        - 03-Data Types(1) Numbers and Boolean: languages/golang/03-datatypes-1.md
+        - 04-Data Types(2) Strings: languages/golang/04-datatypes-2.md
+        - 05-Operators and Typecasting: languages/golang/05-operators.md
+        
       
   - Blogs:
     - blog/index.md
