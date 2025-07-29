@@ -82,7 +82,8 @@ nav:
     
   - Linux-ROS:
     - tutorials/index.md
-    - Linux: tutorials/linux/index.md
+    - Linux: 
+      - CLI Quick Reference: tutorials/linux/linux-cli.md
     - ROS2: tutorials/ros2/ros2.md
     - OpenRMF: tutorials/openrmf/openrmf.md
    
