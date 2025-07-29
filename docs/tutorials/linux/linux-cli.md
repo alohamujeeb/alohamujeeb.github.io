@@ -55,7 +55,7 @@ This page provides quick-access cheat sheets for Linux CLI commands.
 		
 ---
 ## File Searching
-??? "File/Content Searching (click to view)"
+??? "File Searching (click to view)"
 
 	=== "Navigation and Listing"
 		|command|description|
@@ -77,6 +77,8 @@ This page provides quick-access cheat sheets for Linux CLI commands.
 		|---|---|
 		|```find /etc -type f -name "*.conf" -exec realpath {} \;```| List full path of all .conf files|
 		|```find /var/log -type f -name "*.log" -exec du -h {} \;```| Print file size of .log files|
+        |```find /var/log -type f -name "*.log" -size +1M -exec rm {} \;```| Delete log files of size above 1MB (using rm shell command)|
+        |```find /var/log -type f -name "*.log" -size +1M -delete```| Delete log files of size above 1MB (using -delete flag)|
 		|```find /tmp -type f -name "*.tmp" -exec rm {} \;```| Delete all .tmp files|
 		|```find . -type f -empty -exec rm {} \;```| Delete empty files|
 		|```find /backup -type f -mtime +30 -exec rm {} \;```| Delete files older than 30 days|
@@ -87,7 +89,8 @@ This page provides quick-access cheat sheets for Linux CLI commands.
 	
 	- exec some_command  (this is part of shell itself)
 	- The -exec Option in the find Command is not same as exec...It is just an option of the 'find command itself"
-	
+    - to delete log files "-delete" option is better than "rm", because it is a built-in parameter of "find" command. It's generally faster and uses less system resources because it doesn’t need to spawn a new rm process for each file.
+    (both ways are mentioned in above examples)
 
 ---
 ## execute a command (exec vs -exec)
