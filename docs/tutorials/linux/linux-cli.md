@@ -44,7 +44,7 @@ This page provides quick-access cheat sheets for Linux CLI commands.
 		|```cat [filename]```|Display file content|
 		|```less [filename]```|View file content page by page|
 		|```head [filename]```|Show first 10 lines of a file|
-		|```head [filename]```|Show last 10 lines of a file|
+		|```tail [filename]```|Show last 10 lines of a file|
 		
 	=== "File Info"
 		|command|description|
