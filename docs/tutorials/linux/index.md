@@ -3,6 +3,7 @@ tags:
   - Linux
 ---
 
-# **Linux Tutorials**
+# Linux Tutorials
 
+This section is for material about Linux and Linux-based tools.
 

@@ -80,12 +80,11 @@ nav:
     - About Me: about/aboutme.md
     - Whats New: whatsnew.md
     
-  - Linux&ROS:
-    - Linux-ROS2: 
-      - tutorials/index.md
-      - Linux: tutorials/linux/index.md
-      - ROS2: tutorials/ros2.md
-      - OpenRMF: tutorials/openrmf.md
+  - Linux-ROS:
+    - tutorials/index.md
+    - Linux: tutorials/linux/index.md
+    - ROS2: tutorials/ros2/ros2.md
+    - OpenRMF: tutorials/openrmf/openrmf.md
    
   - Programming: 
     - Languages: 

@@ -2,7 +2,7 @@
 ---
 ## Introduction
 
-I'm a software developer based in Singapore with experience in::
+I'm a software developer based in Singapore with experience in:
 
     Programming in C/C++, Python, JavaScript, and Java
 
