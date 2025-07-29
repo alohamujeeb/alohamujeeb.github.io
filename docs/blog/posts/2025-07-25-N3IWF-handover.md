@@ -25,7 +25,6 @@ If you're looking for an introduction to N3IWF, feel free to check out my earlie
 In this post, I’ll be sharing some insights and experiences on how N3IWF can be applied to support handover between 5G and gNB.
 
 ### Goal
-	Real UE <--->Wifi<--->N3IWF<--->5G-Core
 ![N3IWF Hanover](images/N3IWF-hanover.png "N3IWF Hanover")
 
 ## N3IWF for handover between 5G and Wifi
