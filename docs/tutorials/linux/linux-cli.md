@@ -8,7 +8,7 @@ This page provides quick-access cheat sheets for Linux CLI commands.
 
 ---
 ## Files and Directories
-??? "Files and Directories (click to view)"
+???+ "Files and Directories (click to view)"
 	
 	=== "Navigation and Listing"
 		|command|description|
@@ -55,7 +55,7 @@ This page provides quick-access cheat sheets for Linux CLI commands.
 		
 ---
 ## File Searching
-??? "File Searching (click to view)"
+???+ "File Searching (click to view)"
 
 	=== "Navigation and Listing"
 		|command|description|
@@ -94,7 +94,7 @@ This page provides quick-access cheat sheets for Linux CLI commands.
 
 ---
 ## execute a command (exec vs -exec)
-??? "File/Content Searching (click to view)"
+???+ "File/Content Searching (click to view)"
 
 	=== "exec command"
 		``` bash
@@ -124,7 +124,7 @@ This page provides quick-access cheat sheets for Linux CLI commands.
 The -exec Option in the find Command is not same as exec...It is just an option of the 'find command itself"
 
 ### When to use "exec"
-??? note "When to use **exec** (click to find out about various scenarios/use-cases)"
+???+ note "When to use **exec** (click to find out about various scenarios/use-cases)"
 	- It is used to **Replace the Shell with Another Program**: Useful in scripts or login environments where you want to run a program instead of a shell — and don’t need to return.
 	
 	
@@ -137,7 +137,7 @@ The -exec Option in the find Command is not same as exec...It is just an option 
 	- To Chain Commands with Replacement: You can use it at the end of a script to "handoff" control to another process, especially for chaining tools or launching shells.
 
 ### When NOT to use "exec"
-??? warning "When NOT to use **exec** (click to find out)"
+???+ warning "When NOT to use **exec** (click to find out)"
 	
 	- Once executed, the shell is gone. If you accidentally use exec instead of running a command normally, your terminal may close (especially with GUI apps).
 	
@@ -145,7 +145,54 @@ The -exec Option in the find Command is not same as exec...It is just an option 
 
 ---
 ## Finding text in file(s)
-WIP
+### **grep** command 
+
+???+ "grep (click to view)"
+
+
+	=== "Basic syntax"
+		``` 
+		grep [options] "pattern" [file...]
+		```
+		``` bash
+		# for example
+		grep "search_text" filename
+
+		```
+
+	=== "Some examples"
+		
+		``` bash
+		#Find lines containing "TODO" in a file
+		grep "TODO" myscript.py
+		
+		#Recursively search all files in a directory for "main()"
+		grep -r "main()" /home/user1/code/
+		
+		#Search "error" ignoring case sensitivity
+		grep -i "error" server.log
+
+		#Show line numbers where "function" appears
+		grep -n "function" script.sh
+		
+		#Match the whole word "init" (not "initialize", etc.)
+		grep -w "init" config.yaml
+
+		#Search all non-binary files for "password"
+		# The -I option tells grep to ignore binary files. (i.e. non-text files)
+		grep -I "password" *
+		
+		#Save results to a file (instead of displaying on the screen)
+		grep "error" logfile.txt > results.txt
+		
+		#Suppress permission denied errors
+		grep -r "password" /etc 2>/dev/null
+
+		```
+### **awk** tool
+
+- **awk** is an alternative to **grep**
+- Its an advanced tool and will be described in a separate section
 
 ---
 ## User and Permission Managment
