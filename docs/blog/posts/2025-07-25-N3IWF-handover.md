@@ -66,7 +66,7 @@ There are specific requirements that must be fulfilled both on the UE side and o
 
 ## What is expected of a vendor
 If a private 5G testbed is to deployed, following are some possible questions to ask:
-(this is not comprehensive list, and are included just as a guideline)
+(this is not comprehensive list, and is included as a guideline only)
 
 - Does your N3IWF implementation support interworking mobility between Wi-Fi and 5G NR (gNB)?
 - Does the AMF and SMF in your core network support IP continuity across  access change (Wifi<->5G)?
@@ -76,10 +76,6 @@ If a private 5G testbed is to deployed, following are some possible questions to
 	(needed if the UE needs to decide when to switch between Wifi and 5G)
 - Do you support IKEv2 + EAP-AKA or EAP-TLS for UE authentication over Wifi?
 - Can your system be integrated with UERANSIM or a real gnB for 5G NR?
-
-
-
-
 
 ## Summary of key components
 
