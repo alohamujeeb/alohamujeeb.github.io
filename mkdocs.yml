@@ -86,6 +86,11 @@ nav:
       - CLI Quick Reference: tutorials/linux/linux-cli.md
     - ROS2: tutorials/ros2/ros2.md
     - OpenRMF: tutorials/openrmf/openrmf.md
+  
+  #- SDN, 
+  #- CICD/Devops, 
+  #- Infrastructure automation and orchestration
+    
    
   - Programming: 
     - Languages: 
