@@ -97,6 +97,7 @@ nav:
         - 03-Data Types(1) Numbers and Boolean: languages/golang/03-datatypes-1.md
         - 04-Data Types(2) Strings: languages/golang/04-datatypes-2.md
         - 05-Operators and Typecasting: languages/golang/05-operators.md
+        - 06-Decisions and Loops:  languages/golang/06-if-loops.md
         
       
   - Writings:

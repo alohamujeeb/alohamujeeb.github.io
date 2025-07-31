@@ -99,3 +99,73 @@ func main() {
     }
     
     ```
+
+## Check your understanding
+??? question "What package should your main executable Go program be in?"
+	Ans: package main
+
+??? question "What is the significance of the main function in a Go program?"
+	Ans: It’s the entry point where program execution starts.
+
+??? question "How do you import other packages into your Go file?"
+	Ans: Using the import keyword followed by the package name(s).
+	``` go
+	import (
+    "fmt"
+    "math"
+	)
+	```
+??? question "What does fmt.Println do?"
+	Ans: Prints text with a newline to the console.	
+
+??? question "What package is needed to use Println?"
+	Ans: fmt
+
+??? question "What is the difference between Print and Println from the fmt package?"
+	Ans: Print doesn’t add a newline; Println adds a newline at the end.
+
+??? question "Is the main function mandatory for all Go programs?"
+	Yes, for executable programs (i.e main package)
+	No, for other packages
+
+??? question "How do you write a comment in Go?"
+	Ans: Use ```//``` for single-line comments, and ```/* */``` for multi-line comments
+	``` go
+	# single line comment: This is a comment statement
+	
+	/* multi-line comment
+	line 2
+	*/
+	```
+
+??? question "Can the main function take parameters or return values?"
+	Ans: No, main must have no parameters or return values.
+
+??? question "What are alternate ways to pass command line arguments and return code?"
+	Ans: If you want to handle command-line arguments, 
+	
+	- use the os.Args slice instead.
+	- To signal an exit status, use os.Exit(code).
+	
+	**(Note: They are not covered in this lesson)**
+
+??? question "What happens if you try to declare main with a capital letter like Main?"
+	Ans: It won’t be recognized as the entry point; program won’t run as expected.
+
+??? question "How do you run a Go program in console?"
+	Ans: Use ```go run filename.go``` 
+	
+	or build with ```go build <inputfile.go>`<outfile>```and run the generated executable by typing its name in the console
+??? question "What is wrong (if any) with the following code?"
+	Ans: Go  places the opening { on the same line as the function declaration; the correct code is following.
+	``` go
+	func main() {
+		fmt.Println("Hello World")
+	}
+	```
+``` go
+func main() 
+{
+    fmt.Println("Hello World")
+}
+```

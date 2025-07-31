@@ -3,6 +3,7 @@
 - importing packages
 - creating variables 
 - short declarations
+- constant declaration (immutable)
 - zero values
 
 ---
@@ -109,7 +110,7 @@ For example,
     - rune (alias for int32)
 ---
 
-## Short variable declaration
+##4. Short variable declaration
 
 - The short variable declaration syntax uses := to declare and initialize a variable in one concise statement.
 - It automatically infers the variable’s type from the value on the right-hand side.
@@ -124,7 +125,7 @@ func main() {
 }
 ```
 
-### Important points about short vaiable declation
+### Important points about **short variable declation**
 - Variable type is inferred automatically.
 - You cannot use := without initialization (no zero value-only declarations).
 - Very handy for quick and readable code inside functions.
@@ -150,9 +151,16 @@ name := "Bob" // ❌ ERROR: no new variables on left side of :=
 ```
 
 
+##5. Constant declaration (Immutables)
+The const keyword in Go is used to declare constant values — these are values that cannot change after they're defined.
+
+``` go
+const pi = 3.14 
+const pi float64 = 3.14159 // inferred as float64
+```
 
 
-##5. Zero values
+##6. Zero values
 In Go, "zero values" are the default values assigned to variables when they are declared but not explicitly initialized.
 
 |Type| Zero Value|
