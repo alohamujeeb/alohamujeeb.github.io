@@ -158,11 +158,14 @@ An if-else ladder (also called an if-else-if chain) is a series of multiple cond
 ### When to use if-else and when to use switch?
 **Use if-else for complex conditions or ranges; use switch when comparing one value against many fixed options for cleaner, easier-to-read code.**
 
+---
 ## 2. **select** statement
 
 **select** statements in GO are used for  concurrency to wait on multiple channel operations. It’s like a switch but for channels.
 **We will cover this topic in the chapter on concurrency**
 
+
+---
 ## 3. **Loops** in Go
 Loops are statements which are used to repeat a block of code multiple times until a condition is met. They help automate repetitive tasks.
 
@@ -274,7 +277,7 @@ func main() {
 
 
 
-
+---
 ## 4. Some fine points about loops
 ### break (exit the loop) statement  in a loop
 
@@ -492,6 +495,7 @@ Note:
 	Continuing middle loop
 	```
 
+---
 ## **range** statement in loops
 This topic will be covered in chapter of "Collections" later.
 
