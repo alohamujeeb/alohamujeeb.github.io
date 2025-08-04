@@ -56,15 +56,11 @@ A fourth type of statement, the **goto** statement, was widely used before struc
 	```
 	Note the following about the program (goto version):
 
-		- It uses two labels: compute_gcd and return_point.
-
-		- The code first jumps to compute_gcd, and after calculating the result, it jumps back to return_point using another goto.
-
-		- If this kind of jumping occurs hundreds of times in a program, it quickly becomes difficult to follow the flow.
-
-		- Moreover, using unclear or unintuitive label names can make the code even harder to understand.
-
-		- In contrast, consider the version of the code that uses functions exclusively — it’s much clearer and easier to maintain.
+	- It uses two labels: compute_gcd and return_point.
+	- The code first jumps to compute_gcd, and after calculating the result, it jumps back to return_point using another goto.
+	- If this kind of jumping occurs hundreds of times in a program, it quickly becomes difficult to follow the flow.
+	- Moreover, using unclear or unintuitive label names can make the code even harder to understand.
+	- In contrast, consider the version of the code that uses functions exclusively — it’s much clearer and easier to maintain.
 	
 
 === "Example WITHOUT goto"
@@ -114,13 +110,14 @@ int main() {
     printf("GCD is: %d\n", result);
     return 0;
 }
+```
 
 Note:
 
 **n the early days, programmers found it difficult to write code without using goto. However, today we understand that avoiding goto is not a problem at all.**
-```
 
-## goto is now always bad
+
+## goto is not always bad
 
 - there are certain situations where using goto (or an equivalent) can simplify the code.
 
@@ -268,4 +265,4 @@ Note:
 
 - These labeled breaks in Go are intended for more localized use within functions or loops, unlike traditional goto which could jump anywhere in the program.
 
-- So, while goto itself is rarely used today, its adapted form—label-based breaks—still finds practical use in specific situations.
+- So, while goto itself is rarely used today, its adapted form—label-based breaks—still finds practical use in specific situations. **Jumping ACROSS function boundaries was the primary (mis)use that led to goto being discouraged.**
