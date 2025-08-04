@@ -15,15 +15,15 @@ tags:
 ---
 
 # Is **goto** statement dead?
----
-<!-- more -->
 
+---
 ## Structured Programming
 Structured programming became mainstream in the 1970s and 1980s. It  is a programming paradigm that emphasizes writing clear, logical, and well-organized code using:
 
 1. Sequence – code runs in order
 2. Selection – decisions using if, else, switch
 3. Loops – repetition using for, while, etc.
+<!-- more -->
 
 ## goto statment
 A fourth type of statement, the **goto** statement, was widely used before structured programming. However, it is considered harmful because it makes code harder to understand and maintain.

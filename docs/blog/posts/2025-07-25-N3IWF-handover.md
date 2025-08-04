@@ -15,15 +15,19 @@ tags:
 ---
 
 # N3IWF- Seamless handover between 5G and Wifi 
-<!-- more -->
+
 ---
 
 ## Main idea of this writing
-If you're looking for an introduction to N3IWF, feel free to check out my earlier post:
+
+In this post, I’ll share some insights on some basic considerations in order to  be able to utilize N3IWF for seamless handover between 5G networks and Wifi.
+<!-- more -->
+
+If you're looking for a more basic introduction to N3IWF, feel free to check out my earlier post:
 
 **[N3IWF Basics](2025-07-25-N3IWF.md)**
 
-In this post, I’ll be sharing some insights and experiences on how N3IWF can be applied to support handover between 5G and gNB.
+
 
 ### Goal
 ![N3IWF Hanover](images/N3IWF-hanover.png "N3IWF Hanover")
