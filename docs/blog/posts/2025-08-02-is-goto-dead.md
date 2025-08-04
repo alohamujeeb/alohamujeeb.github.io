@@ -154,11 +154,14 @@ Note:
 	}
 	```
 
+	```
 	- In this example, to break out of the outer loop, a flag variable done is used. The outer loop checks this flag, and if it’s set to true, it breaks as well.
 
 	- However, this approach isn’t very intuitive.
 
 	- The same behavior can be achieved more simply using a goto statement.
+	```
+	
 
 
 === "break out of nested loops(WITH goto)"
@@ -181,15 +184,17 @@ Note:
 		printf("Exited nested loops\n");
 		return 0;
 	}
+	```
 
 	```
-	
- - in this example using goto, breaking out of the outer loop is much more intuitive and cleaner compared to the version without goto.
+	- in this example using goto, breaking out of the outer loop is  more intuitive and cleaner compared to the version without goto.
+	 
+	- therefore, the goto statement can be helpful in situations like this.
+	- The same behavior can be achieved more simply using a goto statement.
+	```
 
- - iherefore, the goto statement can be helpful in situations like this.
 
-
-## should we use goto
+## should we use goto?
 
 - A pedantic programmer might argue that goto should never be used.
 
@@ -207,7 +212,6 @@ Note:
 - to break out of nested loops we use the "labels" (and not explicitly goto). However, the logic is still the same (i.e. jumps to certain label, which is what traditional goto statment does).
 
 === "Example 1: break WITHOUT label"
-	This code 'breaks' from the current loop only (not from all)
 	``` go
 	for i := 1; i <= 2; i++ {
 		for j := 1; j <= 3; j++ {
@@ -218,12 +222,11 @@ Note:
 		}
 	}
 	```
-	
+	**This code 'breaks' from the current loop only (not from all)**
+
 
 
 === "Example 2:  break WITH labels"
-	This code 'breaks' from the ALL loops
-	
 	``` go
 	outer:
 	for i := 1; i <= 3; i++ {
@@ -236,6 +239,8 @@ Note:
 		}
 	}
 	```
+	**This code 'breaks' from the ALL loops**
+
 	
 === "Example 3:  break MIDDLE loop (WITH labels)"
 	
@@ -253,6 +258,9 @@ Note:
 		}
 	}
 	```
+	**This code 'breaks' from two loops out of three loops (hence more refined control)
+	
+**It can much more complicated to break out of selected loop by using flag variables at different levels. A cleaner logic would be to use labels (i.e. hidden goto statements)**
 
 ## Summary
 - goto is a discouraged programming construct and has become nearly obsolete in most cases since the rise of structured programming in the late 1970s.
