@@ -119,7 +119,7 @@ An if-else ladder (also called an if-else-if chain) is a series of multiple cond
     }
 	```
 
-### ==switch statement
+### **switch** statement
 - A switch statement in Go is like an if-else ladder—both let you choose between multiple options based on conditions.
 
 - But a switch is usually clearer and easier to read when you’re comparing one value against many possible cases.
