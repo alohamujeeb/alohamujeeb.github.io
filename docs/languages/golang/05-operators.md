@@ -6,7 +6,7 @@
 - Typecasting 
 ---
 
-## Arithmetic Operators
+## 1. Arithmetic Operators
 Arithmetic operations in Go (Golang) are the basic mathematical operations you can perform on numbers. These include addition, subtraction, multiplication, division, and modulus (like most languages). 
 
 === "Some examples"
@@ -60,7 +60,7 @@ Arithmetic operations in Go (Golang) are the basic mathematical operations you c
 		fmt.Println("Float Division:", x/y)  // 3.75
 	}
 	```
-## Comparision Operators
+## 2. Comparision Operators
 Comparison operators in Go are used to compare two values and return a Boolean result (true or false). These operators are commonly used in conditions such as if statements or loops.
 
 === "Some examples"
@@ -112,7 +112,7 @@ Comparison operators in Go are used to compare two values and return a Boolean r
 	}
 	```
 
-## Logical operators
+## 3. Logical operators
 
 Logical operators in Go let you combine or invert Boolean expressions (true or false). 
 
@@ -141,7 +141,7 @@ func main() {
 ```
 
 
-## Bitwise operators
+## 4. Bitwise operators
 
 - Bitwise operators in Go allow you to perform operations directly on the binary representation of integers. 
 - These are very useful in systems programming, hardware control, flags, and performance-critical code.
@@ -180,7 +180,7 @@ func main() {
 }
 
 ```
-## Typecasting (type conversion)
+## 5. Typecasting (type conversion)
 Typecasting (more properly called type conversion in Go) is the process of converting a value of one data type into another. This is useful when you want to assign a value from one type to a variable of a different type or perform operations that require matching types.
 
 ### Implicit typecasting
