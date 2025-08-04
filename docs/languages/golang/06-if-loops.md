@@ -492,8 +492,8 @@ Note:
 	Continuing middle loop
 	```
 
-## range statement in loops
-This topic will be covered in chapter of "Collectoins" ater.
+## **range** statement in loops
+This topic will be covered in chapter of "Collections" later.
 
 
 
