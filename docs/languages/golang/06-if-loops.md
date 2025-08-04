@@ -393,6 +393,7 @@ for i := 1; i <= 5; i++ {
 		fmt.Println("Done.")
 	}
 	```
+	
 	Output is:
 	```
 	Outer loop x = 1
@@ -440,6 +441,7 @@ Note:
 	```
 
 === "Example 2:  Skip ALL loops"
+	``` go
 	outer:
 	for i := 1; i <= 3; i++ {
 		for j := 1; j <= 3; j++ {
