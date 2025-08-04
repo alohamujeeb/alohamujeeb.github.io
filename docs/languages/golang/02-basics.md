@@ -129,7 +129,6 @@ func main() {
 - Variable type is inferred automatically.
 - You cannot use := without initialization (no zero value-only declarations).
 - Very handy for quick and readable code inside functions.
-- **You cannot do this at the package level (outside functions)**
 - **You cannot declare a variable without initialization**
 
 We can change the value of the variable, but then we have to use "=" instead of ":="
@@ -150,8 +149,25 @@ name := "Alice"
 name := "Bob" // ❌ ERROR: no new variables on left side of :=
 ```
 
+### 'short declaration' outside functions not allowed
 
-##5. Constant declaration (Immutables)
+- **You cannot do this at the package level (outside functions)**
+- At the package level (outside any function), Go requires explicit var declarations at the top level.
+(This point will be discussed in more details in the section of Packages later.)
+
+
+### 'short declaration' summary:
+
+|context|allowed|
+|---|---|
+|inside functions| YES|
+|outside function (e.g. package level)| NO|
+|value update|NO|
+
+
+
+
+##5. Constants in Go (Immutables)
 The const keyword in Go is used to declare constant values — these are values that cannot change after they're defined.
 
 ``` go
