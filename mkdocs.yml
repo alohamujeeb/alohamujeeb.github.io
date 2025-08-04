@@ -108,9 +108,7 @@ nav:
         #- imports and packages
         #- Collections 
         
-        
-      
-  - Writings:
+  - Blogs:
     - blog/index.md
   - Keywords: tags.md
  

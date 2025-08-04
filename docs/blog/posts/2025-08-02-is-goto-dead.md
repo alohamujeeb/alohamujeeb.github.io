@@ -28,7 +28,9 @@ Structured programming became mainstream in the 1970s and 1980s. It  is a progra
 ## goto statment
 A fourth type of statement, the **goto** statement, was widely used before structured programming. However, it is considered harmful because it makes code harder to understand and maintain.
 
-=== "Example with goto"
+Consider the following two examples—one using a goto statement and one without—to illustrate how goto can impact code readability.
+
+=== "code WITH goto"
 	``` c
 	#include <stdio.h>
 
@@ -63,7 +65,7 @@ A fourth type of statement, the **goto** statement, was widely used before struc
 	- In contrast, consider the version of the code that uses functions exclusively — it’s much clearer and easier to maintain.
 	
 
-=== "Example WITHOUT goto"
+=== "code WITHOUT goto"
 	``` c
 	#include <stdio.h>
 
@@ -103,10 +105,12 @@ This is why structured programming emphasizes using only three types of statemen
 2. Conditional (if, if-else, switch, etc.)
 3. Loops (for, while, etc.)
 
+The following code snippet (taken from the example above) demonstrates how creating a function instead of using a goto statement leads to a purely sequential code flow, thereby improving code clarity.
+
 ``` c
+    // the code now becomes a sequntial code of three statemetns only
 int main() {
-	/* sequential code */
-	int result = gcd(48, 18);
+	int result = gcd(48, 18);  	
     printf("GCD is: %d\n", result);
     return 0;
 }
@@ -262,6 +266,10 @@ Note:
 	
 **It can much more complicated to break out of selected loop by using flag variables at different levels. A cleaner logic would be to use labels (i.e. hidden goto statements)**
 
+## Inter-Function vs. Intra-Function use of goto
+```goto``` was originally discouraged at the **cross-function** level because jumping between functions breaks modularity and disrupts structured control flow, making the code harder to understand and maintain. However, when used within a single function—especially in small functions—it generally doesn't harm readability and can even simplify error handling or cleanup in some cases
+
+
 ## Summary
 - goto is a discouraged programming construct and has become nearly obsolete in most cases since the rise of structured programming in the late 1970s.
 
@@ -273,4 +281,6 @@ Note:
 
 - These labeled breaks in Go are intended for more localized use within functions or loops, unlike traditional goto which could jump anywhere in the program.
 
-- So, while goto itself is rarely used today, its adapted form—label-based breaks—still finds practical use in specific situations. **Jumping ACROSS function boundaries was the primary (mis)use that led to goto being discouraged.**
+- So, while goto itself is rarely used today, its adapted form—label-based breaks—still finds practical use in specific situations. 
+
+**Jumping ACROSS function boundaries was the primary (mis)use that led to goto being discouraged.**
