@@ -200,11 +200,16 @@ Loops are statements which are used to repeat a block of code multiple times unt
 	//to perform a loop until a certain condition is met
 	//number of iterations may not be known in advance
 	//ADDITIONALLY, code must be executed ATLEAST ONCE
+
 	i := 0
-	for i < 5 {
-		fmt.Println(i)
+	for {
+		fmt.Println("i =", i)
 		i++
+		if i >= 5 {
+			break
+		}
 	}
+
 	```
 
 ### when to use which style
