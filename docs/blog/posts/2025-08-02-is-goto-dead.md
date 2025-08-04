@@ -85,11 +85,11 @@ A fourth type of statement, the **goto** statement, was widely used before struc
 	
 	Note the following about the program (without goto):
 
-		- the main() function uses only one statement to perform the task—calling gcd() and then continuing after it returns.
+	- the main() function uses only one statement to perform the task—calling gcd() and then continuing after it returns.
 
-		- instead of using goto jumps, we simply call the function by its name. Although the underlying mechanism involves jumps at the machine level, from the programmer’s perspective it’s just a straightforward statement without explicit jumps or goto.
+	- instead of using goto jumps, we simply call the function by its name. Although the underlying mechanism involves jumps at the machine level, from the programmer’s perspective it’s just a straightforward statement without explicit jumps or goto.
 
-		- this approach greatly improves the readability and clarity of the code.		
+	- this approach greatly improves the readability and clarity of the code.		
 		
 
 ## goto statments replaced by functions
@@ -114,7 +114,7 @@ int main() {
 
 Note:
 
-**n the early days, programmers found it difficult to write code without using goto. However, today we understand that avoiding goto is not a problem at all.**
+**In the early days, programmers found it difficult to write code without using goto. However, today we understand that avoiding goto is not a problem at all.**
 
 
 ## goto is not always bad
@@ -123,9 +123,9 @@ Note:
 
 - one such example is breaking out of nested loops.
 
-- while a break statement exits only the innermost loop, it can be tricky to exit multiple levels of nested loops when needed.
+- while a break statement exits only the innermost loop, it can be tricky to exit multiple levels of nested loops.
 
-- using a goto statement with a labeled target allows you to jump out of one or more loops easily, providing a clean way to handle such cases.
+- using a goto statement with a labeled target allows you to jump out of one or more loops easily, **providing a clean way to handle such cases** (which was ironically the orignal purpose of AVOIDING goto).
 
 
 === "break out of nested loops(without goto)"
