@@ -66,6 +66,7 @@ plugins:
         - ROS2
         - Linux
         - Documentation
+        - Programming
   - search
   - meta
   - exclude-search:
