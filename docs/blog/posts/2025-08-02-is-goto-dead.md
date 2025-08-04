@@ -17,7 +17,6 @@ tags:
 # Is **goto** statement dead?
 
 ---
-## Structured Programming
 Structured programming became mainstream in the 1970s and 1980s. It  is a programming paradigm that emphasizes writing clear, logical, and well-organized code using:
 
 1. Sequence – code runs in order
