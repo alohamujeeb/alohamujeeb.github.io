@@ -16,6 +16,7 @@ tags:
 
 # Is **goto** statement dead?
 ---
+<!-- more -->
 
 ## Structured Programming
 Structured programming became mainstream in the 1970s and 1980s. It  is a programming paradigm that emphasizes writing clear, logical, and well-organized code using:
@@ -23,7 +24,6 @@ Structured programming became mainstream in the 1970s and 1980s. It  is a progra
 1. Sequence – code runs in order
 2. Selection – decisions using if, else, switch
 3. Loops – repetition using for, while, etc.
-<!-- more -->
 
 ## goto statment
 A fourth type of statement, the **goto** statement, was widely used before structured programming. However, it is considered harmful because it makes code harder to understand and maintain.
@@ -267,7 +267,7 @@ Note:
 **It can much more complicated to break out of selected loop by using flag variables at different levels. A cleaner logic would be to use labels (i.e. hidden goto statements)**
 
 ## Inter-Function vs. Intra-Function use of goto
-```goto``` was originally discouraged at the **cross-function** level because jumping between functions breaks modularity and disrupts structured control flow, making the code harder to understand and maintain. However, when used within a single function—especially in small functions—it generally doesn't harm readability and can even simplify error handling or cleanup in some cases
+```goto``` was originally discouraged at the **cross-function** level because jumping between functions breaks modularity and disrupts structured control flow, making the code harder to understand and maintain. However, when used within a single function—especially in small functions—it generally doesn't harm readability and can even simplify error handling or cleanup in some cases.
 
 
 ## Summary
@@ -279,7 +279,7 @@ Note:
 
 - A relatively new and popular language, Go (Golang), does not have traditional goto statements but supports labeled breaks, which serve a similar purpose for exiting loops.
 
-- These labeled breaks in Go are intended for more localized use within functions or loops, unlike traditional goto which could jump anywhere in the program.
+- These "labelled breaks" in Go are intended for more localized use within functions or loops, unlike traditional goto which could jump anywhere in the program.
 
 - So, while goto itself is rarely used today, its adapted form—label-based breaks—still finds practical use in specific situations. 
 
