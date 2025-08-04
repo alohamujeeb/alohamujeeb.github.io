@@ -194,7 +194,7 @@ Note:
 	```
 
 
-## should we use goto?
+## Should we use goto?
 
 - A pedantic programmer might argue that goto should never be used.
 
@@ -205,7 +205,7 @@ Note:
 - Therefore, there’s no strong reason to oppose its use outright.
 
 
-## goto in Go (Golang) programming language
+## goto in Go (Golang) language 
 
 - goto has actually made a come back in the case nested loop breaks in Go language.
 
