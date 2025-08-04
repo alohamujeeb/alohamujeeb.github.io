@@ -7,7 +7,7 @@ This section contains information about following topics:
 - variables of different size (8-bit, 16-bit, so on)
 ---
 
-## Boolean variables
+## 1. Boolean variables
 
 - The **bool** type is one of the built-in types, and they represents boolean values — either true or false.
 
@@ -71,7 +71,7 @@ This section contains information about following topics:
 |State/flags	|```vvar isConnected bool = false```|
 
 
-## integer variables
+## 1. integer variables
 In Go, **int** is a built-in numeric type used to store whole numbers (integers). It supports both positive and negative values.
 
 - It is a signed integer type (unless explicitly defined as **unsigned**.
@@ -190,7 +190,7 @@ In Go, **int** is a built-in numeric type used to store whole numbers (integers)
 			fmt.Println("uint64:", e)
 		}
 		```
-## floating point variables
+## 3. floating point variables
 
 - Floating-point numbers are used to represent real numbers (i.e., numbers with decimal points), including both fractions and very large/small values.
 - In Go, floating-point numbers are represented using the built-in types:

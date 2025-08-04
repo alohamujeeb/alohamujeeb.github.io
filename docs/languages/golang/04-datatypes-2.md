@@ -2,7 +2,7 @@
 
 ---
 
-## Two types of strings
+## 1. Two types of strings
 In Go, strings can be defined in two distinct ways, each offering unique benefits depending on the use-case:
 
 **Regular Strings** – defined using double quotes ("...")
@@ -17,7 +17,7 @@ In Go, strings can be defined in two distinct ways, each offering unique benefit
 
 ---
 
-## Regular Strings
+## 2. Regular Strings
 - Regular strings are defined within double quotes, like C/C++, Java, and other languages.
 - They can contain escape characters such as \t, \n...
 
@@ -32,7 +32,7 @@ In Go, strings can be defined in two distinct ways, each offering unique benefit
 |\b	|Backspace-Deletes previous char |(in some terminals)|
 
 
-## Raw strings
+## 3. Raw strings
 They are especially helpful for writing strings that should appear visually as they are typed.
 
 - Raw strings are enclosed in a pair of backtick characters ( \`...\` ).
@@ -173,7 +173,7 @@ Raw strings are especially useful in modern web-based and systems programming. G
 		```
 ---
 
-## UTF-8 Format Coding
+## 4. UTF-8 Format Coding
 - Strings in Go (both regular strings and raw strings) use UTF-8 encoding by default.
 - UTF-8 is the most widely used character encoding for representing text from various languages, symbols, and special characters.
 - It is a variable-length encoding, using 1 to 4 bytes per character, depending on the character's Unicode code point.
