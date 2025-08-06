@@ -82,20 +82,18 @@ nav:
     - Whats New: whatsnew.md
     
   - Linux-ROS:
-    - tutorials/index.md
-    - Linux: 
+    - Linux:
       - CLI Quick Reference: tutorials/linux/linux-cli.md
     - ROS2: tutorials/ros2/ros2.md
     - OpenRMF: tutorials/openrmf/openrmf.md
   
   #- SDN, 
-  #- CICD/Devops, 
+   #- CICD/Devops, 
   #- Infrastructure automation and orchestration
     
    
   - Programming: 
     - Languages: 
-      - languages/index.md  
       - Golang 101: 
         - Go Programming: languages/golang/index.md
         - 01-Getting Started: languages/golang/01-gettingstarted.md
