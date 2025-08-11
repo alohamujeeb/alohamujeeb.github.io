@@ -82,9 +82,9 @@ nav:
     - Whats New: whatsnew.md
     
   - Linux-ROS:
-    - Linux:
+    - Linux 101:
       - CLI Quick Reference: tutorials/linux/linux-cli.md
-    - Docker:
+    - Docker 101:
       - Docker-Getting Started: tutorials/docker/getting-started.md
     - ROS2: tutorials/ros2/ros2.md
     - OpenRMF: tutorials/openrmf/openrmf.md
