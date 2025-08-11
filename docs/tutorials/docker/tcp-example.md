@@ -26,7 +26,7 @@ In this example, we are creating TWO docker apps.
 
 ---
 ## 2. Directory structure
-Create the following directory structure. Refer to the previous tutorial [Getting Started](getting-started.md) if you need a refresher.
+Create the following directory structure. Refer to the previous tutorial [Hello Docker](docker-hello.md) if you need a refresher.
 
 ```
 # we do not need any extra modules other than the standard ones
