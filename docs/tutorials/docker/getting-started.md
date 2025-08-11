@@ -21,7 +21,7 @@ Assume that in the current state, the system is properly working.
 Now you wnat to run an application about **robotic vision** which required different set of tools as follows:
 
 - Ubuntu Linux 22.04
-- Python 3.8
+- Python 3.12
 - OpenCV version 4.2 (4.4 is not compatible with our robotic application)
 
 ![Current vs Required Tools](images/docker_1.png)
@@ -78,10 +78,9 @@ curl -fsSL https://download.docker.com/linux/debian/gpg | \
 
 - Find debian codename by ``` lsb_release -c ```
 (code name can be "bookwork" or "buster", or "bullseye" etc.) 
-- Then replace "lsb_release -cs" with "code name 
+- $(lsb_release -cs) is replaced with your Debian codename (e.g., bullseye, bookworm):
 
 === "General Command"
-	Replace $(lsb_release -cs) with your Debian codename (e.g., bullseye, bookworm):
 	``` bash
 	echo \
 	  "deb [arch=$(dpkg --print-architecture) \
