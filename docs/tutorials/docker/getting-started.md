@@ -183,7 +183,7 @@ Following is some brief desritpoin:
  Defines the default command that will run when the container starts.
  
 
-## Builed and run
+## Build and run
 
 - **Change directory**
 Make sure that you are in the folder "hello_python_docker"
@@ -214,7 +214,7 @@ Output:
 Hello world- from a docker app
 ```
 
-## Prepare the docker for export (into a file)
+## Copy and run onto another machine
 Once docker image is ready, you can export it to a file, so that it can be trasferred to any machine where it can be executed.
 
 ``` bash
