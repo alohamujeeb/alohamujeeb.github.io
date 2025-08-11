@@ -9,14 +9,14 @@ tags:
 ## What is a docker
 Docker is a tool (primarily a linux-based) that lets you package your application and everything it needs to run into a single container, so it works the same on any computer.
 
-Consider a scenario:
+**Consider a scenario:**
+
 There is a linux machine with following configuration.
 
 - Ubuntu Linux 22.04
 - Python 3.10
 - OpenCV version 4.4
 
-Assume that in the current state, the system is properly working. 
 
 Now you wnat to run an application about **robotic vision** which required different set of tools as follows:
 
@@ -46,7 +46,7 @@ This idea can be extended to include many dockers containers in a single machine
 
 ---
 
-##  Docker installation.
+##  Docker installation
 Docker is an application that enables the creation of isolated environments called containers. If Docker is not installed on your system, follow these steps to install it:
 
 You can check if docker is installed or not:
@@ -142,7 +142,12 @@ touch requirements.txt 		# (optional) dependencies such as required python modul
 
 ```hello_world.py```
 ``` python
-print("Hello world- from a docker app")
+import time
+
+for i in range(1, 101):
+    print(f"hello world - from a docker app-{i}")
+    time.sleep(1)  # wait for 1 second
+	
 ```
 
 ```Dockerfile```
@@ -205,9 +210,9 @@ REPOSITORY        TAG       IMAGE ID       CREATED         SIZE
 my_first_docker   latest    d4f0787c8afb   2 minutes ago   141MB
 ```
 
-- **Run the docker**
+- **Run the docker** (the flag -it is important here... more on this later)
 ``` bash 
-sudo docker run my_first_docker
+sudo docker run -it my_first_docker
 ```
 Output:
 ```
@@ -236,9 +241,25 @@ sudo docker images
 
 - Run the docker application.
 ``` bash
-sudo docker run my_first_docker
+sudo docker run -it my_first_docker
 ```
 
+## Run multipkle instances of Docker
+As mentioned earlier, that a docker is an indepdent container. 
+
+Once created, a docker can run many instances. Following instructions show how to run a docker multiple (twice) in the same machine.
+
+``` Open Terminal 1```
+``` bash
+sudo docker -it run my_first_docker
+```
+
+``` Open Terminal 2```
+``` bash
+sudo docker -it run my_first_docker
+```
+
+Both will be running the same program and each will be displaying their own message count.
 
 
 
