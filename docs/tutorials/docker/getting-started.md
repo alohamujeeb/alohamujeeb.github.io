@@ -9,7 +9,7 @@ tags:
 ## What is a docker
 Docker is a tool (primarily a linux-based) that lets you package your application and everything it needs to run into a single container, so it works the same on any computer.
 
-**Consider a scenario:**
+**Consider a scenario**:
 
 There is a linux machine with following configuration.
 
