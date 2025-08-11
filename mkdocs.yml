@@ -84,6 +84,8 @@ nav:
   - Linux-ROS:
     - Linux:
       - CLI Quick Reference: tutorials/linux/linux-cli.md
+    - Docker:
+      - Docker-Getting Started: tutorials/docker/getting-started.md
     - ROS2: tutorials/ros2/ros2.md
     - OpenRMF: tutorials/openrmf/openrmf.md
   

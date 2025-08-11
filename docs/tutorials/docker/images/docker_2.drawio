@@ -1,0 +1,25 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:141.0) Gecko/20100101 Firefox/141.0" version="28.0.9">
+  <diagram name="Page-1" id="YBTY_OeXQgU4S6Rn-1DB">
+    <mxGraphModel dx="780" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nJ8g0BqgX0FxuazxTo6G-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="460" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="nJ8g0BqgX0FxuazxTo6G-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Ubuntu 22.04&amp;nbsp;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="85" y="60" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nJ8g0BqgX0FxuazxTo6G-3" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 16px; color: rgb(51, 51, 255);&quot;&gt;&amp;nbsp;Currently Installed Tools&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;- Python 3.10&lt;/p&gt;&lt;p&gt;- OpenCV 4.4&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="110" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="nJ8g0BqgX0FxuazxTo6G-4" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="110" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="nJ8g0BqgX0FxuazxTo6G-5" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 16px; color: light-dark(rgb(255, 0, 0), rgb(237, 237, 237));&quot;&gt;New Application&amp;nbsp;&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;- Python 3.12&lt;/p&gt;&lt;p&gt;- OpenCV 4.2&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="110" width="160" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
