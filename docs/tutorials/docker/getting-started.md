@@ -244,7 +244,7 @@ sudo docker images
 sudo docker run -it my_first_docker
 ```
 
-## Run multipkle instances of Docker
+## Run multiple instances of a docker app
 As mentioned earlier, that a docker is an indepdent container. 
 
 Once created, a docker can run many instances. Following instructions show how to run a docker multiple (twice) in the same machine.
