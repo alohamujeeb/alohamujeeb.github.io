@@ -86,6 +86,7 @@ nav:
       - CLI Quick Reference: tutorials/linux/linux-cli.md
     - Docker 101:
       - Docker-Getting Started: tutorials/docker/getting-started.md
+      - A More Complex Example: tutorials/docker/tcp-example.md
     - ROS2: tutorials/ros2/ros2.md
     - OpenRMF: tutorials/openrmf/openrmf.md
   

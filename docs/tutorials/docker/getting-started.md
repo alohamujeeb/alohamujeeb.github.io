@@ -122,9 +122,17 @@ Docker version 28.3.3, build 980b856
 In this section, we build a simple Docker application that displays a message on the screen. While it's not a very useful app, it serves to demonstrate the basic concept clearly.
 
 
-
-
 ### Create a folder with following files in it
+
+We create a folder structure like this
+```
+hello-python-docker/
+├── Dockerfile
+├── hello_world.py
+└── requirements.txt
+
+```
+
 
 ``` bash
 mkdir hello_python_docker	#create a folder
@@ -216,7 +224,10 @@ sudo docker run -it my_first_docker
 ```
 Output:
 ```
-Hello world- from a docker app
+hello world - from a docker app-1
+hello world - from a docker app-2
+hello world - from a docker app-3
+......
 ```
 
 ## Copy and run onto another machine
