@@ -28,11 +28,9 @@ You’ll find info here on things like:
 
     Embedded systems
 
-    Robotics (ROS2, OpenRMF, and more) 
+    Robotics (ROS2, OpenRMF, ...) 
 
     Image and video processing
-
-    Documentation tools
 
     
 ## Looking for something specific?
