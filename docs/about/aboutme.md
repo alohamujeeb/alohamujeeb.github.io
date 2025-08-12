@@ -1,6 +1,6 @@
 # My Brief Introduction
 ---
-## Introduction
+## Technical
 
 I'm a software developer based in Singapore with experience in:
 

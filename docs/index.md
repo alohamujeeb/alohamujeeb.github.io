@@ -32,7 +32,8 @@ You’ll find info here on things like:
 
     Image and video processing
 
-    
+For more details about me: [about me](about/aboutme.md)
+
 ## Looking for something specific?
 You can use the search bar to look up keywords like ROS2, 5G, OpenRMF, and others. 
 
