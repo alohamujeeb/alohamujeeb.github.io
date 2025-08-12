@@ -91,10 +91,10 @@ nav:
       - A Multi-Client Example: tutorials/docker/tcp-example.md
       - Docker Quick Reference: tutorials/docker/docker-network-commands.md
       
-  
-  #- SDN, Networking, orchestration
+  #- NetWorks
   #- Robotics
-  #- CICD/Devops, infrastructure automation
+  #- SoftOps
+  #- WebCraft
     
    
   - Programming: 
