@@ -23,12 +23,14 @@ A **Docker network** is a virtual communication layer that enables containers to
 ## 2. Protocols supported
 
 All Docker networks support:
-    TCP
-    UDP
-    ICMP (ping)
-    And any other IP-based protocol your app uses.
+```
+TCP
+UDP
+ICMP (ping)
+And any other IP-based protocol your app uses.
+```
 
-It’s your application inside the container (e.g. a Python script or C program) that chooses whether to use TCP or UDP — not the Docker network.
+It’s you application inside the container (e.g. a Python script or C program) that chooses whether to use TCP or UDP 
 
 ---
 ## 3. An example application
