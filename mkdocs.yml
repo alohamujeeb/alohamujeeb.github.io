@@ -88,7 +88,7 @@ nav:
       - Docker-Getting Started: tutorials/docker/docker-installation.md
       - Hello-Docker: tutorials/docker/docker-hello.md
       - A Network Example: tutorials/docker/docker-network-example.md
-      - A Multi-client Example: tutorials/docker/tcp-example.md
+      - A Multi-Client Example: tutorials/docker/tcp-example.md
   
   #- SDN, Networking, orchestration
   #- Robotics
