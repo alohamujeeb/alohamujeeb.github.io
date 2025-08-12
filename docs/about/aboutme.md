@@ -1,7 +1,6 @@
-# My Brief Introduction
+# About me
 ---
 ## Technical
-
 I'm a software developer based in Singapore with experience in:
 
 	Software development 
@@ -42,7 +41,7 @@ I'm a software developer based in Singapore with experience in:
 Feel free to explore my work throughout the site.
 
 ---
-## My Other Pages
+## Other pages
 [LinkedIn](https://www.linkedin.com/in/alohamujeeb/){:target="_blank"}
 
 
