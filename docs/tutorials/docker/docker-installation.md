@@ -5,9 +5,10 @@ tags:
 ---
 # Getting Started with Docker
 
+Docker is a tool (primarily a linux-based) that lets you package your application and everything it needs to run into a single container, so it works the same on any computer.
+
 ---
 ## 1. What is a docker
-Docker is a tool (primarily a linux-based) that lets you package your application and everything it needs to run into a single container, so it works the same on any computer.
 
 **Consider a scenario**:
 
@@ -90,7 +91,7 @@ curl -fsSL https://download.docker.com/linux/debian/gpg | \
 	  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 	```
 
-=== "Debian (Bookwork) Command"
+=== "Debian (Bookworm) Command"
 	
 	``` bash
 	echo \
@@ -110,9 +111,24 @@ sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin dock
 ### Step 4: Verify installation
 ``` bash
 docker --version
-
 ```
+
 You should see an output like:
 ```
 Docker version 28.3.3, build 980b856
 ```
+
+### Step 5: Summary 
+
+- Docker is a tool that allows multiple applications to run in isolation from each other on the same machine.
+
+- Each application is packaged along with its code and the tools needed to run it, ensuring consistency.
+
+- If one Docker container fails, it does not affect other running containers.
+
+- Applications can be easily moved across machines since everything needed to run them is bundled together, eliminating the need for separate installations and configurations.
+
+
+
+
+

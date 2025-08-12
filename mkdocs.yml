@@ -85,15 +85,13 @@ nav:
     - Linux 101:
       - CLI Quick Reference: tutorials/linux/linux-cli.md
     - Docker 101:
-      - Docker-Installation: tutorials/docker/docker-installation.md
+      - Docker-Getting Started: tutorials/docker/docker-installation.md
       - Hello-Docker: tutorials/docker/docker-hello.md
       - A More Complex Example: tutorials/docker/tcp-example.md
-    - ROS2: tutorials/ros2/ros2.md
-    - OpenRMF: tutorials/openrmf/openrmf.md
   
-  #- SDN, 
-   #- CICD/Devops, 
-  #- Infrastructure automation and orchestration
+  #- SDN, Networking, orchestration
+  #- Robotics
+  #- CICD/Devops, infrastructure automation
     
    
   - Programming: 
