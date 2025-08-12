@@ -12,7 +12,7 @@ I'm a software developer based in Singapore with experience in:
 		Backend development with Python and Go
 		Web abd database connectivity
 		REST APIs, Microservices
-		Networking protocols (WebSockets, MQTT, )
+		Networking protocols (WebSockets, MQTT, Client/Server )
         Multimedia streaming, ffmpeg, WebRTC, RTSP 
 		
 	Linux programming
