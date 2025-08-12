@@ -108,7 +108,7 @@ sudo apt update
 sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y
 ```
 
-### Step 4: Verify installation
+### Step 5: Verify installation
 ``` bash
 docker --version
 ```
@@ -118,7 +118,7 @@ You should see an output like:
 Docker version 28.3.3, build 980b856
 ```
 
-## Summary 
+## 5. Summary 
 
 - Docker is a tool that allows multiple applications to run in isolation from each other on the same machine.
 
