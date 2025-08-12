@@ -151,7 +151,7 @@ CMD ["python", "client.py"]
 ```
 
 ---
-## 5. Build client and server dockers
+## 5. Build client and server images
 
 ### Build server image
 1. Open a terminal and navigate to the **server** folder.
