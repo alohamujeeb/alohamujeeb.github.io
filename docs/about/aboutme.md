@@ -5,31 +5,33 @@
 I'm a software developer based in Singapore with experience in:
 
 	Software development 
-		Programming (C/C++, Python, Go)
-		Concurrency, multithreading, asynchronous IO
+		Programming (C/C++, Java, Python, Go)
+		Concurrency, multithreading, asynchronousIO
 		Github, Git actions, CI/CD, containers...
 
 	Web Development
-		Python and Go for backend programming
-		Web abd database Connectivity
-		Micro services
-		Networking protocls (WebSockets, WebRTC)
+		Backend development with Python and Go
+		Web abd database connectivity
+		REST APIs, Microservices
+		Networking protocols (WebSockets, MQTT, )
+        Multimedia streaming, ffmpeg, WebRTC, RTSP 
 		
 	Linux programming
-		Embedded linux
+		Embedded Linux
 		System programming
 		Bash scripting and automation
 
 	Embedded systems design and development
-		Realtime OS and Multitasking
+		Realtime OS and multitasking
 		Cortex M
 		AVR microcontrollers
 		Trimedia processors 
 		
 	Robotics
 		ROS2
-		OpenRMF
-		Connectivity, sensors, fleet managment
+		OpenRMF and fleet management
+		5G connectivity
+        Turtlebot, Yahboom, AMRs
 
 	Image and video processing
 		Biometrics/Fingerprint algorithms
