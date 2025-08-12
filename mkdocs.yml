@@ -81,7 +81,7 @@ nav:
     - About Me: about/aboutme.md
     - Whats New: whatsnew.md
     
-  - Linux-ROS:
+  - Linux:
     - Linux 101:
       - CLI Quick Reference: tutorials/linux/linux-cli.md
     - Docker 101:
