@@ -118,7 +118,7 @@ You should see an output like:
 Docker version 28.3.3, build 980b856
 ```
 
-### Step 5: Summary 
+## Summary 
 
 - Docker is a tool that allows multiple applications to run in isolation from each other on the same machine.
 
