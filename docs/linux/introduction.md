@@ -10,7 +10,7 @@ In this section, you'll find about:
 - Essential command-line tools (awk, wget, curl, grep, etc.)
 - Shell scripting and task automation
 - Networking in Linux and troubleshooting techniques
-- Network Programming Patterns
+- Network protocols and programming
 ...
 
   
