@@ -24,7 +24,7 @@ jobs:
           
       - name: Install linux packages
         run: |
-          apt-get install libcairo2-dev libfreetype6-dev libffi-dev libjpeg-dev libpng-dev libz-dev -y
+          apt-get install pngquant libcairo2-dev libfreetype6-dev libffi-dev libjpeg-dev libpng-dev libz-dev -y
 
       - name: Build MkDocs site
         run: |
