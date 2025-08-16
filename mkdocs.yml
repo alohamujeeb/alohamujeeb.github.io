@@ -48,8 +48,12 @@ theme:
     
         
   features:
+    - navigation.tracking
+    - navigation.tabs
+    #- navigation.tabs.sticky
     - navigation.path
     - navigation.instant
+    - navigation.instant.progress
     - navigation.tabs # to display menu in the top bar
     - navigation.tabs.sticky 
     - navigation.footer #next and previous buttons
@@ -60,6 +64,11 @@ theme:
     - content.code.select
     - content.code.annotate
     - header.autohide
+    - navigation.prune 
+    - navigation.indexes 
+    - toc.follow
+    #- toc.integrate  #do it at runtime later
+    - navigation.top
 
 
 plugins: 
