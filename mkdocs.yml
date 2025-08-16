@@ -22,7 +22,8 @@ theme:
 
   font:
     #code: Roboto Mono
-    text: Inconsolata
+    #text: Inconsolata
+    text: Anonymous Pro  
     code: Source Code Pro 
     
   palette:
