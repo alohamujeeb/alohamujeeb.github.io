@@ -48,9 +48,12 @@ theme:
     - navigation.tabs.sticky 
     - navigation.footer #next and previous buttons
     - navigation.indexes
+    - navigation.sections
+    #- navigation.expand
     - content.code.copy
     - content.code.select
     - content.code.annotate
+    - header.autohide
 
 
 plugins: 
@@ -72,47 +75,56 @@ plugins:
   - exclude-search:
       exclude:
         - documentation/*
-        
+  
         
 # Page tree
 nav:
   - Home:
     - My Online Library: index.md
     - About Me: about/aboutme.md
-    - Whats New: whatsnew.md
-    
-  - Linux:
-    - Linux 101:
-      - CLI Quick Reference: tutorials/linux/linux-cli.md
-    - Docker 101:
-      - Docker-Getting Started: tutorials/docker/docker-installation.md
-      - Hello-Docker: tutorials/docker/docker-hello.md
-      - A Network Example: tutorials/docker/docker-network-example.md
-      - A Multi-Client Example: tutorials/docker/tcp-example.md
-      - Docker Quick Reference: tutorials/docker/docker-network-commands.md
+    - Search:
+      - Keywords: tags.md
+    - Updates: 
+      - Whats New: whatsnew.md
       
-  #- NetWorks
+  - Linux and Networking:
+    - Introduction: linux/introduction.md
+    - Linux 101:
+      - CLI Quick Reference: linux/linux-cli.md
+    - Linux Scripting:
+      - Bash Shell: linux/bash-under-construction.md
+    - Linux Networking: 
+      - Networking Basics: linux/networking-under-construction.md
   #- RoboEmbed
-  #- SoftOps
-  #- WebCraft
-  
-    
-   
+  #- WebCraft  
   - Programming: 
+    - Introduction: programing/introduction.md
     - Languages: 
-      - Golang 101: 
-        - Go Programming: languages/golang/index.md
-        - 01-Getting Started: languages/golang/01-gettingstarted.md
-        - 02-Some Fundamentals: languages/golang/02-basics.md
-        - 03-Data Types(1) Numbers and Boolean: languages/golang/03-datatypes-1.md
-        - 04-Data Types(2) Strings: languages/golang/04-datatypes-2.md
-        - 05-Operators and Typecasting: languages/golang/05-operators.md
-        - 06-Conditions and Loops:  languages/golang/06-if-loops.md
+      - Golang 101:
+        - Go Programming: programing/languages/golang/index.md
+        - 01-Getting Started: programing/languages/golang/01-gettingstarted.md
+        - 02-Some Fundamentals: programing/languages/golang/02-basics.md
+        - 03-Data Types(1) Numbers and Boolean: programing/languages/golang/03-datatypes-1.md
+        - 04-Data Types(2) Strings: programing/languages/golang/04-datatypes-2.md
+        - 05-Operators and Typecasting: programing/languages/golang/05-operators.md
+        - 06-Conditions and Loops:  programing/languages/golang/06-if-loops.md
         #- 07-Functions: 
         #- imports and packages
         #- Collections 
-        
+    - Frameworks:
+      - Flask: programming/frameworks/flask-under-construction.md
+      - QT: programming/frameworkqt-under-construction.md
+      
+  - Software Engineering:  
+    - Introduction: sweng/introduction.md  
+    - Docker:
+        - Docker 101:
+          - Docker-Getting Started: sweng/docker/docker-installation.md
+          - Hello-Docker: sweng/docker/docker-hello.md
+          - A Network Example: sweng/docker/docker-network-example.md
+          - A Multi-Client Example: sweng/docker/tcp-example.md
+          - Docker Quick Reference: sweng/docker/docker-network-commands.md
+   
   - Blogs:
     - blog/index.md
-  - Keywords: tags.md
  

@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:141.0) Gecko/20100101 Firefox/141.0" version="28.0.9">
+  <diagram name="Page-1" id="ABeEY1ZMOpydnuEdb_Z6">
+    <mxGraphModel dx="991" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VrDOjKATNs0QdOhQ0TiR-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="G4bGy-qJnBRtV5tRLvdv-7" target="VrDOjKATNs0QdOhQ0TiR-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G4bGy-qJnBRtV5tRLvdv-7" value="Python&lt;br&gt;(Base Image)&lt;br&gt;python:3.11-slim" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="100" y="80" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VrDOjKATNs0QdOhQ0TiR-2" value="Extra Modules&lt;br&gt;(e.g. OpenCV)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="130" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VrDOjKATNs0QdOhQ0TiR-4" value="Application Code&lt;br&gt;(e.g. main.py)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="140" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VrDOjKATNs0QdOhQ0TiR-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.433;entryY=-0.04;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VrDOjKATNs0QdOhQ0TiR-2" target="VrDOjKATNs0QdOhQ0TiR-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VrDOjKATNs0QdOhQ0TiR-6" value="Configuration &amp;amp; Command&lt;br&gt;CMD [&quot;python&quot;, &quot;main.py&quot;]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="100" y="380" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VrDOjKATNs0QdOhQ0TiR-8" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="490" y="50" width="290" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="VrDOjKATNs0QdOhQ0TiR-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.435;entryY=0.167;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="199" y="340" as="sourcePoint" />
+            <mxPoint x="199.04999999999995" y="383.02" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VrDOjKATNs0QdOhQ0TiR-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VrDOjKATNs0QdOhQ0TiR-19" target="VrDOjKATNs0QdOhQ0TiR-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VrDOjKATNs0QdOhQ0TiR-19" value="Python&lt;br&gt;&lt;div&gt;(Base Image)&lt;/div&gt;&lt;div&gt;(For example, gcc:latest)&amp;nbsp;&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="520" y="70" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VrDOjKATNs0QdOhQ0TiR-20" value="Extra Modules&lt;br&gt;&amp;nbsp; (e.g., libssl-dev for SSL)&amp;nbsp;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="520" y="170" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VrDOjKATNs0QdOhQ0TiR-21" value="Application Code&lt;br&gt;(e.g. main.c)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="570" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VrDOjKATNs0QdOhQ0TiR-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.433;entryY=-0.04;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VrDOjKATNs0QdOhQ0TiR-20" target="VrDOjKATNs0QdOhQ0TiR-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VrDOjKATNs0QdOhQ0TiR-23" value="Build &amp;amp; Compile commands&lt;br&gt;(e.g., gcc main.c -o main)&amp;nbsp;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="530" y="370" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VrDOjKATNs0QdOhQ0TiR-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.435;entryY=0.167;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="629" y="330" as="sourcePoint" />
+            <mxPoint x="629.05" y="373.02" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VrDOjKATNs0QdOhQ0TiR-26" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="50" width="290" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="VrDOjKATNs0QdOhQ0TiR-27" value="Example 2: GCC(C/C++) Container Ready for Deployment" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;fontSize=15;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="520" y="460" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VrDOjKATNs0QdOhQ0TiR-28" value="Example 1: Python Container Ready for Deployment" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;fontSize=15;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="100" y="470" width="260" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
