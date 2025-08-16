@@ -79,6 +79,7 @@ theme:
 plugins: 
   - offline
   - tags
+  - social
   - blog:
       blog_dir: blog
       blog_toc: true

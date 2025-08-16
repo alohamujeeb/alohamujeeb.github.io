@@ -20,7 +20,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install mkdocs mkdocs-material mkdocs-blog-plugin mkdocs-exclude-search
+          pip install mkdocs mkdocs-material mkdocs-blog-plugin mkdocs-exclude-search "mkdocs-material[imaging]"
 
       - name: Build MkDocs site
         run: |
