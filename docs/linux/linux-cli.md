@@ -5,7 +5,7 @@ tags:
   - Linux Cheat Sheet
 ---
 
-# Linux CLI Reference
+# Linux Commands Reference
 This page provides quick-access cheat sheets for Linux CLI commands.
 
 ---
