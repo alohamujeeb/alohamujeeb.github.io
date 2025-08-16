@@ -20,12 +20,8 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install mkdocs mkdocs-material mkdocs-blog-plugin mkdocs-exclude-search "mkdocs-material[imaging]"
+          pip install mkdocs mkdocs-material mkdocs-blog-plugin mkdocs-exclude-search
           
-      - name: Install linux packages
-        run: |
-          apt-get install pngquant libcairo2-dev libfreetype6-dev libffi-dev libjpeg-dev libpng-dev libz-dev -y
-
       - name: Build MkDocs site
         run: |
           mkdocs build
