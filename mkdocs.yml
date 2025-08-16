@@ -18,6 +18,7 @@ markdown_extensions:
   
 theme:
   name: material
+  #custom_dir: docs/overrides
 
   font:
     #code: Roboto Mono
@@ -98,15 +99,15 @@ plugins:
         
 # Page tree
 nav:
-  - Home:
+  - Start-&-Info:
     - My Online Library: index.md
     - About Me: about/aboutme.md
-    - Search:
+    - Searching for something?:
       - Keywords: tags.md
     - Updates: 
       - Whats New: whatsnew.md
       
-  - Linux and Networking:
+  - Linux-&-Networking:
     - Introduction: linux/introduction.md
     - Linux 101:
       - Linux Commands Reference: linux/linux-cli.md
@@ -134,7 +135,7 @@ nav:
       #- Flask: programming/frameworks/flask-under-construction.md
       #- QT: programming/frameworks/qt-under-construction.md
       
-  - Software Engineering:  
+  - SW-Engineering:  
     - Introduction: sweng/introduction.md  
     - Docker:
         - Docker 101:
