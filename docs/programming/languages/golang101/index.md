@@ -3,11 +3,11 @@ tags:
     - go
     - golang
 ---
-# **Golang Programming**
+# **Golan(Go) Programming**
 
 ---
 ## About Golagng 101 (Common programming concepts)
-Golang 101 is an introductory module that covers the fundamental programming concepts in Go—many of which are common across most programming languages.
+Golang 101 is an introductory module that covers the fundamental programming concepts in Go,many of which are common across most programming languages.
 
 For more advanced or Go-specific topics, refer to the other modules on this website.
 
@@ -33,7 +33,7 @@ Go (or Golang) is a modern programming language developed by Google, designed fo
 
 
 ---
-## What Golang is not?
+## What Go is not?
 
 - **Not Primarily for System Programming:** While Go is powerful, it's not designed for low-level system programming (e.g. writing OS kernels or device drivers). Languages like C, C++, and Rust offer more control over memory, hardware access, and performance tuning.
 
