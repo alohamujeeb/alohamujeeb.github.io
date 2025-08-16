@@ -69,6 +69,9 @@ theme:
     - toc.follow
     #- toc.integrate  #do it at runtime later
     - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
 
 
 plugins: 
