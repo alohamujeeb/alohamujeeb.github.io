@@ -23,7 +23,7 @@ theme:
   font:
     #code: Roboto Mono
     text: Inconsolata
-    code:  Source Code Pro 
+    code: Source Code Pro 
     
   palette:
     #scheme: default
@@ -120,14 +120,14 @@ nav:
   - Programming: 
     - Introduction: programming/introduction.md
     - Languages: 
-      - Golang 101:
-        - Go Programming: programming/languages/golang/index.md
-        - 01-Getting Started: programming/languages/golang/01-gettingstarted.md
-        - 02-Some Fundamentals: programming/languages/golang/02-basics.md
-        - 03-Data Types(1) Numbers and Boolean: programming/languages/golang/03-datatypes-1.md
-        - 04-Data Types(2) Strings: programming/languages/golang/04-datatypes-2.md
-        - 05-Operators and Typecasting: programming/languages/golang/05-operators.md
-        - 06-Conditions and Loops:  programming/languages/golang/06-if-loops.md
+      - Golang 101 (Common Concepts):
+        - Go Programming: programming/languages/golang101/index.md
+        - 01-Getting Started: programming/languages/golang101/01-gettingstarted.md
+        - 02-Some Fundamentals: programming/languages/golang101/02-basics.md
+        - 03-Data Types(1) Numbers and Boolean: programming/languages/golang101/03-datatypes-1.md
+        - 04-Data Types(2) Strings: programming/languages/golang101/04-datatypes-2.md
+        - 05-Operators and Typecasting: programming/languages/golang101/05-operators.md
+        - 06-Conditions and Loops:  programming/languages/golang101/06-if-loops.md
         #- 07-Functions: 
         #- imports and packages
         #- Collections 

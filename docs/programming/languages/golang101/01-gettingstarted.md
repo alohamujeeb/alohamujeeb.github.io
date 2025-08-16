@@ -37,9 +37,7 @@
     
 	If everything is OK, you should see go version information.
 	
-	
 ---
-
 ## 2. **Hello World** with Print and Println
 
 This chapter describes how to write your first program in Go language.
@@ -52,7 +50,6 @@ In this exmple, we are printing some statements. We use **Println** and **Print*
 - fmt.Println() prints output with a newline. 
 
 Create a file with any name of your choice, e.g. **helloGo.go** and copy following contents in it.
-
 
 === "Println example"
 	``` go
@@ -101,7 +98,6 @@ Create a file with any name of your choice, e.g. **helloGo.go** and copy followi
 
 
 ---
-
 ## **How to compile and run the program**
 === "Linux (Ubuntu)"
 
