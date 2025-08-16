@@ -113,7 +113,7 @@ nav:
         #- Collections 
     - Frameworks:
       - Flask: programming/frameworks/flask-under-construction.md
-      - QT: programming/frameworkqt-under-construction.md
+      - QT: programming/frameworks/qt-under-construction.md
       
   - Software Engineering:  
     - Introduction: sweng/introduction.md  
