@@ -2,8 +2,7 @@
 tags:
   - docker
   - docker networking
-  - tcp server
-  - tcp client
+  - docker tcp
 ---
 # A More Complex Example (TCP Server/Client)
 
