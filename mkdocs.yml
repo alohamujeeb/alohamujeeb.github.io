@@ -111,9 +111,9 @@ nav:
         #- 07-Functions: 
         #- imports and packages
         #- Collections 
-    - Frameworks:
-      - Flask: programming/frameworks/flask-under-construction.md
-      - QT: programming/frameworks/qt-under-construction.md
+    - Frameworks: programming/frameworks/flask-under-construction.md
+      #- Flask: programming/frameworks/flask-under-construction.md
+      #- QT: programming/frameworks/qt-under-construction.md
       
   - Software Engineering:  
     - Introduction: sweng/introduction.md  
