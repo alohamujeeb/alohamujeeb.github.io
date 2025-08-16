@@ -109,7 +109,7 @@ nav:
   - Linux and Networking:
     - Introduction: linux/introduction.md
     - Linux 101:
-      - CLI Quick Reference: linux/linux-cli.md
+      - Linux Commands Reference: linux/linux-cli.md
     - Linux Scripting:
       - Bash Shell: linux/bash-under-construction.md
     - Linux Networking: 

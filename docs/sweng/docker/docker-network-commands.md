@@ -1,6 +1,5 @@
 ---
 tags:
-  - Linux
   - docker
 ---
 # Docker command reference

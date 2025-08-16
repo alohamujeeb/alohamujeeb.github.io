@@ -1,6 +1,8 @@
 ---
 tags:
-  - Linux
+  - Linux 
+  - Linux Quick Reference
+  - Linux Cheat Sheet
 ---
 
 # Linux CLI Reference

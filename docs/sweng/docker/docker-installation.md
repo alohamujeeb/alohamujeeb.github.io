@@ -1,6 +1,5 @@
 ---
 tags:
-  - Linux
   - docker
 ---
 # Getting Started with Docker

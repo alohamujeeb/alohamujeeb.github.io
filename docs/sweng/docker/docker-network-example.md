@@ -1,7 +1,7 @@
 ---
 tags:
-  - Linux
   - docker
+  - docker networking
 ---
 # A network example
 
