@@ -20,8 +20,9 @@ theme:
   name: material
 
   font:
-    code: Roboto Mono
+    #code: Roboto Mono
     text: Inconsolata
+    code:  Source Code Pro 
     
   palette:
     #scheme: default
