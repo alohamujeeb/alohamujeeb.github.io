@@ -57,7 +57,7 @@ There are specific requirements that must be fulfilled both on the UE side and o
 |Real UE (phone, laptop)| Needs IPSec client and connect SIM/eSIM credentials (with EAP-AKA or EAP-TLS support)|
 
 ### Software requirements
-|Software Component|details|
+|Software Component|Details|
 |---|---|
 |N3IWF software| Must support IPSec/IKEv2 + EAP-AKA or EAP-TSL|
 |5G Core software| Need AMF, SMF, UPF, AUSF, UDM (Open5GCore or Free5GC work|
