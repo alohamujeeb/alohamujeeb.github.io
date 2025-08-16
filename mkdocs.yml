@@ -19,6 +19,10 @@ markdown_extensions:
 theme:
   name: material
 
+  font:
+    code: Roboto Mono
+    text: Inconsolata
+    
   palette:
     #scheme: default
     #primary: default
