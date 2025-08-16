@@ -12,9 +12,10 @@ Golang 101 is an introductory module that covers the fundamental programming con
 For more advanced or Go-specific topics, refer to the other modules on this website.
 
 ---
-## Brief introduction of Go
-Go language is developed by Google and this site is designed to contains tutorials to quickly learn basic skills and many application samples.
+## What is Go?
+Go (or Golang) is a modern programming language developed by Google, designed for simplicity, performance, and scalability.
 
+### Key Features of Go:
 
 - **Open Source & Cross-Platform:** Runs seamlessly on Linux, Windows, and macOS.
 
@@ -32,7 +33,7 @@ Go language is developed by Google and this site is designed to contains tutoria
 
 
 ---
-## What Golang is not
+## What Golang is not?
 
 - **Not Primarily for System Programming:** While Go is powerful, it's not designed for low-level system programming (e.g. writing OS kernels or device drivers). Languages like C, C++, and Rust offer more control over memory, hardware access, and performance tuning.
 
