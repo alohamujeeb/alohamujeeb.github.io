@@ -11,7 +11,7 @@ Arithmetic operations in Go (Golang) are the basic mathematical operations you c
 
 === "Some examples"
 	``` go
-	////Be careful about (:= or =) assignment operations
+	//Be careful about (:= or =) assignment operations
 
 	a := 10
 	b := 5
