@@ -291,7 +291,7 @@ The blank identifier _ is a special placeholder used when you want to ignore a v
         fmt.Println("Quotient:", quotient)
     }
     ``` 
-## 6. Pass value value or pointer
+## 6. Pass by value or pass by pointer
 
 - Go always passes function arguments by value. This means the function gets a copy of the argument.
 

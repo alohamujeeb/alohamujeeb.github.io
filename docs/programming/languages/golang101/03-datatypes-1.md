@@ -71,7 +71,7 @@ This section contains information about following topics:
 |State/flags	|```vvar isConnected bool = false```|
 
 
-## 1. integer variables
+## 2. integer variables
 In Go, **int** is a built-in numeric type used to store whole numbers (integers). It supports both positive and negative values.
 
 - It is a signed integer type (unless explicitly defined as **unsigned**.
