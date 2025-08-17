@@ -134,6 +134,12 @@ They’re very handy for quick, throwaway logic or closures.
 ## 11. Closures (Functions inside functions)
 A closure in Go is an anonymous function that captures and "remembers" variables from its surrounding scope, even after that scope has finished executing.
 
+### Rules of a closure data persistence
+- It's a function (often anonymous).
+- It uses variables declared outside of itself (from the surrounding function).
+- Those outer variables persist as long as the closure is being used — even if the original function has finished executing.
+
+
 Example:
 === "Example 1"
     ``` go
@@ -146,7 +152,7 @@ Example:
         counter := 0
 
         increment := func() int {
-            counter++          // captures and modifies counter
+            counter++          // captures and modifies counter (outer variable!!!)
             return counter
         }
 
@@ -165,7 +171,7 @@ Example:
         a := 0
 
         increment := func() int {
-            a++
+            a++         //again: a is an outer variable
             return a
         }
 
@@ -187,7 +193,7 @@ Example:
 
     func main() {
         increment := func() int {
-            counter++
+            counter++       //outer variable is the state
             return counter
         }
 
@@ -199,6 +205,43 @@ Example:
     }
 
     ```
+=== "Closure with persistent data"
+    ``` go
+    package main
+
+    import "fmt"
+
+    // counter returns a function that keeps track of a count
+    func counter() func() int {
+        //Note: it is outer variable that will be used by inner
+        count := 0  // This variable is captured by the closure
+
+        //the inner function remembers the outer variable "count"
+        return func() int {
+            count++      // modify the captured variable
+            return count // return updated count
+        }
+    }
+
+    func main() {
+        //closure state will remain till "next" variable is destroyed
+        next := counter()  // get the closure
+
+        fmt.Println(next()) // 1
+        fmt.Println(next()) // 2
+        fmt.Println(next()) // 3
+
+        another := counter() // a new closure with its own count
+        fmt.Println(another()) // 1
+        
+    }
+    ```
+    
+    - counter() returns an anonymous function (closure).
+    - That returned function captures the count variable from its surrounding scope.
+    - Even though counter() finishes executing, count remains alive inside the returned function.
+    - Each call to next() updates and uses the same count — this is persistent state.
+    
 
 ## 12. **defer** statements
 
@@ -350,7 +393,148 @@ A Higher-Order Function is a function that does at least one of the following:
 - Common in functional-style patterns (map, filter, reduce)
 - Enables callbacks and dynamic behaviour
 
+## 14. Variable shadowing
+Variable shadowing occurs when a new variable declared in a nested (inner) scope has the same name as a variable in an outer scope. The inner variable "shadows" or hides the outer one within its scope.
 
+This can lead to confusion if not handled carefully.
 
+=== "Simple shadowing example"
+    ``` go
+    package main
 
+    import "fmt"
+
+    func main() {
+        x := 10
+        fmt.Println("Outer x:", x)
+
+        {
+            x := 20  // This x shadows the outer x
+            fmt.Println("Inner x:", x)
+        }
+
+        fmt.Println("Outer x again:", x)
+    }
+    ```
+    Output:
+    ``` text
+    Outer x: 10
+    Inner x: 20
+    Outer x again: 10
+    ```
+=== "Shadowing a parameter"
+    ``` go
+    package main
+
+    import "fmt"
+
+    func printDouble(x int) {
+        fmt.Println("Original x:", x)
+
+        x := x * 2  // ❌ Shadowing here
+        fmt.Println("Shadowed x:", x)
+    }
+
+    ```
+    🛑 This code won't compile!
+    
+    **Error:** : no new variables on left side of :=
+   
+### Shadowing if or for block 
+
+Example if or for block
+``` go
+package main
+
+import "fmt"
+
+func main() {
+    x := 5
+    fmt.Println("Before if:", x)
+
+    if x := 100; x > 0 {  // New x shadows outer x
+        fmt.Println("Inside if:", x)
+    }
+        fmt.Println("After if:", x)  // Still refers to the original x
+}
+```
+
+Output
+``` text
+Before if: 5
+Inside if: 100
+After if: 5
+```
+
+## 15. Function types and signature
+This is same concept as **function prototype** C/C++ or "function signature" in Java.
+
+A function signature defines:
+
+- The parameter types
+- The return type(s)
+- It tells you what a function expects and returns — like a contract.
+
+**This improves code readability, especially when passing functions around.**
+
+Example
+``` go
+func add(a int, b int) int
+```
+
+=== "Example 2"
+    ``` go
+    package main
+
+    import "fmt"
+
+    func add(a int, b int) int {
+        return a + b
+    }
+
+    func main() {
+        var op func(int, int) int  // Declare a function variable with a specific signature
+        op = add                   // Assign the add function to it
+
+        fmt.Println(op(3, 4))      // Output: 7
+    }
+    ```
+=== "Example 2: defining a custom function"
+    ``` go
+    package main
+
+    import "fmt"
+
+    type operation func(int, int) int  // Define a named function type
+
+    func multiply(x, y int) int {
+        return x * y
+    }
+
+    func main() {
+        var op operation = multiply
+        fmt.Println(op(5, 6))  // Output: 30
+    }
+    ```
+=== "Example 3: passing function types as arguments"
+    ``` go
+    package main
+
+    import "fmt"
+
+    type operation func(int, int) int
+
+    func compute(op operation, a int, b int) int {
+        return op(a, b)
+    }
+
+    func add(x, y int) int {
+        return x + y
+    }
+
+    func main() {
+        result := compute(add, 2, 3)
+        fmt.Println(result)  // Output: 5
+    }
+    ```
     

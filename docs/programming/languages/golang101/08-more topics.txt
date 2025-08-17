@@ -1,0 +1,83 @@
+Common Concepts
+
+Variables, Constants, and Data Types
+Control Structures (if, for, switch)
+Functions and Methods (declaration, parameters, return values)
+Arrays, Slices, and Maps
+Structs and Basic Interfaces
+Error Handling (error type, simple if err != nil patterns)
+Basic I/O and File Handling
+🔹 2. Arrays
+🔹 6. Pointers
+
+
+===============
+Goroutines and Channels (introduction to concurrency)
+
+Packages and Modules (code organization, import paths)
+
+Defer, Panic, and Recover (advanced control flow and cleanup)
+
+Closures and Function Types (higher-order functions, function literals)
+
+Methods with Pointer vs Value Receivers
+
+Interface Implementation and Polymorphism
+
+Struct Embedding and Composition
+
+Go’s tooling (go fmt, go vet, go mod, testing basics)
+
+Reflection (reflect package basics)
+
+===========
+Intermediate
+🔹 3. Slices ✅ (Most used)
+
+🔹 4. Maps
+
+🔹 5. Structs
+
+🔹 7. Interfaces
+
+🔹 8. Custom Types and Aliases
+
+🔹 9. Embedding & Composition
+
+🔹 10. Collections from Standard Library
+
+🔹 11. JSON / XML Struct Tags
+
+🔹 12. Empty Interface and Type Assertion
+
+🧠 Bonus Advanced Topics
+Struct field alignment and memory layout
+Deep copy vs shallow copy (with structs, slices)
+Reflection with reflect package
+Generics (Go 1.18+) — for type-safe reusable data structures
+
+=============
+🔴 3) Advanced Topics
+
+Deep dives into powerful Go features and patterns, useful for scalable and high-performance systems:
+
+Advanced Concurrency Patterns (select, worker pools, sync primitives)
+
+Context Package and Cancellation Propagation
+
+Generics (Go 1.18+) — writing reusable and type-safe code
+
+Memory Management and Profiling (GC, heap vs stack)
+
+Network Programming (net/http, grpc)
+
+Testing Strategies (table-driven tests, mocking, benchmarks)
+
+Unsafe Package and Low-level Programming
+
+Code Generation and Metaprogramming
+
+Performance Optimization and Best Practices
+
+Designing Large-scale Go Applications (project structure, dependency injection) 
+
