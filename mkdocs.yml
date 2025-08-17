@@ -129,7 +129,9 @@ nav:
         - 04-Data Types(2) Strings: programming/languages/golang101/04-datatypes-2.md
         - 05-Operators and Typecasting: programming/languages/golang101/05-operators.md
         - 06-Conditions and Loops:  programming/languages/golang101/06-if-loops.md
-        - 07-Functions in Go: programming/languages/golang101/07-functions-in-Go.md
+        - 07-Functions in Go- Part 1: programming/languages/golang101/07-functions-in-Go-P1.md
+        - 08-Functions in Go- Part 2: programming/languages/golang101/07-functions-in-Go-P2.md
+        
         #- imports and packages
         #- Collections 
     - Frameworks: programming/frameworks/flask-under-construction.md
