@@ -1,4 +1,4 @@
-# **08 Functions in Go (Part 2)**
+# **06b Functions in Go (Part 2)**
 - Variadic Functions
 - Anonymous Functions
 - Closures

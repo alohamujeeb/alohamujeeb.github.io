@@ -1,4 +1,4 @@
-# **06 Conditions and Loops**
+# **05 Conditions and Loops**
 - if statements
 - switch statements
 - loops

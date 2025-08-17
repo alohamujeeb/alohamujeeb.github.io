@@ -1,4 +1,4 @@
-# **05 Operators and Typecasting**
+# **04- Operators and Typecasting**
 - Arithmetic Operators
 - Comparision Operators
 - Logtical Operators

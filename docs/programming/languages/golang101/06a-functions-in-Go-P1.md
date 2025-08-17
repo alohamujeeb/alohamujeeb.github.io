@@ -1,4 +1,4 @@
-# **07 Functions in Go (Part 1)**
+# **06a Functions in Go (Part 1)**
 - Defining and Calling Functions
 - Function Parameters
 - Function Return Values
