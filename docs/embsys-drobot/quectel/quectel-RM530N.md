@@ -6,9 +6,9 @@ tags:
 ---
 # Quectel RM530N-GL
 
-- Quectel is a global supplier of wireless communication modules and IoT (Internet of Things) solutions.
+- Quectel is a global supplier of wireless communication modules and IoT (Internet of Things) solutions, including RM530N-GL.
 
-- This section covers the RM530N-GL module, including how to set up the hardware connections, use AT commands, and configure the module for different use cases. The aim is to get the module running, understand how it communicates, and learn how to use it in basic embedded or networking projects.
+- This section covers the RM530N-GL module, including how to set up the hardware connections, use AT commands, and configure the module for different use cases. The aim is to get the module running, understand how it communicates, and learn how to use it.
 
 - The Quectel RM530N-GL is a high-performance 5G module supporting both 5G Sub-6 GHz and LTE networks.
 
