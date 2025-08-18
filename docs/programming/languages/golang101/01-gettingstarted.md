@@ -18,12 +18,13 @@
     sudo apt install golang-go
     ```
     2. To check installation:
-    type ```go version```
 	
-	Expected output:
-	``` text
-	go version go1.22.2 linux/amd64
-	```
+		type ```go version```
+		
+		Expected output:
+		``` text
+		go version go1.22.2 linux/amd64
+		```
 
 
 === "Windows"
