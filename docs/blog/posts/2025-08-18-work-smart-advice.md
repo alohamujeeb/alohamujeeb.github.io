@@ -61,7 +61,7 @@ Only after reaching a certain level of proficiency, one will be able to incorpor
 That whole “work smart, not hard” advice? Yeah... it sounds good on the surface, but let’s be real — it can be kind of misleading.
 
 - It makes hard work seem less important (spoiler: it’s not).
-- **Smart** means different things to different people — it’s way too vague.
+- **Smart means different things to different people** — it’s way too vague.
 - You can’t skip the messy, hands-on part of learning.
 - And let’s be honest, it can make people feel like they’re above putting in real effort.
 - I’m not saying don’t be efficient — just don’t think you can hack your way past the grind completely. Smart and hard work go hand in hand.
