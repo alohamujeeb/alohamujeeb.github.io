@@ -1,5 +1,4 @@
-# Quic-go 101- Hello World
-# has some bugs: needs fixing
+# Quic-go 101- Hello World (has some bugs: needs fixing)
 
 ## 1. Prerequisites
 Make sure you have Go installed:
