@@ -147,7 +147,14 @@ nav:
           - A Network Example: sweng/docker/docker-network-example.md
           - A Multi-Client Example: sweng/docker/tcp-example.md
           - Docker Quick Reference: sweng/docker/docker-network-commands.md
-   
+          
+  - Robotics-&-Embedded Systems: 
+    - Quectel RM530N-GL: 
+      - Hardware & Software Setup:
+        - About RM530N-GL: embsys-drobot/quectel/quectel-RM530N.md
+        - Mounting on Raspberry Pi: embsys-drobot/quectel/RM530N_RPi_connections.md
+        - AT Command Reference: embsys-drobot/quectel/at-command-reference.md
+    
   - Blogs:
     - blog/index.md
  
