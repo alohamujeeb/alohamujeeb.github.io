@@ -12,8 +12,8 @@ tags:
 
 - The Quectel RM530N-GL is a high-performance 5G module supporting both 5G Sub-6 GHz and LTE networks.
 
-- It supports both USB 3.1 and PCIe interfaces for flexible host connectivity.
+- It supports both **USB 3.1** and **PCIe** interfaces for flexible host connectivity.
 	
-	USB Mode is commonly used with systems like Raspberry Pi or other SBCs.
+	- USB Mode is commonly used with systems like Raspberry Pi or other SBCs.
 	
-	PCIe Mode is used for high-speed integration with x86 or embedded platforms.
+	- PCIe Mode is used for high-speed integration with x86 or embedded platforms.
