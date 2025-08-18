@@ -5,7 +5,7 @@
 - break and continue
 ---
 
-To understand this topic, make sure that you are familiar with the concept of boolean data types, which are described in more details in **[boolean data types](03-datatypes-1.md)**
+To understand this topic, make sure that you are familiar with the concept of boolean data types, which are described in more details in **[boolean data types](03a-datatypes-1.md)**
 
 ## 1. If statements
 The if statement in Go is used to execute code conditionally—only when a given boolean expression is true.

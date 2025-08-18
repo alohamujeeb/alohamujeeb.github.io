@@ -4,13 +4,15 @@
 - Function Return Values
 - Scope of Variables
 - Recursion
+- Variable Shadowing
+- Function Signatures
 
 ---
 Functions in Go work the same way as in other languages like Python, Java, C++, and JavaScript; They’re just a way to group code which we want to use many times.
 
 The syntax might look different, but the basic idea is the same.
 
-
+---
 ## 1. Defining and calling functions
 The if statement in Go is used to execute code conditionally—only when a given boolean expression is true.
 
@@ -39,7 +41,8 @@ The if statement in Go is used to execute code conditionally—only when a given
     }
 	```
     Again, function defining and calling is very similar as in other languages.
-    
+
+---
 ## 2. Function parameters
 The if statement in Go is used to execute code conditionally—only when a given boolean expression is true.
 
@@ -73,6 +76,7 @@ Some exampls are shown below:
         }
     }
     ``` 
+---
 ## 3. Function return values
 In Go, a function’s return type specifies the type of value it sends back to the caller after execution.
 
@@ -291,7 +295,8 @@ The blank identifier _ is a special placeholder used when you want to ignore a v
         fmt.Println("Quotient:", quotient)
     }
     ``` 
-## 6. Pass by value or pass by pointer
+---
+## 4. Pass by value or pass by pointer
 
 - Go always passes function arguments by value. This means the function gets a copy of the argument.
 
@@ -337,7 +342,7 @@ The blank identifier _ is a special placeholder used when you want to ignore a v
 
     ```
 
-## 7. Scope of variables
+## 5. Scope of variables
 In Go, scope refers to where a variable can be accessed within your code.
 
 - A local variable is declared inside a function and can only be used within that function.
@@ -383,7 +388,7 @@ In Go, scope refers to where a variable can be accessed within your code.
 Note: Prefer local variables when possible to avoid unwanted side effects and make your code easier to debug.
 
 
-## 8. Recursion in Go
+## 6. Recursion in Go
 Recursion is a programming technique where a function calls itself to solve smaller instances of a problem. It continues until it reaches a base case that stops further calls.
 
 Examples:
@@ -407,6 +412,151 @@ Examples:
     }
     ```
 
+## 7. Variable shadowing
+Variable shadowing occurs when a new variable declared in a nested (inner) scope has the same name as a variable in an outer scope. The inner variable "shadows" or hides the outer one within its scope.
+
+This can lead to confusion if not handled carefully.
+
+=== "Simple shadowing example"
+    ``` go
+    package main
+
+    import "fmt"
+
+    func main() {
+        x := 10
+        fmt.Println("Outer x:", x)
+
+        {
+            x := 20  // This x shadows the outer x
+            fmt.Println("Inner x:", x)
+        }
+
+        fmt.Println("Outer x again:", x)
+    }
+    ```
+    Output:
+    ``` text
+    Outer x: 10
+    Inner x: 20
+    Outer x again: 10
+    ```
+=== "Shadowing a parameter"
+    ``` go
+    package main
+
+    import "fmt"
+
+    func printDouble(x int) {
+        fmt.Println("Original x:", x)
+
+        x := x * 2  // ❌ Shadowing here
+        fmt.Println("Shadowed x:", x)
+    }
+
+    ```
+    🛑 This code won't compile!
+    
+    **Error:** : no new variables on left side of :=
+   
+### Shadowing if or for block 
+
+Example if or for block
+``` go
+package main
+
+import "fmt"
+
+func main() {
+    x := 5
+    fmt.Println("Before if:", x)
+
+    if x := 100; x > 0 {  // New x shadows outer x
+        fmt.Println("Inside if:", x)
+    }
+        fmt.Println("After if:", x)  // Still refers to the original x
+}
+```
+
+Output
+``` text
+Before if: 5
+Inside if: 100
+After if: 5
+```
+
+## 8. Function types and signature
+This is same concept as **function prototype** C/C++ or "function signature" in Java.
+
+A function signature defines:
+
+- The parameter types
+- The return type(s)
+- It tells you what a function expects and returns — like a contract.
+
+**This improves code readability, especially when passing functions around.**
+
+Example
+``` go
+func add(a int, b int) int
+```
+
+=== "Example 2"
+    ``` go
+    package main
+
+    import "fmt"
+
+    func add(a int, b int) int {
+        return a + b
+    }
+
+    func main() {
+        var op func(int, int) int  // Declare a function variable with a specific signature
+        op = add                   // Assign the add function to it
+
+        fmt.Println(op(3, 4))      // Output: 7
+    }
+    ```
+=== "Example 2: defining a custom function"
+    ``` go
+    package main
+
+    import "fmt"
+
+    type operation func(int, int) int  // Define a named function type
+
+    func multiply(x, y int) int {
+        return x * y
+    }
+
+    func main() {
+        var op operation = multiply
+        fmt.Println(op(5, 6))  // Output: 30
+    }
+    ```
+=== "Example 3: passing function types as arguments"
+    ``` go
+    package main
+
+    import "fmt"
+
+    type operation func(int, int) int
+
+    func compute(op operation, a int, b int) int {
+        return op(a, b)
+    }
+
+    func add(x, y int) int {
+        return x + y
+    }
+
+    func main() {
+        result := compute(add, 2, 3)
+        fmt.Println(result)  // Output: 5
+    }
+    ```
+    
 
 
     
