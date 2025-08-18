@@ -158,8 +158,9 @@ nav:
           - Docker Quick Reference: sweng/docker/docker-network-commands.md
           
   - Robotics-&-Embedded Systems: 
+    - Introduction:  embsys-drobot/introduction.md
     - Quectel RM530N-GL: 
-      - Working with RM530N-GL:
+      - Getting Started with RM530N-GL:
         - About RM530N-GL: embsys-drobot/quectel/quectel-RM530N.md
         - Mounting on Raspberry Pi: embsys-drobot/quectel/RM530N_RPi_connections.md
         - AT Command Reference: embsys-drobot/quectel/at-command-reference.md

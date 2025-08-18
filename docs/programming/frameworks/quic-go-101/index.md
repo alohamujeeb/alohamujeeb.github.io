@@ -8,7 +8,7 @@ tags:
 - This module is about using QUIC (protocol) in Go language through the **quic-go** library. We’ll begin with easy steps to install everything and build a simple “Hello World” QUIC client and server. 
 - Gradually, we’ll explore more advanced topics like handling multiple streams, connection migration
 
-
+---
 ## What is Quic-go
 
 
@@ -26,6 +26,7 @@ tags:
 - Unlike older versions (HTTP/1.1, HTTP/2), HTTP/3 runs on top of the QUIC protocol instead of TCP.
 - This means HTTP/3 servers use QUIC’s features like multiplexing — allowing many requests and responses to happen simultaneously over a single connection without blocking each other.
 
+---
 ## quic protocol (more information)
 [QUIC Protocol](../../../linux/quic.md)
 

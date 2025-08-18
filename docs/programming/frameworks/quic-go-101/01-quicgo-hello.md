@@ -4,7 +4,7 @@
 Make sure you have Go installed:
 
 (
-[go installation](../../languages/golang101/01-gettingstarted.html#1-go-installation))
+[go installation](../../languages/golang101/01-gettingstarted.md))
 
 ---
 ## 2. Create a new Go module
@@ -79,6 +79,7 @@ go get github.com/quic-go/quic-go@latest
 	go: added golang.org/x/sys v0.23.0
 	go: added golang.org/x/tools v0.22.0
 	```
+
 ---
 ### 4. Write a minimal QUIC server (server.go)
 Create a file called ```server.go```:
@@ -170,6 +171,7 @@ vo7BdvVWZwqGkjiJLvmP8fO5u+iY6C9tpA==
 }
 ```
 
+---
 ## 5. Write a minimal QUIC client (client.go)
 Create a file called ```client.go```:
 
@@ -222,6 +224,7 @@ func main() {
 }
 ```
 
+---
 ## 6. Run server and client (on linux)
 
 ### Terminal 1 — Start the Server:
