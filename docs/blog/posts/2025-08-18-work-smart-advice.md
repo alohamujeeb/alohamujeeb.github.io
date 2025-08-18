@@ -14,7 +14,7 @@ tags:
   - work smart
 ---
 
-# "Work smart, not hard" — A Misguided Advice
+# "Work smart, not hard" (misguided advice)
 
 You hear people say “work smart, not hard” all the time. And sure, it sounds great—who doesn’t want to be efficient? 
 
