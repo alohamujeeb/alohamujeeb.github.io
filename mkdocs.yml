@@ -150,7 +150,7 @@ nav:
           
   - Robotics-&-Embedded Systems: 
     - Quectel RM530N-GL: 
-      - Hardware & Software Setup:
+      - Working with RM530N-GL:
         - About RM530N-GL: embsys-drobot/quectel/quectel-RM530N.md
         - Mounting on Raspberry Pi: embsys-drobot/quectel/RM530N_RPi_connections.md
         - AT Command Reference: embsys-drobot/quectel/at-command-reference.md

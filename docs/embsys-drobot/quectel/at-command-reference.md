@@ -1,6 +1,6 @@
 ---
 tags:
-  - Quectel
+  - RM530N-GL
   - AT commands
 ---
 Under Construction
