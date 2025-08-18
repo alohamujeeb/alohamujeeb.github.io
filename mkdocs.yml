@@ -119,6 +119,9 @@ nav:
       - Bash Shell: linux/bash-under-construction.md
     - Linux Networking: 
       - Networking Basics: linux/networking-under-construction.md
+    - quic protocol: linux/quic.md
+    
+    
   #- RoboEmbed
   #- WebCraft  
   - Programming: 
@@ -137,7 +140,10 @@ nav:
         - 07-Pointer in Go: programming/languages/golang101/07-pointer-in-Go.md
         #- imports and packages
         #- Collections 
-    - Frameworks: programming/frameworks/flask-under-construction.md
+    - Frameworks/Libs: 
+      - Quic-go 101: 
+        - Quic-go Getting Started: programming/frameworks/quic-go-101/index.md
+        - Quic-go Hello World: programming/frameworks/quic-go-101/01-quicgo-hello.md
       #- Flask: programming/frameworks/flask-under-construction.md
       #- QT: programming/frameworks/qt-under-construction.md
       
