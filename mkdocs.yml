@@ -108,6 +108,8 @@ nav:
       - Keywords: tags.md
     - Updates: 
       - Whats New: whatsnew.md
+    - emojis-list: emoji-list.md
+    
       
   - Linux-&-Networking:
     - Introduction: linux/introduction.md

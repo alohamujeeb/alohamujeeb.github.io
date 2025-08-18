@@ -12,30 +12,33 @@
 
 === "Linux (Ubuntu)"
 
-	Type following in the terminal
-
+	1. To installo: type following in the terminal
 	```
     sudo apt update && sudo apt upgrade
     sudo apt install golang-go
     ```
-    to check the instllation:
+    2. To check installation:
     type ```go version```
 	
-	If everything is OK, you should see go version information.
+	Expected output:
+	``` text
+	go version go1.22.2 linux/amd64
+	```
 
 
 === "Windows"
 
 	1. Download MSI installer from Go website
 	2. Open the MSI file you downloaded and follow the prompts to install Go. 
-        
-	By default, the installer will install Go to Program Files or Program Files (x86). You can change the location as needed. 
-        
+	By default, the installer will install Go to Program Files or Program Files (x86). You can change the location as needed.     
 	3. Open the command prompt (or PowerShell)
-        
-	type ```go version```
-    
-	If everything is OK, you should see go version information.
+		
+		type ```go version```
+		
+		Expected output:
+		``` text
+		go version go1.24.4 windows/amd64
+		```
 	
 ---
 ## 2. **Hello World** with Print and Println
@@ -118,9 +121,9 @@ Create a file with any name of your choice, e.g. **helloGo.go** and copy followi
 
 - If you try to write multiple statements on one line without ;, it will cause a compile error:
 ``` go
-x := 10 y := 20 // ❌ invalid
+x := 10 y := 20 // INVALID
 
-x := 10; y := 20 // ✅ valid but discouraged
+x := 10; y := 20 // VALID, but discouraged
 ```
 
 So, in practice:
