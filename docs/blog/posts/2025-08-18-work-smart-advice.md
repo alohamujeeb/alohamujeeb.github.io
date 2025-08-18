@@ -8,7 +8,6 @@ author:
 readtime: 5
 
 categories: 
-  - Self-help
   - Life experiences
 tags:
   - work hard
