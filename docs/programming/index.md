@@ -20,7 +20,7 @@ This section contains following topics/sub-topics.
 ---
 ## **Frameworks/Libraries**
 
-### [QUIC-GO 101](frameworks/quic-go-101/index.md)
+### [QUIC-GO 101](frameworks/quicgo101/index.md)
 
 
 
