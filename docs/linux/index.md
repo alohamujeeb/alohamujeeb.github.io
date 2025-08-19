@@ -20,11 +20,12 @@ This section contains following topcs/sub-topics.
 ## Linux Scripting/Automation
  
 ### [Bash Scripting](bash.md)
-
+(Under construction)
 
 ## Linux Networking
 
 ### [Linux Networking Basics](linux-networking.md)
+(Under construction)
 
 ---
 ## Networking Protocols
