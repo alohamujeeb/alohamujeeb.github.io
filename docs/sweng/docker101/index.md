@@ -9,3 +9,7 @@ This section, Docker 101, introduces the fundamental concepts of Docker, a tool 
 We'll cover step by step what containers are, how Docker works behind the scenes, and why it's a valuable tool for developing, deploying, and managing applications consistently across different systems.
 
 
+## Usefule links
+[Docker vs Podman- External link](https://faizansiddiqui.me/writings/pages/docker-versus-podman-a-comparison)
+
+
