@@ -15,11 +15,9 @@ This section contains following topics/sub-topics.
 ### [Quectel RM530N-GL](Quectel-RM530N-GL/index.md)
 
 ---
-## Ros2 
+## Ros2 and OpenRMF
 
 ### [ROS2](ros/index.md)
 
----
-## OpenRMF
-
 ### [OpenRMF](openrmf/index.md)
+
