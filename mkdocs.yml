@@ -112,7 +112,7 @@ nav:
     
       
   - Linux-&-Networking:
-    - Introduction: linux/index.md
+    - Linux: linux/index.md
     - Linux 101:
       - Linux Commands Reference: linux/linux-cli.md
     - Linux Scripting:
@@ -125,7 +125,7 @@ nav:
   #- RoboEmbed
   #- WebCraft  
   - Programming: 
-    - Introduction: programming/index.md
+    - Programming: programming/index.md
     - Languages: 
       - Golang 101 (Common Concepts):
         - Go Programming: programming/languages/golang101/index.md
