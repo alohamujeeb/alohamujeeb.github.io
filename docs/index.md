@@ -12,12 +12,12 @@ img {
   <img src="images/mypicture.jpg" alt="Avatar" width="150">
 </div>
 
-## What’s this site all about?
+## What’s this site about?
 This site is created to organize and showcase my work for easy reference.
 Feel free to explore various sections—you might find something useful or inspiring!
 
 
-## What material is available here?
+## What kind of material is available here?
 You’ll find info here on things like:
 
     Software development
