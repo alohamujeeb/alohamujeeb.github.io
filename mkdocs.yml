@@ -128,7 +128,7 @@ nav:
     - index: programming/index.md
     - Languages: 
       - Golang 101 (Common Concepts):
-        - Go Programming: programming/languages/golang101/index.md
+        - index: programming/languages/golang101/index.md
         - 01-Getting Started: programming/languages/golang101/01-gettingstarted.md
         - 02-Some Fundamentals: programming/languages/golang101/02-basics.md
         - 03a-Data Types(1) Numbers and Boolean: programming/languages/golang101/03a-datatypes-1.md
@@ -141,11 +141,11 @@ nav:
         #- imports and packages
         #- Collections 
       - Rust 101 (Common Concepts):
-        - Rust Programming: programming/languages/rust101/index.md
+        - index: programming/languages/rust101/index.md
         - 01-Getting Started: programming/languages/rust101/01-gettingstarted.md
     - Frameworks/Libs: 
       - QUIC-GO 101: 
-        - Getting Started: programming/frameworks/quic-go-101/index.md
+        - index: programming/frameworks/quic-go-101/index.md
         - Hello World: programming/frameworks/quic-go-101/01-hello-world.md
       #- Flask: programming/frameworks/flask-under-construction.md
       #- QT: programming/frameworks/qt-under-construction.md
