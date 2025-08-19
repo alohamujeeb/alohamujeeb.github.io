@@ -42,7 +42,7 @@
 		```
 	
 ---
-## 2. **Hello World** with Print and Println
+## 2. **Hello World** 
 
 This chapter describes how to write your first program in Go language.
 
@@ -102,7 +102,7 @@ Create a file with any name of your choice, e.g. **helloGo.go** and copy followi
 
 
 ---
-## **How to compile and run the program**
+## **How to compile and run**
 === "Linux (Ubuntu)"
 
     1. Open the terminal.

@@ -142,6 +142,7 @@ nav:
         #- Collections 
       - Rust 101 (Common Concepts):
         - Rust Programming: programming/languages/rust101/index.md
+        - 01-Getting Started: programming/languages/rust101/01-gettingstarted.md
     - Frameworks/Libs: 
       - QUIC-GO 101: 
         - Quic-go Getting Started: programming/frameworks/quic-go-101/index.md
