@@ -168,7 +168,12 @@ nav:
         - index: embsys-drobot/Quectel-RM530N-GL/index.md
         - Mounting on Raspberry Pi: embsys-drobot/Quectel-RM530N-GL/RM530N_RPi_connections.md
         - AT Command Reference: embsys-drobot/Quectel-RM530N-GL/at-command-reference.md
-    
+    - ROS and RMF:
+      - ROS2: 
+        - index: embsys-drobot/ros/index.md
+      - OpenRMF:
+        - index: embsys-drobot/openrmf/index.md
+        
   - Blogs:
     - blog/index.md
  
