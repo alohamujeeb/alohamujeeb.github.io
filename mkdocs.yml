@@ -113,7 +113,7 @@ nav:
       
   - Linux-&-Networking:
     - index: linux/index.md
-    - Linux 101:
+    - Linux CLI:
       - Linux Commands Reference: linux/linux-cli.md
     - Linux Scripting:
       - Bash Shell: linux/bash.md
