@@ -7,7 +7,6 @@ tags:
 
 # Embedded Systems and Robotics
 
----
 This section contains following topics/sub-topics.
 
 ---
@@ -15,12 +14,12 @@ This section contains following topics/sub-topics.
 
 ### [Quectel RM530N-GL](Quectel-RM530N-GL/index.md)
 
-
+---
 ## Ros2 
 
 ### [ROS2](ros/index.md)
 
-
+---
 ## OpenRMF
 
 ### [OpenRMF](openrmf/index.md)

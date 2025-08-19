@@ -8,7 +8,6 @@ tags:
 ---
 # Linux and Networking 
 
----
 This section contains following topics/sub-topics.
 
 ---
@@ -16,12 +15,13 @@ This section contains following topics/sub-topics.
 
 ### [Linux Commands Reference](linux-cli.md)
 
-
+---
 ## Linux Scripting/Automation
  
 ### [Bash Scripting](bash.md)
 (Under construction)
 
+---
 ## Linux Networking
 
 ### [Linux Networking Basics](linux-networking.md)
