@@ -4,7 +4,7 @@ tags:
     - linux networking
     - linux CLI
     - bash
-    - QUIC
+    - quic
 ---
 # Linux and Networking 
 
