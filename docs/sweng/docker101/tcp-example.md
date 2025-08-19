@@ -4,10 +4,10 @@ tags:
   - docker networking
   - docker tcp
 ---
-# A More Complex Example (TCP Server/Client)
+# A more complex example (TCP Server/Client)
 
 ---
-## 1.The Objective 
+## 1.The objective 
 
 In this example, we are creating TWO docker apps.
 	- Docker 1: To run a TCP Server

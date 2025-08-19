@@ -11,7 +11,7 @@ tags:
 This section contains following topcs/sub-topics.
 
 ---
-## Quectel RM530N-GL
+## Quectel
 
-### [Getting Started with Quectel RM530N-GL](quectel/quectel-RM530N.md)
+### [Quectel RM530N-GL](Quectel-RM530N-GL/index.md)
 

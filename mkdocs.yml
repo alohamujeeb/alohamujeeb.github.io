@@ -105,7 +105,7 @@ nav:
     - My Online Library: index.md
     - About Me: about/aboutme.md
     - Searching for something?:
-      - Keywords: tags.md
+      - Keywords/Tags: tags.md
     - Updates: 
       - Whats New: whatsnew.md
     - emojis-list: emoji-list.md
@@ -116,9 +116,9 @@ nav:
     - Linux 101:
       - Linux Commands Reference: linux/linux-cli.md
     - Linux Scripting:
-      - Bash Shell: linux/bash-under-construction.md
+      - Bash Shell: linux/bash.md
     - Linux Networking: 
-      - Networking Basics: linux/networking-under-construction.md
+      - Networking Basics: linux/linux-networking.md
     - quic protocol: linux/quic.md
     
     
@@ -151,21 +151,22 @@ nav:
       
   - SW-Engineering:  
     - index: sweng/index.md  
-    - Docker:
-        - Docker 101:
-          - Docker-Getting Started: sweng/docker/getting-started.md
-          - Hello-Docker: sweng/docker/docker-hello.md
-          - A Network Example: sweng/docker/docker-network-example.md
-          - A Multi-Client Example: sweng/docker/tcp-example.md
-          - Docker Quick Reference: sweng/docker/docker-network-commands.md
-          
+    - Docker & Containers:
+      - Docker 101:
+        - index: sweng/docker101/index.md
+        - Docker-Getting Started: sweng/docker101/getting-started.md
+        - Hello-Docker: sweng/docker101/docker-hello.md
+        - A Network Example: sweng/docker101/docker-network-example.md
+        - A Multi-Client Example: sweng/docker101/tcp-example.md
+        - Docker Quick Reference: sweng/docker101/docker-network-commands.md
+            
   - Robotics-&-Embedded Systems: 
     - index:  embsys-drobot/index.md
-    - Quectel RM530N-GL: 
-      - Getting Started with RM530N-GL:
-        - About RM530N-GL: embsys-drobot/quectel/quectel-RM530N.md
-        - Mounting on Raspberry Pi: embsys-drobot/quectel/RM530N_RPi_connections.md
-        - AT Command Reference: embsys-drobot/quectel/at-command-reference.md
+    - Quectel:
+      - Quectel RM530N-GL: 
+        - index: embsys-drobot/Quectel-RM530N-GL/index.md
+        - Mounting on Raspberry Pi: embsys-drobot/Quectel-RM530N-GL/RM530N_RPi_connections.md
+        - AT Command Reference: embsys-drobot/Quectel-RM530N-GL/at-command-reference.md
     
   - Blogs:
     - blog/index.md
