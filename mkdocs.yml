@@ -79,7 +79,8 @@ theme:
 
 plugins: 
   - offline
-  - tags
+  - tags: 
+      tags_sort_by: !!python/name:material.plugins.tags.tag_name_casefold
   - blog:
       blog_dir: blog
       blog_toc: true
