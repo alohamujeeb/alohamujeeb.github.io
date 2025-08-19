@@ -1,6 +1,6 @@
 ---
 tags:
-    - Rust
+    - rust
 ---
 # **Rust Programming**
 

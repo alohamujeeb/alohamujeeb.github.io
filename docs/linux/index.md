@@ -1,8 +1,8 @@
 ---
 tags:
-    - Linux
-    - Linux Networking
-    - Linux CLI
+    - linux
+    - linux networking
+    - linux CLI
     - bash
     - QUIC
 ---

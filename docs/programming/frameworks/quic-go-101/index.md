@@ -1,6 +1,6 @@
 ---
 tags:
-  - QUIC
+  - quic
   - quic-go
 ---
 # Quic-go 101
