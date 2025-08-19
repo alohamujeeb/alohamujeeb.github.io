@@ -112,7 +112,7 @@ nav:
     
       
   - Linux-&-Networking:
-    - Linux: linux/index.md
+    - Linux & Networking Contents: linux/index.md
     - Linux 101:
       - Linux Commands Reference: linux/linux-cli.md
     - Linux Scripting:
@@ -125,7 +125,7 @@ nav:
   #- RoboEmbed
   #- WebCraft  
   - Programming: 
-    - Programming: programming/index.md
+    - Programming Contents: programming/index.md
     - Languages: 
       - Golang 101 (Common Concepts):
         - Go Programming: programming/languages/golang101/index.md
@@ -150,7 +150,7 @@ nav:
       #- QT: programming/frameworks/qt-under-construction.md
       
   - SW-Engineering:  
-    - Introduction: sweng/index.md  
+    - SW-Engg Contents: sweng/index.md  
     - Docker:
         - Docker 101:
           - Docker-Getting Started: sweng/docker/getting-started.md
@@ -160,7 +160,7 @@ nav:
           - Docker Quick Reference: sweng/docker/docker-network-commands.md
           
   - Robotics-&-Embedded Systems: 
-    - Introduction:  embsys-drobot/index.md
+    - Robotics & ES Contents:  embsys-drobot/index.md
     - Quectel RM530N-GL: 
       - Getting Started with RM530N-GL:
         - About RM530N-GL: embsys-drobot/quectel/quectel-RM530N.md
