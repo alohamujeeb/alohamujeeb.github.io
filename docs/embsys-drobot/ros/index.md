@@ -7,8 +7,8 @@ tags:
 # Robot Operating System (ROS)
 
 ---
-This section contains following topics/sub-topics.
+Under construction
 ---
-## ROS2
+
 
 
