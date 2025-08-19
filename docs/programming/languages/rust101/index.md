@@ -11,7 +11,7 @@ Rust-101 is an introductory module that covers the fundamental programming conce
 For more advanced or Rust-specific topics, refer to the other modules on this website.
 
 ---
-## What is Go?
+## What is Rust?
 Rust is a systems programming language focused on performance, safety, and concurrency — without a garbage collector. Originally developed by Mozilla, Rust is now community-driven and known for enabling fast, reliable software.
 
 ### Key Features of Rust:

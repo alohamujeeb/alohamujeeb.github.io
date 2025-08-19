@@ -145,8 +145,8 @@ nav:
         - 01-Getting Started: programming/languages/rust101/01-gettingstarted.md
     - Frameworks/Libs: 
       - QUIC-GO 101: 
-        - Quic-go Getting Started: programming/frameworks/quic-go-101/index.md
-        - Quic-go Hello World: programming/frameworks/quic-go-101/01-quicgo-hello.md
+        - Getting Started: programming/frameworks/quic-go-101/index.md
+        - Hello World: programming/frameworks/quic-go-101/01-quicgo-hello.md
       #- Flask: programming/frameworks/flask-under-construction.md
       #- QT: programming/frameworks/qt-under-construction.md
       
