@@ -127,7 +127,8 @@ Docker version 28.3.3, build 980b856
 
 - Applications can be easily moved across machines since everything needed to run them is bundled together, eliminating the need for separate installations and configurations.
 
-
+## Usefule links
+[Docker vs Podman- External link](https://faizansiddiqui.me/writings/pages/docker-versus-podman-a-comparison)
 
 
 
