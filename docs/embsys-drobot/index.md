@@ -8,7 +8,7 @@ tags:
 # Embedded Systems and Robotics
 
 ---
-This section contains following topcs/sub-topics.
+This section contains following topics/sub-topics.
 
 ---
 ## Quectel

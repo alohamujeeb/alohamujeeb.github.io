@@ -9,7 +9,7 @@ tags:
 # Linux and Networking 
 
 ---
-This section contains following topcs/sub-topics.
+This section contains following topics/sub-topics.
 
 ---
 ## Linux CLI

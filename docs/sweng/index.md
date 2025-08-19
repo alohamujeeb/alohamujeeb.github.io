@@ -9,7 +9,7 @@ tags:
 #Software Engineering
 
 ---
-This section contains following topcs/sub-topics.
+This section contains following topics/sub-topics.
 
 ---
 ## Docker & Containers

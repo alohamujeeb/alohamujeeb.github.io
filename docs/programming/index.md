@@ -8,7 +8,7 @@ tags:
 # Programming Languages/Tools
 
 ---
-This section contains following topcs/sub-topics.
+This section contains following topics/sub-topics.
 
 ---
 ## **Languages**
