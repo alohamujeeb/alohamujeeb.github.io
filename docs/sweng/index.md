@@ -1,11 +1,9 @@
 ---
 tags:
     - cicd
-	- ci/cd
     - docker
-	- container
+    - container
 ---
-
 
 #Software Engineering
 
