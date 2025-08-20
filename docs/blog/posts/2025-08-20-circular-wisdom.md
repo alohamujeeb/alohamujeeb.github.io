@@ -21,7 +21,7 @@ tags:
 - Once upon a time, error handling in code was simple: just good old if-else checks. No drama, no flair.
 
 - Then came try-catch, heralded as a cleaner, more elegant way to handle errors. And it quickly became the new standard in many languages.
-
+<!-- more -->
 - Fast forward a few decades, and the creators of Go took a step back and basically said, "Actually... that old if-else style? Kinda better. More explicit. Easier to follow."
 
 	So they left try-catch out entirely.
