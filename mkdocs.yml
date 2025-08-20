@@ -147,6 +147,9 @@ nav:
       - Rust 101 (Common Concepts):
         - index: programming/languages/rust101/index.md
         - 01-Getting Started: programming/languages/rust101/01-gettingstarted.md
+      - Rust 201 (Intermediate RUST):
+        - index: programming/languages/rust201/index.md
+
     - Frameworks/Libs: 
       - QUIC-GO 101: 
         - index: programming/frameworks/quicgo101/index.md

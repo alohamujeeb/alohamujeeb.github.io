@@ -16,6 +16,7 @@ This section contains following topics/sub-topics.
 
 ### [Rust-101](languages/rust101/index.md)
 
+### [Rust-201](languages/rust201/index.md)
 
 ---
 ## **Frameworks/Libraries**

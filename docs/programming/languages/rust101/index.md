@@ -2,7 +2,8 @@
 tags:
     - rust
 ---
-# **Rust Programming**
+# **Rust 101**
+(A beginner's level material on Rust)
 
 ---
 ## About Rust-101 (Common programming concepts)
