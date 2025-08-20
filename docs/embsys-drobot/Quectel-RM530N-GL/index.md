@@ -1,6 +1,6 @@
 ---
 tags:
-  - Quectel
+  - quectel
   - RM530N-GL
 
 ---

@@ -2,7 +2,7 @@
 tags:
     - linux
     - linux networking
-    - linux CLI
+    - linux cli
     - bash
     - quic
 ---

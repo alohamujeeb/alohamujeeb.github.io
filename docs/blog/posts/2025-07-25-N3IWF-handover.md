@@ -8,7 +8,7 @@ author:
 readtime: 15
 
 categories: 
-  - 5G-Communication
+  - 5G
 tags:
   - 5G
   - N3IWF

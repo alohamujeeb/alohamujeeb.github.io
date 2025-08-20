@@ -84,12 +84,13 @@ plugins:
       blog_dir: blog
       blog_toc: true
       categories_allowed:
-        - 5G-Communication
+        - 5G
         - Embedded Systems
         - Robotics
         - ROS2
+        - OpenRMF
+        - RMF
         - Linux
-        - Documentation
         - Programming
         - Life experiences
   - search

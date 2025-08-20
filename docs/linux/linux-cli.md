@@ -1,8 +1,8 @@
 ---
 tags:
-  - Linux 
-  - Linux Quick Reference
-  - Linux Cheat Sheet
+  - linux 
+  - linux commands reference
+  - linux cheat sheet
 ---
 
 # Linux Commands Reference
