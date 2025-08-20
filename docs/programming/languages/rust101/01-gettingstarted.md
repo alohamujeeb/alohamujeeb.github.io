@@ -58,7 +58,7 @@ fn main() {
 	Hello, world from Rust!
 	```
 	
-## Cargo in Rust
+## 3. Cargo in Rust
 
 Cargo is Rust’s **build system** and **package manager**, and it does following:
 
@@ -128,7 +128,7 @@ Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.05s
 Hello, world from Rust!
 ```
 
-## Summary: two ways to write and execute programs
+## 4. Summary: two ways to write and execute programs
 
 1) Single file approach (used for simple testing)
 
