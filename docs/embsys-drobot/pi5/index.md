@@ -1,7 +1,6 @@
 ---
 tags:
-    - ros
-    - ros2
+    - Raspberry-Pi
 ---
 
 # Raspberry-Pi 5

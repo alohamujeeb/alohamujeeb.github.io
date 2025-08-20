@@ -1,7 +1,7 @@
 ---
 tags:
-    - ros
-    - ros2
+    - rmf
+    - openrmf
 ---
 
 # OpenRMF
