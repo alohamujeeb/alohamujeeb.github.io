@@ -26,10 +26,9 @@ tags:
 
 	So they left try-catch out entirely.
 
-- That said, for critical failures **Go did stick to try-catch-ish mechanism, just under a different name**: panic and recover.
+- That said, for critical failures **Go does stick to try-catch-ish mechanism, just under a different name**: panic and recover.
 
-
-- These "great" minds introduces their own **great wisdom** and masses just follow like crazy.
+- These "great" minds just love to introduces their own **wisdom** and masses just follow like crazy.
 
 So... what the heck is going on? 😄 
 
