@@ -41,4 +41,4 @@ Source:  [Quectel_AT_Commands_Manual_PDF](Quectel_RG520N&RG52xF&RG530F&RM520N&RM
 ---
 ## Some useful links
 
-[Quecktel 5G RM530N-GL](https://www.quectel.com/product/5g-rm530n-gl/){:target="_blank"}
+[Quectel 5G RM530N-GL](https://www.quectel.com/product/5g-rm530n-gl/){:target="_blank"}
