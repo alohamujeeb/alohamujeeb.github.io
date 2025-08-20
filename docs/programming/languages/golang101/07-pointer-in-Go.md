@@ -1,6 +1,13 @@
 # **07 Pointers in Go**
----
 
+Main topics:
+
+- pointres 
+- dereferencing
+- pointer comparision
+
+
+---
 A pointer is a variable that stores the memory address of another variable.
 
 It is used to:

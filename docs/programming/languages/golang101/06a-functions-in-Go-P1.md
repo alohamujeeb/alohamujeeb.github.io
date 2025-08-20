@@ -1,4 +1,7 @@
 # **06a Functions in Go (Part 1)**
+
+Main topics:
+
 - Defining and Calling Functions
 - Function Parameters
 - Function Return Values

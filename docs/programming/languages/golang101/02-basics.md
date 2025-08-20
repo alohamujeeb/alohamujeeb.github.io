@@ -1,13 +1,13 @@
 # **02-Some Fundamentals**
 
+Main topics:
+
 - importing packages
-- creating variables 
-- short declarations
-- constant declaration (immutable)
+- variable declarions
+- short and constant declaration
 - zero values
 
 ---
-
 ##1. **Importing packages**
 - In the previous chapter, we used a package "import fmt".
 - In Go, a package is a collection of related source files that are compiled together.

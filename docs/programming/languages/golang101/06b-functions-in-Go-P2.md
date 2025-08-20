@@ -1,4 +1,7 @@
 # **06b Functions in Go (Part 2)**
+
+Main topics:
+
 - Variadic Functions
 - Anonymous Functions
 - Closures

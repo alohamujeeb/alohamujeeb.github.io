@@ -1,10 +1,9 @@
 # **01-Getting Started**
 
-	Go Installation
+Main topics:
 
-	Hello World
-
-	Semicolons(;) in Go
+- Go Installation
+- Hello World
 
 ---
 

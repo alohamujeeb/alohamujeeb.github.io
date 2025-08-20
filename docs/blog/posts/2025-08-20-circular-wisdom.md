@@ -26,7 +26,7 @@ tags:
 
 	So they left try-catch out entirely.
 
-- However, for critical failures **Go still sticks to "try-catch"-like mechanism, just under a different name: "panic and recover".
+- However, for critical failures **Go still sticks to "try-catch"-like mechanism, just under a different name: "panic and recover".**
 
 So... what the heck is going on? 😄 
 
