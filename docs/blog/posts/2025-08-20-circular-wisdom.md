@@ -28,7 +28,7 @@ tags:
 
 - That said, for critical failures **Go does stick to try-catch-ish mechanism, just under a different name**: panic and recover.
 
-- These "great" minds love to introduces their own **wisdom** and masses love to follow like crazy.
+- These "great" minds love to introduces their personal brand of **wisdom** and masses love to follow like crazy.
 
 So... what the heck is going on? 😄 
 
