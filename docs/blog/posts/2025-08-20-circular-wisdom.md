@@ -30,6 +30,6 @@ tags:
 
 So... what the heck is going on? 😄 
 
-- These "great" minds love to introduces their personal brand of **wisdom** and masses love to follow them like crazy.
+These "great" minds love to introduces their personal brand of **wisdom** and masses love to follow them like crazy.
 
 (Still trying to make sense of all this circular wisdom.)
