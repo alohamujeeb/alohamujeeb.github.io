@@ -1,4 +1,5 @@
-# **03b Data Types-2: Strings in Go**
+# 03b Data Types-2
+(Strings)
 
 ---
 

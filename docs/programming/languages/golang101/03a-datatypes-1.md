@@ -1,5 +1,7 @@
-# **03a Data Types Part-1**
+# 03b Data Types-1
+(numbers and boolean)
 
+---
 This section contains information about following topics:
 
 - **data type**: boolean, int, float

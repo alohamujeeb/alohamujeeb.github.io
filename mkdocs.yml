@@ -132,13 +132,14 @@ nav:
         - index: programming/languages/golang101/index.md
         - 01-Getting Started: programming/languages/golang101/01-gettingstarted.md
         - 02-Some Fundamentals: programming/languages/golang101/02-basics.md
-        - 03a-Data Types(1) Numbers and Boolean: programming/languages/golang101/03a-datatypes-1.md
-        - 03b-Data Types(2) Strings: programming/languages/golang101/03b-datatypes-2.md
+        - 03a-Data Types- Part 1: programming/languages/golang101/03a-datatypes-1.md
+        - 03b-Data Types- Part 2: programming/languages/golang101/03b-datatypes-2.md
         - 04-Operators and Typecasting: programming/languages/golang101/04-operators.md
         - 05-Conditions and Loops:  programming/languages/golang101/05-if-loops.md
-        - 06a-Functions in Go- Part 1: programming/languages/golang101/06a-functions-in-Go-P1.md
-        - 06b-Functions in Go- Part 2: programming/languages/golang101/06b-functions-in-Go-P2.md
+        - 06a-Functions- Part 1: programming/languages/golang101/06a-functions-in-Go-P1.md
+        - 06b-Functions- Part 2: programming/languages/golang101/06b-functions-in-Go-P2.md
         - 07-Pointer in Go: programming/languages/golang101/07-pointer-in-Go.md
+        - 08-Panic & Recover: programming/languages/golang101/08-panic-in-Go.md
         #- imports and packages
         #- Collections 
       - Rust 101 (Common Concepts):
