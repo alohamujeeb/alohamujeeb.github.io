@@ -20,13 +20,13 @@ tags:
 - runs on Linux, macOS, and Windows.
 - enables building QUIC clients and servers, and can be used as a foundation for HTTP/3 servers.
 
-### What is an HTTP/3 server
+### What is an HTTP/3 
 
 - HTTP/3 is the latest version of the HTTP protocol used by web browsers to communicate with servers.
 - Unlike older versions (HTTP/1.1, HTTP/2), HTTP/3 runs on top of the QUIC protocol instead of TCP.
 - This means HTTP/3 servers use QUIC’s features like multiplexing — allowing many requests and responses to happen simultaneously over a single connection without blocking each other.
 
 ---
-## quic protocol (more information)
+## Some useful links
 [QUIC Protocol](../../../linux/quic.md)
 

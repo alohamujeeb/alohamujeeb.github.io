@@ -41,7 +41,7 @@ Go (or Golang) is a modern programming language developed by Google, designed fo
 - **Not Meant for Every Use Case:** Go excels at web backends, network servers, and concurrent workloads, but may fall short in areas requiring fine-grained memory management, real-time constraints, or tight binary size control.
 
 ---
-## Useful links
+## Some useful links
 [Go official website](https://go.dev/)
 
 [Learn Go](https://go.dev/learn/)

@@ -39,7 +39,7 @@ Rust is a systems programming language focused on performance, safety, and concu
 - **Not Just for Systems Programming:** Rust excels at low-level development (OS kernels, embedded), but it's also increasingly used for web backends, game engines, CLI tools, and more — though it’s not as "batteries-included" as Python or JavaScript for those domains.
 
 ---
-## Some important links
+## Some useful links
 
 - [Rust Programming Book (online)](https://doc.rust-lang.org/book/)
 
