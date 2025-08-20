@@ -5,7 +5,7 @@ date:
 author:
   name: Mujeeb
   description: Creator
-readtime: 3
+readtime: 2
 
 categories: 
   - Life experiences
