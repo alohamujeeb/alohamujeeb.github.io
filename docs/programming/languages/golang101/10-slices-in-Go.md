@@ -14,8 +14,41 @@ Main topics:
 
 - If you are familiar with concept of **vectors** in C++, then you can relate this idea.
 
-### Slice literal and slice from an existing array
-=== "Example: slice litera"
+### Basic syntax
+
+- slices are declared with empty brackets []
+- Arrays are declared three dots (...) or with a number in square brackets
+ 
+
+``` go
+// Array of 3 integers
+var a [3]int // Array of 3 integers
+    
+// Slice of integers (length unspecified)
+var s []int   //[] instead of [3]    
+
+//📌 Arrays are with three dots (...) or with a number in square brackets
+nums := []int{10, 20, 30}   // ✅Slice literal
+nums := [3]int{10, 20, 30}  // ✅ Array with fixed length
+nums := [...]int{10, 20, 30} // ✅ Array with inferred length
+```
+
+
+### Slice literal and slices from an array
+Slices are created either of the following two ways:
+
+- A slice literal is a compact syntax for creating a slice and initializing its elements in one step.
+``` go
+slice := []T{elem1, elem2, elem3}
+```
+- Slice from Array (i.e. slicing an array): 
+``` go
+a := [5]int{1, 2, 3, 4, 5}
+s := a[1:4] // Slice from index 1 to 3: [2, 3, 4]
+```
+
+
+=== "Example: slice literal"
 	``` go
 	package main
 
@@ -52,7 +85,7 @@ Main topics:
 	6
 	```
 
-=== "Example: slice from an existing array"
+=== "Example: slice from an array"
 	``` go
 	package main
 
@@ -91,7 +124,7 @@ Main topics:
 	
 	**slice is actually a pointer to an array with extra information like length and capacity**
 
-### Slice internals: three elements
+## 3. Slice internals: three elements
 The Three Elements of a Slice
 
 - Pointer: points to the first element of the underlying array that the slice references.
@@ -133,7 +166,7 @@ The Three Elements of a Slice
 	fmt.Println(s) // Output: [10]
 	```
 
-## 2. How much capacity increases
+## 4. How much capacity increases
 When you append an element and capacity is exceeded, Go allocates a new underlying array with larger capacity.
 
 - The growth strategy depends on the current capacity:
@@ -144,7 +177,7 @@ When you append an element and capacity is exceeded, Go allocates a new underlyi
 Note: In the example in previous section, the capacity increased from  3 to 6 (i.e. doubled) when a new element was added after exceeding the capacity
 
 
-## 3. What happens to original array when capacity exceeds
+## 5. What happens to original array when capacity exceeds
 
 When you append to a slice and its length reaches its capacity, Go allocates a new, bigger underlying array.
 
@@ -236,7 +269,7 @@ Note:
 - A change through s2 modified the array and was visible through s1 as well.
 
 
-## 4. Reslicing
+## 6. Reslicing
 What is Reslicing?
 
 - Reslicing means creating a new slice from an existing slice by slicing it again.
@@ -301,7 +334,7 @@ Note:
 	- The backing array may still keep the "trimmed" elements
 	- Can cause memory leaks if the backing array is large and not needed
 
-### About memory leaks in trimming
+## 7. About memory leaks in trimming
 
 - Go has garbage collection (GC) — it will automatically free memory that is no longer referenced.
 But GC can only collect memory that is truly unreachable.
@@ -329,7 +362,7 @@ We  might think that we are only keeping a slice of 10 elements, but:
 - This can quietly accumulate over time — especially in long-running services.
 
 
-## 5. make() and copy()
+## 8. make() and copy()
 - make() and copy() are two built-in functions in Go used primarily to work with slices, maps, and channels (not arrays directly).
 
 - make() is used to create and allocate memory for slices, maps, and channels.
@@ -347,7 +380,7 @@ fmt.Println("src:", src)     // [1 2 3]  (unchanged)
 fmt.Println("dst:", dst)     // [99 2 3] (changed)
 ```
 
-## 6. Shallow vs deep copy of slices
+## 9. Shallow vs deep copy of slices
 
 Deep copy:	
 
@@ -408,7 +441,7 @@ Shallow copy:
 		fmt.Println("Copy slice:    ", copySlice)  // [99 2 3 4 5]
 	}
 	```
-## 7. Multidimentional slices
+## 10. Multidimentional slices
 
 === "An empty 2D slice"
 	``` go
@@ -573,7 +606,7 @@ slice := arr[:]
 		// Output: [1 2 3 4 5 6 7 8 9]
 	}
 	```
-## 8. Slices for pass-by-reference 
+## 11. Slices to pass-by-reference 
 
 === "Example(literal slice)"
 	``` go
@@ -641,3 +674,24 @@ slice := arr[:]
 	Array: [100 2 3]
 	Slice: [100 2 3]
 	```
+## 12. When to prefer slices (over arrays)
+
+A simple rule of thumb:
+
+- Use slices almost always.
+- Use arrays only when you have a specific reason — like fixed size, performance constraints, or interfacing with C code.
+- When pass-by-reference is important due to performance considrations.
+
+``` go
+//prefer slices over arrays (like this)
+names := []string{"Alice", "Bob"}
+names = append(names, "Carol")  // dynamic growth
+```
+
+Use arrays when:
+
+- We are writing low-level or embedded, because they have less GC overhead, and tighter control.
+- We are interfacing with C code via cgo, because C functions often expect arrays.
+
+
+

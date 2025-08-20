@@ -140,8 +140,8 @@ nav:
         - 06b-Functions- Part 2: programming/languages/golang101/06b-functions-in-Go-P2.md
         - 07-Pointer in Go: programming/languages/golang101/07-pointer-in-Go.md
         - 08-Panic & Recover: programming/languages/golang101/08-panic-in-Go.md
-        - 09-Arrays and Slices-P1: programming/languages/golang101/09a-arrays-in-Go-P1.md
-        - 09-Arrays and Slices-P2: programming/languages/golang101/09b-arrays-in-Go-P2.md
+        - 09-Arrays in Go: programming/languages/golang101/09-arrays-in-Go.md
+        - 10-Slices in Go: programming/languages/golang101/10-slices-in-Go.md
         #- imports and packages
         #- Collections 
       - Rust 101 (Common Concepts):
