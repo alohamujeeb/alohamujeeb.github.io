@@ -153,7 +153,8 @@ nav:
     - Frameworks/Libs: 
       - QUIC-GO 101: 
         - index: programming/frameworks/quicgo101/index.md
-        - Hello World: programming/frameworks/quicgo101/01-hello-world.md
+        - Hello World (in Go): programming/frameworks/quicgo101/01-hello-world.md
+        - Hello World (in Python): programming/frameworks/quicgo101/01-hello-world-python-quic.md
 
   - SW-Engineering:  
     - index: sweng/index.md  

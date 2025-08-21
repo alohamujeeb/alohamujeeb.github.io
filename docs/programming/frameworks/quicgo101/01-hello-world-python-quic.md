@@ -1,9 +1,3 @@
----
-tags:
-    - aioquic
-	- quic python
----
-
 # aioquic (QUIC implementation with Python): Hello, World
 
 ## Install Dependencies

@@ -1,6 +1,6 @@
 ---
 tags:
-    - quic-go
+  - quic-go
 ---
 
 # Hello World  in Quic-Go
