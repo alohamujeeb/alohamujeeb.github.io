@@ -2,11 +2,12 @@
 tags:
   - quectel
   - RM530N-GL
+  - raspberry pi
 ---
 
 Under Construction
 
-# Quectel RM530N-GL (Mounting on Raspberry Pi)
+# Hardware setup & connections
 This section explains how to connect the RM530N-GL module to a Raspberry Pi board, covering the necessary hardware wiring and interface details.
 
 

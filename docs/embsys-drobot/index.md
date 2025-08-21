@@ -12,7 +12,7 @@ This section contains following topics/sub-topics:
 ---
 ## Quectel
 
-### [Quectel RM530N-GL](Quectel-RM530N-GL/index.md)
+### [Setting up Quectel RM530N-GL](Quectel-RM530N-GL/index.md)
 
 
 ---

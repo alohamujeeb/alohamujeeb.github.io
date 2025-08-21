@@ -179,7 +179,8 @@ nav:
     - ====Quectel====:
       - Quectel RM530N-GL: 
         - index: embsys-drobot/Quectel-RM530N-GL/index.md
-        - Mounting on Raspberry Pi: embsys-drobot/Quectel-RM530N-GL/RM530N_RPi_connections.md
+        - Hardware Setup: embsys-drobot/Quectel-RM530N-GL/hw-setup-pi5.md
+        - Software Setup: embsys-drobot/Quectel-RM530N-GL/sw-setup-pi5.md
         - AT Command Reference: embsys-drobot/Quectel-RM530N-GL/at-command-reference.md
     - ====Platforms====:
       - Raspberry-Pi 5: 

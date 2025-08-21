@@ -4,7 +4,7 @@ tags:
   - RM530N-GL
 
 ---
-# Quectel RM530N-GL
+# Setting up Quectel RM530N-GL
 
 ---
 ## Brief introduction to RM530N-GL

@@ -1,6 +1,6 @@
 ---
 tags:
-    - Raspberry-Pi
+  - raspberry pi
 ---
 
 # Raspberry-Pi 5
