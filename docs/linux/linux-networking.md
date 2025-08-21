@@ -1,6 +1,6 @@
 ---
 tags:
-	- linux networking
+  - linux networking
 ---
 
 

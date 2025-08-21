@@ -1,7 +1,7 @@
 ---
 tags:
-    - bash
-	- linux scripting
+  - bash
+  - linux scripting
 ---
 
 #Bash Scripting
