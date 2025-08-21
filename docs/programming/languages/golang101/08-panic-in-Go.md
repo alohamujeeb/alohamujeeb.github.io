@@ -2,19 +2,6 @@
 (A request to crash the program ...)
 
 ---
-## Start with my personal note
-
-- Back in the day, handling errors in code was done using plain old if-else statements, nothing fancy.
-
-- Then came the whole try-catch thing, which was so-called "cleaner" and more elegant way to deal with errors.
-
-- Fast forward a few decades, and the folks who made Go looked at all that and basically said, “You know what? The old if-else way was actually better — more straightforward and easier to understand.” So, they just skipped adding try-catch to the language.
-
-- But... for really serious situations (not everyday regular errors), they did add a try-catch-like feature, just under a different name: panic and recover.
-
-**So yeah... what the heck is going on? 😄** (Trying to make sense behind all circular wisdoms)
-
----
 ## 1. What is ```panic```
 ```panic``` in Go is a built-in function that abruptly stops the execution of the current function when a serious, **unrecoverable error** occurs.
 

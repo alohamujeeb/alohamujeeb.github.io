@@ -173,7 +173,9 @@ nav:
         - A Network Example: sweng/docker101/docker-network-example.md
         - A Multi-Client Example: sweng/docker101/tcp-example.md
         - Docker Quick Reference: sweng/docker101/docker-network-commands.md
-            
+    - ===CI/CD====:
+      - index: sweng/cicd/index.md
+
   - Robotics-&-Embedded Systems: 
     - index:  embsys-drobot/index.md
     - ====Quectel====:
