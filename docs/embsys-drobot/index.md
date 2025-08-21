@@ -16,13 +16,13 @@ This section contains following topics/sub-topics:
 
 
 ---
-## Embedded Systems
+## Embedded Platforms
 
 ### [Raspberry-Pi 5](pi5/index.md)
 
 
 ---
-## Ros2 and OpenRMF
+## Frameworks for Robotics
 
 ### [ROS2](ros/index.md)
 

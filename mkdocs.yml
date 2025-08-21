@@ -105,29 +105,32 @@ nav:
   - Start-&-Info:
     - My Online Library: index.md
     - About Me: about/aboutme.md
-    - Searching for something?:
+    - Contact Info: about/contact.md
+    - ====Search====:
       - Keywords/Tags: tags.md
-    - Updates: 
+    - ====Updates====: 
       - Whats New: whatsnew.md
-    - emojis-list: emoji-list.md
+    - ====Reference Bits====:
+      - emojis-list: emoji-list.md
     
       
   - Linux-&-Networking:
     - index: linux/index.md
-    - Linux CLI:
+    - ====Linux CLI====:
       - Linux Commands Reference: linux/linux-cli.md
-    - Linux Scripting:
+    - ====Linux Scripting====:
       - Bash Shell: linux/bash.md
-    - Linux Networking: 
-      - Networking Basics: linux/linux-networking.md
-    - quic protocol: linux/quic.md
+    - ====Linux Networking====: 
+      - Linux Networking 101: linux/linux-networking.md
+    - ====Protocls====:
+      - quic protocol: linux/quic.md
     
     
   #- RoboEmbed
   #- WebCraft  
   - Programming: 
     - index: programming/index.md
-    - Languages: 
+    - ====Languages====: 
       - Golang 101 (Common Concepts):
         - index: programming/languages/golang101/index.md
         - 01-Getting Started: programming/languages/golang101/01-gettingstarted.md
@@ -154,7 +157,7 @@ nav:
       - Rust 201 (Intermediate RUST):
         - index: programming/languages/rust201/index.md
 
-    - Frameworks/Libs: 
+    - ====Frameworks/Libs====: 
       - QUIC-GO 101: 
         - index: programming/frameworks/quicgo101/index.md
         - Hello World (in Go): programming/frameworks/quicgo101/01-hello-world.md
@@ -162,7 +165,7 @@ nav:
 
   - SW-Engineering:  
     - index: sweng/index.md  
-    - Docker & Containers:
+    - ===Containers====:
       - Docker 101:
         - index: sweng/docker101/index.md
         - Docker-Getting Started: sweng/docker101/getting-started.md
@@ -173,15 +176,15 @@ nav:
             
   - Robotics-&-Embedded Systems: 
     - index:  embsys-drobot/index.md
-    - Quectel:
+    - ====Quectel====:
       - Quectel RM530N-GL: 
         - index: embsys-drobot/Quectel-RM530N-GL/index.md
         - Mounting on Raspberry Pi: embsys-drobot/Quectel-RM530N-GL/RM530N_RPi_connections.md
         - AT Command Reference: embsys-drobot/Quectel-RM530N-GL/at-command-reference.md
-    - Embedded Platforms:
+    - ====Platforms====:
       - Raspberry-Pi 5: 
         - index: embsys-drobot/pi5/index.md
-    - ROS and RMF:
+    - ====ROS and RMF====:
       - ROS2: 
         - index: embsys-drobot/ros/index.md
       - OpenRMF:
