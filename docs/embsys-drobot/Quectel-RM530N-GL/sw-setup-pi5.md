@@ -23,12 +23,15 @@ Before we start working on the software, we need to make sure that hardware moun
 - Antenna is mounted on the cap and wires are connected properly.
 
 
-### Pictures
+### Connection pictures
 (Click to enlarge)
 
-| USB on Pi-5 | SIM and USB on Cap | Cap Mounting on PI-5|
-|:--:|:--:|:--:|
-| <a href="images/usb-pi.jpeg" target="_blank"><img src="images/usb-pi.jpeg" width="100" height="100"/></a> | <a href="images/usb-modem-and-sim.jpeg" target="_blank"><img src="images/usb-modem-and-sim.jpeg" width="100" height="100"/></a> | <a href="images/side-view-cap.jpeg" target="_blank"><img src="images/side-view-cap.jpeg" width="100" height="100"/></a> |
+| Piture type | Image(click to enlarge) | Description |
+|:--|:--:|:--|
+| USB on Pi-5 | <a href="images/usb-pi.jpeg" target="_blank"><img src="images/usb-pi.jpeg" width="100" height="100"/></a> | Shows the USB ports on the Raspberry Pi 5. |
+| SIM and USB on Cap | <a href="images/usb-modem-and-sim.jpeg" target="_blank"><img src="images/usb-modem-and-sim.jpeg" width="100" height="100"/></a> | Shows the SIM card slot and USB modem on the cap. |
+| Cap Mounting on PI-5 | <a href="images/side-view-cap.jpeg" target="_blank"><img src="images/side-view-cap.jpeg" width="100" height="100"/></a> | Shows how the cap is mounted onto the Raspberry Pi 5. |
+
 
 For detailed connection information, see the [hardware setup](hw-setup-pi5.md)
 
@@ -114,7 +117,7 @@ type any one of the following:
 ``` consolde
 sudo minicom -D /dev/ttyUSB2 -b 115200
 ```
-Or connect without mentioning the baudrate (minicom uses 115200 as default baudrate)
+Or connect without mentioning the baudrate (minicom uses 115200 as default)
 ```
 sudo minicom -D /dev/ttyUSB2 
 ```
