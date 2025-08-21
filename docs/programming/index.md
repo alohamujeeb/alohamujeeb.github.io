@@ -19,14 +19,16 @@ This section contains following topics/sub-topics.
 #### [Golang-201 (Intermediate)](languages/golang201/index.md)
 
 ### === Rust ===
-#### [Rust-101](languages/rust101/index.md)
 
-#### [Rust-201](languages/rust201/index.md)
+#### [Rust-101 (Fundamentals)](languages/rust101/index.md)
+
+#### [Rust-201 (Intermediate)](languages/rust201/index.md)
 
 ---
 ## **Frameworks/Libraries**
 
 ### === QUIC ===
+
 #### [QUIC-GO 101](frameworks/quicgo101/index.md)
 
 
