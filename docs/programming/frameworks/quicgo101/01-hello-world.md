@@ -8,7 +8,7 @@
 ## 1. Install Go
 
 i. Make sure you have Go installed: 
-[go installation](../../languages/golang101/01-gettingstarted.md)
+[Go Installation](../../languages/golang101/01-gettingstarted.md)
 
 
 
