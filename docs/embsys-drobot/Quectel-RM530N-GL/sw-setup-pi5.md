@@ -15,7 +15,7 @@ We will be establishing a network **over a USB connection** from RPi-5 and the R
 (we are **NOT** ❌ using PCIe connection between PI board and RM50N-GL hat in the setup)
 
 ---
-## 1. Check the hard-connectivity
+## 1. Check the hardware connectivity
 Before we start working on the software, we need to make sure that hardware mounting and connectivity is correct.
 
 - USB cable is connected 
