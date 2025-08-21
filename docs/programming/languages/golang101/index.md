@@ -3,7 +3,7 @@ tags:
     - go
     - golang
 ---
-# **Golan(Go) Programming**
+# **Golang(Go) 101**
 
 ---
 ## About Golagng 101 (Common programming concepts)

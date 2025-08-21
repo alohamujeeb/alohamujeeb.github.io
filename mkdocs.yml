@@ -144,6 +144,10 @@ nav:
         - 10-Slices in Go: programming/languages/golang101/10-slices-in-Go.md
         #- imports and packages
         #- Collections 
+      - Golang 201 (Intermediate):
+        - index: programming/languages/golang201/index.md
+        - 01-Modules in Go: programming/languages/golang201/01-modules.md
+        
       - Rust 101 (Common Concepts):
         - index: programming/languages/rust101/index.md
         - 01-Getting Started: programming/languages/rust101/01-gettingstarted.md
