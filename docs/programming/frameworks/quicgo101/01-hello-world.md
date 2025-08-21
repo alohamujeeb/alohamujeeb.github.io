@@ -1,3 +1,8 @@
+---
+tags:
+    - quic-go
+---
+
 # Hello World  in Quic-Go
 
 - This is a simple "Hello, World" application designed to set up the quic-go environment and verify that it's working correctly.
@@ -51,7 +56,7 @@ go get github.com/quic-go/quic-go
 ```
 
 
-## 4. Generate Self-Signed certificate for localhost
+## 4. Generate self-signed certificate for localhost
 
 ```console
 openssl req \
@@ -200,3 +205,7 @@ go run client.go
 ### Screenshot
 ![Server and Client Running](images/HelloWorld-gui-go-running.JPG)
 
+## 8. A Python example (Bonus)
+This module is about Quic implementation in Go language. However, for curious readers, following example "Hello World" is provided in Python.
+
+[Hello World- Quic in Python](01-hello-world-python-quic.md)
