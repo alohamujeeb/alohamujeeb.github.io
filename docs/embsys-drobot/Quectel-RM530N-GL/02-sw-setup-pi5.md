@@ -119,11 +119,7 @@ To send AT commands to modem over mincom (which is dont for testing or some basi
 
 ### Configure modem via AT commands
 
-- AT commands are the universal language to interact with and control cellular modems (provided by the modem vendors like quectel)
-- We first need to connect to modem and configure it using AT commands over the USB interface (minicom is the tool at this stage)
-- Once modem is configure, and connectivity to the vendor is verified (e.g. SIM is activated), other software (ModemManager, PPP, etc.) automates these commands.
-(to be explained in the next section)
-
+AT commands are the universal language to interact with and control cellular modems (provided by the modem vendors like quectel)
 
 ### Step 1: Start minicom
 type any one of the following:
