@@ -152,6 +152,16 @@ sudo minicom -D /dev/ttyUSB2
 	AT+CFUN=1,1	  ( to reboot the modem)
 	
 
+-- verify This
+Supported Modes and Their Values
+Value	Mode	Interface Name	Kernel Driver	Notes
+0	ECM	usb0	cdc_ether, usbnet	Simple, widely supported
+1	MBIM	wwan0	cdc_mbim, usbnet	Modern, efficient, preferred
+2	RNDIS	usb0	rndis_host	Windows-friendly, less common on Linux
+3	NCM	usb0 or wwanX	cdc_ncm	High-performance alternative
+5	QMI	wwanX	qmi_wwan	For use with libqmi or qmicli
+
+
 ## 6. Test for internet connectivity
 
 	- Check network interface
