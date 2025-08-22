@@ -136,6 +136,16 @@ sudo minicom -D /dev/ttyUSB2
 	- connect to APN and get IP
 	- create a TCP connection
 
+Note:
+Check APN Automatically (if supported)
+AT+QICSGP=1,1
+
+or activate without APN
+AT+QIACT=1
+
+or set "sunsurf" for M1
+
+
 ### Step 3: Change device mode and interface
 	
 	- change device mode
