@@ -8,14 +8,15 @@ tags:
 # Hardware setup & connections
 This section explains how to connect the RM530N-GL module to a Raspberry Pi board, covering the necessary hardware wiring and interface details.
 
+---
 ## 1. Three hardware modules
 The hardware setup described here is made up of three modules integrated into a single system
 
 | Component | Image(click to enlarge) | Description |
 |:--|:--:|:--|
-| 5G RM530N-GL | <a href="images/component-1-RM530.png" target="_blank"><img src="images/component-1-RM530.png" width="100" height="100"/></a> | A Sub-6GHz & mmWave 5G module |
-| RM530N-GL 5G HAT+| <a href="images/component-2-Hat.jpg" target="_blank"><img src="images/component-2-Hat.jpg" width="100" height="100"/></a> | RM530N-GL Cap  to 5G HAT+ |
-| RPi-5 | <a href="images/component-3-Pi5-with-hat-mounted.jpg" target="_blank"><img src="images/component-3-Pi5-with-hat-mounted.jpg" width="100" height="100"/></a> | Raspberry Pi 5 on which cap is mounted |
+| 5G RM530N-GL | <a href="images/component-1-RM530.png"><img src="images/component-1-RM530.png" width="100" height="100"/></a> | A Sub-6GHz & mmWave 5G module |
+| RM530N-GL 5G HAT+| <a href="images/component-2-Hat.jpg"><img src="images/component-2-Hat.jpg" width="100" height="100"/></a> | RM530N-GL Cap  to 5G HAT+ |
+| RPi-5 | <a href="images/component-3-Pi5-with-hat-mounted.jpg"><img src="images/component-3-Pi5-with-hat-mounted.jpg" width="100" height="100"/></a> | Raspberry Pi 5 on which cap is mounted |
 
 Description:
 
@@ -31,7 +32,7 @@ The main computing unit where the HAT is mounted. Once connected, the system bec
 In short:
 **"Modem is mounted on the HAT, and the Hat is mounted on RPi-5"**
 
-
+---
 ## 2. Additional modules 
 
 Antenna and SIM cards are two important additional units that must be connected to the assembled board. The antenna enables wireless communication, while the SIM card provides access to a mobile network.
@@ -47,11 +48,12 @@ Click to enlarge
 
 | Antenna and Wires | SIM-card slot | 
 |:--|:--:|
-| <a href="images/antenna-and-wires.jpg" target="_blank"><img src="images/antenna-and-wires.jpg" width="100" height="100"/></a> | <a href="images/SIM-slot.jpg" target="_blank"><img src="images/SIM-slot.jpg" width="100" height="100"/></a> | 
+| <a href="images/antenna-and-wires.jpg"><img src="images/antenna-and-wires.jpg" width="100" height="100"/></a> | <a href="images/SIM-slot.jpg"><img src="images/SIM-slot.jpg" width="100" height="100"/></a> | 
 
+---
 ## 3. Assembling the hardware
 
-Reference: [Waveshre-RM50N-GL_5G_Hat+](https://www.waveshare.com/wiki/RM530N-GL_5G_HAT+#RM5xx_Series_Module){:target="_blank"}
+Reference: [Waveshre-RM50N-GL_5G_Hat+](https://www.waveshare.com/wiki/RM530N-GL_5G_HAT+#RM5xx_Series_Module)
 
 Follow the instructions provided in the link above to complete the hardware assembly.
 
@@ -62,18 +64,18 @@ Click to enlarge:
 
 | ❌PCIe Connection (NOT used in this project) | ✅ USB Connection (used in this project) | 
 |:--|:--:|
-| <a href="images/PCIe_TO_5G_HAT+_Hard22.png" target="_blank"><img src="images/PCIe_TO_5G_HAT+_Hard22.png" width="100" height="100"/></a> | <a href="images/usb-modem-and-sim.jpeg" target="_blank"><img src="images/usb-modem-and-sim.jpeg" width="100" height="100"/></a> | 
+| <a href="images/PCIe_TO_5G_HAT+_Hard22.png"><img src="images/PCIe_TO_5G_HAT+_Hard22.png" width="100" height="100"/></a> | <a href="images/usb-modem-and-sim.jpeg"><img src="images/usb-modem-and-sim.jpeg" width="100" height="100"/></a> | 
 
-
+---
 ## 4. Final assembled board
 
 Below are some images of the fully assembled product, ready for use:
 
 | Piture type | Image(click to enlarge) | Description |
 |:--|:--:|:--|
-| USB on Pi-5 | <a href="images/usb-pi.jpeg" target="_blank"><img src="images/usb-pi.jpeg" width="100" height="100"/></a> | Shows the USB ports on the Raspberry Pi 5. |
-| SIM and USB on Cap | <a href="images/usb-modem-and-sim.jpeg" target="_blank"><img src="images/usb-modem-and-sim.jpeg" width="100" height="100"/></a> | Shows the SIM card slot and USB modem on the cap. |
-| Cap Mounting on PI-5 | <a href="images/side-view-cap.jpeg" target="_blank"><img src="images/side-view-cap.jpeg" width="100" height="100"/></a> | Shows how the cap is mounted onto the Raspberry Pi 5. |
+| USB on Pi-5 | <a href="images/usb-pi.jpeg"><img src="images/usb-pi.jpeg" width="100" height="100"/></a> | Shows the USB ports on the Raspberry Pi 5. |
+| SIM and USB on Cap | <a href="images/usb-modem-and-sim.jpeg"><img src="images/usb-modem-and-sim.jpeg" width="100" height="100"/></a> | Shows the SIM card slot and USB modem on the cap. |
+| Cap Mounting on PI-5 | <a href="images/side-view-cap.jpeg"><img src="images/side-view-cap.jpeg" width="100" height="100"/></a> | Shows how the cap is mounted onto the Raspberry Pi 5. |
 
 ---
 ## 5. Some useful links

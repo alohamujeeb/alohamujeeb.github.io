@@ -34,7 +34,7 @@ lsusb
 ```
 There appears a list of usb devices, and if quectel modem is detected, we should see an entry like this:
 ``` console
-**Quectel Wireless Solutions Co., Ltd. RM530N-GL**
+Quectel Wireless Solutions Co., Ltd. RM530N-GL
 ```
 ### Check serial ports (ttyUSB)
 ``` console
@@ -58,7 +58,7 @@ usb-devices
 ```
 Information about **Quectel and device model RM50N-GL** should be display (click to enlarge):
 
-<a href="images/usb-devices.jpeg" target="_blank">
+<a href="images/usb-devices.jpeg">
   <img src="images/usb-devices.jpeg" width="100" height="100"/>
 </a>
 
@@ -108,6 +108,13 @@ Copyright (C) Miquel van Smoorenburg.
 
 ### ⚠️ Stop ModemManager (MM) service
 
+Type this to stop the service
+``` console
+sudo systemctl stop ModemManager
+```
+
+**Why?**
+
 To send AT commands to modem over mincom (which is dont for testing or some basic configuration), we have to stop the ModemManager service, because MM also uses same connection to send AT commands, and we'll encouter unwanted behaviour.
 
 ### Configure modem via AT commands
@@ -127,7 +134,6 @@ Or connect without mentioning the baudrate (minicom uses 115200 as default)
 ```
 sudo minicom -D /dev/ttyUSB2 
 ```
-
 
 ### Step 2: Configure mobile network connectivity
 	under construction
@@ -171,26 +177,29 @@ Value	Mode	Interface Name	Kernel Driver	Notes
 3	NCM	usb0 or wwanX	cdc_ncm	High-performance alternative
 5	QMI	wwanX	qmi_wwan	For use with libqmi or qmicli
 
+[Detailed AT Commands Reference](at-command-reference.md)
 
+---
 ## 6. Test for internet connectivity
 
 	- Check network interface
 	- ping and internet access
 	
-
+---
 ## 7. Setup modem manager
 	- setup DNS
 	
 	add a link to MManager tutorial
 	
 
+For detailed introduction to MM: 
+[Modem Manager in detail](../modem-manager.md)    
 
 ---
 ## 8.Some useful links
 
-[Waveshre-RM50N-GL_5G_Hat+](https://www.waveshare.com/wiki/RM530N-GL_5G_HAT+#RM5xx_Series_Module)
+[Detailed AT Commands Reference](at-command-reference.md)
 
-[Quectel 5G RM530N-GL](https://www.quectel.com/product/5g-rm530n-gl/)
-
-[Hubtronics-RM530N-GL PCIe to 5G Hat+](https://www.hubtronics.in/rm530n-gl-5g-hat-plus?srsltid=AfmBOor0o1-OiXnwroMSHIjHqa-Fa92hwIS_DCLU8MhuV3YA5WxNgYaD)
 [Quectel_AT_Commands_Manual_PDF](Quectel_RG520N&RG52xF&RG530F&RM520N&RM530N_Series_AT_Commands_Manual_V1.0.0_Preliminary_20220812.pdf)
+
+[Modem Manager in detail](../modem-manager.md)

@@ -9,7 +9,7 @@ Under Construction
 # Modem Manager (MM)
 ModemManager provides a unified high level API for communicating with mobile broadband modems, regardless of the protocol used to communicate with the actual device (Generic AT, vendor-specific AT, QCDM, QMI, MBIM...).
 
-
+---
 ## 1. Need of MM
 
 - A modem connected to a computer via USB or PCIe interface, is managed by AT commands. 
@@ -37,7 +37,7 @@ It is NOT for:
 	- Ethernet (wired)
 	- Wi-Fi (wireless LAN)
 	- Bluetooth
-
+---
 ## 2. Higher level managers
 
 In most desktop or embedded Linux systems:
@@ -55,9 +55,9 @@ In most desktop or embedded Linux systems:
 - NM: Manages overall network connections (including Wi-Fi, Ethernet, and cellular via ModemManager)
 - D-Bus is a message bus system used for inter-process communication on Linux.
 
+---
 ## 3. Setting up MM 
 MM needs to interact with many different modems, each with their quirks, protocols, and required AT command sequences.
-
 
 ### MM detects & talks
 
@@ -103,6 +103,7 @@ mmcli -m 0
 mmcli -m 1
 ```
 
+---
 ## 4. State machine
 ModemManager follows a state machine.
 
@@ -115,7 +116,9 @@ It sends AT commands in each state:
 - Scan/register with network
 - Set APN and bring up bearer
 
+---
 ## 5. mmcli and NM
+(this section is under construction)... following is only for my reference to complete this article
 
 mmcli:
 ``` console
@@ -133,10 +136,8 @@ NM:
 
 If you're using NetworkManager, it will call ModemManager automatically when using a mobile broadband profile.
 
-
-
 ---
-Ignore this section...this is yet to be written...some links for my personal reference till I complete this section
+Ignore this section as well...this is yet to be written...some links for my personal reference till I complete this section
 
 for modes
 [To be exploredReference](https://spotpear.com/wiki/RM520N-GL.html) 
