@@ -111,7 +111,7 @@ nav:
       - Keywords/Tags: tags.md
     - ====Updates====: 
       - Whats New: whatsnew.md
-    - ====Reference Bits====:
+    - ===Reference Bits===:
       - emojis-list: emoji-list.md
     
       
@@ -119,9 +119,9 @@ nav:
     - index: linux/index.md
     - ====Linux CLI====:
       - Linux Commands Reference: linux/linux-cli.md
-    - ====Linux Scripting====:
+    - ===Linux Scripting===:
       - Bash Shell: linux/bash.md
-    - ====Linux Networking====: 
+    - ===Linux Networking===: 
       - Linux Networking 101: linux/linux-networking.md
       - Modem Manager: embsys-drobot/modem-manager.md
     - ====Protocls====:
@@ -159,7 +159,7 @@ nav:
       - Rust 201 (Intermediate RUST):
         - index: programming/languages/rust201/index.md
 
-    - ====Frameworks/Libs====: 
+    - ===Frameworks/Libs===: 
       - QUIC-GO 101: 
         - index: programming/frameworks/quicgo101/index.md
         - Hello World (in Go): programming/frameworks/quicgo101/01-hello-world.md
@@ -190,7 +190,7 @@ nav:
     - ====Platforms====:
       - Raspberry-Pi 5: 
         - index: embsys-drobot/pi5/index.md
-    - ====ROS and RMF====:
+    - ====ROS/RMF====:
       - ROS2: 
         - index: embsys-drobot/ros/index.md
       - OpenRMF:

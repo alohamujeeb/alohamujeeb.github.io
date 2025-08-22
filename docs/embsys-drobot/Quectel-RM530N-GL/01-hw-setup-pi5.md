@@ -21,10 +21,12 @@ The hardware setup described here is made up of three modules integrated into a 
 Description:
 
 1. **5G RM530N-GL:**
-A 5G modem responsible for mobile network communication. However, it requires additional components to function properly, including a SIM card and antennas.
+A 5G modem responsible for mobile network communication. However, it requires additional components to function properly, including a SIM card and antennas. 
+[Quectel 5G RM530N-GL](https://www.quectel.com/product/5g-rm530n-gl/)
 
 2. **RM530N-GL 5G HAT+:**
 This HAT acts as a bridge between the modem and the target computer (e.g. Raspberry Pi 5). It provides the necessary interfaces for both sides: a SIM slot and other supports for the modem, and USB/PCIe interfaces to connect with the target computer.
+[Waveshre-RM50N-GL_5G_Hat+](https://www.waveshare.com/wiki/RM530N-GL_5G_HAT+#RM5xx_Series_Module)
 
 3. **Target Computer (e.g. Raspberry Pi 5):**
 The main computing unit where the HAT is mounted. Once connected, the system becomes a complete, functional solution for 5G communication.
@@ -80,9 +82,9 @@ Below are some images of the fully assembled product, ready for use:
 ---
 ## 5. Some useful links
 
-[Waveshre-RM50N-GL_5G_Hat+](https://www.waveshare.com/wiki/RM530N-GL_5G_HAT+#RM5xx_Series_Module)
-
 [Quectel 5G RM530N-GL](https://www.quectel.com/product/5g-rm530n-gl/)
+
+[Waveshre-RM50N-GL_5G_Hat+](https://www.waveshare.com/wiki/RM530N-GL_5G_HAT+#RM5xx_Series_Module)
 
 [Hubtronics-RM530N-GL PCIe to 5G Hat+](https://www.hubtronics.in/rm530n-gl-5g-hat-plus?srsltid=AfmBOor0o1-OiXnwroMSHIjHqa-Fa92hwIS_DCLU8MhuV3YA5WxNgYaD)
 
