@@ -119,7 +119,7 @@ sudo systemctl stop ModemManager
 ### ✅ Configure modem via AT commands
 AT commands are the universal language to interact with and control cellular modems (provided by the modem vendors like quectel)
 
-### Step 1: Start minicom
+### Step 1: Start Minicom
 type any one of the following:
 ``` consolde
 sudo minicom -D /dev/ttyUSB2 -b 115200
@@ -131,7 +131,7 @@ sudo minicom -D /dev/ttyUSB2
 
 **(This section and after this are  still under construction...following is just for my own refrence to complete this page..later on will be adjusted properly)**
 	
-### Step 2: Configure mobile network connectivity
+### Step 2: Configure telco connectivity
 
 	
 	- activate sim
@@ -148,7 +148,7 @@ AT+QIACT=1
 or set "sunsurf" for M1
 
 
-### Step 3: Change device mode and interface
+### Step 3: Configure USB interface
 	
 	- change device mode
 	- switch from PCIe to USB 
@@ -164,7 +164,8 @@ or set "sunsurf" for M1
 	AT+CFUN=1,1	  ( to reboot the modem)
 	
 
-**must verify following modes' values**
+**must verify following modes' values**'
+(use lsmod because every source has diffeent info
 
 | Value | Mode  | Interface Name | Kernel Driver            | Notes                                   |
 |-------|-------|----------------|---------------------------|-----------------------------------------|
@@ -174,11 +175,10 @@ or set "sunsurf" for M1
 | 3     | NCM   | usb0 or wwanX  | cdc_ncm                   | High-performance alternative            |
 | 5     | QMI   | wwanX          | qmi_wwan                  | For use with libqmi or qmicli           |
 
-
 [Detailed AT Commands Reference](at-command-reference.md)
 
 ---
-## 6. Test for internet connectivity
+## 6. Test internet connection
 
 	- Check network interface
 	- ping and internet access
@@ -189,12 +189,11 @@ or set "sunsurf" for M1
 	
 	add a link to MManager tutorial
 	
-
 For detailed introduction to MM: 
 [Modem Manager in detail](../modem-manager.md)    
 
 ---
-## Index
+## 8. Index
 ### Com port functions (ttyUSB*)
 The com port recognized by the module acts as follows:
 
@@ -234,7 +233,7 @@ This sets: (as in the pdf reference document)
     Mode = default (0) → one USB function exposed as ECM (likely usb0)
 
 ---
-## 8.Some useful links
+## 9. Some useful links
 
 [Detailed AT Commands Reference](at-command-reference.md)
 
