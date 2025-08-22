@@ -11,8 +11,8 @@ This section contains material about installing necessary drivers, initializing 
 
 **Important note:**
 
-We will be establishing a network **over a USB connection** from RPi-5 and the RM530N-GL cap. 
-(we are **NOT** ❌ using PCIe connection between PI board and RM50N-GL hat in this setup)
+We will be establishing a network ✅ **over a USB connection** from RPi-5 and the RM530N-GL cap. 
+(we are ❌ **NOT** using PCIe connection between PI board and RM50N-GL hat in this setup)
 
 ---
 ## 1. Check the hardware connectivity
