@@ -9,6 +9,15 @@ tags:
 This section explains how to connect the RM530N-GL module to a Raspberry Pi board, covering the necessary hardware wiring and interface details.
 
 ---
+**Note:** 
+
+5G RM530N-GL modem supports TWO types of interfaces to the host computer; USB and PCIe
+
+- ❌ This project does not use the PCIe connection to interface the HAT with the Raspberry Pi 5.
+- ✅ Instead, the USB interface is used to connect the HAT to the Raspberry Pi 5.
+
+
+---
 ## 1. Three hardware modules
 The hardware setup described here is made up of three modules integrated into a single system
 
@@ -55,14 +64,12 @@ Click to enlarge
 ---
 ## 3. Assembling the hardware
 
-Reference: [Waveshre-RM50N-GL_5G_Hat+](https://www.waveshare.com/wiki/RM530N-GL_5G_HAT+#RM5xx_Series_Module)
+Follow the instructions provided in the link below to complete the hardware assembly.
 
-Follow the instructions provided in the link above to complete the hardware assembly.
+[Waveshre-RM50N-GL_5G_Hat+](https://www.waveshare.com/wiki/RM530N-GL_5G_HAT+#RM5xx_Series_Module)
 
-- ❌ Note: This project does not use the PCIe connection to interface the HAT with the Raspberry Pi 5.
-- ✅ Instead, the USB interface is used to connect the HAT to the Raspberry Pi 5.
 
-Click to enlarge:
+Connection pictures (Click to enlarge):
 
 | ❌PCIe Connection (NOT used in this project) | ✅ USB Connection (used in this project) | 
 |:--|:--:|
