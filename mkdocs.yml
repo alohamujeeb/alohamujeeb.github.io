@@ -169,10 +169,10 @@ nav:
     - ===Containers====:
       - Docker 101:
         - index: sweng/docker101/index.md
-        - Docker-Getting Started: sweng/docker101/getting-started.md
-        - Hello-Docker: sweng/docker101/docker-hello.md
-        - A Network Example: sweng/docker101/docker-network-example.md
-        - A Multi-Client Example: sweng/docker101/tcp-example.md
+        - Docker-Getting Started: sweng/docker101/01-getting-started.md
+        - Hello-Docker: sweng/docker101/02-docker-hello.md
+        - A Network Example: sweng/docker101/03-docker-network-example.md
+        - A Multi-Client Example: sweng/docker101/04-tcp-example.md
         - Docker Quick Reference: sweng/docker101/docker-network-commands.md
     - ===CI/CD====:
       - index: sweng/cicd/index.md

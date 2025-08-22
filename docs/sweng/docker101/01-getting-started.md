@@ -67,14 +67,14 @@ sudo apt install \
 	lsb-release -y
 ```
 
-### Step 2:  Add Docker’s official GPG key
+### Step 2:  Add docker’s official GPG key
 ``` bash
 sudo mkdir -p /etc/apt/keyrings
 curl -fsSL https://download.docker.com/linux/debian/gpg | \
     sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
 ```
 
-### Step 3: Add Docker's repository
+### Step 3: Add docker's repository
 
 - Find debian codename by ``` lsb_release -c ```
 (code name can be "bookwork" or "buster", or "bullseye" etc.) 

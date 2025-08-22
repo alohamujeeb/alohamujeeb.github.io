@@ -15,7 +15,7 @@ For more advanced or Go-specific topics, refer to the other modules on this webs
 ## What is Go?
 Go (or Golang) is a modern programming language developed by Google, designed for simplicity, performance, and scalability.
 
-### Key Features of Go:
+### Key Features of Go ✅
 
 - **Open Source & Cross-Platform:** Runs seamlessly on Linux, Windows, and macOS.
 
@@ -33,7 +33,7 @@ Go (or Golang) is a modern programming language developed by Google, designed fo
 
 
 ---
-## What Go is not?
+## What Go is not? ❌
 
 - **Not Primarily for System Programming:** While Go is powerful, it's not designed for low-level system programming (e.g. writing OS kernels or device drivers). Languages like C, C++, and Rust offer more control over memory, hardware access, and performance tuning.
 

@@ -15,7 +15,7 @@ For more advanced or Rust-specific topics, refer to the other modules on this we
 ## What is Rust?
 Rust is a systems programming language focused on performance, safety, and concurrency — without a garbage collector. Originally developed by Mozilla, Rust is now community-driven and known for enabling fast, reliable software.
 
-### Key Features of Rust:
+### Key Features of Rust ✅
 
 - **Memory Safety Without GC:** Rust uses ownership and borrowing instead of garbage collection to manage memory — preventing null pointers, buffer overflows, and data races at compile time.
 
@@ -31,7 +31,7 @@ Rust is a systems programming language focused on performance, safety, and concu
 
 
 ---
-## What Rust is not?
+## What Rust is not? ❌
 
 - **Not the Easiest to Learn:** Rust has a steep learning curve, especially for developers new to systems programming or unfamiliar with ownership/borrowing concepts.
 
