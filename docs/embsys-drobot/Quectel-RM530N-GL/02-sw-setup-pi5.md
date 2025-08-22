@@ -26,7 +26,7 @@ For detailed connection information, see the [hardware setup](01-hw-setup-pi5.md
 
 ---
 ## 2. USB connectivity
-Power-on the RPi-5 board with the cap mounted on (as shown in above pictures).
+Power-on the RPi-5 board with the cap mounted on.
 
 ### Check USB detection
 ``` console
