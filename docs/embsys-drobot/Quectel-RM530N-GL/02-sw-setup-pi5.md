@@ -121,7 +121,7 @@ To send AT commands to modem over mincom (which is dont for testing or some basi
 
 AT commands are the universal language to interact with and control cellular modems (provided by the modem vendors like quectel)
 
-### Step 1: Start minicom
+#### Step 1: Start minicom
 type any one of the following:
 ``` consolde
 sudo minicom -D /dev/ttyUSB2 -b 115200
@@ -133,7 +133,7 @@ sudo minicom -D /dev/ttyUSB2
 
 **(This section and after this are  still under construction...following is just for my own refrence to complete this page..later on will be adjusted properly)**
 	
-### Step 2: Configure mobile network connectivity
+#### Step 2: Configure mobile network connectivity
 
 	
 	- activate sim
@@ -150,7 +150,7 @@ AT+QIACT=1
 or set "sunsurf" for M1
 
 
-### Step 3: Change device mode and interface
+#### Step 3: Change device mode and interface
 	
 	- change device mode
 	- switch from PCIe to USB 
@@ -166,14 +166,15 @@ or set "sunsurf" for M1
 	AT+CFUN=1,1	  ( to reboot the modem)
 	
 
--- verify This
-Supported Modes and Their Values
-Value	Mode	Interface Name	Kernel Driver	Notes
-0	ECM	usb0	cdc_ether, usbnet	Simple, widely supported
-1	MBIM	wwan0	cdc_mbim, usbnet	Modern, efficient, preferred
-2	RNDIS	usb0	rndis_host	Windows-friendly, less common on Linux
-3	NCM	usb0 or wwanX	cdc_ncm	High-performance alternative
-5	QMI	wwanX	qmi_wwan	For use with libqmi or qmicli
+-- **must verify following modes' values
+| Value | Mode  | Interface Name | Kernel Driver            | Notes                                   |
+|-------|-------|----------------|---------------------------|-----------------------------------------|
+| 0     | ECM   | usb0           | cdc_ether, usbnet         | Simple, widely supported                |
+| 1     | MBIM  | wwan0          | cdc_mbim, usbnet          | Modern, efficient, preferred            |
+| 2     | RNDIS | usb0           | rndis_host                | Windows-friendly, less common on Linux |
+| 3     | NCM   | usb0 or wwanX  | cdc_ncm                   | High-performance alternative            |
+| 5     | QMI   | wwanX          | qmi_wwan                  | For use with libqmi or qmicli           |
+
 
 [Detailed AT Commands Reference](at-command-reference.md)
 
