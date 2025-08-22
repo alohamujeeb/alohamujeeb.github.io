@@ -51,7 +51,8 @@ usb 1-1: GSM modem (1-port) converter now attached to ttyUSB1
 usb 1-1: GSM modem (1-port) converter now attached to ttyUSB2
 usb 1-1: GSM modem (1-port) converter now attached to ttyUSB3
 ```
-### usb-decie list (optional)
+
+### usb-device list (optional)
 type
 ``` console
 usb-devices
@@ -191,6 +192,46 @@ or set "sunsurf" for M1
 
 For detailed introduction to MM: 
 [Modem Manager in detail](../modem-manager.md)    
+
+---
+## Index
+### Com port functions (ttyUSB*)
+The com port recognized by the module acts as follows:
+
+[Reference](https://spotpear.com/wiki/RM520N-GL.html)
+
+| Device/Port    | Description                              |
+|----------------|------------------------------------------|
+| /dev/ttyUSB0   | DIAG Port for output developing message  |
+| /dev/ttyUSB1   | NMEA Port for GNSS NMEA data output      |
+| /dev/ttyUSB2   | AT Port for AT Commands                  |
+| /dev/ttyUSB3   | Modem                                    |
+
+
+### Internet access modes
+[Reference](https://spotpear.com/wiki/RM520N-GL.html)
+
+**important:" use lsmod  to verify
+(different information at different places)
+
+| Command                         | Driver Type | Description                                |
+|--------------------------------|-------------|--------------------------------------------|
+| AT+QCFG="usbnet",0             | NDIS (QMI)  | Driver type is NDIS (QMI)                  |
+| AT+QCFG="usbnet",1             | ECM         | Driver type is ECM (recommended for Linux) |
+| AT+QCFG="usbnet",2             | MBIM        | Driver type is MBIM (recommended for Windows, not supported for Linux) |
+| AT+QCFG="usbnet",3             | RNDIS       | Driver type is RNDIS (recommended for Linux) |
+| AT+QCFG="usbnet",5             | NCM         | Driver type is NCM (not supported for Linux) |
+
+### USB vs PCIe mode selection
+Ref: [Quectel_AT_Commands_Manual_PDF](Quectel_RG520N&RG52xF&RG530F&RM520N&RM530N_Series_AT_Commands_Manual_V1.0.0_Preliminary_20220812.pdf)
+
+at+qcfg="data_interface",1,0
+at+qcfg="data_interface",0,0
+
+**put explaination from the above PDF file**
+This sets: (as in the pdf reference document)
+    Protocol = ECM (0) → Ethernet-over-USB
+    Mode = default (0) → one USB function exposed as ECM (likely usb0)
 
 ---
 ## 8.Some useful links
