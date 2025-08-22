@@ -49,7 +49,7 @@ In this example, we will set up two containers—one for the client and one for 
 
 ---
 ## 3. Directory structure
-Create the following directory structure. Refer to the previous tutorial [Hello Docker](docker-hello.md) if you need a refresher.
+Create the following directory structure. Refer to the previous tutorial [Hello Docker](02-docker-hello.md) if you need a refresher.
 
 ```
 # we do not need any extra modules other than the standard ones
