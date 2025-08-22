@@ -115,7 +115,7 @@ sudo systemctl stop ModemManager
 
 **Why?**
 
-To send AT commands to modem over mincom (which is dont for testing or some basic configuration), we have to stop the ModemManager service, because MM also uses same connection to send AT commands, and we'll encouter unwanted behaviour.
+We have to stop the ModemManager service, because MM uses same usb channels as used by minicom, and we'll encouter unwanted behaviour.
 
 ### Configure modem via AT commands
 
@@ -166,7 +166,8 @@ or set "sunsurf" for M1
 	AT+CFUN=1,1	  ( to reboot the modem)
 	
 
--- **must verify following modes' values
+**must verify following modes' values
+
 | Value | Mode  | Interface Name | Kernel Driver            | Notes                                   |
 |-------|-------|----------------|---------------------------|-----------------------------------------|
 | 0     | ECM   | usb0           | cdc_ether, usbnet         | Simple, widely supported                |
