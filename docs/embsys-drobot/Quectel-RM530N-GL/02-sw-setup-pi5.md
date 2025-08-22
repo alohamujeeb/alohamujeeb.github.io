@@ -22,17 +22,6 @@ Before we start working on the software, we need to make sure that hardware moun
 - Cap is mounted properly.
 - Antenna is mounted on the cap and wires are connected properly.
 
-
-### Connection pictures
-(Click to enlarge)
-
-| Piture type | Image(click to enlarge) | Description |
-|:--|:--:|:--|
-| USB on Pi-5 | <a href="images/usb-pi.jpeg" target="_blank"><img src="images/usb-pi.jpeg" width="100" height="100"/></a> | Shows the USB ports on the Raspberry Pi 5. |
-| SIM and USB on Cap | <a href="images/usb-modem-and-sim.jpeg" target="_blank"><img src="images/usb-modem-and-sim.jpeg" width="100" height="100"/></a> | Shows the SIM card slot and USB modem on the cap. |
-| Cap Mounting on PI-5 | <a href="images/side-view-cap.jpeg" target="_blank"><img src="images/side-view-cap.jpeg" width="100" height="100"/></a> | Shows how the cap is mounted onto the Raspberry Pi 5. |
-
-
 For detailed connection information, see the [hardware setup](01-hw-setup-pi5.md)
 
 ---
@@ -89,36 +78,6 @@ sudo systemctl start NetworkManager  #start the service if not already running
 
 sudo systemctl enable NetworkManager #this will cause the service to start at bootup
 ```
-### ⚠️⚠️for RPi (double check its validity)????⚠️⚠️
-
-If you're on Raspberry Pi OS, and you enabled NetworkManager manually (via apt install), but now want to revert to the original/default network stack, you'd need to:
-
-``` bash
-sudo systemctl disable NetworkManager
-sudo systemctl stop NetworkManager
-
-#Re-enable dhcpcd
-sudo systemctl enable dhcpcd
-sudo systemctl start dhcpcd
-```
-
-
-### More info
-
-On Raspberry Pi OS (Raspbian):
-
-- ✅ dhcpcd is the default network manager.
-- ❌ NetworkManager is not installed or used by default.
-
-Which One Should You Use?
-
-| Use Case                                          | Recommended Service                       |
-|--------------------------------------------------|-------------------------------------------|
-| You're using **Raspberry Pi OS**                 | ✅ `dhcpcd` (default)                      |
-| You're using **Ubuntu / Debian**                 | ✅ `NetworkManager`                        |
-| You want to manage modems easily                 | ✅ `NetworkManager` (if using MBIM or QMI) |
-| You're using **`ppp` or manual control of modem**| ✅ `dhcpcd` (simpler and safer)            |
-
 
 ---
 ## 4. Install ```minicom```
@@ -147,6 +106,12 @@ Copyright (C) Miquel van Smoorenburg.
 ---
 ## 5. Configure Quectel modem 
 
+### ⚠️ Stop ModemManager (MM) service
+
+To send AT commands to modem over mincom (which is dont for testing or some basic configuration), we have to stop the ModemManager service, because MM also uses same connection to send AT commands, and we'll encouter unwanted behaviour.
+
+### Configure modem via AT commands
+
 - AT commands are the universal language to interact with and control cellular modems (provided by the modem vendors like quectel)
 - We first need to connect to modem and configure it using AT commands over the USB interface (minicom is the tool at this stage)
 - Once modem is configure, and connectivity to the vendor is verified (e.g. SIM is activated), other software (ModemManager, PPP, etc.) automates these commands.
@@ -163,21 +128,49 @@ Or connect without mentioning the baudrate (minicom uses 115200 as default)
 sudo minicom -D /dev/ttyUSB2 
 ```
 
-### Step 2: Configure modem via AT commands
 
-- 
-- 
+### Step 2: Configure mobile network connectivity
+	under construction
+	
+	- activate sim
+	- connect to APN and get IP
+	- create a TCP connection
 
+### Step 3: Change device mode and interface
+	
+	- change device mode
+	- switch from PCIe to USB 
+	
+	AT+QCFG="data_interface",0,0
+
+	This sets: (as in the pdf reference document)
+    Protocol = ECM (0) → Ethernet-over-USB
+    Mode = default (0) → one USB function exposed as ECM (likely usb0)
+	
+	AT+QCFG="usbnet",1  (default was 2, which didn't work)
+	
+	AT+CFUN=1,1	  ( to reboot the modem)
+	
+
+## 6. Test for internet connectivity
+
+	- Check network interface
+	- ping and internet access
+	
+
+## 7. Setup modem manager
+	- setup DNS
+	
+	add a link to MManager tutorial
+	
 
 
 ---
-## 6. Configure network on Pi
+## 8.Some useful links
 
----
-## 7.Some useful links
+[Waveshre-RM50N-GL_5G_Hat+](https://www.waveshare.com/wiki/RM530N-GL_5G_HAT+#RM5xx_Series_Module)
 
-[Waveshre-RM50N-GL_5G_Hat+](https://www.waveshare.com/wiki/RM530N-GL_5G_HAT+#RM5xx_Series_Module){:target="_blank"}
+[Quectel 5G RM530N-GL](https://www.quectel.com/product/5g-rm530n-gl/)
 
-[Quectel 5G RM530N-GL](https://www.quectel.com/product/5g-rm530n-gl/){:target="_blank"}
-
-[Hubtronics-RM530N-GL PCIe to 5G Hat+](https://www.hubtronics.in/rm530n-gl-5g-hat-plus?srsltid=AfmBOor0o1-OiXnwroMSHIjHqa-Fa92hwIS_DCLU8MhuV3YA5WxNgYaD){:target="_blank"}
+[Hubtronics-RM530N-GL PCIe to 5G Hat+](https://www.hubtronics.in/rm530n-gl-5g-hat-plus?srsltid=AfmBOor0o1-OiXnwroMSHIjHqa-Fa92hwIS_DCLU8MhuV3YA5WxNgYaD)
+[Quectel_AT_Commands_Manual_PDF](Quectel_RG520N&RG52xF&RG530F&RM520N&RM530N_Series_AT_Commands_Manual_V1.0.0_Preliminary_20220812.pdf)

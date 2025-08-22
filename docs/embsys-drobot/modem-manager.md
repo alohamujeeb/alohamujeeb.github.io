@@ -136,6 +136,8 @@ If you're using NetworkManager, it will call ModemManager automatically when usi
 
 
 ---
+Ignore this section...this is yet to be written...some links for my personal reference till I complete this section
+
 for modes
 [To be exploredReference](https://spotpear.com/wiki/RM520N-GL.html) 
 
@@ -152,3 +154,36 @@ for modes
 
 
 
+mmcli -L
+mmcli -m 0  (for detailed information)
+mmcli -i 0  (information is coming from the sim..and not from the network)
+
+sudo mmcli -m 0 --enable
+sudo mmcli -m 0 --simple-connect
+sudo mmcli -m 0 --connect
+
+
+ModemManager:
+1) start
+2) connect to M1:
+	mmcli -m 0 --simple-connect="apn=sunsurf"
+3) check status: mmcli -m -0
+	Status: should be connected (if everything is Ok)... previously "registred"
+
+DSN though ModemManager: 
+4) sudo bash -c 'echo -e "nameserver 8.8.8.8\nnameserver 1.1.1.1" > /etc/resolv.conf'
+(but it get reset everytime system boots)
+
+
+If you use NetworkManager:
+
+Set DNS servers through NetworkManager profiles, e.g.:
+
+nmcli connection modify usb0 ipv4.dns "8.8.8.8 8.8.4.4"
+nmcli connection modify <connection_name> ipv4.ignore-auto-dns yes
+nmcli connection up <connection_name>
+
+Few warnings:
+1) If you want to use minicom for AT commands, "stop" the modemmanager first because it also use the same path and you can observe some wrired behaviour.
+
+But under normal operations, modem manager is Ok to run
