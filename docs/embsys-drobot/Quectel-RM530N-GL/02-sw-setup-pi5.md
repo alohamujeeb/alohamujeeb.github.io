@@ -115,7 +115,7 @@ Type this to stop the service
 sudo systemctl stop ModemManager
 ```
 
-### Configure modem via AT commands
+### ✅ Configure modem via AT commands
 AT commands are the universal language to interact with and control cellular modems (provided by the modem vendors like quectel)
 
 ### Step 1: Start minicom
