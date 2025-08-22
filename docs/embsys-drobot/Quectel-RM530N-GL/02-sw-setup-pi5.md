@@ -108,20 +108,17 @@ Copyright (C) Miquel van Smoorenburg.
 
 ### ⚠️ Stop ModemManager (MM) service
 
+We have to stop the ModemManager service, because MM uses same usb channels as used by minicom, and we'll encouter unwanted behaviour.
+
 Type this to stop the service
 ``` console
 sudo systemctl stop ModemManager
 ```
 
-**Why?**
-
-We have to stop the ModemManager service, because MM uses same usb channels as used by minicom, and we'll encouter unwanted behaviour.
-
 ### Configure modem via AT commands
-
 AT commands are the universal language to interact with and control cellular modems (provided by the modem vendors like quectel)
 
-#### Step 1: Start minicom
+### Step 1: Start minicom
 type any one of the following:
 ``` consolde
 sudo minicom -D /dev/ttyUSB2 -b 115200
@@ -133,7 +130,7 @@ sudo minicom -D /dev/ttyUSB2
 
 **(This section and after this are  still under construction...following is just for my own refrence to complete this page..later on will be adjusted properly)**
 	
-#### Step 2: Configure mobile network connectivity
+### Step 2: Configure mobile network connectivity
 
 	
 	- activate sim
@@ -150,7 +147,7 @@ AT+QIACT=1
 or set "sunsurf" for M1
 
 
-#### Step 3: Change device mode and interface
+### Step 3: Change device mode and interface
 	
 	- change device mode
 	- switch from PCIe to USB 
@@ -166,7 +163,7 @@ or set "sunsurf" for M1
 	AT+CFUN=1,1	  ( to reboot the modem)
 	
 
-**must verify following modes' values
+**must verify following modes' values**
 
 | Value | Mode  | Interface Name | Kernel Driver            | Notes                                   |
 |-------|-------|----------------|---------------------------|-----------------------------------------|
