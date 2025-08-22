@@ -12,7 +12,7 @@ This section contains material about installing necessary drivers, initializing 
 **Important note:**
 
 We will be establishing a network **over a USB connection** from RPi-5 and the RM530N-GL cap. 
-(we are **NOT** ❌ using PCIe connection between PI board and RM50N-GL hat in the setup)
+(we are **NOT** ❌ using PCIe connection between PI board and RM50N-GL hat in this setup)
 
 ---
 ## 1. Check the hardware connectivity
@@ -82,7 +82,7 @@ sudo systemctl enable NetworkManager #this will cause the service to start at bo
 ---
 ## 4. Install ```minicom```
 
-Minicom:
+**Minicom:**
 
 - is a text-based serial communication tool (terminal emulator) for Linux
 - is a lightweight alternative to tools like PuTTY.
@@ -135,8 +135,10 @@ Or connect without mentioning the baudrate (minicom uses 115200 as default)
 sudo minicom -D /dev/ttyUSB2 
 ```
 
+**(This section and after this are  still under construction...following is just for my own refrence to complete this page..later on will be adjusted properly)**
+	
 ### Step 2: Configure mobile network connectivity
-	under construction
+
 	
 	- activate sim
 	- connect to APN and get IP
