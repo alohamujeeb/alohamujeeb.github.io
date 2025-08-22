@@ -7,9 +7,10 @@ tags:
 Under Construction
 
 # Modem Manager (MM)
+ModemManager provides a unified high level API for communicating with mobile broadband modems, regardless of the protocol used to communicate with the actual device (Generic AT, vendor-specific AT, QCDM, QMI, MBIM...).
 
 
-## 1. What is MM
+## 1. Need of MM
 
 - A modem connected to a computer via USB or PCIe interface, is managed by AT commands. 
 
@@ -54,6 +55,86 @@ In most desktop or embedded Linux systems:
 - NM: Manages overall network connections (including Wi-Fi, Ethernet, and cellular via ModemManager)
 - D-Bus is a message bus system used for inter-process communication on Linux.
 
+## 3. Setting up MM 
+MM needs to interact with many different modems, each with their quirks, protocols, and required AT command sequences.
+
+
+### MM detects & talks
+
+Step 1: MM is started
+``` console
+sudo systemctl start ModemManager
+```
+Step 2: Plug in a modem (e.g., Quectel RM530N)
+
+Step 3: MM auto-probes the ports
+	
+- Open each /dev/ttyUSB* port 
+- Send some probing AT commands (like ATI, AT+GMM, AT+CGMM, etc.)
+- Identify vendor, model, and supported features
+- Based on the response, it **maps the modem to a built-in plugin**.
+
+
+### Modem plugins
+ModemManager has many built-in plugins, like:
+
+- quectel
+- telit
+- sierra
+- huawei
+- generic
+
+Each plugin knows:
+
+- Which ports are for AT, data, GPS, etc.
+- What AT commands to use to initialize
+- How to handle PIN, registration, bearer setup, etc.
+
+For Quectel modems like RM530N, the ```quectel``` plugin is typically used.
+
+You can check the plugin being used with:
+``` console
+mmcli -m 0
+
+mmcli -L  #to see all connected modems 
+
+# to query each one individually
+mmcli -m 0
+mmcli -m 1
+```
+
+## 4. State machine
+ModemManager follows a state machine.
+
+DISCONNECTED → INITIALIZING → LOCKED → REGISTERED → CONNECTED
+
+It sends AT commands in each state:
+
+- To check SIM status
+- Unlock PIN if needed
+- Scan/register with network
+- Set APN and bring up bearer
+
+## 5. mmcli and NM
+
+mmcli:
+``` console
+# List modems
+mmcli -L
+
+# Show detailed info
+mmcli -m 0
+
+# Connect to internet (APN setup)
+mmcli -m 0 --simple-connect="apn=your.apn"
+```
+
+NM:
+
+If you're using NetworkManager, it will call ModemManager automatically when using a mobile broadband profile.
+
+
+
 ---
 for modes
 [To be exploredReference](https://spotpear.com/wiki/RM520N-GL.html) 
@@ -66,6 +147,7 @@ for modes
 
 [saeed 2](https://wiki.seeedstudio.com/raspberry_pi_4g_lte_hat_qmi/)
 
+[MM Plugins-github](https://gitlab.freedesktop.org/mobile-broadband/ModemManager/-/tree/main)
 
 
 
