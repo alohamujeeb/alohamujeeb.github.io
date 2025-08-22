@@ -39,7 +39,7 @@ You can use the search bar to look up keywords like ROS2, 5G, OpenRMF, and other
 
 or
 
-**Sarch through the [Keywords](tags.md)...**
+**Search through the [Keywords](tags.md)...**
 
 ## About me
 To learn more about me, visit the [About Me](about/aboutme.md) page.
