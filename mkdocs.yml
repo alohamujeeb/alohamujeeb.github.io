@@ -158,7 +158,10 @@ nav:
         - 01-Getting Started: programming/languages/rust101/01-gettingstarted.md
       - Rust 201 (Intermediate RUST):
         - index: programming/languages/rust201/index.md
-
+      - Python:
+        - index: programming/languages/python/index.md
+        - Python Env: programming/languages/python-env.md
+        
     - ===Frameworks/Libs===: 
       - QUIC-GO 101: 
         - index: programming/frameworks/quicgo101/index.md
@@ -185,7 +188,8 @@ nav:
         - index: embsys-drobot/Quectel-RM530N-GL/index.md
         - Hardware Setup: embsys-drobot/Quectel-RM530N-GL/01-hw-setup-pi5.md
         - Software Setup: embsys-drobot/Quectel-RM530N-GL/02-sw-setup-pi5.md
-        - AT Command Reference: embsys-drobot/Quectel-RM530N-GL/at-command-reference.md
+        - AT Command Reference: embsys-drobot/Quectel-RM530N-GL/03-at-commands.md
+        #- Mobilensight Tool: embsys-drobot/Quectel-RM530N-GL/04-mobile-insight.md
     - ModemManager: embsys-drobot/modem-manager.md
     - ====Platforms====:
       - Raspberry-Pi 5: 

@@ -6,6 +6,14 @@ tags:
 Under Construction
 
 # Quectel AT Command Reference
+AT commands are the universal language to interact with and control cellular modems (provided by the modem vendors like quectel).
+
+This online doc consolidates and organizes the AT commands used with **Quectel modems**.
+
+
+---
+## 1. Reference manaul 
+Source:  [Quectel_AT_Commands_Manual_PDF](Quectel_RG520N&RG52xF&RG530F&RM520N&RM530N_Series_AT_Commands_Manual_V1.0.0_Preliminary_20220812.pdf)
 
 Applicable to following Quectel models:
 
@@ -14,11 +22,6 @@ Applicable to following Quectel models:
 - RG530F
 - RM520N
 - RM530N
-
-
----
-## 1. Reference manaul 
-Source:  [Quectel_AT_Commands_Manual_PDF](Quectel_RG520N&RG52xF&RG530F&RM520N&RM530N_Series_AT_Commands_Manual_V1.0.0_Preliminary_20220812.pdf)
 
 ---
 ## 2. Command categories

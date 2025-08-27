@@ -24,6 +24,12 @@ This section contains following topics/sub-topics.
 
 #### [Rust-201 (Intermediate)](languages/rust201/index.md)
 
+
+### === Python ===
+
+#### [Python Reference- VENV](languages/python/python-env.md)
+
+
 ---
 ## **Frameworks/Libraries**
 

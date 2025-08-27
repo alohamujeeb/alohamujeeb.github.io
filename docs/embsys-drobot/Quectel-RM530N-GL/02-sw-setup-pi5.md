@@ -235,7 +235,7 @@ This sets: (as in the pdf reference document)
 ---
 ## 9. Some useful links
 
-[Detailed AT Commands Reference](at-command-reference.md)
+[Detailed AT Commands Reference](03-at-commands.md)
 
 [Quectel_AT_Commands_Manual_PDF](Quectel_RG520N&RG52xF&RG530F&RM520N&RM530N_Series_AT_Commands_Manual_V1.0.0_Preliminary_20220812.pdf)
 
