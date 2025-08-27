@@ -1,8 +1,3 @@
----
-tags:
-  - quectel
----
-
 # Mobileinsight
 MobileInsight is an open-source tool that lets researchers, developers, and engineers access and analyze low-level cellular network information directly from mobile devices.
 
