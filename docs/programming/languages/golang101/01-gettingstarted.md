@@ -11,7 +11,7 @@ Main topics:
 
 === "Linux (Ubuntu)"
 
-	1. To installo: type following in the terminal
+	1. To install: type following in the terminal
 	```
     sudo apt update && sudo apt upgrade
     sudo apt install golang-go
@@ -25,6 +25,44 @@ Main topics:
 		go version go1.22.2 linux/amd64
 		```
 
+=== "Go 1.22 on RPi 5"
+	
+	The default command ```sudo apt install golang-go``` may not install the version that you are looking for.
+	For example, I got golang 1.19 version installed with the above command.
+	
+	However, I needed version 1.22 or higher. Following is the procedure.
+	
+
+	1. Remove any existing installation:
+	``` console
+	sudo apt remove golang-go
+	sudo rm -rf /usr/local/go
+	```
+	
+	2. Download Go 1.22 (ARM64 build)
+	``` console
+	wget https://go.dev/dl/go1.22.2.linux-arm64.tar.gz
+	```
+	
+	3. Extract to ```/usr/local```
+	``` console
+	sudo tar -C /usr/local -xzf go1.22.2.linux-arm64.tar.gz
+	```
+	
+	4. Add go to path 
+	
+	Append following line to the end of ```~/.bashrc``` (for bash shell only)
+	``` console
+	export PATH=$PATH:/usr/local/go/bin
+	```
+	And apply changes ```source ~/.bashrc```
+	
+	5. Verify installation:
+	``` console
+	go version
+	```
+	We should see ```go version go1.22.2 linux/arm64```
+	
 
 === "Windows"
 

@@ -160,7 +160,7 @@ nav:
         - index: programming/languages/rust201/index.md
       - Python:
         - index: programming/languages/python/index.md
-        - Python Env: programming/languages/python-env.md
+        - Python Env: programming/languages/python/python-env.md
         
     - ===Frameworks/Libs===: 
       - QUIC-GO 101: 

@@ -175,7 +175,7 @@ or set "sunsurf" for M1
 | 3     | NCM   | usb0 or wwanX  | cdc_ncm                   | High-performance alternative            |
 | 5     | QMI   | wwanX          | qmi_wwan                  | For use with libqmi or qmicli           |
 
-[Detailed AT Commands Reference](at-command-reference.md)
+[Detailed AT Commands Reference](03-at-commands.md)
 
 ---
 ## 6. Test internet connection
