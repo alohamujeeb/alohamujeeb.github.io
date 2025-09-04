@@ -7,5 +7,6 @@ tags:
 This section is about hands-on practice with NAT on the Linux platform.
 
 ---
-## Linux
+(not prepared yet)...come back later please
+
 
