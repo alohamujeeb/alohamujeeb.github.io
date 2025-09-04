@@ -122,8 +122,10 @@ nav:
     - ===Linux Scripting===:
       - Bash Shell: linux/bash.md
     - ===Linux Networking===: 
-      - Linux Networking 101: linux/linux-networking.md
-      - Modem Manager: embsys-drobot/modem-manager.md
+      - Linux Networking: linux/linux-networking/index.md
+      - NAT(Part-1): linux/linux-networking/nat1.md
+      - NAT(Part-2): linux/linux-networking/nat2.md
+      - Modem Manager: linux/linux-networking/modem-manager.md
     - ====Protocls====:
       - quic protocol: linux/quic.md
     
@@ -190,7 +192,6 @@ nav:
         - Software Setup: embsys-drobot/Quectel-RM530N-GL/02-sw-setup-pi5.md
         - AT Command Reference: embsys-drobot/Quectel-RM530N-GL/03-at-commands.md
         #- Mobilensight Tool: embsys-drobot/Quectel-RM530N-GL/04-mobile-insight.md
-    - ModemManager: embsys-drobot/modem-manager.md
     - ====Platforms====:
       - Raspberry-Pi 5: 
         - index: embsys-drobot/pi5/index.md

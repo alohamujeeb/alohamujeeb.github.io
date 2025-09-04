@@ -190,7 +190,7 @@ or set "sunsurf" for M1
 	add a link to MManager tutorial
 	
 For detailed introduction to MM: 
-[Modem Manager in detail](../modem-manager.md)    
+[Modem Manager in detail](../../linux/linux-networking/modem-manager.md)    
 
 ---
 ## 8. Index
@@ -239,4 +239,4 @@ This sets: (as in the pdf reference document)
 
 [Quectel_AT_Commands_Manual_PDF](Quectel_RG520N&RG52xF&RG530F&RM520N&RM530N_Series_AT_Commands_Manual_V1.0.0_Preliminary_20220812.pdf)
 
-[Modem Manager in detail](../modem-manager.md)
+[Modem Manager in detail](../../linux/linux-networking/modem-manager.md)
