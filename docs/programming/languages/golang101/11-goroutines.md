@@ -1,9 +1,12 @@
 # **11 Goroutines Part-1**
 
-Main topics:
+This section covers the theoretical concepts of ```goroutines``` in Go and concurrency in general. The next section will focus on hands-on practice.
+
+---
+Main topics:s
 
 - Goroutines
-- Threads vs goroutines
+- Threads vs goroutines vs asyncio
 
 ---
 ## 1. What is a Goroutine?
