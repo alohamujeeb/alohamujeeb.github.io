@@ -1,9 +1,8 @@
-# *11 Goroutines**
+# *11 Goroutines Part-1**
 
 Main topics:
 
 - Goroutines
-- Channels
 - Threads vs goroutines
 
 ---
@@ -65,7 +64,34 @@ So, **every Go application is composed of at least one goroutine (main)**, and w
  Goroutine Goroutine Goroutine    Goroutine Goroutine Goroutine
 ```
 
+## 4. How many threads a system can support
+On Linux, threads are basically lightweight processes (tasks) managed by the kernel.
 
+Each thread requires:
+
+- Stack memory (typically 1–2MB per thread by default)
+- Kernel data structures (task_struct, file descriptors, etc.)
+- In practice, Linux can often handle several thousand threads per process
+```text
+Example: On an Intel PC
+	
+* Suppose we have 16GB RAM
+* default 2MB stack per thread;
+
+	Max threads ≈16GB​/2MB ≈8,000
+```
+
+### 4.1 How many goroutine
+Goroutines are much lighter:
+
+```text 
+Example: On the same Intel PC 
+
+* Suppose we have 16GB RAM.
+* Initial stack ~2KB (grows dynamically)
+
+	Max goroutines ≈16GB/2KB  ​≈8,000,000
+```
 
 
 
