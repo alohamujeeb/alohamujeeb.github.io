@@ -18,7 +18,8 @@ Main topics:
 
 - slices are declared with empty brackets []
 - Arrays are declared three dots (...) or with a number in square brackets
- 
+- i.e. 
+	In Go, [N]T or [...]T defines an array (fixed size), while []T defines a slice (dynamic size)
 
 ``` go
 // Array of 3 integers
