@@ -1,4 +1,4 @@
-# **08 Arrays and Slices in Go**
+# **09 Arrays and Slices in Go**
 
 Main topics:
 
