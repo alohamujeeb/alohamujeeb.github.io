@@ -1,4 +1,4 @@
-# *11 Goroutines Part-1**
+# **11 Goroutines Part-1**
 
 Main topics:
 
@@ -94,7 +94,108 @@ Example: On the same Intel PC
 ```
 
 
+## 5. Processor vs IO concurrency
+Concurrency can be broadly categorized as:
+
+- Processor-bound (CPU-bound) concurrency
+- I/O-bound concurrency
+
+| Feature                     | Processor-bound (CPU-bound)               | I/O-bound                                  |
+|-----------------------------|------------------------------------------|-------------------------------------------|
+| **Definition**               | Tasks limited by CPU computation          | Tasks limited by waiting for I/O          |
+| **Characteristics**          | Heavy computations, minimal waiting       | Mostly waiting for external resources     |
+| **Concurrency model**        | OS threads or goroutines on multiple cores | Lightweight threads, goroutines, or async/event loop |
+| **Parallelism**              | True parallelism improves throughput     | Parallelism mostly logical (many tasks waiting concurrently) |
+| **CPU usage**                | High                                      | Low                                        |
+| **Example tasks**            | Image/video processing, simulations, math computations | Web servers, network requests, database queries |
+| **Optimization focus**       | Maximize CPU core usage                  | Maximize concurrency, minimize blocking  |
 
 
+```text
+CPU-bound (Processor Heavy)                I/O-bound (Waiting Heavy)
+──────────────────────                   ──────────────────────
+   ┌───────────┐                               ┌─────────────┐
+   │CPU Core 1│                               │ Event Loop │
+   └─────┬─────┘                               └─────┬───────┘
+         │                                         │
+ ┌───────┼────────┐                       ┌──────────┼─────────┐
+ │       │       │                       │         │        │
+┌─────┐ ┌─────┐ ┌─────┐                ┌─────┐   ┌─────┐    ┌─────┐
+│ T1  │ │ T2 │ │ T3  │                │ G1  │  │  G2 │    │ G3 │
+└─────┘ └─────┘ └─────┘                └─────┘   └─────┘    └─────┘
+  Thread Thread Thread                   Goroutine Goroutine Goroutine
+  doing  CPU heavy                        mostly waiting for I/O
+
+ ┌─────┐ ┌─────┐ ┌─────┐                ┌─────┐ ┌─────┐ ┌─────┐
+ │ T4  │ │T5  │ │ T6  │                │ G4 │ │ G5  │ │ G6  │
+ └─────┘ └─────┘ └─────┘                └─────┘ └─────┘ └─────┘
+  Thread Thread Thread                   Goroutine Goroutine Goroutine
+  doing  CPU heavy                        mostly waiting for I/O
+
+```
+Note:
+
+- CPU-bound: Threads / goroutines doing heavy computations mapped directly to cores
+- I/O-bound: Goroutines or async tasks multiplexed over few OS threads or a single event loop
+
+### 5.1 Event loop (in IO-bound)
+
+An event loop is a programming construct that repeatedly checks for and dispatches events or tasks. It allows a program to handle many I/O-bound operations concurrently on a single thread by switching between tasks whenever one is waiting for I/O.
+
+```text
+            ┌──────────────────────────────┐
+            │        Event Loop            │
+            │  (Single Thread Execution)  │
+            └─────────────┬────────────────┘
+                          │
+          ┌───────────────┼────────────────┐
+          │               │                │
+      ┌───────┐       ┌───────┐        ┌───────┐
+      │ Task1 │       │ Task2 │        │ Task3 │
+      └───┬───┘       └───┬───┘        └───┬───┘
+          │               │                │
+          ▼               ▼                ▼
+   Waiting for I/O   Waiting for I/O  Waiting for I/O
+          │               │                │
+          └───── Event Loop polls ────────┘
+                     repeatedly
+```
+
+- The Event Loop is a single thread that repeatedly checks tasks.
+- Each task that is waiting for I/O yields control.
+- The loop continues to poll and schedule ready tasks, allowing high concurrency without multiple threads.
+
+## 6. Where do Goroutines fit?
+
+**Goroutines are general-purpose lightweight concurrency units**.
+
+- They are excellent for I/O-bound workloads, 
+- but they can also handle CPU-bound workloads up to the number of available CPU cores.
+
+### 6.1 I/O-bound:
+
+- Goroutines are **more suited** here. 
+- We can run thousands of concurrent I/O operations (network calls, disk reads, etc.) very efficiently. 
+- This is similar to asyncio or Node.js’s event loop, but with a simpler model (you just write normal-looking code with goroutines + channels).
+
+### 6.2 CPU-bound:
+
+- Goroutines also work well, 
+- However, they’re limited by the number of CPU cores. The Go runtime maps goroutines onto OS threads, and the OS threads onto cores. 
+- So, if you have an 8-core machine, you’ll get at most 8 CPU-heavy goroutines truly running in parallel. 
+
+### 6.3 Async-io loop:
+
+- ```asyncio``` is mainly for I/O-bound concurrency (single thread can juggle many tasks, but CPU-heavy work will block it).
+
+- Goroutines, being mapped onto OS threads, can do both I/O and CPU-bound concurrency.
+
+### 6.4 Comparision
+
+| Technique           | Best For                          | Characteristics                                | Example Scenarios                                   |
+|---------------------|-----------------------------------|-----------------------------------------------|----------------------------------------------------|
+| **OS Threads**      | CPU-heavy parallelism             | Heavyweight, limited in number, managed by OS  | Video rendering, physics simulations, game engines |
+| **Goroutines (Go)** | Mixed CPU + I/O, scalable tasks   | Lightweight, multiplexed on OS threads, simple API | Web servers, microservices, proxies, IoT collectors |
+| **Asyncio / Event Loop** | I/O-heavy concurrency (low CPU) | Single-threaded, cooperative multitasking      | Chat servers, web scrapers, GUIs, lightweight web apps |
 
 
