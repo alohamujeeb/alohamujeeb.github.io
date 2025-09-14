@@ -7,53 +7,53 @@ tags:
 NAT (Network Address Translation) is a method used in networking to allow multiple devices on a private network to share a single public IP address when accessing external networks like the internet.
 
 ---
-## How NAT works
 
+```mermaid
+flowchart LR
+    C1["192.168.1.10<br/>Client Device"]
+    C2["192.168.1.11<br/>Client Device"]
+    NAT["NAT Box(Router)<br/>Public IP: 203.0.113.5<br/>shred by clients"]
+    S1["Public Server<br/>IP: 93.184.216.34"]
+    S2["Another Internet Host<br/> with Public IP"]
+
+    C1 --> NAT
+    C2 --> NAT
+    NAT --> S1
+    NAT --> S2
 ```
-+----------------+           +--------------+           +--------------------------+
-| 192.168.1.10   | --------> |              | --------> |                          |
-| Client Device  |           |              |           |  Public Server           |
-+----------------+           |   NAT Box    |           |  IP: 93.184.216.34       |
-                             | (Linux PC /  |           +--------------------------+
-+----------------+           |   Router)    | --------> | Another Internet Host    |
-| 192.168.1.11   | --------> |              |           | (Public IP)              |
-| Client Device  |           +--------------+           +--------------------------+
-+----------------+                  |
-                                    |
-                             Public IP: 203.0.113.5
-                          (Shared by all private clients)
-
+```text
 NOTE:
 - NAT translates internal private IPs (192.168.x.x) to the public IP (203.0.113.5).
 - Public servers on the internet must have public IPs (e.g., 93.184.216.34).
-- Responses from public servers are routed back to the NAT device, which forwards them to the correct client.
+- Responses from public servers are routed back to the NAT device, which forwards
 ```
 
 ## Port forwarding (SNAT)
 Port Forwarding (also called Destination NAT / DNAT) allows external devices to reach a specific internal service (like a web server or SSH server) behind a NAT router.
 
-```
-Private Network                        NAT Gateway                         Internet
-+---------------------+               +------------------+               +------------------------+
-| Client A            |               | Public IP:       |               | Public Web Server      |
-| IP: 192.168.1.10    | ----+         | 203.0.113.5       | -----------→  | IP: 93.184.216.34      |
-| Src Port: 45000     |     |         |                  |               | Port: 80 (HTTP)        |
-+---------------------+     |         |                  |               +------------------------+
-                             |        |SNAT:
-							| 		  |- 192.168.1.10:45000 → 203.0.113.5:60001
-                             |        |- 192.168.1.11:45001 → 203.0.113.5:60002
-                             |        +------------------+
-+---------------------+     |
-| Client B            |     |
-| IP: 192.168.1.11    | ----+
-| Src Port: 45001     |
-+---------------------+
+```mermaid
+flowchart LR
+    subgraph "Private Network"
+        A["Client A<br/>IP: 192.168.1.10<br/>Src Port: 45000"]
+        B["Client B<br/>IP: 192.168.1.11<br/>Src Port: 45001"]
+    end
 
-Legend:
+    NAT["NAT Gateway<br>Public IP: 203.0.113.5<br>SNAT:<br>- 192.168.1.10:45000 <br>→203.0.113.5:60001<br><br>- 192.168.1.11:45001<br>→203.0.113.5:60002"]
+
+    Internet["Public Web Server<br>IP: 93.184.216.34<br>Port: 80 (HTTP)"]
+
+    A --> NAT
+    B --> NAT
+    NAT --> Internet
+```
+
+```text
+Note:
 - Both clients initiate HTTP requests to 93.184.216.34:80
 - NAT translates each client's private IP and source port to the public IP and a unique source port
 - The server replies to 203.0.113.5:<port>, and NAT routes responses back to the correct client
 ```
+
 
 ## SNAT/ MASQUERADE
 SNAT (Source NAT) is a technique that changes the source IP address (and optionally the port) of packets leaving a private network so they can communicate with the public internet.
@@ -84,34 +84,23 @@ From: 203.0.113.5:60001 → 93.184.216.34:80
 | DNAT      | Destination IP (inbound) | Public IP → Private for incoming requests |
 
 
-```
-Internet Client
-+---------------------+
-| IP: 45.33.22.10     |
-| Request: 203.0.113.5:8080  -----------+
-+---------------------+                |
-                                       v
-                              +------------------+
-                              |  NAT Gateway     |
-                              |  Public IP:      |
-                              |  203.0.113.5     |
-                              |------------------|
-                              | Port Forwarding: |
-                              | 8080 -> 192.168.1.100:80
-                              +------------------+
-                                       |
-                                       v
-Private Network                +------------------------+
-                               | Internal Web Server    |
-                               | IP: 192.168.1.100      |
-                               | Service: HTTP (port 80)|
-                               +------------------------+
+```mermaid
+flowchart TD
+    InternetClient["Internet Client<br>IP: 45.33.22.10<br>Request: 203.0.113.5:9000"]
+    
+    NATGateway["NAT Gateway<br>Public IP: 203.0.113.5<br>Port Forwarding:<br>9000 →192.168.1.100:6001"]
+    
+    InternalServer["Internal Server<br>IP: 192.168.1.100<br>Service: HTTP (port 6001)"]
 
+    InternetClient --> NATGateway --> InternalServer
+```
+```
 Note:
 - External client sends request to NAT gateway’s public IP on port 8080.
 - NAT gateway rewrites destination IP and port to internal server’s private IP and port.
 - Internal server responds; NAT tracks connection and forwards response back to client.
 ```
+
 
 ## NAT vs Reverse proxy
 NAT (Network Address Translation):
