@@ -33,6 +33,33 @@ So, **every Go application is composed of at least one goroutine (main)**, and w
 
 ## 3. Threads vs Goroutines
 
+Things to remember:
+
+- Hardware (microprocessor) provides multiple cores (could be in hundreds); each core is an independent CPU capable of performing tasks through its instruction set.
+- At operating system level, mechanisms are provided to use these CPU cores efficiently by introducing **threads**. A thread is a unit of program that runs on a core.
+- therefore, multithreading heavily depends on the OS kernel features as well as number of cores.
+- go language provides higher level constructs that allow to create many independent programs (in form of functions called coroutines) that run on the threads. A thread can run multiple (hundreds or thousands) goroutines, allowing for very heavy concurrency.
+
+
+### 3.1 M:N scheduling model
+```mermaid
+graph TD
+    OSK[OS Kernel]
+
+    OSK --> T1["OS Thread-1"]
+    OSK --> T2["OS Thread-2"]
+
+    T1 --> GR1[GR1]
+    T1 --> GR2[GR2]
+    T1 --> GR3[GR3]
+
+    T2 --> GR4[GR4]
+    T2 --> GR5[GR5]
+    T2 --> GR6[GR6]
+```
+
+### 3.2 Comparison of threads and goroutines
+
 | Aspect              | OS Threads (Kernel-Managed)                                   | Goroutines (Go Runtime-Managed)                           |
 |---------------------|---------------------------------------------------------------|-----------------------------------------------------------|
 | **Management**      | Managed by the operating system kernel                        | Managed by the Go runtime scheduler (user space)          |
@@ -45,22 +72,7 @@ So, **every Go application is composed of at least one goroutine (main)**, and w
 | **Overhead**        | Higher memory + kernel involvement                           | Low memory + efficient runtime management                 |
 
 
-### M:N scheduling model
-```mermaid
-graph TD
-    OSK[OS Kernel]
-
-    OSK --> T1[OS Thread M1]
-    OSK --> T2[OS Thread M2]
-
-    T1 --> GR1[GR1]
-    T1 --> GR2[GR2]
-    T1 --> GR3[GR3]
-
-    T2 --> GR4[GR4]
-    T2 --> GR5[GR5]
-    T2 --> GR6[R6]
-``` 
+ 
 
 ## 4. How many threads a system can support
 On Linux, threads are basically lightweight processes (tasks) managed by the kernel.
@@ -112,27 +124,36 @@ Concurrency can be broadly categorized as:
 
 ```mermaid
 graph LR
-  subgraph CPU_bound
-    CPU["CPU Core 1"]
-    CPU --> TH1["TH1"]
-    CPU --> TH2["TH2"]
-    CPU --> TH3["TH3"]
+  subgraph IO_bound
+    LOOP["Event Loop (manages IO)<br/>(Runs as a Thread)"]
+    LOOP --> IO-Task-1["IO-Task-1"]
+    LOOP --> IO-Task-2["IO-Task-2"]
+    LOOP --> IO-Task-3["IO-Task-3"]
   end
   
 
-  subgraph IO_bound
-    LOOP["Event Loop"]
-    LOOP --> GR1["GR1"]
-    LOOP --> GR2["GR2"]
-    LOOP --> GR3["GR3"]
+ 
+   subgraph "CPU-bound(SMT Core)"
+    MCPU["SMT Core"]
+    MCPU --> MTh1["Thread-1"]
+    MCPU --> MTh2["Thread-2"]
   end
 
+  subgraph "CPU-bound"
+    CPU["Simple Core-1"]
+    CPU --> Th1["OS Thread-1"]
+    CPU2["Simple Core-2"]
+    CPU2 --> Th2["OS Thread-2"]
+  end
 ```
 
 Note:
 
 - CPU-bound: Threads / goroutines doing heavy computations mapped directly to cores
-- I/O-bound: Goroutines or async tasks multiplexed over few OS threads or a single event loop
+- Simple cores run one thread, however a Simultaneous Multithreading (SMT) core can run more than one thread at a time. 
+- I/O-bound: ```async``` tasks multiplexed over few OS threads or a single event loop
+- A goroutine can be bound to a single thread (if performance is needed). Or multiple (thousands) can be bound to a single thread when performance is not required but other considerations are important such as multiple IO.
+
 
 ### 5.1 Event loop (in IO-bound)
 
@@ -167,13 +188,13 @@ graph TD
 - They are excellent for I/O-bound workloads, 
 - but they can also handle CPU-bound workloads up to the number of available CPU cores.
 
-### 6.1 I/O-bound:
+### 6.1 I/O-bound
 
 - Goroutines are **more suited** here. 
 - We can run thousands of concurrent I/O operations (network calls, disk reads, etc.) very efficiently. 
 - This is similar to asyncio or Node.js’s event loop, but with a simpler model (you just write normal-looking code with goroutines + channels).
 
-### 6.2 CPU-bound:
+### 6.2 CPU-bound
 
 - Goroutines also work well for processor-bound tasks (i.e. threading), 
 - However, they’re limited by the number of CPU cores. The Go runtime maps goroutines onto OS threads, and the OS threads onto cores. 
@@ -192,6 +213,8 @@ graph TD
 | **OS Threads**      | CPU-heavy parallelism             | Heavyweight, limited in number, managed by OS  | Video rendering, physics simulations, game engines |
 | **Goroutines (Go)** | Mixed CPU + I/O, scalable tasks   | Lightweight, multiplexed on OS threads, simple API | Web servers, microservices, proxies, IoT collectors |
 | **Asyncio / Event Loop** | I/O-heavy concurrency (low CPU) | Single-threaded, cooperative multitasking      | Chat servers, web scrapers, GUI event handling, lightweight web apps |
+
+**A goroutine can be bound to a single thread (if performance is needed). Or multiple (thousands) can be bound to a single thread when performance is not required but other considerations are important such as multiple IO.**
 
 
 
