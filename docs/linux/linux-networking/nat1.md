@@ -12,7 +12,7 @@ NAT (Network Address Translation) is a method used in networking to allow multip
 flowchart LR
     C1["192.168.1.10<br/>Client Device"]
     C2["192.168.1.11<br/>Client Device"]
-    NAT["NAT Box(Router)<br/>Public IP: 203.0.113.5<br/>shred by clients"]
+    NAT["NAT Box(Router)<br/>Public IP: 203.0.113.5<br/>shared by clients"]
     S1["Public Server<br/>IP: 93.184.216.34"]
     S2["Another Internet Host<br/> with Public IP"]
 
