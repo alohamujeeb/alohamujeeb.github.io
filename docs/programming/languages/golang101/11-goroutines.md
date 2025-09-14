@@ -46,26 +46,21 @@ So, **every Go application is composed of at least one goroutine (main)**, and w
 
 
 ### M:N scheduling model
-```code
-                ┌──────────────────────────────┐
-                │          OS Kernel         │
-                └──────────────────────────────┘
-                        ▲          ▲
-                        │          │
-             ┌───────────┘          └───────────┐
-             │                                │
-     ┌───────────────┐                  ┌───────────────┐
-     │ OS Thread M1 │                  │ OS Thread M2 │
-     └───────────────┘                  └───────────────┘
-            ▲                                 ▲
-   ┌─────────┼─────────┐              ┌─────────┼─────────┐
-   │        │        │              │         │        │
- ┌───────┐ ┌───────┐ ┌───────┐    ┌───────┐ ┌───────┐ ┌───────┐
- │ G1    │ │ G2   │ │ G3   │    │ G4    │ │ G5   │ │ G6    │
- └───────┘ └───────┘ └───────┘    └───────┘ └───────┘ └───────┘
+```mermaid
+graph TD
+    OSK[OS Kernel]
 
- Goroutine Goroutine Goroutine    Goroutine Goroutine Goroutine
-```
+    OSK --> T1[OS Thread M1]
+    OSK --> T2[OS Thread M2]
+
+    T1 --> GR1[GR1]
+    T1 --> GR2[GR2]
+    T1 --> GR3[GR3]
+
+    T2 --> GR4[GR4]
+    T2 --> GR5[GR5]
+    T2 --> GR6[R6]
+``` 
 
 ## 4. How many threads a system can support
 On Linux, threads are basically lightweight processes (tasks) managed by the kernel.
@@ -75,6 +70,8 @@ Each thread requires:
 - Stack memory (typically 1–2MB per thread by default)
 - Kernel data structures (task_struct, file descriptors, etc.)
 - In practice, Linux can often handle several thousand threads per process
+
+
 ```text
 Example: On an Intel PC
 	
@@ -113,29 +110,25 @@ Concurrency can be broadly categorized as:
 | **Example tasks**            | Image/video processing, simulations, math computations | Web servers, network requests, database queries |
 | **Optimization focus**       | Maximize CPU core usage                  | Maximize concurrency, minimize blocking  |
 
+```mermaid
+graph LR
+  subgraph CPU_bound
+    CPU["CPU Core 1"]
+    CPU --> TH1["TH1"]
+    CPU --> TH2["TH2"]
+    CPU --> TH3["TH3"]
+  end
+  
 
-```text
-CPU-bound (Processor Heavy)                I/O-bound (Waiting Heavy)
-──────────────────────                   ──────────────────────
-   ┌───────────┐                               ┌─────────────┐
-   │CPU Core 1│                               │ Event Loop │
-   └─────┬─────┘                               └─────┬───────┘
-         │                                         │
- ┌───────┼────────┐                       ┌──────────┼─────────┐
- │       │       │                       │         │        │
-┌─────┐ ┌─────┐ ┌─────┐                ┌─────┐   ┌─────┐    ┌─────┐
-│ T1  │ │ T2 │ │ T3  │                │ G1  │  │  G2 │    │ G3 │
-└─────┘ └─────┘ └─────┘                └─────┘   └─────┘    └─────┘
-  Thread Thread Thread                   Goroutine Goroutine Goroutine
-  doing  CPU heavy                        mostly waiting for I/O
-
- ┌─────┐ ┌─────┐ ┌─────┐                ┌─────┐ ┌─────┐ ┌─────┐
- │ T4  │ │T5  │ │ T6  │                │ G4 │ │ G5  │ │ G6  │
- └─────┘ └─────┘ └─────┘                └─────┘ └─────┘ └─────┘
-  Thread Thread Thread                   Goroutine Goroutine Goroutine
-  doing  CPU heavy                        mostly waiting for I/O
+  subgraph IO_bound
+    LOOP["Event Loop"]
+    LOOP --> GR1["GR1"]
+    LOOP --> GR2["GR2"]
+    LOOP --> GR3["GR3"]
+  end
 
 ```
+
 Note:
 
 - CPU-bound: Threads / goroutines doing heavy computations mapped directly to cores
@@ -145,24 +138,23 @@ Note:
 
 An event loop is a programming construct that repeatedly checks for and dispatches events or tasks. It allows a program to handle many I/O-bound operations concurrently on a single thread by switching between tasks whenever one is waiting for I/O.
 
-```text
-            ┌──────────────────────────────┐
-            │        Event Loop            │
-            │  (Single Thread Execution)  │
-            └─────────────┬────────────────┘
-                          │
-          ┌───────────────┼────────────────┐
-          │               │                │
-      ┌───────┐       ┌───────┐        ┌───────┐
-      │ Task1 │       │ Task2 │        │ Task3 │
-      └───┬───┘       └───┬───┘        └───┬───┘
-          │               │                │
-          ▼               ▼                ▼
-   Waiting for I/O   Waiting for I/O  Waiting for I/O
-          │               │                │
-          └───── Event Loop polls ────────┘
-                     repeatedly
+```mermaid
+graph TD
+  EventLoop["Event Loop<br/>(Single Thread)"]
+
+  EventLoop --> Task1["Task1"]
+  EventLoop --> Task2["Task2"]
+  EventLoop --> Task3["Task3"]
+
+  Task1 --> Wait1["Waiting for I/O"]
+  Task2 --> Wait2["Waiting for I/O"]
+  Task3 --> Wait3["Waiting for I/O"]
+
+  Wait1 --> Poll["Event Loop<br/>polls repeatedly"]
+  Wait2 --> Poll
+  Wait3 --> Poll
 ```
+
 
 - The Event Loop is a single thread that repeatedly checks tasks.
 - Each task that is waiting for I/O yields control.
@@ -183,7 +175,7 @@ An event loop is a programming construct that repeatedly checks for and dispatch
 
 ### 6.2 CPU-bound:
 
-- Goroutines also work well, 
+- Goroutines also work well for processor-bound tasks (i.e. threading), 
 - However, they’re limited by the number of CPU cores. The Go runtime maps goroutines onto OS threads, and the OS threads onto cores. 
 - So, if you have an 8-core machine, you’ll get at most 8 CPU-heavy goroutines truly running in parallel. 
 
@@ -199,6 +191,8 @@ An event loop is a programming construct that repeatedly checks for and dispatch
 |---------------------|-----------------------------------|-----------------------------------------------|----------------------------------------------------|
 | **OS Threads**      | CPU-heavy parallelism             | Heavyweight, limited in number, managed by OS  | Video rendering, physics simulations, game engines |
 | **Goroutines (Go)** | Mixed CPU + I/O, scalable tasks   | Lightweight, multiplexed on OS threads, simple API | Web servers, microservices, proxies, IoT collectors |
-| **Asyncio / Event Loop** | I/O-heavy concurrency (low CPU) | Single-threaded, cooperative multitasking      | Chat servers, web scrapers, GUIs, lightweight web apps |
+| **Asyncio / Event Loop** | I/O-heavy concurrency (low CPU) | Single-threaded, cooperative multitasking      | Chat servers, web scrapers, GUI event handling, lightweight web apps |
+
+
 
 
