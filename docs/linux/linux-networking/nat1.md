@@ -28,8 +28,8 @@ NOTE:
 - Responses from public servers are routed back to the NAT device, which forwards
 ```
 
-## Port forwarding (SNAT)
-Port Forwarding (also called Destination NAT / DNAT) allows external devices to reach a specific internal service (like a web server or SSH server) behind a NAT router.
+## Port forwarding
+Port Forwarding allows external devices to reach a specific internal service (like a web server or SSH server) behind a NAT router.
 
 ```mermaid
 flowchart LR
