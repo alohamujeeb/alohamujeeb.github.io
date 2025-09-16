@@ -178,7 +178,7 @@ When you append an element and capacity is exceeded, Go allocates a new underlyi
 Note: In the example in previous section, the capacity increased from  3 to 6 (i.e. doubled) when a new element was added after exceeding the capacity
 
 
-## 5. What happens to original array when capacity exceeds
+## 5. What happens when capacity exceeds
 
 When you append to a slice and its length reaches its capacity, Go allocates a new, bigger underlying array.
 
@@ -238,7 +238,7 @@ Note:
 - Once exceeded the original array stops reflecting the slice 
 - but before exceeding it reflects slice.
 
-### Sharing underlying array (more detail)
+### Sharing underlying array
 As shown in example above:
 
 - When you create a slice from an array or another slice, the new slice shares the same underlying array. This means:

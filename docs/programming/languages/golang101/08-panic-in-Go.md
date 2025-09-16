@@ -119,7 +119,7 @@ For more info about [Deferred functions](06b-functions-in-Go-P2.md)
 - Terminates execution — the program crashes.
 
 ---
-## 6. "recover" in Go
+## 6. ```recover``` in Go
 
 - recover() is a built-in function that can catch (recover from) a panic, stopping the program from crashing.
 

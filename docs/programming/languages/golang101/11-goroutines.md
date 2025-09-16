@@ -98,7 +98,7 @@ graph TD
 - They are managed by the Go runtime, not the operating system.
 - They have smaller stack sizes (grow/shrink dynamically), unlike fixed-size thread stacks.
 
-### 3.4 Comparison tables
+### 3.4 Comparison table
 
 | Aspect              | OS Threads (Kernel-Managed)                                   | Goroutines (Go Runtime-Managed)                           |
 |---------------------|---------------------------------------------------------------|-----------------------------------------------------------|
