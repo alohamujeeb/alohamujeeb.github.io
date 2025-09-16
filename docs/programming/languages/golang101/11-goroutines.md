@@ -3,7 +3,7 @@
 This section covers the theoretical concepts of ```goroutines``` in Go and concurrency in general. The next section will focus on hands-on practice.
 
 ---
-Main topics:s
+Main topics:
 
 - Goroutines
 - Threads vs goroutines vs asyncio
@@ -82,6 +82,21 @@ Each thread requires:
 - Stack memory (typically 1–2MB per thread by default)
 - Kernel data structures (task_struct, file descriptors, etc.)
 - In practice, Linux can often handle several thousand threads per process
+
+
+### Example: On an Intel PC
+
+- Suppose we have **16 GB RAM**
+- Default stack size per thread is **2 MB**
+
+    ```
+    Max threads ≈ 16 GB / 2 MB ≈ 8,000
+    ```
+
+Or, for inline math:
+
+- Max threads ≈ $ \frac{16\ \text{GB}}{2\ \text{MB}} \approx 8{,}000 $
+
 
 
 ```text
