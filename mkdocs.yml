@@ -191,14 +191,14 @@ nav:
 
   - Robotics-&-Embedded Systems: 
     - index:  embsys-drobot/index.md
-    - ===Modems(5G/others)===:
+    - ===Modems(5G)===:
       - Quectel RM530N-GL: 
         - index: embsys-drobot/Quectel-RM530N-GL/index.md
         - Hardware Setup: embsys-drobot/Quectel-RM530N-GL/01-hw-setup-pi5.md
         - Software Setup: embsys-drobot/Quectel-RM530N-GL/02-sw-setup-pi5.md
         - AT Command Reference: embsys-drobot/Quectel-RM530N-GL/03-at-commands.md
         #- Mobilensight Tool: embsys-drobot/Quectel-RM530N-GL/04-mobile-insight.md
-    - ====Platforms====:
+    - ===Embed Syst===:
       - Raspberry-Pi 5: 
         - index: embsys-drobot/pi5/index.md
     - ====ROS/RMF====:
