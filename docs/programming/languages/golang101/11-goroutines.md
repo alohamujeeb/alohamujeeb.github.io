@@ -9,6 +9,8 @@ Main topics:
 - Concurrency
 - IO-bound vs CPU-bound concurrency
 - Threads vs goroutines vs asyncio
+- Coroutines vs goroutines
+- Preemptive vs cooperative scheduling
 
 ---
 ## 1. What is a Goroutine?
@@ -273,6 +275,19 @@ graph TD
 | **Asyncio / Event Loop** | I/O-heavy concurrency (low CPU) | Single-threaded, cooperative multitasking      | Chat servers, web scrapers, GUI event handling, lightweight web apps |
  
 **A goroutine can be bound to a single thread (if performance is needed). Or multiple (thousands) can be bound to a single thread when performance is not required but other considerations are important such as multiple IO.**
+
+## 7. Coroutines vs goroutines
+
+- Coroutines and goroutines are both ways to run multiple tasks seemingly at the same time.
+
+- Coroutines are functions that the programmer can control. They can pause themselves using something like ```yield``` or ```await```, and then resume later. 
+
+- This is called **cooperative scheduling**, because the coroutine has to decide when to give up control. 
+
+- goroutines on the other hand, are managed by the Go runtime, which automatically decides when to pause and resume them. This is called **preemptive scheduling**. 
+
+- So, coroutines give programmers more manual control, but goroutines make concurrency easier by handling all the scheduling under the hood.
+
 
 
 
