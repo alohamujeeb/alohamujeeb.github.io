@@ -2,7 +2,6 @@
 tags:
   - publisher
   - subscriber
-  - 
 ---
 
 # Publisher-Subscriber (P/S) model
