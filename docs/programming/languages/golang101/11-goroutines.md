@@ -278,6 +278,8 @@ graph TD
 
 ## 7. Coroutines vs goroutines
 
+Coroutine is a lightweight function that can pause (yield) and resume later, allowing cooperative multitasking within a program.
+
 - Coroutines and goroutines are both ways to run multiple tasks seemingly at the same time.
 
 - Coroutines are functions that the programmer can control. They can pause themselves using something like ```yield``` or ```await```, and then resume later. 
@@ -288,6 +290,18 @@ graph TD
 
 - So, coroutines give programmers more manual control, but goroutines make concurrency easier by handling all the scheduling under the hood.
 
+
+### Coroutines vs Goroutines
+
+| Feature                | **Coroutines**                                          | **Goroutines**                                           |
+|------------------------|---------------------------------------------------------|----------------------------------------------------------|
+| **Scheduling Type**    | Cooperative — controlled by the programmer             | Preemptive — controlled by the Go runtime                |
+| **Pause/Resume**       | Manually using `yield`, `await`, etc.                  | Automatic by the runtime — no need to yield manually     |
+| **Blocking Risk**      | Yes, if coroutine forgets to yield                     | No, Go handles blocking transparently                    |
+| **Ease of Use**        | Requires discipline to manage yielding correctly       | Very easy — just use `go myFunction()`                   |
+| **Syntax Required**    | Needs special keywords (`yield`, `await`, `suspend`)   | No special syntax — normal function with `go` keyword    |
+| **Managed By**         | Language/runtime or libraries (e.g., `asyncio`, `trio`) | Go’s built-in runtime scheduler                          |
+| **Flexibility**        | More control for advanced use cases                    | Simpler, less error-prone for general concurrency        |
 
 
 
