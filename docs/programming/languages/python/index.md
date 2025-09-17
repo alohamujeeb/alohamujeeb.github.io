@@ -7,8 +7,3 @@ tags:
 
 ### [Python Environments](python-env.md)
 
-
-
----
-## Some useful links
-

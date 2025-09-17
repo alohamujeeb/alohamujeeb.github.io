@@ -11,29 +11,14 @@ tags:
 This section contains following topics/sub-topics.
 
 ---
-## Linux CLI
-
-### [Linux Commands Reference](linux-cli.md)
+## [Bash shell](cli-bash/index.md)
 
 ---
-## Linux Scripting/Automation
- 
-### [Bash Scripting](bash.md)
-(Under construction)
+## [Linux Networking](linux-networking/index.md)
 
 ---
-## Linux Networking
+## [Networking Protocols](protocols/index.md)
 
-### [NAT](linux-networking/nat1.md)
-
-### [Linux Firewall](linux-networking/linux-firewall.md)
-
-### [Modem Manager](linux-networking/modem-manager.md)
-
----
-## Networking Protocols
-
-### [QUIC Protocol](quic.md)
 
 
 

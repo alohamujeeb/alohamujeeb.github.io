@@ -12,7 +12,7 @@ tags:
 ## What is Quic-go
 
 
-✅ QUIC is a protocol- (Click for more details: [QUIC Protocol](../../../linux/quic.md))
+✅ QUIC is a protocol- (Click for more details: [QUIC Protocol](../../../linux/protocols/quic.md))
 
 ✅ quic-go is a Go library that implements that protocol, which:
 
@@ -27,6 +27,6 @@ tags:
 - This means HTTP/3 servers use QUIC’s features like multiplexing — allowing many requests and responses to happen simultaneously over a single connection without blocking each other.
 
 ---
-## Some useful links
-[QUIC Protocol](../../../linux/quic.md)
+## Relevant links
+[QUIC Protocol](../../../linux/protocols/quic.md)
 

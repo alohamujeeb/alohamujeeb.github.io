@@ -155,7 +155,7 @@ Besides the popular tools like UFW, firewalld, iptables, and nftables, there are
 
 ---
 ## Relevant links
-[UFW reference](../linux-cli.md)
+[UFW reference](../cli-bash/linux-cli.md)
 
 
 

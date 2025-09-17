@@ -122,19 +122,19 @@ nav:
       
   - Linux-&-Networking:
     - index: linux/index.md
-    - ====Linux CLI====:
-      - Linux Commands Reference: linux/linux-cli.md
-    - ===Linux Scripting===:
-      - Bash Shell: linux/bash.md
+    - ==== Bash Shell====:
+      - bash shell: linux/cli-bash/index.md
+      - Linux Commands Reference: linux/cli-bash/linux-cli.md
+      - Bash Scripting: linux/cli-bash/bash.md
     - ===Linux Networking===: 
       - Linux Networking: linux/linux-networking/index.md
       - NAT(Part-1): linux/linux-networking/nat1.md
       - NAT(Part-2): linux/linux-networking/nat2.md
       - Linux Firewall: linux/linux-networking/linux-firewall.md
       - Modem Manager: linux/linux-networking/modem-manager.md
-      
     - ====Protocls====:
-      - quic protocol: linux/quic.md
+      - Protocols: linux/protocols/index.md    
+      - QUIC: linux/protocols/quic.md
     
     
   #- RoboEmbed
@@ -142,6 +142,7 @@ nav:
   - Programming: 
     - Programming: programming/index.md
     - ====Languages====: 
+      - languages: programming/languages/index.md
       - Golang 101 (Basics):
         - Go101: programming/languages/golang101/index.md
         - 01-Getting Started: programming/languages/golang101/01-gettingstarted.md
@@ -175,7 +176,8 @@ nav:
         - Python References: programming/languages/python/index.md
         - Python Env: programming/languages/python/python-env.md
         
-    - ===Frameworks/Libs===: 
+    - ===Frameworks/Libs===:
+      - frameworks: programming/frameworks/index.md    
       - QUIC-GO 101: 
         - index: programming/frameworks/quicgo101/index.md
         - Hello World (in Go): programming/frameworks/quicgo101/01-hello-world.md
@@ -184,15 +186,16 @@ nav:
   - SW-Engineering:  
     - index: sweng/index.md  
     - ===Containers====:
+      - containers: sweng/containers/index.md
       - Docker 101:
-        - index: sweng/docker101/index.md
-        - Docker-Getting Started: sweng/docker101/01-getting-started.md
-        - Hello-Docker: sweng/docker101/02-docker-hello.md
-        - A Network Example: sweng/docker101/03-docker-network-example.md
-        - A Multi-Client Example: sweng/docker101/04-tcp-example.md
-        - Docker Quick Reference: sweng/docker101/docker-network-commands.md
+        - docker101: sweng/containers/docker101/index.md
+        - Docker-Getting Started: sweng/containers/docker101/01-getting-started.md
+        - Hello-Docker: sweng/containers/docker101/02-docker-hello.md
+        - A Network Example: sweng/containers/docker101/03-docker-network-example.md
+        - A Multi-Client Example: sweng/containers/docker101/04-tcp-example.md
+        - Docker Quick Reference: sweng/containers/docker101/docker-network-commands.md
     - ===CI/CD====:
-      - index: sweng/cicd/index.md
+      - cicd: sweng/cicd/index.md
 
   - Robotics-&-Embedded Systems: 
     - index:  embsys-drobot/index.md
@@ -203,9 +206,9 @@ nav:
         - Software Setup: embsys-drobot/Quectel-RM530N-GL/02-sw-setup-pi5.md
         - AT Command Reference: embsys-drobot/Quectel-RM530N-GL/03-at-commands.md
         #- Mobilensight Tool: embsys-drobot/Quectel-RM530N-GL/04-mobile-insight.md
-    - ===Embed Syst===:
-      - Raspberry-Pi 5: 
-        - RaspPi: embsys-drobot/pi5/index.md
+    - ===Platforms===:
+      - Platforms: embsys-drobot/platforms/index.md
+      - Raspberry-Pi 5: embsys-drobot/platforms/pi5/index.md
     - ====ROS====:
       - ROS2: embsys-drobot/ros/index.md
       - Pub/Sub:

@@ -10,12 +10,8 @@ tags:
 This section contains following topics/sub-topics.
 
 ---
-## Containers
-
-### [Docker 101](docker101/index.md)
+## [Containers](containers/index.md)
 
 
 ---
-## CI/CD
-(under construction)
-
+## [CI/CD](cicd/index.md)
