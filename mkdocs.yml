@@ -130,7 +130,9 @@ nav:
       - Linux Networking: linux/linux-networking/index.md
       - NAT(Part-1): linux/linux-networking/nat1.md
       - NAT(Part-2): linux/linux-networking/nat2.md
+      - Linux Firewall: linux/linux-networking/linux-firewall.md
       - Modem Manager: linux/linux-networking/modem-manager.md
+      
     - ====Protocls====:
       - quic protocol: linux/quic.md
     
