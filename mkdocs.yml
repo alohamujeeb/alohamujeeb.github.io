@@ -206,12 +206,12 @@ nav:
     - ===Embed Syst===:
       - Raspberry-Pi 5: 
         - RaspPi: embsys-drobot/pi5/index.md
-    - ====ROS/RMF====:
-      - ROS2: 
-        - ROS2: embsys-drobot/ros/index.md
-        - pub-sub model: embsys-drobot/ros/pubsub-model.md
-      - OpenRMF:
-        - OpenRMF: embsys-drobot/openrmf/index.md
+    - ====ROS====:
+      - ROS2: embsys-drobot/ros/index.md
+      - Pub/Sub:
+        - pub/sub model: embsys-drobot/ros/pubsub-model.md
+    - ====RMF====:     
+      - OpenRMF: embsys-drobot/openrmf/index.md
         
   - Blogs:
     - blog/index.md
