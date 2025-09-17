@@ -64,10 +64,14 @@ So, **every Go application is composed of at least one goroutine (main)**, and w
 
 ### 3.1 Threads in OS
 
-- Hardware (microprocessor) provides multiple cores (could be in hundreds); each core is an independent CPU capable of performing tasks through its instruction set.
-- At operating system level, mechanisms are provided to use these CPU cores efficiently by introducing **threads**. A thread is a unit of program that runs on a core.
-- therefore, multithreading heavily depends on the OS kernel features as well as number of cores.
-- go language provides higher level constructs that allow to create many independent programs (in form of functions called coroutines) that run on the threads. A thread can run multiple (hundreds or thousands) goroutines, allowing for very heavy concurrency.
+- Modern hardware (microprocessors) often provides multiple cores, sometimes in the dozens or even hundreds. Each core acts as an independent processing unit capable of executing instructions.
+- At the operating system level, these cores are utilized through the concept of threads. A thread is the smallest unit of execution, and typically, the OS scheduler maps threads to cores. Multiple threads can be run concurrently across cores.
+
+Therefore, multithreading depends on both the OS kernel features (such as thread scheduling, context switching, etc.) and the number of available CPU cores.
+
+- The Go programming language offers a higher-level concurrency model through goroutines, which are lightweight functions that can run independently. Goroutines are not tied 1:1 to OS threads. Instead, the Go runtime uses a scheduler that maps many goroutines onto a smaller number of threads.
+
+- This is known as an M:N scheduling model: M goroutines are multiplexed onto N OS threads, which in turn are scheduled on physical CPU cores. This enables Go to support massive concurrency with relatively low overhead.
 
 
 ### 3.2 M:N scheduling model
