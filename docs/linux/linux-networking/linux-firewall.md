@@ -44,8 +44,8 @@ A Linux firewall is a software built into the Linux operating system that contro
 Note:
 Prerouting and postrouting is closely related to [NAT](nat1.md) (click for more details)
 
-- PREROUTING is the usual place for [DNAT](nat1.md) (Destination NAT) — changing the destination IP/port before routing happens.
-- POSTROUTING is where [SNAT](nat1.md) (Source NAT) or masquerading happens — modifying the source IP after routing, just before the packet leaves the system.
+- PREROUTING is the usual place for [DNAT](nat1.md) (Destination NAT): changing the destination IP/port before routing happens.
+- POSTROUTING is where [SNAT](nat1.md) (Source NAT) or masquerading happens: modifying the source IP after routing, just before the packet leaves the system.
 
 
 ---
