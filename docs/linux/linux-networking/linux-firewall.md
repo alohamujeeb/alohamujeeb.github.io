@@ -16,6 +16,38 @@ A Linux firewall is a software built into the Linux operating system that contro
 - It allows or blocks traffic to protect the system from unauthorized access, attacks, or misuse.
 - No extra hardware is needed, as the firewall runs on Linux system.
 
+=== "Incoming Traffic"
+	```mermaid
+	flowchart TB
+		EXT["External Network"]
+		NIC["Network Interface (eth0)"]
+		PR["PREROUTING (Netfilter)"]
+		INPUT["INPUT (Netfilter)"]
+		APP["Local Application (e.g., SSH, Nginx)"]
+
+		EXT --> NIC --> PR --> INPUT --> APP
+	```
+
+
+=== "Outgoing Traffic"
+	```mermaid
+	flowchart TB
+		APP["Local Application (e.g., curl, apt)"]
+		OUT["OUTPUT (Netfilter)"]
+		POST["POSTROUTING (Netfilter)"]
+		NIC["Network Interface (eth0)"]
+		EXT["External Network"]
+
+		APP --> OUT --> POST --> NIC --> EXT
+	```
+
+Note:
+Prerouting and postrouting is closely related to [NAT](nat1.md) (click for more details)
+
+- PREROUTING is the usual place for [DNAT](nat1.md) (Destination NAT) — changing the destination IP/port before routing happens.
+- POSTROUTING is where [SNAT](nat1.md) (Source NAT) or masquerading happens — modifying the source IP after routing, just before the packet leaves the system.
+
+
 ---
 ## 2. How to configure **```Netfilter```**?
 Various toolsor frontends that are used that send rules to Netfilter in the kernel. Some of them are following:
@@ -107,7 +139,7 @@ Besides the popular tools like UFW, firewalld, iptables, and nftables, there are
 | **Low-Level Tools**    | Assembly Language            | `iptables`, `nftables`                     |
 | **High-Level Tools**   | High-Level Programming Language | `ufw`, `firewalld`, `ferm`, `Shorewall` |
 
-- Netfilter is like the CPU — it's the engine inside the kernel that executes firewall logic.
+- Netfilter is like the CPU; it's the engine inside the kernel that executes firewall logic.
 - iptables and nftables are like assembly language:
 	```
 	Powerful but verbose
