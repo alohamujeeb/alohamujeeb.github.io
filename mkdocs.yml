@@ -169,8 +169,8 @@ nav:
         - 01-Getting Started: programming/languages/rust101/01-gettingstarted.md
       - Rust 201 (Intermediate RUST):
         - index: programming/languages/rust201/index.md
-      - Python:
-        - index: programming/languages/python/index.md
+      - Python References: 
+        - Python References: programming/languages/python/index.md
         - Python Env: programming/languages/python/python-env.md
         
     - ===Frameworks/Libs===: 
@@ -196,19 +196,19 @@ nav:
     - index:  embsys-drobot/index.md
     - ===Modems(5G)===:
       - Quectel RM530N-GL: 
-        - index: embsys-drobot/Quectel-RM530N-GL/index.md
+        - RM530N-GL: embsys-drobot/Quectel-RM530N-GL/index.md
         - Hardware Setup: embsys-drobot/Quectel-RM530N-GL/01-hw-setup-pi5.md
         - Software Setup: embsys-drobot/Quectel-RM530N-GL/02-sw-setup-pi5.md
         - AT Command Reference: embsys-drobot/Quectel-RM530N-GL/03-at-commands.md
         #- Mobilensight Tool: embsys-drobot/Quectel-RM530N-GL/04-mobile-insight.md
     - ===Embed Syst===:
       - Raspberry-Pi 5: 
-        - index: embsys-drobot/pi5/index.md
+        - RaspPi: embsys-drobot/pi5/index.md
     - ====ROS/RMF====:
       - ROS2: 
-        - index: embsys-drobot/ros/index.md
+        - ROS2: embsys-drobot/ros/index.md
       - OpenRMF:
-        - index: embsys-drobot/openrmf/index.md
+        - OpenRMF: embsys-drobot/openrmf/index.md
         
   - Blogs:
     - blog/index.md

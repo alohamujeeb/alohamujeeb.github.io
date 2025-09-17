@@ -2,14 +2,10 @@
 tags:
     - python
 ---
-# **Python Related Information**
+# **Python References**
 ---
 
-
-## Quick References
-
-#### [Python Environments](python-env.md)
-
+### [Python Environments](python-env.md)
 
 
 
