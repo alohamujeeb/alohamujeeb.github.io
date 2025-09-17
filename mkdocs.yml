@@ -209,6 +209,7 @@ nav:
     - ====ROS/RMF====:
       - ROS2: 
         - ROS2: embsys-drobot/ros/index.md
+        - pub-sub model: embsys-drobot/ros/pubsub-model.md
       - OpenRMF:
         - OpenRMF: embsys-drobot/openrmf/index.md
         
