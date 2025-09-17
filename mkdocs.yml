@@ -138,10 +138,10 @@ nav:
   #- RoboEmbed
   #- WebCraft  
   - Programming: 
-    - index: programming/index.md
+    - Programming: programming/index.md
     - ====Languages====: 
-      - Golang 101 (Common Concepts):
-        - index: programming/languages/golang101/index.md
+      - Golang 101 (Basics):
+        - Go101: programming/languages/golang101/index.md
         - 01-Getting Started: programming/languages/golang101/01-gettingstarted.md
         - 02-Some Fundamentals: programming/languages/golang101/02-basics.md
         - 03a-Data Types- Part 1: programming/languages/golang101/03a-datatypes-1.md
@@ -154,15 +154,18 @@ nav:
         - 08-Panic & Recover: programming/languages/golang101/08-panic-in-Go.md
         - 09-Arrays in Go: programming/languages/golang101/09-arrays-in-Go.md
         - 10-Slices in Go: programming/languages/golang101/10-slices-in-Go.md
-        - 11-Goroutines Part-1: programming/languages/golang101/11-goroutines.md
-        #- imports and packages
+         #- imports and packages
         #- Collections 
+      - Golang 102 (Concurrency):
+        - Go102: programming/languages/golang102conc/index.md
+        - 01-Concurrency in Go: programming/languages/golang102conc/01-goroutines.md
+        
       - Golang 201 (Intermediate):
-        - index: programming/languages/golang201/index.md
+        - Go201: programming/languages/golang201/index.md
         - 01-Modules in Go: programming/languages/golang201/01-modules.md
         
       - Rust 101 (Common Concepts):
-        - index: programming/languages/rust101/index.md
+        - Rust101: programming/languages/rust101/index.md
         - 01-Getting Started: programming/languages/rust101/01-gettingstarted.md
       - Rust 201 (Intermediate RUST):
         - index: programming/languages/rust201/index.md

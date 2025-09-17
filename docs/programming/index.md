@@ -16,6 +16,8 @@ This section contains following topics/sub-topics.
 
 #### [Golang-101 (Fundamentals)](languages/golang101/index.md)
 
+#### [Golang-102 (Concurrency)](languages/golang102conc/index.md)
+
 #### [Golang-201 (Intermediate)](languages/golang201/index.md)
 
 ### === Rust ===
