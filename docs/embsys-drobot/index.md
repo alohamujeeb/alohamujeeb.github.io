@@ -10,10 +10,7 @@ tags:
 This section contains following topics/sub-topics:
 
 ---
-## 5G/Modems
-
-### [Setting up Quectel RM530N-GL](Quectel-RM530N-GL/index.md)
-
+## [Modems(5G)](modems/index.md)
 
 ---
 ## [Embedded Platforms](platforms/index.md)

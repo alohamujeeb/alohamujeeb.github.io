@@ -200,11 +200,12 @@ nav:
   - Robotics-&-Embedded Systems: 
     - index:  embsys-drobot/index.md
     - ===Modems(5G)===:
+      - modems: embsys-drobot/modems/index.md
       - Quectel RM530N-GL: 
-        - RM530N-GL: embsys-drobot/Quectel-RM530N-GL/index.md
-        - Hardware Setup: embsys-drobot/Quectel-RM530N-GL/01-hw-setup-pi5.md
-        - Software Setup: embsys-drobot/Quectel-RM530N-GL/02-sw-setup-pi5.md
-        - AT Command Reference: embsys-drobot/Quectel-RM530N-GL/03-at-commands.md
+        - RM530N-GL: embsys-drobot/modems/Quectel-RM530N-GL/index.md
+        - Hardware Setup: embsys-drobot/modems/Quectel-RM530N-GL/01-hw-setup-pi5.md
+        - Software Setup: embsys-drobot/modems/Quectel-RM530N-GL/02-sw-setup-pi5.md
+        - AT Command Reference: embsys-drobot/modems/Quectel-RM530N-GL/03-at-commands.md
         #- Mobilensight Tool: embsys-drobot/Quectel-RM530N-GL/04-mobile-insight.md
     - ===Platforms===:
       - Platforms: embsys-drobot/platforms/index.md
