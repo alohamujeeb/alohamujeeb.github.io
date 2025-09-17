@@ -291,8 +291,6 @@ Coroutine is a lightweight function that can pause (yield) and resume later, all
 - So, coroutines give programmers more manual control, but goroutines make concurrency easier by handling all the scheduling under the hood.
 
 
-### Coroutines vs Goroutines
-
 | Feature                | **Coroutines**                                          | **Goroutines**                                           |
 |------------------------|---------------------------------------------------------|----------------------------------------------------------|
 | **Scheduling Type**    | Cooperative — controlled by the programmer             | Preemptive — controlled by the Go runtime                |
