@@ -18,11 +18,11 @@ This ensures that:
 - Different projects can use different versions of the same package
 - The development setup is clean, consistent, and easy to reproduce
 
-## Similar concept to dockers
+## 2. Similar concept to dockers
 It is similar to the concept of Docker containers, but limited to the context of Python.
 While Docker isolates entire applications and their environments at the system level, Python virtual environments isolate Python-specific dependencies and configurations at the project level.
 
-## Python venv commands
+## 3. Python venv commands
 
 ### Create a venv
 Geheral syntax:  ```python3 -m venv <venv-name>```
@@ -72,7 +72,7 @@ rm -rf venv-proj1
 
 
 ---
-## Some useful links
+## 4. Some useful links
 [Python Virtual Environments](https://docs.python.org/3/library/venv.html)
 
 [Anaconda Environments](https://www.anaconda.com/docs/getting-started/working-with-conda/environments)
