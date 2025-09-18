@@ -181,7 +181,7 @@ nav:
     - ===Frameworks/Libs===:
       - frameworks: programming/frameworks/index.md    
       - QUIC-GO 101: 
-        - index: programming/frameworks/quicgo101/index.md
+        - Quic-go: programming/frameworks/quicgo101/index.md
         - Hello World (in Go): programming/frameworks/quicgo101/01-hello-world.md
         - Hello World (in Python): programming/frameworks/quicgo101/01-hello-world-python-quic.md
 
