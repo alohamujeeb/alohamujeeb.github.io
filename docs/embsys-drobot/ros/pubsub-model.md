@@ -57,14 +57,14 @@ This section is about fundamental concepts of P/S model.
 ---
 ## 2. Some other networking models
 
-there are other topology models as well, such as peer-to-peer (P2P), broadcast, multicast, and mesh networks.
+There are other topology models as well, such as peer-to-peer (P2P), broadcast, multicast, and mesh networks.
 
-- Client/Server: Clients request services and servers provide them.
-- Subscriber/Publisher: Publishers send messages without targeting specific receivers, and subscribers receive only messages they’re interested in.
-- Peer-to-Peer (P2P): All nodes act as both clients and servers, sharing resources directly.
-- Broadcast: Messages are sent from one node to all nodes in the network.
-- Multicast: Messages are sent from one node to a specific group of nodes.
-- Mesh Network: Every node connects directly to several others, allowing multiple paths for data.
+- **Client/Server:** Clients request services and servers provide them.
+- **Subscriber/Publisher:** Publishers send messages without targeting specific receivers, and subscribers receive only messages they’re interested in.
+- **Peer-to-Peer (P2P):** All nodes act as both clients and servers, sharing resources directly.
+- **Broadcast:** Messages are sent from one node to all nodes in the network.
+- **Multicast:** Messages are sent from one node to a specific group of nodes.
+- **Mesh Network:** Every node connects directly to several others, allowing multiple paths for data.
 
 
 | **Networking Model**    | **Description** | **Typical Use-Cases** |
