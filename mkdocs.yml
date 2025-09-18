@@ -173,7 +173,7 @@ nav:
         - Rust101: programming/languages/rust101/index.md
         - 01-Getting Started: programming/languages/rust101/01-gettingstarted.md
       - Rust 201 (Intermediate RUST):
-        - index: programming/languages/rust201/index.md
+        - Rust201: programming/languages/rust201/index.md
       - Python References: 
         - Python References: programming/languages/python/index.md
         - Python Env: programming/languages/python/python-env.md
