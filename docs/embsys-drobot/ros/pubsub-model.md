@@ -36,7 +36,7 @@ This section is about fundamental concepts of P/S model.
 		Broker --> SubscriberC
 	```
 
-=== "Multile Publishers"
+=== "Multiple Publishers"
 	```mermaid
 	graph LR
 		Publisher1["Publisher 1<br>(topic 1)"]
