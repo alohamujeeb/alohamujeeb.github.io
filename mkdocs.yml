@@ -196,7 +196,7 @@ nav:
     - ===CI/CD====:
       - cicd: sweng/cicd/index.md
 
-  - Robotics-&-Embedded Systems: 
+  - Robotics-&-EmbSys: 
     - index:  embsys-drobot/index.md
     - ===Modems(5G)===:
       - modems: embsys-drobot/modems/index.md
