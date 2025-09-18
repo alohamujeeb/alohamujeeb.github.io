@@ -4,8 +4,9 @@ tags:
 ---
 # **Python and Conda Virtual Environments**
 ---
-To isolate various Python projects, we create separate Python environments.
-Each environment acts like a lightweight virtual machine, running independently with its own:
+## 1. What is a Python venv
+To isolate various Python projects, we create separate Python **virtual environments (venv)**.
+Each venv acts like a lightweight virtual machine, running independently with its own:
 
 - Python interpreter
 - Packages and libraries
