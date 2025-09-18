@@ -145,7 +145,7 @@ nav:
     - Programming: programming/index.md
     - ====Languages====: 
       - languages: programming/languages/index.md
-      - Golang 101 (Basics):
+      - Golang 101 (Fundamentals):
         - Go101: programming/languages/golang101/index.md
         - 01-Getting Started: programming/languages/golang101/01-gettingstarted.md
         - 02-Some Fundamentals: programming/languages/golang101/02-basics.md
