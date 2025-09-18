@@ -120,19 +120,21 @@ nav:
     
       
   - Linux-&-Networking:
-    - index: linux/index.md
+    - Linux: linux/index.md
     - ==== Bash Shell====:
-      - bash shell: linux/cli-bash/index.md
+      - Bash Shell: linux/cli-bash/index.md
       - Linux Commands Reference: linux/cli-bash/linux-cli.md
       - Bash Scripting: linux/cli-bash/bash.md
+    - ===System Programming===: 
+      - System Programming: linux/system-programming/index.md
     - ===Linux Networking===: 
-      - Linux Networking: linux/linux-networking/index.md
+      - Networking: linux/linux-networking/index.md
       - NAT(Part-1): linux/linux-networking/nat1.md
       - NAT(Part-2): linux/linux-networking/nat2.md
       - Linux Firewall: linux/linux-networking/linux-firewall.md
       - Modem Manager: linux/linux-networking/modem-manager.md
     - ====Protocls====:
-      - Protocols: linux/protocols/index.md    
+      - Networking Protocols: linux/protocols/index.md    
       - QUIC: linux/protocols/quic.md
     
     
@@ -183,7 +185,7 @@ nav:
         - Hello World (in Python): programming/frameworks/quicgo101/01-hello-world-python-quic.md
 
   - SW-Eng:  
-    - index: sweng/index.md  
+    - S/W Engineering: sweng/index.md  
     - ===Containers====:
       - containers: sweng/containers/index.md
       - Docker 101:
@@ -197,9 +199,9 @@ nav:
       - cicd: sweng/cicd/index.md
 
   - Robotics-&-EmbSys: 
-    - index:  embsys-drobot/index.md
+    - Robotics - Embedded Systems:  embsys-drobot/index.md
     - ===Modems(5G)===:
-      - modems: embsys-drobot/modems/index.md
+      - Modems: embsys-drobot/modems/index.md
       - Quectel RM530N-GL: 
         - RM530N-GL: embsys-drobot/modems/Quectel-RM530N-GL/index.md
         - Hardware Setup: embsys-drobot/modems/Quectel-RM530N-GL/01-hw-setup-pi5.md
