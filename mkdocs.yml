@@ -182,7 +182,7 @@ nav:
         - Hello World (in Go): programming/frameworks/quicgo101/01-hello-world.md
         - Hello World (in Python): programming/frameworks/quicgo101/01-hello-world-python-quic.md
 
-  - SW-Engineering:  
+  - SW-Eng:  
     - index: sweng/index.md  
     - ===Containers====:
       - containers: sweng/containers/index.md
