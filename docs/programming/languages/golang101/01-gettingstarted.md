@@ -2,8 +2,10 @@
 
 Main topics:
 
-- Go Installation
-- Hello World
+- Go installation
+- Hello world program
+- Compoile and execute a go program
+- .exe vs ELF file formats
 
 ---
 
