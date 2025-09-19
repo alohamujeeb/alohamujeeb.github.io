@@ -139,7 +139,30 @@ Create a file with any name of your choice, e.g. **helloGo.go** and copy followi
 
 
 ---
-## **How to compile and run**
+## 3. **How to buil/run (two methods)**
+
+### **Method 1:** Using ```go run <filename>.go```
+
+This method is useful when, we are developing or testing code quickly.
+
+=== "Linux (Ubuntu)"
+
+    1. Open the terminal.
+    2. Run the program by typing ```go run helloGo.go```
+
+	The above command:
+	
+	- Compiles and immediately runs the program.
+	- Does not keep the **binary** after execution (it's stored in a temp directory and deleted automatically).	
+
+### **Method 2:** Generating a binary first
+
+This method:
+
+- compiles the helloGo.go file.
+- produces a binary executable in the current directory (e.g., helloGo or helloGo.exe on Windows).
+- does not run the program automatically.
+
 === "Linux (Ubuntu)"
 
     1. Open the terminal.
@@ -148,9 +171,20 @@ Create a file with any name of your choice, e.g. **helloGo.go** and copy followi
         An executable file is generated with name **helloGo**
     3. Run the program by typing its name **./helloGo**
 
+### Executable formats (exe and ELF)
+
+- In Windows, the generated binary is in .exe format, which is the standard executable format for Windows. Internally, this format is based on the PE (Portable Executable) structure.
+
+- In Linux, a different executable format is used, called ELF (Executable and Linkable Format).
+
+- ELF is a standard file format for executables, object code, shared libraries, and core dumps in Unix-like systems (such as Linux and BSD).
+
+- It is used by the Linux kernel and dynamic loader to understand how to load and run programs.
+
+- An ELF file is a compiled binary that contains machine code and metadata. It can be directly executed by the CPU, with the help of the kernel and system loader.
 
 ---
-## 3. Semicolons(;) in Go
+## 4. Semicolons(;) in Go
 
 - Semicolons are required by the Go language (**internally**).  But you usually don’t write it yourself — the Go compiler inserts it for you automatically during parsing.
 
@@ -171,7 +205,7 @@ So, in practice:
 
 
 ---
-## 4. **Points to remember**
+## 5. **Points to remember**
 - Go comment style is same as C/C++.
 - A standalone application must inclue **pacakge main" statement on top
 - **fmt.Println("Hello World")** is equivalent of **printf** statement in C/C++
@@ -202,7 +236,7 @@ So, in practice:
     ```
 
 ---
-## 5. Check your understanding
+## 6. Check your understanding
 ??? question "What package should your main executable Go program be in?"
 	Ans: package main
 
