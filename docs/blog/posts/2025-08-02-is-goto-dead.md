@@ -207,6 +207,8 @@ Note:
 
 - Therefore, there’s no strong reason to oppose its use outright.
 
+- Jumping **ACROSS** function boundaries was the primary (mis)use that led to goto being discouraged. However, there is no reason why it should NEVER be used even within a single function comprising very few lines.
+
 
 ## goto in Go (Golang) language 
 
@@ -282,4 +284,7 @@ Note:
 
 - So, while goto itself is rarely used today, its adapted form—label-based breaks—still finds practical use in specific situations. 
 
-**Jumping ACROSS function boundaries was the primary (mis)use that led to goto being discouraged.**
+---
+**To Reiterate:**
+
+ Jumping **ACROSS** function boundaries was the primary (mis)use that led to goto being discouraged; there is no reason why it should NEVER be used even within a single function comprising very few lines.
