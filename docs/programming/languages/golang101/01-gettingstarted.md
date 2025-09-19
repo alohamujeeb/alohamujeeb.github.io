@@ -4,7 +4,7 @@ Main topics:
 
 - Go installation (Windows, Linux, Raspberry Pi)
 - Hello world program
-- Compoile and execute a go program
+- How to compile and execute a go program
 - .exe vs ELF file formats
 
 ---
