@@ -24,6 +24,7 @@ Structured programming became mainstream in the 1970s and 1980s. It  is a progra
 3. Loops – repetition using for, while, etc.
 <!-- more -->
 
+---
 ## goto statment
 A fourth type of statement, the **goto** statement, was widely used before structured programming. However, it is considered harmful because it makes code harder to understand and maintain.
 
@@ -92,7 +93,7 @@ Consider the following two examples—one using a goto statement and one without
 
 	- this approach greatly improves the readability and clarity of the code.		
 		
-
+---
 ## goto statments replaced by functions
 From the examples above, you can see that the same task can be accomplished with a single statement—a function call.
 
@@ -119,7 +120,7 @@ Note:
 
 **In the early days, programmers found it difficult to write code without using goto. However, today we understand that avoiding goto is not a problem at all.**
 
-
+---
 ## goto is not always bad
 
 - there are certain situations where using goto (or an equivalent) can simplify the code.
@@ -196,7 +197,7 @@ Note:
 	- The same behavior can be achieved more simply using a goto statement.
 	```
 
-
+---
 ## Should we use goto?
 
 - A pedantic programmer might argue that goto should never be used.
@@ -209,7 +210,7 @@ Note:
 
 - Jumping **ACROSS** function boundaries was the primary (mis)use that led to goto being discouraged. However, there is no reason why it should NEVER be used even within a single function comprising very few lines.
 
-
+---
 ## goto in Go (Golang) language 
 
 - goto has actually made a come back in the case nested loop breaks in Go language.
@@ -267,10 +268,11 @@ Note:
 	
 **It can much more complicated to break out of selected loop by using flag variables at different levels. A cleaner logic would be to use labels (i.e. hidden goto statements)**
 
+---
 ## Inter-Function vs. Intra-Function use of goto
 ```goto``` was originally discouraged at the **cross-function** level because jumping between functions breaks modularity and disrupts structured control flow, making the code harder to understand and maintain. However, when used within a single function—especially in small functions—it generally doesn't harm readability and can even simplify error handling or cleanup in some cases.
 
-
+---
 ## Summary
 - goto is a discouraged programming construct and has become nearly obsolete in most cases since the rise of structured programming in the late 1970s.
 
