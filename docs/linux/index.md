@@ -1,10 +1,10 @@
 ---
 tags:
     - linux
-    - linux networking
-    - linux cli
+    - networking
     - bash
     - quic
+    - system programming
 ---
 # Linux and Networking 
 

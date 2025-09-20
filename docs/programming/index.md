@@ -2,7 +2,9 @@
 tags:
     - rust
     - go
-    - golang
+    - quic-go
+    - python
+    - javascript
 ---
 
 # Programming Languages/Tools
