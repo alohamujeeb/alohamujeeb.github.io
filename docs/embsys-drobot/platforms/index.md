@@ -7,7 +7,7 @@ tags:
 # Embedded Platforms
 
 ---
-## [Raspberry Pi](pi5/index.md)
+### [Raspberry Pi](pi5/index.md)
 
 
 

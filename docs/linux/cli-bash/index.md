@@ -5,7 +5,7 @@ tags:
 
 # CLI and Bash
 
-## [Command Reference](linux-cli.md)
+### [Command Reference](linux-cli.md)
 
-## [bash scripting](bash.md)
+### [bash scripting](bash.md)
 

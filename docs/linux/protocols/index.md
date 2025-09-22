@@ -6,7 +6,7 @@ tags:
 
 # Networking Protocols
 
-## [QUIC](quic.md)
+### [QUIC](quic.md)
 
-## [WebRTC](webrtc.md)
+### [WebRTC](webrtc.md)
 
