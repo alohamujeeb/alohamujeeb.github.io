@@ -3,9 +3,9 @@
 Main topics:
 
 - Godot installation
+- Four key concepts in Godot
 - Hello world program
 - How to run
-- .exe vs ELF file formats
 
 ---
 ## 1. **Godot Installation**
@@ -51,7 +51,7 @@ There are following fundamental concepts that we need to understand to work with
 
 
 ---
-## 3. Create a Hello World program 
+## 3. Write a Hello World program 
 
 ### 3.1 Create a project ```hello-world```
 1. Click New Project (top-left).
