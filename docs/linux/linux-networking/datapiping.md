@@ -15,7 +15,7 @@ Data piping allows us to seamlessly transfer data between network endpoints usin
 
 - Data piping is useful when we need a quick, lightweight way to move data between systems or applications without the overhead of complex protocols or encryption
 
-- Tools like Netcat and Socat make data piping simple and flexible, helping sysadmins and developers troubleshoot and automate tasks efficiently.
+- Tools like ```Netcat``` and ```Socat``` make data piping simple and flexible, helping sysadmins and developers troubleshoot and automate tasks efficiently.
 
 ```mermaid
 graph LR
@@ -243,7 +243,7 @@ nc -zv <target_ip> 80
 
 
 ---
-## 3. Automating with pipes
+## 3. Automating ```netcat```with pipes
 Automating with pipes allows us to chain commands together and use Netcat as part of a larger shell pipeline.
 
 ### Example 1: grep a message
