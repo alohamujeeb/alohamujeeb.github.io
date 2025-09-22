@@ -243,7 +243,7 @@ nc -zv <target_ip> 80
 
 
 ---
-## 3. Automating ```netcat```with pipes
+## 3. Automating ```netcat``` with pipes
 Automating with pipes allows us to chain commands together and use Netcat as part of a larger shell pipeline.
 
 ### Example 1: grep a message
