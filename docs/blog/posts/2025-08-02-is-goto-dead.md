@@ -92,7 +92,8 @@ Consider the following two examples—one using a goto statement and one without
 	- instead of using goto jumps, we simply call the function by its name. Although the underlying mechanism involves jumps at the machine level, from the programmer’s perspective it’s just a straightforward statement without explicit jumps or goto.
 
 	- this approach greatly improves the readability and clarity of the code.		
-		
+
+
 ---
 ## 2. ```goto``` statments replaced by functions
 From the examples above, you can see that the same task can be accomplished with a single statement—a function call.
@@ -119,6 +120,7 @@ int main() {
 Note:
 
 **In the early days, programmers found it difficult to write code without using goto. However, today we understand that avoiding goto is not a problem at all.**
+
 
 ---
 ## 3. ```goto``` is not always bad
@@ -197,6 +199,7 @@ Note:
 	- The same behavior can be achieved more simply using a goto statement.
 	```
 
+
 ---
 ## 4. Should we use ```goto```?
 
@@ -209,6 +212,7 @@ Note:
 - Therefore, there’s no strong reason to oppose its use outright.
 
 - Jumping **ACROSS** function boundaries was the primary (mis)use that led to goto being discouraged. However, there is no reason why it should NEVER be used even within a single function comprising very few lines.
+
 
 ---
 ## 5. ```goto``` in Go (Golang) language 
@@ -268,9 +272,11 @@ Note:
 	
 **It can much more complicated to break out of selected loop by using flag variables at different levels. A cleaner logic would be to use labels (i.e. hidden goto statements)**
 
+
 ---
 ## 6. Inter-Function vs. Intra-Function use of ```goto```
 ```goto``` was originally discouraged at the **cross-function** level because jumping between functions breaks modularity and disrupts structured control flow, making the code harder to understand and maintain. However, when used within a single function—especially in small functions—it generally doesn't harm readability and can even simplify error handling or cleanup in some cases.
+
 
 ---
 ## 7. Summary

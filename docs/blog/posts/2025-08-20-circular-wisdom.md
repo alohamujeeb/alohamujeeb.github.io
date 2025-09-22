@@ -17,7 +17,6 @@ tags:
 
 # Circular wisdom – A personal note
 
-
 - Once upon a time, error handling in code was simple: just good old if-else checks. No drama, no flair.
 
 - Then came try-catch, promoted as a cleaner, more elegant way to handle errors. And it quickly became the new standard in many languages.

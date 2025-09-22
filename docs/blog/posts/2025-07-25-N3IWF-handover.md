@@ -16,25 +16,25 @@ tags:
 
 # N3IWF- Seamless handover between 5G and Wifi 
 
----
 In this post, I’ll share some insights on some basic considerations in order to  be able to utilize N3IWF for seamless handover between 5G networks and Wifi.
 <!-- more -->
 
 If you're looking for a more basic introduction to N3IWF, feel free to check out my earlier post:
-
 **[N3IWF Basics](2025-07-25-N3IWF.md)**
 
 
-
-### Goal
+---
+## 1. Objective
 ![N3IWF Hanover](images/N3IWF-hanover.png "N3IWF Hanover")
 
-## N3IWF for handover between 5G and Wifi
+---
+## 2. N3IWF for handover between 5G and Wifi
 - A key feature of N3IWF is **seamless handover and mobility** — for example, a user moving from an outdoor cellular network into an indoor Wi-Fi environment should experience no service interruption.
 
 - However, not all N3IWF implementations support this functionality. Some vendor solutions may lack this capability, so it’s important to understand the required features and resources when evaluating or deploying an N3IWF solution.
 
-## What happens during the seamless handover
+---
+## 3. What happens during the seamless handover
 During handover between gNB and Wi-Fi via N3IWF, several things happen behind the scenes to ensure a smooth transition:
 
 - IP continuity is maintained by anchoring the IP address at the UPF, so the user doesn't lose connectivity.
@@ -45,7 +45,8 @@ During handover between gNB and Wi-Fi via N3IWF, several things happen behind th
 
 - User data is rerouted through the new access path (N3 or N3IWF), while QoS policies may be updated if needed.
 
-## Hardware and software
+---
+## 4. Hardware and software
 There are specific requirements that must be fulfilled both on the UE side and on the vendor side — particularly within the 5G Core — to support seamless handover using N3IWF.
 
 ### Hardware requirements (Minimal)
@@ -65,7 +66,8 @@ There are specific requirements that must be fulfilled both on the UE side and o
 |Configuration scripts| To define UE Sim profile, keys, and network slicing info|
 |(optional) Traffic generatror| ipref, ping, Wireshark for testing data sessions over N3|
 
-## What is expected of a vendor
+---
+## 6. What is expected of a vendor
 If a private 5G testbed is to deployed, following are some possible questions to ask:
 (this is not comprehensive list, and is included as a guideline only)
 
@@ -78,7 +80,9 @@ If a private 5G testbed is to deployed, following are some possible questions to
 - Do you support IKEv2 + EAP-AKA or EAP-TLS for UE authentication over Wifi?
 - Can your system be integrated with UERANSIM or a real gnB for 5G NR?
 
-## Summary of key components
+
+---
+## 7. Summary of key components
 
 |Component|Required|Notes|
 |---|---|---|
@@ -89,8 +93,8 @@ If a private 5G testbed is to deployed, following are some possible questions to
 |WiFI AP| Yes | Acts as non-3GPP access network|
 
 
-
-## Appendix: 1G to 5G technology names
+---
+## Appendix 1: 1G to 5G technology names
 A side note on mobile communication technology names.
 
 |Technology|Name|
@@ -101,7 +105,8 @@ A side note on mobile communication technology names.
 |4G| LTE, LTE-Advanced|
 |5G| NR (New Radio) |
 
-## Appendix: Abbreviations:
+---
+## Appendix 2: Abbreviations:
 - AMF: (Access and Mobility Management Function): Manages connection and mobility for devices in the 5G core network.
 - EAP-TLS (Extensible Authentication Protocol-Transport Layer Security):It’s a secure authentication protocol used in networks.
 - gNB (gNodeB): The 5G base station that connects user devices to the network (like the 4G eNodeB).

@@ -29,6 +29,7 @@ Before proceeding further, I believe that all readers should be on same page reg
 
 **In other words, its a process of applying “innovative and efficient shortcuts”**
 
+---
 ## A toxic advice for beginners in a craft
 Unfortunately, this advice to “work smart” is often given everyone alike, including learners of some skill as well as mere beginners and inexperienced professionals in some field.
 
@@ -36,6 +37,8 @@ For a newcomer or someone inexperienced in any field, it’s common for them not
 
 **Without sufficient depth when someone tries to follow the advice “work smart, not hard”, they frequently end up overlooking crucial elements in their process of “smart selection.”**
 
+
+---
 ## It appeals to the human tendency to seek comfort over effort
 
 What I’ve noticed is that this advice often comes from two types of people:
@@ -46,6 +49,7 @@ What I’ve noticed is that this advice often comes from two types of people:
 
 	they use this advice to draw an audience for selling something. Self-help gurus are popping up everywhere these days, promoting miracle solutions through glib tactics.
 
+---
 ## Advice for beginners
 If you’re just starting out in any field, here’s something I genuinely believe:
 **In the beginning, you need to work hard — really hard.**
@@ -56,7 +60,8 @@ Only after reaching a certain level of proficiency, one will be able to incorpor
 **“Hard work is the path that leads to destination of Smart work over time.”**
 
 
-## My quick takeaway
+---
+## My takeaway
 
 That whole “work smart, not hard” advice? Yeah... it sounds good on the surface, but let’s be real — it can be kind of misleading.
 

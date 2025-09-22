@@ -15,8 +15,7 @@
 
 <script>
 (async () => {
-  //const signalingServerUrl = 'ws://localhost:8765'; // Replace with your server URL and ws/wss scheme
-  const signalingServerUrl = 'ws://157.230.33.15:8765';  //my droplet
+  const signalingServerUrl = 'ws://157.230.33.15:8765'; // Replace with your server URL and ws/wss scheme
   const connection = new WebSocket(signalingServerUrl);
 
   let pc = new RTCPeerConnection({
