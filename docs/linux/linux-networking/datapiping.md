@@ -781,7 +781,9 @@ curl -H "Host: www.google.com" http://localhost:8080
 | **Remote shell access (reverse shell)**               | ✅ Yes                  | ✅ Yes                     |
 | **Turning any shell script into a network service**   | ✅ Yes                  | ✅ Yes                     |
 
-
+---
+## Relevant links
+[Protocol Bridges](forwarding-bridges.md)
 
 
 
