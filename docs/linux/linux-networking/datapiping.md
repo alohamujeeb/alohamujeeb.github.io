@@ -2,7 +2,6 @@
 tags:
   - socat
   - netcat
-  - data piping
 ---
 
 # Data Piping: data transfer with ```netcat``` and ```socat```
