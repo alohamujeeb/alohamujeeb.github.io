@@ -117,8 +117,7 @@ nav:
       - Whats New: whatsnew.md
     - ===Reference Bits===:
       - emojis-list: emoji-list.md
-    
-      
+     
   - Linux-&-Networking:
     - Linux: linux/index.md
     - ==== Bash Shell====:
@@ -148,8 +147,8 @@ nav:
       - languages: programming/languages/index.md
       - Golang 101 (Fundamentals):
         - Go101: programming/languages/golang101/index.md
-        - 01-Getting Started: programming/languages/golang101/01-gettingstarted.md
-        - 02-Some Fundamentals: programming/languages/golang101/02-basics.md
+        - 01-Golang Start: programming/languages/golang101/01-gettingstarted.md
+        - 02-Golang Fundamentals: programming/languages/golang101/02-basics.md
         - 03a-Data Types- Part 1: programming/languages/golang101/03a-datatypes-1.md
         - 03b-Data Types- Part 2: programming/languages/golang101/03b-datatypes-2.md
         - 04-Operators and Typecasting: programming/languages/golang101/04-operators.md
@@ -173,16 +172,23 @@ nav:
       - Rust 101 (Common Concepts):
         - Rust101: programming/languages/rust101/index.md
         - 01-Getting Started: programming/languages/rust101/01-gettingstarted.md
+        
       - Python (Misc): 
         - Python Misc: programming/languages/python-misc/index.md
         - Python Env: programming/languages/python-misc/python-env.md
         
     - ===Frameworks/Libs===:
-      - frameworks: programming/frameworks/index.md    
+      - Frameworks: programming/frameworks/index.md    
       - QUIC-GO 101: 
         - Quic-go: programming/frameworks/quicgo101/index.md
         - Hello World (in Go): programming/frameworks/quicgo101/01-hello-world.md
         - Hello World (in Python): programming/frameworks/quicgo101/01-hello-world-python-quic.md
+  
+    - ===Games===:
+      - Gaming: programming/gaming/index.md    
+      - Godot101: 
+        - Godot 101: programming/gaming/godot101/index.md
+        - 01-Godot Start: programming/gaming/godot101/01-gettingstarted.md
 
   - SW-Eng:  
     - S/W Engineering: sweng/index.md  
