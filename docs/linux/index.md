@@ -11,7 +11,7 @@ tags:
 This section contains following topics/sub-topics.
 
 ---
-### [Bash shell](cli-bash/index.md)
+### [CLI, Bash, System Tools](cli-bash/index.md)
 
 ---
 ### [Linux Networking](linux-networking/index.md)

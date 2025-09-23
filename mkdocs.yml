@@ -120,10 +120,11 @@ nav:
      
   - Linux-&-Networking:
     - Linux: linux/index.md
-    - ==== Bash Shell====:
-      - Bash Shell: linux/cli-bash/index.md
+    - ==== CLI, Bash, System Tools====:
+      - Linux Tools: linux/cli-bash/index.md
       - Linux Commands Reference: linux/cli-bash/linux-cli.md
       - Bash Scripting: linux/cli-bash/bash.md
+      - System Services: linux/cli-bash/services.md
     - ===System Programming===: 
       - System Programming: linux/system-programming/index.md
     - ===Linux Networking===: 

@@ -1,11 +1,15 @@
 ---
 tags:
   - bash
+  - CLI
 ---
 
-# CLI and Bash
+# CLI, Bash, and System Tools
 
 ### [Command Reference](linux-cli.md)
 
-### [bash scripting](bash.md)
+### [Bash Scripting](bash.md)
+
+### [System services](services.md)
+
 
