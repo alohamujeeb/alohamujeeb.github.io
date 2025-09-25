@@ -184,6 +184,9 @@ nav:
         - Quic-go: programming/frameworks/quicgo101/index.md
         - Hello World (in Go): programming/frameworks/quicgo101/01-hello-world.md
         - Hello World (in Python): programming/frameworks/quicgo101/01-hello-world-python-quic.md
+      - ffmpeg:
+        - ffmpeg: programming/frameworks/ffmpeg/index.md
+        - ffmpeg CLI reference: programming/frameworks/ffmpeg/ffmpeg-reference.md
   
     - ===Games===:
       - Gaming: programming/gaming/index.md    

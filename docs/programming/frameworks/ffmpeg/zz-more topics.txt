@@ -1,0 +1,12 @@
+1) Batch / Scripting examples in ffmpeg
+
+2) livestreaming 
+	- camera file
+	- rtp 
+	- rtsp
+	- udp
+
+3) linux video system architecture
+	v4l2
+	/dev/video
+	
