@@ -159,13 +159,13 @@ This method is useful when, we are developing or testing code quickly (useful du
 
 ### **Method 2:** Generating a binary first
 
-This method:
+This method is **(more appropriate for for deployment)**; It does following:
 
 - compiles the helloGo.go file.
 - produces a binary executable in the current directory (e.g., helloGo or helloGo.exe on Windows).
 - does not run the program automatically.
 <br>
-**(more appropriate for for deployment)**
+
 
 === "Linux (Ubuntu)"
 
