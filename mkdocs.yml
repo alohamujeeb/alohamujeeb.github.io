@@ -2,7 +2,7 @@
 site_name: My Digital Complex
 site_url: https://alohamujeeb.github.io/
 extra:
-  generator: false #Disable footer with "Made with Material for MkDocs" message
+  generator: false # Disable footer with "Made with Material for MkDocs" message
 
 markdown_extensions:
   - pymdownx.highlight:
