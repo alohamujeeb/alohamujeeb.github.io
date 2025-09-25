@@ -141,11 +141,11 @@ Create a file with any name of your choice, e.g. **helloGo.go** and copy followi
 
 
 ---
-## 3. **How to buil/run (two methods)**
+## 3. **How to build/run (two methods)**
 
 ### **Method 1:** Using ```go run <filename>.go```
 
-This method is useful when, we are developing or testing code quickly.
+This method is useful when, we are developing or testing code quickly (useful during development stage only).
 
 === "Linux (Ubuntu)"
 
@@ -164,6 +164,8 @@ This method:
 - compiles the helloGo.go file.
 - produces a binary executable in the current directory (e.g., helloGo or helloGo.exe on Windows).
 - does not run the program automatically.
+<br>
+**(more appropriate for for deployment)**
 
 === "Linux (Ubuntu)"
 

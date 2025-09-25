@@ -1,3 +1,9 @@
+---
+tags:
+  - goroutine
+---
+
+
 # **Introduction to Goroutines**
 
 This section covers the theoretical concepts of ```goroutines``` in Go and concurrency in general. The next section will focus on hands-on practice.
