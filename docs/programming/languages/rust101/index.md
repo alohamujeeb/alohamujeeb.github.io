@@ -43,4 +43,4 @@ Rust is a systems programming language focused on performance, safety, and concu
 ## Some useful links
 
 - [Rust Programming Book (online)](https://doc.rust-lang.org/book/)
-
+- [Rust Programming Tutorials (external link)](https://faizansiddiqui.me/notes/programming-and-development/rust/)
