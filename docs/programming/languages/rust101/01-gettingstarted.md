@@ -135,7 +135,11 @@ Hello, world from Rust!
 2) Caro projects: Used for real-world projects with multiple files and dependencies.
 
 
+---
+## Useful links
 
+- [Rust Programming Book (online)](https://doc.rust-lang.org/book/)
+- [Rust Programming Tutorials (external link)](https://faizansiddiqui.me/notes/programming-and-development/rust/)
 
 
 
