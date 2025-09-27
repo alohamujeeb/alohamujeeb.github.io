@@ -16,4 +16,4 @@ This section contains following topics/sub-topics.
 
 ### [RUST 101](rust101/index.md)
 
-### [Python(Misc)](python-misc/index.md)
+### [Python](python/index.md)

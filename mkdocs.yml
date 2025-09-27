@@ -36,24 +36,23 @@ theme:
     #primary: default
     #accent: default
     
-    # Palette toggle for light mode
-    - scheme: default
-      #primary: indigo
-      primary:  blue grey
-      accent: red
-      toggle:
-        icon: material/brightness-7 
-        name: Switch to dark mode
-
     # Palette toggle for dark mode
     - scheme: slate
       #primary: indigo
-      primary: blue grey
+      primary: teal #lime #teal #blue grey
       accent: red
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
     
+    # Palette toggle for light mode
+    - scheme: default
+      #primary: indigo
+      primary:  blue grey #teal
+      accent: red
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode   
         
   features:
     - navigation.tracking
@@ -109,32 +108,33 @@ plugins:
 nav:
   - Home-&-Find:
     - My Digital Complex: index.md
-    - About Me: about/aboutme.md
-    - Contact Info: about/contact.md
-    - ====Search====:
+    - <h2>Introduction</h2>:
+      - About Me: about/aboutme.md
+      - Contact Info: about/contact.md
+    - <h2>Search</h2>:
       - Keywords/Tags: tags.md
-    - ====Updates====: 
+    - <h2>Updates</h2>: 
       - Whats New: whatsnew.md
-    - ===Reference Bits===:
+    - <h2>Reference Bits</h2>:
       - emojis-list: emoji-list.md
      
   - Linux-&-Networking:
     - Linux: linux/index.md
-    - ==== CLI, Bash, System Tools====:
+    - <h2>CLI, Bash, System Tools</h2>:
       - Linux Tools: linux/cli-bash/index.md
       - Linux Commands Reference: linux/cli-bash/linux-cli.md
       - Bash Scripting: linux/cli-bash/bash.md
       - System Services: linux/cli-bash/services.md
-    - ===System Programming===: 
+    - <h2> System Programming </h2>: 
       - System Programming: linux/system-programming/index.md
-    - ===Linux Networking===: 
+    - <h2> Linux Networking </h2>: 
       - Networking: linux/linux-networking/index.md
       - NAT(Part-1): linux/linux-networking/nat1.md
       - Linux Firewall: linux/linux-networking/linux-firewall.md
       - Data Piping: linux/linux-networking/datapiping.md
       - Protocols Bridges: linux/linux-networking/forwarding-bridges.md
       - Modem Manager: linux/linux-networking/modem-manager.md
-    - ====Protocls====:
+    - <h2> Protocls </h2>:
       - Networking Protocols: linux/protocols/index.md    
       - QUIC: linux/protocols/quic.md
       - WebRTC: linux/protocols/webrtc.md
@@ -144,51 +144,54 @@ nav:
   #- WebCraft  
   - Programming: 
     - Programming: programming/index.md
-    - ====Languages====: 
+    - <h2>Languages</h2>: 
       - languages: programming/languages/index.md
-      - Golang 101 (Fundamentals):
-        - Go101: programming/languages/golang101/index.md
-        - 01-Golang Start: programming/languages/golang101/01-gettingstarted.md
-        - 02-Golang Fundamentals: programming/languages/golang101/02-basics.md
-        - 03a-Data Types- Part 1: programming/languages/golang101/03a-datatypes-1.md
-        - 03b-Data Types- Part 2: programming/languages/golang101/03b-datatypes-2.md
-        - 04-Operators and Typecasting: programming/languages/golang101/04-operators.md
-        - 05-Conditions and Loops:  programming/languages/golang101/05-if-loops.md
-        - 06a-Functions- Part 1: programming/languages/golang101/06a-functions-in-Go-P1.md
-        - 06b-Functions- Part 2: programming/languages/golang101/06b-functions-in-Go-P2.md
-        - 07-Pointer in Go: programming/languages/golang101/07-pointer-in-Go.md
-        - 08-Panic & Recover: programming/languages/golang101/08-panic-in-Go.md
-        - 09-Arrays in Go: programming/languages/golang101/09-arrays-in-Go.md
-        - 10-Slices in Go: programming/languages/golang101/10-slices-in-Go.md
-         #- imports and packages
-        #- Collections 
-      - Golang 102 (Concurrency):
-        - Go102: programming/languages/golang102conc/index.md
-        - 01-Concurrency in Go: programming/languages/golang102conc/01-goroutines.md
+      - <h3>Go Language</h3>:
+        - <h4> Golang 101 (Fundamentals) </h4>:
+          - Go101: programming/languages/golang101/index.md
+          - 01-Golang Start: programming/languages/golang101/01-gettingstarted.md
+          - 02-Golang Fundamentals: programming/languages/golang101/02-basics.md
+          - 03a-Data Types- Part 1: programming/languages/golang101/03a-datatypes-1.md
+          - 03b-Data Types- Part 2: programming/languages/golang101/03b-datatypes-2.md
+          - 04-Operators and Typecasting: programming/languages/golang101/04-operators.md
+          - 05-Conditions and Loops:  programming/languages/golang101/05-if-loops.md
+          - 06a-Functions- Part 1: programming/languages/golang101/06a-functions-in-Go-P1.md
+          - 06b-Functions- Part 2: programming/languages/golang101/06b-functions-in-Go-P2.md
+          - 07-Pointer in Go: programming/languages/golang101/07-pointer-in-Go.md
+          - 08-Panic & Recover: programming/languages/golang101/08-panic-in-Go.md
+          - 09-Arrays in Go: programming/languages/golang101/09-arrays-in-Go.md
+          - 10-Slices in Go: programming/languages/golang101/10-slices-in-Go.md
+           #- imports and packages
+          #- Collections 
+        - <h4>Golang 102 (Concurrency)</h4>:
+          - Go102: programming/languages/golang102conc/index.md
+          - 01-Concurrency in Go: programming/languages/golang102conc/01-goroutines.md
+          
+        - <h4> Golang 201 (Intermediate)</h4>:
+          - Go201: programming/languages/golang201/index.md
+          - 01-Modules in Go: programming/languages/golang201/01-modules.md
+      - <h3>Python</h3>:
+          - Python: programming/languages/python/index.md
+          - Python Env: programming/languages/python/python-env.md
+    
+      - <h3>RUST</h3>:
+        - <h4> Rust 101 (Common Concepts)</h4>:
+          - Rust101: programming/languages/rust101/index.md
+          - 01-Getting Started: programming/languages/rust101/01-gettingstarted.md
         
-      - Golang 201 (Intermediate):
-        - Go201: programming/languages/golang201/index.md
-        - 01-Modules in Go: programming/languages/golang201/01-modules.md
         
-      - Rust 101 (Common Concepts):
-        - Rust101: programming/languages/rust101/index.md
-        - 01-Getting Started: programming/languages/rust101/01-gettingstarted.md
-        
-      - Python (Misc): 
-        - Python Misc: programming/languages/python-misc/index.md
-        - Python Env: programming/languages/python-misc/python-env.md
-        
-    - ===Frameworks/Libs===:
+    - <h2>Frameworks/Libs</h2>:
       - Frameworks: programming/frameworks/index.md    
-      - QUIC-GO 101: 
+      - <h3>QUIC-GO 101</h3>: 
         - Quic-go: programming/frameworks/quicgo101/index.md
         - Hello World (in Go): programming/frameworks/quicgo101/01-hello-world.md
         - Hello World (in Python): programming/frameworks/quicgo101/01-hello-world-python-quic.md
-      - ffmpeg:
-        - ffmpeg: programming/frameworks/ffmpeg/index.md
-        - ffmpeg CLI reference: programming/frameworks/ffmpeg/ffmpeg-reference.md
+        
+    - <h2>Media & Streaming</h2>: 
+      - Media Streaming: programming/media-streaming/index.md
+      - ffmpeg CLI reference: programming/media-streaming/ffmpeg-reference.md
   
-    - ===Games===:
+    - <h2>Games</h2>:
       - Gaming: programming/gaming/index.md    
       - Godot101: 
         - Godot 101: programming/gaming/godot101/index.md
@@ -196,37 +199,36 @@ nav:
 
   - SW-Eng:  
     - S/W Engineering: sweng/index.md  
-    - ===Containers====:
+    - <h2>Containers</h2>:
       - containers: sweng/containers/index.md
-      - Docker 101:
+      - <h3>Docker 101</h3>:
         - docker101: sweng/containers/docker101/index.md
         - Docker-Getting Started: sweng/containers/docker101/01-getting-started.md
         - Hello-Docker: sweng/containers/docker101/02-docker-hello.md
         - A Network Example: sweng/containers/docker101/03-docker-network-example.md
         - A Multi-Client Example: sweng/containers/docker101/04-tcp-example.md
         - Docker Quick Reference: sweng/containers/docker101/docker-network-commands.md
-    - ===CI/CD====:
+    - <h2>CI/CD</h2>:
       - cicd: sweng/cicd/index.md
 
   - Robotics-&-EmbSys: 
     - Robotics - Embedded Systems:  embsys-drobot/index.md
-    - ===Modems(5G)===:
+    - <h2> Modems & Routers </h2>:
       - Modems: embsys-drobot/modems/index.md
-      - Quectel RM530N-GL: 
+      - <h3>Quectel RM530N-GL</h3>: 
         - RM530N-GL: embsys-drobot/modems/Quectel-RM530N-GL/index.md
         - Hardware Setup: embsys-drobot/modems/Quectel-RM530N-GL/01-hw-setup-pi5.md
         - Software Setup: embsys-drobot/modems/Quectel-RM530N-GL/02-sw-setup-pi5.md
         - AT Command Reference: embsys-drobot/modems/Quectel-RM530N-GL/03-at-commands.md
         #- Mobilensight Tool: embsys-drobot/Quectel-RM530N-GL/04-mobile-insight.md
-    - ===Platforms===:
+    - <h2>Platforms</h2>:
       - Platforms: embsys-drobot/platforms/index.md
       - Raspberry-Pi 5: embsys-drobot/platforms/pi5/index.md
-    - ====ROS====:
+    - <h2> ROS & RMF </h2>:
       - ROS2: embsys-drobot/ros/index.md
-      - Pub/Sub:
-        - pub/sub model: embsys-drobot/ros/pubsub-model.md
-    - ====RMF====:     
-      - OpenRMF: embsys-drobot/openrmf/index.md
+      - <h3>Pub/Sub Model</h3>:
+        - What is pub/sub: embsys-drobot/ros/pubsub-model.md
+        - OpenRMF: embsys-drobot/openrmf/index.md
         
   - Blogs:
     - blog/index.md
