@@ -13,9 +13,13 @@ search:
 ---
 ## 2. TCP client/server (for connectin testing)
 
+- useful when ping is blocked
+- may need port forwarding if used behind a router
+
 [TCP server](./tcp_server_hello.py)
 
 [TCP client](./tcp_client_hello.py)
+
 
 
 
