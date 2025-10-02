@@ -24,7 +24,7 @@ search:
 
 
 My network monitor: [pim_flask.py](./pim_flask.py)
-
+My network monitor: [pim_pyqt.py](./pim_pyqt.py)
 
 
 
