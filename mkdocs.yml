@@ -115,8 +115,8 @@ nav:
       - Keywords/Tags: tags.md
     - <h2>Updates</h2>: 
       - Whats New: whatsnew.md
-    - <h2>Reference Bits</h2>:
-      - emojis-list: emoji-list.md
+    #- <h2>Reference Bits</h2>:
+    #  - emojis-list: emoji-list.md
      
   - Linux-&-Networking:
     - Linux: linux/index.md

@@ -7,30 +7,38 @@ search:
 (For my reference only)
 
 ---
-## 1. quic examples (code)
+## 0. External
+[Faizan's code snippets](https://faizansiddiqui.me/snippets/)
+
+---
+## 1. ```quic``` protocol examples
 [quic samples](./quic-examples-1.zip)
 
 ---
-## 2. TCP client/server (for connectin testing)
+## 2. Handy TCP/IP programs
 
-- useful when ping is blocked
+[TCP server](./tcp_server_hello.py) --- [TCP client](./tcp_client_hello.py)<br>
+
+- useful when ping is blocked<bt>
 - may need port forwarding if used behind a router
 
-[TCP server](./tcp_server_hello.py)
+---
 
-[TCP client](./tcp_client_hello.py)
+## 3. Linux networking
+
+[pim_flask.py](./pim_flask.py) (My network monitor utility in flask)
+
+[pim_pyqt.py](./pim_pyqt.py)(My network monitor utility in flask)
 
 ---
-## 3. Windows shortcuts
-
+## 4. Windows shortcuts
 [Windows Shortcuts](windows_shortcuts.md)
 
 ---
-## 4. Misc 
+## 4. Emojos
 
-My network monitor: [pim_flask.py](./pim_flask.py)
+[Emojis list](emoji-list.md)
 
-My network monitor: [pim_pyqt.py](./pim_pyqt.py)
 
 
 
