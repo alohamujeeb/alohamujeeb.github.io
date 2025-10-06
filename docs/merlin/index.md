@@ -7,7 +7,7 @@ search:
 (For my reference only)
 
 ---
-## 0. External
+## 0. External links
 [Faizan's code snippets](https://faizansiddiqui.me/snippets/)
 
 ---
@@ -35,7 +35,7 @@ search:
 [Windows Shortcuts](windows_shortcuts.md)
 
 ---
-## 4. Emojos
+## 4. Emojis
 
 [Emojis list](emoji-list.md)
 
