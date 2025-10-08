@@ -1,7 +1,9 @@
 ---
 tags:
   - systemctl
+  - service
   - systemd
+  - SysVinit
 ---
 
 # System Services
@@ -58,6 +60,14 @@ Examples:
 - Enabling or disabling services to control what runs when the system starts
 - Checking the current status or logs of a service
 
+### 1.4 SysVinit vs systemd (a note)
+SysVinit and systemd are two major init systems in Linux.
+
+- SysVinit is simpler and has been used for decades, but lacks features like parallel execution and built-in service management. ```services``` is based on SysVinit.
+
+- systemd is more modern and feature-rich, with faster boot times, better service control, and integrated logging. ```systemctl``` is based on systemd.
+
+
 ---
 ## 2. How services are managed
 
@@ -65,7 +75,10 @@ Examples:
 
 - On most modern Linux distributions, these services are managed using ```systemd```; which is the ```init``` system and service manager used by most modern Linux distributions.
 
-- The ```systemctl``` command is used to interact with these services — to start, stop, enable, disable, or check their status.
+- The ```systemctl``` command is used to interact with **systemd** services — to start, stop, enable, disable, or check their status.
+
+- The ```service``` command is an older, legacy tool used to manage services in **SysVinit-based** systems. It has largely been replaced by systemctl in modern **systemd-based** Linux distributions.
+
 
 ```mermaid
 graph TD

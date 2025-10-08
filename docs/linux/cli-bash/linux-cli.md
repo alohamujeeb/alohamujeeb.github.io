@@ -228,7 +228,7 @@ The -exec Option in the find Command is not same as exec...It is just an option 
 
 
 
-### Relevant commands
+### User/group managment commands
 ??? "User & Group Managent (click to view)"
 
 	| Command Syntax          | Example          | Description                    |
@@ -278,11 +278,99 @@ The -exec Option in the find Command is not same as exec...It is just an option 
 
 
 ---
-## File Compression and Archiving
-WIP
+## 6. System Monitoring and Process Management
+
+| **Utility** | **Description**     | **Common Use Case**    |
+|-------------|----------|----------|
+| `ps`        | Snapshot of current processes      | View running processes and their status            |
+| `top`       | Real-time dynamic view of running processes      | Monitor CPU and memory usage interactively         |
+| `htop`      | Enhanced `top` with color, UI, and interactivity     | Easier real-time process monitoring and control    |
+| `lsof`      | Lists open files and which processes are using them     | Diagnose file locks, ports in use, etc.            |
+| `pidof`     | Returns the PID(s) of a given program        | Quickly find the process ID of a running program   |
+| `pgrep`   | Search for processes by name or pattern   | Find PIDs using a name or regex   |
+| `pkill`   | Kill processes by name or pattern   | Terminate processes without needing PIDs  |
+| `kill`   | Sends signals (e.g., TERM, KILL) to processes by PID   | Manually terminate or control a process   |
+| `nice`   | Starts a process with a specified priority   | Launch processes with adjusted CPU scheduling   |
+| `renice`    | Changes priority of an already running process   | Increase or reduce a process's CPU priority   |
+| `watch`  | Repeats a command at regular intervals    | Monitor output of a command over time  |
+| `jobs`  | Lists current user's jobs in the shell   | Check background/paused jobs from the current shell|
+| `fg`   | Resumes a job in the foreground   | Bring a paused or background job to foreground     |
+| `bg`    | Resumes a job in the background    | Continue a stopped job in the background  |
+
+### Commands
+
+| **Utility** | **Example Command 1**    | **Example Command 2**    | **What It Does**  |
+|-------------|--------|-----|------|
+| `ps`   | `ps aux`   | `ps -ef`   | Show all running processes with detailed info   |
+| `top`   | `top`      | `top -u username`  | Interactive real-time process monitor   |
+| `htop`      | `htop`     | `htop -d 10`    | Enhanced interactive process viewer   |
+| `lsof`      | `lsof -i :80`      | `lsof -p 1234`   | List processes using port 80 or files opened by PID 1234     |
+| `pidof`     | `pidof sshd`   | `pidof bash`      | Find PID(s) of the specified process    |
+| `pgrep`   | `pgrep apache2`   | `pgrep -u root`     | Find PID(s) by process name or user   |
+| `pkill`  | `pkill -HUP nginx`     | `pkill -9 firefox`   | Send signals to processes by name     |
+| `kill`  | `kill -15 5678`   | `kill -9 5678`  | Send signals (terminate/kill) to a process by PID   |
+| `nice`   | `nice -n 10 ./backup.sh`     | `nice ./compile`   | Start a process with specified niceness (priority)           |
+| `renice`   | `renice -n -5 -p 1234`  | `renice +10 -p 4321`  | Change priority of a running process      |
+| `watch`     | `watch -n 2 free -h`    | `watch -d ls -l`   | Run a command repeatedly with interval and optional diff     |
+| `jobs`      | `jobs`     | `jobs -l`     | List background jobs in the current shell   |
+| `fg`   | `fg %2`     | `fg`    | Bring a background job to the foreground       |
+| `bg`    | `bg %3`     | `bg`  | Resume a stopped job in the background      |
+
+### ```ps``` vs ```lsof```
+
+- ```ps``` shows which processes are running and gives details about them (like PID, CPU usage, owner, etc.).
+
+- ```lsof``` shows which files are open by processes (including network sockets, regular files, devices).
+
+### ```kill  <pid>``` vs ```kill -9 <pid>```
+| Command  | Signal Sent   | Name   | Behavior    | Use Case        |
+|------------------|------------------|------------|----------|------|
+| `kill <PID>`      | 15 (default)     | SIGTERM    | Politely asks the process to terminate        | Graceful shutdown (preferred method)      |
+| `kill -9 <PID>`   | 9     | SIGKILL    | Forcefully kills the process immediately      | Use when process ignores SIGTERM     |
+
+### List of signals 
+| Signal Number | Signal Name | Description      |
+|---------------|-------------|------------------|
+| 1             | SIGHUP      | Hangup detected on controlling terminal or death of controlling process |
+| 2             | SIGINT      | Interrupt from keyboard (Ctrl+C)    |
+| 3             | SIGQUIT     | Quit from keyboard (Ctrl+\)         |
+| 6             | SIGABRT     | Abort signal from abort(3)         |
+| 9             | SIGKILL     | Kill signal; cannot be caught or ignored       |
+| 14            | SIGALRM     | Timer signal from alarm(2)        |
+| 15            | SIGTERM     | Termination signal; graceful shutdown           |
+| 17            | SIGCHLD     | Child process stopped or terminated        |
+| 18            | SIGCONT     | Continue if stopped        |
+| 19            | SIGSTOP     | Stop process; cannot be caught or ignored       |
+| 20            | SIGTSTP     | Stop typed at terminal (Ctrl+Z)                  |
+| 21            | SIGTTIN     | Background process attempting read              |
+| 22            | SIGTTOU     | Background process attempting write             |
+| 23            | SIGURG      | Urgent condition on socket                       |
+| 24            | SIGXCPU     | CPU time limit exceeded                          |
+| 25            | SIGXFSZ     | File size limit exceeded                          |
+| 26            | SIGVTALRM   | Virtual alarm clock                              |
+| 27            | SIGPROF     | Profiling timer expired                          |
+| 28            | SIGWINCH    | Window size change                               |
+| 29            | SIGIO       | I/O now possible                                 |
+| 30            | SIGPWR      | Power failure                                    |
+
+### ```kill``` vs ```pkill```
+
+- ```kill```: precise, manual → use when you know the PID.
+- ```pkill```: powerful and convenient → use when you want to kill by name or pattern.
+
+```console
+kill 1234         # Terminate process with PID 1234
+kill -9 1234      # Force kill process with PID 1234
+
+pkill chrome       # Terminate all processes with name 'chrome'
+pkill -u alice     # Kill all processes owned by user 'alice'
+pkill -9 python    # Force kill all 'python' processes
+```
+
+
 
 ---
-## System Monitoring and Process Management
+## File Compression and Archiving
 WIP
 
 ---
