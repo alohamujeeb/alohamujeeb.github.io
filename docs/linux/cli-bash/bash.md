@@ -142,7 +142,6 @@ Hello, World!
 | **Reading Input from Keyboard** | Use the `read` command to take input from the user. | `read username` <br> `echo "Hello, $username!"` |
 | **Variable Naming Rules** | - Must start with a letter or underscore `_` <br> - Can contain letters, numbers, underscores <br> - Case-sensitive | Valid: `_var1`, `name` <br> Invalid: `1name`, `my-var` |
 | **Types of Variables** | Bash has only **strings** by default. Numbers are treated as strings unless used in arithmetic. <br> Special types: arrays, associative arrays, environment variables | `num=10` <br> `declare -a arr=(1 2 3)` <br> `declare -A assoc=([key1]=val1 [key2]=val2)` |
-| **Exporting Variables (Environment)** | Use `export` to make a variable available to child processes. | `export PATH="$PATH:/new/path"` |
 | **Unsetting Variables** | Remove a variable using `unset`. | `unset name` |
 | **Default Values** | Use `${var:-default}` to provide a default if variable is empty/unset | `echo ${username:-Guest}` → prints `Guest` if `username` is empty |
 
