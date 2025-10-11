@@ -33,10 +33,10 @@ With the rise of mobile internet usage, traditional TCP struggles to handle thes
 
 ---
 ## 2. Feature 1 (QUIC for IP independence)
+- 
+- TCP is built directly on top of the **IP layer** and adds mechanisms for reliability, such as acknowledgments and retransmissions- .
 
-- TCP is built directly on top of the **IP layer** and adds mechanisms for reliability, such as acknowledgments and retransmissions.
-
-QUIC is built on top of **UDP**, and it implements its own reliability mechanisms at the application layer. 
+- QUIC is built on top of **UDP**, and it implements its own reliability mechanisms at the application layer. 
 
 - Since **TCP is tightly bound to the IP address**, any change in IP (e.g., due to network switching) causes the connection to break. This requires a full re-establishment of the connection, leading to performance overhead and a non-seamless experience.
 
