@@ -1,6 +1,6 @@
 ---
-tags:
-    - emoji
+search:
+  exclude: true
 ---
 
 # List of emoji 
