@@ -120,11 +120,20 @@ QUIC is built on top of **UDP**, and it implements its own reliability mechanism
 
 ### <font color='red'> 7.3 MPTCP dependence on IP</font>
 
-- If in MPTCP one network interface’s IP address changes, the protocol can seamlessly **switch to other active subflows** tied to different IPs, maintaining the connection without interruption. 
+**1. MPTCP and Subflows:**<br>
+Multipath TCP (MPTCP) allows a single TCP connection to use multiple network interfaces (subflows) simultaneously. Each subflow is tied to an IP address pair (source and destination).
 
-- However, if after some time (e.g., 10 minutes) the IP address of the other interface also changes, and no new subflows are established using the updated IPs, both original subflows become **unusable**.
+**2. IP Address Change on One Interface:**<br>
+If one interface's IP address changes (for example, due to moving from one Wi-Fi network to another), MPTCP can detect that the subflow tied to the old IP is no longer usable. However, if there are other active subflows on different IP addresses, MPTCP can seamlessly switch traffic to those subflows, maintaining the session without interruption.
 
-- At this point, since there are no valid paths left, the MPTCP session will eventually time out and the connection will be lost, **requiring the application to reconnect**. 
+**3. Both Interfaces Change IPs Without New Subflows:**<br>
+If after some time, the other interface also changes its IP address, and MPTCP does not establish new subflows using the updated IP addresses, the original subflows become invalid. Since the MPTCP session depends on at least one active and reachable subflow, if all subflows are unusable, the session cannot continue.
+
+**4. Session Timeout and Connection Loss:**<br>
+Without any valid subflows, MPTCP will eventually time out. The connection will be lost, and the application will need to establish a new connection.
+
+<font color='green'>**This is where QUIC shines**:</font><br>
+QUIC is truly independenct of IP andif some or all IPs change, still the connection is intact.
 
 
 ---
