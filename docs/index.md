@@ -8,8 +8,8 @@ img {
 </style>
 
 <div style="text-align: center;">
-  <!-- <img src="images/mypicture.jpg" width="400"> -->
-  <img src="images/mypicture.jpg" alt="Avatar" width="150">
+  <!-- <img src="images/mypicture.jpg" width="300"> -->
+  <img src="images/mypicture.jpg" alt="Avatar" width="300">
 </div>
 
 ## What’s this site about?

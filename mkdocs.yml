@@ -106,7 +106,7 @@ plugins:
         
 # Page tree
 nav:
-  - Home-&-Find:
+  - Home:
     - My Digital Complex: index.md
     - <h2>Introduction</h2>:
       - About Me: about/aboutme.md
