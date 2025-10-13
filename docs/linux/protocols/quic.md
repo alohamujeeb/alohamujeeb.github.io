@@ -19,7 +19,7 @@ With the rise of mobile internet usage, traditional TCP struggles to handle thes
 - Slow Handshake Process
 - Poor congestion control
 
-## 1.2 QUIC as modern day solution
+## 1.2 QUIC as a modern-day solution
 
 **QUIC is a protocol developed based on the lessons learned from the history of TCP and UDP. It combines the reliability of TCP with the speed and flexibility of UDP.** QUIC introduces several innovations aimed at improving internet performance, especially for modern web and mobile applications.
 
