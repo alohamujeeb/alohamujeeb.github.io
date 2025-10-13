@@ -177,16 +177,19 @@ nav:
       - <h3>RUST</h3>:
         - <h4> Rust 101 (Common Concepts)</h4>:
           - Rust101: programming/languages/rust101/index.md
-          - 01-Getting Started: programming/languages/rust101/01-gettingstarted.md
-        
-        
+          - 01-Getting Started: programming/languages/rust101/01-gettingstarted.md   
+
+     
     - <h2>Frameworks/Libs</h2>:
       - Frameworks: programming/frameworks/index.md    
       - <h3>QUIC-GO 101</h3>: 
         - Quic-go: programming/frameworks/quicgo101/index.md
         - Hello World (in Go): programming/frameworks/quicgo101/01-hello-world.md
         - Hello World (in Python): programming/frameworks/quicgo101/01-hello-world-python-quic.md
-        
+      - <h3>VueJS 101</h3>: 
+          - VueJS 101: programming/web/vuejs/index.md 
+          - Getting Started: programming/web/vuejs/01-getting_started.md
+    
     - <h2>Media & Streaming</h2>: 
       - Media Streaming: programming/media-streaming/index.md
       - ffmpeg CLI reference: programming/media-streaming/ffmpeg-reference.md

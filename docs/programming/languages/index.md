@@ -1,11 +1,13 @@
 ---
 tags:
-    - cicd
-    - docker
-    - container
+    - languages
+	- go
+	- golang
+	- rust
+	- python
 ---
 
-# Languages
+# Programming Languages
 
 This section contains following topics/sub-topics.
 

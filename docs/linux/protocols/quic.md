@@ -235,11 +235,7 @@ QUIC is truly independenct of IP andif some or all IPs change, still the connect
 
 
 ---
-<font color='red'>**(still under construction---please come back in a couple days for updated section)**</font>
-
-
----
-## Quic programming links
+## 8. Quic programming links
 This site contains material on how to writing programs using QUIC protocol.
 Explore more at: 
 	

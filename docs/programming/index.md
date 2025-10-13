@@ -14,7 +14,6 @@ This section contains following topics/sub-topics.
 ---
 ### [Languages](languages/index.md)
 
-
 ### [Media & Streaming](media-streaming/index.md)
 
 ### [Frameworks/Libraries](frameworks/index.md)
