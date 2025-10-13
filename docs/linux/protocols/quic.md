@@ -44,8 +44,41 @@ With the rise of mobile internet usage, traditional TCP struggles to handle thes
 
 - This feature is known as **Connection Migration** in QUIC terminology, and it is one of the protocol's **biggest advantages over TCP**, especially in mobile and wireless environments.
 
-(picture to be added here)
 
+=== "QUIC over multiple interfaces"
+	```mermaid
+	graph TD
+		subgraph "QUIC Client"
+			wifi["Wi-Fi Interface<br>IP: 192.168.1.10"]
+			lte["5G Interface<br>IP: 10.0.0.5"]
+		end
+
+		subgraph "QUIC Server<br>IP: 203.0.113.5"
+			server["Server"]
+		end
+
+		wifi -->|"Initial QUIC Connection Established<br>(Uses Connection ID, not IP)"| server
+		switch["✅ Client switches to 5G (IP: 10.0.0.5)"]
+		switch -->|"✅ Connection Persists (QUIC uses CID)"| server
+
+	```
+
+=== "TCP over multiple interfaces"
+	```mermaid
+	graph TD
+		subgraph "TCP Client"
+			wifi["Wi-Fi Interface<br>IP: 192.168.1.10"]
+			lte["5G Interface<br>IP: 10.0.0.5"]
+		end
+
+		subgraph "TCP Server<br>IP: 203.0.113.5"
+			server["Server"]
+		end
+
+		wifi -->|"Initial TCP Connection Established"| server
+		switch["⚠️ Client switches to 5G (IP: 10.0.0.5)"]
+		 switch -->|"❌ Connection Breaks (TCP tied to IP)"| server
+	```
 
 ---
 ## 3. Feature 2 (QUIC for multiplexed data channels)
@@ -58,8 +91,33 @@ With the rise of mobile internet usage, traditional TCP struggles to handle thes
 
 - Packet loss affecting **a particular stream** does not block or delay the others, resulting in more efficient and responsive communication. This particularly important for web browsing, where multiple resources are loaded in parallel.
 
-(a picture to be added here)
 
+=== "QUIC Data Channels"
+	```mermaid
+	graph LR
+		client["QUIC Client"]
+		subgraph channels
+			stream1["Channel 1"]
+			stream2["Channel 2"]
+			stream3["Channel 3"]
+		end
+		server["QUIC Server"]
+
+		client <--> channels <--> server
+	```
+
+=== "TCP Data Channels"
+	```mermaid
+	graph LR
+		client["TCP Client"]
+		subgraph channel
+			stream1["SINGLE CHANNEL<br>(application requires logic for multiple streams)"]
+			
+		end
+		server["TCP Server"]
+
+		client <--> channel <--> server
+	```
 
 ---
 ## 4. Feature 3 (Different stream types)
@@ -72,7 +130,26 @@ With the rise of mobile internet usage, traditional TCP struggles to handle thes
 
 - QUIC allows both types of data transmission to **coexist within a single connection**, giving applications the flexibility to use the most appropriate method for each use case.
 
-(a picture to be added here)
+
+```mermaid
+graph LR
+    client["QUIC Client"]
+    server["QUIC Server"]
+
+    subgraph reliable["Reliable Streams"]
+        reliable_client["Client Streams"]
+    end
+
+    subgraph unreliable["Unreliable Datagrams"]
+        unreliable_client["Client Datagrams"]
+    end
+
+    client <--> reliable_client
+    reliable_client <--> server
+    
+    client <--> unreliable_client
+    unreliable_client <--> server
+```
 
 ---
 ## 5. Feature 4 (Built-in encryption)
@@ -92,6 +169,27 @@ With the rise of mobile internet usage, traditional TCP struggles to handle thes
 
 - QUIC is being extended to support multipath communication, allowing a single connection to use multiple network paths simultaneously (e.g., Wi-Fi + 5G). This can improve bandwidth, resilience, and seamless handover across networks.
 
+```mermaid
+graph LR
+    client["Client"]
+
+    wifi["Wi-Fi Path<br>IP: x.x.x.x"]
+    fiveg["5G Path<br>IP: y.y.y.y"]
+
+    quic_conn["Single QUIC Connection<br>(Multipath Enabled)"]
+
+    server["Server"]
+
+    client --> wifi
+    client --> fiveg
+
+    wifi --> quic_conn
+    fiveg --> quic_conn
+
+    quic_conn --> server
+```
+
+
 ---
 ## 7. QUIC vs MPCTP
 
@@ -107,15 +205,15 @@ With the rise of mobile internet usage, traditional TCP struggles to handle thes
 ### 7.2 Differences
 | Aspect     | QUIC     | MPTCP     |
 |---------|-------------|------|
-| Transport Layer Base     | UDP-based         | TCP-based         |
-| Encryption     | Mandatory (TLS 1.3 built-in)      | Optional (external TLS)           |
+| Transport Layer Base     | UDP-based    | TCP-based    |
+| Encryption     | Mandatory (TLS 1.3 built-in)      | Optional (external TLS)    |
 | Deployment     | User space (easier deployment)    | Kernel space (harder to deploy)   |
 | Multipath Standardization       | In progress (IETF drafts)     | Standardized (RFC 6824)  |
-| Stream Multiplexing             | Yes (independent streams)      | No (single stream per subflow)    |
+| Stream Multiplexing             | Yes (independent streams)      | No (single stream per subflow)  |
 | Head-of-Line Blocking           | Avoided           | Present (TCP behavior)     |
-| Connection Migration            | Supported via Connection ID       | Tied to TCP session/subflows      |
+| Connection Migration            | Supported via Connection ID       | Tied to TCP session/subflows   |
 | Performance in Mobile Networks  | High (optimized)     | Good, with TCP limitations         |
-| Application Compatibility       | Requires QUIC-aware apps/libraries| Transparent to apps (like TCP)     |
+| Application Compatibility       | Requires QUIC-aware apps/libraries| Transparent to apps (like TCP)  |
 
 
 ### <font color='red'> 7.3 MPTCP dependence on IP</font>

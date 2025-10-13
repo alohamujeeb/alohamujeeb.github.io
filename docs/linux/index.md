@@ -1,9 +1,7 @@
 ---
 tags:
     - linux
-    - networking
     - bash
-    - quic
     - system programming
 ---
 # Linux and Networking 
