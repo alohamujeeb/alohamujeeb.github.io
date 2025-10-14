@@ -120,21 +120,21 @@ nav:
      
   - Linux-&-Networking:
     - Linux: linux/index.md
-    - <h2>CLI, Bash, System Tools</h2>:
+    - <font color='green'><h2>CLI, Bash, System Tools</h2></font>:
       - Linux Tools: linux/cli-bash/index.md
       - Linux Commands Reference: linux/cli-bash/linux-cli.md
       - Bash Scripting: linux/cli-bash/bash.md
       - System Services: linux/cli-bash/services.md
-    - <h2> System Programming </h2>: 
+    - <font color='green'> <h2> System Programming </h2></font>: 
       - System Programming: linux/system-programming/index.md
-    - <h2> Linux Networking </h2>: 
+    - <font color='green'><h2> Linux Networking </h2></font>: 
       - Networking: linux/linux-networking/index.md
       - NAT(Part-1): linux/linux-networking/nat1.md
       - Linux Firewall: linux/linux-networking/linux-firewall.md
       - Data Piping: linux/linux-networking/datapiping.md
       - Protocols Bridges: linux/linux-networking/forwarding-bridges.md
       - Modem Manager: linux/linux-networking/modem-manager.md
-    - <h2> Protocls </h2>:
+    - <font color='green'><h2> Protocls </h2></font>:
       - Networking Protocols: linux/protocols/index.md    
       - QUIC: linux/protocols/quic.md
       - WebRTC: linux/protocols/webrtc.md
@@ -142,9 +142,22 @@ nav:
     
   #- RoboEmbed
   #- WebCraft  
+  
+  - WebCraft:
+    - Webcraft: web/index.md  
+    - <font color='green'><h2>Frontend</h2></font>: 
+      - Frontend: web/fe/index.md
+      - <h3>JavaScript in HTML</h3>: web/fe/jsfe/index.md
+      - <h3>VueJS 101</h3>: 
+        - VueJS 101: web/fe/vuejs/index.md 
+        - Getting Started: web/fe/vuejs/01-getting_started.md
+
+    - <font color='green'><h2>Backend</h2></font>: 
+      - Backend: web/be/index.md
+  
   - Programming: 
     - Programming: programming/index.md
-    - <h2>Languages</h2>: 
+    - <font color='green'><h2>Languages</h2></font>: 
       - languages: programming/languages/index.md
       - <h3>Go Language</h3>:
         - <h4> Golang 101 (Fundamentals) </h4>:
@@ -179,22 +192,18 @@ nav:
           - Rust101: programming/languages/rust101/index.md
           - 01-Getting Started: programming/languages/rust101/01-gettingstarted.md   
 
-     
-    - <h2>Frameworks/Libs</h2>:
+    - <font color='green'><h2>Frameworks/Libs</h2></font>:
       - Frameworks: programming/frameworks/index.md    
       - <h3>QUIC-GO 101</h3>: 
         - Quic-go: programming/frameworks/quicgo101/index.md
         - Hello World (in Go): programming/frameworks/quicgo101/01-hello-world.md
         - Hello World (in Python): programming/frameworks/quicgo101/01-hello-world-python-quic.md
-      - <h3>VueJS 101</h3>: 
-          - VueJS 101: programming/web/vuejs/index.md 
-          - Getting Started: programming/web/vuejs/01-getting_started.md
     
-    - <h2>Media & Streaming</h2>: 
+    - <font color='green'><h2>Media & Streaming</h2></font>: 
       - Media Streaming: programming/media-streaming/index.md
       - ffmpeg CLI reference: programming/media-streaming/ffmpeg-reference.md
   
-    - <h2>Games</h2>:
+    - <font color='green'><h2>Games</h2></font>:
       - Gaming: programming/gaming/index.md    
       - Godot101: 
         - Godot 101: programming/gaming/godot101/index.md
@@ -202,7 +211,7 @@ nav:
 
   - SW-Eng:  
     - S/W Engineering: sweng/index.md  
-    - <h2>Containers</h2>:
+    - <font color='green'><h2>Containers</h2></font>:
       - containers: sweng/containers/index.md
       - <h3>Docker 101</h3>:
         - docker101: sweng/containers/docker101/index.md
@@ -211,12 +220,12 @@ nav:
         - A Network Example: sweng/containers/docker101/03-docker-network-example.md
         - A Multi-Client Example: sweng/containers/docker101/04-tcp-example.md
         - Docker Quick Reference: sweng/containers/docker101/docker-network-commands.md
-    - <h2>CI/CD</h2>:
+    - <font color='green'><h2>CI/CD</h2></font>:
       - cicd: sweng/cicd/index.md
 
   - Robotics-&-EmbSys: 
     - Robotics - Embedded Systems:  embsys-drobot/index.md
-    - <h2> Modems & Routers </h2>:
+    - <font color='green'><h2> Modems & Routers </h2></font>:
       - Modems: embsys-drobot/modems/index.md
       - <h3>Quectel RM530N-GL</h3>: 
         - RM530N-GL: embsys-drobot/modems/Quectel-RM530N-GL/index.md
@@ -224,10 +233,10 @@ nav:
         - Software Setup: embsys-drobot/modems/Quectel-RM530N-GL/02-sw-setup-pi5.md
         - AT Command Reference: embsys-drobot/modems/Quectel-RM530N-GL/03-at-commands.md
         #- Mobilensight Tool: embsys-drobot/Quectel-RM530N-GL/04-mobile-insight.md
-    - <h2>Platforms</h2>:
+    - <font color='green'><h2>Platforms</h2></font>:
       - Platforms: embsys-drobot/platforms/index.md
       - Raspberry-Pi 5: embsys-drobot/platforms/pi5/index.md
-    - <h2> ROS & RMF </h2>:
+    - <font color='green'><h2> ROS & RMF </h2></font>:
       - ROS2: embsys-drobot/ros/index.md
       - <h3>Pub/Sub Model</h3>:
         - What is pub/sub: embsys-drobot/ros/pubsub-model.md
