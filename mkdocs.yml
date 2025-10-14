@@ -147,7 +147,7 @@ nav:
     - Webcraft: web/index.md  
     - <font color='green'><h2>Frontend</h2></font>: 
       - Frontend: web/fe/index.md
-      - <h3>JavaScript in HTML</h3>: web/fe/jsfe/index.md
+      - <h3>JavaScript in Browser</h3>: web/fe/jsfe/index.md
       - <h3>VueJS 101</h3>: 
         - VueJS 101: web/fe/vuejs/index.md 
         - Getting Started: web/fe/vuejs/01-getting_started.md
