@@ -320,7 +320,7 @@ s1.study(); // Bob is studying in grade 10
 | Tip | To clone objects safely, use spread or structuredClone. | let newObj = {...x}; |
 
 ---
-## 7. Clonng/Copying and object
+## 7. Cloning/Copying and object
 
 **Shallow copy**:<br>
 
@@ -509,6 +509,7 @@ JavaScript comes in as an addition:
 | access values | Read values of form fields | `let name = document.getElementById("name").value;` |
 | set values | Change form field values dynamically | `document.getElementById("name").value = "Mujeeb";` |
 
+---
 ## 12. Why use a framework (like vue)?
 
 **Why use Vue instead of plain JavaScript?**
