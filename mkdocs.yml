@@ -108,12 +108,12 @@ plugins:
 nav:
   - Home:
     - My Digital Complex: index.md
-    - <h2>Introduction</h2>:
+    - <font color='green'><h2>Introduction</h2></font>:
       - About Me: about/aboutme.md
       - Contact Info: about/contact.md
-    - <h2>Search</h2>:
+    - <font color='green'><h2>Search</h2></font>:
       - Keywords/Tags: tags.md
-    - <h2>Updates</h2>: 
+    - <font color='green'><h2>Updates</h2></font>: 
       - Whats New: whatsnew.md
     #- <h2>Reference Bits</h2>:
     #  - emojis-list: emoji-list.md
