@@ -3,7 +3,7 @@ tags:
   - courses
 ---
 
-# Big Picture Learning Courses
+# Big Picture Learning
 (<font size=+2 color='green'>**Join the Dots...Build the Picture.**</font>)
 
 ---
@@ -19,4 +19,5 @@ tags:
 
 ---
 ## 2. List of Courses
+
 
