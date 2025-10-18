@@ -1,5 +1,6 @@
-# My Contact Details
-(Coming soon)
+# My Contact Information
 
 ---
-## Contact Information
+
+**Email:** aloha.mujeeb AT yahoo.com  (please use @ instead of AT)
+
