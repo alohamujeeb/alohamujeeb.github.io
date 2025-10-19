@@ -107,7 +107,7 @@ plugins:
 # Page tree
 nav:
   - Home:
-    - My Digital Complex: index.md
+    - Mujeeb's Digital Complex: index.md
     - <font color='green'><h2>Introduction</h2></font>:
       - About Me: about/aboutme.md
       - Contact Info: about/contact.md
