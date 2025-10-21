@@ -1,10 +1,10 @@
 ---
 tags:
-    - languages
-	- go
-	- golang
-	- rust
-	- python
+  - languages
+  - go
+  - golang
+  - rust
+  - python
 ---
 
 # Programming Languages

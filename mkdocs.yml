@@ -145,18 +145,16 @@ nav:
   
   - WebCraft:
     - Webcraft: web/index.md  
+    
     - <font color='green'><h2>Frontend</h2></font>: 
       - Frontend: web/fe/index.md
       - <h3>JavaScript in Browser</h3>: web/fe/jsfe/index.md
-      - <h3>VueJS 101</h3>: 
-        - VueJS 101: web/fe/vuejs/index.md 
-        - Getting Started: web/fe/vuejs/01-getting_started.md
-
+      
     - <font color='green'><h2>Backend</h2></font>: 
       - Backend: web/be/index.md
   
-  - Programming: 
-    - Programming: programming/index.md
+  - CodeWorld: 
+    - CodeWorld: programming/index.md
     - <font color='green'><h2>Languages</h2></font>: 
       - languages: programming/languages/index.md
       - <h3>Go Language</h3>:
@@ -203,11 +201,6 @@ nav:
       - Media Streaming: programming/media-streaming/index.md
       - ffmpeg CLI reference: programming/media-streaming/ffmpeg-reference.md
   
-    - <font color='green'><h2>Games</h2></font>:
-      - Gaming: programming/gaming/index.md    
-      - Godot101: 
-        - Godot 101: programming/gaming/godot101/index.md
-        - 01-Godot Start: programming/gaming/godot101/01-gettingstarted.md
 
   - SW-Eng:  
     - S/W Engineering: sweng/index.md  
