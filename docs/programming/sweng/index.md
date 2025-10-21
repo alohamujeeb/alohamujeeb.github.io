@@ -1,6 +1,5 @@
 ---
 tags:
-    - cicd
     - docker
     - container
 ---
@@ -10,8 +9,5 @@ tags:
 This section contains following topics/sub-topics.
 
 ---
-### [Containers](containers/index.md)
+### [Docker 101](docker101/index.md)
 
-
----
-### [CI/CD](cicd/index.md)

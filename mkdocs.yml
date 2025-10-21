@@ -177,44 +177,37 @@ nav:
         - <h4>Golang 102 (Concurrency)</h4>:
           - Go102: programming/languages/golang102conc/index.md
           - 01-Concurrency in Go: programming/languages/golang102conc/01-goroutines.md
-          
         - <h4> Golang 201 (Intermediate)</h4>:
           - Go201: programming/languages/golang201/index.md
           - 01-Modules in Go: programming/languages/golang201/01-modules.md
       - <h3>Python</h3>:
           - Python: programming/languages/python/index.md
           - Python Env: programming/languages/python/python-env.md
-    
       - <h3>RUST</h3>:
         - <h4> Rust 101 (Common Concepts)</h4>:
           - Rust101: programming/languages/rust101/index.md
           - 01-Getting Started: programming/languages/rust101/01-gettingstarted.md   
 
+    - <font color='green'><h2>Media & Streaming</h2></font>: 
+      - Media Streaming: programming/media-streaming/index.md
+      - ffmpeg CLI reference: programming/media-streaming/ffmpeg-reference.md
+    
     - <font color='green'><h2>Frameworks/Libs</h2></font>:
       - Frameworks: programming/frameworks/index.md    
       - <h3>QUIC-GO 101</h3>: 
         - Quic-go: programming/frameworks/quicgo101/index.md
         - Hello World (in Go): programming/frameworks/quicgo101/01-hello-world.md
         - Hello World (in Python): programming/frameworks/quicgo101/01-hello-world-python-quic.md
-    
-    - <font color='green'><h2>Media & Streaming</h2></font>: 
-      - Media Streaming: programming/media-streaming/index.md
-      - ffmpeg CLI reference: programming/media-streaming/ffmpeg-reference.md
-  
-
-  - SW-Eng:  
-    - S/W Engineering: sweng/index.md  
-    - <font color='green'><h2>Containers</h2></font>:
-      - containers: sweng/containers/index.md
+      
+    - <font color='green'><h2>Software Engineering</h2></font>: 
+      - S/W Engineering: programming/sweng/index.md  
       - <h3>Docker 101</h3>:
-        - docker101: sweng/containers/docker101/index.md
-        - Docker-Getting Started: sweng/containers/docker101/01-getting-started.md
-        - Hello-Docker: sweng/containers/docker101/02-docker-hello.md
-        - A Network Example: sweng/containers/docker101/03-docker-network-example.md
-        - A Multi-Client Example: sweng/containers/docker101/04-tcp-example.md
-        - Docker Quick Reference: sweng/containers/docker101/docker-network-commands.md
-    - <font color='green'><h2>CI/CD</h2></font>:
-      - cicd: sweng/cicd/index.md
+        - docker101: programming/sweng/docker101/index.md
+        - Docker-Getting Started: programming/sweng/docker101/01-getting-started.md
+        - Hello-Docker: programming/sweng/docker101/02-docker-hello.md
+        - A Network Example: programming/sweng/docker101/03-docker-network-example.md
+        - A Multi-Client Example: programming/sweng/docker101/04-tcp-example.md
+        - Docker Quick Reference: programming/sweng/docker101/docker-network-commands.md
 
   - Robotics-&-EmbSys: 
     - Robotics - Embedded Systems:  embsys-drobot/index.md

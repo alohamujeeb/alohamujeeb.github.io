@@ -5,15 +5,15 @@ tags:
   - Backend
 ---
 
-# Web Development
+# Web Crafts
 
 This section contains following topics/sub-topics.
 
 ---
 
-### [Frontend](fe/index.md)
+### [Web Frontend](fe/index.md)
 
-### [Backend](be/index.md)
+### [Web Backend](be/index.md)
 
 
 
