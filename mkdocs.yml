@@ -118,8 +118,8 @@ nav:
     #- <h2>Reference Bits</h2>:
     #  - emojis-list: emoji-list.md
      
-  - Linux-&-Networking:
-    - Linux: linux/index.md
+  - LinuxNets:
+    - LinuxNets: linux/index.md
     - <font color='green'><h2>CLI, Bash, System Tools</h2></font>:
       - Linux Tools: linux/cli-bash/index.md
       - Linux Commands Reference: linux/cli-bash/linux-cli.md
@@ -142,7 +142,6 @@ nav:
     
   #- RoboEmbed
   #- WebCraft  
-  
   - WebCraft:
     - Webcraft: web/index.md  
     
@@ -209,24 +208,24 @@ nav:
         - A Multi-Client Example: programming/sweng/docker101/04-tcp-example.md
         - Docker Quick Reference: programming/sweng/docker101/docker-network-commands.md
 
-  - Robotics-&-EmbSys: 
-    - Robotics - Embedded Systems:  embsys-drobot/index.md
+  - RoboConnect: 
+    - RoboConnect:  drobots/index.md
     - <font color='green'><h2> Modems & Routers </h2></font>:
-      - Modems: embsys-drobot/modems/index.md
+      - Modems: drobots/modems/index.md
       - <h3>Quectel RM530N-GL</h3>: 
-        - RM530N-GL: embsys-drobot/modems/Quectel-RM530N-GL/index.md
-        - Hardware Setup: embsys-drobot/modems/Quectel-RM530N-GL/01-hw-setup-pi5.md
-        - Software Setup: embsys-drobot/modems/Quectel-RM530N-GL/02-sw-setup-pi5.md
-        - AT Command Reference: embsys-drobot/modems/Quectel-RM530N-GL/03-at-commands.md
+        - RM530N-GL: drobots/modems/Quectel-RM530N-GL/index.md
+        - Hardware Setup: drobots/modems/Quectel-RM530N-GL/01-hw-setup-pi5.md
+        - Software Setup: drobots/modems/Quectel-RM530N-GL/02-sw-setup-pi5.md
+        - AT Command Reference: drobots/modems/Quectel-RM530N-GL/03-at-commands.md
         #- Mobilensight Tool: embsys-drobot/Quectel-RM530N-GL/04-mobile-insight.md
     - <font color='green'><h2>Platforms</h2></font>:
-      - Platforms: embsys-drobot/platforms/index.md
-      - Raspberry-Pi 5: embsys-drobot/platforms/pi5/index.md
+      - Platforms: drobots/platforms/index.md
+      - Raspberry-Pi 5: drobots/platforms/pi5/index.md
     - <font color='green'><h2> ROS & RMF </h2></font>:
-      - ROS2: embsys-drobot/ros/index.md
+      - ROS2: drobots/ros/index.md
       - <h3>Pub/Sub Model</h3>:
-        - What is pub/sub: embsys-drobot/ros/pubsub-model.md
-        - OpenRMF: embsys-drobot/openrmf/index.md
+        - What is pub/sub: drobots/ros/pubsub-model.md
+        - OpenRMF: drobots/openrmf/index.md
         
   - Blogs:
     - blog/index.md
