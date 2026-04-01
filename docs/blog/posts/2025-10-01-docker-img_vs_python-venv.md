@@ -97,8 +97,8 @@ While both Docker images and Python virtual environments are designed to manage 
 ---
 ## 5. Useful links
 
-[Docker 101](https://mydigitalcomplex.com/sweng/containers/docker101/index.html)
+[Docker 101](https://alohamujeeb.com/programming/sweng/docker101/index.html)
 
-[Python venv](https://mydigitalcomplex.com/programming/languages/python/python-env.html)
+[Python venv](https://alohamujeeb.com/programming/languages/python/python-env.html)
 
 
