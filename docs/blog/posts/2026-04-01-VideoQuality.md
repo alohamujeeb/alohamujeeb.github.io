@@ -13,10 +13,6 @@ tags:
   - Video Quality
   - Video Metrics
   - Video Analysis
-  - PSNR
-  - SSIM
-  - VIF
-  - VMAF
 ---
 
 # Understanding Video Quality Assessment- Part 1
