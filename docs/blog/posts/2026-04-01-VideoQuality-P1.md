@@ -9,6 +9,7 @@ readtime: 10
 
 categories: 
   - Multimedia
+  - Video
 tags:
   - Video Quality
   - Video Metrics
