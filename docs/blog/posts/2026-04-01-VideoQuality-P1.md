@@ -36,7 +36,7 @@ The group of techniques used for this may be called **reference-based algorithms
 ![Reference-Based Comparision](./images/RF.jpg)
 
 
-- The **Input** and **Output** videos are compared using an algorithm; usually the comparision is frame-by-frame comparision.
+- The **Input** and **Output** videos are compared using some algorithm; usually the comparision is frame-by-frame comparision.
 
 ---
 ### 1.1. Applications
