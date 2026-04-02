@@ -74,9 +74,41 @@ d. AND **Temporal assessment methods**, which monitor motion continuity and smoo
 
 e. **Together, these TWO TYPES OF METRICES give a realistic and actionable view of livestreaming quality**, capturing both how the frames look and how they flow over time.
 
+---
+## 4. Network vs. Frame Level Assessment
+
+1. Packet vs Frame Level Quality
+
+In livestreaming, temporal quality is affected by three layers:
+
+**Network / Transport:**:  packet loss, jitter, latency
+**Decoder / Player:** frame reconstruction, buffering
+
+(A perfect-looking frame can still be useless if it arrives late or unevenly → motion feels jerky.)
+
+2. Unlike **text** data, we need to improve algorithms at **frame** level, such as buffering, jitter buffers. Even in a perfect network with nearly zero network latency, the video latency can be very huge. 
+
+3. Video encoding is another level, which can take significant time, and despite best network, encoding/decoding can be bottlenecks.
+
+4. Therefore, work needs to be improved at **BOTH- Packet and Frame** levels
+
 
 ---
-## 4. Takeaway
+## 5. Real-Time Constraints
+
+FR metrics (PSNR/SSIM) are theoretical gold standard but impossible in live streams.
+
+Livestreaming forces us to rely on:
+
+a. Non-reference spatial metrics
+
+b. Temporal metrics derived from frame intervals / motion
+
+c. Transport-layer stats
+
+
+---
+## 6. Summary
 
 - Livestreaming quality depends not just on spatial fidelity (frame sharpness, clarity) but also on temporal consistency.
 
@@ -89,11 +121,15 @@ e. **Together, these TWO TYPES OF METRICES give a realistic and actionable view 
 
 - Full-reference (FR) spatial metrics like PSNR or SSIM are impractical for live streams due to the lack of a reference video.
 
-- Practical assessment combines:
+- **Practical assessment combines:**
 
 	a. Non-reference spatial metrics (BRISQUE, NIQE, PIQE) to assess frame quality
 
 	b. Temporal metrics (frame drops, jitter, stutter, motion smoothness) to assess motion continuity
 	Together, non-reference spatial + temporal metrics provide a realistic, actionable view of livestreaming quality.
+	
+	c. Real-time constraints and video encoding/decoding can be bottleneck despite BEST FRAME QUALITY. 
 
+
+- **Key insight:** In livestreaming, temporal quality is tightly coupled with network conditions and real-time constraints. Measuring only frames or only packets is insufficient — a holistic approach at both frame and network levels is required to ensure smooth, perceptually high-quality video.
 
