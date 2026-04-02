@@ -32,11 +32,9 @@ In this series of articles on Video Quality Metrics, we’ll go through various 
 The group of techniques used for this may be called **reference-based algorithms**. Here, the idea is simple:<br><br>
 *we compare the video you received or processed with the original video; which means that we always need the reference video to measure how close the output is to the original.*
 
-```mermaid
-flowchart LR
-    A(["Input Video"]) --> B["Process / Transmit"]
-    B --> C(["Output Video"])
-```
+
+![Reference-Based Comparision](./images/RF.jpg)
+
 
 - The **Input** and **Output** videos are compared using an algorithm; usually the comparision is frame-by-frame comparision.
 
@@ -54,16 +52,16 @@ some common use-cases for reference-based (full-reference) video quality algorit
 
 Unlike reference-based methods, no-reference algorithms don’t require access to the original video. Instead, they estimate video quality directly from the content itself.
 
+![NR-Based Comparision](./images/NR.jpg)
+
+
 These techniques analyze the video for common distortions such as:
 
 - **Blur:** loss of sharpness or detail<br>
 - **Noise:** random pixel fluctuations<br>
 - **Blocky:** compression artifacts – visible block edges from lossy encoding<br>
 
-Based on these factors, they generate a quality score. This makes no-reference algorithms particularly useful for:
-
-- **Live streaming,** where the original video isn’t available
-- **Bandwidth-limited monitoring** of video feeds
+Based on these factors, they generate a quality score. 
 
 ---
 ### 2.1. Applications

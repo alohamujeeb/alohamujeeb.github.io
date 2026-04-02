@@ -79,6 +79,7 @@ They **do not consider time or motion** between frames.
 
 - FR metrics typically require the same resolution in reference and test video. e.g. PSNR and SSIM are pixel-by-pixel comparisons. Different resolutions → mismatched pixels → meaningless scores.
 
+![Frame Alignment](./images/RF_Alignment.jpg)
 
 ---
 ## 4.Non-Reference Based Methods

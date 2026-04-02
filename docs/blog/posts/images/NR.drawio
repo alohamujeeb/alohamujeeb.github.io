@@ -1,0 +1,48 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0">
+  <diagram name="Page-1" id="KEZ2y4IquSP4aDxH2xdy">
+    <mxGraphModel dx="708" dy="417" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="L5_msTN7IVUolhUj_Lc_-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Video Source&lt;br&gt;(e.g. Camera)&lt;/b&gt;" vertex="1">
+          <mxGeometry height="50" width="110" x="200" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="L5_msTN7IVUolhUj_Lc_-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;Streaming&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="110" x="382" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L5_msTN7IVUolhUj_Lc_-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Received&lt;br&gt;Video&lt;/b&gt;" vertex="1">
+          <mxGeometry height="50" width="110" x="560" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="L5_msTN7IVUolhUj_Lc_-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;b&gt;Extract Properties&lt;br&gt;(based on some math models)&lt;/b&gt;" vertex="1">
+          <mxGeometry height="50" width="120" x="382" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="L5_msTN7IVUolhUj_Lc_-10" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="115" as="sourcePoint" />
+            <mxPoint x="380" y="115" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L5_msTN7IVUolhUj_Lc_-11" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="492" y="109.51999999999998" as="sourcePoint" />
+            <mxPoint x="560" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L5_msTN7IVUolhUj_Lc_-13" edge="1" parent="1" source="L5_msTN7IVUolhUj_Lc_-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="442" y="176" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L5_msTN7IVUolhUj_Lc_-25" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="502" y="210" as="sourcePoint" />
+            <mxPoint x="580" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L5_msTN7IVUolhUj_Lc_-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Quality&amp;nbsp;&lt;br&gt;Score&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="90" x="580" y="180" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
