@@ -12,7 +12,9 @@ categories:
   - Video
 tags:
   - Video Temporal Quality
-  - PNSR
+  - Livestreaming
+  - jitter
+  - frame loss
 
 ---
 
