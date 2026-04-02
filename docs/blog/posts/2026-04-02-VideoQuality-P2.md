@@ -21,9 +21,9 @@ tags:
   - PIQE
 ---
 
-# Video Quality Assessment- Part 2 
+# Video Quality Pt2- (Spatial Quality)
 
-In [Video Assessment Part 1](2026-04-01-VideoQuality-P1.md) we introduced the basic idea of video quality metrics and the difference between **reference-based and no-reference approaches.**
+In [Video Quality Part 1](2026-04-01-VideoQuality-P1.md) we introduced the basic idea of video quality metrics and the difference between **reference-based and no-reference approaches.**
 
 In this part, we’ll go a bit deeper and look at how these methods work at a conceptual level, focusing on **spatial quality**—how individual video frames are evaluated for issues like blur, noise, and compression artifacts.
 <!-- more -->
