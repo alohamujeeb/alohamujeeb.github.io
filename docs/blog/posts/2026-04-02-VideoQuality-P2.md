@@ -57,10 +57,17 @@ They **do not consider time or motion** between frames.
 
 <br>**1) Pixel-by-pixel comparison of two images/frames:** The simplest way to measure quality is to look at the difference between pixels. If every pixel in the processed image is very close to the original, the quality is considered high. If the differences are large, the quality is low.
 
+PSNR (Peak Signal-to-Noise-Ration) is a common method for this purpose. It is based on the Mean Squared Error (MSE), which directly calculates the difference between corresponding pixel values in the two images.
+
 <br>**2) Structural Similarity:** Instead of comparing pixels directly, structural metrics focus on patterns, edges, ridges, and local textures in the image. They measure how much the structure of the processed image deviates from the original.
+
+SSIM (Structural Similarity Index Measure) is a popular method in this category. Instead of comparing individual pixels, SSIM breaks the image into patches (windows) and computes statistics (luminance, contrast, and structure) across neighborhoods.
 
 <br>**3) Human Perception:**Perceptual metrics aim to predict what humans actually notice. They consider structural changes, contrast, detail loss, and sometimes temporal effects to produce a quality score that aligns closely with subjective human judgment. e.g. color perception, contrast perception, details/sharpness 
 
+VIF (Visual Information Fidelity) is a method in this class which evaluates how much information is extracted from the scene compared to the original, correlating well with human perception.
+
+VMAF (Video Multi-method Assessment Fusion) is another method in this cateogy; It was designed by Netflix to be a practical, high-accuracy perceptual metric. It acts as a "fusion" model, using a machine learning regressor (SVM) to combine multiple "elementary" metrics.
 
 | Metric | Category | What is measured |
 |--------|----------|------------------|
@@ -71,13 +78,13 @@ They **do not consider time or motion** between frames.
 
 ### 3.1. Frame Alignment and Resolution
 
-- Reference-based metrics like PSNR, SSIM, VIF compare each frame of the processed video with the corresponding frame of the reference video.
+- Reference-based metrics like PSNR, SSIM, VIF, and VMAF compare each frame of the processed video with the corresponding frame of the reference video.
 
 - Misaligned frames (e.g., off by a few milliseconds) will produce artificially low quality scores, because the metric sees unrelated content as “differences.”
 
 - So frames must be temporally synchronized as precisely as possible.
 
-- FR metrics typically require the same resolution in reference and test video. e.g. PSNR and SSIM are pixel-by-pixel comparisons. Different resolutions → mismatched pixels → meaningless scores.
+- FR metrics typically require the same resolution in reference and test video. e.g. PSNR is pixel-by-pixel comparisons. Different resolutions → mismatched pixels → meaningless scores.
 
 ![Frame Alignment](./images/RF_Alignment.jpg)
 
