@@ -223,6 +223,8 @@ nav:
     - <font color='green'><h2>Platforms</h2></font>:
       - Platforms: drobots/platforms/index.md
       - Raspberry-Pi 5: drobots/platforms/pi5/index.md
+      - <h3>Yahboom MicroROS-Pi5</h3>:
+        - drobots/platforms/yahboom-pi5/index.md
     - <font color='green'><h2> ROS & RMF </h2></font>:
       - ROS2: drobots/ros/index.md
       - <h3>Pub/Sub Model</h3>:
