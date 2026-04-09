@@ -19,7 +19,10 @@ This section highlights various Yahboom activities, including connectivity setup
 
 [MicroROS-Pi5 Official Website/Documentation](https://www.yahboom.net/study/MicroROS-Pi5)
 
-[Yahbooms Pi5 repository](https://www.yahboom.net/study/raspberry5)
+[Yahboom Pi5 repository](https://www.yahboom.net/study/raspberry5)
+
+[Yahboom Learning Resources](https://www.yahboom.net/download)
+
 
 
 
