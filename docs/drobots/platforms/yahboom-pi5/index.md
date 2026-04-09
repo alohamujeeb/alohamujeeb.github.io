@@ -17,13 +17,13 @@ This section highlights various Yahboom activities, including connectivity setup
 ---
 ## Relevant links
 
-[Yahboom Learning Resources](https://www.yahboom.net/download)
+[Yahboom Learning Resources- External Link](https://www.yahboom.net/download)
 
-[MicroROS-Pi5 Official Website/Documentation](https://www.yahboom.net/study/MicroROS-Pi5)
+[MicroROS-Pi5 Docs- External Link](https://www.yahboom.net/study/MicroROS-Pi5)
 
-[Yahboom VM four-wheel Car](http://www.yahboom.net/study/MicroROS-ESP32)
+[Yahboom VM four-wheel Car Docs- External Link](http://www.yahboom.net/study/MicroROS-ESP32)
 
-[Yahboom Pi5 repository](https://www.yahboom.net/study/raspberry5)
+[Yahboom Pi5 repository- External Link](https://www.yahboom.net/study/raspberry5)
 
 
 

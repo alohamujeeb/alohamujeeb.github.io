@@ -91,9 +91,8 @@ plugins:
         - 5G
         - Embedded Systems
         - Robotics
+        - ROS
         - ROS2
-        - OpenRMF
-        - RMF
         - Linux
         - Programming
         - Life experiences
@@ -225,10 +224,11 @@ nav:
       - Raspberry-Pi 5: drobots/platforms/pi5/index.md
       - <h3>Yahboom MicroROS-Pi5</h3>:
         - drobots/platforms/yahboom-pi5/index.md
-    - <font color='green'><h2> ROS & RMF </h2></font>:
+    - <font color='green'><h2> ROS </h2></font>:
       - ROS2: drobots/ros/index.md
       - <h3>Pub/Sub Model</h3>:
         - What is pub/sub: drobots/ros/pubsub-model.md
+      - <h3>OpenRMF</h3>: 
         - OpenRMF: drobots/openrmf/index.md
         
   - Blogs:

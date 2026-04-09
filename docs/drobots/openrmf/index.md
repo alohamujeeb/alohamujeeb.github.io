@@ -9,9 +9,9 @@ tags:
 ---
 
 ---
-## Some useful links
+## Some relevant links
 
-#### [OpenRMF Installaion with Jazzy- external link ](https://faizansiddiqui.me/writings/pages/guide-to-install-open-rmf-on-ubuntu-2404-with-ros-2-jazzy-jalisco)
+#### [OpenRMF Installaion with Jazzy- external link ](https://faizanmsiddiqui.com/articles/open-rmf-on-ubuntu-2404-with-ros-2-jazzy-jalisco/?_highlight=open#install-open-rmf)
 
-#### [OpenRMF Installaion with Kilted- external link ](https://faizansiddiqui.me/writings/pages/guide-to-install-open-rmf-on-ubuntu-2404-with-ros-2-kilted-kaiju)
+#### [OpenRMF Installaion with Kilted- external link ](https://faizanmsiddiqui.com/articles/open-rmf-on-ubuntu-2404-with-ros-2-kilted-kaiju/)
 
