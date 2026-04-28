@@ -18,10 +18,12 @@ This ensures that:
 - Different projects can use different versions of the same package
 - The development setup is clean, consistent, and easy to reproduce
 
+---
 ## 2. Similar concept to dockers
 It is similar to the concept of Docker containers, but limited to the context of Python.
 While Docker isolates entire applications and their environments at the system level, Python virtual environments isolate Python-specific dependencies and configurations at the project level.
 
+---
 ## 3. Python venv commands
 
 ### Create a venv
@@ -69,10 +71,57 @@ General syntax: ```rm -rf <venv-name>```
 rm -rf venv-proj1
 ```
 
+---
+## 4. Conda environment reference
+
+### Create, clone and edit a conda environment
+Note: --name can be replaced with -n (as short form)
+
+```
+conda create --name myenv python=3.10
+or
+conda create -n myenv python=3.10
+or
+conda create -n dataenv python=3.10 numpy pandas matplotlib
+or
+conda create --name newenv --clone myenv
+
+```
+
+### Using yml files
+
+```
+conda env create -f environment.yml
+
+type following in environment.yml:
+
+name: myenv
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+```
+
+### Activate or deactivate
+
+```
+conda activate myenv
+conda activate myenv
+```
+
+###View
+```
+conda env list
+```
+
+### Delete 
+```
+conda remove -n myenv --all
+```
 
 
 ---
-## 4. Some useful links
+## 5. Some useful links
 [Python Virtual Environments](https://docs.python.org/3/library/venv.html)
 
 [Anaconda Environments](https://www.anaconda.com/docs/getting-started/working-with-conda/environments)

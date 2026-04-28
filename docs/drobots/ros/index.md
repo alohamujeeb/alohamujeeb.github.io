@@ -1,6 +1,6 @@
 ---
 tags:
-    - ros2
+    - ros
 ---
 
 # Robot Operating System (ROS)
