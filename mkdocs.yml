@@ -190,6 +190,7 @@ nav:
 
     - <font color='green'><h2>Media & Streaming</h2></font>: 
       - Media Streaming: programming/media-streaming/index.md
+      - Video For Linux (v4l): programming/media-streaming/v4l.md
       - ffmpeg CLI reference: programming/media-streaming/ffmpeg-reference.md
     
     - <font color='green'><h2>Frameworks/Libs</h2></font>:

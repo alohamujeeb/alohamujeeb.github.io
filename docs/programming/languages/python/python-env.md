@@ -1,6 +1,7 @@
 ---
 tags:
   - venv
+  - conda
 ---
 # **Python and Conda Virtual Environments**
 ---
