@@ -1,7 +1,6 @@
 ---
 tags:
-  - python
-  - snippets
+  - lambda functions
 ---
 # **Lambda Functions in Python**
 
