@@ -3,8 +3,7 @@ tags:
   - python
   - snippets
 ---
-# **Python Code Snippets**
-(This section contains various coding examples in Python)
+# **Lambda Functions in Python**
 
 ---
 ## 1. What is a Lamda function
