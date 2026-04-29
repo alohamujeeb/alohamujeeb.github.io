@@ -126,6 +126,7 @@ nav:
       - Linux Commands Reference: linux/cli-bash/linux-cli.md
       - Bash Scripting: linux/cli-bash/bash.md
       - System Services: linux/cli-bash/services.md
+      - TMUX: linux/cli-bash/tmux.md
     - <font color='green'> <h2> System Programming </h2></font>: 
       - System Programming: linux/system-programming/index.md
     - <font color='green'><h2> Linux Networking </h2></font>: 

@@ -1,6 +1,5 @@
 ---
 tags:
-  - linux 
   - linux commands reference
   - linux cheat sheet
 ---
