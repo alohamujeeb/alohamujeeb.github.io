@@ -7,7 +7,7 @@ tags:
 (This section contains various coding examples in Python)
 
 ---
-## 1. Introduction to Lamda functions
+## 1. What is a Lamda function
 
 - A lambda function is an anonymous function (no name) defined using lambda.
 - It is used to write a small, single-expression function inline.
@@ -15,6 +15,7 @@ tags:
 - A lambda function is not “better” than a normal function. **It’s just a short-hand** tool for a specific situation.
 - Lambda is useful when the **logic is very small** (one expression).
 
+---
 ## 2. Simple examples
 **Example 1:**
 ```
