@@ -20,7 +20,7 @@ tags:
 add = lambda a, b: a + b  #a,b are parameters
 print(add(3, 5))  # Output: 8
 ```
-**add** is a variable holding the lambda functions; the variable is not used with "parameters"
+**add** is a variable holding the lambda functions.
 	
 **Example 2(two variables for same function):**
 ```
