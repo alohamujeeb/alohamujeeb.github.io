@@ -8,4 +8,5 @@ This section provides quick-reference modules covering a variety of Python topic
 ---
 
 ### [Python Environments](python-env.md)
+### [Lamda functions](lamda.md)
 

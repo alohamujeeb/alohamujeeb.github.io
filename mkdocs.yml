@@ -183,6 +183,7 @@ nav:
           - 01-Modules in Go: programming/languages/golang201/01-modules.md
       - <h3>Python</h3>:
           - Python: programming/languages/python/index.md
+          - Lamda functions: programming/languages/python/lamda.md
           - Python Env: programming/languages/python/python-env.md
       - <h3>RUST</h3>:
         - <h4> Rust 101 (Common Concepts)</h4>:
