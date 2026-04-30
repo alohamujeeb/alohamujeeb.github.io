@@ -117,9 +117,34 @@ In the previous section [Video Encoding Part-1](2026-04-29-video_encoding_p1.md)
 
 - In other words, code is algorithm to compress video frames into I,P,B frames; Container is how the frames and other infromation like audio etc. is to be stored in file.
 
+---
+## 5. Video resolutions (CIF, QCIF, HD, FHD, etc.)
+These are early standardized low-resolution video formats used in video conferencing and surveillance systems when bandwidth was very limited.
+
+- Video resolution defines the spatial size of each frame, i.e., how many pixels make up a single image in a video stream.
+
+- Earlier formats like QCIF and CIF were designed for video conferencing and surveillance when bandwidth and processing power were very limited
+
+- Modern formats like HD and Full HD (FHD) are used for high-quality streaming and display systems.
+
+### Video resolution comparison (QCIF → 8K)
+
+| Format | Resolution (W × H) | Total Pixels | Aspect Ratio | Era / Use Case |
+|--------|--------------------|--------------|--------------|-----------------|
+| QCIF   | 176 × 144          | ~25K         | 11:9         | Very low-bandwidth video calls, early mobile video |
+| CIF    | 352 × 288          | ~101K        | 11:9         | Early video conferencing, CCTV systems |
+| 4CIF   | 704 × 576          | ~405K        | 11:9         | Improved surveillance, broadcast systems |
+| SD (480p) | 720 × 480       | ~345K        | 4:3 / 16:9   | DVD, legacy TV systems |
+| HD (720p) | 1280 × 720      | ~921K        | 16:9         | Basic HD streaming |
+| FHD (1080p) | 1920 × 1080   | ~2.07M       | 16:9         | Standard streaming, video conferencing |
+| 2K (QHD) | 2560 × 1440      | ~3.69M       | 16:9         | High-end monitors, gaming, streaming |
+| 4K (UHD) | 3840 × 2160      | ~8.29M       | 16:9         | Ultra HD streaming, cinema-grade content |
+| 8K (UHD) | 7680 × 4320      | ~33.18M      | 16:9         | Experimental / premium displays, professional production |
+
+
 
 ---
-## 5. Audio codecs
+## 6. Audio codecs
 
 - Audio data can also be compressed, similar to video, to reduce storage size and bandwidth usage during transmission.
 
@@ -131,7 +156,7 @@ In the previous section [Video Encoding Part-1](2026-04-29-video_encoding_p1.md)
 
 
 ---
-## 5. Audio and video synchronization
+## 7. Audio and video synchronization
 
 - Audio and video are kept in sync using timestamps (PTS) attached to both streams.
 
