@@ -139,7 +139,7 @@ These are early standardized low-resolution video formats used in video conferen
 | FHD (1080p) | 1920 × 1080   | ~2.07M       | 16:9         | Standard streaming, video conferencing |
 | 2K (QHD) | 2560 × 1440      | ~3.69M       | 16:9         | High-end monitors, gaming, streaming |
 | 4K (UHD) | 3840 × 2160      | ~8.29M       | 16:9         | Ultra HD streaming, cinema-grade content |
-| 8K (UHD) | 7680 × 4320      | ~33.18M      | 16:9         | Experimental / premium displays, professional production |
+| 8K (UHD) | 7680 × 4320      | ~33.18M      | 16:9         | Premium displays, professional production |
 
 
 
