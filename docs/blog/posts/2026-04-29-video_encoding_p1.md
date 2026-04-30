@@ -16,7 +16,7 @@ tags:
   - PNG
   - JPG
   - RGB
-
+  - BMP
 ---
 
 # Video Encoding – Part 1 (Image Formats)
@@ -60,7 +60,7 @@ Note: some extra information is also added called the header (if stored in a fil
 
 ---
 ## 2. Compressed image (JPEG and PNG)
--Raw images are very large in size because they store pixel data directly without compression. This makes them expensive in terms of both storage and transmission bandwidth, especially for high-resolution images.
+Raw images are very large in size because they store pixel data directly without compression. This makes them expensive in terms of both storage and transmission bandwidth, especially for high-resolution images.
 
 - To solve this, images are typically compressed using standard encoding algorithms that reduce file size while preserving visual quality.
 
