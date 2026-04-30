@@ -148,7 +148,7 @@ These are early standardized low-resolution video formats used in video conferen
 
 - Audio data can also be compressed, similar to video, to reduce storage size and bandwidth usage during transmission.
 
-- Unlike video, which is a 2D signal (X and Y axes), audio is a 1D time-domain signal, so its compression algorithms are different and operate over time rather than spatial dimensions.
+- Unlike a video frame, which is a 2D signal (X and Y axes), audio is a 1D time-domain signal, so its compression algorithms are different and operate over time rather than spatial dimensions.
 
 - Common audio codecs include formats like AAC and MP3, which exploit redundancy in sound signals and human hearing perception.
 
