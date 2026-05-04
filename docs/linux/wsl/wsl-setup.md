@@ -13,14 +13,39 @@ This page provides quick-access cheat sheets for WSL installation and setup.
 ## 1. What is WSL
 - Windows Subsystem for Linux (WSL) allows us to run a Linux environment directly on Windows without needing a virtual machine or dual boot.
 
-- It lets us install and use Linux distributions (such as Ubuntu) alongside Windows tools, making it easy to run Linux commands, develop software, and manage files.
-
-- WSL is lightweight, starts quickly, and integrates well with Windows, allowing **seamless switching between environments**.
+- It lets you install and use Linux distributions (such as Ubuntu) alongside Windows tools, making it easy to run Linux commands, develop software, and manage files.
 
 - This document is a quick reference of commands for installing and setting up WSL using Windows PowerShell.
 
+
 ---
-## 1. Installation 
+## 2. Advantages and drawbacks
+
+### 2.1 Advantages of WSL over VMware and VirtualBox
+
+- WSL is lightweight and starts quickly, unlike traditional virtual machines (e.g., VMware or VirtualBox), which are more resource-heavy.
+
+- Communication between Linux and Windows is much simpler in WSL (e.g., easy file access and command execution), compared to typical VM setups where integration can be more complex.
+
+- WSL integrates well with Windows, allowing seamless switching between environments.
+
+- We can install multiple WSL distributions (Ubuntu, Debian, custom ones, etc.); They run independently (each has its own filesystem, packages, users, etc.); They are lightweight compared to full VMs, so running many is usually feasible.
+
+
+
+### 2.2 When NOT to use WSL
+
+- When doing kernel-level development or modifications, since WSL does not provide full control over the Linux kernel.
+
+- When you need full system virtualization (e.g., testing different OS kernels, custom drivers, or low-level system behavior).
+
+- When running GUI-heavy Linux desktop environments or applications that require full GPU/driver control (a full VM may be more suitable depending on the use case).
+
+- When strict isolation is required (e.g., security testing or sandboxing), where a full virtual machine is safer.
+
+
+---
+## 3. Installation 
 
 | Description | Command / Method |
 |------------|-----------------|
@@ -33,7 +58,7 @@ This page provides quick-access cheat sheets for WSL installation and setup.
 
 
 ---
-## 2. General commands
+## 4. General commands
 
 | Description | Command |
 |------------|--------|
