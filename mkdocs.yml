@@ -236,7 +236,9 @@ nav:
         - What is pub/sub: drobots/ros/pubsub-model.md
       - <h3>OpenRMF</h3>: 
         - OpenRMF: drobots/openrmf/index.md
-        
+  - AI-Arena:
+    - AI-Arena: AIarena/index.md
+
   - Blogs:
     - blog/index.md
   
