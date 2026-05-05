@@ -47,6 +47,11 @@ This page provides quick-access cheat sheets for WSL installation and setup.
 ---
 ## 3. Installation 
 
+**Set WSL 2 as default (recommended):**
+```
+wsl --set-default-version 2
+```
+
 | Description | Command / Method |
 |------------|-----------------|
 | Install WSL with default distro | `wsl --install` |
@@ -54,6 +59,7 @@ This page provides quick-access cheat sheets for WSL installation and setup.
 | Install another distro (PowerShell) | `wsl --install -d Ubuntu-22.04` |
 | Install another distro (PowerShell) | `wsl --install -d Ubuntu-24.04` |
 | Install distro with custom name | `wsl --install -d Ubuntu-24.04 --name u24-mdc` |
+| Start (launch) a distribution|wsl -d <DistroName>|
 | Install distro via Microsoft Store | Open Store → search distro → Click Get / Install |
 
 
@@ -65,7 +71,6 @@ This page provides quick-access cheat sheets for WSL installation and setup.
 | List all installed distros (detailed: state + version) | `wsl -l -v` |
 | List all installed distros (simple) | `wsl -l` |
 | Launch a specific distro | `wsl -d Ubuntu-22.04` |
-| Run a Linux command from Windows | `wsl ls -la` |
 | Run a command in a specific distro | `wsl -d Ubuntu-22.04 ls -la` |
 | Shut down all running distros | `wsl --shutdown` |
 | Terminate a specific distro | `wsl --terminate Ubuntu-20.04` |
