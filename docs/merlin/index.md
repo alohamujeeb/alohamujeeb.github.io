@@ -42,11 +42,12 @@ search:
 --- 
 ## 5. prompt
 
-sudo apt install neofetch
+wget https://github.com/fastfetch-cli/fastfetch/releases/latest/download/fastfetch-linux-amd64.deb
+sudo dpkg -i fastfetch-linux-amd64.deb
 
 - BnW 
 ```
-neofetch
+fastfetch
 PS1='┌──[\t]─(\u㉿\h)-[\w]\n└─\$ '
 ```
 
