@@ -29,7 +29,7 @@ Although the name includes **robot** because it is built on Robot Operating Syst
 
 [Open-RMF Demos](https://github.com/open-rmf/rmf_demos)
 
-[OpenRMF Installaion with Jazzy- external link ](https://faizanmsiddiqui.com/articles/open-rmf-on-ubuntu-2404-with-ros-2-jazzy-jalisco/?_highlight=open#install-open-rmf)
+[OpenRMF Installaion with Jazzy- external link ](https://faizanmsiddiqui.com/articles/open-rmf-on-ubuntu-2404-with-ros-2-jazzy-jalisco/)
 
 [OpenRMF Installaion with Kilted- external link ](https://faizanmsiddiqui.com/articles/open-rmf-on-ubuntu-2404-with-ros-2-kilted-kaiju/)
 
