@@ -71,10 +71,10 @@ VMAF (Video Multi-method Assessment Fusion) is another method in this cateogy; I
 
 | Metric | Category | What is measured |
 |--------|----------|------------------|
-| PSNR   | Pixel-based | Direct pixel intensity differences (error between corresponding pixels) |
-| SSIM   | Structural | Luminance (brightness), contrast, and structural patterns (edges, textures) |
-| VIF    | Structural / Information-based | Amount of visual information preserved from the original (based on natural scene statistics) |
-| VMAF   | Hybrid (Structural + Perceptual) | Combination of features: detail loss, structural similarity, contrast, and some temporal/perceptual cues |
+| **PSNR** (Peak Signal-to-Noise Ratio)  | Pixel-based | Direct pixel intensity differences (error between corresponding pixels) |
+| **SSIM** (Structural Similarity Index Measure)   | Structural | Luminance (brightness), contrast, and structural patterns (edges, textures) |
+| **VIF** (Visual Information Fidelity)   | Structural / Information-based | Amount of visual information preserved from the original (based on natural scene statistics) |
+| **VMAF** (Video Multi-Method Assessment Fusion) | Hybrid (Structural + Perceptual) | Combination of features: detail loss, structural similarity, contrast, and some temporal/perceptual cues |
 
 ### 3.1. Frame Alignment and Resolution
 
@@ -99,9 +99,9 @@ VMAF (Video Multi-method Assessment Fusion) is another method in this cateogy; I
 
 | Metric  | Key Parameters Measured | Description | Score Interpretation | Training | Accuracy vs Human Perception |
 |---------|-----------------------|------------|-------------------|----------|----------------------------|
-| **BRISQUE** | Brightness, contrast, edges, textures | Measures deviations from expected natural image statistics; detects blur, noise, and texture distortions | 0–100, lower = better quality | Yes, trained on human-rated images (MOS) using SVR | High |
-| **NIQE** | Brightness, contrast, edges, textures | Measures how “unnatural” an image looks based on general natural image statistics | Lower = closer to natural / better quality | No, unsupervised; uses natural image model | Medium |
-| **PIQE** | Sharpness, blur, blockiness, local intensity variations | Detects local distortions like blur, blockiness, and noise without needing a reference | 0–100, higher = worse quality | No, rule-based algorithm | Low–Medium |
+| **BRISQUE** (Blind/Referenceless Image Spatial Quality) | Brightness, contrast, edges, textures | Measures deviations from expected natural image statistics; detects blur, noise, and texture distortions | 0–100, lower = better quality | Yes, trained on human-rated images (MOS) using SVR | High |
+| **NIQE** (Perception-based Image Quality Evaluator) | Brightness, contrast, edges, textures | Measures how “unnatural” an image looks based on general natural image statistics | Lower = closer to natural / better quality | No, unsupervised; uses natural image model | Medium |
+| **PIQE** (Natural Image Quality Evaluator) | Sharpness, blur, blockiness, local intensity variations | Detects local distortions like blur, blockiness, and noise without needing a reference | 0–100, higher = worse quality | No, rule-based algorithm | Low–Medium |
 
 
 ---
