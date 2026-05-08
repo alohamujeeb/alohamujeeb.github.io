@@ -4,9 +4,7 @@ tags:
     - Machine Learning
     - Artificial Intelligence
 ---
-# AI Areana
-
-(Under Construction)
+# AI Arena
 
 ---
 ### [Foundation]
