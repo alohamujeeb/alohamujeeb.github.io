@@ -7,13 +7,8 @@ tags:
 # AI Arena
 
 ---
-### [Foundation]
+### [Supervised Learning](./supervised/index.md)
 
----
-### [Neural Networks]
-
----
-### [Non-Neural Network Techniques]
 
 
 

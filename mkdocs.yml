@@ -92,12 +92,13 @@ plugins:
         - Embedded Systems
         - Robotics
         - ROS
-        - ROS2
         - Linux
         - Programming
         - Life experiences
         - Multimedia
         - Video
+        - Artificial Intelligence
+        - Machine Learning
   - search
   - meta
   - exclude-search:
@@ -238,7 +239,12 @@ nav:
         - OpenRMF: drobots/openrmf/index.md
   - AI-Arena:
     - AI-Arena: AIarena/index.md
-
+    - <font color='green'><h2> Supervised Learning </h2></font>:
+      - Supervised Learning: AIarena/supervised/index.md
+    - <font color='green'><h2> Unsupervised Learning </h2></font>:
+      - Unsupervised Learning: AIarena/unsupervised/index.md
+    - <font color='green'><h2> Reinforcement Learning </h2></font>:
+      - Unsupervised Learning: AIarena/reinforcement/index.md
   - Blogs:
     - blog/index.md
   
