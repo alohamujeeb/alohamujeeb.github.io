@@ -5,8 +5,9 @@ tags:
 # Supervised Learning
 
 ---
+### Classification Algorithms
 ???+ note "Click to expand/Collapse"
-    - [Support Vector Machine (SVM)](./supervised/svm.md)
+    - [Support Vector Machine (SVM)](svm.md)
 
 
 
