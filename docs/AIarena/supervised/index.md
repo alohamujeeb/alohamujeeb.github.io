@@ -5,8 +5,8 @@ tags:
 # Supervised Learning
 
 ---
-### [Support Vector Machine(SVM)](svm.md)
-
+???+ note "Click to expand/Collapse"
+    - [Support Vector Machine (SVM)](./supervised/svm.md)
 
 
 
