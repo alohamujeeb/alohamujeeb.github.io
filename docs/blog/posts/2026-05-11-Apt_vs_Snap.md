@@ -174,7 +174,7 @@ Raspberry Pi OS
 ```
 
 ---
-## 7. debian package installatio (two ways)
+## 7. debian package installation (two ways)
 
 - Debian and its related systems use APT (Advanced Package Tool) to install software. 
 
