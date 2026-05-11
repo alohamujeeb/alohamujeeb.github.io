@@ -37,6 +37,11 @@ Two of the most common package managers on Linux (especially Ubuntu-based system
 
 - **APT** (Advanced Package Tool) is the traditional system where software integrates closely with the operating system and mostly uses shared system libraries. 
 
+- **Debian** is one of the oldest and most important Linux distributions, and many other operating systems are built from it.
+
+- **APT is the default** and most commonly used package manager for Debian-based systems. It is used to install, update, and remove software packages.
+
+
 ```mermaid
 flowchart LR
     A[apt command] --> B[installs files directly into Linux filesystem]
@@ -53,7 +58,7 @@ graph LR
 ```
     
 ---
-## 2. W/hen to use which?
+## 2. When to use which?
 
 **Use APT if you want:**<br>
 
@@ -71,9 +76,11 @@ sudo apt install vlc
 - apps that work the same across distributions
 - easier installs for complex software
 - isolation/security
-- For example:
+- For example (to install Visual Studio Code and Firefox):
 ```
-sudo snap install code --classic
+sudo snap install code --classic  (note: It gives the app full access to your system, similar to normal (non-Snap) apps)
+
+sudo snap install firefox
 ```
 
 ---
@@ -124,4 +131,54 @@ So if:
 
 3. **snap CLI**:  
    A command-line utility used to interact with the Snap system (install, remove, update, and query Snap packages).
+
+---
+## 6. Compatible distributions
+
+### 6.1 APT-Compatible distributions (Debian-based family)
+
+
+- Following systems use the APT package manager (.deb packages):
+
+```
+Debian (base system for many others)
+Ubuntu
+Linux Mint
+Pop!_OS
+elementary OS
+Zorin OS
+Kali Linux
+Raspberry Pi OS (Debian-based)
+```
+
+### 6.2 Snap-Compatible distributions
+
+- Snap works across multiple Linux families (not limited to one type).
+
+- Snap support depends on installing the Snap service:
+
+```
+Ubuntu (default Snap support)
+Debian
+Fedora
+openSUSE
+Arch Linux
+Linux Mint
+Pop!_OS
+elementary OS
+Zorin OS
+Red Hat Enterprise Linux (RHEL)
+CentOS Stream
+Raspberry Pi OS
+```
+
+### 6.3 Quick summary
+```
+- APT = Debian family only (.deb packages)
+
+- Snap = Cross-distribution (works on most Linux distros)
+(Snap requires snapd service to run)
+
+```
+
 
