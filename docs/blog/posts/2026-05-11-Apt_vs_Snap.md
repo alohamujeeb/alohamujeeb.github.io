@@ -41,6 +41,7 @@ Two of the most common package managers on Linux (especially Ubuntu-based system
 
 - **APT is the default** and most commonly used package manager for Debian-based systems. It is used to install, update, and remove software packages.
 
+-APT works with .deb packages (Debian package format), while Snap uses its own containerized package format called Snap packages (as described below).
 
 ```mermaid
 flowchart LR
@@ -172,13 +173,49 @@ CentOS Stream
 Raspberry Pi OS
 ```
 
-### 6.3 Quick summary
+---
+## 7. debian package installatio (two ways)
+
+- Debian and its related systems use APT (Advanced Package Tool) to install software. 
+
+- APT always works with .deb packages, **but the way it gets them can differ**.
+
+### Method 1: from repositories 
 ```
+sudo apt install curl
+(APT checks online software repositories (official Debian/Ubuntu servers))
+
+```
+
+### Method 2: using a .deb file (manual install)
+
+- Sometimes we download a .deb file manually from a website.
+```
+sudo apt install ./google-chrome-stable_current_amd64.deb
+
+```
+### Method 3: Older (not recommended)
+```
+sudo dpkg -i file.deb
+
+❌ Does not automatically fix missing dependencies
+That’s why APT is preferred today
+```
+
+
+
+
+---
+## 8. Quick summary
+
 - APT = Debian family only (.deb packages)
 
 - Snap = Cross-distribution (works on most Linux distros)
 (Snap requires snapd service to run)
 
-```
+- APT works with ```.deb``` packages (Debian package format), while Snap uses its own containerized package format called Snap packages.
+
+- APT = manager that handles .deb packages via repositories
+
 
 
