@@ -5,6 +5,8 @@ tags:
 # Supervised Learning
 
 ---
-### (under construction)
+### [Support Vector Machine(SVM)](svm.md)
+
+
 
 
