@@ -9,6 +9,10 @@ tags:
 ---
 ### [Supervised Learning](./supervised/index.md)
 
+### [Unupervised Learning](./unsupervised/index.md)
+
+### [Reinforcement Learning](./reinforcement/index.md)
+
 
 
 
