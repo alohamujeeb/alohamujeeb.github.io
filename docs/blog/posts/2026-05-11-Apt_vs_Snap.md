@@ -41,7 +41,7 @@ Two of the most common package managers on Linux (especially Ubuntu-based system
 
 - **APT is the default** and most commonly used package manager for Debian-based systems. It is used to install, update, and remove software packages.
 
--APT works with .deb packages (Debian package format), while Snap uses its own containerized package format called Snap packages (as described below).
+- APT works with .deb packages (Debian package format), while Snap uses its own containerized package format called Snap packages (as described below).
 
 ```mermaid
 flowchart LR
