@@ -247,9 +247,12 @@ nav:
       - <h3>Yahboom MicroROS-Pi5</h3>:
         - drobots/platforms/yahboom-pi5/index.md
     - <font color='green'><h2> ROS </h2></font>:
-      - ROS2: drobots/ros/index.md
+      - ROS: drobots/ros/index.md
       - <h3>Pub/Sub Model</h3>:
         - What is pub/sub: drobots/ros/pubsub-model.md
+      - <h3>ROS2 Material</h3>:
+        - ROS2: drobots/ros/ros2/index.md
+        - ROS2 Installation: drobots/ros/ros2/ros2-install.md
       - <h3>OpenRMF</h3>: 
         - OpenRMF: drobots/openrmf/index.md
   - AI-Arena:
