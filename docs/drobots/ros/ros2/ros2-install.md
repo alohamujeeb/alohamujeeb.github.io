@@ -4,16 +4,16 @@ tags:
   - ROS2 Versions
 ---
 
-# ROS2 Installation
+# ROS 2 Installation
 
 ---
-## 1. ROS2 Versions
+## 1. ROS 2 Versions
 
 - ROS 2 is primarily developed and officially supported on Ubuntu/Debian-based systems.
 - Although it can also run on other Linux distributions such as Fedora, Arch Linux, and Gentoo by building from source,
   the most stable binary packages and documentation are mainly targeted for **Ubuntu releases**.
 
-- ROS 2 distributions are released regularly, and some releases are designated as **Long Term Support (LTS)** versions.
+- ROS2 distributions are released regularly, and some releases are designated as **Long Term Support (LTS)** versions.
 - LTS releases are recommended for most users because they provide longer support, stability, and better community adoption.
 
 - Each LTS version is given a codename, such as **Jazzy**, **Humble**, and **Foxy**.
@@ -28,7 +28,7 @@ tags:
 
 
 ---
-## 2. ROS2 Installation
+## 2. ROS 2 Installation Guides
 
 - ROS 2 installation is well documented and officially available online.
 - Use the following links based on your selected ROS 2 distribution.
