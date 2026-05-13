@@ -104,7 +104,7 @@ AI systems are trained using **optimization-based algorithms** (such as gradient
 
 | Examples                                                                                                                                                      | In these cases                                                                            |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
-| Neural Networks <br> Support Vector Machines (SVM) <br> Decision Trees <br> Random Forests <br> Gradient Boosting Machines <br> XGBoost / LightGBM / CatBoost | Learn patterns from data <br> Reduce prediction errors <br> Improve performance over time |
+| Neural Networks <br> Support Vector Machines (SVM) <br> Decision Trees <br> Random Forests <br> Gradient Boosting Machines <br> XGBoost / LightGBM / CatBoost | Learn patterns from data |
 
 ---
 ## 5. When to use AI (and when not to)
