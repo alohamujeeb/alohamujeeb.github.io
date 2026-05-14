@@ -8,7 +8,7 @@ search:
 
 ---
 ## 0. External links
-[Faizan's code snippets](https://faizansiddiqui.me/snippets/)
+[Faizan's code snippets](https://faizanmsiddiqui.com/snippets/)
 
 ---
 ## 1. ```quic``` protocol examples
@@ -58,12 +58,9 @@ neofetch
 PS1='\[\e[1;32m\]┌──[\[\e[1;36m\]\t\[\e[1;32m\]]─(\[\e[1;34m\]\u㉿\h\[\e[1;32m\])-[\[\e[1;33m\]\w\[\e[1;32m\]]\n└─\$ \[\e[0m\]'
 ```
 
-
-
-## 99. WIP links
-(remove after done)
-
-### [VueJS and Vanilla topics](zz-vuejs-vanilla.md)
+---
+## 6. Pyqt6 and designer 
+[pyqt6_designer_install_test.md](pyqt6_designer_install_test.md)
 
 
 
