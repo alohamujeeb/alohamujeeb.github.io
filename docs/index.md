@@ -11,7 +11,7 @@ img {
   <!-- <img src="images/mypicture.jpg" width="200"> -->
   <img src="images/mypicture.jpg" alt="Avatar" width="200">
 </div>
-<h2 align="center"> <font color='green'> <b>Loyalty above all, except HONOUR</b> </font> </h2>
+<h2 align="center"> <font color='green'> <b>“Loyalty above all — except honour.”</b> </font> </h2>
 
 
 ## What’s this site about?
