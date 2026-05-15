@@ -186,3 +186,10 @@ V4L2["V4L2 Kernel Driver"]
 
 APP --> IOCTL --> FD --> V4L2
 ```
+
+
+---
+## Relevant links
+
+[Reading camera in Python (Linux Overview)](camera_in_python_linux.md)
+
