@@ -60,7 +60,7 @@ PS1='\[\e[1;32m\]┌──[\[\e[1;36m\]\t\[\e[1;32m\]]─(\[\e[1;34m\]\u㉿\h\[\
 
 ---
 ## 6. Pyqt6 and designer 
-[pyqt6_designer_install_test.md](pyqt6_designer_install_test.md)
+[pyqt6_designer_install_test](pyqt6_designer_install_test.md)
 
 
 

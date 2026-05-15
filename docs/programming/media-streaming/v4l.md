@@ -13,9 +13,10 @@ tags:
 - Video4Linux (V4L) is a kernel API (interface) in Linux that lets applications access video devices.
 
 - It provides a standard way for software to:
-		<br> - Capture video from webcams
-		<br> - Query and modify camera settings
-
+```
+- Capture video from webcams
+- Query and modify camera settings
+```
 - We may think of it as the **driver framework** for video devices in Linux.
 
 - **V4L2 (Video4Linux version 2) is the NEWER version of V4L**.
@@ -23,8 +24,8 @@ tags:
 
 - Once a video device is successfully connected, the kernel exposes it like:
 ```
-	/dev/video0
-	/dev/video1
+/dev/video0
+/dev/video1
 ```
 
 ---
@@ -49,7 +50,35 @@ sudo apt install v4l-utils
 ```
 
 ---
-## 3. v4l2-ctl quick reference
+## 3. V4L2 system layers
+
+``` mermaid
+flowchart LR
+
+subgraph HW["Hardware Layer"]
+    CAM["📷 Camera Sensor"]
+    CSI["CSI / USB Interface"]
+end
+
+subgraph KERNEL["Linux Kernel Space"]
+    V4L2DRV["V4L2 Driver"]
+    VIDEO_NODE["/dev/video0 (V4L2 device node)"]
+end
+
+subgraph USER["User Space"]
+    APP["📱 Application\n(OpenCV / FFmpeg / GStreamer / Custom App / V4L2-Ctrl)"]
+end
+
+CAM --> CSI
+CSI --> V4L2DRV
+V4L2DRV --> VIDEO_NODE
+
+APP --> VIDEO_NODE
+```
+
+
+---
+## 4. v4l2-ctl quick reference
 
 Device discovery & info:
 ```
@@ -81,7 +110,7 @@ v4l2-ctl -d /dev/video0 --get-parm
 ```
 
 ---
-## 4. Control Streaming Methods
+## 5. Control Streaming Methods
 
 v4l2-ctl lets you choose how frames are transferred between kernel and userspace.
 
@@ -94,11 +123,7 @@ v4l2-ctl lets you choose how frames are transferred between kernel and userspace
 v4l2-ctl -d /dev/video0 --stream-mmap --stream-count=100
 ```
 
-### ii. USERPTR (user-provided buffers)
-
-- Application allocates memory
-- Kernel uses pointers to that memory
-- Useful in custom memory management systems and some embedded pipelines
+### ii. USERPTR (user-provided buffers)---
 
 ```
 v4l2-ctl -d /dev/video0 --stream-user --stream-count=100
@@ -124,8 +149,9 @@ v4l2-ctl -d /dev/video0 \
   --stream-to=video.mjpg
 ```
 
+
 ---
-## 5. A bit about low-level 
+## 6. A bit about low-level 
 
 - v4l2-ctl is a user-space tool, and it communicates with the camera through V4L2 system calls, mainly:
 	<br> **ioctl()** (primary interface for control operations such as setting format, FPS, controls, and starting/stopping streaming)
@@ -142,3 +168,21 @@ v4l2-ctl -d /dev/video0 \
 - These libraries (OpenCV, Gstreamer, FFmpweg) use the low-level routines ioctl() etc. 
 
 - They typically use V4L2 indirectly via their own capture backends or plugins, which internally rely on V4L2 system calls (mainly ioctl() and mmap()).
+
+
+### 6.1 V4L2 programmer’s view (ioctl path)
+
+
+``` mermaid
+flowchart LR
+
+APP["Application Code\n(OpenCV / FFmpeg / C/C++)"]
+
+IOCTL["ioctl() system calls"]
+
+FD["File Descriptor\n(/dev/video0)"]
+
+V4L2["V4L2 Kernel Driver"]
+
+APP --> IOCTL --> FD --> V4L2
+```
