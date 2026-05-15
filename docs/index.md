@@ -22,15 +22,15 @@ Feel free to explore various sections—you might find something useful or inspi
 ## What kind of material is available here?
 You’ll find info here on things like:
 
-    Software development
+    Software engineering
    
-    Web Development
+    Web development
 
-    Linux programming
+    Linux systems (networking and programming)
 
     Embedded systems
 
-    Robotics (ROS2, OpenRMF, ...) 
+    Robotics (ROS2, OpenRMF, etc.) 
 
     Image and video processing
 
