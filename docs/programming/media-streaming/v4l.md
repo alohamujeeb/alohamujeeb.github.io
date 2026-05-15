@@ -176,7 +176,7 @@ v4l2-ctl -d /dev/video0 \
 ``` mermaid
 flowchart LR
 
-APP["Application Code\n(OpenCV / FFmpeg / C/C++)"]
+APP["Application Code\n(OpenCV / FFmpeg / C/C++ / V4l2-ctl)"]
 
 IOCTL["ioctl() system calls"]
 
