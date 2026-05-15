@@ -1,5 +1,6 @@
 ---
 tags:
+  - Camera
   - Camera in Python
   - V4L
   - V4L2
