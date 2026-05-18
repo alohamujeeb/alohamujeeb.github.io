@@ -10,6 +10,8 @@ We'll cover step by step what containers are, how Docker works behind the scenes
 
 
 ## Usefule links
-[Docker vs Podman- External link](https://faizansiddiqui.me/writings/pages/docker-versus-podman-a-comparison)
+[Docker vs Podman- External link](https://faizanmsiddiqui.com/articles/docker-versus-podman-a-comparison/)
+
+
 
 
