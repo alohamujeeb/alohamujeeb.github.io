@@ -11,9 +11,7 @@ categories:
   - Programming
 tags:
    - vanilla JavaScript
-   - vuejs
-   - angular
-   - react
+   - frontend
 
 ---
 # Vanialla JavaScript vs Frameworks
@@ -21,8 +19,7 @@ tags:
 - This section provides a brief introduction to some of the most commonly used frontend frameworks, including Angular, React, and Vue.js.
 <!-- more -->
 
-- We also compare these frameworks with traditional web pages built using pure JavaScript (Vanilla JS), highlighting the key differences in approach, structure, and scalability.
-
+- We also compare the concept of frontend frameworks with traditional web pages built using pure JavaScript (Vanilla JS), highlighting the key differences in approach, structure, and scalability.
 
 
 ---
