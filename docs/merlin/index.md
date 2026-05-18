@@ -47,14 +47,19 @@ sudo dpkg -i fastfetch-linux-amd64.deb
 
 - BnW 
 ```
-fastfetch
+neofetch
 PS1='┌──[\t]─(\u㉿\h)-[\w]\n└─\$ '
 ```
 
 
 - Color
 ```
-neofetch
+(do following if sudo apt install fastfetch does not work)
+# Adding this PPA to your system
+# sudo add-apt-repository ppa:zhangsongcui3371/fastfetch
+# sudo apt update
+
+fastfetch
 PS1='\[\e[1;32m\]┌──[\[\e[1;36m\]\t\[\e[1;32m\]]─(\[\e[1;34m\]\u㉿\h\[\e[1;32m\])-[\[\e[1;33m\]\w\[\e[1;32m\]]\n└─\$ \[\e[0m\]'
 ```
 
