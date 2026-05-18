@@ -78,6 +78,10 @@ JavaScript frameworks revolutionized web development by making it faster and eas
 
 - But **for complex applications that need to grow and evolve over time**, frameworks provide the structure and best practices necessary to keep code manageable and reliable.
 
+---
+## Relevant links
+
+#### [Vanialla JavaScript vs Frameworks](2026-05-19-Frameworks_vs_JavascripVanila.md)
 
 
 
