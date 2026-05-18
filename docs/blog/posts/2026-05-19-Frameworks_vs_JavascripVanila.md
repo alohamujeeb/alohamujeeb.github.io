@@ -194,7 +194,7 @@ function addToCart(product) {
 		we must remember every place the UI depends on state
 		
 
-<br> **The real problem (not complexity, but coupling)**
+<br><font color='red'> **The real problem (not complexity, but coupling)**</font>
 
 
 ### 5.2 Vue approach
