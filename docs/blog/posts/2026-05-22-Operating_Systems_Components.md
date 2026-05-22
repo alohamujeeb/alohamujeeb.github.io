@@ -16,9 +16,12 @@ tags:
 ---
 # Operating System Components: A Conceptual Overview
 
-- This writing presents a conceptual overview of operating system components, including the kernel, user interface, application interface, and supporting mechanisms.
+- This writing of mine presents a conceptual overview of operating system components, including the kernel, user interface, application interface, and supporting mechanisms.
 <!-- more -->
-- It explains key high-level operating system concepts and terminology for readers new to the subject.
+
+- It explains key high-level operating system concepts and terminology for readers who are new to the subject.
+
+- The intended audience is IT professionals rather than core computer science practitioners. I have written this at the request of a colleague working in machine learning and robotics who is not very familiar with operating system–level concepts.
 
 ---
 ## 1. What is operating system (OS)
