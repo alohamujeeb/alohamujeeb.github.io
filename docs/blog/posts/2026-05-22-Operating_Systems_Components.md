@@ -21,7 +21,7 @@ tags:
 - It explains key high-level operating system concepts and terminology for readers new to the subject.
 
 ---
-## 1. What is opeerating system (OS)
+## 1. What is operating system (OS)
 
 - When we buy a computer, it is just a piece of hardware. On its own, it is not very useful because we cannot easily **interact with it** or make it perform meaningful tasks.
 
