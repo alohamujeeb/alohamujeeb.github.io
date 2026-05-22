@@ -32,7 +32,7 @@ tags:
 - An analogy is a **car driving system**. A driver can operate a car using the steering wheel, pedals, and controls without knowing the detailed mechanical or engineering workings of the engine. Similarly, an operating system allows a user to operate a computer without needing to understand its internal hardware complexity.
 
 ---
-## 2. Essential components of an OS
+## 2. Essential features of an OS
 
 Broadly speaking, there are three essential components in every operating system. These components work together to allow users to interact with the computer and utilize its resources effectively.
 
@@ -61,7 +61,7 @@ Through the user interface, users can perform operations such as creating files,
 - This includes system calls and APIs that allow programs to access hardware resources in a controlled manner.
 
 ---
-## 3. Kernel (the core)
+## 3. Kernel component (the inside of OS)
 
 - The kernel is the core component of an operating system. It is a piece of software that forms the foundation of the OS, and almost everything else is built on top of it.
 
@@ -78,7 +78,7 @@ Through the user interface, users can perform operations such as creating files,
 
 
 ---
-## 3. User interface
+## 3. User interface component (the outside of OS)
 
 - The user interface (UI) is the part of the operating system that allows users to interact with the computer system.
 
@@ -119,9 +119,14 @@ graph TD
     K --> UI
     UI -->|Sends user requests| K
 ```
-    
+
+- In modern operating systems, especially Linux, GUI environments are built on top of the same kernel, meaning multiple different graphical interfaces can exist for a single operating system. For example, in Linux, desktop environments like **GNOME and KDE Plasma** run on top of the Linux kernel, but provide very different visual styles and user experiences.
+
+- Other common Linux desktop environments include XFCE (lightweight and fast), Cinnamon (traditional desktop experience), and LXQt (very lightweight for low-resource systems).
+
+   
 ---
-## 4. Application interface
+## 4. Application interface 
 
 - The operating system not only allows users to interact with the computer, but also **provides mechanisms for software applications** to interact with the system.
 
