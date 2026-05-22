@@ -34,11 +34,16 @@ tags:
 ---
 ## 2. Essential features of an OS
 
-Broadly speaking, there are three essential components in every operating system. These components work together to allow users to interact with the computer and utilize its resources effectively.
+Broadly speaking, there are **three essential components** in every operating system. These components work together to allow users to interact with the computer and utilize its resources effectively.
+
+| Resource Management | User Interface (UI) | Application Interface |
+|--------------------|---------------------|----------------------|
+| Manages hardware resources like CPU, memory, and devices | Provides a way for users to interact with the system via GUI or CLI | Allows programs to interact with the OS through system calls and APIs to access hardware and system services  |
+
 
 ### i) Resource Management
 
-The operating system manages all system resources such as input devices, output devices, memory, and the processor.
+The operating system manages all system resources such as input/output devices, memory, and the processor.
 
 This happens mostly behind the scenes without the user’s direct awareness. The OS ensures that multiple programs can run efficiently without conflicts, by allocating and controlling access to hardware resources.
 
@@ -61,9 +66,9 @@ Through the user interface, users can perform operations such as creating files,
 - This includes system calls and APIs that allow programs to access hardware resources in a controlled manner.
 
 ---
-## 3. Kernel component (the inside of OS)
+## 3. Kernel component (the **inside** of OS)
 
-- The kernel is the core component of an operating system. It is a piece of software that forms the foundation of the OS, and almost everything else is built on top of it.
+- The kernel is the core component of an operating system. It is a piece of software that forms the **foundation of the OS**, and almost **everything else is built on top of it**.
 
 - The kernel directly interacts with the hardware and manages critical system operations. It acts as a bridge between software and physical components of the computer.
 
@@ -78,7 +83,7 @@ Through the user interface, users can perform operations such as creating files,
 
 
 ---
-## 3. User interface component (the outside of OS)
+## 4. User interface (the **outside** of OS)
 
 - The user interface (UI) is the part of the operating system that allows users to interact with the computer system.
 
@@ -98,37 +103,45 @@ There are two main types of user interfaces (as mentioned earlier):
 
 graph TD
 
+    subgraph L3 [User Interface]
+        UI[User input into system actions]
+    end
+
+    subgraph L2 [Kernel]
+        K[Controls hardware resources]
+    end
+
     subgraph L1 [Hardware Resources]
         CPU[CPU]
         MEM[Memory - RAM]
         IO[Input/Output Devices]
     end
 
-    subgraph L2 [Kernel]
-        K[Kernel - Controls hardware resources]
-    end
+    UI --> K
 
-    subgraph L3 [User Interface]
-        UI[UI - Translates user input into system actions]
-    end
+    K --> CPU
+    K --> MEM
+    K --> IO
 
     CPU --> K
     MEM --> K
     IO --> K
-
-    K --> UI
-    UI -->|Sends user requests| K
 ```
 
-- In modern operating systems, especially Linux, GUI environments are built on top of the same kernel, meaning multiple different graphical interfaces can exist for a single operating system. For example, in Linux, desktop environments like **GNOME and KDE Plasma** run on top of the Linux kernel, but provide very different visual styles and user experiences.
+
+- In modern operating systems, especially Linux, **GUI environments are built on top of the same kernel**, meaning multiple different graphical interfaces can exist for a single operating system. 
+
+- For example, in Linux, desktop environments like **GNOME and KDE Plasma** run on top of the Linux kernel, but provide very different visual styles and user experiences.
 
 - Other common Linux desktop environments include XFCE (lightweight and fast), Cinnamon (traditional desktop experience), and LXQt (very lightweight for low-resource systems).
 
    
 ---
-## 4. Application interface 
+## 5. Application interface
 
 - The operating system not only allows users to interact with the computer, but also **provides mechanisms for software applications** to interact with the system.
+
+- Application Interface (API / system interface layer) **Sits above the kernel**
 
 - These mechanisms are collectively called the **Application Interface**.
 
@@ -169,7 +182,7 @@ API[APIs and System Calls]
 end
 
 subgraph A3[Kernel and Driver Layer]
-KERNEL[Kernel]
+KERNEL[Kernel Core]
 DRV[Device Drivers]
 end
 
@@ -183,7 +196,7 @@ KERNEL --> DRV
 ```
 
 ---
-## 5. Device drivers (extending the kernel)
+## 6. Device drivers (extending the kernel)
 
 - Modern computers support a very large variety of hardware devices such as printers, graphics cards, network adapters, USB devices, webcams, and storage controllers.
 
@@ -237,6 +250,32 @@ DRV --> GPU
 DRV --> PRN
 DRV --> NET
 DRV --> USB
+```
+
+---
+## 7. All pieces fit togethar
+
+```mermaid
+
+flowchart TB
+
+A[Applications] --> B[GUI or  CLI environments]
+
+A --> C[System Services systemd NetworkManager PipeWire]
+
+A --> D[User Libraries libc GTK Qt]
+
+D --> E[System Call Interface]
+C --> E
+B --> D
+
+subgraph KERNEL[Kernel Space]
+E --> F[Kernel Core]
+F --> G[Device Drivers]
+end
+
+G --> H[Hardware Devices]
 
 ```
+
 
