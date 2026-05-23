@@ -73,13 +73,14 @@ Through the user interface, users can perform operations such as creating files,
 
 - **From software implementation perspective, an OS can be split in two layers**; Kernal and User Interface
 
-- **Kernel" is explained in this section; the UI will be explained in the next section. 
+- **Kernel** is explained in this section; the UI will be explained in the next section. 
 
 - The kernel is the core component of an operating system. It is a piece of software that forms the **foundation of the OS**, and almost **everything else is built on top of it**.
 
 - The kernel directly interacts with the hardware and manages critical system operations. It acts as a bridge between software and physical components of the computer.
 
 - The kernel performs the following key functions:
+
 		- Manages CPU (process scheduling and execution of programs)
 		- Manages memory (allocation and deallocation of RAM)
 		- Controls input/output devices through drivers
