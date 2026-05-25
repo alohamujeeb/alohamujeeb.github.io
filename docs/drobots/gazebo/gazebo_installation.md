@@ -57,7 +57,7 @@ sudo apt remove gz-harmonic && sudo apt autoremove
 ### 2.4 Verify installation
 
 ```
-gz sim --help
+gz sim --versions
 ```
 
 
