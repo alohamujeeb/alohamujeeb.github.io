@@ -14,7 +14,7 @@
 
 ---
 ## <font color='amber'>Freedom & Speech</font>
-- **Without freedom of speech we would not know who the idiots are**
+- **Without freedom of speech we would not know who the idiots are.**
 
 
 ---
