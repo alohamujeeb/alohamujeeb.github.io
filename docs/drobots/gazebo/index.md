@@ -21,12 +21,12 @@ tags:
 | Ubuntu 22.04 (Jammy) | Gazebo Harmonic (recommended), Gazebo Fortress (recommended if using ROS 2 Humble) |
 
 - Also see: ROS2 and Ubuntu platforms
-[Ros2 Instllation](../ros/ros2/ros2-install.md)
+[Ros2 Installation](../ros/ros2/ros2-install.md)
 
 
 ---
 ## 3. Gazebo Instllation
-[Gazebo Instllation](gazebo_installation.md)
+[Gazebo Installation](gazebo_installation.md)
 
 
 
