@@ -258,6 +258,9 @@ nav:
         - ROS2 Installation: drobots/ros/ros2/ros2-install.md
       - <h3>OpenRMF</h3>: 
         - OpenRMF: drobots/openrmf/index.md
+        - Installation Guide: drobots/openrmf/openrmf_installation.md
+        - Jazzy Installation: drobots/openrmf/openrmf_installation-jazzy.md
+        
   - AI-Arena:
     - AI-Arena: AIarena/index.md
     - <font color='green'><h2> Supervised Learning </h2></font>:

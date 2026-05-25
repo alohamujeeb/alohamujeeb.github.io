@@ -7,7 +7,7 @@ tags:
 # OpenRMF
 ---
 
-## Introduction
+## 1. Introduction
 
 The Open Robotics Middleware Framework (Open-RMF) is a free, open-source software system that helps different robots and building systems work together smoothly.
 
@@ -17,9 +17,13 @@ Open-RMF isn’t limited to robots—it’s designed to coordinate a wide range 
 
 Although the name includes **robot** because it is built on Robot Operating System (ROS), its main role is to act as a unifying platform for managing diverse smart infrastructure.
 
+## 2. Misc OpenRMF topics
+
+### [Open-RMF Installation](openrmf_installation.md)
+
 
 ---
-## Some relevant links
+## 3. Some external links
 
 [Open-RMF Website](https://www.open-rmf.org/)
 
@@ -28,8 +32,4 @@ Although the name includes **robot** because it is built on Robot Operating Syst
 [Open-RMF Docs](https://osrf.github.io/ros2multirobotbook/)
 
 [Open-RMF Demos](https://github.com/open-rmf/rmf_demos)
-
-[OpenRMF Installaion with Jazzy- external link ](https://faizanmsiddiqui.com/articles/open-rmf-on-ubuntu-2404-with-ros-2-jazzy-jalisco/)
-
-[OpenRMF Installaion with Kilted- external link ](https://faizanmsiddiqui.com/articles/open-rmf-on-ubuntu-2404-with-ros-2-kilted-kaiju/)
 
