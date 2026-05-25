@@ -25,7 +25,7 @@ tags:
 
 
 ---
-## 3. Gazebo Instllation
+## 3. Gazebo Installation
 [Gazebo Installation](gazebo_installation.md)
 
 
