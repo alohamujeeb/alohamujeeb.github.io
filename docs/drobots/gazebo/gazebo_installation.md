@@ -1,7 +1,6 @@
 ---
 tags:
-  - Gazebo harmonic installation 
-  
+  - Gazebo installation  
   
 ---
 # Gazebo Installation
