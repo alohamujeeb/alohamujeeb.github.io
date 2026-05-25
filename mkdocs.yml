@@ -128,7 +128,7 @@ nav:
     - <font color='green'><h2>Introduction</h2></font>:
       - About Me: about/aboutme.md
       - Contact Info: about/contact.md
-    - <font color='green'><h2>Quotes and Code</h2></font>: codes_quotes.md
+    - <font color='green'><h2>Quotes and Codes</h2></font>: codes_quotes.md
     - <font color='green'><h2>Search</h2></font>:
       - Keywords/Tags: tags.md
     - <font color='green'><h2>Updates</h2></font>: 
@@ -258,9 +258,11 @@ nav:
         - ROS2 Installation: drobots/ros/ros2/ros2-install.md
       - <h3>OpenRMF</h3>: 
         - OpenRMF: drobots/openrmf/index.md
-        - Installation Guide: drobots/openrmf/openrmf_installation.md
-        - Jazzy Installation: drobots/openrmf/openrmf_installation-jazzy.md
-        
+        - OpenRMF Installation: drobots/openrmf/openrmf_installation.md
+        - OpenRMF Jazzy Installation: drobots/openrmf/openrmf_installation-jazzy.md
+      - <h3>Gazebo</h3>:
+        - Gazebo: drobots/gazebo/index.md
+        - Gazebo Installation: drobots/gazebo/gazebo_installation.md
   - AI-Arena:
     - AI-Arena: AIarena/index.md
     - <font color='green'><h2> Supervised Learning </h2></font>:
