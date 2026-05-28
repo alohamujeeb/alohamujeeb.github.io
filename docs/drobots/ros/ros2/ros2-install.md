@@ -1,13 +1,13 @@
 ---
 tags:
   - ROS2 Installation
-  - ROS2 Versions
+  - ROS2 Releases
 ---
 
-# ROS 2 Installation
+# ROS2 Installation
 
 ---
-## 1. ROS 2 Versions
+## 1. ROS2 releases
 
 - ROS 2 is primarily developed and officially supported on Ubuntu/Debian-based systems.
 - Although it can also run on other Linux distributions such as Fedora, Arch Linux, and Gentoo by building from source,
