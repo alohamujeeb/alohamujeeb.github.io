@@ -122,8 +122,8 @@ Package – unit of ROS code organization
 --- 
 ## References
 
-[Publisher/Subscriber Model](../pubsub-model.md)
-
+#### [Publisher/Subscriber Model](../pubsub-model.md)
+#### [What is ROS and related topics](../index.md)
 
 
 
