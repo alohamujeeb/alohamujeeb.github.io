@@ -90,16 +90,30 @@ ROS 2 Node ->  RMW layer -> DDS / Zenoh / etc.
 
 
 <!-- 
+Build & Deploy: colcon, launch
+Runtime control: ros2cli, lifecycle nodes
+Visualization: RViz2, rqt
+Simulation: Gazebo
+Data & debugging: rosbag2, TF2 tools
+Navigation: Nav2 tools
+Middleware: DDS (Cyclone/FastDDS)
+Performance analysis: ros2_tracing
+Embedded robotics: micro-ROS
+
+
+===================
 Must-have core concepts
 DDS (Data Distribution Service) – underlying communication middleware
 ROS 2 Daemon – CLI cache helper for faster graph queries
+ROS 2 CLI (ros2cli)
 Nodes – executable processes in ROS 2
 Topics – pub/sub commun[Publisher/Subscriber Model](../pubsub-model.md)ication channels
 Messages (Interfaces) – data structure definitions
 Services – request/response communication
 Actions – long-running tasks with feedback
 ROS Graph – network of all nodes and connections
- 
+
+
 ---
 Very useful (next level clarity)
 Publisher / Subscriber – roles of nodes in topics
@@ -108,14 +122,19 @@ Action Client / Server – roles in actions
 RMW (ROS Middleware layer) – abstraction over DDS implementations
 Executors – how ROS runs callbacks in nodes
 Callback – function triggered by events (messages, timers)
-
-
+rqt Framework: Qt-based modular GUI toolkit for runtime debugging (topic inspection, graphing, service calls, parameter tuning).
+rosbag2 Official ROS 2 tool for recording and replaying data for debugging, testing, and dataset collection.
+TF2 Tools: Core transform system tools for debugging robot coordinate frames and spatial relationships in real time.
 --- 
 Optional but good for completeness
 Parameters – runtime configuration of nodes
 Launch system – running multiple nodes together
 Workspace (colcon) – build environment structure
 Package – unit of ROS code organization
+micro-ROS: micro-ROS Agent
+
+
+=============
 
 -->
 
