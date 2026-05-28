@@ -1,6 +1,6 @@
 ---
 tags:
-  - OpenRMF Installation Jazzy
+  - OpenRMF Installation (Jazzy)
 ---
 # OpenRMF Installation (Ubuntu 24.04 and ROS2 Jazzy)
 This document provides step-by-step instructions for installing OpenRMF on a system running Ubuntu 24.04 with ROS 2 Jazzy.

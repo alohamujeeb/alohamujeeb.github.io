@@ -19,8 +19,8 @@ Although the name includes **robot** because it is built on Robot Operating Syst
 
 ## 2. Misc OpenRMF topics
 
-### [Open-RMF Installation](openrmf_installation.md)
-
+### [Open-RMF Installation](openrmf-installation.md)
+### [Open-RMF Concepts](openrmf-concepts.md)
 
 ---
 ## 3. Some external links

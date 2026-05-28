@@ -261,8 +261,9 @@ nav:
         - ROS2 in Python: drobots/ros/ros2/ros2-python.md
       - <h3>OpenRMF</h3>: 
         - OpenRMF: drobots/openrmf/index.md
-        - OpenRMF Installation: drobots/openrmf/openrmf_installation.md
-        - OpenRMF Jazzy Installation: drobots/openrmf/openrmf_installation-jazzy.md
+        - OpenRMF Installation: drobots/openrmf/openrmf-installation.md
+        - Jazzy Installation: drobots/openrmf/openrmf-installation-jazzy.md
+        - OpenRMF Concepts: drobots/openrmf/openrmf-concepts.md
       - <h3>Gazebo</h3>:
         - Gazebo: drobots/gazebo/index.md
         - Gazebo Installation: drobots/gazebo/gazebo_installation.md
