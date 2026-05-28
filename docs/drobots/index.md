@@ -1,23 +1,36 @@
 ---
 tags:
-    - quectel
-    - raspberry pi
-    - embedded systems
+    - Robotics
 ---
 
-# Embedded Systems and Robotics
+# Robotics and Connectivity
 
-This section contains following topics/sub-topics:
+This section contains information about:
+```text
+ROS 
+Modems & Routers
+Embedded Platforms (such as RPi-5)
+OpenRMF
+```
 
----
-### [Modems(5G)](modems/index.md)
-
----
-### [Embedded Platforms](platforms/index.md)
 
 ---
 ### [ROS](ros/index.md)
-### [RMF](openrmf/index.md)
+#### Pub/Sub Model
+#### ROS Concepts
+#### ROS CLI and Python Programming
+
+---
+### [Modems and Routers](modems/index.md)
+#### Quectel RM530N-GL
+
+---
+### [Embedded Platforms](platforms/index.md)
+#### Raspberry Pi
+#### Yahboom Cars and AMRs
+
+---
+### [Open RMF (robotic middleware framework)](openrmf/index.md)
 
 
 
