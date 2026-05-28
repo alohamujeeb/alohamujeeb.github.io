@@ -251,10 +251,9 @@ nav:
         - drobots/platforms/yahboom-pi5/index.md
     - <font color='green'><h2> ROS/ROS2 </h2></font>:
       - ROS: drobots/ros/index.md
-      - <h3>Pub/Sub Model</h3>:
-        - What is pub/sub: drobots/ros/pubsub-model.md
       - <h3>ROS2 Material</h3>:
         - ROS2: drobots/ros/ros2/index.md
+        - What is pub/sub: drobots/ros/pubsub-model.md
         - ROS2 Concepts: drobots/ros/ros2/ros2-concepts.md
         - ROS2 Installation: drobots/ros/ros2/ros2-install.md
         - ROS2 CLI: drobots/ros/ros2/ros2-cli.md
