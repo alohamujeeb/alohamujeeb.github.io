@@ -6,8 +6,8 @@ tags:
 # ROS 2 Command Line Interface (CLI)
 
 - This document is a short reference of CLI features of the `ros2` command.
-- I am using this doc as a high-level cheat sheet for quick lookup.
-- It lists the most common ROS 2 CLI commands.
+- I use this page as a high-level cheat sheet for quick lookup.
+- It lists the most common ROS2 CLI commands.
 - This is not about programming or writing nodes.
 
 ---
