@@ -91,7 +91,7 @@ Robot A  ←→  Robot B  ←→  Control Station
 ```text
 robots
 servers
-control PCs
+control Stations
 ```
 
 ```mermaid
