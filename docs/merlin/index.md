@@ -7,8 +7,14 @@ search:
 (For my reference only)
 
 ---
-## 0. External links
+## 0. External links and Pipeline
+[Media over Quick https://moq.dev/, https://developers.cloudflare.com/moq/)]
+[Coolify]
+[Gazebo, RVIZ, CARLA]
+[SDN, Linux Networking]
 [Faizan's code snippets](https://faizanmsiddiqui.com/snippets/)
+
+
 
 ---
 ## 1. ```quic``` protocol examples
