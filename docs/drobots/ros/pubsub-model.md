@@ -193,7 +193,7 @@ Publisher/Subscriber (P/S) and Client/Server can look similar, especially since 
 ```mermaid
 graph LR
     Publisher["Publisher (e.g., Sensor)"]
-    DDS["DDS Broker (Middleware)"]
+    DDS["DDS (Middleware)"]
     SubscriberA["Subscriber A (Processing)"]
     SubscriberB["Subscriber B (Logger, etc)"]
 
@@ -201,6 +201,8 @@ graph LR
     DDS --> SubscriberA
     DDS --> SubscriberB
 ```
+
+<font color='red'>Important: DDS in ROS2 is not a strict broker.</font> It enables peer-to-peer communication between nodes, whereas in typical broker-based systems, all data passes through a central broker.
 
 ---
 ## 6. Advantages and disadvantages
@@ -232,6 +234,9 @@ graph LR
 | **ActiveMQ**       | Open-source message broker supporting P/S among other patterns| Enterprise integration, messaging middleware |
 
 
+---
+### Reference(s)
+[ROS Concepts](./ros2/ros2-concepts.md)
 
 
 
