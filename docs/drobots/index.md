@@ -19,6 +19,7 @@ OpenRMF
 #### Pub/Sub Model
 #### ROS Concepts
 #### ROS CLI and Python Programming
+#### Gazebo, RVIZ
 
 ---
 ### [Modems and Routers](modems/index.md)
