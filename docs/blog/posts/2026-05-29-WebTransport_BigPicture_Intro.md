@@ -131,7 +131,7 @@ E --> H["WebTransport Server"]
 ```
 
 ---
-## 4. WebTransport client and server
+## 5. WebTransport client and server
 
 - WebTransport is useful when we need:
  
@@ -149,7 +149,7 @@ E --> H["WebTransport Server"]
 ```
 
 ---
-## 5. Some examples of WebTransport servers
+## 6. Some examples of WebTransport servers
 
 - A WebTransport server is one that speaks HTTP/3 + QUIC + WebTransport session semantics
 
@@ -161,7 +161,7 @@ E --> H["WebTransport Server"]
 
 
 ---
-## Where WebSockets actually fit w.r.t. WebTransport
+## 7. Where WebSockets actually fit w.r.t. WebTransport
 
 - When websockets were created (~2010 era):
 ```
