@@ -11,6 +11,7 @@ ROS
 Modems & Routers
 Embedded Platforms (such as RPi-5)
 OpenRMF
+Gazebo, RVIZ
 ```
 
 

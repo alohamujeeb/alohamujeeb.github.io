@@ -253,6 +253,7 @@ nav:
       - ROS: drobots/ros/index.md
       - <h3>ROS2 Material</h3>:
         - ROS2: drobots/ros/ros2/index.md
+        - ROS Introduction: drobots/ros/ros_intro.md
         - pub/sub model: drobots/ros/pubsub-model.md
         - ROS2 Concepts: drobots/ros/ros2/ros2-concepts.md
         - ROS2 Installation: drobots/ros/ros2/ros2-install.md

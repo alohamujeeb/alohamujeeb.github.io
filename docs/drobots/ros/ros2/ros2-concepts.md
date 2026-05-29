@@ -194,9 +194,8 @@ micro-ROS: micro-ROS Agent
 --- 
 ## References
 
-[Publisher/Subscriber Model](../pubsub-model.md)
-
-[What is ROS and related topics](../index.md)
+#### [Publisher/Subscriber Model](../pubsub-model.md)
+#### [What is ROS- A Brief Introduction](../index.md)
 
 
 
