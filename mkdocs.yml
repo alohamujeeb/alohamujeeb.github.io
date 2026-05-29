@@ -114,6 +114,8 @@ plugins:
         - Video
         - Artificial Intelligence
         - Machine Learning
+        - Computer Networking
+        - Streaming
   - search
   - meta
   - exclude-search:
