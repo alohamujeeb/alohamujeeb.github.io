@@ -14,7 +14,8 @@ tags:
 ## Gazebo Concepts
 
 
-1. Simulation Environment
+1a). Server vs Client parts
+1b). Simulation Environment
 
 A 3D physics-based world where robots, sensors, and objects interact realistically.
 
