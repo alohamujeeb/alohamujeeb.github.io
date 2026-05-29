@@ -3,7 +3,7 @@
 
 ---
 ## <font color='amber'>Work and Profession</font>
-- Knowledge is abundant; execution is scarce.
+- **No one cares what you know — only what you can show.**
 - **What are they trying to cover up behind those flashy slides?**
 
 ---
