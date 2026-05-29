@@ -1,4 +1,7 @@
 ---
+search:
+  exclude: true
+
 tags:
   - Gazebo concepts
 
@@ -60,5 +63,6 @@ Separation between visual rendering of the environment and the underlying physic
 ---
 ### Reference(s)
 
-[ROS Concepts](../ros/ros2/ros2-concepts.md)
+[ROS Concepts](./ros2-concepts.md)
 
+[RVIZ Concepts](./rviz-concepts.md)

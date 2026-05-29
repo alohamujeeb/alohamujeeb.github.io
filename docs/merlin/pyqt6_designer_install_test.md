@@ -1,3 +1,8 @@
+---
+search:
+  exclude: true
+---
+
 
 ## PyQt6 installation with designer
 ```

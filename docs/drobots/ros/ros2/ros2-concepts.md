@@ -62,6 +62,59 @@ Publisher  ─────────▶ Subscriber
 - OpenSplice DDS (older, less common now)
 ```
 
+---
+## 3. Different ways to run ROS2 python programs
+There are several ways to run Python-based ROS 2 applications, depending on the size and complexity of the project.
+
+### Method 1: Run a script directly
+Run like a standard python script
+
+Example
+```bash
+python3 my_node.py
+
+or 
+./my_mode.py
+```
+
+### Method 2: Colcon and ```ros2 run```
+In this approach, the Python node is added to a proper ROS2 package and built using **colcon**. After building, the node becomes part of the ROS 2 infrastructure.
+
+```
+# Step 1: Build the workspace
+colcon build
+
+# Step 2: Source the workspace
+source install/setup.bash
+
+# Step 3: Run the node
+ros2 run <package_name> <node_name>
+```
+
+### Method 3: ROS2 launch files
+- Launch files are used for larger systems where multiple nodes, parameters, namespaces, and configurations must be started together.
+
+- ROS 2 supports several launch file formats:
+```
+`. XML
+2. Python (most common and recommended)
+3. YAML
+
+# Example:
+ros2 launch my_package system.launch.xml
+
+```
+
+### Comparision Table
+| Method | Command Example | Best For | Complexity | ROS2 Integration | Main Advantage | Main Limitation |
+|---|---|---|---|---|---|---|
+| Direct Python Script | `python3 my_node.py` | Quick testing, learning, prototyping | Low | Minimal | Fast and simple | Not integrated into ROS2 package system |
+| Colcon + `ros2 run` | `ros2 run <package> <node>` | Standard ROS 2 development | Medium | Full | Proper package and dependency management | Requires package setup and build process |
+| Launch Files | `ros2 launch my_package system.launch.py` | Large multi-node systems | High | Full orchestration | Start and configure many nodes together | Complex configuration |
+
+
+
+
 <!-- to be done laters
 ---
 ### 3. RMW (ROS Middleware Interface)
@@ -141,8 +194,9 @@ micro-ROS: micro-ROS Agent
 --- 
 ## References
 
-#### [Publisher/Subscriber Model](../pubsub-model.md)
-#### [What is ROS and related topics](../index.md)
+[Publisher/Subscriber Model](../pubsub-model.md)
+
+[What is ROS and related topics](../index.md)
 
 
 

@@ -1,4 +1,7 @@
 ---
+search:
+  exclude: true
+
 tags:
   - RVIZ concepts
 
@@ -52,5 +55,6 @@ Saved layouts of displays, views, and settings for reusable RViz setups.
 ---
 ### Reference(s)
 
-[ROS Concepts](../ros/ros2/ros2-concepts.md)
+[ROS Concepts](./ros2-concepts.md)
 
+[Gazebo Concepts](./gazebo-concepts.md)
