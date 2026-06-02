@@ -1,44 +1,53 @@
 # About me
 ---
-## Technical
-I'm a software developer based in Singapore with experience in:
 
-	Software development 
-		Programming (C/C++, Java, Python, Go)
-		Concurrency, multithreading, asynchronousIO
-		Github, Git actions, CI/CD, containers...
+- I design and build distributed systems that operate under real-world constraints; like unstable networks, mobile edge devices, real-time communication, and cloud integration.
 
-	Web Development
-		Backend development with Python and Go
-		Web abd database connectivity
-		REST APIs, Microservices
-		Networking protocols (WebSockets, MQTT, Client/Server )
-        Multimedia streaming, ffmpeg, WebRTC, RTSP 
-		
-	Linux programming
-		Embedded Linux
-		System programming
-		Bash scripting and automation
+- My key strengtht is **turning complex distributed and real-time systems into clear, structured, and reliable architectures**.
 
-	Embedded systems design and development
-		Realtime OS and multitasking
-		Cortex M
-		AVR microcontrollers
-		Trimedia processors 
-		
-	Robotics
-		ROS2
-		OpenRMF and fleet management
-		5G connectivity
-        Turtlebot, Yahboom, AMRs
+- I specialize in:
 
-	Image and video processing
-		Biometrics/Fingerprint algorithms
-		Face recognition
-		Object detection
-		Traditional and AI algorithms
+```
+distributed system architecture
+networked systems and connectivity
+real-time media and streaming systems
+backend systems
+cloud + edge integration
+```
 
-Feel free to explore my work throughout the site.
+
+---
+## What I work on
+
+**I am particularly interested in systems where latency, reliability, mobility, and real-time communication intersect.**
+
+
+### Core areas
+
+```
+Backend systems for distributed applications
+Multi-service architecture and system design
+Real-time cloud ↔ edge communication systems
+Network reliability under mobility and IP changes
+Secure tunneling and transport systems (WireGuard, QUIC)
+Real-time media systems (WebRTC, RTP pipelines)
+Video streaming architectures beyond traditional RTSP systems
+Command and control system pipelines
+Cloud orchestration for distributed edge systems
+Robotics software infrastructure (ROS2)
+```
+	
+### Current focus areas
+
+```
+Video protocols: RTSP, SRT, and WebRTC
+RTP-based media pipelines over WAN and LAN
+low-latency video transport systems
+adaptive streaming under unstable network conditions
+Media over QUIC (MoQ)
+Teleoperation of robots with ultra low latency
+```
+
 
 ---
 ## Other pages

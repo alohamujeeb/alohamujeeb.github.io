@@ -1,4 +1,6 @@
-#Mujeeb's Digital Complex
+# Mujeeb's Digital Complex
+### Notes, Experiments, and Systems Engineering
+
 ---
 
 <style>
@@ -11,30 +13,38 @@ img {
   <!-- <img src="images/mypicture.jpg" width="200"> -->
   <img src="images/mypicture.jpg" alt="Avatar" width="200">
 </div>
-<h2 align="center"> <font color='green'> <b>“Loyalty above all — except honour.”</b> </font> </h2>
 
 ---
 ## What’s this site about?
-This site is created to organize and showcase my work for easy reference.
-Feel free to explore various sections—you might find something useful or inspiring!
+
+- This site serves as a personal knowledge base where I document projects, technical explorations, notes, and lessons learned from real-world engineering work.
+
+- Most material revolves around distributed systems, networking, real-time communication, cloud and edge computing, and related technologies.
+
+- Feel free to explore—you might find something useful for your own projects.
+
 
 ---
-## What kind of material is available here?
+## Topics Covered
 You’ll find info here on things like:
 
-    Software engineering
-   
-    Web development
+- Distributed systems
 
-    Linux systems (networking and programming)
+- Networked and cloud-connected applications
 
-    Embedded systems
+- Linux systems and networking
 
-    Robotics (ROS2, OpenRMF, etc.) 
+- Real-time media and video streaming
 
-    Image and video processing
+- Robotics software infrastructure (ROS2, OpenRMF)
+
+- Backend and web technologies
+
+- Image and video processing
+
 
 For more details: [about me](about/aboutme.md)
+
 
 ---
 ## Looking for something specific?

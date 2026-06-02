@@ -15,10 +15,10 @@ tags:
 
 ---
 # WebTransport- A Conceptual Overview
-- Every machine on the internet is identified by an IP address, and data is exchanged over the IP layer using **transport protocols**
-
 - In this post, I will introduce WebTransport and explain it in comparison with existing alternatives. As a relatively new protocol, it offers useful capabilities for modern real-time applications, along with its own set of trade-offs.
 <!-- more -->
+
+- Every machine on the internet is identified by an IP address, and data is exchanged over the IP layer using **transport protocols**. WebTransport is built on top of this transport layer as explained below.
 
 - A good understanding of WebTransport requires familiarity with the [QUIC protocol](../../linux/protocols/quic.md), since WebTransport is built on top of QUIC.
 
