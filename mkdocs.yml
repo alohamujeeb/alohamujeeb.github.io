@@ -130,7 +130,7 @@ nav:
     - <font color='green'><h2>Introduction</h2></font>:
       - About Me: about/aboutme.md
       - Contact Info: about/contact.md
-    - <font color='green'><h2>Quotes and Codes</h2></font>: codes_quotes.md
+    #- <font color='green'><h2>Quotes and Codes</h2></font>: codes_quotes.md
     - <font color='green'><h2>Search</h2></font>:
       - Keywords/Tags: tags.md
     - <font color='green'><h2>Updates</h2></font>: 

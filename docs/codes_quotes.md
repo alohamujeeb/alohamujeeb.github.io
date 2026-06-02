@@ -1,3 +1,9 @@
+---
+search:
+  exclude: true
+---
+
+
 # Codes and Quotes
 (Whisphers of Heart)
 
@@ -9,8 +15,8 @@
 ---
 ## <font color='amber'>**Honor and Respect**</font>
 - **Loyalty above all — except honour**.
-- Loyalty without honor is like making a dog of oneself.
 - Why is self-degradation necessary in order to show respect to someone else?
+
 
 ---
 ## <font color='amber'>Freedom & Speech</font>
