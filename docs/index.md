@@ -22,13 +22,15 @@ img {
 
 - Rather than focusing on low-level hardware design, electronics, or mechanics, I focus on the software and systems side of autonomy:
 ```
-Communication architectures
-Distributed computing
 Embedded Linux platforms
-Real-time data and media transmission
-Reliability and fault tolerance
-End-to-end system integration
+Robotics middleware (ROS2)
+Distributed computing
+Networking and communication systems
+Cloud-edge integration
+System reliability and fault tolerance
 AI-enabled autonomous systems
+Real-time data and media transmission
+End-to-end system integration
 ```
 
 This site serves as both a personal knowledge base and a collection of practical lessons learned from real-world engineering projects, experiments, and technical explorations.
