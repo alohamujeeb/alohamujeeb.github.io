@@ -9,7 +9,7 @@ search:
 
 ---
 ## <font color='amber'>Work and Profession</font>
-- **No one cares what you know — only what you can show.**
+- **Dont tell me. I want to SEE your words. Show me**
 - **What are they trying to cover up behind those flashy slides?**
 
 ---

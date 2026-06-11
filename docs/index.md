@@ -1,5 +1,5 @@
-# Mujeeb's Digital Complex
-### Notes, Experiments, and Systems Engineering
+# Autonomous Systems Explorer
+<center><b>Exploring communication, autonomy, reliability, and distributed systems for drones, robots, and AI</b></center>
 
 ---
 
@@ -15,32 +15,23 @@ img {
 </div>
 
 ---
-## What’s this site about?
 
-- This site serves as a personal knowledge base where I document projects, technical explorations, notes, and lessons learned from real-world engineering work.
+- Autonomous systems are built from many interconnected technologies—robotics platforms, networking, distributed computing, communication systems, cloud and edge infrastructure, AI, and real-time data processing.
 
-- Most material revolves around distributed systems, networking, real-time communication, cloud and edge computing, and related technologies.
+- The goal of this site is to explore how these technologies fit together to create reliable, scalable, and practical autonomous systems.
 
-- Feel free to explore—you might find something useful for your own projects.
+- Rather than focusing on low-level hardware design, electronics, or mechanics, I focus on the software and systems side of autonomy:
+```
+Communication architectures
+Distributed computing
+Embedded Linux platforms
+Real-time data and media transmission
+Reliability and fault tolerance
+End-to-end system integration
+AI-enabled autonomous systems
+```
 
-
----
-## Topics Covered
-You’ll find info here on things like:
-
-- Distributed systems
-
-- Networked and cloud-connected applications
-
-- Linux systems and networking
-
-- Real-time media and video streaming
-
-- Robotics software infrastructure (ROS2, OpenRMF)
-
-- Backend and web technologies
-
-- Image and video processing
+This site serves as both a personal knowledge base and a collection of practical lessons learned from real-world engineering projects, experiments, and technical explorations.
 
 
 For more details: [about me](about/aboutme.md)
@@ -48,12 +39,16 @@ For more details: [about me](about/aboutme.md)
 
 ---
 ## Looking for something specific?
-You can use the search bar to look up keywords like ROS2, 5G, OpenRMF, and others. 
 
-or
+Use the search bar to find topics such as ROS2, Linux, WebRTC, networking, distributed systems, robotics, drones, and AI.
 
-**Search through the [Keywords](tags.md)...**
+Or browse the **[Keywords](tags.md)** page to explore content by topic.
 
-## About me
-To learn more about me, visit the [About Me](about/aboutme.md) page.
+---
+
+## About Me
+
+I'm an Autonomous Systems Architect with a passion for understanding how communication, distributed computing, reliability, and AI come together to build real-world autonomous systems.
+
+Learn more on the **[About Me](about/aboutme.md)** page.
 
