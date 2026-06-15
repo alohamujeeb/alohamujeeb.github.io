@@ -1,5 +1,5 @@
-# Autonomous Systems Explorer
-<center><b>Exploring communication, autonomy, reliability, and distributed systems for drones, robots, and AI</b></center>
+# Engineering Autonomous Systems
+<center><b>Communication, autonomy, reliability, and distributed systems for robots, drones, and intelligent systems</b></center>
 
 ---
 
