@@ -55,7 +55,12 @@ I'm an Autonomous Systems Architect with a passion for understanding how communi
 Learn more on the **[About Me](about/aboutme.md)** page.
 
 ---
-## Connect/Contact
+## Email
+
+**Email:** aloha.mujeeb AT yahoo.com  (please use @ instead of AT)
+
+---
+## Connect
 
 [LinkedIn](https://www.linkedin.com/in/alohamujeeb/){:target="_blank"}
 
