@@ -35,3 +35,6 @@ Although the name includes **robot** because it is built on Robot Operating Syst
 
 [Open-RMF Demos](https://github.com/open-rmf/rmf_demos)
 
+[Open-RMF Technical Assessment](../../studies/openrmf_assessment.md)
+
+

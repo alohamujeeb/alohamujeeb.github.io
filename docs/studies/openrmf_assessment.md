@@ -5,8 +5,10 @@ tags:
     - Lessons Learned
 ---
 # OpenRMF: Engineering Assessment
-
 <font size-=2 color='purple'><center>A Practical Evaluation of Installation, Architecture, Fleet Operations, and Production Readiness</center></font>
+
+<font color='red'> **(Work Under Progress)** </font>
+
 
 ---
 ## <font color='green'>1. Introduction</font>
@@ -241,7 +243,8 @@ This approach simplifies evaluation and demonstration but **does not reflect a t
 #### Impact
 Real-world deployment boundaries are not immediately visible.
 Server, robot, and operator responsibilities become difficult to identify.
-Production architecture cannot be inferred directly from the demos.
+Production architecture cannot be inferre[OpenRMF Online Book](https://osrf.github.io/ros2multirobotbook/intro.html)
+d directly from the demos.
 Additional investigation is required before designing a distributed deployment.
 
 
@@ -329,7 +332,7 @@ The Robot Adapter acts as a bridge between the fleet management infrastructure a
 
 
 ---
-## <font color='green'>XX. OpenRMF Reference(s)</font>
+## <font color='green'>XX. OpenRMF References</font>
 
 [OpenRMF Online Book](https://osrf.github.io/ros2multirobotbook/intro.html)
 
