@@ -443,7 +443,7 @@ OpenRMF does not appear to be primarily designed for:
 - Real-time video operations
 - Low-latency operator-in-the-loop control
 
-![OpenRMF Coordination Diagram](OpenRMF_coordination_diagram.png)
+![OpenRMF Coordination Diagram](OpenRMF_coordination_blocks.png)
 
 
 ### Operational Characteristics
