@@ -446,11 +446,12 @@ OpenRMF does not appear to be primarily designed for:
 ![OpenRMF Coordination Diagram](OpenRMF_coordination_blocks.png)
 
 
-### Operational Characteristics
+### OpenRMF Features
 
 The evaluated demos and documentation suggest that OpenRMF focuses on:
 
 - Task assignment
+- Status monitoring
 - Scheduling
 - Resource allocation
 - Traffic negotiation
@@ -469,17 +470,9 @@ Teleoperation systems typically require:
 - Video transport
 - Predictable end-to-end latency
 
-In contrast, OpenRMF appears to be designed around:
-
-- Task requests
-- Mission execution
-- Fleet coordination
-- Traffic negotiation
-- Status monitoring
-
 > <font color='red'> OpenRMF primarily coordinates robots rather than directly controlling them. </font>
 
-### Communication Model
+### Communication Model 
 
 The evaluated OpenRMF architecture makes use of multiple communication technologies depending on the interacting components.
 
@@ -492,15 +485,7 @@ Communication technologies identified during evaluation include:
 - Web-based dashboards and monitoring tools
 - RMF-Web components
 
-The communication stack appears to be designed primarily for:
-
-- Task dispatching
-- Fleet coordination
-- Traffic management
-- Resource scheduling
-- Monitoring and visualization
-
-rather than continuous low-latency robot control.
+> The communication stack appears to be designed primarily coordination, monitoring and visualization, rather than continuous low-latency robot control.
 
 #### Communication Paths
 
@@ -513,38 +498,25 @@ The following communication paths were identified during the evaluation:
 | RMF Core ↔ Fleet Adapters | ROS2 |
 | Fleet Adapter ↔ Robot | Fleet-specific implementation |
 
-#### Teleoperation Implications
-
-The identified communication architecture is well suited for:
-
-- Supervisory control
-- Task delegation
-- Fleet management
-- Mission monitoring
-
-However, teleoperation systems typically require additional capabilities such as:
-
-- Video transport
-- Low-latency command channels
-- Continuous telemetry streams
-- End-to-end latency management
-- Network resilience mechanisms
-
 > <font color='red'>The identified communication mechanisms are well suited for coordination and supervisory control but do not appear to be designed for teleoperation workloads requiring low-latency command delivery and high-bandwidth video transport.</font>
 
 
 
 ### Assessment
 
-OpenRMF is best viewed as a fleet management and orchestration platform rather than a complete teleoperation platform.
+Following is the comparision of features required for **teleooperation** and **OpenRMF** capabilities.
 
-<font color='red'> For teleoperated robots, OpenRMF would likely operate <ins>**alongside**</ins> dedicated communication systems responsible for: </font>
-
-- Video transport
-- Real-time command delivery
-- Telemetry streaming
-- Network resilience
-- Operator feedback
+| Capability | Teleoperation | OpenRMF |
+|------------|---------------|---------|
+| Primary Purpose | Direct robot control | Fleet coordination |
+| Control Model | Continuous operator control | Task-based operation |
+| Video Streaming | Core requirement | Not a primary responsibility |
+| Low-Latency Commands | Core requirement | Not a primary focus |
+| Traffic Management | No | Yes |
+| Task Dispatching | No | Yes |
+| Multi-Robot Coordination | Limited | Yes |
+| Facility Integration (Doors/Lifts) | No | Yes |
+| Typical Scale | Single robot | Multiple robots |
 
 ### Summary
 
