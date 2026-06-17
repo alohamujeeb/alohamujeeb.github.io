@@ -80,7 +80,7 @@ The following resources were consulted during the installation process.
 Several installation issues were encountered during the process, requiring source-code inspection and additional investigation beyond the official documentation.
 
 ### 2.5.1 Observation 1
-<font color='red'>**(Installation Instructions Are Not Distribution-Specific)**</font>
+> <font color='red'>**(Installation Instructions Are Not Distribution-Specific)**</font>
 
 The installation documentation combines instructions for multiple ROS2 distributions into a single page. Users are expected to manually replace distribution-specific identifiers throughout the installation process.
 
@@ -113,7 +113,7 @@ A separate installation page should be provided for each supported ROS2 distribu
 
 
 ### 2.5.2 Observation 2
-<font color='red'>**(Higher Installation Effort)**</font>
+> <font color='red'>**(Higher Installation Effort)**</font>
 
 As part of this evaluation, several developers were independently **asked to install both ROS2 and OpenRMF** using the available online documentation.
 
@@ -139,7 +139,7 @@ The installation experience should be simplified through clearer documentation, 
 
 
 ### 2.5.3 Observation 3 (missing info)
-<font color='red'> **(Important Prerequisites Are Not Clearly Identified)** </font>
+> <font color='red'> **(Important Prerequisites Are Not Clearly Identified)** </font>
 
 Several dependencies required for evaluating and running OpenRMF examples were not clearly identified during the installation process.
 
@@ -158,7 +158,8 @@ A dedicated prerequisites section should clearly list all required and optional 
 
 
 ### 2.5.4 Observation 4 (ambibuious info)
-<font color='red'>**(References to Multiple ROS2 Distributions Can Be Confusing)**</font>
+> <font color='red'>**(References to Multiple ROS2 Distributions Can Be Confusing)**</font>
+
 
 During installation, references were encountered that pointed to documentation for different ROS2 distributions without clearly explaining their relevance to the selected platform.
 
@@ -231,7 +232,7 @@ The demos were evaluated to:
 - Establish a baseline for architectural analysis
 
 ### 3.3 Observation 1
-<font color='red'> **Demo Applications Use a Single-Machine Deployment Model** </font>
+> <font color='red'> **Demo Applications Use a Single-Machine Deployment Model** </font>
 
 The provided demo applications are launched on a single machine. During evaluation, the following components appeared to run within the same environment:
 
@@ -256,7 +257,7 @@ In addition to the single-machine demo setup, documentation should include examp
 
 
 ### 3.4 Observation 2
-<font color='red'> **Component Responsibilities Are Not Clearly Explained** </font>
+> <font color='red'> **Component Responsibilities Are Not Clearly Explained** </font>
 
 The demo documentation provides commands that launch various OpenRMF components and allows users to execute example tasks. However, the documentation does not clearly explain the purpose of the individual components being launched.
 
@@ -476,7 +477,7 @@ In contrast, OpenRMF appears to be designed around:
 - Traffic negotiation
 - Status monitoring
 
->OpenRMF primarily coordinates robots rather than directly controlling them.
+> <font color='red'> OpenRMF primarily coordinates robots rather than directly controlling them. </font>
 
 ### Communication Model
 
@@ -537,7 +538,7 @@ However, teleoperation systems typically require additional capabilities such as
 
 OpenRMF is best viewed as a fleet management and orchestration platform rather than a complete teleoperation platform.
 
-For teleoperated robots, OpenRMF would likely operate alongside dedicated communication systems responsible for:
+<font color='red'> For teleoperated robots, OpenRMF would likely operate <ins>**alongside**</ins> dedicated communication systems responsible for: </font>
 
 - Video transport
 - Real-time command delivery
