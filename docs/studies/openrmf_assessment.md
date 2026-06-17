@@ -229,7 +229,7 @@ The demos were evaluated to:
 - Establish a baseline for architectural analysis
 
 ### Observation 1
-<font color='red'>c **Demo Applications Use a Single-Machine Deployment Model** </font>
+<font color='red'> **Demo Applications Use a Single-Machine Deployment Model** </font>
 
 The provided demo applications are launched on a single machine. During evaluation, the following components appeared to run within the same environment:
 
