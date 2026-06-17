@@ -2,7 +2,7 @@
 
 ---
 
-I am an **Autonomous Systems Architect** focused on the software and systems that enable drones, robots, and AI-powered autonomous platforms to operate reliably in the real world.
+I am an **Autonomous Systems Engineer** focused on the software and systems that enable drones, robots, and AI-powered autonomous platforms to operate reliably in the real world.
 
 My work centers around communication, distributed computing, networking, cloud-edge integration, and real-time data systems.
 
