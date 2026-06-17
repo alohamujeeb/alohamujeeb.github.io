@@ -20,7 +20,7 @@ tags:
 
 - Every machine on the internet is identified by an IP address, and data is exchanged over the IP layer using **transport protocols**. WebTransport is built on top of this transport layer as explained below.
 
-- A good understanding of WebTransport requires familiarity with the [QUIC protocol](../../linux/protocols/quic.md), since WebTransport is built on top of QUIC.
+- A good understanding of WebTransport requires familiarity with the [QUIC protocol](../../programming/media-streaming/protocols/quic.md), since WebTransport is built on top of QUIC.
 
 
 ---
@@ -94,7 +94,7 @@ C --> E[Streams]
 C --> F[Datagrams]
 ```
 
----
+---linux
 ## 4. WebTransport client and server
 
 - Client: WebTransport is primarily a browser API. Therefore, browser is the client.
@@ -197,4 +197,5 @@ E --> H["WebTransport Server"]
 ---
 ## Reference(s)
 
-[QUIC protocol](../../linux/protocols/quic.md)
+[QUIC protocol](../../programming/media-streaming/protocols/quic.md)
+

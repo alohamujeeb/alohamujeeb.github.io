@@ -1,11 +1,14 @@
 ---
+hide:
+  - navigation
+  
 tags:
   - Firewall
   - UFW
   - Netfilter
 ---
 
-# Linux Firewall
+# Linux Firewallnat
 A Linux firewall is a software built into the Linux operating system that controls incoming and outgoing network traffic based on a set of rules. 
 
 ---
@@ -42,10 +45,10 @@ A Linux firewall is a software built into the Linux operating system that contro
 	```
 
 Note:
-Prerouting and postrouting is closely related to [NAT](nat1.md) (click for more details)
+Prerouting and postrouting is closely related to [NAT](nat.md) (click for more details)
 
-- PREROUTING is the usual place for [DNAT](nat1.md) (Destination NAT): changing the destination IP/port before routing happens.
-- POSTROUTING is where [SNAT](nat1.md) (Source NAT) or masquerading happens: modifying the source IP after routing, just before the packet leaves the system.
+- PREROUTING is the usual place for [DNAT](nat.md) (Destination NAT): changing the destination IP/port before routing happens.
+- POSTROUTING is where [SNAT](nat.md) (Source NAT) or masquerading happens: modifying the source IP after routing, just before the packet leaves the system.
 
 
 ---
@@ -55,7 +58,7 @@ Various toolsor frontends that are used that send rules to Netfilter in the kern
 ### 2.1. ```iptables``` (traditional interface)
 
 - CLI tool to configure Netfilter rules.
-- is used to define how packets are filtered, forwarded, [NATed](nat1.md), etc.
+- is used to define how packets are filtered, forwarded, [NATed](nat.md), etc.
 
 ### 2.2. ```nftables``` (modern replacement)
 
@@ -114,7 +117,7 @@ flowchart LR
     B["Kernel (Netfilter)"]
 
     A -->|system calls| B
-    B -->|responses| A
+    B -->|responses| Anat
 ```
 
 ---

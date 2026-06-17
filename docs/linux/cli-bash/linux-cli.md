@@ -1,4 +1,7 @@
 ---
+hide:
+  - navigation
+  
 tags:
   - linux commands reference
   - linux cheat sheet
@@ -254,7 +257,7 @@ The -exec Option in the find Command is not same as exec...It is just an option 
 - ```iptables``` is a Linux command-line tool to configure the **netfilter** firewall built into the Linux kernel.
 - It manages rules that determine how incoming and outgoing packets are handled (accept, drop, reject).
 - Powerful and flexible, but can be complex for beginners.
-- Works by manipulating tables of rules for packet filtering, [NAT](../linux-networking/nat1.md), and more.
+- Works by manipulating tables of rules for packet filtering, [NAT](../linux-networking/nat.md), and more.
 
 ### UFW
 

@@ -242,5 +242,5 @@ QUIC is truly independenct of IP andif some or all IPs change, still the connect
 This site contains material on how to writing programs using QUIC protocol.
 Explore more at: 
 	
-- [QUIC in GO: Quic-Go Programming](../../programming/frameworks/quicgo101/index.md)
-- [QUIC in Python example](../../programming/frameworks/quicgo101/01-hello-world-python-quic.md)
+- [QUIC in GO: Quic-Go Programming](../../../programming/frameworks/quicgo101/index.md)
+- [QUIC in Python example](../../../programming/frameworks/quicgo101/01-hello-world-python-quic.md)
