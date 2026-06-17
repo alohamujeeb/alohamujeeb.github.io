@@ -1,4 +1,8 @@
 ---
+hide:
+  - navigation
+  
+  
 tags:
   - WSL
   - Windows Subsystem for LInux

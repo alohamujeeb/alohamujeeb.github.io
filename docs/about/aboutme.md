@@ -62,7 +62,6 @@ Reliable communication for autonomous systems
 ```
 
 ---
-Learn more on the **[About Me](about/aboutme.md)** page.
 ## Philosophy
 
 Technology is full of tools, frameworks, and competing approaches.
@@ -79,12 +78,9 @@ The goal is practical engineering rather than technology for its own sake.
 
 
 ---
-## Email
+## Contact Information 
 
-**Email:** aloha.mujeeb AT yahoo.com  (please use @ instead of AT)
+[Get in Touch](contact.md)
 
----
-## Connect
 
-[LinkedIn](https://www.linkedin.com/in/alohamujeeb/){:target="_blank"}
 

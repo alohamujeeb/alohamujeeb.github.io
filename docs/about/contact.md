@@ -1,4 +1,4 @@
-# My Contact Information
+# Contact Information
 
 ---
 ## Email

@@ -1,4 +1,7 @@
 ---
+hide:
+  - navigation
+  
 tags:
   - WebRTC
   - P2P

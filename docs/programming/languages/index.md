@@ -1,4 +1,7 @@
 ---
+hide:
+  - navigation
+  
 tags:
   - languages
   - go

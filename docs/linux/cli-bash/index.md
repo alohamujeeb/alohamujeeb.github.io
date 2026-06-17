@@ -1,4 +1,7 @@
 ---
+hide:
+  - navigation
+  
 tags:
   - bash
   - CLI
@@ -6,10 +9,14 @@ tags:
 
 # CLI, Bash, and System Tools
 
-### [Command Reference](linux-cli.md)
+---
+#### [Command Reference](linux-cli.md)
 
-### [Bash Scripting](bash.md)
+---
+#### [Bash Scripting](bash.md)
 
-### [System services](services.md)
+---
+#### [System services](services.md)
 
-### [TMUX (terminal multiplexer)](tmux.md)
+---
+#### [TMUX (terminal multiplexer)](tmux.md)

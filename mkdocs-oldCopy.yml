@@ -1,0 +1,300 @@
+---
+site_name: Mujeeb's Digital Complex
+site_url: https://alohamujeeb.github.io/
+extra:
+  generator: false # Disable footer with "Made with Material for MkDocs" message
+  mathjax: true
+    
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.superfences:
+      custom_fences:
+      - name: mermaid
+        class: mermaid
+        format: !!python/name:pymdownx.superfences.fence_code_format
+
+  - admonition
+  - pymdownx.details
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+  - javascripts/katex.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+
+extra_css:
+  - https://unpkg.com/katex@0/dist/katex.min.css
+  
+
+theme:
+  name: material
+  #custom_dir: docs/overrides
+ 
+
+  font:
+    #code: Roboto Mono
+    #text: Inconsolata
+    #text: Anonymous Pro  
+    text: Roboto Mono  
+    code: Source Code Pro 
+    
+  palette:
+    #scheme: default
+    #primary: default
+    #accent: default
+
+    # Palette toggle for light mode
+    - scheme: default
+      #primary: indigo
+      primary:  blue grey #teal
+      accent: red
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+    
+    # Palette toggle for dark mode
+    - scheme: slate
+      #primary: indigo
+      primary: teal #lime #teal #blue grey
+      accent: red
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+        
+  features:
+    - navigation.tracking
+    - navigation.tabs
+    #- navigation.tabs.sticky
+    - navigation.path
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tabs # to display menu in the top bar
+    - navigation.tabs.sticky 
+    - navigation.footer #next and previous buttons
+    - navigation.indexes
+    - navigation.sections
+    #- navigation.expand
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
+    - header.autohide
+    - navigation.prune 
+    - navigation.indexes 
+    - toc.follow
+    #- toc.integrate  #do it at runtime later
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
+
+
+plugins: 
+  - offline
+  - tags
+  - blog:
+      blog_dir: blog
+      blog_toc: true
+      categories_allowed:
+        - 5G
+        - Embedded Systems
+        - Robotics
+        - ROS
+        - Linux
+        - Programming
+        - Life experiences
+        - Multimedia
+        - Video
+        - Artificial Intelligence
+        - Machine Learning
+        - Computer Networking
+        - Streaming
+  - search
+  - meta
+  - exclude-search:
+      exclude:
+        - documentation/*
+  
+        
+# Page tree
+nav:
+  - Home:
+    - Mujeeb's Digital Complex: index.md
+    - <font color='green'><h2>Introduction</h2></font>:
+      - About Me: about/aboutme.md
+      - Contact Info: about/contact.md
+    #- <font color='green'><h2>Whispers of Heart</h2></font>: quotes.md
+    - <font color='green'><h2>Search</h2></font>:
+      - Keywords/Tags: tags.md
+    - <font color='green'><h2>Updates</h2></font>: 
+      - Whats New: whatsnew.md
+    #- <h2>Reference Bits</h2>:
+    #  - emojis-list: emoji-list.md
+  
+  - Engineering Studies: 
+    - Studies: studies/index.md
+    
+  - References: 
+    - References: references/index.md
+    - <font color='green'><h2>SW & Programming</h2></font>:
+      - Programming: programming/index.md
+    
+    - <font color='green'><h2>Web Development</h2></font>:
+      - Web: web/index.md  
+  
+  
+  - LinuxNets:
+    - LinuxNets: linux/index.md
+    - <font color='green'><h2>CLI, Bash, System Tools</h2></font>:
+      - Linux Tools: linux/cli-bash/index.md
+      - Linux Commands Reference: linux/cli-bash/linux-cli.md
+      - WSL Setup Reference: linux/wsl/wsl-setup.md
+      - Bash Scripting: linux/cli-bash/bash.md
+      - System Services: linux/cli-bash/services.md
+      - TMUX: linux/cli-bash/tmux.md
+    - <font color='green'> <h2> System Programming </h2></font>: 
+      - System Programming: linux/system-programming/index.md
+    - <font color='green'><h2> Linux Networking </h2></font>: 
+      - Networking: linux/linux-networking/index.md
+      - NAT(Part-1): linux/linux-networking/nat1.md
+      - Linux Firewall: linux/linux-networking/linux-firewall.md
+      - Data Piping: linux/linux-networking/datapiping.md
+      - Protocols Bridges: linux/linux-networking/forwarding-bridges.md
+      - Modem Manager: linux/linux-networking/modem-manager.md
+    - <font color='green'><h2> Protocls </h2></font>:
+      - Networking Protocols: linux/protocols/index.md    
+      - QUIC: linux/protocols/quic.md
+      - WebRTC: linux/protocols/webrtc.md
+    
+    
+  #- RoboEmbed
+  #- WebCraft  
+  - WebCraft:
+    - Webcraft: web/index.md  
+    
+    - <font color='green'><h2>Frontend</h2></font>: 
+      - Frontend: web/fe/index.md
+      - <h3>JavaScript in Browser</h3>: web/fe/jsfe/index.md
+      
+    - <font color='green'><h2>Backend</h2></font>: 
+      - Backend: web/be/index.md
+  
+  - CodeWorld: 
+    - CodeWorld: programming/index.md
+    - <font color='green'><h2>Languages</h2></font>: 
+      - languages: programming/languages/index.md
+      - <h3>Go Language</h3>:
+        - <h4> Golang 101 (Fundamentals) </h4>:
+          - Go101: programming/languages/golang101/index.md
+          - 01-Golang Start: programming/languages/golang101/01-gettingstarted.md
+          - 02-Golang Fundamentals: programming/languages/golang101/02-basics.md
+          - 03a-Data Types- Part 1: programming/languages/golang101/03a-datatypes-1.md
+          - 03b-Data Types- Part 2: programming/languages/golang101/03b-datatypes-2.md
+          - 04-Operators and Typecasting: programming/languages/golang101/04-operators.md
+          - 05-Conditions and Loops:  programming/languages/golang101/05-if-loops.md
+          - 06a-Functions- Part 1: programming/languages/golang101/06a-functions-in-Go-P1.md
+          - 06b-Functions- Part 2: programming/languages/golang101/06b-functions-in-Go-P2.md
+          - 07-Pointer in Go: programming/languages/golang101/07-pointer-in-Go.md
+          - 08-Panic & Recover: programming/languages/golang101/08-panic-in-Go.md
+          - 09-Arrays in Go: programming/languages/golang101/09-arrays-in-Go.md
+          - 10-Slices in Go: programming/languages/golang101/10-slices-in-Go.md
+           #- imports and packages
+          #- Collections 
+        - <h4>Golang 102 (Concurrency)</h4>:
+          - Go102: programming/languages/golang102conc/index.md
+          - 01-Concurrency in Go: programming/languages/golang102conc/01-goroutines.md
+        - <h4> Golang 201 (Intermediate)</h4>:
+          - Go201: programming/languages/golang201/index.md
+          - 01-Modules in Go: programming/languages/golang201/01-modules.md
+      - <h3>Python</h3>:
+          - Python: programming/languages/python/index.md
+          - Python Bits (snippets): programming/languages/python/python-bits.md
+          - Python Env: programming/languages/python/python-env.md
+          - Lamda Functions: programming/languages/python/lamda.md
+          - Iterators in Python: programming/languages/python/iterators.md
+          
+      - <h3>RUST</h3>:
+        - <h4> Rust 101 (Common Concepts)</h4>:
+          - Rust101: programming/languages/rust101/index.md
+          - 01-Getting Started: programming/languages/rust101/01-gettingstarted.md   
+
+    - <font color='green'><h2>Media & Streaming</h2></font>: 
+      - Media Streaming: programming/media-streaming/index.md
+      - Video For Linux (v4l): programming/media-streaming/v4l.md
+      - Camera in Python (Linux): programming/media-streaming/camera_in_python_linux.md
+      - ffmpeg CLI reference: programming/media-streaming/ffmpeg-reference.md
+    
+    - <font color='green'><h2>Frameworks/Libs</h2></font>:
+      - Frameworks: programming/frameworks/index.md    
+      - <h3>QUIC-GO 101</h3>: 
+        - Quic-go: programming/frameworks/quicgo101/index.md
+        - Hello World (in Go): programming/frameworks/quicgo101/01-hello-world.md
+        - Hello World (in Python): programming/frameworks/quicgo101/01-hello-world-python-quic.md
+      
+    - <font color='green'><h2>Software Engineering</h2></font>: 
+      - S/W Engineering: programming/sweng/index.md  
+      - <h3>Docker 101</h3>:
+        - docker101: programming/sweng/docker101/index.md
+        - Docker-Getting Started: programming/sweng/docker101/01-getting-started.md
+        - Hello-Docker: programming/sweng/docker101/02-docker-hello.md
+        - A Network Example: programming/sweng/docker101/03-docker-network-example.md
+        - A Multi-Client Example: programming/sweng/docker101/04-tcp-example.md
+        - Docker Quick Reference: programming/sweng/docker101/docker-network-commands.md
+
+  - RoboConnect: 
+    - RoboConnect:  drobots/index.md
+    - <font color='green'><h2> Modems & Routers </h2></font>:
+      - Modems: drobots/modems/index.md
+      - <h3>Quectel RM530N-GL</h3>: 
+        - RM530N-GL: drobots/modems/Quectel-RM530N-GL/index.md
+        - Hardware Setup: drobots/modems/Quectel-RM530N-GL/01-hw-setup-pi5.md
+        - Software Setup: drobots/modems/Quectel-RM530N-GL/02-sw-setup-pi5.md
+        - AT Command Reference: drobots/modems/Quectel-RM530N-GL/03-at-commands.md
+        #- Mobilensight Tool: embsys-drobot/Quectel-RM530N-GL/04-mobile-insight.md
+    - <font color='green'><h2>Platforms</h2></font>:
+      - Platforms: drobots/platforms/index.md
+      - Raspberry-Pi 5: drobots/platforms/pi5/index.md
+      - <h3>Yahboom MicroROS-Pi5</h3>:
+        - drobots/platforms/yahboom-pi5/index.md
+    - <font color='green'><h2> ROS/ROS2 </h2></font>:
+      - ROS: drobots/ros/index.md
+      - <h3>ROS2 Material</h3>:
+        - ROS2: drobots/ros/ros2/index.md
+        - ROS Introduction: drobots/ros/ros_intro.md
+        - pub/sub model: drobots/ros/pubsub-model.md
+        - ROS2 Concepts: drobots/ros/ros2/ros2-concepts.md
+        - ROS2 Installation: drobots/ros/ros2/ros2-install.md
+        - ROS2 CLI: drobots/ros/ros2/ros2-cli.md
+        - ROS2 in Python: drobots/ros/ros2/ros2-python.md
+      - <h3>OpenRMF</h3>: 
+        - OpenRMF: drobots/openrmf/index.md
+        - OpenRMF Installation: drobots/openrmf/openrmf-installation.md
+        - Jazzy Installation: drobots/openrmf/openrmf-installation-jazzy.md
+        - OpenRMF Concepts: drobots/openrmf/openrmf-concepts.md
+      - <h3>Gazebo</h3>:
+        - Gazebo: drobots/gazebo/index.md
+        - Gazebo Installation: drobots/gazebo/gazebo_installation.md
+  - AI-Arena:
+    - AI-Arena: AIarena/index.md
+    - <font color='green'><h2> Supervised Learning </h2></font>:
+        - Supervised Learning: AIarena/supervised/index.md
+        - Classification: 
+          - SVM: AIarena/supervised/svm.md
+    - <font color='green'><h2> Unsupervised Learning </h2></font>:
+      - Unsupervised Learning: AIarena/unsupervised/index.md
+    - <font color='green'><h2> Reinforcement Learning </h2></font>:
+      - Unsupervised Learning: AIarena/reinforcement/index.md
+  - Blogs:
+    - blog/index.md
+  
+  #- Courses:
+  #  - courses/index.md
+
+ 

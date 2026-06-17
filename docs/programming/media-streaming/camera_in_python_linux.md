@@ -1,4 +1,7 @@
 ---
+hide:
+  - navigation
+  
 tags:
   - Camera
   - Camera in Python

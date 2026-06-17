@@ -1,6 +1,9 @@
 ---
+hide:
+  - navigation
+  
 tags:
-  - quic
+  - QUIC
 ---
 
 # QUIC Protocol

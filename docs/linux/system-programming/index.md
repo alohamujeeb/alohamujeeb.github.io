@@ -1,4 +1,8 @@
 ---
+hide:
+  - navigation
+  
+  
 tags:
   - system Programming
   - kernel

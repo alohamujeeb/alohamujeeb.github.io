@@ -1,4 +1,8 @@
 ---
+hide:
+  - navigation
+  
+  
 tags:
   - Support Vector Machine
   - SVM

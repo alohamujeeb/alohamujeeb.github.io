@@ -1,4 +1,7 @@
 ---
+hide:
+  - navigation
+  
 tags:
   - v4l
   - v4l2
