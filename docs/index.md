@@ -46,14 +46,6 @@ Use the search bar to find topics such as ROS2, Linux, WebRTC, networking, distr
 
 Or browse the **[Keywords](tags.md)** page to explore content by topic.
 
----
-
-## About Me
-
-I'm an Autonomous Systems Architect with a passion for understanding how communication, distributed computing, reliability, and AI come together to build real-world autonomous systems.
-
-Learn more on the **[About Me](about/aboutme.md)** page.
-
 
 ---
 ## Contact Information 
