@@ -18,7 +18,8 @@ Topics include:
 - Lessons Learned
 
 ---
-### Work In Progress
+### <font color='green'>Technical Evaluataions</font>
+#### [OpenRMF: Engineering Assessment](openrmf_assessment.md)
 
 
 

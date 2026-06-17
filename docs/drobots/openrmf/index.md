@@ -4,7 +4,7 @@ tags:
     - openrmf
 ---
 
-# OpenRMF
+# OpenRMF Material
 ---
 
 ## 1. Introduction
@@ -26,6 +26,8 @@ Although the name includes **robot** because it is built on Robot Operating Syst
 ## 3. Some external links
 
 [Open-RMF Website](https://www.open-rmf.org/)
+
+[OpenRMF Online Book](https://osrf.github.io/ros2multirobotbook/intro.html)
 
 [Open-RMF Code](https://github.com/open-rmf)
 

@@ -140,7 +140,9 @@ nav:
   
   - Engineering-Studies: 
     - Studies: studies/index.md
- 
+    - <font color='green'><h3>Technical Evaluations</h3></font>:
+      - OpenRMF Assessment: studies/openrmf_assessment.md
+  
     
   - Tutorials-References: 
     - References: references/index.md
