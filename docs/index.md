@@ -50,6 +50,6 @@ Or browse the **[Keywords](tags.md)** page to explore content by topic.
 ---
 ## Contact Information 
 
-[Get in Touch](contact.md)
+[Get in Touch](about/contact.md)
 
 
