@@ -518,20 +518,6 @@ Following is the comparision of features required for **teleooperation** and **O
 | Facility Integration (Doors/Lifts) | No | Yes |
 | Typical Scale | Single robot | Multiple robots |
 
-### Summary
-
-| Application Area | Suitability |
-|------------------|-------------|
-| Fleet Management | High |
-| Task Dispatching | High |
-| Traffic Management | High |
-| Multi-Robot Coordination | High |
-| Facility Operations | High |
-| Mission Monitoring | High |
-| Teleoperation | Low |
-| Real-Time Video Operations | Low |
-| Remote Driving | Low |
-| Low-Latency Robot Control | Low |
 
 ---
 ## <font color='green'> XX Disclaimer </font>
