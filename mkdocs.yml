@@ -127,15 +127,15 @@ plugins:
 nav:
   - Home:
     - Mujeeb's Digital Complex: index.md
-    - <font color='green'><h2>Introduction</h2></font>:
+    - <font color='green'><h3>Introduction</h3></font>:
       - About Me: about/aboutme.md
       - Contact Info: about/contact.md
     #- <font color='green'><h2>Whispers of Heart</h2></font>: quotes.md
-    - <font color='green'><h2>Search</h2></font>:
+    - <font color='green'><h3>Search</h3></font>:
       - Keywords/Tags: tags.md
-    - <font color='green'><h2>Updates</h2></font>: 
+    - <font color='green'><h3>Updates</h3></font>: 
       - Whats New: whatsnew.md
-    #- <h2>Reference Bits</h2>:
+    #- <h3>Reference Bits</h3>:
     #  - emojis-list: emoji-list.md
   
   - Engineering-Studies: 
@@ -144,39 +144,39 @@ nav:
     
   - Tutorials-References: 
     - References: references/index.md
-    - <font color='green'><h2>SW & Programming</h2></font>:
+    - <font color='green'><h3>SW & Programming</h3></font>:
       - Programming: programming/index.md    
     
-    - <font color='green'><h2>Web Development</h2></font>:
+    - <font color='green'><h3>Web Development</h3></font>:
       - Web: web/index.md  
       
-    - <font color='green'><h2>Linux & Networking</h2></font>:
+    - <font color='green'><h3>Linux & Networking</h3></font>:
       - Linux & Netwroking: linux/index.md  
   
-    - <font color='green'><h2>AI & ML</h2></font>:
+    - <font color='green'><h3>AI & ML</h3></font>:
       - AIarena: AIarena/index.md 
       
-    - <font color='green'><h2>Media & Streaming</h2></font>:
+    - <font color='green'><h3>Media & Streaming</h3></font>:
       - AIarena: programming/media-streaming/index.md 
   
   - Robot-Comms: 
     - RobotComms: drobots/index.md
-    - <font color='green'><h2> Modems & Routers </h2></font>:
+    - <font color='green'><h3> Modems & Routers </h3></font>:
       - Modems: drobots/modems/index.md
-      - <h3>Quectel RM530N-GL</h3>: 
+      - <h4>Quectel RM530N-GL</h4>: 
         - RM530N-GL: drobots/modems/Quectel-RM530N-GL/index.md
         - Hardware Setup: drobots/modems/Quectel-RM530N-GL/01-hw-setup-pi5.md
         - Software Setup: drobots/modems/Quectel-RM530N-GL/02-sw-setup-pi5.md
         - AT Command Reference: drobots/modems/Quectel-RM530N-GL/03-at-commands.md
         #- Mobilensight Tool: embsys-drobot/Quectel-RM530N-GL/04-mobile-insight.md
-    - <font color='green'><h2>Platforms</h2></font>:
+    - <font color='green'><h3>Platforms</h3></font>:
       - Platforms: drobots/platforms/index.md
       - Raspberry-Pi 5: drobots/platforms/pi5/index.md
-      - <h3>Yahboom MicroROS-Pi5</h3>:
+      - <h4>Yahboom MicroROS-Pi5</h4>:
         - drobots/platforms/yahboom-pi5/index.md
-    - <font color='green'><h2> ROS/ROS2 </h2></font>:
+    - <font color='green'><h3> ROS/ROS2 </h3></font>:
       - ROS: drobots/ros/index.md
-      - <h3>ROS2 Material</h3>:
+      - <h4>ROS2 Material</h4>:
         - ROS2: drobots/ros/ros2/index.md
         - ROS Introduction: drobots/ros/ros_intro.md
         - pub/sub model: drobots/ros/pubsub-model.md
@@ -184,12 +184,12 @@ nav:
         - ROS2 Installation: drobots/ros/ros2/ros2-install.md
         - ROS2 CLI: drobots/ros/ros2/ros2-cli.md
         - ROS2 in Python: drobots/ros/ros2/ros2-python.md
-      - <h3>OpenRMF</h3>: 
+      - <h4>OpenRMF</h4>: 
         - OpenRMF: drobots/openrmf/index.md
         - OpenRMF Installation: drobots/openrmf/openrmf-installation.md
         - Jazzy Installation: drobots/openrmf/openrmf-installation-jazzy.md
         - OpenRMF Concepts: drobots/openrmf/openrmf-concepts.md
-      - <h3>Gazebo</h3>:
+      - <h4>Gazebo</h4>:
         - Gazebo: drobots/gazebo/index.md
         - Gazebo Installation: drobots/gazebo/gazebo_installation.md
 
