@@ -246,8 +246,8 @@ This approach simplifies evaluation and demonstration but **does not reflect a t
 #### Impact
 Real-world deployment boundaries are not immediately visible.
 Server, robot, and operator responsibilities become difficult to identify.
-Production architecture cannot be inferre[OpenRMF Online Book](https://osrf.github.io/ros2multirobotbook/intro.html)
-d directly from the demos.
+Production architecture cannot be inferred [OpenRMF Online Book](https://osrf.github.io/ros2multirobotbook/intro.html)
+ directly from the demos.
 Additional investigation is required before designing a distributed deployment.
 
 
@@ -325,103 +325,14 @@ OpenRMF consists of multiple components that collectively provide fleet manageme
 ### 5.8 Simulation Components
 
 
-
 ---
-## 6. Deployment Models
-
-### 6.1 Single-Machine Deployment
-
-The provided **OpenRMF demo applications primarily use a single-machine deployment model** where simulation, fleet management services, visualization tools, and supporting infrastructure components are executed on the same machine.
-
-This approach offers several advantages:
-
-- Simplifies installation and evaluation
-- Reduces infrastructure requirements
-- Makes demonstrations easier to reproduce
-- Provides a convenient learning environment
-- Enables rapid experimentation and development
-
-**For educational purposes and initial evaluation, a single-machine deployment is often the most practical approach.**
-
-### 6.2 Limitations of Single-Machine Deployment
-
-While suitable for learning and experimentation, a single-machine deployment does not accurately represent most production environments.
-
-In real-world deployments, components are often distributed across multiple machines and networks, including:
-
-- Robot-side systems
-- Fleet management servers
-- Monitoring and operator applications
-
-As a result, important deployment considerations such as network boundaries, connectivity, fault tolerance, security, and component isolation are not immediately visible from the provided demos.
-
-### 6.3 Distributed Deployment
-
-A distributed deployment separates responsibilities across multiple systems.
-
-Typical deployment boundaries may include:
-
-- Robot-side components running close to the robot
-- Fleet management services running on centralized infrastructure
-- Monitoring and operator applications running on user devices
-
-This separation improves:
-
-- Scalability
-- Reliability
-- Maintainability
-- Security
-- Operational flexibility
-
-### 6.4 Documentation Gap
-
-One of the challenges encountered during this evaluation was the lack of clear documentation describing how OpenRMF components should be separated across multiple machines.
-
-While the demos demonstrate system functionality, they do not clearly explain:
-
-- Which components belong on robot systems
-- Which components belong on server infrastructure
-- Which components belong on operator devices
-- How the components communicate across deployment boundaries
-
-As a result, understanding the deployment architecture required additional investigation of source code, launch files, configuration files, and project documentation.
-
-### 6.5 Why Deployment Documentation Matters
-
-Experienced developers can often determine deployment boundaries through experimentation and source-code inspection.
-
-However, this effort is duplicated by every team evaluating or adopting the platform.
-
-Without clear deployment guidance:
-
-- New users face a steeper learning curve
-- Integration effort increases
-- Deployment mistakes become more likely
-- Adoption becomes more difficult
-
-Providing documented deployment architectures and working distributed deployment examples would significantly reduce onboarding effort and improve the overall developer experience.
-
-### 6.6 Recommendations
-
-The project would benefit from:
-
-- Documented deployment architectures
-- Component-level deployment diagrams
-- Multi-machine deployment examples
-- Production-oriented reference architectures
-- "Hello World" robot integration examples
-- Clear descriptions of communication paths between components
-
-These additions would help bridge the gap between demonstration environments and real-world deployments.
-
----
-## 7. Applications and Operational Suitability
+## 6. Applications and Operational Suitability
 
 This section evaluates where OpenRMF fits within a robotics software stack and the types of applications for which it appears most suitable.
 
 **Teleoperation** is a common operational requirement in unmanned systems, including mobile robots, autonomous vehicles, and UAVs. For this reason, teleoperation is also considered as part of this assessment.
 
-### Suitable Applications (<font color='green'>Coordination ✅</font>)
+### 6.1 Suitable Applications (<font color='green'>Coordination ✅</font>)
 
 Based on the evaluated architecture, demos, and communication model, OpenRMF appears well suited for:
 
@@ -433,7 +344,7 @@ Based on the evaluated architecture, demos, and communication model, OpenRMF app
 - Multi-robot coordination
 - Facility-wide robot operations
 
-### Less Suitable Applications (<font color='red'>Direct Control 🔴</font>)
+### 6.2 Less Suitable Applications (<font color='red'>Direct Control 🔴</font>)
 
 OpenRMF does not appear to be primarily designed for:
 
@@ -446,7 +357,7 @@ OpenRMF does not appear to be primarily designed for:
 ![OpenRMF Coordination Diagram](OpenRMF_coordination_blocks.png)
 
 
-### OpenRMF Features
+### 6.3 OpenRMF Features
 
 The evaluated demos and documentation suggest that OpenRMF focuses on:
 
@@ -460,7 +371,7 @@ The evaluated demos and documentation suggest that OpenRMF focuses on:
 
 rather than continuous control of robots.
 
-### Teleoperation Considerations
+### 6.4 Teleoperation Considerations
 
 Teleoperation systems typically require:
 
@@ -472,7 +383,7 @@ Teleoperation systems typically require:
 
 > <font color='red'> OpenRMF primarily coordinates robots rather than directly controlling them. </font>
 
-### Communication Model 
+### 6.5 Communication Model 
 
 The evaluated OpenRMF architecture makes use of multiple communication technologies depending on the interacting components.
 
@@ -502,7 +413,7 @@ The following communication paths were identified during the evaluation:
 
 
 
-### Assessment
+### 6.6 fAssessment
 
 Following is the comparision of features required for **teleooperation** and **OpenRMF** capabilities.
 
