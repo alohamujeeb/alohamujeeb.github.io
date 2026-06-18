@@ -396,7 +396,7 @@ Communication technologies identified during evaluation include:
 - Web-based dashboards and monitoring tools
 - RMF-Web components
 
-> The communication stack appears to be designed primarily coordination, monitoring and visualization, rather than continuous low-latency robot control.
+> The communication stack appears to be designed primarily for coordination, monitoring and visualization, rather than continuous low-latency robot control.
 
 #### Communication Paths
 
@@ -413,7 +413,7 @@ The following communication paths were identified during the evaluation:
 
 
 
-### 6.6 fAssessment
+### 6.6 Assessment
 
 Following is the comparision of features required for **teleooperation** and **OpenRMF** capabilities.
 

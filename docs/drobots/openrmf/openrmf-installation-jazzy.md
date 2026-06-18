@@ -136,7 +136,6 @@ git clone -b jazzy https://github.com/open-rmf/rmf_visualization_msgs.git
 git clone -b jazzy https://github.com/open-rmf/menge_vendor.git
 git clone -b jazzy https://github.com/open-rmf/nlohmann_json_schema_validator_vendor.git
 
-# Already included in your notes
 git clone -b jazzy https://github.com/open-rmf/rmf_utils.git
 git clone -b jazzy https://github.com/open-rmf/rmf_ros2.git
 git clone -b jazzy https://github.com/open-rmf/rmf_simulation.git
