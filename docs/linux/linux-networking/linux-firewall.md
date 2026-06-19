@@ -8,7 +8,7 @@ tags:
   - Netfilter
 ---
 
-# Linux Firewallnat
+# Linux Firewall
 A Linux firewall is a software built into the Linux operating system that controls incoming and outgoing network traffic based on a set of rules. 
 
 ---
