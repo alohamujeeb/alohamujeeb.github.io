@@ -14,7 +14,7 @@ tags:
    - QUIC
 
 ---
-# WebTransport- An Introduction
+# <font color='green'>WebTransport- An Introduction</font>
 - In this post, I will introduce WebTransport and explain it in comparison with existing alternatives. As a relatively new protocol, it offers useful capabilities for modern real-time applications, along with its own set of trade-offs.
 <!-- more -->
 

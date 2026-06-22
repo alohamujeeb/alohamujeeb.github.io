@@ -14,7 +14,7 @@ tags:
    - Kernel
 
 ---
-# Operating System Components: A Conceptual Overview
+# <font color='green'>Operating System Components: A Conceptual Overview</font>
 
 - This writing of mine presents a conceptual overview of operating system components, including the kernel, user interface, application interface, and supporting mechanisms.
 <!-- more -->
