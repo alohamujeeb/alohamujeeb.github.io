@@ -36,15 +36,16 @@ In this blog post, I discuss the key distinction between supervised and unsuperv
 
 * This approach has proven extremely successful, but it assumes that we already know what we are looking for. Someone must define the categories, provide the labels, and specify the desired outcomes.
 
-> In many real-world situations, the challenge is that we do not know what we are looking for until we find it.
+> <font color='red'>In many real-world situations, the challenge is that we do not know what we are looking for until we find it.</font>
 
 * Consider a factory trying to detect previously unseen product defects, a bank trying to identify new fraud patterns, or a scientist exploring a large dataset for undiscovered phenomena. In each case, there are no predefined labels or categories to learn from. 
 
-* **The objective is to uncover something that was previously unknown.** (This is where unsupervised learning comes in)
+* **The objective is to uncover something that was previously unknown.** 
+<br><font color='green'>(This is where unsupervised learning comes in)</font>
 
 
 ---
-## 2. Supervised Learning: Finding Known Information
+## 2. Supervised Learning: Looking for Known Information
 - Supervised learning is based on the idea of learning from examples where the correct answer is already known.
 
 - During training, each data sample is paired with a label. The learning algorithm analyzes many such examples and learns the relationship between the input data and the corresponding labels.
@@ -133,7 +134,7 @@ Finding hidden groups in scientific data
 <br><font color='red'>(Hey, I found something which I have seen before; I know what it probably is!)</font>
 <br><br>- Unsupervised learning is about discovering what we do not yet know.</font>
 <br><font color='red'>(Hey, I have found something that I have not seen before; Looks like something abnormal/anomaly)</font>
-<br><font color='red'>(Hey, I have arranged things in different groups; I dont know what they are, but items in the same group have similar properties.)</font>
+<br><font color='red'>(Hey, I have arranged things in different groups; I do NOT know what they are, but items in the same group have similar properties.)</font>
 
 
 ![Recognition vs Discovery](./images/recognition-vs-discovery.png)
