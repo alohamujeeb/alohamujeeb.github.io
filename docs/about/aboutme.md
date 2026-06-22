@@ -78,9 +78,9 @@ The goal is practical engineering rather than technology for its own sake.
 
 
 ---
-## Contact Information 
+## Contact Information
 
-[Get in Touch](contact.md)
+Interested in robotics, autonomous systems, robot software, AI, or collaboration opportunities?
 
-
+👉 [**Get in Touch (email, social media) →**](contact.md)
 
