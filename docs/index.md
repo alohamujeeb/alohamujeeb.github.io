@@ -50,7 +50,7 @@ Or browse the **[Keywords](tags.md)** page to explore content by topic.
 ---
 ## Contact Information 
 
-👉 [**Get in Touch (email, social media) →**](contact.md)
+👉 [**Get in Touch (email, social media) →**](./about/contact.md)
 
 
 
