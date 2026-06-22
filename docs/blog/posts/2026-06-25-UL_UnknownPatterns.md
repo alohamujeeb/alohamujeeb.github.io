@@ -1,7 +1,7 @@
 ---
 date: 
-  created: 2026-06-23
-  posted:  2025-05-23
+  created: 2026-06-25
+  posted:  2025-05-25
 author:
   name: Mujeeb
   description: Creator
@@ -129,8 +129,12 @@ Finding hidden groups in scientific data
 
 * This is why unsupervised learning can be viewed as machine learning's search for the unknown.
 
-><font color='green'> Supervised learning is about recognizing what we already know.
-Unsupervised learning is about discovering what we do not yet know.</font>
+><font color='green'>- Supervised learning is about recognizing what we already know.
+<br><font color='red'>(Hey, I found something which I have seen before; I know what it probably is!)</font>
+<br><br>- Unsupervised learning is about discovering what we do not yet know.</font>
+<br><font color='red'>(Hey, I have found something that I have not seen before; Looks like something abnormal/anomaly)</font>
+<br><font color='red'>(Hey, I have arranged things in different groups; I dont know what they are, but items in the same group have similar properties.)</font>
+
 
 ![Recognition vs Discovery](./images/recognition-vs-discovery.png)
 

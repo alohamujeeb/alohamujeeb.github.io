@@ -12,6 +12,5 @@ tags:
 ### Classification Algorithms
 ???+ note "Click to expand/Collapse"
     - [Support Vector Machine (SVM)](svm.md)
-
-
+    
 
