@@ -11,26 +11,44 @@ tags:
 # Support Vector Machine (SVM)
 
 ---
-## 1. What is SVM
+## 1. Introduction to problem to be solved
 
-* SVM a type of machine learning algorithm used to:
+In many machine learning problems, the **objective is to separate different groups of data.**
 
-		1. classify things into categories, 
-		
-		2. predict values.
+For example, we may want to distinguish between cats and dogs, approved and rejected loan applications, or spam and legitimate emails.
 
-* It is like: **drawing the best possible dividing line between two groups of data.**
+**The goal is to find a decision boundary that separates one class from another.**
+
+As illustrated in the figure below:
+
+| | |
+|---|---|
+| ![Decision boundary for different groups](svm_decision_boundary.png) | - In a **1D** feature space, the decision boundary is a **point**.<br><br>- In a **2D** feature space, the decision boundary is a **line**.<br><br>- In a **3D** feature space, the decision boundary is a **plane**.<br><br>The same idea extends naturally to higher-dimensional feature spaces, where the decision boundary becomes a **hyperplane**. |
+
+> Support Vector Machine (SVM) is one of the machine learning algorithms that solves this problem. It searches for a decision boundary that best separates different classes of data.
+
+
+## 2. What is SVM
+
+* Support Vector Machine (SVM) is a supervised machine learning algorithm used for:
+
+	- Classification
+	- Regression (predicting continuous values)
+
+> <font color='red'>**SVM is like drawing the best possible dividing boundary between two groups of data.**</font>
+
+(Although SVM can also be used for regression (called Support Vector Regression, or SVR), this article focuses on classification.)
+
 
 ---
-## 2. A simple example
+## 3. A simple example
 * Suppose we want a machine to identify:
 
 		1. cat
 		2. dog
 
 * We give it 2 parameters (features) only:
-		---
-## 1. What is SVM
+
 		1. weight
 		2. size
 		
@@ -64,19 +82,16 @@ tags:
 ### Step 3: Draw a boundary
 - SVM draws a line between them.
 
-- For exammple: 
+- For example: 
 	
 		y = mx + b
 
-- But **many lines could separate them**.
+- **There are infinitely many lines that could separate these two groups of data.**.
 
-- SVM chooses the line with:
-
-		- the largest safety gap
-		- maximum distance from both groups
+- SVM chooses the one with the maximum margin (largest safety gap).
 
 ---
-## 3. The actual math
+## 4. The actual math
 
 Internally, SVM computes something like:
 
@@ -97,7 +112,7 @@ $$
 
 
 ---
-## 4. Python example
+## 5. SVM implementation in Python
 
 ``` python
 from sklearn import svm
@@ -137,29 +152,35 @@ Bias: -25.61290323
 ```
 
 ---
-## 5. Three parameter example
+## 6. Three parameter example
 
 - This is a Support Vector Machine (SVM) example for a loan approval system.
 
 - It uses **three** features, income, credit score, and debt ratio to classify whether a loan should be approved or rejected based on past data.
 
-- actual maths is:
+- The decision boundary is represented mathematically as:
 
 $$
 w_1 x_1 + w_2 x_2 + w_3 x_3 + b = 0
 $$
 
+## 7. High-Dimensional SVM
+
 !!! note "High-dimensional SVM (important intuition)"
-    Mathematically, SVM is not limited to 2D or 3D.  
-    The same idea extends to **N dimensions**, where each feature adds another dimension to the space.
+    Mathematically, SVM is **not limited to 2D or 3D**.
+    The same concept extends naturally to **N-dimensional feature spaces**, where each feature represents one dimension.
 
-    In real-world machine learning problems, models often work with **tens, hundreds, or even thousands of features**, forming a high-dimensional space that cannot be visualized physically.
+    In real-world machine learning problems, models often work with **tens, hundreds, or even thousands of features**. Although these high-dimensional spaces cannot be visualized physically, the underlying mathematics remains the same.
 
-    Unlike physical space (which is limited to 3 dimensions), mathematical feature spaces can scale to **N-dimensional space**, and SVM simply finds a separating hyperplane in that space.
+    Just as an SVM finds a **point** in 1D, a **line** in 2D, and a **plane** in 3D, it finds an **optimal separating hyperplane** in an N-dimensional feature space.
     
 
+> Just as an SVM finds a point in 1D, a line in 2D, and a plane in 3D, it finds an optimal separating hyperplane in an N-dimensional feature space.
 
-``` python
+
+### 7.1 Python code example
+
+```python
 from sklearn import svm
 
 # [income, credit_score, debt_ratio]
@@ -175,7 +196,7 @@ X = [
 # 0 = reject, 1 = approve
 y = [0, 0, 0, 1, 1, 1]
 
-model = svm.SVC(kernel='linear')
+model = svm.SVC(kernel="linear")
 model.fit(X, y)
 
 test_point = [[6, 600, 0.4]]
@@ -184,11 +205,9 @@ prediction = model.predict(test_point)[0]
 print("Approved" if prediction == 1 else "Rejected")
 ```
 
-**expected output**
-``` text
+**Expected output**
+
+```text
 Approved
 ```
-
-
-
 
