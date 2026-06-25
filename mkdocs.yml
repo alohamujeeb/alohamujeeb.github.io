@@ -157,18 +157,18 @@ nav:
   
     - <font color='green'><h3>AI & ML</h3></font>:
       - AIarena: AIarena/index.md 
-      - Supervised Learning:
-        - Supervised Learning: AIarena/supervised/index.md 
-        - Support Vector Machine: AIarena/supervised/svm.md 
-        
-      - Unsupervised Learning:  
+      - <font color='tomato'>Back to Basics</font>:
+        - Back to Basics: AIarena/basics/index.md 
+        - Miscellaneous Topics: AIarena/misc/index.md 
+        - Supervised Learning: 
+          - Supervised Learning: AIarena/supervised/index.md 
+          - SVM: AIarena/supervised/svm.md 
         - Unsupervised Learning: AIarena/unsupervised/index.md 
-      
-      - Reinforcement Learning:  
-        - Reinforcement Learning: AIarena/reinforcement/index.md 
-      
+        - Reinforcement Learning: AIarena/reinforcement/index.md  
+    - <font color='tomato'> Advanced/Applied ML</font>: AIarena/advanced/index.md
+        
     - <font color='green'><h3>Media & Streaming</h3></font>:
-      - AIarena: programming/media-streaming/index.md 
+      - Media & Streaming: programming/media-streaming/index.md 
   
   - Robot-Comms: 
     - RobotComms: drobots/index.md
