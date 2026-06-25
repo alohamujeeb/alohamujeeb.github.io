@@ -157,6 +157,15 @@ nav:
   
     - <font color='green'><h3>AI & ML</h3></font>:
       - AIarena: AIarena/index.md 
+      - Supervised Learning:
+        - Supervised Learning: AIarena/supervised/index.md 
+        - Support Vector Machine: AIarena/supervised/svm.md 
+        
+      - Unsupervised Learning:  
+        - Unsupervised Learning: AIarena/unsupervised/index.md 
+      
+      - Reinforcement Learning:  
+        - Reinforcement Learning: AIarena/reinforcement/index.md 
       
     - <font color='green'><h3>Media & Streaming</h3></font>:
       - AIarena: programming/media-streaming/index.md 

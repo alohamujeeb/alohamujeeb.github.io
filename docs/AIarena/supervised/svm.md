@@ -1,6 +1,7 @@
 ---
-hide:
+<!--hide:
   - navigation
+-->
   
   
 tags:

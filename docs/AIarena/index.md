@@ -6,6 +6,12 @@ tags:
 ---
 # AI Arena
 
+
+---
+### Miscellaneous Topics in AI/ML
+???+ note "Click to expand/Collapse"
+    - [The Evolution of Computing: From Rules to Goals](../blog/posts/2026-06-19-EvolutionOfComuting_Rules_to_Goals.md)
+
 ---
 ### 1. [Supervised Learning](./supervised/index.md)
 ???+ note "Click to expand/Collapse"
@@ -17,13 +23,9 @@ tags:
     
 ---
 ### 3. [Reinforcement Learning](./reinforcement/index.md)
-
----
-### 4. Miscellaneous Topics in AI/ML
 ???+ note "Click to expand/Collapse"
-    - [The Evolution of Computing: From Rules to Goals](../blog/posts/2026-06-19-EvolutionOfComuting_Rules_to_Goals.md)
-    
-    
+
+
 
 
 
