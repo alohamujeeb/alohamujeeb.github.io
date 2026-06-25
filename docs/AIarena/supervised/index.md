@@ -1,9 +1,4 @@
 ---
-<!--hide:
-  - navigation
--->
-  
-  
 tags:
     - Supervised Learning
 ---
