@@ -160,6 +160,7 @@ $$
 w_1 x_1 + w_2 x_2 + w_3 x_3 + b = 0
 $$
 
+---
 ## 7. High-Dimensional SVM
 
 !!! note "High-dimensional SVM (important intuition)"
@@ -207,3 +208,8 @@ print("Approved" if prediction == 1 else "Rejected")
 Approved
 ```
 
+---
+## 8. Summary
+Support Vector Machine (SVM) finds the optimal decision boundary that separates different groups of data by maximizing the margin between them.
+
+Whether the data has 2, 3, or thousands of features, the same mathematical idea applies; the decision boundary simply extends from a line to a plane, and ultimately to a hyperplane in higher-dimensional feature spaces.
