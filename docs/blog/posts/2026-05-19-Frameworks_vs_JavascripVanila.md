@@ -14,7 +14,7 @@ tags:
    - frontend
 
 ---
-# Vanialla JavaScript vs Frameworks
+# <font color='green'>Vanialla JavaScript vs Frameworks</font>
 
 - This writing compares frontend frameworks such as Angular, React, and Vue.js with traditional web pages built using pure JavaScript (Vanilla JS).
 <!-- more -->

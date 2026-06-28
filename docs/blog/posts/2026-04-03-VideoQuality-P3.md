@@ -18,7 +18,7 @@ tags:
 
 ---
 
-# Video Quality Pt3- (Temporal Quality)
+# <font color='green'>Video Quality Pt3- (Temporal Quality)</font>
 
 In [Video Assessment Part 2](2026-04-02-VideoQuality-P2.md), we looked at spatial quality metrics — how sharp, clear, and natural individual frames look. But for livestreaming or video conferencing, **another dimension matters just as much: time.**
 

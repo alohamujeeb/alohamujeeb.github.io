@@ -14,7 +14,7 @@ tags:
   - python venv
 ---
 
-# Docker image vs Python virtual environment
+# <font color='green'>Docker image vs Python virtual environment</font>
 While Docker and Python virtual environments both help manage software and dependencies, they have important differences. 
 
 This section compares Docker and Python virtual environments to help understand these differences and choose the right tool for one's needs.

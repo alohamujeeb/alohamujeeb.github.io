@@ -14,7 +14,7 @@ tags:
   - gui
 ---
 
-# "Games vs GUI: when to choose which"
+# <font color='green'>"Games vs GUI: when to choose which"</font>
 While the distinction between GUI apps and game-like interfaces may seem straightforward, choosing the right approach can sometimes be unexpectedly challenging.
 <!-- more -->
 

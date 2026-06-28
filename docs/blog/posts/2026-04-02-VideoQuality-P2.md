@@ -21,7 +21,7 @@ tags:
   - PIQE
 ---
 
-# Video Quality Pt2- (Spatial Quality)
+# <font color='green'>Video Quality Pt2- (Spatial Quality)</font>
 
 In [Video Quality Part 1](2026-04-01-VideoQuality-P1.md) we introduced the basic idea of video quality metrics and the difference between **reference-based and no-reference approaches.**
 

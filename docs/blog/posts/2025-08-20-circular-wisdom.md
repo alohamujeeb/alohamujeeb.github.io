@@ -15,7 +15,7 @@ tags:
   - panic-recover
 ---
 
-# Circular wisdom – A personal note
+# <font color='green'>Circular wisdom – A personal note</font>
 
 - Once upon a time, error handling in code was simple: just good old if-else checks. No drama, no flair.
 

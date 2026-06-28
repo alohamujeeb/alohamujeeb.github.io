@@ -15,7 +15,7 @@ tags:
    - package manager
 ---
 
-# Snap Package Manager (brief comparision with APT)
+# <font color='green'>Snap Package Manager (brief comparision with APT)</font>
 
 A package manager in Linux is a system that installs, updates, removes, and manages software and its dependencies. Instead of downloading ```.exe``` installers like on Windows, Linux software is usually distributed as packages that the package manager handles automatically. 
 <!-- more -->

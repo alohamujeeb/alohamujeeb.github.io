@@ -14,7 +14,7 @@ tags:
   - Vanilla
 ---
 
-# Frameworks vs. Vanilla JS in the Age of AI
+# <font color='green'>Frameworks vs. Vanilla JS in the Age of AI</font>
 
 JavaScript frameworks like React and Vue were created to dramatically boost developer productivity, often enabling developers to write code up to 10 times faster. 
 

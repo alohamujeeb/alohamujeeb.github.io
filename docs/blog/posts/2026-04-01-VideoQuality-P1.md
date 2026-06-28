@@ -16,7 +16,7 @@ tags:
   - Video Analysis
 ---
 
-# Video Quality Pt1- (Overview)
+# <font color='green'>Video Quality Pt1- (Overview)</font>
 
 Video quality metrics like PSNR, SSIM, and VMAF were originally developed to evaluate **video fidelity** in controlled, offline settings, providing objective measurements of how closely a compressed or transmitted video matches its original.
 

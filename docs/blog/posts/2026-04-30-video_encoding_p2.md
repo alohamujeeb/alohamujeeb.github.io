@@ -20,7 +20,7 @@ tags:
    - Key frame
 ---
 
-# Video Encoding – Part 2 (Video Codecs)
+# <font color='green'>Video Encoding – Part 2 (Video Codecs)</font>
 
 In the previous section [Video Encoding Part-1](2026-04-29-video_encoding_p1.md), we looked at how individual images are represented and compressed using formats like BMP, PNG, and JPEG. However, video is not just a collection of independent images—it leverages compression both **within each frame (spatial compression)** and **across frames (temporal compression)** by exploiting similarities between consecutive frames.
 <!-- more -->

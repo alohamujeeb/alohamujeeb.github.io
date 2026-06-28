@@ -14,7 +14,7 @@ tags:
    - plan
 
 ---
-# Motivation Is Cheap. Planning Is Hard.
+# <font color='green'>Motivation Is Cheap. Planning Is Hard</font>
 
 - In classrooms, parenting advice, motivational talks, and especially across the world of self-help content, one phrase appears with almost mechanical repetition: **You can do it.** But there is a problem.
 <!-- more -->

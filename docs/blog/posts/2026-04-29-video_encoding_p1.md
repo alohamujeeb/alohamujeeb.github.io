@@ -19,7 +19,7 @@ tags:
   - BMP
 ---
 
-# Video Encoding – Part 1 (Image Formats)
+# <font color='green'>Video Encoding – Part 1 (Image Formats)</font>
 
 In this article, we look at how images are actually represented in digital systems—from raw sensor data to common formats like RGB, YUV, JPEG, and PNG.
 Before we even talk about video, we need to understand how a single frame is stored, because video is just a sequence of these frames.

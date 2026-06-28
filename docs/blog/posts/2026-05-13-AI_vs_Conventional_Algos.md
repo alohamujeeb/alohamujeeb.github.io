@@ -13,7 +13,7 @@ tags:
    - Artificial Intelligence
 
 ---
-# AI vs Conventional Algorithms
+# <font color='green'>AI vs Conventional Algorithms</font>
 
 There are two broad types of algorithms used in software: conventional algorithms and AI algorithms. This section gives a brief comparison between the newer, increasingly popular AI-based algorithms and the older, conventional approach.
 <!-- more -->
