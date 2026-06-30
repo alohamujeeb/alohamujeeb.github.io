@@ -4,26 +4,32 @@ tags:
     - Machine Learning
     - Artificial Intelligence
 ---
-# AI and ML Fundamentals (Back to Basics)
-
+# Back to Basics (AI and ML Fundamentals)
 
 ---
 ### [Miscellaneous Topics in AI/ML](../misc/index.md)
-???+ note "Click to expand/Collapse"
-    - [The Evolution of Computing: From Rules to Goals](../../blog/posts/2026-06-19-EvolutionOfComuting_Rules_to_Goals.md)
+
+(A collection of articles and blog posts exploring foundational concepts, theory, and other miscellaneous topics in AI and machine learning.)
+
 
 ---
 ### 1. [Supervised Learning](../supervised/index.md)
-???+ note "Click to expand/Collapse"
-    - [Support Vector Machine (SVM)](../supervised/svm.md)
+
+(Covers the fundamentals of supervised learning, including common algorithms, concepts, and practical applications.)
+
+
+
 ---
 ### 2. [Unupervised Learning](../unsupervised/index.md)
-???+ note "Click to expand/Collapse"
-    - [Unsupervised vs Supervised Learning: From Recognition to Discovery](../../blog/posts/2026-06-25-UL_UnknownPatterns.md)
-    
+
+(Covers the fundamentals of unsupervised learning, including clustering, dimensionality reduction, and pattern discovery.)
+
+
 ---
 ### 3. [Reinforcement Learning](../reinforcement/index.md)
-???+ note "Click to expand/Collapse"
+
+(Covers the fundamentals of reinforcement learning, including agents, environments, rewards, policies, and value-based learning.)
+
 
 
 
