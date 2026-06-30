@@ -16,7 +16,7 @@ tags:
    - Artificial Intelligence
    
 ---
-# <font color='green'>The Evolution of Computing: From Rules to Goals</font>
+# <font color='green'>Evolution Towards AI: From Rules to Goals</font>
 This blog is about **three ways computers solve problems**: by following rules, by learning patterns from data, and by generating answers that may not have a clear right or wrong.
 <!-- more -->
 
