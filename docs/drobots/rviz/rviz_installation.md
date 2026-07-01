@@ -12,7 +12,10 @@ tags:
 - It is **installed automatically with the ROS2 Desktop installation**.
 - it is **not included in the ROS2 Core or ROS2 Base installations**.
 
+[Ros2 Installation](../ros/ros2/ros2-install.md)
 
+
+---
 ## 2. Separate Installation
 
 - If required, RViz2 can be installed separately using the package:
@@ -30,8 +33,5 @@ sudo apt install ros-humble-rviz2
 sudo apt install ros-foxy-rviz2
 ```
 
-
-
-###[Ros2 Installation](../ros/ros2/ros2-install.md)
 
 
