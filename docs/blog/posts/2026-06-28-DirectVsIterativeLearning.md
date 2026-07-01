@@ -23,10 +23,9 @@ Machine learning models generally learn from data in one of two ways: **Direct (
 
 <!-- more -->
 
-This article focuses on the concepts rather than the mathematics, helping to understand where common machine learning techniques fit.
+This article focuses on the concepts rather than the mathematics, helping readers understand where common machine learning techniques fit.
 
 ---
-
 ## 1. Two Ways Machines Learn
 
 One of the easiest ways to understand machine learning is to focus on **how a model learns from data**. At a high level, many machine learning algorithms follow one of two learning approaches.
@@ -62,9 +61,17 @@ Think of it this way:
 
 > <b>The key idea behind an analytical (direct) solution is that the answer <font color='red'>is calculated, not gradually learned</font>.</b>
 
----
 
-## 3. Comparison
+---
+## 3. When Is Each Approach Appropriate?
+
+- Direct learning methods are often well suited for smaller or moderately sized datasets, especially when a closed-form analytical solution exists.
+
+- Iterative optimization is generally preferred for larger or more complex problems, where computing a direct solution is impractical or impossible.
+
+
+---
+## 4. Comparison
 
 | Aspect | Direct Learning (Analytical) | Iterative Optimization |
 |--------|-------------------------------|------------------------|
@@ -72,7 +79,7 @@ Think of it this way:
 | **Learning Process** | Perform the required calculations once using a predefined mathematical or statistical procedure. | Start with an initial guess, measure the error, adjust the model, and repeat until the error becomes sufficiently small. |
 | **Everyday Analogy** | Calculating the average monthly sales from last year's receipts. | Learning to ride a bicycle through repeated practice and correction. |
 | **Real-world Example** | Estimating average daily product demand from historical sales. | Teaching a computer to recognize cats and dogs by repeatedly correcting its mistakes. |
-| **Typical AI Applications** | Basic spam filtering, simple sales forecasting, simple classification problems. | ChatGPT, face recognition, fraud detection, self-driving cars, image classification. |
+| **Typical Use Cases** | Basic spam filtering, simple sales forecasting, simple classification problems. | ChatGPT, face recognition, fraud detection, self-driving cars, image classification. |
 | **Common Techniques** | Naive Bayes, Linear Regression (Normal Equation). | Gradient Descent, SGD, Adam, Logistic Regression, SVM, Neural Networks, K-Means, EM. |
 
 > Analytical learning is like solving a math problem; we calculate the answer directly. 
@@ -81,10 +88,14 @@ Think of it this way:
 
 ---
 
-## 4. Where Common Algorithms Fit
+## 5. Classifying Common Machine Learning Algorithms
 
 One purpose of this article is to provide a mental map of where common machine learning algorithms belong.
 
+![Machine Learning Learning Taxonomy](./images/direct_vs_iterative_learning.png)
+
+
+<!--
 ```text
                  Machine Learning
                         │
@@ -98,11 +109,12 @@ One purpose of this article is to provide a mental map of where common machine l
                                 • K-Means
                                 • EM-based algorithms
 ```
+-->
 
 
 ---
 
-## 5. Key Takeaway
+## 6. Key Takeaway
 
 Understanding **how** an algorithm learns provides a simple mental framework for organizing machine learning techniques. Instead of memorizing algorithms individually, first ask:
 
