@@ -200,6 +200,9 @@ nav:
         - OpenRMF Installation: drobots/openrmf/openrmf-installation.md
         - Jazzy Installation: drobots/openrmf/openrmf-installation-jazzy.md
         - OpenRMF Concepts: drobots/openrmf/openrmf-concepts.md
+      - <h4>RVIZ</h4>:
+        - RVIZ: drobots/rviz/index.md
+        - RVIZ Installation: drobots/rviz/rviz_installation.md
       - <h4>Gazebo</h4>:
         - Gazebo: drobots/gazebo/index.md
         - Gazebo Installation: drobots/gazebo/gazebo_installation.md
