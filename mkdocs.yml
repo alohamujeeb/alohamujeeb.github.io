@@ -144,7 +144,7 @@ nav:
       - OpenRMF Assessment: studies/openrmf_assessment.md
   
     
-  - Tutorials-References: 
+  - Notes/References: 
     - References: references/index.md
     - <font color='green'><h3>SW & Programming</h3></font>:
       - Programming: programming/index.md    
@@ -170,7 +170,7 @@ nav:
     - <font color='green'><h3>Media & Streaming</h3></font>:
       - Media & Streaming: programming/media-streaming/index.md 
   
-  - Robot-Comms: 
+  - Robot-Connectivity: 
     - RobotComms: drobots/index.md
     - <font color='green'><h3> Modems & Routers </h3></font>:
       - Modems: drobots/modems/index.md
