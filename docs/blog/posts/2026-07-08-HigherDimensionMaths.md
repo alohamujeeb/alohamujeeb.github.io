@@ -26,6 +26,8 @@ We live in a three-dimensional world, so most of the mathematics we learn is lim
 This article introduces the basic concepts behind higher-dimensional mathematics.
 
 
+![Mathematics of Higher Dimensions](./images/higher_dimension_maths.png)
+
 ---
 ## 1. Introduction
 
