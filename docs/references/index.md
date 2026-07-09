@@ -7,7 +7,7 @@ tags:
     - Web Development
 ---
 
-# Tutorials and References
+# Notes and References
 
 This section contains reference material, quick tutorials, notes, and practical guides covering software development, system administration, networking, and related technologies.
 
