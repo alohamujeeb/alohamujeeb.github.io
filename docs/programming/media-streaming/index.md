@@ -15,11 +15,6 @@ tags:
 ---
 #### 1. Viodeo/Media Tools
 
-
-
-
-
-
 | [Video for Linux (v4l)](v4l.md) |[ffmpeg quick reference](ffmpeg-reference.md) | [Gstreamer]|
 |---|---|---|
 |[Mediamtx]| | |
@@ -32,6 +27,11 @@ tags:
 |---|---|---|
 | MoQ | |  |
 
+
+---
+#### 3. Python Coding for Streaming
+
+<strong><font> [Camera in Python](camera_in_python_linux.md) <font></strong>
 
 
 
