@@ -155,8 +155,10 @@ nav:
         
     - <font color='green'><h3>Web Development</h3></font>:
       - Web: web/index.md  
-      - Frontend: web/fe/index.md
-      - Backend: web/be/index.md
+      - <font color='tomato'> Frontend</font>:
+        - Frontend: web/fe/index.md
+      - <font color='tomato'>Backend</font>:
+        - Backend: web/be/index.md
       
     - <font color='green'><h3>Linux & Networking</h3></font>:
       - Linux & Netwroking: linux/index.md  
