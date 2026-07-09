@@ -135,20 +135,24 @@ nav:
       - Keywords/Tags: tags.md
     - <font color='green'><h3>Updates</h3></font>: 
       - Whats New: whatsnew.md
-    #- <h3>Reference Bits</h3>:
-    #  - emojis-list: emoji-list.md
   
   - Engineering-Studies: 
     - Studies: studies/index.md
     - <font color='green'><h3>Technical Evaluations</h3></font>:
       - OpenRMF Assessment: studies/openrmf_assessment.md
-  
     
   - Notes/References: 
     - References: references/index.md
     - <font color='green'><h3>SW & Programming</h3></font>:
-      - Programming: programming/index.md    
-    
+      - Programing: programming/index.md
+      - <font color='tomato'>Python</font>:
+        - Python: programming/languages/python/index.md 
+      - <font color='tomato'>C Language</font>:
+        - C Lang: programming/languages/clang/index.md 
+      - <font color='tomato'>Go Language</font>:
+        - Go Lang: programming/languages/golang/index.md 
+        
+        
     - <font color='green'><h3>Web Development</h3></font>:
       - Web: web/index.md  
       
