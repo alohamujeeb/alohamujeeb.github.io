@@ -12,7 +12,7 @@ tags:
 ## What is Quic-go
 
 
-✅ QUIC is a protocol- (Click for more details: [QUIC protocol](../../../programming/media-streaming/protocols/quic.md))
+✅ QUIC is a protocol- (Click for more details: [QUIC protocol](../media-streaming/protocols/quic.md))
 
 ✅ quic-go is a Go library that implements that protocol, which:
 
@@ -29,7 +29,7 @@ tags:
 ---
 ## Relevant links
 
-[QUIC protocol](../../../programming/media-streaming/protocols/quic.md)
+[QUIC protocol](../media-streaming/protocols/quic.md)
 
 [Connection Migration](https://quic-go.net/docs/quic/connection-migration/)
 
