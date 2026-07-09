@@ -127,22 +127,26 @@ plugins:
 nav:
   - Home:
     - Home: index.md
+    - <strong><font color='red'><h3>Featured</h3></font></strong>: 
+      - Featured: featured/index.md  
     - <font color='green'><h3>Introduction</h3></font>:
       - About Me: about/aboutme.md
       - Contact Info: about/contact.md
     #- <font color='green'><h2>Whispers of Heart</h2></font>: quotes.md
     - <font color='green'><h3>Search</h3></font>:
       - Keywords/Tags: tags.md
-    - <font color='green'><h3>Updates</h3></font>: 
-      - Whats New: whatsnew.md
-  
+
   - Engineering-Studies: 
     - Studies: studies/index.md
+    - <strong><font color='red'><h3>Featured</h3></font></strong>: 
+      - Featured: featured/index.md  
     - <font color='green'><h3>Technical Evaluations</h3></font>:
       - OpenRMF Assessment: studies/openrmf_assessment.md
     
   - Notes/References: 
     - References: references/index.md
+    - <strong><font color='red'><h3>Featured</h3></font></strong>: 
+      - Featured: featured/index.md  
     - <font color='green'><h3>SW & Programming</h3></font>:
       - Programing: programming/index.md
       - <font color='tomato'>Python</font>:
@@ -155,11 +159,7 @@ nav:
         
     - <font color='green'><h3>Web Development</h3></font>:
       - Web: web/index.md  
-      - <font color='tomato'> Frontend</font>:
-        - Frontend: web/fe/index.md
-      - <font color='tomato'>Backend</font>:
-        - Backend: web/be/index.md
-      
+
     - <font color='green'><h3>Linux & Networking</h3></font>:
       - Linux & Netwroking: linux/index.md  
   
@@ -180,6 +180,8 @@ nav:
   
   - Robot-Connectivity: 
     - RobotComms: drobots/index.md
+    - <strong><font color='red'><h3>Featured</h3></font></strong>: 
+      - Featured: featured/index.md  
     - <font color='green'><h3> Modems & Routers </h3></font>:
       - Modems: drobots/modems/index.md
       - <h4>Quectel RM530N-GL</h4>: 
