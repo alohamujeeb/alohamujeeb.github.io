@@ -159,7 +159,11 @@ nav:
         
     - <font color='green'><h3>Web Development</h3></font>:
       - Web: web/index.md  
-
+      - <font color='tomato'>Frontend</font>:
+        - Python: web/fe/index.md 
+      - <font color='tomato'>Backend</font>:
+        - Python: web/be/index.md 
+        
     - <font color='green'><h3>Linux & Networking</h3></font>:
       - Linux & Netwroking: linux/index.md  
   
