@@ -12,15 +12,11 @@ This section provides information on programming, software development, and engi
 
 ---
 #### [Languages](languages/index.md)
-[Python, Go, Rust]
+[Python, Go, C ]
 
 ---
 #### [Software engineering](sweng/index.md)
 [Docker, ...]
-
----
-#### [Frameworks/Libraries](frameworks/index.md)
-[QUIC-GO, ...]
 
 
 
