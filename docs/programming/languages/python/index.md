@@ -18,12 +18,10 @@ This section provides quick-reference modules covering a variety of Python topic
 
 <strong><font> [Python Features That May Be Unfamiliar to C/Java Programmers](unusualfeatures.md)</font></strong>
 
+<strong><font> [Function as a Parameter](functionAsParameter.md)</font></strong>
 
 ---
 ### 2. OOP in Python
-
-<strong><font> [Creating Clases](classes.md)</font></strong>
-
 
 
 ---
