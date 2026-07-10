@@ -6,7 +6,7 @@ tags:
 (Quick reference)
 
 ---
-## 1. Built-in Data Types in Python
+## <font color='green'>1. Built-in Data Types in Python</font>
 
 | Category | Data Type | Example | How to Remember |
 |----------|-----------|---------|-----------------|
@@ -42,7 +42,7 @@ tags:
 
 
 ---
-## 2. Variables as References to Objects
+## <font color='green'>2. Variables as References to Objects</font>
 
 In Python, a **variable does not store the actual value**. Instead, it stores a **reference** (or pointer) to an object in memory. The object contains the actual data, while the variable simply refers to its location.
 
@@ -94,7 +94,7 @@ flowchart LR
 ```
 
 ---
-## 3. Arrays (array library)
+## <font color='green'>3. Arrays (array library)</font>
 
 Python also includes another data type called **`array`**, but it is provided as part of the **Standard Library**, not as a built-in data type. You must import the `array` module before using it.
 
@@ -173,7 +173,7 @@ Arrays are commonly used in **scientific computing**, numerical processing, and 
 > <font color='red'>WE cannot create a 2D array using array.array; It is restricted to 1D only.</font>
 
 ---
-## 4. None and NoneType
+## <font color='green'>4. None and NoneType</font>
 
 None is a special value in Python that represents "no value", "nothing", or "absence of a value". Its data type is NoneType.
 
@@ -242,7 +242,7 @@ None is commonly used when:
     ```
 
 ---
-## 5. Mutable vs Immutable
+## <font color='green'>5. Mutable vs Immutable</font>
 
 In Python, **mutable** objects can be **modified after they are created**, while **immutable** objects **cannot be changed**. If you need to change an immutable object, Python creates a new object instead of modifying the existing one.
 
@@ -257,7 +257,7 @@ In Python, **mutable** objects can be **modified after they are created**, while
 
 
 ---
-## 5. List vs Tuple vs Set
+## <font color='green'>6. List vs Tuple vs Set </font>
 
 `list`, `tuple`, and `set` are all collection data types used to store multiple values. However, they differ in how they store and manage data.
 
@@ -304,7 +304,7 @@ print(values)
 ```
 
 ---
-## 6. What does "Ordered" mean?
+## <font color='green'>7. What does "Ordered" mean?</font>
 
 An **ordered** collection preserves the order of its elements. When we access or iterate over the collection, the items appear in the same order in which they were inserted.
 
