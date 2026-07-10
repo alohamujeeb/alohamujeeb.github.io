@@ -9,7 +9,7 @@ This section provides quick-reference modules covering a variety of Python topic
 --- 
 ### 0. Misc. Examples
 
-<strong><font> [Python environments](python-env.md) </font></strong>
+<strong><font> [Python Virutal Environment](python-env.md) </font></strong>
 
 ---
 ### 1. Foundational Concepts
@@ -18,7 +18,6 @@ This section provides quick-reference modules covering a variety of Python topic
 
 <strong><font> [Python Features That May Be Unfamiliar to C/Java Programmers](unusualfeatures.md)</font></strong>
 
-<strong><font> [Function as a Parameter](functionAsParameter.md)</font></strong>
 
 ---
 ### 2. OOP in Python
@@ -26,6 +25,10 @@ This section provides quick-reference modules covering a variety of Python topic
 
 ---
 ### 3. Beyond Fundamentals
+
+<strong><font> [Function as a Parameter](functionAsParameter.md)</font></strong>
+
+<strong><font> [Function as First Class Citizens](firstclassfunctions.md)</font></strong>
 
 <strong><font> [Lamda functions](lamda.md)</font></strong>
 
