@@ -5,7 +5,7 @@ tags:
 # **Lambda Functions in Python**
 
 ---
-## 1. What is a Lamda function
+## <font color='green'> 1. What is a Lamda function </font>
 
 - A lambda function is an anonymous function (no name) defined using lambda.
 - It is used to write a small, single-expression function inline.
@@ -14,14 +14,17 @@ tags:
 - Lambda is useful when the **logic is very small** (one expression).
 
 ---
-## 2. Simple examples
+## <font color='green'> 2. Simple examples </font>
+
 **Example 1:**
+
 ```
 add = lambda a, b: a + b  #a,b are parameters
 print(add(3, 5))  # Output: 8
 ```
 **add** is a variable holding the lambda functions.
-	
+
+
 **Example 2(two variables for same function):**
 ```
 add = lambda x, y: x + y
@@ -35,7 +38,7 @@ print(add2(a, b))  # 30
 ```
 
 ---
-## 3. Why NOT always use lambda?
+## <font color='green'> 3. Why NOT always use lambda? </font>
 
 - Lambda is bad if logic becomes more than one step:
 
@@ -52,7 +55,7 @@ lambda x: (x * 2 + 5 if x > 0 else (x * 3 + 10 if x < 0 else x))
 	<br> - Use def when the function has meaningful logic or needs clarity and reuse.
 
 ---
-## 4. A more practical example
+## <font color='green'>4. A more practical example </font>
 
 Sorting a tuple WITHOUT lamda
 ```
