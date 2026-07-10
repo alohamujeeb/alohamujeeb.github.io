@@ -5,7 +5,7 @@ tags:
 # **Iterators in Python**
 
 ---
-## 1. What is an Iterator
+## <font color='green'>1. What is an Iterator</font>
 
 - There are objects in Python that group multiple elements together, such as: lists, tuples, dictionaries, sets etc.
 
@@ -18,7 +18,7 @@ tags:
 - However, instead of using a loop directly, we can manually create an **iterator**.
 
 --- 
-### 2. Lazy processing
+### <font color='green'>2. Lazy processing</font>
 In lazy processing:
 
 - We do not compute or load all data immediately.
@@ -28,12 +28,12 @@ In lazy processing:
 
 
 ---
-## 3. What is Iterator Object
+## <font color='green'>3. What is Iterator Object</font>
 
 - **An iterator is an object** in Python that allows you to access elements of a collection one at a time, keeping track of its current position internally.
 
 
-Example WITHOUT iterator (with loop):
+Example <font color='red'>WITHOUT iterator (with loop)</font>:
 
 ```
 my_list = [10, 20, 30]
@@ -42,7 +42,7 @@ for item in my_list:
     print(item)
 ```
 
-Example WITH iterator:
+Example <font color='red'>WITH iterator</font>:
 <br>(This automatically goes through each element once, from start to end)
 
 
@@ -60,7 +60,7 @@ print(next(it))  # 30
 <br>An iterator lets you control the process manually, step by step.
 
 ---
-## 4. Why use iterators?
+## <font color='green'>4. Why use iterators?</font>
 
 ### i) **Memory efficiency** (big reason):
 A loop over a list already works fine because the list is in memory. But iterators become powerful when data is not fully stored in memory at once.
@@ -99,7 +99,8 @@ it = iter([1, 2, 3])
 print(next(it))  # you decide when to get next item
 ```
 
-### iv) **4) Loops already use iterators:** 
+### <font color='green'>4. Loops already use iterators</font>
+
 A for loop is actually just a simplified version of iterators:
 
 ```
@@ -117,7 +118,8 @@ while True:
         break
 ```
 
-## 5. Some real-life examples
+---
+## <font color='green'>5. Some real-life examples</font>
 
 ### Very large files
 Imagine a 10GB log file
