@@ -4,8 +4,9 @@ tags:
   - conda
 ---
 # **Python and Conda Virtual Environments**
+
 ---
-## 1. What is a Python venv
+## <font color='green'> 1. What is a Python venv </font>
 To isolate various Python projects, we create separate Python **virtual environments (venv)**.
 Each venv acts like a lightweight virtual machine, running independently with its own:
 
@@ -20,12 +21,12 @@ This ensures that:
 - The development setup is clean, consistent, and easy to reproduce
 
 ---
-## 2. Similar concept to dockers
+## <font color='green'>2. Similar concept to dockers </font>
 It is similar to the concept of Docker containers, but limited to the context of Python.
 While Docker isolates entire applications and their environments at the system level, Python virtual environments isolate Python-specific dependencies and configurations at the project level.
 
 ---
-## 3. Python venv commands
+## <font color='green'> 3. Python venv commands </font>
 
 ### Create a venv
 Geheral syntax:  ```python3 -m venv <venv-name>```
@@ -73,7 +74,7 @@ rm -rf venv-proj1
 ```
 
 ---
-## 4. Conda environment reference
+## <font color='green'> 4. Conda environment reference </font>
 
 ### Create, clone and edit a conda environment
 Note: --name can be replaced with -n (as short form)
@@ -122,7 +123,7 @@ conda remove -n myenv --all
 
 
 ---
-## 5. Some useful links
+## <font color='green'> 5. Some useful links </font>
 [Python Virtual Environments](https://docs.python.org/3/library/venv.html)
 
 [Anaconda Environments](https://www.anaconda.com/docs/getting-started/working-with-conda/environments)
