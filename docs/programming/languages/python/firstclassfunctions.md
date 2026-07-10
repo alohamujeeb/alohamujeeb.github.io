@@ -11,22 +11,26 @@ One of the most common phrases we hear when learning Python is:
 
 > **"Functions are first-class citizens."**
 
-At first, this sounds abstract or overly academic. But the idea is actually very simple.
+**But what does it mean exactly?** Here is the explaination:
 
-A function in Python is **just another object**.
+- Everything in Python is object. A variable is an object.
 
-Just like an integer, a string, or a list, a function can be:
+- A function in Python is **just another object**.
 
+- Therefore, Just like a variable (integer, a string, or a list), a function can be used to:
+
+```
 - stored in a variable
 - passed to another function
 - returned from a function
 - placed inside a list or dictionary
 - created at runtime
+```
 
 > <font color='red'>If we can treat functions the same way we treat other values, then functions are called **first-class objects**.</font>
 
----
 
+---
 ## <font color='green'> 2. Everything in Python is an Object </font>
 
 In Python, nearly everything is an object.

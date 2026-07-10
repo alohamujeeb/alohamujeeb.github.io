@@ -195,6 +195,8 @@ This capability is one of the key building blocks of decorators.
 
 ## <font color='green'> 4. Closures </font>
 
+In addition to higher-order functions, closures are another key concept related to decorators. A closure allows a function to remember variables from its enclosing scope, which is one of the mechanisms that makes decorators possible.
+
 Consider the following example:
 
 ```python
