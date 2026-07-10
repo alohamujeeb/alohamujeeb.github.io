@@ -8,7 +8,7 @@ tags:
 Python was designed with simplicity and readability in mind. As a result, it differs from traditional programming languages such as C, C++, Java, and JavaScript in several ways. This section highlights some of the most notable differences.
 
 ---
-## 1. No Traditional `switch` Statement
+## <font color='green'>1. No Traditional `switch` Statement</font>
 
 Older versions of Python do not have a `switch` statement. Instead, they use `if-elif-else`.
 
@@ -42,8 +42,7 @@ match day:
 ```
 
 ---
-
-## 2. No Curly Braces
+## <font color='green'>2. No Curly Braces</font>
 
 Most programming languages use curly braces (`{}`) to define code blocks. Python uses **indentation** instead.
 
@@ -66,7 +65,7 @@ Consistent indentation is mandatory in Python.
 
 ---
 
-## 3. No Semicolons
+## <font color='green'>3. No Semicolons</font>
 
 Statements do not require semicolons.
 
@@ -80,7 +79,7 @@ Although semicolons are allowed, they are rarely used.
 
 ---
 
-## 4. Dynamic Typing
+## <font color='green'>4. Dynamic Typing</font>
 
 Variables do not require explicit type declarations.
 
@@ -102,7 +101,7 @@ Python automatically determines the data type at runtime.
 
 ---
 
-## 5. Everything Is an Object
+## <font color='green'>5. Everything Is an Object</font>
 
 In Python, nearly everything is an object, including integers, strings, functions, and classes.
 
@@ -119,7 +118,7 @@ Output:
 
 ---
 
-## 6. No `++` or `--` Operators
+## <font color='green'>6. No `++` or `--` Operators</font>
 
 Python does not support increment or decrement operators.
 
@@ -140,7 +139,7 @@ i -= 1
 
 ---
 
-## 7. No `do...while` Loop
+## <font color='green'>7. No `do...while` Loop</font>
 
 Python does not include a `do...while` loop.
 
@@ -164,7 +163,7 @@ while True:
 
 ---
 
-## 8. Different `for` Loop
+## <font color='green'>8. Different `for` Loop</font>
 
 Traditional languages typically use a counter-controlled loop.
 
@@ -189,7 +188,7 @@ The expression `range(5)` generates:
 
 ---
 
-## 9. Lists Instead of Arrays
+## <font color='green'>9. Lists Instead of Arrays</font>
 
 Python's built-in collection is the **list**, which is dynamic and flexible.
 
@@ -206,7 +205,7 @@ items = [1, "hello", 3.14, True]
 
 ---
 
-## 10. Multiple Assignment
+## <font color='green'>10. Multiple Assignment</font>
 
 Python allows multiple variables to be assigned in one statement.
 
@@ -222,7 +221,7 @@ a, b = b, a
 
 ---
 
-## 11. Easy Iteration
+## <font color='green'>11. Easy Iteration</font>
 
 Instead of looping through indexes, Python usually iterates directly over elements.
 
@@ -249,7 +248,7 @@ for index, name in enumerate(names):
 
 ---
 
-## 12. List Comprehensions
+## <font color='green'>12. List Comprehensions</font>
 
 Python provides concise syntax for creating lists.
 
@@ -270,7 +269,7 @@ squares = [x * x for x in range(10)]
 
 ---
 
-## 13. Functions Can Return Multiple Values
+## <font color='green'>13. Functions Can Return Multiple Values</font>
 
 A function can return more than one value.
 
@@ -283,7 +282,7 @@ quotient, remainder = divide(10, 3)
 
 ---
 
-## 14. No Mandatory `main()` Function
+## <font color='green'>14. No Mandatory `main()` Function</font>
 
 Python programs execute from top to bottom.
 
@@ -306,7 +305,7 @@ This is optional but considered good practice.
 
 ---
 
-## 15. Rich Built-in Data Structures
+## <font color='green'>15. Rich Built-in Data Structures</font>
 
 Python includes several powerful built-in data structures.
 
@@ -327,24 +326,10 @@ student = {
 }
 ```
 
----
-
-## 16. Exception Handling
-
-Python uses exceptions to handle errors.
-
-```python
-try:
-    x = 10 / 0
-except ZeroDivisionError:
-    print("Cannot divide by zero")
-```
-
-This separates normal program logic from error-handling logic.
 
 ---
 
-## 17. Functions Are First-Class Objects
+## <font color='green'>16. Functions Are First-Class Objects</font>
 
 Functions can be assigned to variables and passed as arguments.
 
@@ -358,32 +343,4 @@ f()
 
 This enables powerful programming techniques such as callbacks and higher-order functions.
 
----
 
-# Summary
-
-| Feature | Traditional Languages (C/Java) | Python |
-|----------|-------------------------------|--------|
-| Code blocks | Curly braces `{}` | Indentation |
-| Statement terminator | Semicolon (`;`) | Not required |
-| Variable declaration | Explicit types | Dynamic typing |
-| `switch` statement | Yes | `match-case` (Python 3.10+) or `if-elif` |
-| Increment/Decrement | `++`, `--` | `+= 1`, `-= 1` |
-| `do...while` loop | Yes | No |
-| Arrays | Fixed-size arrays | Dynamic lists |
-| `for` loops | Counter-based | Iterator-based |
-| Multiple assignment | Limited | Supported |
-| Memory management | Manual (C) or automatic (Java) | Automatic |
-| `main()` function | Required | Optional |
-| Functions | Procedures/functions | First-class objects |
-
----
-
-## Key Takeaways
-
-- Python emphasizes **readability** over complex syntax.
-- Indentation replaces curly braces.
-- Dynamic typing reduces boilerplate code.
-- Built-in data structures simplify programming.
-- Python encourages writing concise, expressive, and maintainable code.
-- Many common tasks require significantly fewer lines of code than in traditional programming languages.
