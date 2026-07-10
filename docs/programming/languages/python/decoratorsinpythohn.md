@@ -859,7 +859,7 @@ def repeat(times):
     return decorator
 ```
 
-Once you remember that:
+Once we remember that:
 
 ```python
 @repeat(3)

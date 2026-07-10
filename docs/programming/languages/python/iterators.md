@@ -9,7 +9,7 @@ tags:
 
 - There are objects in Python that group multiple elements together, such as: lists, tuples, dictionaries, sets etc.
 
-- These are called **iterables** because you can go through their elements.
+- These are called **iterables** because we can go through their elements.
 
 - Iteration is the process of going through elements of a collection one by one and performing some operation on each element, usually exactly once per element.
 
@@ -30,7 +30,7 @@ In lazy processing:
 ---
 ## <font color='green'>3. What is Iterator Object</font>
 
-- **An iterator is an object** in Python that allows you to access elements of a collection one at a time, keeping track of its current position internally.
+- **An iterator is an object** in Python that allows us to access elements of a collection one at a time, keeping track of its current position internally.
 
 
 Example <font color='red'>WITHOUT iterator (with loop)</font>:
@@ -57,7 +57,7 @@ print(next(it))  # 30
 ```
 
 - A loop automatically handles iteration for us. 
-<br>An iterator lets you control the process manually, step by step.
+<br>An iterator lets us control the process manually, step by step.
 
 ---
 ## <font color='green'>4. Why use iterators?</font>
@@ -96,7 +96,7 @@ With iterators, we manually control when to move forward.
 ```
 it = iter([1, 2, 3])
 
-print(next(it))  # you decide when to get next item
+print(next(it))  # we decide when to get next item
 ```
 
 ### <font color='green'>4. Loops already use iterators</font>
