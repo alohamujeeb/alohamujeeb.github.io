@@ -98,10 +98,12 @@ Instead of writing separate calculation functions, `calculate()` can perform any
 ## <font color='green'> Key Points to Remember </font>
 
 - Functions are **first-class objects** in many programming languages, meaning they can be:
-  - Assigned to variables.
-  - Passed as arguments.
-  - Returned from other functions.
-- Passing a function **does not execute it**. You pass its name (or a function reference), and it is executed later by the receiving function.
+```  
+- Assigned to variables.
+- Passed as arguments.
+- Returned from other functions.
+```  
+- Passing a function **does not execute it**. We pass its name (or a function reference), and it is executed later by the receiving function.
 - This approach promotes reusable, modular, and flexible code.
 
 
