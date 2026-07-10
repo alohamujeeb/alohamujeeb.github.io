@@ -23,7 +23,7 @@ Just like an integer, a string, or a list, a function can be:
 - placed inside a list or dictionary
 - created at runtime
 
-> <font color='red'>If we can treat functions the same way you treat other values, then functions are called **first-class objects**.</font>
+> <font color='red'>If we can treat functions the same way we treat other values, then functions are called **first-class objects**.</font>
 
 ---
 

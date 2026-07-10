@@ -18,6 +18,7 @@ This section provides quick-reference modules covering a variety of Python topic
 
 <strong><font> [Python Features That May Be Unfamiliar to C/Java Programmers](unusualfeatures.md)</font></strong>
 
+<strong><font> [Lamda functions](lamda.md)</font></strong>
 
 ---
 ### 2. OOP in Python
@@ -30,7 +31,7 @@ This section provides quick-reference modules covering a variety of Python topic
 
 <strong><font> [Function as First Class Citizens](firstclassfunctions.md)</font></strong>
 
-<strong><font> [Lamda functions](lamda.md)</font></strong>
+<strong><font> [Decorators in Python](decoratorsinpythohn.md)</font></strong>
 
 <strong><font> [Iterators in Python](iterators.md)</font></strong>
 
