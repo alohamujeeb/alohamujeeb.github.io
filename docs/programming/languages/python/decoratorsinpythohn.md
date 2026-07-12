@@ -3,7 +3,7 @@ tags:
   - Decorators
   
 ---
-# Understanding Python Decorators: A Big-picture Guide
+# Understanding Python Decorators
 
 ---
 ## <font color='green'> 1. Introduction </font>
