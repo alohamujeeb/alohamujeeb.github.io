@@ -1,4 +1,7 @@
 ---
+hide:
+  - navigation
+  
 tags:
   - CPython
   - JPython
@@ -127,7 +130,7 @@ For most developers, the choice is straightforward.
 
 ---
 
-## Conclusion
+## <font color='green'> Conclusion </font>
 
 The existence of multiple Python implementations often confuses newcomers, but the distinction is straightforward:
 

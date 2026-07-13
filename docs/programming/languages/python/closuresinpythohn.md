@@ -1,6 +1,9 @@
 ---
+hide:
+  - navigation
+  
 tags:
-  - Closures
+  - Closures in Python
   
 ---
 # Understanding Closures in Python

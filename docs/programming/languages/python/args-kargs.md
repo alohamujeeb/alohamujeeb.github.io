@@ -1,9 +1,11 @@
 ---
+hide:
+  - navigation
+  
 tags:
   - args
   - kwargs
   - function parameters
-  - python
 ---
 
 # Understanding `*args` and `**kwargs` in Python

@@ -1,4 +1,7 @@
 ---
+hide:
+  - navigation
+  
 tags:
   - Python Data Types
 ---
