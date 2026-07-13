@@ -39,6 +39,8 @@ This section provides quick-reference modules covering a variety of Python topic
 
 <strong><font> [Iterators in Python](iterators.md)</font></strong>
 
+<strong><font> [Various Python Implementations](python-implementations.md)</font></strong>
+
 
 
 ---
