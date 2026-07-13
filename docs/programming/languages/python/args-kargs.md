@@ -225,13 +225,7 @@ Python packs them into
 (5, 10, 15, 20)
 ```
 
-The tuple is created automatically by Python.
-
-### Why a Tuple?
-
-Positional arguments are identified by their order.
-
-Since a tuple preserves the order of its elements, it is the ideal structure for storing positional arguments.
+**The tuple is created automatically by Python.**
 
 ---
 
