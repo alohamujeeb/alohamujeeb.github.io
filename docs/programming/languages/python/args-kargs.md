@@ -5,7 +5,7 @@ hide:
 tags:
   - args
   - kwargs
-  - function parameters
+  - variable parameters
 ---
 
 # Understanding `*args` and `**kwargs` in Python
