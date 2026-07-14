@@ -10,7 +10,7 @@ tags:
 
 # Context Managers
 
-## <font color='green'> 1: Introduction </font>
+## <font color='green'> 1. Introduction </font>
 
 A **context manager** is a Python feature that automatically manages resources, such as files, database connections, and locks. It performs any required setup before a block of code executes and automatically cleans up afterward, even if an exception occurs.
 
@@ -43,7 +43,7 @@ In this example:
 Using the `with` statement makes our code cleaner, safer, and less error-prone because resources are released automatically.
 
 ---
-## <font color='green'>2: How the `with` Statement Works</font>
+## <font color='green'>2. How the `with` Statement Works</font>
 
 The `with` statement is built into Python. Behind the scenes, it relies on a **context manager** to automatically perform setup before a block of code runs and cleanup after it finishes.
 
@@ -91,7 +91,7 @@ The automatic call to `__exit__()` is what makes context managers useful. It ens
 
 
 ---
-## <font color='green'>3: Creating Our Own Context Manager</font>
+## <font color='green'>3. Creating Our Own Context Manager</font>
 
 The `with` statement works with Python's built-in context managers, such as the file object returned by `open()`. However, we can also create our own context managers for our own classes.
 
@@ -166,7 +166,7 @@ In this example:
 This demonstrates how custom context managers can automatically perform setup and cleanup for our own applications, making our code cleaner and easier to maintain.
 
 ---
-## <font color='green'>4: Creating Context Managers with `contextlib`</font>
+## <font color='green'>4. Creating Context Managers with `contextlib`</font>
 
 Creating a context manager by defining a class with `__enter__()` and `__exit__()` works well. However, for simple tasks, writing an entire class can be unnecessary.
 
@@ -278,7 +278,7 @@ In this example:
 If our context manager only needs simple setup and cleanup logic, contextlib is usually the preferred approach because it is shorter, easier to read, and avoids creating an entire class.
 
 ---
-## <font color='green'>5: Common Context Managers</font>
+## <font color='green'>5. Common Context Managers</font>
 
 Python's standard library provides many built-in context managers that help manage common resources safely and efficiently. The following table lists some of the most commonly used context managers.
 
