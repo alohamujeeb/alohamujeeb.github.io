@@ -17,12 +17,20 @@ Although my field is software engineering, I try to bring the same mindset to my
 
 ---
 
-## A Quote That Resonates With Me
+## Quotes from Ramanujan
 
 > *"An equation for me has no meaning unless it expresses a thought of God."*
->
-> — **Srinivasa Ramanujan**
 
-Regardless of one's philosophical or religious beliefs, I appreciate the passion reflected in these words.
+---
+> *"While asleep, I had an unusual experience. There was a red screen formed by flowing blood, as it were. I was observing it. Suddenly a hand began to write on the screen. I became all attention. That hand wrote a number of elliptic integrals. They stuck to my mind. As soon as I woke up, I committed them to writing."*
 
-To me, the quote is a reminder that learning is more than acquiring knowledge; it is about curiosity, creativity, and the joy of discovery.
+---
+## Some links
+
+[Ramanujan Wikipedia](https://en.wikipedia.org/wiki/Srinivasa_Ramanujan)
+
+[Ramanujan's Thoughts from God- ArXiv](https://arxiv.org/abs/1707.03379)
+
+[Institute of Mathematics and Its Application- Srinivasa Ramanujan (1887–1920)](https://ima.org.uk/13780/srinivasa-ramanujan-1887-1920-the-centenary-of-a-remarkable-mathematician/)
+
+
