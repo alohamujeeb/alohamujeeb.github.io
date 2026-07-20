@@ -2,6 +2,7 @@
 
 Throughout history, there have been many remarkable people whose contributions changed the world—**Isaac Newton**, **Albert Einstein**, **Nikola Tesla**, **Alan Turing**, and many others. Their work continues to inspire generations of scientists, engineers, and innovators.
 
+
 ---
 
 ## A Person Who Inspires Me — <font color='red'>Srinivasa Ramanujan</font>
