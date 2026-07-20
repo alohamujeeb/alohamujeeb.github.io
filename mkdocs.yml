@@ -134,6 +134,7 @@ nav:
       - About Me: about/aboutme.md
       - Contact Info: about/contact.md
     #- <font color='green'><h2>Whispers of Heart</h2></font>: quotes.md
+    - <font color='green'><h3>My Inspiration</h3></font>: about/inspiration.md
     - <font color='green'><h3>Search</h3></font>:
       - Keywords/Tags: tags.md
 
