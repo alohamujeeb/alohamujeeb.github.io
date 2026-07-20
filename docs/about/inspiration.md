@@ -51,4 +51,5 @@ Although my field is software engineering, I try to bring the same mindset to my
 
 [Institute of Mathematics and Its Application- Srinivasa Ramanujan (1887–1920)](https://ima.org.uk/13780/srinivasa-ramanujan-1887-1920-the-centenary-of-a-remarkable-mathematician/)
 
+[The Man Who Knew Infinity](https://www.goodreads.com/en/book/show/106139.The_Man_Who_Knew_Infinity)
 
