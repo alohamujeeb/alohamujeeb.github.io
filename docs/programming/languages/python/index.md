@@ -18,6 +18,8 @@ This section provides quick-reference modules covering a variety of Python topic
 
 <strong><font> [Python Features That May Be Unfamiliar to C/Java Programmers](unusualfeatures.md)</font></strong>
 
+<strong><font> [Shallow vs Deep Copy](shallowdeepcopy.md)</font></strong>
+
 <strong><font> [Lamda functions](lamda.md)</font></strong>
 
 <strong><font> [args and kargs- Variable Parameters](args-kargs.md)</font></strong>
