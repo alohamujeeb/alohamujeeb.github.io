@@ -73,7 +73,7 @@ int main(void)
 
 In this example, the variable `age` is created when `greet()` is called and exists only while the function is executing. When `greet()` returns, the stack frame is removed and the memory occupied by `age` is automatically reclaimed.
 
-
+> <font color='red'>Because the stack has a fixed size, allocating very large local variables or making excessively deep recursive function calls can exhaust the available stack space, resulting in a stack overflow. For this reason, large or dynamically sized data structures are usually allocated on the heap. </font>
 
 ---
 
@@ -287,7 +287,7 @@ If heap memory requires manual management and can lead to memory leaks, why use 
 
 The answer is that **stack memory has limitations**. Heap memory provides flexibility that the stack cannot.
 
-### 1. The Data Size Is Not Known in Advance
+### 7.1 The Data Size Is Not Known in Advance
 
 Sometimes, the amount of memory required is only known while the program is running.
 
@@ -301,7 +301,7 @@ int *numbers = malloc(n * sizeof(int));
 
 Here, the size of the array depends on the user's input, so it must be allocated dynamically.
 
-### 2. Large Data Structures
+### 7.2 Large Data Structures
 
 The **stack** has a fixed size that is determined when a program starts. Since each function call creates a new stack frame, the operating system limits the stack size to prevent a program from consuming too much memory. On many systems, the default stack size is only a few megabytes.
 
@@ -317,7 +317,7 @@ In this example, the array contains one million integers. Allocating such a larg
 
 
 
-### 3. Data Must Outlive a Function
+### 7.3 Data Must Outlive a Function
 
 Stack variables disappear when a function returns. If data needs to remain available after the function finishes, it must be stored on the heap.
 
@@ -366,26 +366,72 @@ Heap: Large because it is a dynamic area that can grow as the program requests m
 
 That's the fundamental reason. The size difference isn't a property of C itself—it's a deliberate design choice made by operating systems and runtime environments to balance speed (stack) and flexibility (heap).
 
+
+
 ---
 
-## <font color='green'> 9. Summary </font>
+## <font color='green'>9. How Are These Memory Regions Allocated? </font>
 
-The following table summarizes the differences between the three memory types discussed in this article.
+Although the stack, heap, and global memory all belong to a program's memory space, they are allocated differently.
+
+### Stack Memory
+
+The operating system reserves a **fixed-size stack** for each thread when the program starts. This space is used to store function call information and local variables.
+
+The stack size does not normally grow during program execution. If the program uses more stack space than is available, a **stack overflow** occurs.
+
+### Global Memory
+
+Global memory is also allocated when the program starts. Since the compiler knows the size of every global and static variable, the operating system reserves enough space for them before `main()` begins.
+
+Like the stack, the size of the global memory region is **fixed** throughout the lifetime of the program.
+
+### Heap Memory
+
+Unlike the stack and global memory, the heap is **dynamic**.
+
+Initially, the heap occupies only a small portion of the process's memory space. As the program requests memory using `malloc()`, `calloc()`, or `realloc()`, the operating system expands the heap when possible. When memory is released using `free()`, the heap can reuse that space for future allocations.
+
+This dynamic behavior allows programs to allocate memory based on their runtime needs rather than being limited to a fixed amount determined before execution.
+
+### Summary
+
+| Memory Region | Allocation Time | Size During Execution |
+|--------------|-----------------|-----------------------|
+| Stack | Reserved when the program/thread starts | Fixed |
+| Global | Reserved when the program starts | Fixed |
+| Heap | Grows as memory is requested at runtime | Dynamic |
+
+---
+
+## <font color='green'>10. Summary</font>
+
+Throughout this article, we have seen that C programs organize memory into three primary regions: **stack**, **heap**, and **global memory**. Although all three belong to a program's memory space, they differ in **what they store, how they are allocated, how long they exist, and how they are managed**.
+
+The **stack** is a fixed-size memory region used for **function call information** and **local (automatic) variables**. Memory on the stack is allocated and released automatically as functions are called and return, making stack operations very fast. However, its limited size makes it unsuitable for storing large amounts of data.
+
+
+The **heap** is a dynamic memory region used for **runtime memory allocation**. Unlike the stack and global memory, the heap can expand as the program requests additional memory from the operating system. This flexibility allows programs to allocate memory whose size is unknown until runtime or to create data that must remain valid after a function returns. Because heap memory is managed manually, programmers must release allocated memory using `free()`. Failure to do so results in **memory leaks**.
+
+The **global memory** region stores **global variables** and **static variables**. Like the stack, it is allocated before the program begins execution and its size remains fixed throughout the lifetime of the program. Variables stored in global memory remain available until the program terminates.
+
+The table below summarizes the main differences between these memory regions.
 
 | Feature | Stack | Heap | Global |
 |---------|-------|------|--------|
-| Stores | Local (automatic) variables | Dynamically allocated memory | Global and static variables |
-| Allocation | Automatic | Manual (`malloc()`, `calloc()`, `realloc()`) | Before program execution |
-| Deallocation | Automatic | Manual (`free()`) | When the program terminates |
+| Stores | Local (automatic) variables and function call information | Dynamically allocated memory | Global and static variables |
+| Allocation | Automatic during function calls | Manual using `malloc()`, `calloc()`, or `realloc()` | Before program execution |
+| Deallocation | Automatic when a function returns | Manual using `free()` | When the program terminates |
 | Lifetime | Until the function returns | Until `free()` is called | Entire program execution |
-| Speed | Fast | Slower | Fast access |
-| Size | Limited | Larger | Fixed at program start |
-| Common Use | Local variables | Dynamic data structures, large memory blocks | Program-wide data and static variables |
+| Size | Fixed and limited | Dynamic | Fixed |
+| Speed | Very fast | Slower | Fast |
+| Memory Leaks | No | Yes | No |
+| Typical Use | Local variables and function calls | Runtime allocation, large objects, data that outlives a function | Global and static data |
 
 ### Key Takeaways
 
-- **Stack memory** is fast and automatically managed, making it ideal for local, temporary variables.
-- **Heap memory** provides flexibility for dynamic allocation but requires the programmer to manage memory carefully.
-- **Global memory** stores global and static variables that exist for the entire lifetime of the program.
-- Memory leaks occur only with **heap memory**, making proper use of `free()` essential.
-- Choose the appropriate memory type based on the lifetime, size, and purpose of the data.
+- **Stack memory** is a fixed-size region optimized for function calls and temporary local variables.
+- **Heap memory** is a dynamic region that grows as memory is requested during program execution, providing flexibility for runtime allocation.
+- **Global memory** is a fixed-size region that stores global and static variables for the lifetime of the program.
+- Use the **stack** for small, temporary data, the **heap** for dynamic or long-lived data, and **global memory** for data that must exist throughout the entire program.
+- Choosing the appropriate memory region improves program performance, reduces memory-related bugs, and helps write efficient C programs.
