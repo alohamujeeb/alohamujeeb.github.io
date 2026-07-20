@@ -346,7 +346,7 @@ For small, temporary variables, **stack memory is usually the better choice** be
 
 
 --- 
-## <font color='green'>8. Why is the stack smaller than help? </font>
+## <font color='green'>8. Why is the stack smaller than heap? </font>
 
 The stack is designed for temporary storage during function calls. Every time a function is called, the operating system must quickly allocate a new stack frame. This operation needs to be extremely fast, so the OS reserves a fixed-size block of memory for the stack when the program starts.
 
