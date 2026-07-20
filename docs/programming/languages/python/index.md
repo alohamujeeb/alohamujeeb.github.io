@@ -24,6 +24,8 @@ This section provides quick-reference modules covering a variety of Python topic
 
 <strong><font> [args and kargs- Variable Parameters](args-kargs.md)</font></strong>
 
+<strong><font> [generator functions- yield and return in Python](yieldreturn.md)</font></strong>
+
 ---
 ### 2. OOP in Python
 
