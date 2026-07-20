@@ -15,6 +15,22 @@ Despite limited formal mathematical training and many personal challenges, Raman
 
 Although my field is software engineering, I try to bring the same mindset to my own work: to keep learning, keep exploring, and never stop being curious.
 
+
+---
+## The Mystery of Ramanujan's Genius
+
+<font color='green'>
+
+- Srinivasa Ramanujan is regarded as one of the greatest mathematicians in history for his extraordinary intuition.
+
+- He often arrived at deep mathematical identities and formulas with little or no written derivation, leaving other mathematicians to establish rigorous proofs afterward.
+
+- Ramanujan himself believed that many of these insights came to him through the blessings of his goddess, often describing them as revelations in dreams or moments of inspiration.
+
+- Whether viewed as divine inspiration, spiritual insight, or exceptional intuition, his ability to "see" mathematical truths remains one of the most fascinating stories in the history of mathematics.
+
+</font>
+
 ---
 
 ## Quotes from Ramanujan
@@ -26,6 +42,8 @@ Although my field is software engineering, I try to bring the same mindset to my
 
 ---
 ## Some links
+
+[Remembering Ramanujan – Trinity College Library, Cambridge](https://explore.trin.cam.ac.uk/assets/ramanujan/)
 
 [Ramanujan Wikipedia](https://en.wikipedia.org/wiki/Srinivasa_Ramanujan)
 
