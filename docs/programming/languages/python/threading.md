@@ -301,11 +301,11 @@ This approach is generally preferred when executing many independent tasks becau
 
 | Approach | Typical Use |
 |----------|-------------|
-| `threading.Thread` | Create and manage individual threads manually. |
-| Subclassing `threading.Thread` | Encapsulate thread behavior and state within a custom thread class. |
-| `ThreadPoolExecutor` | Execute many independent tasks using a pool of reusable worker threads. |
+| **Functional style** (`threading.Thread`) | Create a thread by passing a target function. Suitable for simple and independent tasks. |
+| **Class style** (subclassing `threading.Thread`) | Create a custom thread class by overriding the `run()` method. Suitable when a thread encapsulates its own data and behavior. |
+| **`ThreadPoolExecutor`** | Execute many independent tasks using a pool of reusable worker threads. |
 
-> For the sake of keeping this article conceptual and to the poiont, `ThreadPoolExecutor` is not covered here.
+> <font color='red'> For the sake of keeping this article conceptual and to the poiont, `ThreadPoolExecutor` is not covered here. </font>
 
 
 ---
