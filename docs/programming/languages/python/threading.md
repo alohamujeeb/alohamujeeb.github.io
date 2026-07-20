@@ -72,9 +72,11 @@ In Python, the `threading` module enables the creation of multiple threads withi
 
 
 ---
-## <font color='green'>3. Creating Threads: Use `threading` module</font>
+## <font color='green'>3. Creating Threads (functional style)</font>
 
-The `threading` module provides the `Thread` class for creating and managing threads. A thread is associated with a function, known as the **target function**, which is executed when the thread starts.
+The `threading` module provides the `Thread` class for creating and managing threads. 
+
+A thread is associated with a function, known as the **target function**, which is executed when the thread starts.
 
 The following example creates two threads. Each thread prints a sequence of numbers independently. Since both threads execute concurrently, their output may appear interleaved.
 
@@ -118,39 +120,59 @@ Thread-2: 4
 
 
 ---
-## <font color='green'>4. Another way: `Thread` Class</font>
+## <font color='green'>4. Creating Threads (class style)</font>
 
-In the previous example, each thread was created using the `Thread` class provided by the `threading` module.
-
-```python
-t1 = threading.Thread(target=task, args=("Thread-1", 0.5))
-```
-
-The `Thread` constructor accepts several optional arguments. The most commonly used are:
-
-| Parameter | Description |
-|-----------|-------------|
-| `target` | The function that the thread executes. |
-| `args` | A tuple containing the positional arguments passed to the target function. |
-| `kwargs` | A dictionary containing keyword arguments passed to the target function. |
-| `name` | An optional name assigned to the thread. |
-| `daemon` | Specifies whether the thread is a daemon thread. The default is `False`. |
-
-Once a thread object is created, it does not begin execution immediately. The thread starts only when its `start()` method is invoked.
+Instead of passing a target function to the `Thread` constructor, another approach is to create a custom thread by inheriting from the `Thread` class and overriding its `run()` method.
 
 ```python
+import threading
+import time
+
+class MyThread(threading.Thread):
+
+    def __init__(self, name, delay):
+        super().__init__()
+        self.name = name
+        self.delay = delay
+
+    def run(self):
+        for i in range(5):
+            print(f"{self.name}: {i}")
+            time.sleep(self.delay)
+
+t1 = MyThread("Thread-1", 0.5)
+t2 = MyThread("Thread-2", 0.8)
+
 t1.start()
-```
+t2.start()
 
-The `start()` method creates a new thread of execution and invokes the target function. It should be called **only once** for a thread object.
-
-If the main program needs to wait until a thread completes its execution, the `join()` method can be used.
-
-```python
 t1.join()
+t2.join()
 ```
 
-The `join()` method blocks the calling thread until the target thread terminates. In the previous example, the main thread waits for both worker threads to finish before printing the final message.
+**Sample Output**
+
+```text
+Thread-2: 0
+Thread-1: 0
+Thread-1: 1
+Thread-2: 1
+Thread-1: 2
+Thread-2: 2
+Thread-1: 3
+Thread-1: 4
+Thread-2: 3
+Thread-2: 4
+```
+
+In this approach, the work performed by the thread is defined inside the `run()` method instead of being supplied as a target function.
+
+Just like the functional approach:
+
+- `start()` begins execution of the thread by invoking the `run()` method.
+- `join()` blocks the calling thread until the thread finishes execution.
+
+> Subclassing `Thread` is useful when a thread needs to encapsulate both its data and behavior within a class. For simple tasks, using a target function is usually more concise.
 
 ---
 ## <font color='green'>5. Daemon Threads</font>
@@ -188,7 +210,7 @@ Main thread finished.
 
 Although the daemon thread contains an infinite loop, it terminates automatically when the main thread exits.
 
-### **Daemon vs. Non-Daemon Threads**
+### **5.1 Daemon vs. Non-Daemon Threads**
 
 | Non-Daemon Thread | Daemon Thread |
 |-------------------|---------------|
@@ -198,9 +220,7 @@ Although the daemon thread contains an infinite loop, it terminates automaticall
 
 
 
-### **When to Use Daemon and Non-Daemon Threads**
-
-### When to Use Daemon and Non-Daemon Threads
+### **5.2 When to Use Daemon and Non-Daemon Threads**
 
 A daemon thread and a non-daemon thread execute in exactly the same way. The only difference is **how Python treats them when the application is about to terminate**.
 
@@ -226,6 +246,47 @@ Use a **daemon thread** for tasks that are useful only while the application is 
 > **Rule of Thumb:** Ask yourself, **"Should Python wait for this thread before exiting?"** If the answer is **yes**, use a **non-daemon thread**. Otherwise, use a **daemon thread**.
 
 > <font color='red'> In other words, daemon threads continue running only while at least one non-daemon thread is still alive. Once all non-daemon threads (including the main thread) have finished, the Python interpreter automatically terminates any remaining daemon threads. </font>
+
+### **5.3 Daemon Threads in Functional and Class Styles**
+
+A daemon thread can be created using either the **functional** approach or the **class** approach.
+
+**Functional style**
+
+```python
+t = threading.Thread(target=background_task, daemon=True)
+```
+
+**Class style**
+
+```python
+class MyThread(threading.Thread):
+
+    def run(self):
+        while True:
+            print("Background task running...")
+            time.sleep(1)
+
+t = MyThread()
+t.daemon = True
+```
+
+Alternatively, the daemon flag can be set when calling the parent constructor:
+
+```python
+class MyThread(threading.Thread):
+
+    def __init__(self):
+        super().__init__(daemon=True)
+
+    def run(self):
+        while True:
+            print("Background task running...")
+            time.sleep(1)
+```
+
+Regardless of whether the thread is created using the functional or class approach, the behavior is identical. The only difference is **how the thread's work is defined**.
+
 
 ---
 ## <font color='green'>6. Other Ways to Create Threads</font>
