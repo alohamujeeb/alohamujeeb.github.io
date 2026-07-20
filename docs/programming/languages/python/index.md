@@ -49,6 +49,7 @@ This section provides quick-reference modules covering a variety of Python topic
 
 <strong><font> [GIL- Concurrency is not Parallel](gil-parallelism.md)</font></strong>
 
+<strong><font> [Threading in Python](threading.md)</font></strong>
 
 ---
 ### 4. Advanced Topics/Experiences

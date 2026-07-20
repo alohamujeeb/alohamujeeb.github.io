@@ -39,7 +39,7 @@ For example, a single CPU core can execute multiple threads by quickly switching
 
 A simple way to think about the difference is:
 
-- **Concurrency** is about managing multiple tasks.
+- **Concurrency** is about managing multiple ta<strong><font> [Threading in Python](threading.md)</font></strong>sks.
 - **Parallelism** is about executing multiple tasks simultaneously.
 
 This distinction is important because a program can be highly concurrent without being parallel. As we'll see, this is exactly how CPU-bound multithreaded programs behave in CPython
@@ -202,4 +202,11 @@ In a follow-up articles in this regars, we'll build practical examples covering:
 - Performance profiling
 - CPU utilization
 - Real-world concurrency patterns
+
+---
+## References
+
+<strong><font> [Threading in Python](threading.md)</font></strong>
+
+<strong><font> [Python Interpreters-CPython/JPython](python-implementations.md)</font></strong>
 
