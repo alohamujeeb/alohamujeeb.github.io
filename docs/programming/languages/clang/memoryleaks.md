@@ -11,7 +11,7 @@ tags:
 ---
 
 # Understanding Memory Leaks in C (Some Scenarios)
-*This article assumes a basic understanding of dynamic memory allocation and focuses on memory leak scenarios encountered in professional C programming.*
+*This article is intended for intermediate and advanced C programmers. It assumes a basic understanding of dynamic memory allocation and explores common memory leak scenarios encountered in real-world C programs.*
 
 ---
 ## <font color='green'>Heap is the source of memory leaks</font>
