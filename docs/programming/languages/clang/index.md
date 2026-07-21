@@ -40,5 +40,6 @@ This section provides quick-reference modules covering a variety of C/C++ topics
 
 <strong><font> [`volatile` key word in c](volatilekeyword.md)</font></strong>
 
+<strong><font> [Memory-Mapped I/O](memorymappedio.md)</font></strong>
 
 
