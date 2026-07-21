@@ -11,6 +11,7 @@ tags:
 ---
 
 # Understanding Memory Types in C: Stack, Heap, and Global Memory
+*This article introduces the three primary memory regions in C—stack, heap, and global memory—and explains how they are allocated, managed, and used during program execution.*
 
 ---
 ## <font color='green'> 1. Three types of memory in C </font>
