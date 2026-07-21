@@ -63,32 +63,86 @@ Atomic operations eliminate this problem by ensuring that shared variables are u
 ---
 ## <font color='green'>3. Atomic Types in C11</font>
 
-Prior to the C11 standard, the C language did not provide a standard mechanism for performing atomic operations. Programmers often relied on compiler-specific extensions or platform-dependent libraries to safely access shared data.
+The C11 standard introduced the `<stdatomic.h>` header, which provides support for atomic operations and atomic data types. An atomic object guarantees that individual read, write, and read-modify-write operations are performed atomically, preventing data races when accessed concurrently.
 
-C11 introduced the `<stdatomic.h>` header, which defines atomic types and operations that are portable across conforming C implementations.
+There are two common ways to declare an atomic object:
 
-An atomic object can be declared using the `_Atomic` type specifier or one of the predefined atomic types.
+- Using the `_Atomic` type specifier.
+- Using one of the predefined atomic type aliases provided by `<stdatomic.h>`.
+
+For example, the following declarations create atomic integer variables:
+
+```c
+#include <stdatomic.h>
+
+_Atomic int counter1 = 0;
+atomic_int counter2 = 0;
+```
+
+Both declarations create an atomic integer and provide the same functionality. The `atomic_int` type is simply a convenience alias for `_Atomic int`.
+
+The C11 standard provides predefined atomic type aliases for the most commonly used integer and character types.
+
+| Atomic Type | Equivalent Type |
+|-------------|-----------------|
+| `atomic_bool` | `_Atomic bool` |
+| `atomic_char` | `_Atomic char` |
+| `atomic_schar` | `_Atomic signed char` |
+| `atomic_uchar` | `_Atomic unsigned char` |
+| `atomic_short` | `_Atomic short` |
+| `atomic_ushort` | `_Atomic unsigned short` |
+| `atomic_int` | `_Atomic int` |
+| `atomic_uint` | `_Atomic unsigned int` |
+| `atomic_long` | `_Atomic long` |
+| `atomic_ulong` | `_Atomic unsigned long` |
+| `atomic_llong` | `_Atomic long long` |
+| `atomic_ullong` | `_Atomic unsigned long long` |
+| `atomic_char8_t`* | `_Atomic char8_t` |
+| `atomic_char16_t` | `_Atomic char16_t` |
+| `atomic_char32_t` | `_Atomic char32_t` |
+| `atomic_wchar_t` | `_Atomic wchar_t` |
+| `atomic_int_least8_t` | `_Atomic int_least8_t` |
+| `atomic_uint_least8_t` | `_Atomic uint_least8_t` |
+| `atomic_int_least16_t` | `_Atomic int_least16_t` |
+| `atomic_uint_least16_t` | `_Atomic uint_least16_t` |
+| `atomic_int_least32_t` | `_Atomic int_least32_t` |
+| `atomic_uint_least32_t` | `_Atomic uint_least32_t` |
+| `atomic_int_least64_t` | `_Atomic int_least64_t` |
+| `atomic_uint_least64_t` | `_Atomic uint_least64_t` |
+| `atomic_int_fast8_t` | `_Atomic int_fast8_t` |
+| `atomic_uint_fast8_t` | `_Atomic uint_fast8_t` |
+| `atomic_int_fast16_t` | `_Atomic int_fast16_t` |
+| `atomic_uint_fast16_t` | `_Atomic uint_fast16_t` |
+| `atomic_int_fast32_t` | `_Atomic int_fast32_t` |
+| `atomic_uint_fast32_t` | `_Atomic uint_fast32_t` |
+| `atomic_int_fast64_t` | `_Atomic int_fast64_t` |
+| `atomic_uint_fast64_t` | `_Atomic uint_fast64_t` |
+| `atomic_intptr_t` | `_Atomic intptr_t` |
+| `atomic_uintptr_t` | `_Atomic uintptr_t` |
+| `atomic_size_t` | `_Atomic size_t` |
+| `atomic_ptrdiff_t` | `_Atomic ptrdiff_t` |
+| `atomic_intmax_t` | `_Atomic intmax_t` |
+| `atomic_uintmax_t` | `_Atomic uintmax_t` |
+
+> **Note:** `atomic_char8_t` is available only when `char8_t` is supported by the implementation.
+
+Atomic objects can also be created from user-defined types using the `_Atomic` type specifier.
 
 For example:
 
 ```c
-#include <stdatomic.h>
+typedef struct
+{
+    int x;
+    int y;
+} Point;
 
-_Atomic int counter = 0;
+_Atomic Point position;
 ```
 
-Alternatively, the equivalent predefined type can be used:
+Whether operations on user-defined atomic types are lock-free depends on the compiler and target architecture.
 
-```c
-#include <stdatomic.h>
-
-atomic_int counter = 0;
-```
-
-Both declarations create an integer object that can be accessed using the atomic operations provided by `<stdatomic.h>`. These operations ensure that reads and updates are performed atomically, preventing interference from other threads or execution contexts.
-
-The C11 atomic library supports atomic versions of many fundamental integer and pointer types, making it possible to safely share data without relying on platform-specific synchronization mechanisms.
-
+Once an object has been declared as atomic, it should be accessed using the atomic functions provided by `<stdatomic.h>`, such as `atomic_load()`, `atomic_store()`, and `atomic_fetch_add()`, which are discussed in the following sections.
 
 ---
 ## <font color='green'>4. Performing Atomic Operations</font>
