@@ -15,9 +15,11 @@ This section provides quick-reference modules covering a variety of C/C++ topics
 
 <strong><font> [Understanding malloc(), calloc(), realloc(), and free()](pointermalloc.md)</font></strong>
 
+<strong><font> [Understanding Pointer Arithmetic](pointerarithmetic.md)</font></strong>
+
+<strong><font> [Pointers and Array Names](pointer_and_arraynames.md)</font></strong>
 
 <strong><font> [Understanding NULL Pointers in C](nullpointers.md)</font></strong>
-
 
 <strong><font> [Understanding Dangling Pointers in C](danglingpointers.md)</font></strong>
 
@@ -34,7 +36,7 @@ This section provides quick-reference modules covering a variety of C/C++ topics
 
 <strong><font> [Understanding Lookup Tables (LUTs) in C](lut.md)</font></strong>
 
-
+<strong><font> [Fixed-Point Arithmetic in Embedded C](fixedpoint.md)</font></strong>
 
 
 
