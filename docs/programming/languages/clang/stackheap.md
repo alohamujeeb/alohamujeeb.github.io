@@ -427,3 +427,9 @@ The table below summarizes the main differences between these memory regions.
 - **Global memory** is a fixed-size region that stores global and static variables for the lifetime of the program.
 - Use the **stack** for small, temporary data, the **heap** for dynamic or long-lived data, and **global memory** for data that must exist throughout the entire program.
 - Choosing the appropriate memory region improves program performance, reduces memory-related bugs, and helps write efficient C programs.
+
+---
+**Relevant Links**
+
+[Understanding Memory Leaks in C](stackheap.md)
+

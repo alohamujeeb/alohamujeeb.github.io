@@ -15,6 +15,8 @@ This section provides quick-reference modules covering a variety of C/C++ topics
 
 <strong><font> [Memory Types in C: Stack, Heap, and Global Memory](stackheap.md)</font></strong>
 
+<strong><font> [Understanding Memory Leaks in C (Some Scenarios)](memoryleaks.md)</font></strong>
+
 
 ---
 ### 2. Embedded C Techniques
