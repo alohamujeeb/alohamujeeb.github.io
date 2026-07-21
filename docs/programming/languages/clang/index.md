@@ -8,10 +8,12 @@ tags:
 # **C/C++ Material**
 This section provides quick-reference modules covering a variety of C/C++ topics.
 
-
+---
+### 1. Misc Topics
+<strong><font> [Undefined Behaviour in C](undefinedbehaviour.md)</font></strong>
 
 ---
-### 1. Pointers
+### 2. Pointers
 
 <strong><font> [Understanding malloc(), calloc(), realloc(), and free()](pointermalloc.md)</font></strong>
 
@@ -24,7 +26,7 @@ This section provides quick-reference modules covering a variety of C/C++ topics
 <strong><font> [Understanding Dangling Pointers in C](danglingpointers.md)</font></strong>
 
 ---
-### 2. Memory Managment
+### 3. Memory Managment
 
 <strong><font> [Memory Types in C: Stack, Heap, and Global Memory](stackheap.md)</font></strong>
 
@@ -32,7 +34,7 @@ This section provides quick-reference modules covering a variety of C/C++ topics
 
 
 ---
-### 3. Embedded C Techniques
+### 4. Embedded C Techniques
 
 <strong><font> [Understanding Lookup Tables (LUTs) in C](lut.md)</font></strong>
 
