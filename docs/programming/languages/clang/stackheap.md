@@ -17,15 +17,7 @@ tags:
 
 Every variable we declare and every piece of data our program uses must be stored somewhere in memory. 
 
-C organizes program data into different memory regions, each serving a specific purpose. 
-
-The three most commonly encountered memory types are **stack memory**, **heap memory**, and **global memory**. 
-
-
----
-## <font color='green'> 2. Memory Layout in C </font>
-
-Conceptually, the memory used by a C program can be divided into several regions. Each region has a specific purpose and stores different kinds of data.
+Conceptually, the memory used by variables in a C program can be divided into several regions. Each region has a specific purpose and stores different kinds of data.
 
 For this article, we will focus on the three most common memory regions:
 
@@ -38,7 +30,7 @@ The following sections explain each memory type and its characteristics.
 
 ---
 
-## <font color='green'> 3. Stack Memory </font>
+## <font color='green'> 2. Stack Memory </font>
 
 The **stack** is a memory region that stores **local (automatic) variables** and **function call information**. Whenever a function is called, a new stack frame is created. When the function returns, the stack frame is automatically removed.
 
@@ -77,7 +69,7 @@ In this example, the variable `age` is created when `greet()` is called and exis
 
 ---
 
-## <font color='green'> 4. Heap Memory </font>
+## <font color='green'> 3. Heap Memory </font>
 
 The **heap** is a memory region used for **dynamic memory allocation**. Unlike stack memory, the programmer explicitly requests memory from the heap and is responsible for releasing it when it is no longer needed.
 
@@ -120,7 +112,7 @@ In this example, memory for `age` is allocated from the heap using `malloc()`. T
 
 ---
 
-## <font color='green'> 5. Global Memory </font>
+## <font color='green'> 4. Global Memory </font>
 
 The **global memory** region stores **global variables** and **static variables**. These variables are created before the program begins execution and remain in memory until the program terminates.
 
@@ -172,7 +164,7 @@ Calls = 3, Counter = 3
 In this example, both `counter` and `calls` retain their values between function calls. Although `calls` is declared inside `increment()`, the `static` keyword causes it to be stored in global memory rather than on the stack.
 
 
-### Where Is Global Memory Located?
+### **Where Is Global Memory Located?**
 
 Global memory is stored in a **separate data region** within a program's memory space. It is **not** part of the stack, the heap, or the code (text) segment.
 
@@ -214,9 +206,9 @@ Process A                    Process B
 
 ---
 
-## <font color='green'> 6. Memory Leaks </font>
+## <font color='green'> 5. Memory Leaks </font>
 
-**Memory leaks** are one of the most common problems in **C and C++ programming**. They occur when memory allocated from the **heap** is no longer needed but is never released.
+**Memory leaks** are one of the most common problems in **C and C++ programming**. <font color='red'>They occur when memory allocated from the **heap** is no longer needed but is never released.</font>
 
 Unlike stack memory, which is automatically reclaimed when a function returns, heap memory remains allocated until it is explicitly released using `free()` (or `delete` in C++). If the allocated memory becomes unreachable, the program can no longer use or free it, resulting in a memory leak.
 
@@ -281,13 +273,13 @@ Here, the pointer is overwritten before calling `free()`. Since the original add
 
 ---
 
-## <font color='green'> 7. Why Use Heap Memory? </font>
+## <font color='green'> 6. Why Use Heap Memory? </font>
 
-If heap memory requires manual management and can lead to memory leaks, why use it at all?
+<font color='red'>If heap memory requires manual management and can lead to memory leaks, why use it at all?</font>
 
 The answer is that **stack memory has limitations**. Heap memory provides flexibility that the stack cannot.
 
-### 7.1 The Data Size Is Not Known in Advance
+### **6.1 The Data Size Is Not Known in Advance**
 
 Sometimes, the amount of memory required is only known while the program is running.
 
@@ -301,7 +293,7 @@ int *numbers = malloc(n * sizeof(int));
 
 Here, the size of the array depends on the user's input, so it must be allocated dynamically.
 
-### 7.2 Large Data Structures
+### **6.2 Large Data Structures**
 
 The **stack** has a fixed size that is determined when a program starts. Since each function call creates a new stack frame, the operating system limits the stack size to prevent a program from consuming too much memory. On many systems, the default stack size is only a few megabytes.
 
@@ -317,7 +309,7 @@ In this example, the array contains one million integers. Allocating such a larg
 
 
 
-### 7.3 Data Must Outlive a Function
+### **6.3 Data Must Outlive a Function**
 
 Stack variables disappear when a function returns. If data needs to remain available after the function finishes, it must be stored on the heap.
 
@@ -346,7 +338,7 @@ For small, temporary variables, **stack memory is usually the better choice** be
 
 
 --- 
-## <font color='green'>8. Why is the stack smaller than heap? </font>
+## <font color='green'>7. Why is the stack smaller than heap? </font>
 
 The stack is designed for temporary storage during function calls. Every time a function is called, the operating system must quickly allocate a new stack frame. This operation needs to be extremely fast, so the OS reserves a fixed-size block of memory for the stack when the program starts.
 
@@ -370,7 +362,7 @@ That's the fundamental reason. The size difference isn't a property of C itselfâ
 
 ---
 
-## <font color='green'>9. How Are These Memory Regions Allocated? </font>
+## <font color='green'>8. How Are These Memory Regions Allocated? </font>
 
 Although the stack, heap, and global memory all belong to a program's memory space, they are allocated differently.
 
@@ -404,7 +396,7 @@ This dynamic behavior allows programs to allocate memory based on their runtime 
 
 ---
 
-## <font color='green'>10. Summary</font>
+## <font color='green'>9. Summary</font>
 
 Throughout this article, we have seen that C programs organize memory into three primary regions: **stack**, **heap**, and **global memory**. Although all three belong to a program's memory space, they differ in **what they store, how they are allocated, how long they exist, and how they are managed**.
 
