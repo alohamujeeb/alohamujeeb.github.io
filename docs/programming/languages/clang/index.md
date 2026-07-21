@@ -11,21 +11,28 @@ This section provides quick-reference modules covering a variety of C/C++ topics
 
 
 ---
-### 1. Memory Managment
+### 1. Pointers
+
+<strong><font> [Understanding malloc(), calloc(), realloc(), and free()](pointermalloc.md)</font></strong>
+
+
+<strong><font> [Understanding Dangling Pointers in C](danglingpointers.md)</font></strong>
+
+---
+### 2. Memory Managment
 
 <strong><font> [Memory Types in C: Stack, Heap, and Global Memory](stackheap.md)</font></strong>
 
 <strong><font> [Understanding Memory Leaks in C (Some Scenarios)](memoryleaks.md)</font></strong>
 
 
-
-### 2. Pointers
-
-<strong><font> [Understanding Dangling Pointers in C](danglingpointers.md)</font></strong>
-
-
 ---
-### 2. Embedded C Techniques
+### 3. Embedded C Techniques
+
+<strong><font> [Understanding Lookup Tables (LUTs) in C](lut.md)</font></strong>
+
+
+
 
 
 

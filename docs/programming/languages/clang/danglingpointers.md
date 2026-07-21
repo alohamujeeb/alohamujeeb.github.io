@@ -197,10 +197,10 @@ By understanding how dangling pointers arise and following safe programming prac
 
 
 ---
-**Relevant Links**
+## **Relevant Links**
 
-[Understanding Memory Types in C: Stack, Heap, and Global Memory](stackheap.md)
+[C/C++ Material on this website](index.md)
 
-[Understanding Memory Leaks in C](stackheap.md)
+(such as memory managment, pointers, embedded C programming etc.)
 
 

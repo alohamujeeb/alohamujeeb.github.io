@@ -264,9 +264,8 @@ By carefully managing dynamically allocated memory and ensuring that every alloc
 
 
 ---
-**Relevant Links**
+## **Relevant Links**
 
-[Understanding Memory Types in C: Stack, Heap, and Global Memory](stackheap.md)
+[C/C++ Material on this website](index.md)
 
-[Understanding Dangling Pointers in C](danglingpointers.md)
-
+(such as memory managment, pointers, embedded C programming etc.)
