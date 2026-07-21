@@ -18,6 +18,12 @@ This section provides quick-reference modules covering a variety of C/C++ topics
 <strong><font> [Understanding Memory Leaks in C (Some Scenarios)](memoryleaks.md)</font></strong>
 
 
+
+### 2. Pointers
+
+<strong><font> [Understanding Dangling Pointers in C](danglingpointers.md)</font></strong>
+
+
 ---
 ### 2. Embedded C Techniques
 

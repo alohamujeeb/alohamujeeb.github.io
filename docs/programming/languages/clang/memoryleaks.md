@@ -3,15 +3,12 @@ hide:
   - navigation
   
 tags:
-  - stack
-  - heap
-  - global memory
-  - gloabl variables
+  - Memory Leaks 
 
 ---
 
 # Understanding Memory Leaks in C (Some Scenarios)
-*This article is intended for intermediate and advanced C programmers. It assumes a basic understanding of dynamic memory allocation and explores common memory leak scenarios encountered in real-world C programs.*
+*This article is intended for intermediate and advanced C programmers. It assumes familiarity with dynamic memory allocation and examines common memory leak scenarios that occur in real-world applications.*
 
 ---
 ## <font color='green'>Heap is the source of memory leaks</font>
@@ -271,4 +268,5 @@ By carefully managing dynamically allocated memory and ensuring that every alloc
 
 [Understanding Memory Types in C: Stack, Heap, and Global Memory](stackheap.md)
 
+[Understanding Dangling Pointers in C](danglingpointers.md)
 

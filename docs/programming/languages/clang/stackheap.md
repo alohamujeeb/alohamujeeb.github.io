@@ -434,3 +434,5 @@ The table below summarizes the main differences between these memory regions.
 
 [Understanding Memory Leaks in C](stackheap.md)
 
+[Understanding Dangling Pointers in C](danglingpointers.md)
+
