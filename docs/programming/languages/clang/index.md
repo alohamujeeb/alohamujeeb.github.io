@@ -10,7 +10,11 @@ This section provides quick-reference modules covering a variety of C/C++ topics
 
 ---
 ### 1. Misc Topics
+
 <strong><font> [Undefined Behaviour in C](undefinedbehaviour.md)</font></strong>
+
+<strong><font> [Atomic Operations](atomicoperations.md)</font></strong>
+
 
 ---
 ### 2. Pointers

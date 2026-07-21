@@ -8,5 +8,7 @@
 
 <strong>[Python Reference/Notes](../programming/languages/python/index.md)</strong>
 
+<strong>[C Reference/Notes](../programming/languages/clang/index.md)</strong>
+
 
 
