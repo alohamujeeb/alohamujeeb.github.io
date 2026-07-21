@@ -176,6 +176,47 @@ Although dangling pointers can lead to serious bugs, they can usually be avoided
 
 By consistently following these practices, programmers can avoid dangling pointers and write safer, more reliable C programs.
 
+
+
+---
+
+## <font color='green'>Dangling Pointer vs. NULL Pointer</font>
+
+A **NULL pointer** and a **dangling pointer** are fundamentally different concepts, although they are often confused.
+
+A **NULL pointer** intentionally points to no valid memory location. It is safe to compare against `NULL` and assign to a pointer, but it must not be dereferenced.
+
+```c
+int *ptr = NULL;
+```
+
+A **dangling pointer**, on the other hand, points to a memory location that was once valid but is no longer valid. This commonly occurs after dynamically allocated memory has been released using `free()`.
+
+```c
+int *ptr = malloc(sizeof(int));
+
+free(ptr);      /* ptr is now a dangling pointer */
+```
+
+> A dangling pointer can be converted into a NULL pointer by explicitly assigning `NULL` after the memory has been freed.
+
+```c
+free(ptr);
+ptr = NULL;
+```
+
+The following table summarizes the differences.
+
+| NULL Pointer | Dangling Pointer |
+|--------------|------------------|
+| Points to no valid memory location. | Points to memory that is no longer valid. |
+| Intentionally initialized to `NULL`. | Typically created after `free()` or by returning the address of a local variable. |
+| Safe to compare with `NULL`. | Appears valid but references invalid memory. |
+| Must not be dereferenced. | Must not be dereferenced. |
+| Can be safely passed to `free()`. | Passing a dangling pointer to `free()` again results in undefined behavior. |
+
+Although neither type of pointer should ever be dereferenced, a NULL pointer is generally safer because it explicitly indicates that no valid object is being referenced. A dangling pointer, however, still contains an address, making it much easier to accidentally access invalid memory.
+
 ---
 
 ## <font color='green'>Summary</font>

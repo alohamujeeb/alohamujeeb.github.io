@@ -16,6 +16,9 @@ This section provides quick-reference modules covering a variety of C/C++ topics
 <strong><font> [Understanding malloc(), calloc(), realloc(), and free()](pointermalloc.md)</font></strong>
 
 
+<strong><font> [Understanding NULL Pointers in C](nullpointers.md)</font></strong>
+
+
 <strong><font> [Understanding Dangling Pointers in C](danglingpointers.md)</font></strong>
 
 ---
