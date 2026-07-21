@@ -38,6 +38,7 @@ This section provides quick-reference modules covering a variety of C/C++ topics
 
 <strong><font> [Fixed-Point Arithmetic in Embedded C](fixedpoint.md)</font></strong>
 
+<strong><font> [`volatile` key word in c](volatilekeyword.md)</font></strong>
 
 
 
