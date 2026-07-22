@@ -29,6 +29,8 @@ This section provides quick-reference modules covering a variety of C/C++ topics
 
 <strong><font> [Understanding Dangling Pointers in C](danglingpointers.md)</font></strong>
 
+<strong><font> [Shallow and Deep Copy in C](shallowdeepinc.md)</font></strong>
+
 ---
 ### 3. Memory Managment
 
