@@ -16,7 +16,7 @@ tags:
 ---
 ## <font color='green'>1. Why is Memory Alignment Needed?</font>
 
-Modern processors access memory more efficiently when data is stored at certain memory addresses. These addresses are called **aligned addresses**. <font color='red'> the actual reason lies in digital hardware design, which we do not go into details here </font>
+Modern processors access memory more efficiently when data is stored at certain memory addresses. These addresses are called aligned addresses. <font color='red'>The exact reason for this lies in the underlying digital hardware design of the processor, which is beyond the scope of this article.</font>
 
 For example, a processor may prefer that:
 
