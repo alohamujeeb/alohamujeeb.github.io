@@ -15,11 +15,11 @@ tags:
 ---
 ## <font color='green'>1. Why Bit Fields?</font>
 
-In the previous article, we learned how individual bits can be manipulated using bitwise operators and bit masks. By combining operators such as `&`, `|`, `^`, and `~` with carefully constructed masks, we can set, clear, toggle, and test selected bits without affecting the remaining bits.
+In the previous article on [bitwise operations](bitwiseoperations.md), we learned how individual bits can be manipulated using bitwise operators and bit masks. By combining operators such as `&`, `|`, `^`, and `~` with carefully constructed masks, we can set, clear, toggle, and test selected bits without affecting the remaining bits.
 
-While bit masks provide precise control over individual bits, they require the programmer to manually define and manipulate each bit position. As the number of bits and fields increases, the code can become more difficult to read and maintain.
+While bit masks provide precise control over individual bits, they require the programmer to manually define and manipulate each bit position. As the number of bits and fields increases, the code can become more difficult to read and maintain. The C language provides an alternative known as a **bit field**. 
 
-The C language provides an alternative known as a **bit field**. A bit field allows individual bits or groups of bits to be declared as named members of a structure. Instead of manipulating bit positions manually, each field can be accessed using its member name.
+>A bit field is simply a structure where each member is assigned a fixed number of bits instead of its normal data type size.
 
 Consider the following example.
 
@@ -66,7 +66,13 @@ if (status.busy)
 }
 ```
 
-Both examples perform exactly the same operations. However, the bit-field version accesses each bit using descriptive member names rather than symbolic bit masks. This often makes the code easier to read and understand, especially when structures contain many individual flags or small fields.
+Notice the conceptual difference between the two approaches:
+
+- **Bit masks** group multiple bits into a single integer variable. The programmer gives names to the bit positions by defining masks.
+- **Bit fields** group multiple bits into a structure. Each bit (or group of bits) becomes a named structure member that can be accessed like an ordinary variable.
+
+Although the underlying data still consists of individual bits, bit fields organize those bits into a structure, making the code easier to read and maintain.
+
 
 ---
 ## <font color='green'>2. Declaring Bit Fields</font>
@@ -117,9 +123,11 @@ status.mode  = 2;
 status.count = 5;
 ```
 
-Unlike ordinary structure members, a bit field does not necessarily occupy an entire byte or word. Instead, the compiler allocates only the specified number of bits for each field and packs multiple fields together into one or more storage units whenever possible.
+> Unlike ordinary structure members, a bit field does not necessarily occupy an entire byte or word. Instead, the compiler allocates only the specified number of bits for each field and packs multiple fields together into one or more storage units whenever possible.
 
-The underlying type of a bit field must be an integer type. Commonly used types include:
+> **The underlying type of a bit field must be an integer type.**
+
+Commonly used types include:
 
 - `unsigned`
 - `signed`
@@ -127,7 +135,6 @@ The underlying type of a bit field must be an integer type. Commonly used types 
 
 Although other integer types may be accepted by some compilers, their support is implementation-defined. Consequently, most programs use `unsigned` or `signed` bit fields for portability.
 
-Before using bit fields effectively, it is important to understand how the compiler arranges them in memory, since their layout is largely implementation-defined.
 
 ---
 ## <font color='green'>3. Memory Layout of Bit Fields</font>
@@ -169,7 +176,7 @@ One possible memory layout is illustrated below.
 
 Since the total width is 8 bits, a compiler may choose to pack all the fields into a single byte.
 
-However, the C standard does **not** specify exactly how bit fields are arranged in memory. The following characteristics are implementation-defined:
+However, the C standard does **not** specify exactly how bit fields are arranged in memory. The following characteristics are implementation-defined: <font color='red'> this is *[undefined behaviour(UD)](undefinedbehaviour.md)* in C</font>
 
 - The order in which bit fields are allocated.
 - Whether allocation begins with the least significant bit or the most significant bit.
@@ -224,6 +231,7 @@ For example, the following two statements perform equivalent operations.
 **Using a Bit Mask**
 
 ```c
+#define READY   (1U << 0)
 status |= READY;
 ```
 
@@ -238,6 +246,7 @@ Similarly,
 **Using a Bit Mask**
 
 ```c
+#define ERROR   (1U << 2)
 if (status & ERROR)
 {
     /* Handle error */
