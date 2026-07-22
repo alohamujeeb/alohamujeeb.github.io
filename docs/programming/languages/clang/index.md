@@ -15,6 +15,8 @@ This section provides quick-reference modules covering a variety of C/C++ topics
 
 <strong><font> [Atomic Operations](atomicoperations.md)</font></strong>
 
+<strong><font> [Memory Aignment & Padding in C](memoryalignment.md)</font></strong>
+
 
 ---
 ### 2. Pointers
