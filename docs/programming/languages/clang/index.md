@@ -42,6 +42,9 @@ This section provides quick-reference modules covering a variety of C/C++ topics
 
 <strong><font> [Pointer to Pointer: Use-cases](pointertopointer.md)</font></strong>
 
+<strong><font> [Generic Programming with `void *`](genericprogramming.md)</font></strong>
+
+
 ---
 ### 4. Memory Managment
 
