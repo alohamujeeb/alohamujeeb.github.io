@@ -67,6 +67,7 @@ This section provides quick-reference modules covering a variety of C/C++ topics
 
 <strong><font> [Memory Alignment & Padding in C](memoryalignment.md)</font></strong>
 
+<strong><font> [Memory Pool in C](memorypool.md)</font></strong>
 
 ---
 ### 5. Embedded C Techniques
