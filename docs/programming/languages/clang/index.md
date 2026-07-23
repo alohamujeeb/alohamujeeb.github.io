@@ -15,11 +15,12 @@ This section provides quick-reference modules covering a variety of C/C++ topics
 
 <strong><font> [Atomic Operations](atomicoperations.md)</font></strong>
 
-<strong><font> [Memory Aignment & Padding in C](memoryalignment.md)</font></strong>
+<strong><font> [Const Correctness in C](constantcorrectness.md)</font></strong>
 
 <strong><font> [Callback Design Patterns](callbackpatterns.md)</font></strong>
 
 <strong><font> [C API Design](capidesign.md)</font></strong>
+
 
 
 ---
@@ -28,7 +29,7 @@ This section provides quick-reference modules covering a variety of C/C++ topics
 <strong><font> [Built-in Sorting and Searching Algorithms in C: `qsort()` and `bsearch()`](qsortbsearch.md)</font></strong>
 
 ---
-### 3. Pointers
+### 3. Pointers and Arrays
 
 <strong><font> [Understanding malloc(), calloc(), realloc(), and free()](pointermalloc.md)</font></strong>
 
@@ -50,6 +51,8 @@ This section provides quick-reference modules covering a variety of C/C++ topics
 
 <strong><font> [Opaque Pointers in C](opaquepointers.md)</font></strong>
 
+<strong><font> [Flexible Array Members](flexiblearraymembers.md)</font></strong>
+
 
 ---
 ### 4. Memory Managment
@@ -61,6 +64,8 @@ This section provides quick-reference modules covering a variety of C/C++ topics
 <strong><font> [Memory Ownership in C: Who Is Responsible for Freeing Memory?](memoryownership.md)</font></strong>
 
 <strong><font> [Memory Fragmentation](memoryfragmentation.md)</font></strong>
+
+<strong><font> [Memory Alignment & Padding in C](memoryalignment.md)</font></strong>
 
 
 ---
