@@ -17,6 +17,10 @@ This section provides quick-reference modules covering a variety of C/C++ topics
 
 <strong><font> [Memory Aignment & Padding in C](memoryalignment.md)</font></strong>
 
+<strong><font> [Callback Design Patterns](callbackpatterns.md)</font></strong>
+
+<strong><font> [C API Design](capidesign.md)</font></strong>
+
 
 ---
 ### 2. Algorithms and Data Structures in C
@@ -40,7 +44,7 @@ This section provides quick-reference modules covering a variety of C/C++ topics
 
 <strong><font> [Function Pointers: The Foundation of Callback Functions](functionpointers.md)</font></strong>
 
-<strong><font> [Pointer to Pointer: Use-cases](pointertopointer.md)</font></strong>
+<strong><font> [Pointer to Pointer: Various Scenarios](pointertopointer.md)</font></strong>
 
 <strong><font> [Generic Programming with `void *`](genericprogramming.md)</font></strong>
 
