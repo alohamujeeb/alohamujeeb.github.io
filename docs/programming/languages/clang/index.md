@@ -86,5 +86,5 @@ This section provides quick-reference modules covering a variety of C/C++ topics
 
 <strong><font> [Circular Buffers](circularbuffersinc.md)</font></strong>
 
-
+<strong><font> [Finite State Machine](finitestatemachine.md)</font></strong>
 
