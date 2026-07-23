@@ -44,6 +44,8 @@ This section provides quick-reference modules covering a variety of C/C++ topics
 
 <strong><font> [Understanding Memory Leaks in C (Some Scenarios)](memoryleaks.md)</font></strong>
 
+<strong><font> [Memory Ownership in C: Who Is Responsible for Freeing Memory?](memoryownership.md)</font></strong>
+
 
 ---
 ### 4. Embedded C Techniques
