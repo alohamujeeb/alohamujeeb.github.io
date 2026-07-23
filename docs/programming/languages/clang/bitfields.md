@@ -137,7 +137,7 @@ Although other integer types may be accepted by some compilers, their support is
 
 
 ---
-## <font color='green'>3. Memory Layout of Bit Fields</font>
+## <font color='green'>3. Memory Layout of Bit Fields (An Undefined Behaviour)</font>
 
 Unlike ordinary structure members, bit fields are allocated in units of individual bits rather than bytes. The compiler attempts to pack multiple bit fields into the same storage unit whenever sufficient space is available.
 
@@ -176,7 +176,7 @@ One possible memory layout is illustrated below.
 
 Since the total width is 8 bits, a compiler may choose to pack all the fields into a single byte.
 
-However, the C standard does **not** specify exactly how bit fields are arranged in memory. The following characteristics are implementation-defined: <font color='red'> this is *[undefined behaviour(UD)](undefinedbehaviour.md)* in C</font>
+> However, the C standard does **not** specify exactly how bit fields are arranged in memory. The following characteristics are implementation-defined: <font color='red'> this is *[undefined behaviour(UD)](undefinedbehaviour.md)* in C</font>
 
 - The order in which bit fields are allocated.
 - Whether allocation begins with the least significant bit or the most significant bit.
@@ -271,11 +271,13 @@ Although bit fields provide a convenient way to represent compact data, they als
 
 ---
 
-### 5.1 Implementation-Defined Memory Layout
+### 5.1 Implementation-Defined Memory Layout 
 
 The C standard does not specify how bit fields are arranged within memory. Different compilers may allocate bit fields in different orders or insert padding between fields.
 
 As a result, the memory layout of a bit-field structure should not be assumed to be identical across different compilers or target architectures.
+
+> Memory layout of a bitfield is an [Undefined Bhaviour](undefinedbehaviour.md) in C
 
 ---
 
@@ -312,11 +314,16 @@ This restriction exists because a bit field may occupy only a portion of the com
 
 ### 5.4 Hardware Register Access
 
-Although bit fields may appear convenient for accessing hardware registers, they are generally avoided in portable embedded software.
+Bit fields should not be used when the exact layout of bits is fixed, such as in hardware registers or communication protocols.
 
-Hardware registers usually require an exact bit layout defined by the device manufacturer. Since the layout of bit fields is implementation-defined, different compilers may generate different memory representations or access sequences.
+Hardware registers have predefined bit positions specified by the device manufacturer. Since the layout of bit fields is implementation-defined, different compilers may arrange the fields differently or generate different access code. As a result, a bit-field declaration may not match the required hardware layout.
 
-For this reason, embedded software commonly uses bit masks together with bitwise operators to access hardware registers explicitly.
+For this reason, hardware registers are typically accessed using bit masks and bitwise operators, which allow the programmer to explicitly control the position of every bit.
+
+<font color='red'>Bit fields are more appropriate when the exact bit positions are not important.</font> For example, they can be used to store flags or small state values within a program, where the fields are accessed by their names rather than by their physical bit positions.**
+
+- **if Bit position matters:** (hardware registers, protocols, file formats) → Use bit masks.
+- **if Bit position doesn't matter:** (internal flags, state variables) → Bit fields are a good choice.
 
 ---
 

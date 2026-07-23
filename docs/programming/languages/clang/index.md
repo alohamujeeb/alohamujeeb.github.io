@@ -35,6 +35,8 @@ This section provides quick-reference modules covering a variety of C/C++ topics
 
 <strong><font> [Function Pointers: The Foundation of Callback Functions](functionpointers.md)</font></strong>
 
+<strong><font> [Pointer to Pointer: Use-cases](pointertopointer.md)</font></strong>
+
 ---
 ### 3. Memory Managment
 
@@ -52,11 +54,15 @@ This section provides quick-reference modules covering a variety of C/C++ topics
 
 <strong><font> [`volatile` key word in c](volatilekeyword.md)</font></strong>
 
+<strong><font> [`volatile` is NOT thread-safe](volatilenotthreadsafe.md)</font></strong>
+
 <strong><font> [Memory-Mapped I/O](memorymappedio.md)</font></strong>
 
 <strong><font> [Bit Manipulation in C: Low-Level and Hardware Programming](bitwiseoperations.md)</font></strong>
 
 <strong><font> [Bit Fields in C: Packing Data into Individual Bits](bitfields.md)</font></strong>
+
+<strong><font> [Bit Fields vs Bit Masks in C: When Position Matters](bitfields_vs_bitmasks.md)</font></strong>
 
 
 
