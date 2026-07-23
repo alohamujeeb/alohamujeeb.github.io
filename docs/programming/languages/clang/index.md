@@ -73,6 +73,7 @@ This section provides quick-reference modules covering a variety of C/C++ topics
 
 <strong><font> [Bit Fields vs Bit Masks in C: When Position Matters](bitfields_vs_bitmasks.md)</font></strong>
 
+<strong><font> [Endianness in C: Understanding Big-Endian and Little-Endian](endiansinc.md)</font></strong>
 
 
 
