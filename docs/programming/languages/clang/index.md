@@ -19,7 +19,12 @@ This section provides quick-reference modules covering a variety of C/C++ topics
 
 
 ---
-### 2. Pointers
+### 2. Algorithms and Data Structures in C
+
+<strong><font> [Built-in Sorting and Searching Libraries in C: `qsort()` and `bsearch()`](qsortbsearch.md)</font></strong>
+
+---
+### 3. Pointers
 
 <strong><font> [Understanding malloc(), calloc(), realloc(), and free()](pointermalloc.md)</font></strong>
 
@@ -38,7 +43,7 @@ This section provides quick-reference modules covering a variety of C/C++ topics
 <strong><font> [Pointer to Pointer: Use-cases](pointertopointer.md)</font></strong>
 
 ---
-### 3. Memory Managment
+### 4. Memory Managment
 
 <strong><font> [Memory Types in C: Stack, Heap, and Global Memory](stackheap.md)</font></strong>
 
@@ -50,7 +55,7 @@ This section provides quick-reference modules covering a variety of C/C++ topics
 
 
 ---
-### 4. Embedded C Techniques
+### 5. Embedded C Techniques
 
 <strong><font> [Understanding Lookup Tables (LUTs) in C](lut.md)</font></strong>
 
