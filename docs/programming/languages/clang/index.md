@@ -21,7 +21,7 @@ This section provides quick-reference modules covering a variety of C/C++ topics
 ---
 ### 2. Algorithms and Data Structures in C
 
-<strong><font> [Built-in Sorting and Searching Libraries in C: `qsort()` and `bsearch()`](qsortbsearch.md)</font></strong>
+<strong><font> [Built-in Sorting and Searching Algorithms in C: `qsort()` and `bsearch()`](qsortbsearch.md)</font></strong>
 
 ---
 ### 3. Pointers

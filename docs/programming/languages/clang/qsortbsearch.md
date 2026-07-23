@@ -7,7 +7,7 @@ tags:
   - bsearch in C
   
 ---
-# Built-in Sorting and Searching Libraries in C: `qsort()` and `bsearch()`
+# Built-in Sorting and Searching Algorithms in C: `qsort()` and `bsearch()`
 
 *This article is intended for intermediate and advanced C programmers. It introduces the standard sorting and searching facilities provided by the C Standard Library, explains why generic callback functions are required, and demonstrates how to use `qsort()` and `bsearch()` to sort and search arrays of arbitrary data types.*
 
