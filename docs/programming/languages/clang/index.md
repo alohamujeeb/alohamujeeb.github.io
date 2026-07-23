@@ -75,5 +75,7 @@ This section provides quick-reference modules covering a variety of C/C++ topics
 
 <strong><font> [Endianness in C: Understanding Big-Endian and Little-Endian](endiansinc.md)</font></strong>
 
+<strong><font> [Circular Buffers](circularbuffersinc.md)</font></strong>
+
 
 
