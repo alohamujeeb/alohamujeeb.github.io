@@ -44,6 +44,8 @@ This section provides quick-reference modules covering a variety of C/C++ topics
 
 <strong><font> [Generic Programming with `void *`](genericprogramming.md)</font></strong>
 
+<strong><font> [Opaque Pointers in C](opaquepointers.md)</font></strong>
+
 
 ---
 ### 4. Memory Managment
