@@ -2,32 +2,13 @@
 tags:
     - Robotics
     - ROS2
-
----
-### [Modems and Routers](modems/index.md)
-
-Quectel RM530N-GL
-
----
-### [Embedded Platforms](platforms/index.md)
-
-Raspberry Pi
-
-Yahboom Cars and AMRs
-
 ---
 
-### [ROS/ROS2 Material](ros/index.md)
+# <font color='green'> Robots and Connectivity </font>
 
-**Pub/Sub Model**
-
-**ROS2 Core Concepts**, ROS2 CLI and Python Programming
-
-**Common ROS Tools:** such as Gazebo, RVIZ
-
-**Advanced tools:** such as OpenRMF
-
-
-
-
+|<font color='red'>List of Topics in this section (categorized)</font> |  |
+| --- | --- |
+| [<font color='green' size=+1>Modems and Routers</font>](modems/index.md)<br><br>Quectel RM530N-GL | [<font color='green' size=+1>Embedded Platforms</font>](platforms/index.md)<br><br>Raspberry Pi<br><br>Yahboom Cars and AMRs |
+| [<font color='green' size=+1>ROS/ROS2 Material</font>](ros/index.md)<br><br>**Pub/Sub Model**<br><br>**ROS2 Core Concepts**, ROS2 CLI and Python Programming<br><br>**Common ROS Tools:** such as Gazebo, RVIZ<br><br>**Advanced tools:** such as OpenRMF | [<font color='green' size=+1>Mapping</font>](./mapping/index.md) |
+| [<font color='green' size=+1>Localization</font>](./localization/index.md) | [<font color='green' size=+1>Navigation</font>](./navigation/index.md) |
 
