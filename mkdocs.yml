@@ -206,7 +206,12 @@ nav:
       - OpenRMF: drobots/openrmf/index.md
       - RVIZ: drobots/rviz/index.md
       - Gazebo: drobots/gazebo/index.md
-      
+    - <font color='green'><h3>Mapping</h3></font>:
+      - Platforms: drobots/mapping/index.md 
+    - <font color='green'><h3>Localization</h3></font>:
+      - Platforms: drobots/localization/index.md    
+    - <font color='green'><h3>Navigation</h3></font>:
+      - Platforms: drobots/navigation/index.md          
 
   - Blogs:
     - blog/index.md
