@@ -1,16 +1,21 @@
 
-# Important Topics on This Site
+# <font color='green'>Important Topics on This Site</font>
+
+Explore following categories:
+
+**Programming Notes:** C, Python
+
+**Media/Video:** Streaming, Encoding/Decoding, Quality Assessment
 
 ---
-### **Programming Notes**
+### <font color='green'>**Programming Notes**</font>
 
 | Topic | Description |
 |-------|-------------|
 | **[Python Reference/Notes](../programming/languages/python/index.md)** | Python reference and programming notes. |
 | **[C Reference/Notes](../programming/languages/clang/index.md)** | Advanced topics in the C programming language, including intermediate and advanced concepts. |
 
----
-### **Media/Video**
+### <font color='green'>**Media/Video**</font>
 
 | Topic | Description |
 |-------|-------------|
