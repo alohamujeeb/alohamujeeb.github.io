@@ -1,4 +1,7 @@
 ---
+hide:
+  - navigation
+  
 tags:
   - RVIZ installation  
   - RVIZ2 installation  
@@ -6,7 +9,7 @@ tags:
 ---
 # RViz2 Installation
 
-## 1. RViz2 as part of ROS2 package
+## <font color='green'>1. RViz2 as part of ROS2 package</font>
 
 - RViz2 is distributed as part of ROS 2 and is not released as a standalone software package.
 - It is **installed automatically with the ROS2 Desktop installation**.
@@ -16,7 +19,7 @@ tags:
 
 
 ---
-## 2. Separate Installation
+## <font color='green'>2. Separate Installation</font>
 
 - If required, RViz2 can be installed separately using the package:
 
@@ -34,4 +37,10 @@ sudo apt install ros-foxy-rviz2
 ```
 
 
+---
+## **Relevant Links**
+
+[**RVIZ Main Page**](index.md)
+
+[**Ros2 Installation**](../ros/ros2/ros2-install.md)
 

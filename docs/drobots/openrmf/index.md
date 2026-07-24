@@ -4,26 +4,15 @@ tags:
     - openrmf
 ---
 
-# OpenRMF Material
----
-
-## 1. Introduction
-
-The Open Robotics Middleware Framework (Open-RMF) is a free, open-source software system that helps different robots and building systems work together smoothly.
-
-It allows robots from different brands to share spaces and coordinate tasks, while also connecting with things like doors and lifts.
-
-Open-RMF isn’t limited to robots—it’s designed to coordinate a wide range of systems, including robots and IoT devices, within a shared environment.
-
-Although the name includes **robot** because it is built on Robot Operating System (ROS), its main role is to act as a unifying platform for managing diverse smart infrastructure.
-
-## 2. Misc OpenRMF topics
-
-### [Open-RMF Installation](openrmf-installation.md)
-### [Open-RMF Concepts](openrmf-concepts.md)
+# <font color='green'>OpenRMF Material</font>
 
 ---
-## 3. Some external links
+#### [1. What is OpenRMF](intro.md)
+#### [2. OpenRMF Installation](installation.md)
+#### [3. Open-RMF Concepts](openrmf-concepts.md)
+
+---
+#### **Usefule links**
 
 [Open-RMF Website](https://www.open-rmf.org/)
 

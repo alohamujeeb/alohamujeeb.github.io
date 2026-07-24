@@ -455,6 +455,6 @@ While every effort has been made to ensure accuracy, the findings reflect the ev
 
 [My OpenRMF Material](../drobots/openrmf/index.md)
 
-[My Personal Installation Notes](../drobots/openrmf/openrmf-installation.md)
+[My Personal Installation Notes](../drobots/openrmf/installation.md)
 
 

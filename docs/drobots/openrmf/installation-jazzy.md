@@ -1,24 +1,32 @@
 ---
+hide:
+  - navigation
+  
 tags:
   - OpenRMF Installation (Jazzy)
+
 ---
-# OpenRMF Installation (Ubuntu 24.04 and ROS2 Jazzy)
+# <font color='green'>OpenRMF Installation (Ubuntu 24.04 and ROS2 Jazzy)</font>
 This document provides step-by-step instructions for installing OpenRMF on a system running Ubuntu 24.04 with ROS 2 Jazzy.
 
 ---
-## Step 1: Install ROS2 Jazzy
+### Step 1: Install ROS2 Jazzy
 
 - OpenRMF is built on top of ROS 2, so ROS 2 must be installed first.
-- The required ROS 2 distribution depends on the Ubuntu version you are using (in this case Jazzy, which is for Ubuntu 24.04)
+- The required ROS 2 distrib---
+## **Relevant Links**
+
+[**OpenRMF Main Page**](index.md)ution depends on the Ubuntu version you are using (in this case Jazzy, which is for Ubuntu 24.04)
 - Follow the instructioners in the ([ROS2 installation guide](../ros/ros2/ros2-install.md)) 
 - Make sure that you add the source commands to your ```.bashrc``` file so they are automatically applied in every new terminal session. Also verify that the **talker and listener** test programs run without any issues.
+
 ---
-## Step 2: Install prerequisite software for OpenRMF
+### Step 2: Install prerequisite software for OpenRMF
 - This section covers installation using Debian/Ubuntu binary packages.
 - OpenRMF can also be installed from source, but source installation is not covered in this document.
 
 ---
-### Step 2a): Enable system python
+#### Step 2a): Enable system python
 
 - OpenRMF may not install correctly when using isolated Python environments such as Conda. It is recommended to use the **system Python (python3)** instead.
 - If Conda is enabled, deactivate it before proceeding:
@@ -28,7 +36,7 @@ conda deactivate
 ```
 
 ---
-### Step 2b) Install ROS2 development tools
+#### Step 2b) Install ROS2 development tools
 
 - Install the required ROS 2 development utilities using apt:
 
@@ -37,7 +45,7 @@ sudo apt update && sudo apt install ros-dev-tools -y
 ```
 
 ---
-### Step 2c) Install Gazebo Harmonic
+#### Step 2c) Install Gazebo Harmonic
 
 - Gazebo is a 3D simulation tool that can be used with OpenRMF. On Ubuntu 24.04, the supported version is Gazebo Harmonic, which can be installed as follows.
 
@@ -64,7 +72,7 @@ sudo apt-get install gz-harmonic
 
 
 ---
-### Step 2d) Install  non-ROS dependencies of Open-RMF packages
+#### Step 2d) Install  non-ROS dependencies of Open-RMF packages
 
 - In addition to Gazebo, Open-RMF requires several non-ROS dependencies.
 
@@ -85,9 +93,9 @@ sudo apt install -y \
 
 
 ---
-## Step 3: Install build tools
+### Step 3: Install build tools
 
-### Step 3a): Setup ```rosdep```
+#### Step 3a): Setup ```rosdep```
 
 - rosdep is used to install system dependencies for ROS packages across different distributions. It is typically installed with ros-dev-tools, but must be initialized and updated before use.
 
@@ -97,7 +105,7 @@ sudo rosdep init # run if first time using rosdep.
 rosdep update
 ```
 
-### Step 3b): Setup ```colcon``` mixin
+#### Step 3b): Setup ```colcon``` mixin
 
 - colcon is the ROS 2 build tool used for managing and building workspaces, similar in concept to make.
 
@@ -110,7 +118,7 @@ colcon mixin update default
 
 
 ---
-## Step 4: Install **Core OpenRMF**
+### Step 4: Install **Core OpenRMF**
 
 - Install the core OpenRMF packages for ROS 2 Jazzy using apt:
 
@@ -120,7 +128,7 @@ sudo apt install -y ros-jazzy-rmf-dev
 ```
 
 ---
-## Step 5: Build rmf_demos from source
+### Step 5: Build rmf_demos from source
 
 - Next, build and install rmf_demos from source.
 - To run demos and additional tooling, clone the required RMF repositories as shown below.
@@ -151,7 +159,7 @@ colcon build
 ```
 
 ---
-## Step 6: Source the system
+### Step 6: Source the system
 - Source ROS 2 and OpenRMF in your ```.bashrc``` file so they are automatically loaded in every new terminal:
 
 ```bash
@@ -161,7 +169,7 @@ source ~/rmf_ws/install/setup.bash
 
 
 ---
-## Step 7: Verify installation
+### Step 7: Verify installation
 
 
 
@@ -176,11 +184,14 @@ source ~/rmf_ws/install/setup.bash
 
 
 ---
-## External Links
+## **Relevant Links**
 
-[OpenRMF Installaion with Jazzy- external link ](https://faizanmsiddiqui.com/articles/open-rmf-on-ubuntu-2404-with-ros-2-jazzy-jalisco/)
+[**OpenRMF Main Page**](index.md)
 
-[OpenRMF Installaion with Kilted- external link ](https://faizanmsiddiqui.com/articles/open-rmf-on-ubuntu-2404-with-ros-2-kilted-kaiju/)
+
+[OpenRMF Installaion with Jazzy- external link ](https://faizanmsiddiqui.com/posts/setup-open-rmf-on-ubuntu-2404-with-ros-2-jazzy-jalisco/)
+
+[OpenRMF Installaion with Kilted- external link ](https://faizanmsiddiqui.com/posts/setup-open-rmf-on-ubuntu-2404-with-ros-2-kilted-kaiju/)
 
 
 

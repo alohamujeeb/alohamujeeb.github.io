@@ -1,39 +1,42 @@
 ---
+hide:
+  - navigation
+
 tags:
   - Gazebo installation  
   
 ---
-# Gazebo Installation
+# <font color='green'>Gazebo Installation</font>
 This section contains:
 
-```
+
 1. Gazebo Jetty Instllation on Ubuntu 24.04
 2. Gazebo Harmonic Instllation on Ubuntu 24.04
 3. Gazebo Server Instllation on Ubuntu 24.04
-```
-
 
 ---
-## <font color='amber'>**1. Gazebo Jetty Installation**</font>
-
----
-### 1.1. Ubuntu and ROS2 platforms
+## <font color='green'>1. Ubuntu and ROS2 platforms</font>
 
 - Gazebo Jetty requires Ubuntu 24.04 and ROS2 Jazzy.
 - Ensure that both the Ubuntu and ROS 2 versions match the configuration specified above.
 - If your Ubuntu version and ROS2 versions are different, figure out the compatible Gazebo version first.
 
----
-### 1.2 Installing from binaries
 
-####  1.2.1 Install some necessary tools
+---
+## <font color='green'>**2. Gazebo Jetty Installation**</font>
+- Installing Gazebo from binaries on Ubuntu is quite straightforward. Follow the steps below.
+
+---
+**Installing from binaries**
+
+### 2.1 Install some necessary tools
 
 ```bash
 sudo apt-get update
 sudo apt-get install curl lsb-release gnupg
 ```
 
-####  1.2.2 Install Gazebo Jetty binaries
+### 2.2 Install Gazebo Jetty binaries
 
 Then install:
 ```bash
@@ -45,14 +48,14 @@ sudo apt-get update
 sudo apt-get install gz-jetty
 ```
 
-### 1.3 To uninstall 
+### 2.3 To uninstall 
 If needed, Gazebo Jetty can be uninstalled as follows:
 
 ```bash
 sudo apt remove gz-jetty && sudo apt autoremove
 ```
 
-### 1.4 Verify installation
+### 2.4 Verify installation
 
 ```
 gz sim --versions
@@ -60,29 +63,29 @@ gz sim --versions
 
 
 ---
-## <font color='amber'>**2. Gazebo Harmoic Installation**</font>
+## <font color='green'>**3. Gazebo Harmoic Installation**</font>
 - Installing Gazebo from binaries on Ubuntu is quite straightforward. Follow the steps below.
 
 
 ---
-### 2.1. Ubuntu and ROS2 platforms
+### 3.1. Ubuntu and ROS2 platforms
 
 - Gazebo Harmonic requires Ubuntu 24.04 and ROS2 Jazzy.
 - Ensure that both the Ubuntu and ROS 2 versions match the configuration specified above.
 - If your Ubuntu version and ROS2 versions are different, figure out the compatible Gazebo version first.
 
 ---
-### 2.2 Installing from binaries
+### 3.2 Installing from binaries
 - Installing Gazebo from binaries on Ubuntu is quite straightforward. Follow the steps below.
 
-####  2.2.1 Install some necessary tools
+####  3.2.1 Install some necessary tools
 
 ```bash
 sudo apt-get update
 sudo apt-get install curl lsb-release gnupg
 ```
 
-#### 2.2.2 Install Gazebo Harmonic binaries
+#### 3.2.2 Install Gazebo Harmonic binaries
 
 ```bash
 sudo curl https://packages.osrfoundation.org/gazebo.gpg --output /usr/share/keyrings/pkgs-osrf-archive-keyring.gpg
@@ -93,23 +96,23 @@ sudo apt-get update
 sudo apt-get install gz-harmonic
 ```
 
-### 2.3 To uninstall 
+### 3.3 To uninstall 
 If needed, Gazebo harmonics can be uninstalled as follows:
 
 ```bash
 sudo apt remove gz-harmonic && sudo apt autoremove
 ```
 
-### 2.4 Verify installation
+### 3.4 Verify installation
 
 ```
 gz sim --versions
 ```
 
-### 2.5 Verify installation
+### 3.5 Verify installation
 
 ---
-## <font color='amber'>**3. Server-only installation**</font>
+## <font color='green'>**4. Server-only installation**</font>
 
 - Gazebo has TWO parts: 
 
@@ -144,14 +147,19 @@ sudo apt-get install gz-sim10-server
 
 
 ---
-## Reference(s)
+## **Relevant Links**
 
-### Gazebo Jetty
+[**Gazebo Main Page**](index.md)
+
+**Gazebo Jetty**
+
 [Gazebo Jetty Instllation- Official Site](https://gazebosim.org/docs/jetty/install/)
 
 [Gazebo Jetty Binary Installation on Ubuntu/Debian](https://gazebosim.org/docs/latest/install_ubuntu/)
 
-### Gazebo Harmonic
+
+**Gazebo Harmonics**
+
 [Gazebo Harmonic Installation- Official Site](https://gazebosim.org/docs/harmonic/install/)
 
 [Gazebo Harmonic Binary Installation on Ubuntu/Debian](https://gazebosim.org/docs/harmonic/install_ubuntu/)

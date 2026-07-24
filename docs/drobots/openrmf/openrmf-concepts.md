@@ -1,9 +1,12 @@
 ---
+hide:
+  - navigation
+  
 tags:
   - OpenRMF concepts
 
 ---
-# OpenRMF Concepts
+# <font color='green'>OpenRMF Concepts</font>
 (Under Construction)
 
 
@@ -41,8 +44,10 @@ tags:
 - Defines movement priorities and constraints in environments
 -->
 
----
-### Reference(s)
 
-[ROS Concepts](../ros/ros2/ros2-concepts.md)
+
+---
+## **Relevant Links**
+
+[**OpenRMF Main Page**](index.md)
 

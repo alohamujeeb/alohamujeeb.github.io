@@ -212,15 +212,11 @@ nav:
         - ROS2 in Python: drobots/ros/ros2/ros2-python.md
       - <h4>OpenRMF</h4>: 
         - OpenRMF: drobots/openrmf/index.md
-        - OpenRMF Installation: drobots/openrmf/openrmf-installation.md
-        - Jazzy Installation: drobots/openrmf/openrmf-installation-jazzy.md
-        - OpenRMF Concepts: drobots/openrmf/openrmf-concepts.md
-      - <h4>RVIZ</h4>:
-        - RVIZ: drobots/rviz/index.md
-        - RVIZ Installation: drobots/rviz/rviz_installation.md
-      - <h4>Gazebo</h4>:
-        - Gazebo: drobots/gazebo/index.md
-        - Gazebo Installation: drobots/gazebo/gazebo_installation.md
+    - <font color='green'><h3> Robotc Tools</h3></font>:
+      - Robotic Tools: drobots/robotictools/index.md
+      - RVIZ: drobots/rviz/index.md
+      - Gazebo: drobots/gazebo/index.md
+      
 
   - Blogs:
     - blog/index.md
