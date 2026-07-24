@@ -1,38 +1,32 @@
 ---
 tags:
     - Robotics
----
-
-# Robotics and Connectivity
-
-This section contains information about:
-```text
-ROS 
-Modems & Routers
-Embedded Platforms (such as RPi-5)
-OpenRMF
-Gazebo, RVIZ
-```
-
-
----
-### [ROS/ROS2 Material](ros/index.md)
-#### Pub/Sub Model
-#### ROS Concepts
-#### ROS CLI and Python Programming
-#### Gazebo, RVIZ
+    - ROS2
 
 ---
 ### [Modems and Routers](modems/index.md)
-#### Quectel RM530N-GL
+
+Quectel RM530N-GL
 
 ---
 ### [Embedded Platforms](platforms/index.md)
-#### Raspberry Pi
-#### Yahboom Cars and AMRs
+
+Raspberry Pi
+
+Yahboom Cars and AMRs
 
 ---
-### [Open RMF (robotic middleware framework)](openrmf/index.md)
+
+### [ROS/ROS2 Material](ros/index.md)
+
+**Pub/Sub Model**
+
+**ROS2 Core Concepts**, ROS2 CLI and Python Programming
+
+**Common ROS Tools:** such as Gazebo, RVIZ
+
+**Advanced tools:** such as OpenRMF
+
 
 
 

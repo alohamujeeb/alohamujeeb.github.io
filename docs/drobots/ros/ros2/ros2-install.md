@@ -1,13 +1,16 @@
 ---
+hide:
+  - navigation
+  
 tags:
   - ROS2 Installation
   - ROS2 Releases
 ---
 
-# ROS2 Installation
+# <font color='green'>ROS2 Installation</font>
 
 ---
-## 1. ROS2 releases
+## <font color='green'>1. ROS2 Releases</font>
 
 - ROS 2 is primarily developed and officially supported on Ubuntu/Debian-based systems.
 - Although it can also run on other Linux distributions such as Fedora, Arch Linux, and Gentoo by building from source,
@@ -28,16 +31,24 @@ tags:
 
 
 ---
-## 2. ROS 2 Installation Guides
+## <font color='green'>2. ROS 2 Installation Guides</font>
 
-- ROS 2 installation is well documented and officially available online.
-- Use the following links based on your selected ROS 2 distribution.
+ROS 2 installation is well documented and officially available online.
 
-#### [ROS 2 Jazzy Official Installation Guide](https://docs.ros.org/en/jazzy/Installation.html)
+Use the following links based on your selected ROS 2 distribution.
 
-#### [ROS 2 Humble Official Installation Guide](https://docs.ros.org/en/humble/Installation.html)
+[ROS 2 Jazzy Official Installation Guide](https://docs.ros.org/en/jazzy/Installation.html)
 
-#### [ROS 2 Foxy Official Installation Guide](https://docs.ros.org/en/foxy/Installation.html)
+[ROS 2 Humble Official Installation Guide](https://docs.ros.org/en/humble/Installation.html)
+
+[ROS 2 Foxy Official Installation Guide](https://docs.ros.org/en/foxy/Installation.html)
+
+
+---
+## **Useful Links**
+
+**[ROS2 Notes Main Page](./index.md)**
+
 
 
 

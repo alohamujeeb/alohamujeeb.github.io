@@ -1,9 +1,12 @@
 ---
+hide:
+  - navigation
+
 tags:
   - ROS2 CLI
 ---
 
-# ROS 2 Command Line Interface (CLI)
+# <font color='green'>ROS 2 Command Line Interface (CLI)</font>
 
 - This document is a short reference of CLI features of the `ros2` command.
 - I use this page as a high-level cheat sheet for quick lookup.
@@ -12,7 +15,7 @@ tags:
 
 ---
 
-## 1. Package & workspace basics
+## <font color='green'>1. Package & workspace basics</font>
 
 | Action | Command |
 |---|---|
@@ -24,7 +27,7 @@ tags:
 
 ---
 
-## 2. System control
+## <font color='green'>2. System control</font>
 
 | Action | Command |
 |---|---|
@@ -38,7 +41,7 @@ tags:
 
 ---
 
-## 3. Runtime inspection & quick testing
+## <font color='green'>3. Runtime inspection & quick testing</font>
 
 | Action | Command |
 |---|---|
@@ -57,7 +60,7 @@ tags:
 
 
 ---
-## 4. std_msgs/msg Types
+## <font color='green'>4. std_msgs/msg Types</font>
 
 | Message | Field | Example |
 |---|---|---|
@@ -74,7 +77,6 @@ tags:
 
 
 ---
-## 5. References
+## **Useful Links**
 
-- [Publisher/Subscriber Model](../pubsub-model.md)
-- [ROS Concepts](./ros2-concepts.md)
+**[ROS2 Notes Main Page](./index.md)**

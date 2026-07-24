@@ -1,4 +1,7 @@
 ---
+hide:
+  - navigation
+  
 search:
   exclude: true
 
@@ -62,8 +65,6 @@ Separation between visual rendering of the environment and the underlying physic
 -->
 
 ---
-### Reference(s)
+## **Useful Links**
 
-[ROS Concepts](./ros2-concepts.md)
-
-[RVIZ Concepts](./rviz-concepts.md)
+**[Gazebo Main Page](./index.md)**

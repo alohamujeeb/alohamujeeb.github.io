@@ -1,10 +1,13 @@
 ---
+hide:
+  - navigation
+
 tags:
   - publisher
   - subscriber
 ---
 
-# Publisher-Subscriber (P/S) model
+# <font color='green'>Publisher-Subscriber (P/S) model</font>
 ROS (Robot Operating System) is fully dependent on the subscriber/publisher (P/S) model for its communication framework. 
 
 This section is about fundamental concepts of P/S model.
@@ -235,9 +238,11 @@ graph LR
 
 
 ---
-### Reference(s)
-#### [What is ROS and other topics](./index.md)
-#### [ROS Concepts](./ros2/ros2-concepts.md)
+## **Useful Links**
+
+**[ROS Main Page](./index.md)**
+
+
 
 
 

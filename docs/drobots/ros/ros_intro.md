@@ -1,9 +1,12 @@
 ---
+hide:
+  - navigation
+
 tags:
     - ros
 ---
 
-# Robot Operating System (ROS)
+# <font color='green'>Robot Operating System (ROS)</font>
 
 ---
 ## 1. What is ROS
@@ -109,17 +112,13 @@ S --> C["Control Station (ROS nodes)"]
 
 
 
----
-## 4. Explore more topics below
 
 ---
-#### [Publisher/Subscriber Model](pubsub-model.md)
+## **Useful Links**
 
-#### [ROS2 Material](ros2/index.md)
+**[ROS2 Notes Main Page](./ros2/index.md)**
 
-#### [OpenRMF](../openrmf/index.md)
 
-#### [Gazebo](../gazebo/index.md)
 
 
 

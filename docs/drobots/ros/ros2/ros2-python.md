@@ -1,4 +1,7 @@
 ---
+hide:
+  - navigation
+  
 tags:
   - ROS2 in Python
 
@@ -9,9 +12,7 @@ tags:
 
 
 ---
-## Some references
+## **Useful Links**
 
-[Publisher/Subscriber Model](../pubsub-model.md)
-
-[ROS Concepts](./ros2-concepts.md)
+**[ROS2 Notes Main Page](./index.md)**
 

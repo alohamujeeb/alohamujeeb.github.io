@@ -1,19 +1,18 @@
 ---
+ 
 tags:
     - ros
     - ros2
 ---
 
-# Robot Operating System (ROS)
-This section contains information about ROS and related topics.
+# <font color='green'>Robot Operating System (ROS)</font>
+
+### Explore ROS2 core concepts, fundamental and advanced tools
 
 ---
-## Explore various topics below
+#### [ROS2 Core](./ros2/index.md)
 
----
-#### [ROS2 Notes](./ros2/index.md)
-
-#### [OpenRMF](pubsub-model.md)
+#### [OpenRMF](../openrmf/index.md)
 
 #### [RViz](../rviz/index.md)
 

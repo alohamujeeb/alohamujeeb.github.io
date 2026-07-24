@@ -1,15 +1,19 @@
 ---
+hide:
+  - navigation
+  
+  
 tags:
   - ros concepts
   - DDS
   - Data Distribution Service
 
 ---
-# Important ROS Concepts
-(under construction)
+# <font color='green'>Important ROS Concepts</font>
+(WIP)
 
 ---
-## 1. DDS (Data Distribution Service)
+## <font color='green'>1. DDS (Data Distribution Service)</font>
 - DDS is the communication system used under ROS 2 to let robots exchange data.
 - We can think of DDS like a **post office for robots**:
 
@@ -44,7 +48,7 @@ Publisher  ─────────▶ Subscriber
 ```
 
 --- 
-## 2. DDS variants
+## <font color='green'>2. DDS variants</font>
 - We can think of ROS2 communication like messaging apps, where all robots need to “chat” with each other.
 - ROS2 gives them different “chat systems” to do it.
 - Lets consider that **DDS is a kind of WhatsApp**
@@ -63,7 +67,7 @@ Publisher  ─────────▶ Subscriber
 ```
 
 ---
-## 3. Different ways to run ROS2 python programs
+## <font color='green'>3. Different ways to run ROS2 python programs</font>
 There are several ways to run Python-based ROS 2 applications, depending on the size and complexity of the project.
 
 ### Method 1: Run a script directly
@@ -191,11 +195,14 @@ micro-ROS: micro-ROS Agent
 
 -->
 
---- 
-## References
+---
+## **Useful Links**
 
-#### [Publisher/Subscriber Model](../pubsub-model.md)
-#### [What is ROS- A Brief Introduction](../index.md)
+**[ROS2 Notes Main Page](./index.md)**
+
+
+
+
 
 
 

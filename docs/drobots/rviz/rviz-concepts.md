@@ -1,4 +1,7 @@
 ---
+hide:
+  - navigation
+  
 search:
   exclude: true
 
@@ -53,8 +56,6 @@ Saved layouts of displays, views, and settings for reusable RViz setups.
 -->
 
 ---
-### Reference(s)
+## **Useful Links**
 
-[ROS Concepts](./ros2-concepts.md)
-
-[Gazebo Concepts](./gazebo-concepts.md)
+**[RVIZ Main Page](./index.md)**

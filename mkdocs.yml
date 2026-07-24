@@ -200,20 +200,10 @@ nav:
       - Raspberry-Pi 5: drobots/platforms/pi5/index.md
       - <h4>Yahboom MicroROS-Pi5</h4>:
         - drobots/platforms/yahboom-pi5/index.md
-    - <font color='green'><h3> ROS/ROS2 </h3></font>:
+    - <font color='green'><h3> ROS/ROS2</h3></font>:
       - ROS: drobots/ros/index.md
-      - <h4>ROS2 Material</h4>:
-        - ROS2: drobots/ros/ros2/index.md
-        - ROS Introduction: drobots/ros/ros_intro.md
-        - pub/sub model: drobots/ros/pubsub-model.md
-        - ROS2 Concepts: drobots/ros/ros2/ros2-concepts.md
-        - ROS2 Installation: drobots/ros/ros2/ros2-install.md
-        - ROS2 CLI: drobots/ros/ros2/ros2-cli.md
-        - ROS2 in Python: drobots/ros/ros2/ros2-python.md
-      - <h4>OpenRMF</h4>: 
-        - OpenRMF: drobots/openrmf/index.md
-    - <font color='green'><h3> Robotc Tools</h3></font>:
-      - Robotic Tools: drobots/robotictools/index.md
+      - ROS2 Core: drobots/ros/ros2/index.md
+      - OpenRMF: drobots/openrmf/index.md
       - RVIZ: drobots/rviz/index.md
       - Gazebo: drobots/gazebo/index.md
       
