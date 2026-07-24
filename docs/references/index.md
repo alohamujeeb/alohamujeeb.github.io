@@ -7,22 +7,17 @@ tags:
     - Web Development
 ---
 
-# Notes and References
-
-This section contains reference material, quick tutorials, notes, and practical guides covering software development, system administration, networking, and related technologies.
-
-The content is intended as a personal knowledge base and technical reference, focusing on practical usage, common workflows, and implementation details.
+# <font color='green'>Notes and References</font>
 
 ---
-
 ### <font color='green'>1. Software and Programming</font>
 
 Programming languages, software engineering concepts, development tools, testing, automation, and coding practices.
 
 [Software and Programming](../programming/index.md)
 
----
 
+---
 ### <font color='green'>2. Web Development</font>
 
 Backend development, APIs, web frameworks, frontend technologies, databases, and web application architecture.
