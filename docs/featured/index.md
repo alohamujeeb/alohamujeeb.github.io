@@ -1,4 +1,9 @@
-
+---
+hide:
+  - navigation
+  - toc
+  
+---
 # <font color='green'>Quick Index of Important Topics</font>
 
 
@@ -9,3 +14,5 @@
 
 
 
+---
+####[Back to Home Page](../index.md)
