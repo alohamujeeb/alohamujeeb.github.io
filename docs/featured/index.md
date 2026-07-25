@@ -2,7 +2,8 @@
 hide:
   - navigation
   - toc
-  
+  - path
+  - tags
 ---
 # <font color='green'>Quick Index of Important Topics</font>
 
