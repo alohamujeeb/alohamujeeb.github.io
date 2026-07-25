@@ -1,11 +1,15 @@
 ---
+hide:
+  - navigation
+  
+  
 tags:
   - RM530N-GL
   - at commands
 ---
 Under Construction
 
-# Quectel AT Command Reference
+# <font color='green'>Quectel AT Command Reference </font>
 AT commands are the universal language to interact with and control cellular modems (provided by the modem vendors like quectel).
 
 This online doc consolidates and organizes the AT commands used with **Quectel modems**.
@@ -42,9 +46,10 @@ Applicable to following Quectel models:
 
 
 ---
-## Some useful links
+### <font color='green'>Useful Links</font>
+
+[**RM530N-GM Modem Main Page**](index.md)
 
 [Quectel_AT_Commands_Manual_PDF](Quectel_RG520N&RG52xF&RG530F&RM520N&RM530N_Series_AT_Commands_Manual_V1.0.0_Preliminary_20220812.pdf)
-
 
 [Modem Manager in detail](../../../linux/linux-networking/modem-manager.md)

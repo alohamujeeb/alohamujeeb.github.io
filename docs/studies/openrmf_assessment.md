@@ -1,4 +1,7 @@
 ---
+hide:
+  - navigation
+  
 tags:
     - Case Studies
     - OpenRMF
@@ -441,20 +444,11 @@ While every effort has been made to ensure accuracy, the findings reflect the ev
 
 
 ---
-## <font color='green'>XX. OpenRMF References</font>
+### <font color='green'>Useful Links</font>
 
-[OpenRMF Online Book](https://osrf.github.io/ros2multirobotbook/intro.html)
-
-[OpenRMF Demos: Official](https://github.com/open-rmf/rmf_demos)
-
-[Official Installation Page](https://github.com/open-rmf/rmf)
-
-[Official: Binary Instllation](https://github.com/open-rmf/rmf#binary-installation)
-
-[Official: Installation from source](https://github.com/open-rmf/rmf#building-from-source)
+[**Engineering Studies- Main Page**](index.md)
 
 [My OpenRMF Material](../drobots/openrmf/index.md)
 
-[My Personal Installation Notes](../drobots/openrmf/installation.md)
 
 

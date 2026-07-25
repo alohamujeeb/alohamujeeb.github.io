@@ -1,11 +1,14 @@
 ---
+hide:
+  - navigation
+  
 tags:
   - quectel
   - RM530N-GL
   - raspberry pi
 ---
 
-# Hardware setup & connections
+# <font color='green'>Hardware setup & connections</font>
 This section explains how to connect the RM530N-GL module to a Raspberry Pi board, covering the necessary hardware wiring and interface details.
 
 ---
@@ -87,7 +90,9 @@ Below are some images of the fully assembled product, ready for use:
 | Cap Mounting on PI-5 | <a href="images/side-view-cap.jpeg"><img src="images/side-view-cap.jpeg" width="100" height="100"/></a> | Shows how the cap is mounted onto the Raspberry Pi 5. |
 
 ---
-## 5. Some useful links
+### <font color='green'>Useful Links</font>
+
+[**RM530N-GM Modem Main Page**](index.md)
 
 [Quectel 5G RM530N-GL](https://www.quectel.com/product/5g-rm530n-gl/)
 

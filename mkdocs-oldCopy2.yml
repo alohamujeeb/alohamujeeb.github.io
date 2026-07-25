@@ -141,30 +141,44 @@ nav:
     - Studies: studies/index.md
     - <strong><font color='red'><h3>Important Topics</h3></font></strong>: 
       - Important Topics: featured/index.md  
-    - <font color='green'><h3>Technical Evaluations</h3></font>: studies/index.md
+    - <font color='green'><h3>Technical Evaluations</h3></font>:
+      - OpenRMF Assessment: studies/openrmf_assessment.md
     
   - Notes/References: 
     - References: references/index.md
-    - <strong><font color='red'><h3>Important Topics</h3></font></strong>:  featured/index.md  
+    - <strong><font color='red'><h3>Important Topics</h3></font></strong>: 
+      - Important Topics: featured/index.md  
     - <font color='green'><h3>SW & Programming</h3></font>:
       - Programing: programming/index.md
-      - <font color='tomato'>Python</font>: programming/languages/python/index.md 
-      - <font color='tomato'>C Language</font>: programming/languages/clang/index.md 
-      - <font color='tomato'>Go Language</font>: programming/languages/golang/index.md 
+      - <font color='tomato'>Python</font>:
+        - Python: programming/languages/python/index.md 
+      - <font color='tomato'>C Language</font>:
+        - C Lang: programming/languages/clang/index.md 
+      - <font color='tomato'>Go Language</font>:
+        - Go Lang: programming/languages/golang/index.md 
         
         
     - <font color='green'><h3>Web Development</h3></font>:
       - Web: web/index.md  
-      - <font color='tomato'>Frontend</font>: web/fe/index.md 
-      - <font color='tomato'>Backend</font>: web/be/index.md 
+      - <font color='tomato'>Frontend</font>:
+        - Python: web/fe/index.md 
+      - <font color='tomato'>Backend</font>:
+        - Python: web/be/index.md 
         
     - <font color='green'><h3>Linux & Networking</h3></font>:
       - Linux & Netwroking: linux/index.md  
   
     - <font color='green'><h3>AI & ML</h3></font>:
       - AIarena: AIarena/index.md 
-      - <font color='tomato'>Back to Basics</font>: AIarena/basics/index.md 
-      - <font color='tomato'> Advanced/Applied ML</font>: AIarena/advanced/index.md
+      - <font color='tomato'>Back to Basics</font>:
+        - Back to Basics: AIarena/basics/index.md 
+        - Miscellaneous Topics: AIarena/misc/index.md 
+        - Supervised Learning: 
+          - Supervised Learning: AIarena/supervised/index.md 
+          - SVM: AIarena/supervised/svm.md 
+        - Unsupervised Learning: AIarena/unsupervised/index.md 
+        - Reinforcement Learning: AIarena/reinforcement/index.md  
+    - <font color='tomato'> Advanced/Applied ML</font>: AIarena/advanced/index.md
         
     - <font color='green'><h3>Media & Streaming</h3></font>:
       - Media & Streaming: programming/media-streaming/index.md 
@@ -173,19 +187,25 @@ nav:
     - RobotComms: drobots/index.md
     - <strong><font color='red'><h3>Important Topics</h3></font></strong>: 
       - Important Topics: featured/index.md  
-    - <font color='green'><h3> Modems & Routers </h3></font>: 
+    - <font color='green'><h3> Modems & Routers </h3></font>:
       - Modems: drobots/modems/index.md
-      - <font color='tomato'>Quectel RM530N-GL</font>: drobots/modems/Quectel-RM530N-GL/index.md
+      - <h4>Quectel RM530N-GL</h4>: 
+        - RM530N-GL: drobots/modems/Quectel-RM530N-GL/index.md
+        - Hardware Setup: drobots/modems/Quectel-RM530N-GL/01-hw-setup-pi5.md
+        - Software Setup: drobots/modems/Quectel-RM530N-GL/02-sw-setup-pi5.md
+        - AT Command Reference: drobots/modems/Quectel-RM530N-GL/03-at-commands.md
+        #- Mobilensight Tool: embsys-drobot/Quectel-RM530N-GL/04-mobile-insight.md
     - <font color='green'><h3>Platforms</h3></font>:
       - Platforms: drobots/platforms/index.md
-      - <font color='tomato'>Raspberry-Pi 5</font>: drobots/platforms/pi5/index.md
-      - <font color='tomato'>Yahboom MicroROS-Pi5</font>: drobots/platforms/yahboom-pi5/index.md
+      - Raspberry-Pi 5: drobots/platforms/pi5/index.md
+      - <h4>Yahboom MicroROS-Pi5</h4>:
+        - drobots/platforms/yahboom-pi5/index.md
     - <font color='green'><h3> ROS/ROS2</h3></font>:
       - ROS: drobots/ros/index.md
-      - <font color='tomato'>ROS2 Core</font>: drobots/ros/ros2/index.md
-      - <font color='tomato'>OpenRMF</font>: drobots/openrmf/index.md
-      - <font color='tomato'>RVIZ</font>: drobots/rviz/index.md
-      - <font color='tomato'>Gazebo</font>: drobots/gazebo/index.md
+      - ROS2 Core: drobots/ros/ros2/index.md
+      - OpenRMF: drobots/openrmf/index.md
+      - RVIZ: drobots/rviz/index.md
+      - Gazebo: drobots/gazebo/index.md
     - <font color='green'><h3>Mapping</h3></font>:
       - Platforms: drobots/mapping/index.md 
     - <font color='green'><h3>Localization</h3></font>:

@@ -1,4 +1,7 @@
 ---
+hide:
+  - navigation
+  
 tags:
   - quectel
   - RM530N-GL
@@ -233,10 +236,15 @@ This sets: (as in the pdf reference document)
     Mode = default (0) → one USB function exposed as ECM (likely usb0)
 
 ---
-## 9. Some useful links
+### <font color='green'>Useful Links</font>
+
+[**RM530N-GM Modem Main Page**](index.md)
+
 
 [Detailed AT Commands Reference](03-at-commands.md)
 
 [Quectel_AT_Commands_Manual_PDF](Quectel_RG520N&RG52xF&RG530F&RM520N&RM530N_Series_AT_Commands_Manual_V1.0.0_Preliminary_20220812.pdf)
 
 [Modem Manager in detail](../../../linux/linux-networking/modem-manager.md)
+
+
