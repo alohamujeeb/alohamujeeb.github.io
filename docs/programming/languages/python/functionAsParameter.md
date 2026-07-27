@@ -109,4 +109,9 @@ Instead of writing separate calculation functions, `calculate()` can perform any
 - Passing a function **does not execute it**. We pass its name (or a function reference), and it is executed later by the receiving function.
 - This approach promotes reusable, modular, and flexible code.
 
+---
+## **Relevant Links**
+
+[Python Material on this website](index.md)
+
 

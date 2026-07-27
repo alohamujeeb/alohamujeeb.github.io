@@ -200,4 +200,9 @@ Generators can be chained together so that the output of one generator becomes t
 > - Use **`return`** when a function produces **one final result**.
 > - Use **`yield`** when a function produces **a sequence of values**, especially when those values can be generated one at a time.
 
+---
+## **Relevant Links**
+
+[Python Material on this website](index.md)
+
 

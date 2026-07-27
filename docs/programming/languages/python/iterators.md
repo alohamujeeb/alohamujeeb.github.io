@@ -182,3 +182,8 @@ print(next(pages))  # page 1
 print(next(pages))  # page 2
 ```
 
+---
+## **Relevant Links**
+
+[Python Material on this website](index.md)
+

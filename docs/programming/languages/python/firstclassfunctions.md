@@ -7,6 +7,9 @@ tags:
 ---
 # Understanding First-Class Functions in Python
 
+Functions in Python are first-class objects, which means they can be assigned to variables, passed as arguments, and returned from other functions. This concept forms the foundation for closures, decorators, callbacks, and many functional programming features.
+
+
 ---
 ## <font color='green'> 1. Introduction </font>
 

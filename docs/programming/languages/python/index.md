@@ -18,6 +18,10 @@ This section provides quick-reference modules covering a variety of Python topic
 
 <strong><font> [Python Features That May Be Unfamiliar to C/Java Programmers](unusualfeatures.md)</font></strong>
 
+<strong><font> [Variables Store References, Not Values in Python](variablesarereferences.md)</font></strong>
+
+<strong><font> [Confusing Operations in Python (== vs is, append() vs insert() etc.](confusingoperations.md)</font></strong>
+
 <strong><font> [Shallow vs Deep Copy](shallowdeepcopy.md)</font></strong>
 
 <strong><font> [Lamda functions](lamda.md)</font></strong>

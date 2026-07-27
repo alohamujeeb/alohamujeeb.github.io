@@ -277,3 +277,8 @@ Whenever a collection contains **nested mutable objects**, a shallow copy copies
 - Shallow and deep copies are mainly used with **collections** (such as lists, dictionaries, sets, and nested tuples). 
 - For basic immutable data types like `int`, `float`, `str`, and `bool`, the `=` operator is sufficient because their values cannot be modified in place.
 
+---
+## **Relevant Links**
+
+[Python Material on this website](index.md)
+

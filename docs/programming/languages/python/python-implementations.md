@@ -139,3 +139,14 @@ The existence of multiple Python implementations often confuses newcomers, but t
 - They all execute Python code, but each is optimized for a different environment or objective.
 
 For nearly all Python development, **CPython** remains the standard and recommended implementation. The alternatives are designed for specialized needs such as performance, interoperability, or embedded systems.
+
+---
+## **Relevant Links**
+
+[Python Material on this website](index.md)
+
+[Python Virtual Environments](https://docs.python.org/3/library/venv.html)
+
+[Anaconda Environments](https://www.anaconda.com/docs/getting-started/working-with-conda/environments)
+
+

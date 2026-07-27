@@ -126,7 +126,11 @@ conda remove -n myenv --all
 
 
 ---
-## <font color='green'> 5. Some useful links </font>
+## **Relevant Links**
+
+[Python Material on this website](index.md)
+
 [Python Virtual Environments](https://docs.python.org/3/library/venv.html)
 
 [Anaconda Environments](https://www.anaconda.com/docs/getting-started/working-with-conda/environments)
+

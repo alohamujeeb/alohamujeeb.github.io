@@ -92,3 +92,9 @@ Output: [('Mujeeb', 78), ('Chong', 85), ('Chua', 92)]
 ```
 Note: The parameter is student; And the function code returns second index of students
 
+
+---
+## **Relevant Links**
+
+[Python Material on this website](index.md)
+

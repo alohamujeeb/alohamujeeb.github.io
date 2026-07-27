@@ -481,3 +481,8 @@ These examples show the relationship between command-line input and Python funct
 - `*args` and `**kwargs` can be used in any Python function, including ordinary functions, class methods, decorators, and `main()`.
 
 
+---
+## **Relevant Links**
+
+[Python Material on this website](index.md)
+

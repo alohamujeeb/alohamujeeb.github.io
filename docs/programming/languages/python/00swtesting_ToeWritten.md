@@ -65,3 +65,10 @@ Parameterized Tests
 Property-Based Tests
 
 That separation is much cleaner because it distinguishes what is being tested (software test levels) from how Python programmers implement those tests (testing techniques). Mixing those two categories is what causes most of the confusion.
+
+
+---
+## **Relevant Links**
+
+[Python Material on this website](index.md)
+

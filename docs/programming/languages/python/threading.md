@@ -323,14 +323,14 @@ In this article, we explored the fundamentals of multithreading in Python. The k
 
 Threading is most effective for **I/O-bound applications**, such as file operations, network communication, and background services. It improves responsiveness by allowing multiple tasks to make progress concurrently while sharing the same process resources.
 
+
+
 ---
-## References
+## **Relevant Links**
 
-<strong><font> [GIL- Concurrency is not Parallel](gil-parallelism.md)</font></strong>
+[Python Material on this website](index.md)
 
-<strong><font> [Python Interpreters-CPython/JPython](python-implementations.md)</font></strong>
+[Python Virtual Environments](https://docs.python.org/3/library/venv.html)
 
-
-
-
+[Anaconda Environments](https://www.anaconda.com/docs/getting-started/working-with-conda/environments)
 

@@ -6,6 +6,7 @@ tags:
   - Closures in Python
   
 ---
+
 # Understanding Closures in Python
 
 ---
@@ -44,17 +45,18 @@ print("After calling outer()")
 
 ### Output
 
-``` text
+```text
+
 Before calling outer()
 
-1. outer() starts
-2. x is created
-3. inner() is CREATED (not executed)
+	1. outer() starts
+	2. x is created
+	3. inner() is CREATED (not executed)
 
 After calling outer()
 ```
 
-Calling `outer()` only:
+Calling `outer` only:
 
 -   creates `x`
 -   creates the function object `inner`
@@ -94,7 +96,7 @@ flowchart TD
 ```
 
 
-### 2.2 Purpose of outer()? (make preperations for inner())
+### 2.2 Purpose of outer()? - make preperations for inner()
 
 The entire purpose of `outer()` is to prepare `inner()`.
 
@@ -132,13 +134,11 @@ So after `outer()` returns, does Python preserve all three variables?
 Conceptually:
 
 ``` text
+
 a   ❌ discarded
-
-b   ✅ preserved
-
-c   ❌ discarded
-
+d
 inner   ✅ returned
+
 ```
 
 <font color='red'>Python only keeps the context required by the returned function. It does **not** preserve everything created by `outer()`.</font>
@@ -240,4 +240,11 @@ it's often more useful to think:
 
 That mental model focuses on the purpose of closures rather than the
 terminology.
+
+
+---
+## **Relevant Links**
+
+[Python Material on this website](index.md)
+
 
