@@ -33,13 +33,13 @@ This section provides quick-reference modules covering a variety of C/C++ topics
 
 <strong><font> [Understanding malloc(), calloc(), realloc(), and free()](pointermalloc.md)</font></strong>
 
-<strong><font> [Understanding Pointer Arithmetic](pointerarithmetic.md)</font></strong>
+<strong><font> [Pointer Arithmetic](pointerarithmetic.md)</font></strong>
 
 <strong><font> [Pointers and Array Names](pointer_and_arraynames.md)</font></strong>
 
-<strong><font> [Understanding NULL Pointers in C](nullpointers.md)</font></strong>
+<strong><font> [NULL Pointers in C](nullpointers.md)</font></strong>
 
-<strong><font> [Understanding Dangling Pointers in C](danglingpointers.md)</font></strong>
+<strong><font> [Dangling Pointers in C](danglingpointers.md)</font></strong>
 
 <strong><font> [Shallow and Deep Copy in C](shallowdeepinc.md)</font></strong>
 
@@ -53,7 +53,6 @@ This section provides quick-reference modules covering a variety of C/C++ topics
 
 <strong><font> [Flexible Array Members](flexiblearraymembers.md)</font></strong>
 
-
 ---
 ### 4. Memory Managment
 
@@ -61,7 +60,11 @@ This section provides quick-reference modules covering a variety of C/C++ topics
 
 <strong><font> [Understanding Memory Leaks in C (Some Scenarios)](memoryleaks.md)</font></strong>
 
+<strong><font> [Stack Overflow](stackoverflow.md)</font></strong>
+
 <strong><font> [Memory Ownership in C: Who Is Responsible for Freeing Memory?](memoryownership.md)</font></strong>
+
+<strong><font> [Memory Segmentation](memorysegmentation.md)</font></strong>
 
 <strong><font> [Memory Fragmentation](memoryfragmentation.md)</font></strong>
 
