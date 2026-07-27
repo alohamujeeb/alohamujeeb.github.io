@@ -28,7 +28,6 @@ This section provides quick-reference modules covering a variety of Python topic
 
 <strong><font> [args and kargs- Variable Parameters](args-kargs.md)</font></strong>
 
-<strong><font> [generator functions- yield and return in Python](yieldreturn.md)</font></strong>
 
 ---
 ### 2. OOP in Python
@@ -41,6 +40,8 @@ This section provides quick-reference modules covering a variety of Python topic
 
 <strong><font> [Function as First Class Citizens](firstclassfunctions.md)</font></strong>
 
+<strong><font> [generator functions- yield and return in Python](yieldreturn.md)</font></strong>
+
 <strong><font> [Closures in Python](closuresinpythohn.md)</font></strong>
 
 <strong><font> [Decorators in Python](decoratorsinpythohn.md)</font></strong>
@@ -51,9 +52,14 @@ This section provides quick-reference modules covering a variety of Python topic
 
 <strong><font> [Python Interpreters-CPython/JPython](python-implementations.md)</font></strong>
 
+<strong><font> [Garbage Collection in Python](pythongc.md)</font></strong>
+
 <strong><font> [GIL- Concurrency is not Parallel](gil-parallelism.md)</font></strong>
 
 <strong><font> [Threading in Python](threading.md)</font></strong>
+
+<strong><font> [Python Bytecode vs Native Code](bytecodenativecode.md)</font></strong>
+
 
 ---
 ### 4. Advanced Topics/Experiences
