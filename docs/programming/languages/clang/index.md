@@ -60,13 +60,13 @@ This section provides quick-reference modules covering a variety of C/C++ topics
 
 <strong><font> [Understanding Memory Leaks in C (Some Scenarios)](memoryleaks.md)</font></strong>
 
-<strong><font> [Stack Overflow](stackoverflow.md)</font></strong>
+<strong><font> [Stack Overflow: Why Did My Program Crash?](stackoverflow.md)</font></strong>
 
 <strong><font> [Memory Ownership in C: Who Is Responsible for Freeing Memory?](memoryownership.md)</font></strong>
 
-<strong><font> [Memory Segmentation](memorysegmentation.md)</font></strong>
+<strong><font> [Memory Segmentation: Where Your Code and Variables Live](memorysegmentation.md)</font></strong>
 
-<strong><font> [Memory Fragmentation](memoryfragmentation.md)</font></strong>
+<strong><font> [Memory Fragmentation: When Free Memory Can't Be Used](memoryfragmentation.md)</font></strong>
 
 <strong><font> [Memory Alignment & Padding in C](memoryalignment.md)</font></strong>
 
@@ -79,7 +79,7 @@ This section provides quick-reference modules covering a variety of C/C++ topics
 
 <strong><font> [Fixed-Point Arithmetic in Embedded C](fixedpoint.md)</font></strong>
 
-<strong><font> [`volatile` key word in c](volatilekeyword.md)</font></strong>
+<strong><font> [`volatile`: When the Compiler Must Not Optimize](volatilekeyword.md)</font></strong>
 
 <strong><font> [`volatile` is NOT thread-safe](volatilenotthreadsafe.md)</font></strong>
 
@@ -93,7 +93,7 @@ This section provides quick-reference modules covering a variety of C/C++ topics
 
 <strong><font> [Endianness in C: Understanding Big-Endian and Little-Endian](endiansinc.md)</font></strong>
 
-<strong><font> [Circular Buffers](circularbuffersinc.md)</font></strong>
+<strong><font> [Circular Buffers: Never Run Out of Buffer Space](circularbuffersinc.md)</font></strong>
 
-<strong><font> [Finite State Machine](finitestatemachine.md)</font></strong>
+<strong><font> [Finite State Machines: Simplifying Complex Program Logic](finitestatemachine.md)</font></strong>
 
