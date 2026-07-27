@@ -36,6 +36,8 @@ This section provides quick-reference modules covering a variety of Python topic
 ---
 ### 3. Beyond Fundamentals
 
+<strong><font> [LEGB Rule and Variable Scope](legbscope.md)</font></strong>
+
 <strong><font> [Function as a Parameter](functionAsParameter.md)</font></strong>
 
 <strong><font> [Function as First Class Citizens](firstclassfunctions.md)</font></strong>
