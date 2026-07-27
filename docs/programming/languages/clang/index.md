@@ -85,6 +85,8 @@ This section provides quick-reference modules covering a variety of C/C++ topics
 
 <strong><font> [Memory-Mapped I/O](memorymappedio.md)</font></strong>
 
+<strong><font> [Interrupts and IRQs: How Hardware Gets the CPU's Attention](irq.md)</font></strong>
+
 <strong><font> [Bit Manipulation in C: Low-Level and Hardware Programming](bitwiseoperations.md)</font></strong>
 
 <strong><font> [Bit Fields in C: Packing Data into Individual Bits](bitfields.md)</font></strong>
