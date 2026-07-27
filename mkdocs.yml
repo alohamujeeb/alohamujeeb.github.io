@@ -145,7 +145,8 @@ nav:
     
   - Notes/References: 
     - References: references/index.md
-    - <strong><font color='red'><h3>Important Topics</h3></font></strong>:  featured/index.md  
+    - <strong><font color='red'><h3>Important Topics</h3></font></strong>: 
+      - Important Topics: featured/index.md  
     - <font color='green'><h3>SW & Programming</h3></font>:
       - Programing: programming/index.md
       - <font color='tomato'>Python</font>: programming/languages/python/index.md 
