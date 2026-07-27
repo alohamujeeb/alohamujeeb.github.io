@@ -99,3 +99,5 @@ This section provides quick-reference modules covering a variety of C/C++ topics
 
 <strong><font> [Finite State Machines: Simplifying Complex Program Logic](finitestatemachine.md)</font></strong>
 
+<strong><font> [Recursion in Embedded Systems: A Red Zone for Stack Memory](recursionines.md)</font></strong>
+
