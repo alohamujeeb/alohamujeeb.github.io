@@ -11,7 +11,7 @@ img {
 </style>
 
 <div style="text-align: center;">
-  <img src="images/mypicture.jpg" alt="Avatar" width="200">
+  <img src="images/mypicture_svan.jpeg" alt="Avatar" width="200">
 </div>
 
 ---
