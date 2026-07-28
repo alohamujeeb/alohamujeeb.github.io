@@ -14,8 +14,8 @@ img {
   <img src="images/mypicture_svan.jpeg" alt="Avatar" width="200">
 </div>
 
----
 
+---
 ## Welcome
 
 Welcome! I'm glad you're here.
