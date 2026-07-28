@@ -8,10 +8,10 @@ hide:
 # <font color='green'>Quick Index of Important Topics</font>
 
 
-| <font color='red'>Select a topic of interest</font> | |
-|---|---|
-| **[Python Reference/Notes](../programming/languages/python/index.md)**<br>Python reference and programming notes. | **[C Reference/Notes](../programming/languages/clang/index.md)**<br>Advanced topics in the C programming language, including intermediate and advanced concepts. |
-| **[Video Quality Assessment Algorithms](../blog/posts/2026-04-01-VideoQuality-P1.md)**<br>A 3-part series on video quality assessment algorithms. | **[Video and Image Encoding](../blog/posts/2026-04-29-video_encoding_p1.md)**<br>A 2-part series on the fundamentals of video and image encoding. |
+| <font color='green'>Select a topic of interest</font> | | | 
+|---|---|--|
+| <font color='tomato'>**Programming**</font><br><br>[**Python Notes(big picture understanding)**](../programming/languages/python/index.md)<br>(Advanced Python topics/notes) <br><br> [**Adanced C Topics (beyond textbooks)**](../programming/languages/clang/index.md)<br>Advanced/professional level topics  | <font color='tomato'>**Media/Video Notes**</font> <br><br>[**Video Quality Assessment Algorithms**](../blog/posts/2026-04-01-VideoQuality-P1.md)<br>(video quality objective assessment) <br><br>[**Video and Image Encoding**](../blog/posts/2026-04-29-video_encoding_p1.md)<br>(video and image compression/coding concepts)| <font color='tomato'>**Networking in Linux**</font><br>(Coming soon) 
+|  | |
 
 
 

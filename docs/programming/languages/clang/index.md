@@ -5,8 +5,9 @@ tags:
     - C++ Language
     
 ---
-# **C/C++ Material**
-This section provides quick-reference modules covering a variety of C/C++ topics.
+# <font color='green'>**C Material (Beyond textbooks)**</font>
+Exploring real-world C techniques beyond textbook fundamentals.
+
 
 ---
 ### 1. Misc Topics

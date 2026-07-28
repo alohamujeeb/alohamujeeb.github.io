@@ -2,8 +2,8 @@
 tags:
     - python
 ---
-# **Python Material**
-This section provides quick-reference modules covering a variety of Python topics.
+# <font color='green'>**Python- Understanding Big Picture**</font>
+Understanding where every Python concept fits and when to use it.
 
 
 --- 
