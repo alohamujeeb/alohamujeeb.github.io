@@ -575,32 +575,96 @@ Unlike C++, the compiler does not enforce encapsulation. Instead, encapsulation 
 
 This flexibility is one of the reasons why experienced C programmers can build software that exhibits many object-oriented characteristics without requiring language-supported classes.
 
-The next section demonstrates how function pointers can take this idea even further, allowing structures to simulate methods and enabling more dynamic object-oriented designs.
 
 ---
-## <font color='green'>6. Taking It Further with Function Pointers</font>
+## <font color='green'>6. Two Ways to Associate Functions with Structures</font>
 
-So far, we have associated ordinary C functions with a structure.
+So far, we have associated functions with a structure by keeping the functions **outside** the structure. This is the traditional style used in C programming.
+
+However, there is another approach.
+
+Instead of storing only data inside a structure, we can also store **function pointers**, allowing the structure to reference the operations associated with it.
+
+Both approaches are valid, and each has its own advantages.
+
+---
+
+### 6.1 Method 1 — Functions Outside the Structure
+
+This is the approach used throughout the previous sections.
+
+The structure contains only data.
 
 ```c
-Rectangle_Area(&rect);
-Rectangle_Perimeter(&rect);
-Rectangle_Scale(&rect, 2);
+typedef struct
+{
+    int width;
+    int height;
+
+} Rectangle;
+
+int Rectangle_Area(const Rectangle *rect);
+int Rectangle_Perimeter(const Rectangle *rect);
+Rectangle Rectangle_Union(const Rectangle *r1,
+                          const Rectangle *r2);
+Rectangle Rectangle_Intersection(const Rectangle *r1,
+                                 const Rectangle *r2);
 ```
 
-This is the most common and recommended approach for building object-like software in C.
+The implementation of the functions resides in the source file.
 
-However, C offers another powerful feature that allows structures to become even more class-like: **function pointers**.
+```c
+int Rectangle_Area(const Rectangle *rect)
+{
+    return rect->width * rect->height;
+}
 
-By storing function pointers inside a structure, each object can carry not only its data but also the operations that act upon it.
+int Rectangle_Perimeter(const Rectangle *rect)
+{
+    return 2 * (rect->width + rect->height);
+}
+```
+
+Using the API is straightforward.
+
+```c
+Rectangle rect =
+{
+    .width = 20,
+    .height = 10
+};
+
+int area = Rectangle_Area(&rect);
+
+int perimeter = Rectangle_Perimeter(&rect);
+```
+
+The organization can be visualized as follows.
+
+```text
+Rectangle
+├── Data
+│   ├── width
+│   └── height
+│
+└── Shared Operations
+    ├── Rectangle_Area()
+    ├── Rectangle_Perimeter()
+    ├── Rectangle_Union()
+    └── Rectangle_Intersection()
+```
+
+All `Rectangle` objects share the same functions.
+
+Only one copy of each function exists in the program.
+
+This is why most C libraries adopt this design.
 
 ---
 
-### 6.1 Functions as Structure Members
+### 6.2 Method 2 — Function Pointers Inside the Structure
 
-Unlike ordinary variables, a function pointer stores the address of a function.
-
-This allows a structure to reference the functions associated with it.
+Another approach is to store pointers to the functions inside the structure itself.
 
 ```c
 typedef struct Rectangle
@@ -608,13 +672,56 @@ typedef struct Rectangle
     int width;
     int height;
 
-    int (*Area)(const struct Rectangle *rect);
-    int (*Perimeter)(const struct Rectangle *rect);
+    int (*Area)(const struct Rectangle *);
+    int (*Perimeter)(const struct Rectangle *);
+
+    struct Rectangle (*Union)(const struct Rectangle *,
+                              const struct Rectangle *);
+
+    struct Rectangle (*Intersection)(const struct Rectangle *,
+                                     const struct Rectangle *);
 
 } Rectangle;
 ```
 
-Now, in addition to its data members, the structure also contains references to its operations.
+The implementations remain ordinary C functions.
+
+```c
+int Rectangle_Area(const Rectangle *rect)
+{
+    return rect->width * rect->height;
+}
+
+int Rectangle_Perimeter(const Rectangle *rect)
+{
+    return 2 * (rect->width + rect->height);
+}
+```
+
+The difference is that the function pointers must now be initialized.
+
+```c
+Rectangle rect =
+{
+    .width = 20,
+    .height = 10,
+
+    .Area = Rectangle_Area,
+    .Perimeter = Rectangle_Perimeter,
+    .Union = Rectangle_Union,
+    .Intersection = Rectangle_Intersection
+};
+```
+
+The functions are called through the object.
+
+```c
+int area = rect.Area(&rect);
+
+int perimeter = rect.Perimeter(&rect);
+```
+
+The structure now contains both its data and references to its operations.
 
 ```text
 Rectangle
@@ -624,105 +731,136 @@ Rectangle
 │
 └── Function Pointers
     ├── Area()
-    └── Perimeter()
+    ├── Perimeter()
+    ├── Union()
+    └── Intersection()
 ```
 
----
-
-### 6.2 Initializing the Function Pointers
-
-The function pointers are assigned during object initialization.
-
-```c
-int Rectangle_Area(const Rectangle *rect);
-int Rectangle_Perimeter(const Rectangle *rect);
-
-Rectangle rect =
-{
-    .width = 20,
-    .height = 10,
-
-    .Area = Rectangle_Area,
-    .Perimeter = Rectangle_Perimeter
-};
-```
-
-Once initialized, the functions can be invoked through the object itself.
-
-```c
-int area = rect.Area(&rect);
-
-int perimeter = rect.Perimeter(&rect);
-```
-
-Notice how the syntax begins to resemble a member function call in C++.
+If you are familiar with C++, this syntax should look familiar.
 
 ```cpp
-rect.Area();
+Rectangle rect;
+
+int area = rect.Area();
+
+int perimeter = rect.Perimeter();
 ```
 
-Although the C version still requires the object pointer to be passed explicitly, the overall programming style becomes very similar.
+Although C still requires the object pointer to be passed explicitly, the programming style becomes much more object-oriented.
 
 ---
 
-### 6.3 Why Use Function Pointers?
+### 6.3 Which Method Should You Use?
 
-At first glance, this may appear unnecessary.
+At first glance, Method&nbsp;2 appears to be superior because the functions seem to belong to the object itself.
 
-After all, writing
-
-```c
-Rectangle_Area(&rect);
-```
-
-is simpler than
+However, consider the following.
 
 ```c
-rect.Area(&rect);
+Rectangle rectangles[1000];
 ```
 
-The real advantage is not shorter syntax—it is **flexibility**.
-
-Different objects of the same type can execute different implementations.
-
-For example,
+With Method&nbsp;2, every one of those one thousand objects contains four function pointers.
 
 ```text
-Rectangle A
-├── Area() ─────► Rectangle_Area()
+Rectangle #1
+├── Area() ─────────────┐
+├── Perimeter() ────────┤
+├── Union() ────────────┤
+└── Intersection() ─────┤
+                        │
+Rectangle #2            │
+├── Area() ─────────────┤
+├── Perimeter() ────────┤
+├── Union() ────────────┤
+└── Intersection() ─────┤
+                        │
+Rectangle #3            │
+├── Area() ─────────────┤
+├── Perimeter() ────────┤
+├── Union() ────────────┤
+└── Intersection() ─────┘
 
-Rectangle B
-├── Area() ─────► Optimized_Rectangle_Area()
+            ▼
+    Rectangle_Area()
+    Rectangle_Perimeter()
+    Rectangle_Union()
+    Rectangle_Intersection()
 ```
 
-The calling code remains identical.
+Every object stores exactly the same four addresses.
+
+The function pointers are duplicated thousands of times even though all rectangles behave identically.
+
+Method&nbsp;1 avoids this duplication because every object shares the same implementation.
+
+For this reason, **Method&nbsp;1 is the preferred design for most C software**.
+
+Function pointers become valuable only when different objects need different implementations—for example, when implementing callbacks, device drivers, plug-in architectures, or runtime polymorphism.
+
+
+### 6.4 Why Can't C Store Ordinary Functions Inside a Structure?
+
+After seeing Method&nbsp;2, a natural question arises.
+
+> **Why do we need function pointers at all? Why can't we simply place the functions inside the structure as we do in C++?**
+
+For example, it might seem reasonable to write the following.
 
 ```c
-rect.Area(&rect);
+typedef struct
+{
+    int width;
+    int height;
+
+    int Area(void)
+    {
+        return width * height;
+    }
+
+} Rectangle;
 ```
 
-Only the implementation changes.
+However, this is **not valid C**.
 
-This technique forms the basis of many plug-in architectures, device drivers, callback systems, and object-oriented frameworks written in C.
+Unlike C++, the C language does **not** permit structures to contain member functions. A structure may contain only **data members**.
 
----
+Even declaring a function inside a structure is illegal.
 
-### 6.4 A Word of Caution
+```c
+typedef struct
+{
+    int width;
+    int height;
 
-Although function pointers make structures look more like classes, they are **not always the best solution**.
+    int Area(void);      /* Illegal in C */
 
-For many software components, ordinary functions are:
+} Rectangle;
+```
 
-- Simpler
-- Easier to understand
-- More efficient
-- Easier to maintain
+The C compiler treats structure members as objects occupying storage within the structure. Since a function is not an object, it cannot be stored as a member.
 
-Function pointers should be introduced only when multiple implementations or runtime behavior selection is actually required.
+The only way to associate behavior with a structure is therefore one of the following:
 
-Otherwise, they simply add unnecessary complexity.
+- Keep the functions outside the structure.
+- Store **pointers** to those functions inside the structure.
 
-For this reason, many C libraries expose an object-like API using ordinary functions, reserving function pointers for cases where dynamic behavior is essential.
+This explains why Method&nbsp;2 uses **function pointers** rather than ordinary functions.
+
+It is not a design preference—it is a language requirement.
+
+This is also one of the fundamental differences between C structures and C++ classes.
+
+```text
+C Structure                     C++ Class
+-------------                   ----------------
+Data Members                    Data Members
+Function Pointers (optional)    Member Functions
+```
+
+In C++, member functions are part of the language itself.
+
+In C, the closest equivalent is to associate ordinary functions with the structure or, when necessary, store pointers to those functions inside the structure.
 
 
 ---
