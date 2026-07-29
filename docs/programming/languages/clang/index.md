@@ -90,6 +90,8 @@ Exploring real-world C techniques beyond textbook fundamentals.
 
 <strong><font> [Interrupts and IRQs: How Hardware Gets the CPU's Attention](irq.md)</font></strong>
 
+<strong><font> [Watchdog Timers: Keeping Embedded Systems Alive](watchdogtimer.md)</font></strong>
+
 <strong><font> [Bit Manipulation in C: Low-Level and Hardware Programming](bitwiseoperations.md)</font></strong>
 
 <strong><font> [Bit Fields in C: Packing Data into Individual Bits](bitfields.md)</font></strong>
