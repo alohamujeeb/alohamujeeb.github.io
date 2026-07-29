@@ -405,8 +405,8 @@ Sales
 By accepting arguments, the constructor allows every object to be initialized with its own data at the time it is created.
 
 
---
-## Summary
+---
+## <font color='green'>Summary</font>
 
 In this article, we learned the basics of creating classes and objects in Python. You learned how to define a class, create objects, access and modify attributes, define attributes within a class, and initialize object attributes using the `__init__()` constructor.
 
