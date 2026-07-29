@@ -151,7 +151,7 @@ nav:
       - Programing: programming/index.md
       - <font color='tomato'>Python</font>: programming/languages/python/index.md 
       - <font color='tomato'>C Language</font>: programming/languages/clang/index.md 
-      - <font color='tomato'>Go Language</font>: programming/languages/golang/index.md 
+      # - <font color='tomato'>Go Language</font>: programming/languages/golang/index.md 
         
         
     - <font color='green'><h3>Web Development</h3></font>:
