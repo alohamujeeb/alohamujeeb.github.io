@@ -31,6 +31,9 @@ Exploring real-world C techniques beyond textbook fundamentals.
 
 <strong><font> [Built-in Sorting and Searching Algorithms in C: `qsort()` and `bsearch()`](qsortbsearch.md)</font></strong>
 
+<strong><font> [C Structures: Building Class-Like Objects](structuresasclasses.md)</font></strong>
+
+
 ---
 ### 3. Pointers and Arrays
 
