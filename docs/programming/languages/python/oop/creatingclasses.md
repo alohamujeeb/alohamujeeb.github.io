@@ -262,7 +262,59 @@ emp2 = Employee("Boris", 30, "Sales")
 
 ---
 
-## <font color='green'>5. Understanding the `self` Parameter</font>
+---
+
+## <font color='green'>5. Complete Example</font>
+
+The following `Employee` class combines everything we've learned so far.
+
+```
+Employee
+├── Attributes
+│   ├── name
+│   ├── age
+│   └── department
+│
+└── Constructor
+    └── __init__(name, age, department)
+```
+
+The class defines three attributes and initializes them using the `__init__()` constructor.
+
+```python
+class Employee:
+
+    def __init__(self, name, age, department):
+        self.name = name
+        self.age = age
+        self.department = department
+
+
+emp1 = Employee("Sergei", 25, "Engineering")
+emp2 = Employee("Boris", 30, "Sales")
+
+print(emp1.name, emp1.age, emp1.department)
+print(emp2.name, emp2.age, emp2.department)
+```
+
+Output
+
+```text
+Sergei 25 Engineering
+Boris 30 Sales
+```
+
+In this example:
+
+- `Employee` defines a new data type.
+- `emp1` and `emp2` are objects of the `Employee` class.
+- The `__init__()` constructor initializes each object with its own data.
+- The attributes are accessed using the dot (`.`) operator.
+
+
+---
+
+## <font color='green'>6. Understanding the `self` Parameter</font>
 
 The first parameter of every instance method, including the constructor, is usually named `self`.
 
