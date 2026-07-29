@@ -7,12 +7,12 @@ Understanding where every Python concept fits and when to use it.
 
 
 --- 
-### 0. Misc. Examples
+### 1. Misc. Topics
 
 <strong><font> [Python Virutal Environment](python-env.md) </font></strong>
 
 ---
-### 1. Foundational Concepts
+### 2. Foundational Concepts
 
 <strong><font> [Data Types in Python](dtypes.md)</font></strong>
 
@@ -30,11 +30,15 @@ Understanding where every Python concept fits and when to use it.
 
 
 ---
-### 2. OOP in Python
+### 3. OOP in Python
+
+<strong><font> [Philosophy Behind Classes and Objects (OOP)](oop/oopphilosophy.md)</font></strong>
+
+<strong><font> [Creating Classes and Objects in Python](oop/creatingclasses.md)</font></strong>
 
 
 ---
-### 3. Beyond Fundamentals
+### 4. Beyond Fundamentals
 
 <strong><font> [LEGB Rule and Variable Scope](legbscope.md)</font></strong>
 
@@ -64,7 +68,7 @@ Understanding where every Python concept fits and when to use it.
 
 
 ---
-### 4. Advanced Topics/Experiences
+### 5. Advanced Topics/Experiences
 
 <strong><font> [Reading camera in python](../../media-streaming/camera_in_python_linux.md) </font></strong>
 
