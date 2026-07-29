@@ -52,6 +52,40 @@ Rectangle
     ├── union()
     └── intersection()
 ```
+**A sample code is following:**
+
+```python
+
+class Rectangle:
+
+    def __init__(self, length, width):
+        self.length = length
+        self.width = width
+
+    def area(self):
+        return self.length * self.width
+
+    def perimeter(self):
+        return 2 * (self.length + self.width)
+
+    def union(self, other):
+        print("Union of two rectangles")
+
+    def intersection(self, other):
+        print("Intersection of two rectangles")
+
+
+rect1 = Rectangle(10, 5)
+rect2 = Rectangle(8, 6)
+
+print("Area:", rect1.area())
+print("Perimeter:", rect1.perimeter())
+
+rect1.union(rect2)
+rect1.intersection(rect2)
+```
+
+
 
 By combining related data and the operations that work on that data into a single unit, the `Rectangle` becomes a complete data type. This principle is called **encapsulation**.
 
