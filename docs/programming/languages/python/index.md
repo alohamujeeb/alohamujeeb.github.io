@@ -2,6 +2,7 @@
 tags:
     - python
 ---
+
 # <font color='green'>**Python- Understanding Big Picture**</font>
 Understanding where every Python concept fits and when to use it.
 
@@ -34,7 +35,9 @@ Understanding where every Python concept fits and when to use it.
 
 <strong><font> [Philosophy Behind Classes and Objects (OOP)](oop/oopphilosophy.md)</font></strong>
 
-<strong><font> [Creating Classes and Objects in Python](oop/creatingclasses.md)</font></strong>
+<strong><font> [Encapsulation: Why Combine Data and Operations in a Class](oop/combinedataoperations.md)</font></strong>
+
+<strong><font> [Creating Classes and Objects in Python](oop/combinedataoperations.md)</font></strong>
 
 
 ---
