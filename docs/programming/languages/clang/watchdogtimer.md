@@ -8,9 +8,10 @@ tags:
 
 ---
 
-Watchdog Timers: Keeping Embedded Systems Alive
+# Watchdog Timers: Keeping Embedded Systems Alive
 
-This article is intended for intermediate and advanced C programmers. It explains what watchdog timers are, how they detect software failures, and how they automatically recover embedded systems by resetting the processor when normal program execution stops.
+*This article is intended for intermediate and advanced C programmers. It explains what watchdog timers are, how they detect software failures, and how they automatically recover embedded systems by resetting the processor when normal program execution stops.*
+
 
 ---
 ## <font color='green'>1. Why Do We Need a Watchdog Timer?</font>

@@ -95,6 +95,8 @@ Exploring real-world C techniques beyond textbook fundamentals.
 
 <strong><font> [Watchdog Timers: Keeping Embedded Systems Alive](watchdogtimer.md)</font></strong>
 
+<strong><font> [Software Timers: Extending Limited Hardware Timers ](swtimers.md)</font></strong>
+
 <strong><font> [Bit Manipulation in C: Low-Level and Hardware Programming](bitwiseoperations.md)</font></strong>
 
 <strong><font> [Bit Fields in C: Packing Data into Individual Bits](bitfields.md)</font></strong>
