@@ -10,7 +10,7 @@ hide:
 
 | <font color='green'>Select a topic of interest</font> | | | 
 |---|---|--|
-| <font color='tomato' size=+2>**Programming**</font><br><br>[**Python Notes(big picture approach)**](../programming/languages/python/index.md)<br>(Advanced Python topics/notes) <br><br> [**Adanced C Topics (beyond textbooks)**](../programming/languages/clang/index.md)<br>Advanced/professional level topics  | <font color='tomato' size=+2>**Media/Video**</font> <br><br>[**Video Quality Assessment Algorithms**](../blog/posts/2026-04-01-VideoQuality-P1.md)<br>(video quality objective assessment) <br><br>[**Video and Image Encoding**](../blog/posts/2026-04-29-video_encoding_p1.md)<br>(video and image compression/coding concepts)| <font color='tomato' size=+2>**Networking in Linux**</font><br>
+| <font color='tomato' size=+1>**Programming**</font><br><br>[**Python Notes(big picture approach)**](../programming/languages/python/index.md)<br>(Advanced Python topics/notes) <br><br> [**Adanced C Topics (beyond textbooks)**](../programming/languages/clang/index.md)<br>Advanced/professional level topics  | <font color='tomato' size=+1>**Media/Video**</font> <br><br>[**Video Quality Assessment Algorithms**](../blog/posts/2026-04-01-VideoQuality-P1.md)<br>(video quality objective assessment) <br><br>[**Video and Image Encoding**](../blog/posts/2026-04-29-video_encoding_p1.md)<br>(video and image compression/coding concepts)| <font color='tomato' size=+1>**Networking in Linux**</font><br>
 |  | |
 
 
