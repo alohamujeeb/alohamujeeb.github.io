@@ -1,10 +1,10 @@
 ---
 tags:
-    - Web Backend
-
+    - Distributed Systems
+    - Distributed Computing
 ---
 
-# Web Backend
+# Distributed Computing and Systems
 
 Notes, references, and practical implementations covering distributed systems, scalability, communication, and reliability.
 

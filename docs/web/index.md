@@ -5,15 +5,44 @@ tags:
   - Backend
 ---
 
-# <font color='green'>Web Development Tools</font>
+# <font color='green'>Backend and Distributed Systems</font>
 
-My notes, references, and practical snippets for modern web development and backend engineering.
+A collection of notes, references, and practical snippets on modern web development, with a primary focus on backend engineering and distributed systems.
 
----
 
-|<font color='green' size+=1>Select a topic of your interest</font>| |
+| Topic | Description |
 |---|---|
-| **[<font color='red' size=+1>Web Frontend</font>](fe/index.md)**<br><br><strong><font>[JavaScript in Browser](fe/jsfe/index.md)</font></strong> | **[<font color='red' size=+1>Web Backend</font>](be/index.md)** |
+| **[Backend Systems](be/index.md)** | Web servers, APIs, authentication, databases, caching, messaging, media servers, video streaming, storage |
+| **[Distributed Systems](ds/index.md)** | Scalability, clustering, consensus, replication, fault tolerance, scheduling |
+| **[Web Frontend](fe/index.md)** | JavaScript, Browser APIs, DOM, networking |
 
 
-
+<!--
+docs/
+├── index.md
+├── backend/
+│   ├── index.md
+│   ├── web-servers.md
+│   ├── authentication.md
+│   ├── apis.md
+│   ├── databases.md
+│   ├── caching.md
+│   ├── message-queues.md
+│   ├── media-servers.md
+│   ├── video-streaming.md
+│   ├── background-workers.md
+│   └── storage.md
+├── distributed/
+│   ├── index.md
+│   ├── rpc.md
+│   ├── consensus.md
+│   ├── replication.md
+│   ├── partitioning.md
+│   ├── service-discovery.md
+│   ├── scheduling.md
+│   ├── fault-tolerance.md
+│   └── distributed-cache.md
+└── frontend/
+    ├── index.md
+    └── javascript-browser.md
+-->

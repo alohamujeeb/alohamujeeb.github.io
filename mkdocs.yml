@@ -155,10 +155,12 @@ nav:
       - <font color='tomato'>Embedded SW/Firmware</font>: programming/esswfw/index.md    
       - <font color='tomato'>Software Engineering</font>: programming/sweng/index.md   
         
-    - <font color='green'><h3>Web Development</h3></font>:
+    - <font color='green'><h3>Backend & Distributed Systems</h3></font>:
       - Web: web/index.md  
-      - <font color='tomato'>Frontend</font>: web/fe/index.md 
-      - <font color='tomato'>Backend</font>: web/be/index.md 
+      - <font color='tomato'>Web Backend</font>: web/be/index.md 
+      - <font color='tomato'>Distributed Systems</font>: web/ds/index.md 
+      - <font color='tomato'>Browser/Frontend</font>: web/fe/index.md 
+      
         
     - <font color='green'><h3>Linux & Networking</h3></font>:
       - Linux & Netwroking: linux/index.md  
