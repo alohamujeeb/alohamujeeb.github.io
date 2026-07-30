@@ -5,7 +5,7 @@ hide:
   
 tags:
   - WSL
-  - Windows Subsystem for LInux
+  - Windows Subsystem for Linux
 ---
 
 # Windows Subsystem for Linux (WSL) Quick Reference

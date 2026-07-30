@@ -5,15 +5,15 @@ tags:
   - Backend
 ---
 
-# Web Development Tools
+# <font color='green'>Web Development Tools</font>
 
-This section contains references, tutorials, and practical guides related to web development, backend systems, databases, APIs, software architecture, and supporting development tools.
-
----
-### [<strong><font color='green'>Web Frontend</font></strong>](fe/index.md)
+My notes, references, and practical snippets for modern web development and backend engineering.
 
 ---
-### [<strong><font color='green'>Web Backend</font></strong>](be/index.md)
+
+|<font color='green' size+=1>Select a topic of your interest</font>| |
+|---|---|
+| **[<font color='red' size=+1>Web Frontend</font>](fe/index.md)**<br><br><strong><font>[JavaScript in Browser](fe/jsfe/index.md)</font></strong> | **[<font color='red' size=+1>Web Backend</font>](be/index.md)** |
 
 
 
