@@ -12,7 +12,7 @@ Exploring real-world C techniques beyond textbook fundamentals.
 ---
 ### 1. Misc Topics
 
-<strong><font> [Why C++ is Not My First Choice](../../../blog/posts/2026-07-19-WhyCppNotMyFirstChoice.md)</font></strong>
+<strong><font> [Why C++ is Not My First Choice](../../../blog/posts/2026-07-29-WhyCppNotMyFirstChoice.md)</font></strong>
 
 <strong><font> [Undefined Behaviour in C](undefinedbehaviour.md)</font></strong>
 

@@ -15,7 +15,7 @@ This section contains engineering evaluations, design studies, and practical ins
 |----------|--------|
 | **Technical Evaluations**<br>(Framework and technology assessments) | [OpenRMF: Engineering Assessment](openrmf_assessment.md) |
 | **Design Studies**<br>*(Architecture and design analyses)* |  |
-| **Comparisons**<br>*(Technology, tools and engineering comparisons)* | [Why C++ Is NOT My First Choice](../blog/posts/2026-07-19-WhyCppNotMyFirstChoice.md) |
+| **Comparisons**<br>*(Technology, tools and engineering comparisons)* | [Why C++ Is NOT My First Choice](../blog/posts/2026-07-29-WhyCppNotMyFirstChoice.md) |
 | **Lessons Learned**<br>*(Implementation insights and retrospectives)* |  |
 
 
