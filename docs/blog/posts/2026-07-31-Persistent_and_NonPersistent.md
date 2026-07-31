@@ -13,8 +13,8 @@ categories:
   - Programming
 
 tags:
-  - C++ Programming
-  
+  - Persistent Connection
+  - Non-persistent Connection
   
 ---
 
