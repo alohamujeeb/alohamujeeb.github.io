@@ -14,12 +14,6 @@ The material is suitable for undergraduate DSP course.
 ---
 ## <font color='green'>Part I (Signals & Sampling)</font>
 
-**Question:**
-How does the real world become digital?
-
-**Outcome:**
-Students understand how physical signals are converted into digital data and the limitations introduced by sampling and quantization.
-
 ### [Chapter 1: What is a Signal?](ch1_whatissignal.md)
 
 ### [Chapter 2: Analog-to-Digital Conversion (ADC)](ch2_adc.md)
@@ -36,10 +30,10 @@ Students understand how physical signals are converted into digital data and the
 
 ### [Chapter 6: Approaches to DSP (beyond frequency domain)](ch6_dspapproaches.md)
 
+### [Chapter 7: Why Frequency Matters?](ch7_whyfrequencymatters.md)
 
 
-	Chapters
-	Why Frequency Matters
+	Next Chapters
 	Sinusoids as Building Blocks
 	Linear Systems and Superposition
 	Fourier Series
@@ -58,13 +52,6 @@ Students understand how physical signals are converted into digital data and the
 ---
 ## <font color='green'>Part III (Digital Filtering)</font>
 
-Question:
-How do we modify a signal?
-
-Outcome:
-Students understand how digital filters work, when to use FIR or IIR filters, and how to design filters to achieve a desired frequency response.
-
-
 	Chapters
 	Why Filtering?
 	Time-Domain vs Frequency-Domain Filtering
@@ -76,16 +63,10 @@ Students understand how digital filters work, when to use FIR or IIR filters, an
 	Choosing Between FIR and IIR
 	Filter Design Examples
 
+
 ---
 ## <font color='green'>Part IV — Analysis Domains</font>
 (Choosing the Right Mathematical Tool)
-
-Question:
-Which mathematical domain should I use to analyze a signal or system?
-
-Outcome:
-Students understand the purpose and relationship of the time domain, frequency domain, Z-domain, and S-domain, and can identify the most appropriate analysis framework for a given engineering problem.
-
 
 	Why Change Domains?
 
