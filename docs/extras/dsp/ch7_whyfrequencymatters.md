@@ -312,14 +312,20 @@ The key points are:
   1. Decompose a complex signal into sinusoids.
   2. Analyze each sinusoid independently.
   3. Combine the individual results to obtain the final response.
-- In the **time domain**, we store the signal value against time.
-- In the **frequency domain**, we store the amplitude and phase of each frequency component.
-- A complete frequency-domain representation consists of:
-  - An **Amplitude Spectrum**
-  - A **Phase Spectrum**
 ```
 
-The frequency domain does not replace the time domain—it provides another representation of the same signal. Depending on the problem, one representation may be much more useful than the other.
+- In the **time domain**, we store the signal value against time.
+- In the **frequency domain**, we store the amplitude and phase of each frequency component.
+
+- A complete frequency-domain representation consists of:
+```
+  - An "Amplitude" Spectrum
+  - A "Phase" Spectrum
+```
+
+The frequency domain does not replace the time domain; it provides another representation of the same signal. 
+
+Depending on the problem, one representation may be much more useful than the other.
 
 ---
 ## **Relevant Links**
