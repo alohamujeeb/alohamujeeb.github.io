@@ -28,7 +28,9 @@ Students understand how physical signals are converted into digital data and the
 
 ### [Chapter 4: Signal vs Data](ch4_signalvsdata.md)
 
-### [Chapter 5: Hands-on Exercises](ch5_p1handson.md)
+### [Chapter 5: Approaches to DSP (beyond frequency domain)](ch5_dspapproaches.md)
+
+### [Chapter 6: Hands-on Exercises](ch6_p1handson.md)
 
 
 ---
