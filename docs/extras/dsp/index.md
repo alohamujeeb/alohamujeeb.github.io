@@ -12,32 +12,7 @@ search:
 A collection of notes on DSP
 
 ---
-## <font color='green'>My DSP Learning Map</font>
-
-
-```text
-
-                   Part I: Signals & Sampling (Digital Representation)
-                            │
-                            ▼
-            ┌───────────────┴────────────────┐
-            ▼                                ▼
-Part II: Frequency Analysis        Part III: Digital Filtering
-(What is inside?)                  (How do we modify it?)
-            │                                │
-            └───────────────┬────────────────┘
-                            ▼
-               Part IV: Mathematical Domains
-        (Time, Frequency, Z, and S Domains)
-                            │
-                            ▼
-              Ready for Applied DSP with Python
-```
-
-
----
 ## <font color='green'>Part I (Signals & Sampling)</font>
-(Why DSP Exists)
 
 **Question:**
 How does the real world become digital?
@@ -49,35 +24,17 @@ Students understand how physical signals are converted into digital data and the
 
 ### [Chapter 2: Analog-to-Digital Conversion (ADC)](ch2_adc.md)
 
+### [Chapter 3: Digital to Analog Conversion (DAC)](ch3_dac.md)
 
-	Chapter 3 — Digital-to-Analog Conversion (DAC)
-
-	This chapter is usually ignored in DSP books, but it's actually very important.
-
-	3.1 Why Do We Need a DAC?
-	Computers produce digital data.
-	Humans perceive analog signals.
-	3.2 How a DAC Works
-	Binary values
-	Voltage levels
-	Reconstruction
-	3.3 Reconstruction Filter
-	Why the DAC output looks like a staircase
-	Smoothing the output
-	Low-pass reconstruction filter
-	3.4 Complete DSP Pipeline
 
 ---
 ## <font color='green'>Part II (Frequency-Domain Thinking)</font>
-(Understanding Signals Through Frequency)
-
 
 Question:
 What is inside a signal?
 
 Outcome:
 Students can interpret signals in the frequency domain, understand the Fourier family of transforms, and choose the appropriate Fourier tool for a given problem.
-
 
 
 	Chapters
@@ -99,7 +56,6 @@ Students can interpret signals in the frequency domain, understand the Fourier f
 
 ---
 ## <font color='green'>Part III (Digital Filtering)</font>
-(Modifying Signals)
 
 Question:
 How do we modify a signal?
@@ -162,4 +118,3 @@ Students understand the purpose and relationship of the time domain, frequency d
 		Relationship to the Fourier Transform
 
 	Putting It All Together
-
