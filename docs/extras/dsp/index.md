@@ -45,22 +45,33 @@ Part II: Frequency Analysis        Part III: Digital Filtering
 ## <font color='green'>Part I (Signals & Sampling)</font>
 (Why DSP Exists)
 
-Question:
+**Question:**
 How does the real world become digital?
 
-Outcome:
+**Outcome:**
 Students understand how physical signals are converted into digital data and the limitations introduced by sampling and quantization.
 
+### [Chapter 1: What is a Signal?](ch1_whatissignal.md)
 
-	Chapters
-	What is a Signal?
-	Analog vs Digital
-	Signal vs Data
-	Sensors, ADC & DAC
-	Sampling
-	Quantization
-	Looking at Signals (time domain)
-	Limitations of Time-Domain Analysis
+### [Chapter 2: Analog-to-Digital Conversion (ADC)](ch2_adc.md)
+
+
+	Chapter 3 — Digital-to-Analog Conversion (DAC)
+
+	This chapter is usually ignored in DSP books, but it's actually very important.
+
+	3.1 Why Do We Need a DAC?
+	Computers produce digital data.
+	Humans perceive analog signals.
+	3.2 How a DAC Works
+	Binary values
+	Voltage levels
+	Reconstruction
+	3.3 Reconstruction Filter
+	Why the DAC output looks like a staircase
+	Smoothing the output
+	Low-pass reconstruction filter
+	3.4 Complete DSP Pipeline
 
 ---
 ## <font color='green'>Part II (Frequency-Domain Thinking)</font>
