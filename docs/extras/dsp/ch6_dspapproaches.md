@@ -10,9 +10,7 @@ search:
   
 # <font color='green'>Chapter 5: Approaches to Signal Processing</font>
 
-**Goal:**
-
-Students understand that **frequency-domain analysis and digital filtering are only two of many approaches to signal processing**, and gain a high-level overview of the broader techniques used in modern signal processing.
+**Goal:** Students understand that **frequency-domain analysis and digital filtering are only two of many approaches to signal processing**, and gain a high-level overview of the broader techniques used in modern signal processing.
 
 
 ---

@@ -28,19 +28,14 @@ Students understand how physical signals are converted into digital data and the
 
 ### [Chapter 4: Signal vs Data](ch4_signalvsdata.md)
 
-### [Chapter 5: Approaches to DSP (beyond frequency domain)](ch5_dspapproaches.md)
-
-### [Chapter 6: Hands-on Exercises](ch6_p1handson.md)
+### [Chapter 5: Hands-on Exercises](ch5_p1handson.md)
 
 
 ---
 ## <font color='green'>Part II (Frequency-Domain Thinking)</font>
 
-Question:
-What is inside a signal?
+### [Chapter 6: Approaches to DSP (beyond frequency domain)](ch6_dspapproaches.md)
 
-Outcome:
-Students can interpret signals in the frequency domain, understand the Fourier family of transforms, and choose the appropriate Fourier tool for a given problem.
 
 
 	Chapters
