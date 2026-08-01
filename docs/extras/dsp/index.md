@@ -12,20 +12,14 @@ search:
 A collection of notes on DSP
 
 ---
-## <font color='green'>DSP Map</font>
+## <font color='green'>My DSP Learning Map</font>
 
 
 ```text
-                  DIGITAL SIGNAL PROCESSING
 
-                     Real World Signals
+                   Part I: Signals & Sampling (Digital Representation)
                             │
                             ▼
-                   Part I: Signals & Sampling
-                            │
-                            ▼
-               Digital Representation of Signals
-                            │
             ┌───────────────┴────────────────┐
             ▼                                ▼
 Part II: Frequency Analysis        Part III: Digital Filtering
