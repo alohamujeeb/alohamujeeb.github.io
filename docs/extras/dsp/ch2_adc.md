@@ -76,6 +76,9 @@ Notice that:
 
 The choice of sampling rate is important. If the sampling rate is too low, important information may be lost. We will study this in the next section.
 
+![Sampling Example](images/ch2_adc_sampling.png)
+
+
 ### Key Takeaway
 
 - **Sampling Interval (\(T_s\))** is the time between successive samples.
@@ -178,39 +181,172 @@ The anti-aliasing filter will be discussed in a later chapter on digital filters
 ---
 ## <font color='green'>2.6 Quantization</font>
 
-After sampling, we have a **discrete-time signal**. However, each sample can still take **any real value**.
+After sampling, we have a **discrete-time signal**, but each sample can still take **any real value**.
 
-A computer cannot store an infinite number of possible values. Instead, each sample must be rounded to one of a finite number of levels.
+For example,
+
+```text
+25.3
+26.8
+24.4
+28.2
+...
+```
+
+A computer cannot store infinitely many possible values. Instead, each sample must be represented using a **finite number of levels**.
 
 This process is called **quantization**.
 
-For example, suppose the actual sample values are:
+Quantization consists of **two steps**:
 
+1. **Rounding** each sample to the nearest quantization level.
+2. **Encoding** the quantized value into binary bits.
+
+---
+
+### Step 1: Rounding to the Nearest Level
+
+The figure below illustrates the first step of quantization. Each sampled value is rounded to the nearest available quantization level.
+
+```text
+Temperature (°C)
+
+30 |------------------------------------------------------●
+   |                                                    ○ 29.7
+
+29 |-------------------------------------------------------
+
+28 |-------------------------------●-----------------------
+   |                             ○ 27.6
+
+27 |-------------------------------------------------------
+
+26 |----------------●--------------------------------------
+   |              ○ 26.2
+
+25 |-------------------------------------------------------
+
+24 |---------------------------------------●--------------
+   |                                     ○ 24.4
+
+23 |------●-----------------------------------------------
+   |    ○ 23.3
+
+   +------------------------------------------------------------>
+      Sample 1   Sample 2   Sample 3   Sample 4   Sample 5
+
+Legend:
+○ = Original sampled value
+● = Quantized value
 ```
-23.41
-23.67
-23.89
-24.12
+
+| Sample | Original Value | Quantized Value |
+|-------:|---------------:|----------------:|
+| 1 | 23.3 | 23 |
+| 2 | 24.4 | 24 |
+| 3 | 26.2 | 26 |
+| 4 | 27.6 | 28 |
+| 5 | 29.7 | 30 |
+
+Each original value is rounded to the nearest quantization level.
+
+The difference between the original value and the quantized value is called the **quantization error**.
+
+---
+
+### Step 2: Binary Encoding
+
+After quantization, each sample has been assigned to a quantization level.
+
+The ADC now converts this level into a **digital code (binary number)**.
+
+This encoding depends on:
+
+- The **input voltage (or measurement) range** of the ADC.
+- The **number of bits** used.
+
+---
+
+### Example
+
+Suppose an **8-bit ADC** is designed to measure temperatures from
+
+```text
+0°C to 100°C
 ```
 
-If we quantize to one decimal place, they become:
+An 8-bit ADC provides
 
-```
-23.4
-23.7
-23.9
-24.1
+```text
+2⁸ = 256
 ```
 
-Notice that the quantized values are close to the original values, but not exactly the same. This small difference is the price we pay for representing signals digitally.
+possible digital codes.
 
-The number of available quantization levels depends on the **number of bits** used to represent each sample.
+Therefore,
+
+- **0°C** is represented by digital code **0**
+- **100°C** is represented by digital code **255**
+
+All other temperatures are mapped proportionally between these two values.
+
+| Temperature (°C) | Digital Code | Binary (8-bit) |
+|-----------------:|-------------:|:--------------:|
+| 0 | 0 | 00000000 |
+| 25 | 64 | 01000000 |
+| 50 | 128 | 10000000 |
+| 75 | 191 | 10111111 |
+| 100 | 255 | 11111111 |
+
+```text
+Temperature
+
+0°C  ───────────────────────────────► 00000000
+
+50°C ───────────────────────────────► 10000000
+
+100°C ──────────────────────────────► 11111111
+```
+
+Notice that the **binary number does not represent the temperature directly**.
+
+Instead, it represents the **position of the quantized value within the ADC's measurement range**.
 
 ### Key Takeaway
 
-- **Sampling** makes a signal **discrete in time**.
-- **Quantization** makes a signal **discrete in amplitude**.
-- Quantization introduces a small approximation error because sample values are rounded to finite levels.
+The binary output of an ADC is **not simply the binary representation of the measured value**.
+
+Instead, the ADC maps the analog input range to a finite set of digital codes. The computer can later convert these digital codes back into meaningful physical units (such as temperature, pressure, or voltage) using the known ADC range.
+
+
+---
+
+### Complete Quantization Process
+
+```text
+Analog Sample
+      │
+      ▼
+Round to nearest level
+      │
+      ▼
+Quantized Value
+      │
+      ▼
+Convert to Binary
+      │
+      ▼
+Digital Bits
+```
+
+### Key Takeaway
+
+Quantization converts sampled values into digital data by:
+
+1. **Rounding** each sample to one of a finite number of levels.
+2. **Encoding** the quantized value into binary bits.
+
+> <font color='red'><b>Note:</b> In practice, an ADC performs both steps automatically. We separate them here only to understand the conversion process more clearly.</font>
 
 ---
 ## <font color='green'>2.7 Bit Depth and Quantization Error</font>
@@ -227,10 +363,10 @@ Some common examples are shown below.
 
 | Bit Depth | Quantization Levels |
 |-----------|---------------------:|
-| 8-bit | 256 |
+| 8-bit  | 256 |
+| 10-bit | 1,024 |
 | 12-bit | 4,096 |
 | 16-bit | 65,536 |
-| 24-bit | 16,777,216 |
 
 A higher bit depth provides more quantization levels, allowing the digital signal to represent the original analog signal more accurately.
 
@@ -288,12 +424,17 @@ The resulting digital signal can now be:
 ---
 ## <font color='green'>2.9 Chapter Summary</font>
 
-- Real-world signals are continuous (analog).
-- Sampling converts an analog signal into a discrete-time signal.
-- The sampling rate must satisfy the Nyquist criterion to avoid aliasing.
-- Quantization converts sample values into finite digital levels.
-- Higher bit depth reduces quantization error.
-- Together, sampling and quantization form the **Analog-to-Digital Conversion (ADC)** process.
+## <font color='green'>2.9 Chapter Summary</font>
+
+In this chapter, we learned how a computer converts a real-world **analog signal** into a **digital representation**.
+
+The conversion begins by **sampling** the analog signal at regular time intervals, producing a **discrete-time signal**. To accurately preserve the original signal, the sampling rate must satisfy the **Nyquist criterion**.
+
+Although the signal is now discrete in time, each sample can still take any real value. Therefore, each sample is **quantized** by rounding it to the nearest available level. This introduces a small **quantization error** because the rounded value is not exactly equal to the original sample.
+
+Finally, each quantized level is **encoded into a binary code**. Rather than storing the physical quantity directly, the binary code represents the sample's position within the ADC's measurement range. The number of available codes depends on the **bit depth** of the ADC, with higher bit depths providing more quantization levels and better accuracy.
+
+Together, **sampling**, **quantization**, and **binary encoding** form the complete **Analog-to-Digital Conversion (ADC)** process, allowing real-world signals to be stored, transmitted, and processed by digital computers.
 
 ### What's Next?
 

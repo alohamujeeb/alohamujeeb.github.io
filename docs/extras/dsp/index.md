@@ -7,9 +7,10 @@ search:
   
 ---
 
-# <font color='green'>DSP Fundamentals (Undergraduate Level)</font>
+# <font color='green'>DSP Fundamentals (Concept-First Approach)</font>
 
-The material is suitable for undergraduate DSP course.
+The content is intended for an introductory undergraduate course on Digital Signal Processing (DSP).
+
 
 ---
 ## <font color='green'>Part I (Signals & Sampling)</font>
@@ -32,11 +33,11 @@ The material is suitable for undergraduate DSP course.
 
 ### [Chapter 7: Why Frequency Matters?](ch7_whyfrequencymatters.md)
 
+### [Chapter 8: LTI Systems (more information)](ch8_ltisystems.md)
+
+### [Chapter 9: Fourier Series](ch9_fourierseries.md)
 
 	Next Chapters
-	Sinusoids as Building Blocks
-	Linear Systems and Superposition
-	Fourier Series
 	Fourier Transform
 	The Fourier Family
 	FS
@@ -73,7 +74,8 @@ The material is suitable for undergraduate DSP course.
 		Time domain
 		Frequency domain
 		Complex domain
-		
+		The Scientist and Engineer's Guide to
+Digital Signal Processing
 	Time Domain vs Frequency Domain
 
 		When is time-domain analysis enough?
@@ -105,3 +107,14 @@ The material is suitable for undergraduate DSP course.
 ## **Relevant Links**
 
 [Back to DSP Courses (All)](../index.md)
+
+[The Scientist and Engineer's Guide to Digital Signal Processing](https://www.dspguide.com/pdfbook.htm)
+
+[Handbook of Scientific Signal Processing](https://terpconnect.umd.edu/~toh/spectrum/)
+
+[Interactive Signal Processing Tools](https://terpconnect.umd.edu/~toh/spectrum/SignalProcessingTools.html)
+
+[ A Pragmatic Introduction to DSP- PDF book](https://indico.cern.ch/event/1308067/contributions/5507655/attachments/2779508/4844310/A%20pragmatic%20introduction%20to%20signal%20processing.pdf)
+
+
+
