@@ -9,9 +9,7 @@ search:
 
 # <font color='green'>Chapter 3: Digital to Analog Conversion (DAC)</font>
 
-**Goal:**
-
-Students understand how a digital signal is converted back into an analog signal, why a DAC is needed, and how the reconstructed analog signal is used in real-world systems.
+**Goal:** Students understand how a digital signal is converted back into an analog signal, why a DAC is needed, and how the reconstructed analog signal is used in real-world systems.
 
 
 ---

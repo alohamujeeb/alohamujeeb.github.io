@@ -9,8 +9,7 @@ search:
 
 # <font color='green'>Chapter 1: What is Signal</font>
 
-**Goal:**
-Students understand what a signal is, why signals exist everywhere, and why engineers process them.
+**Goal:** Students understand what a signal is, why signals exist everywhere, and why engineers process them.
 
 ---
 ## <font color='green'>1.1 What is a Signal?</font>

@@ -8,9 +8,7 @@ search:
 ---
 # <font color='green'>Chapter 4: Signal vs Data</font>
 
-**Goal:**
-
-Students understand the distinction between a physical **signal** and its digital **data representation**, and why DSP operates on data rather than directly on real-world signals.
+**Goal:** Students understand the distinction between a physical **signal** and its digital **data representation**, and why DSP operates on data rather than directly on real-world signals.
 
 ---
 

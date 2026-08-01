@@ -9,9 +9,7 @@ search:
 
 # <font color='green'>Chapter 2: Analog-to-Digital Conversion (ADC)</font>
 
-**Goal:**
-
-Students understand how an analog signal is converted into a digital signal through **sampling** and **quantization**, and the practical limitations introduced by this conversion.
+**Goal:** Students understand how an analog signal is converted into a digital signal through **sampling** and **quantization**, and the practical limitations introduced by this conversion.
 
 ---
 ## <font color='green'> 2.1 Introduction to ADC </font>
