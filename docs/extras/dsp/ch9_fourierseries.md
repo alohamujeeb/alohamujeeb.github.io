@@ -237,9 +237,14 @@ Unlike the square and triangle waves, it contains both odd and even harmonics.
 ──────┘   └─────────┘   └────────► Time
 ```
 
-A pulse train consists of repeating pulses.
+A pulse train consists of **narrow rectangular pulses** that repeat periodically.
+
+Unlike a **rectangular (square) wave**, the pulse remains high for only a **small fraction of each period**, with the signal staying low for the remainder of the cycle.
+
+Changing the **pulse width** (or **duty cycle**) changes the harmonic content, making pulse trains particularly important in digital communications, radar, and pulse-width modulation (PWM).
 
 Changing the pulse width changes the harmonic content, making pulse trains particularly important in digital communications and power electronics.
+
 
 ### Key Takeaway
 
