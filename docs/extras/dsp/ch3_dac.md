@@ -84,16 +84,9 @@ The DAC converts each digital value into a corresponding analog voltage (or curr
 ```text
 Digital Samples
 12   18   25   20   15
- │    │    │    │    │
- ▼    ▼    ▼    ▼    ▼
-┌─┐  ┌──┐ ┌────┐ ┌───┐ ┌──┐
-│ │  │  │ │    │ │   │ │  │
-└─┘  └──┘ └────┘ └───┘ └──┘
 ```
+![DAC Staircase Waveform](images/ch3_dac_pic1.png)
 
-Notice that the output is **not yet a smooth analog signal**. Instead, it looks like a series of small steps, often called a **staircase waveform**.
-
-In the next section, we will see how this staircase waveform is converted into a smooth analog signal.
 
 ### Key Takeaway
 
@@ -126,6 +119,9 @@ Reconstruction Filter
       ▼
 Analog Signal
 ```
+
+![DAC Reconstruction Filter](images/ch3_dac_pic2.png)
+
 
 Without the reconstruction filter, the output would contain unwanted high-frequency components introduced by the staircase waveform.
 
