@@ -26,7 +26,9 @@ Students understand how physical signals are converted into digital data and the
 
 ### [Chapter 3: Digital to Analog Conversion (DAC)](ch3_dac.md)
 
-### [Chapter 4: Hands-on Exercises](ch4_p1handson.md)
+### [Chapter 4: Signal vs Data](ch4_signalvsdata.md)
+
+### [Chapter 5: Hands-on Exercises](ch5_p1handson.md)
 
 
 ---
