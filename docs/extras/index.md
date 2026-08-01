@@ -16,7 +16,7 @@ search:
 ---
 ## 1. DSP
 
-[DSP Fundamentals (Undergraduate Level)](dsp/index.md)
+[DSP Fundamentals (A Concept-Firt Approach)](dsp/index.md)
 
 
 

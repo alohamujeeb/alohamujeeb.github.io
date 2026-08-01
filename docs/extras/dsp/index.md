@@ -7,7 +7,7 @@ search:
   
 ---
 
-# <font color='green'>DSP Fundamentals (Concept-First Approach)</font>
+# <font color='green'>DSP Fundamentals (A Concept-First Approach)</font>
 
 The content is intended for an introductory undergraduate course on Digital Signal Processing (DSP).
 

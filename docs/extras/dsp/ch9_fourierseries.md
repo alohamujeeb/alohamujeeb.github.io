@@ -390,17 +390,20 @@ The height of the line indicates the amplitude of that harmonic.
 The **phase spectrum** shows the phase angle associated with each harmonic.
 
 ```text
-Phase
- ^
- |
- |      ●
- |
- |                 ●
- |
- |            ●
- |
- +-----------------------------------------> Frequency
-      f₀   2f₀  3f₀  4f₀  5f₀
+
+Phase (rad)
+     ^
+ π   |                 ●
+     |
+π/2  |      ●
+     |
+ 0   |---------------------------●----------------
+     |
+-π/2 |            ●
+     |
+-π   |                           ●
+     +------------------------------------------------> Frequency (Hz)
+        f₀      2f₀      3f₀      4f₀      5f₀
 ```
 
 Each harmonic has its own phase, which determines how that sinusoidal component is shifted in time.
