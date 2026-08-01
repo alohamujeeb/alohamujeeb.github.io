@@ -8,14 +8,14 @@ search:
 ---
 
   
-# <font color='green'>Chapter 5: Approaches to Signal Processing</font>
+# <font color='green'>Chapter 6: Approaches to Signal Processing</font>
 
 **Goal:** Students understand that **frequency-domain analysis and digital filtering are only two of many approaches to signal processing**, and gain a high-level overview of the broader techniques used in modern signal processing.
 
 
 ---
 
-## <font color='green'>5.1 Why Are There Different Approaches?</font>
+## <font color='green'>6.1 Why Are There Different Approaches?</font>
 
 Signal processing is a vast field. Over the years, engineers and researchers have developed many different ways to analyze and process signals.
 
@@ -40,7 +40,7 @@ In this course, we focus on **frequency-domain analysis**, since it forms the fo
 **Frequency-domain analysis is one of many approaches to signal processing. The appropriate technique depends on the problem being solved.**
 
 ---
-## <font color='green'>5.2 Major Approaches to Signal Processing</font>
+## <font color='green'>6.2 Major Approaches to Signal Processing</font>
 
 The table below summarizes some of the major approaches used in modern signal processing.
 
@@ -65,7 +65,7 @@ Historically, it became the foundation of classical DSP because of its success i
 There is **no single "best" signal processing technique**. Different problems require different approaches, and many real-world systems combine several of them.
 
 ---
-## <font color='green'>5.3 Why Frequency-Domain Analysis?</font>
+## <font color='green'>6.3 Why Frequency-Domain Analysis?</font>
 
 Among the many signal processing approaches, **frequency-domain analysis** has had the greatest historical impact on Digital Signal Processing.
 
@@ -86,7 +86,7 @@ For this reason, the next part of this course focuses entirely on **thinking in 
 Frequency-domain analysis is **one of many approaches** to signal processing, but it remains one of the most important foundations of classical DSP.
 
 ---
-## <font color='green'>Chapter Summary</font>
+## <font color='green'>6.4 Chapter Summary</font>
 
 In this chapter, we looked at the broader landscape of signal processing and learned that **frequency-domain analysis is only one of many approaches** used to analyze and process signals.
 
