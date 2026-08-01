@@ -266,5 +266,8 @@ In the next part of the course, we will shift our focus from **how signals are r
 ---
 ## **Relevant Links**
 
-[Back to DSP main page](index.md)
+[Back to DSP Undergrade Level](index.md)
+
+[Back to DSP Courses (All)](../index.md)
+
 

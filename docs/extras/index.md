@@ -11,11 +11,12 @@ search:
 ---
 
 # Extras page
-(For my reference only)
+(For my reference )
 
 ---
 ## 1. DSP
 
-[DSP Notes](dsp/index.md)
+[DSP Fundamentals (Undergraduate Level)](dsp/index.md)
+
 
 

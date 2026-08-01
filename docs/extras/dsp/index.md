@@ -7,9 +7,9 @@ search:
   
 ---
 
-# <font color='green'>My DSP Notes</font>
+# <font color='green'>DSP Fundamentals (Undergraduate Level)</font>
 
-A collection of notes on DSP
+The material is suitable for undergraduate DSP course.
 
 ---
 ## <font color='green'>Part I (Signals & Sampling)</font>
@@ -25,6 +25,8 @@ Students understand how physical signals are converted into digital data and the
 ### [Chapter 2: Analog-to-Digital Conversion (ADC)](ch2_adc.md)
 
 ### [Chapter 3: Digital to Analog Conversion (DAC)](ch3_dac.md)
+
+### [Chapter 4: Hands-on Exercises](ch4_p1handson.md)
 
 
 ---
@@ -118,3 +120,8 @@ Students understand the purpose and relationship of the time domain, frequency d
 		Relationship to the Fourier Transform
 
 	Putting It All Together
+
+---
+## **Relevant Links**
+
+[Back to DSP Courses (All)](../index.md)

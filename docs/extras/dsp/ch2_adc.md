@@ -306,9 +306,11 @@ In the next chapter, we will study the reverse process—**Digital-to-Analog Con
 
 
 
-
 ---
 ## **Relevant Links**
 
-[Back to DSP main page](index.md)
+[Back to DSP Undergrade Level](index.md)
+
+[Back to DSP Courses (All)](../index.md)
+
 
