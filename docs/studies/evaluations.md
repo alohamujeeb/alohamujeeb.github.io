@@ -1,5 +1,7 @@
 ---
-  
+hide:
+   - toc
+   
 tags:
     - Technical Evaluations
 

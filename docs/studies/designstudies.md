@@ -1,4 +1,6 @@
 ---
+hide:
+   - toc
   
 tags:
     - Design Studies
@@ -7,7 +9,7 @@ tags:
 
 # Design Studies
 
-(Coming soon...)
+(WIP)
 
 
 

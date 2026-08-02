@@ -1,4 +1,6 @@
 ---
+hide:
+   - toc
   
 tags:
     - lessons
@@ -8,8 +10,8 @@ tags:
 ---
 
 # Lessons Learnt
+(WIP)
 
-(coming soon...)
 
 
 
