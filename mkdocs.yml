@@ -132,7 +132,7 @@ nav:
     - <font color='green'><h3>Introduction</h3></font>:
       - About Me: about/aboutme.md
       - Contact Info: about/contact.md
-    - <font color='green'><h3>Whispers of Heart</h3></font>: quotes.md
+    - <font color='green'><h3>Whispers of Heart</h3></font>: woh.md
     - <font color='green'><h3>My Inspiration</h3></font>: about/inspiration.md
     - <font color='green'><h3>Search</h3></font>:
       - Keywords/Tags: tags.md
