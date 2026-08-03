@@ -18,7 +18,7 @@ hide:
 	<td>
 	  <a href="../programming/languages/python/index.html"><strong>Python Notes (big picture approach)</strong></a>
 	  <br><br>
-	  <a href="../programming/languages/clang/index.html"><strong>Advanced C Topics (beyond textbooks)</strong></a>
+	  <a href="../programming/languages/clang/index.html"><strong>Advanced Topics in C Programming(beyond textbooks)</strong></a>
 	  <br><br>
 	  
 	</td>
@@ -26,6 +26,8 @@ hide:
   <tr>
     <td><font color='green'>Media / Video / Streaming</font></td>
 	<td>
+	  <a href="../programming/media-streaming/index.html"><strong>Media/Streaming Main Page</strong></a>
+	  <br><br>
 	  <a href="../blog/2026/03/30/video-quality-pt1--overview.html"><strong>Video Quality Assessment Algorithms</strong></a>
 	  <br><br>
 	  <a href="../blog/2026/04/29/video-encoding--part-1-image-formats.html"><strong>Video and Image Encoding</strong></a>
@@ -52,6 +54,8 @@ hide:
        <br><br>
        <a href="../blog/2026/07/29/why-c-is-not-my-first-choice.html"> <strong>Why C++ Is NOT My First Choice</strong></a>
        <br><br>
+		<a href="../programming/languages/clang/index.html"><strong>Topics in C for Embedded Systems</strong></a>
+              <br><br>
     </td>
 
 
