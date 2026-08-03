@@ -142,8 +142,8 @@ nav:
     - <strong><font color='red'><h3>Important Topics</h3></font></strong>: 
       - Important Topics: featured/index.md  
       - <font color='green'>Technical Evaluations</font>: studies/evaluations.md
-      - <font color='green'>Desgin Studies</font>: studies/designstudies.md
       - <font color='green'>Comparisions</font>: studies/comparisions.md
+      - <font color='green'>Desgin Studies</font>: studies/designstudies.md
       - <font color='green'>Lessons Learnt</font>: studies/lessons.md
     
   - Notes/References: 

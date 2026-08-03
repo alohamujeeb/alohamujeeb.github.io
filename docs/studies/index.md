@@ -14,23 +14,19 @@ This section contains engineering evaluations, design studies, and practical ins
 
 ---
 <font color='green'> **Technical Evaluations** </font>
-*(Framework and technology assessments)*
+<br>*(Framework and technology assessments)*
 
-<table>
+<table border="1">
     <tr>
         <td><a href="openrmf_assessment.html">OpenRMF: Engineering Assessment</a></td>
     </tr>
 </table>
 
 ---
-<font color='green'> **Design Studies** </font>
-<br>*(Architecture and design analyses)*
-
----
 <font color='green'> **Comparisons** </font>
 <br>*(Technology, tools and engineering comparisons)* 
 
-<table>
+<table border="1">
     <tr>
         <td>
             <a href="../blog/2026/07/29/why-c-is-not-my-first-choice.html">
@@ -54,6 +50,11 @@ This section contains engineering evaluations, design studies, and practical ins
         </td>
     </tr>
 </table>
+
+
+---
+<font color='green'> **Design Studies** </font>
+<br>*(Architecture and design analyses)*
 
 ---
 <font color='green'> **Lessons Learned** </font>
