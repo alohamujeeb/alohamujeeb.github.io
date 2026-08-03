@@ -39,7 +39,7 @@ search:
 
 - **Don't call me lucky. I failed more times than you even tried.**
 
-- **Do yourself a favour, GET RICH. Life gets better with money, not with time.**
+- <font color='red'>**Do yourself a favour, GET RICH. Life gets better with money, not with time.**</font>
 
 ---
 
