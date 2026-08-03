@@ -8,10 +8,52 @@ hide:
 # <font color='green'>Index of Important Topics</font>
 
 
-| <font color='green'>Select a topic of interest</font> | | | 
-|---|---|--|
-| <font color='tomato' size=+1>**Programming**</font><br><br>[**Python Notes(big picture approach)**](../programming/languages/python/index.md)<br>(Advanced Python topics/notes) <br><br> [**Adanced C Topics (beyond textbooks)**](../programming/languages/clang/index.md)<br>Advanced/professional level topics  | <font color='tomato' size=+1>**Media/Video**</font> <br><br>[**Video Quality Assessment Algorithms**](../blog/posts/2026-04-01-VideoQuality-P1.md)<br>(video quality objective assessment) <br><br>[**Video and Image Encoding**](../blog/posts/2026-04-29-video_encoding_p1.md)<br>(video and image compression/coding concepts)| <font color='tomato' size=+1>**Networking in Linux**</font><br>
-|  | |
+<table border="1">
+  <tr>
+    <th><strong><font color='tomato'>Category</font></strong></th>
+    <th><strong><font color='tomato'>Topics</font></strong></th>
+  </tr>
+  <tr>
+    <td><font color='green'>Programming</font></td>
+	<td>
+	  <a href="../programming/languages/python/index.html"><strong>Python Notes (big picture approach)</strong></a>
+	  <br><br>
+	  <a href="../programming/languages/clang/index.html"><strong>Advanced C Topics (beyond textbooks)</strong></a>
+	  <br><br>
+	  
+	</td>
+  </tr>
+  <tr>
+    <td><font color='green'>Media / Video / Streaming</font></td>
+	<td>
+	  <a href="../blog/2026/03/30/video-quality-pt1--overview.html"><strong>Video Quality Assessment Algorithms</strong></a>
+	  <br><br>
+	  <a href="../blog/2026/04/29/video-encoding--part-1-image-formats.html"><strong>Video and Image Encoding</strong></a>
+	  <br><br>
+	  
+	</td>
+  </tr>
+  <tr>
+    <td><font color='green'>Networking in Linux</font></td>
+    <td>
+       <a href="../../blog/2026/07/31/persistent-vs-non-persistent-connections-choosing-the-right-communication-model.html"> <strong>Persistent vs Non-Persistent Connections (Choosing the Right Communication Model)</strong> </a>
+       <br><br>
+
+    </td>
+  </tr>
+  <tr>
+    <td><font color='green'>Embedded System</font></td>
+    <td>
+       <a href="../../blog/2026/08/03/bare-metal-vs-operating-systems-in-embedded-systems-choosing-the-right-software-architecture.html"> <strong>Bare Metal vs OS-Based Embedded Systems</strong> </a>
+       <br><br>
+       <a href="../blog/2026/07/29/why-c-is-not-my-first-choice.html"> <strong>Why C++ Is NOT My First Choice</strong></a>
+       <br><br>
+    </td>
+
+
+  </tr>
+</table>
+
 
 
 
