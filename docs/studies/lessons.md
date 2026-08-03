@@ -9,7 +9,7 @@ tags:
 
 ---
 
-# Lessons Learnt
+# Lessons Learnd
 (WIP)
 
 

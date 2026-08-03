@@ -4,26 +4,32 @@ search:
 ---
 
 
-# Codes and Quotes
-(Whisphers of Heart)
+# Whispers of the Heart
+*Some of my favourite quotes*
+
 
 ---
-## <font color='amber'>Work and Profession</font>
-- **Dont tell me. I want to SEE your words. Show me**
+
+## <font color="tomato">Life and Philosophy</font>
+
+- **There's talk of freedom everywhere, yet people outsource their thinking at the very first opportunity.**
+
+- **People who give you 20 tips for success are usually filling pages, not changing lives. One insight is enough—if it truly hits.**
+
+
+---
+
+## <font color="tomato">Work and Life</font>
+
+- **Don't call me lucky. I failed more times than you even tried.**
 - **What are they trying to cover up behind those flashy slides?**
 
----
-## <font color='amber'>**Honor and Respect**</font>
-- **Loyalty above all — except honour**.
-- Why is self-degradation necessary in order to show respect to someone else?
-
 
 ---
-## <font color='amber'>Freedom & Speech</font>
-- **Without freedom of speech we would not know who the idiots are.**
 
+## <font color="tomato">Honour and Respect</font>
 
----
-## <font color='amber'>Life and Philosophy</font>
-- **There’s talk of freedom everywhere, yet thinking gets outsourced at the very first chance.**
+- **Loyalty above all—except honour.**
+- **Why is self-degradation necessary to show respect for someone else?**
+
 

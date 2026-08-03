@@ -132,7 +132,7 @@ nav:
     - <font color='green'><h3>Introduction</h3></font>:
       - About Me: about/aboutme.md
       - Contact Info: about/contact.md
-    #- <font color='green'><h2>Whispers of Heart</h2></font>: quotes.md
+    - <font color='green'><h3>Whispers of Heart</h3></font>: quotes.md
     - <font color='green'><h3>My Inspiration</h3></font>: about/inspiration.md
     - <font color='green'><h3>Search</h3></font>:
       - Keywords/Tags: tags.md
@@ -144,7 +144,7 @@ nav:
       - <font color='green'>Technical Evaluations</font>: studies/evaluations.md
       - <font color='green'>Comparisions</font>: studies/comparisions.md
       - <font color='green'>Desgin Studies</font>: studies/designstudies.md
-      - <font color='green'>Lessons Learnt</font>: studies/lessons.md
+      - <font color='green'>Lessons Learnd</font>: studies/lessons.md
     
   - Notes/References: 
     - References: references/index.md
