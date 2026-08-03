@@ -30,6 +30,10 @@ hide:
 	  <br><br>
 	  <a href="../blog/2026/04/29/video-encoding--part-1-image-formats.html"><strong>Video and Image Encoding</strong></a>
 	  <br><br>
+	  <a href="../programming/media-streaming/camera_in_python_linux.html"><strong>Reading Camera in Python (various methods)</strong></a>
+	  <br><br>
+
+
 	  
 	</td>
   </tr>
