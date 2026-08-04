@@ -37,7 +37,7 @@ search:
 
 - **You dont need more time; You need less distractions.**
 
-- **Don't call me lucky. I failed more times than you even tried.**
+- **Don't call me lucky; I failed more times than you even tried.**
 
 - <font color='red'>**Do yourself a favour, GET RICH. Life gets better with money, not with time.**</font>
 
@@ -56,7 +56,7 @@ search:
 
 ## <font color="tomato">Honour, Respect, and Freedom</font>
 
-- **Loyalty above all—except honour.**
+- **<i>"Loyalty above all—except honour"</i>;  I wonder if those who call themselves loyal understand that true loyalty is guided by honour, not blind obedience.**
 
 - **Why is self-degradation necessary to show respect for someone else?**
 
