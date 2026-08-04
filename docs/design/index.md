@@ -84,6 +84,8 @@ tags:
 ## <font color='green'> 6. Software Development Practices & Tools </font>
 *Development methodologies, software quality, engineering workflows, and developer productivity.*
 
+<strong> [▶ **Software Isolation- Docker vs Python `venv`**](../blog/posts/2025-10-01-docker-img_vs_python-venv.md)</strong>
+
 <strong> [▶ **Is goto statement dead?**](../blog/posts/2025-08-02-is-goto-dead.md)</strong>
 
 <strong> [▶ **Circular wisdom – if-else or try-catch?**](../blog/posts/2025-08-20-circular-wisdom.md)</strong>
