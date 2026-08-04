@@ -118,7 +118,7 @@ tags:
 
 ### **8.2 Supervised/Unsupervised Algorithms**
 
-<strong> [▶ **Support Vector Machine (SVM)**](../aiarena/supervised/svm.md)</strong>
+<strong> [▶ **Support Vector Machine (SVM)**](../aiml/supervised/svm.md)</strong>
 
 <strong> [▶ **Unsupervised Learning: From Recognition to Discovery**](../blog/posts/2026-05-13-AI_vs_Conventional_Algos.md)</strong>
 
