@@ -40,7 +40,7 @@ tags:
 ## <font color='green'> 3. Robots and Fleets </font>
 *Robot software architecture, connectivity, distributed robotics, simulation, and autonomous systems.*
 
-### **3.1 ROS/ROS2**
+### **ROS/ROS2**
 <strong> [▶ **OpenRMF-  A Technical Assessment**](./openrmf_assessment.md)</strong>
 
 
@@ -53,7 +53,7 @@ tags:
 <strong> [▶ **Snap vs APT Package Managers (A Comparision)**](../blog/posts/2026-05-05-Apt_vs_Snap.md)</strong>
 
 
-### **4.1 Networking in Linux**
+### **Networking in Linux**
 
 <strong> [▶ **Network Address Translation (NAT)**](../linux/linux-networking/nat.md)</strong>
 
@@ -107,7 +107,7 @@ tags:
 ## <font color='green'> 8. AI & Machine Learning </font>
 *Artificial intelligence, machine learning, computer vision, perception, and intelligent autonomous systems.*
 
-### **8.1 Back to Basics**
+### **Back to Basics**
 
 <strong> [▶ **AI Algorithms vs. Conventional Algorithms**](../blog/posts/2026-05-13-AI_vs_Conventional_Algos.md)</strong>
 
@@ -118,13 +118,13 @@ tags:
 <strong> [▶ **Beyond 3D: Extending the Mathematics We Already Know**](../blog/posts/2026-07-08-HigherDimensionMaths.md)</strong>
 
 
-### **8.2 Supervised/Unsupervised Algorithms**
+### **Supervised/Unsupervised Algorithms**
 
 <strong> [▶ **Support Vector Machine (SVM)**](../aiml/supervised/svm.md)</strong>
 
 <strong> [▶ **Unsupervised Learning: From Recognition to Discovery**](../blog/posts/2026-05-13-AI_vs_Conventional_Algos.md)</strong>
 
 
-### **8.2 Advanced Topics and Applications**
+### **Advanced Topics and Applications**
 
 

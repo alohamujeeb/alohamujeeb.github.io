@@ -15,34 +15,31 @@ tags:
 
 | **Explore the Following Categories** | |
 |---|---|
-| • Python | • Linux & Systems |
-| • C Language | • Networking & Distributed Systems |
-| • Embedded Systems Software/Firmware | • Development Tools |
-| • Robotics | • Media & Streaming |
-| • AI & Machine Learning | |
+| • Python and C Programming| • Linux & Systems |
+| • Networking & Distributed Systems | • Embedded Systems Software/Firmware |
+| • Development Tools | • Robotics | 
+|• Media & Streaming | • AI & Machine Learning | |
 
 
-## <font color='green'> 1. Python </font>
-*Advanced Python programming and practical software development.*
+## <font color='green'> 1. Python and C Programming </font>
 
 <strong> [▶ **Python:** Programming with Advanced Topics (A Series)](../programming/languages/python/index.md) </strong>
-
----
-## <font color='green'> 2. C Language </font>
-*Advanced C programming for systems and embedded software.*
+<br>*Advanced Python programming and practical software development.*
 
 <strong> [▶ **C Language:** Beyond textbooks (A Series)](../programming/languages/clang/index.md) </strong>
+<br>*Advanced C programming for systems and embedded software.*
 
 
 ---
-## <font color='green'> 3. Embedded Systems </font>
+## <font color='green'> 2. Embedded Systems </font>
 *Firmware, Embedded Linux, RTOS, and embedded software development.*
 
+### **Embedded Software and Firmware**
 <strong> [▶ **Topics in C for Embedded Systems (A Series)**](../programming/languages/clang/index.md) </strong>
 
-### 3.1 Modems and Routers
+### **Modems and Routers**
 
-**Quectel RM530N-GL Mode** 
+Quectel RM530N-GL Mode 
 
 <strong> [▶ **What is Quectel RM530N-GL Modem?**](../web/fe/jsfe/index.md)</strong>
 
@@ -55,10 +52,10 @@ tags:
 
 
 ---
-## <font color='green'> 4. Robots & Fleets</font>
+## <font color='green'> 3. Robots & Fleets</font>
 *Robot software, ROS2, connectivity, simulation, and fleet management.*
 
-### **4.1 ROS and ROS-Based Tools**
+### **ROS and ROS-Based Tools**
 
 <strong> [▶ **ROS2 Core (Various Topics)**](../drobots/ros/ros2/index.md) </strong>
 
@@ -71,10 +68,10 @@ tags:
 
 
 ---
-## <font color='green'> 5. Linux & Systems </font>
+## <font color='green'> 4. Linux & Systems </font>
 *Linux programming, automation, server applications, and embedded platforms.*
 
-### **5.1 CLI, Bash, Scripting and Automation**
+### **CLI, Bash, Scripting and Automation**
 
 <strong> [▶ **Command Line Reference**](../linux/cli-bash/linux-cli.md)</strong>
 
@@ -85,20 +82,20 @@ tags:
 <strong> [▶ **TMUX (Terminal Multiplexer)**](../linux/cli-bash/tmux.md)</strong>
 
 
-### **5.2 Linux Virtual Machines**
+### **Linux Virtual Machines**
 
 <strong> [▶ **WSL Quick Reference**](../linux/linuxvm/wsl/wsl-setup.md)</strong>
 
 
-### **5.3 Networking in Linux**
+### **Networking in Linux**
 
 
 
-### **5.4 Linux System Programming**
+### **Linux System Programming**
 
 
 ---
-## <font color='green'> 6. Networking & Distributed Systems </font>
+## <font color='green'> 5. Networking & Distributed Systems </font>
 *Network programming, APIs, protocols, and distributed communication.*
 
 ### **Web Frontend and Backend**
@@ -113,17 +110,17 @@ tags:
 
 
 ---
-## <font color='green'> 7. Development Tools </font>
+## <font color='green'> 6. Development Tools </font>
 *Development tools, debugging, build systems, containers, and automation.*
 
 <strong> [▶ **Docker 101 (A Series)**](../programming/sweng/docker/index.md)</strong>
 
 
 ---
-## <font color='green'> 8. Media & Streaming Systems </font>
+## <font color='green'> 7. Media & Streaming Systems </font>
 *Practical media streaming using GStreamer, FFmpeg, WebRTC, RTP/RTSP, media servers, codecs, and multimedia programming.*
 
-### **8.1 Camera and Streaming Tools**
+### **Camera and Streaming Tools**
 
 <strong> [▶ **Video for Linux (v4l)**](../programming/media-streaming/v4l.md)</strong>
 
@@ -132,7 +129,7 @@ tags:
 <strong> [▶ **ffmpeg quick reference**](../programming/media-streaming/ffmpeg-reference.md)</strong>
 
 ---
-## <font color='green'> 9. AI & Machine Learning </font>
+## <font color='green'> 8. AI & Machine Learning </font>
 *Practical AI programming, machine learning, computer vision, robotic perception, model integration, and intelligent application development.*
 
 
