@@ -1,4 +1,7 @@
 ---
+hide:
+     - navigation
+     
 tags:
     - rmf
     - openrmf
@@ -24,6 +27,5 @@ tags:
 
 [Open-RMF Demos](https://github.com/open-rmf/rmf_demos)
 
-[Open-RMF Technical Assessment](../../studies/openrmf_assessment.md)
 
 

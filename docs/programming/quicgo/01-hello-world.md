@@ -1,6 +1,11 @@
 ---
+hide:
+     - navigation
+     
 tags:
+  - quic
   - quic-go
+  
 ---
 
 # Hello World  in Quic-Go

@@ -1,6 +1,9 @@
-# Engineering Autonomous Systems
+# <font color='green'>Engineering Software Systems</font>
 
-<center><b>A personal collection of software engineering, autonomous systems, distributed computing, and technical explorations</b></center>
+*Software engineering insights, practical references, and learning resources for embedded systems, robotics, networking, Linux, and modern software development.*
+
+> Understanding the **why** behind software design and the **how** behind software implementation.
+
 
 ---
 
@@ -16,76 +19,88 @@ img {
 
 
 ---
-## Welcome
+## <font color='green'> Welcome </font>
 
 Welcome! I'm glad you're here.
 
-This website is my personal space to document ideas, experiments, lessons learned, and projects that I find interesting.
+This website is my personal knowledge base for software engineering. It is where I document ideas, design decisions, practical code, experiments, and lessons learned while building software systems.
 
-I primarily write these notes for my own reference, but if they happen to help someone else solve a problem or learn something new, then that is an added bonus.
+I originally created these notes for my own reference, but over time they evolved into a collection of resources that I hope others will also find useful.
 
-I don't view this website as a tutorial or an authoritative reference on any particular subject.
+Rather than being a traditional tutorial site, this is a place to share the reasoning behind engineering decisions, along with practical techniques and reusable solutions drawn from real-world projects.
 
-Instead, it is my channel of expression through software engineering. Some people paint, some write music—I enjoy building systems, exploring ideas, and writing about what I learn along the way.
+---
+## <font color='green'> How This Site Is Organized </font>
+
+The content is organized into two complementary sections:
+
+### Design Notes
+
+Explore the **why** behind software engineering—design decisions, architectural trade-offs, technology choices, and practical lessons learned from building real software systems.
+
+### Code Reference
+
+Explore the **how** through practical code snippets, implementation techniques, reusable examples, and quick references for everyday software development.
+
+Together, these sections aim to answer the two questions every software engineer asks:
+
+* **Why should I build it this way?**
+* **How do I implement it?**
 
 ---
 
-## What You'll Find Here
+## <font color='green'> Topics You'll Find </font>
 
-My interests span software engineering across many domains, with a recurring focus on building reliable and intelligent systems.
+The content spans a broad range of software engineering topics, including:
 
-Topics frequently include:
+* Programming Languages & Software Engineering
+* Embedded Systems
+* Robotics
+* Networking & Distributed Systems
+* Linux
+* Software Development Practices & Tools
+* Artificial Intelligence
+* Modern Software Development
 
-- Embedded Linux platforms
-- Robotics middleware (ROS2)
-- Distributed computing
-- Networking and communication systems
-- Cloud-edge integration
-- System reliability and fault tolerance
-- AI-enabled autonomous systems
-- Real-time data and media transmission
-- End-to-end system integration
-- Programming, software architecture, and system design
-
-Although autonomous systems remain a central theme, I also write about any software engineering topic that captures my curiosity. Some articles are deep technical dives, while others are simply notes, observations, or lessons learned during a project.
+As the site continues to grow, additional learning resources—including books, guides, and courses—will complement these notes and references.
 
 ---
 
-## Why This Site Exists
+## <font color='green'> Why This Site Exists </font>
 
-This website serves several purposes:
+This website serves as:
 
-- A personal knowledge base that I can return to whenever I need it.
-- A place to document projects, experiments, and technical explorations.
-- A showcase of things I have built or learned.
-- A way to organize my thoughts and share them with anyone who might find them useful.
+* A personal software engineering knowledge base.
+* A place to document ideas, experiments, and projects.
+* A collection of practical references for solving real-world problems.
+* A platform for sharing engineering experience and continuous learning.
 
-Many articles originate from real-world engineering work, while others come simply from curiosity and a desire to understand how things work.
+Some articles are based on production systems, others on personal projects or technical explorations. Regardless of their origin, the goal is always the same: to better understand software engineering and share that knowledge with others.
 
-If even one article saves someone a few hours of debugging, sparks a new idea, or encourages them to explore a topic more deeply, then sharing it has been worthwhile.
-
----
-
-## Looking for Something?
-
-Use the search bar to find topics such as:
-
-- ROS2
-- Linux
-- WebRTC
-- Networking
-- Distributed Systems
-- Robotics
-- Drones
-- Artificial Intelligence
-- Software Engineering
-
-Or browse the **[Keywords](tags.md)** page to explore articles by topic.
+If something here helps you make a better design decision, solve a difficult problem, or learn something new, then this site has achieved its purpose.
 
 ---
 
-## Contact
+## <font color='green'> Looking for Something? </font>
 
-If you'd like to discuss engineering, collaborate on a project, or simply say hello, feel free to get in touch.
+Use the search bar or browse the categories to explore topics such as:
 
-👉 **[Get in Touch (email, social media) →](./about/contact.md)**
+* Software Engineering
+* Embedded Systems
+* Robotics
+* Networking
+* Linux
+* Distributed Systems
+* Artificial Intelligence
+
+Or browse the **Keywords** page to discover articles by topic.
+
+---
+
+## <font color='green'> Contact </font>
+
+If you'd like to discuss software engineering, collaborate on a project, or simply say hello, feel free to get in touch.
+
+👉 **[Get in Touch →](./about/contact.md)**
+
+

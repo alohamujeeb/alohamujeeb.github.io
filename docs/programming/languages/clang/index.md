@@ -1,4 +1,7 @@
 --- 
+hide:
+    - navigation
+    
 tags:
     - C/C++
     - C Language

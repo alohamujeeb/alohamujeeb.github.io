@@ -1,3 +1,13 @@
+---
+hide:
+     - navigation
+     
+tags:
+  - quic
+  - quic-python
+
+---
+
 # aioquic (QUIC implementation with Python): Hello, World
 
 ---

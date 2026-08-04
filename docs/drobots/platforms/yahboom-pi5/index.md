@@ -1,4 +1,7 @@
 ---
+hide:
+     - navigation
+     
 tags:
   - yahboom
 ---

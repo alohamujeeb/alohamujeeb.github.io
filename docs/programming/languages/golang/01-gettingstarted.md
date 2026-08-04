@@ -1,3 +1,10 @@
+---
+hide:
+     - navigation
+        
+---
+
+
 # **01-Getting Started**
 
 Main topics:

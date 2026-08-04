@@ -1,4 +1,7 @@
 ---
+hide:
+  - navigation
+  
 tags:
   - bash
   - linux scripting
