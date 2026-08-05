@@ -81,26 +81,12 @@ If something here helps you make a better design decision, solve a difficult pro
 
 ---
 
-## <font color='green'> Looking for Something? </font>
-
-Use the search bar or browse the categories to explore topics such as:
-
-* Software Engineering
-* Embedded Systems
-* Robotics
-* Networking
-* Linux
-* Distributed Systems
-* Artificial Intelligence
-
-Or browse the **Keywords** page to discover articles by topic.
-
----
 
 ## <font color='green'> Contact </font>
 
-If you'd like to discuss software engineering, collaborate on a project, or simply say hello, feel free to get in touch.
 
-👉 **[Get in Touch →](./about/contact.md)**
+**Email:** aloha.mujeeb AT yahoo.com *(please use @ instead of AT)*
+
+**LinkedIn:** [Connect with me on LinkedIn →](https://www.linkedin.com/in/alohamujeeb/){:target="_blank"}
 
 
