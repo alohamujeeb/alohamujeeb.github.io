@@ -14,88 +14,100 @@ tags:
 
 > <font color='red'> **Focus:** Understanding the **why** behind software engineering—the thinking process behind better design and engineering decisions.</font>
 
-|**Explore the following categories** | |
-|---|---|
-| • Programming and Languages | • Networking & Distributed Systems |
-| • Embedded Systems Software/Firmware | • Software Development Practices & Tools |
-| • Robotics | • Media & Streaming Systems |
-| • Linux & Systems | • AI & Machine Learning |
+---
+**Explore the following categories**
+
+<table style="border-collapse: collapse; width:100%;">
+<tr>
+    <td style="border:1px solid #999;">Programming and Languages</td>
+    <td style="border:1px solid #999;">Real-Time Embedded Systems</td>
+    <td style="border:1px solid #999;">Robotics and Fleet Managment</td>
+    <td style="border:1px solid #999;">Linux &amp; Systems</td>
+</tr>
+<tr>
+    <td style="border:1px solid #999;">Backend &amp; Distributed Systems</td>
+    <td style="border:1px solid #999;">Software Development Practices &amp; Tools</td>
+    <td style="border:1px solid #999;">Media &amp; Streaming Systems</td>
+    <td style="border:1px solid #999;">AI &amp; Machine Learning</td>
+</tr>
+</table>
 
 
+---
 ## <font color='green'> 1. Programming and Languages </font>
 *Programming languages, software architecture, design principles, and engineering trade-offs.*
 
-<strong> [▶ **Why C++ Is NOT My First Choice?**](../blog/posts/2026-07-29-WhyCppNotMyFirstChoice.md)</strong>
+[▶ Why C++ Is NOT My First Choice?](../blog/posts/2026-07-29-WhyCppNotMyFirstChoice.md)
 
-<strong> [▶ **Big(O) Notation Is About Scalability, Not Speed**](../blog/posts/2026-07-14-BigONotation.md)</strong>
+[▶ Big(O) Notation Is About Scalability, Not Speed](../blog/posts/2026-07-14-BigONotation.md)
 
 ---
-## <font color='green'> 2. Embedded Systems </font>
+## <font color='green'> 2. Real-Time & Embedded Systems </font>
 *Embedded software architecture, firmware design, RTOS, and real-world engineering practices.*
 
-<strong> [▶ **Bare Metal vs Operating Systems in Embedded Systems**](../blog/posts/2026-08-03-BaremetalvsOS.md)</strong>
+[▶ Bare Metal vs Operating Systems in Embedded Systems](../blog/posts/2026-08-03-BaremetalvsOS.md)
 
-<strong> [▶ **Real-Time Does Not Mean Fast: A Beginner's Misconception**](../blog/posts/2026-08-05-RTimeDoesntMeanFast.md)</strong>
+[▶ Real-Time Does Not Mean Fast: A Beginner's Misconception](../blog/posts/2026-08-05-RTimeDoesntMeanFast.md)
 
 
 ---
-## <font color='green'> 3. Robots and Fleets </font>
+## <font color='green'> 3. Robotics and Fleet Managment </font>
 
 ### **ROS/ROS2**
-<strong> [▶ **OpenRMF-  A Technical Assessment**](./openrmf_assessment.md)</strong>
+[▶ OpenRMF-  A Technical Assessment](./openrmf_assessment.md)
 
 
 ---
 ## <font color='green'> 4. Linux & Systems </font>
 *Linux platforms, embedded Linux, server systems, automation, and systems engineering.*
 
-<strong> [▶ **Operating System Components: A Conceptual Overview**](../blog/posts/2026-05-22-Operating_Systems_Components.md)</strong>
+[▶ Operating System Components: A Conceptual Overview](../blog/posts/2026-05-22-Operating_Systems_Components.md)
 
-<strong> [▶ **Snap vs APT Package Managers (A Comparision)**](../blog/posts/2026-05-05-Apt_vs_Snap.md)</strong>
+[▶ Snap vs APT Package Managers (A Comparision)](../blog/posts/2026-05-05-Apt_vs_Snap.md)
 
 ### **Networking in Linux**
 
-<strong> [▶ **Network Address Translation (NAT)**](../linux/linux-networking/nat.md)</strong>
+[▶ Network Address Translation (NAT)](../linux/linux-networking/nat.md)
 
-<strong> [▶ **Linux Firewall**](../linux/linux-networking/linux-firewall.md)</strong>
+[▶ Linux Firewall](../linux/linux-networking/linux-firewall.md)
 
-<strong> [▶ **Data Piping: `netcat` and `socat`**](../linux/linux-networking/datapiping.md)</strong>
+[▶ Data Piping: `netcat` and `socat`](../linux/linux-networking/datapiping.md)
 
-<strong> [▶ **Bridging and Forwarding Techniques**](../linux/linux-networking/forwarding-bridges.md)</strong>
+[▶ Bridging and Forwarding Techniques](../linux/linux-networking/forwarding-bridges.md)
 
-<strong> [▶ **Modem Manager**](../linux/linux-networking/modem-manager.md)</strong>
+[▶ Modem Manager](../linux/linux-networking/modem-manager.md)
 
 
 ---
-## <font color='green'> 5. Networking & Distributed Systems </font>
+## <font color='green'> 5. Backend & Distributed Systems </font>
 
-<strong> [▶ **Persistent vs Non-Persistent Connections**](../blog/posts/2026-07-31-Persistent_and_NonPersistent.md)</strong>
+[▶ Persistent vs Non-Persistent Connections](../blog/posts/2026-07-31-Persistent_and_NonPersistent.md
 
 ### **QUIC Protocol**
 
-<strong> [▶ **QUIC Protocol (An Evolving Modern Transport Method)**](../programming/media-streaming/protocols/quic.md)</strong>
+[▶ QUIC Protocol (An Evolving Modern Transport Method)](../programming/media-streaming/protocols/quic.md)
 
-<strong> [▶ **WebTransport- An Introduction**](../blog/posts/2026-05-29-WebTransport_Intro.md)</strong>
+[▶ WebTransport- An Introduction](../blog/posts/2026-05-29-WebTransport_Intro.md)
 
 
 ---
 ## <font color='green'> 6. Software Development Practices & Tools </font>
 
-<strong> [▶ **Software Isolation- Docker vs Python `venv`**](../blog/posts/2025-10-01-docker-img_vs_python-venv.md)</strong>
+[▶ Software Isolation- Docker vs Python `venv`](../blog/posts/2025-10-01-docker-img_vs_python-venv.md)
 
-<strong> [▶ **Is goto statement dead?**](../blog/posts/2025-08-02-is-goto-dead.md)</strong>
+[▶ Is goto statement dead?](../blog/posts/2025-08-02-is-goto-dead.md)
 
-<strong> [▶ **Circular wisdom – if-else or try-catch?**](../blog/posts/2025-08-20-circular-wisdom.md)</strong>
+[▶ Circular wisdom – if-else or try-catch?](../blog/posts/2025-08-20-circular-wisdom.md)
 
 
 ---
 ## <font color='green'> 7. Media & Streaming Systems </font>
 
-<strong> [▶ **Video and Image Encoding Algorithms(2-parts)**](../blog/posts/2026-04-29-video_encoding_p1.md)</strong>
+[▶ Video and Image Encoding Algorithms(2-parts)](../blog/posts/2026-04-29-video_encoding_p1.md)
 
-<strong> [▶ **Video Quality Assessment Methods(3-parts)**](../blog/posts/2026-04-01-VideoQuality-P1.md)</strong>
+[▶ Video Quality Assessment Methods(3-parts)](../blog/posts/2026-04-01-VideoQuality-P1.md)
 
-<strong> [▶ **WebRTC(Web-based Real-Time Streaming)**](../programming/media-streaming/protocols/webrtc.md)</strong>
+[▶ WebRTC(Web-based Real-Time Streaming)](../programming/media-streaming/protocols/webrtc.md)
 
 
 ---
@@ -103,20 +115,20 @@ tags:
 
 ### **Back to Basics**
 
-<strong> [▶ **AI Algorithms vs. Conventional Algorithms**](../blog/posts/2026-05-13-AI_vs_Conventional_Algos.md)</strong>
+[▶ AI Algorithms vs. Conventional Algorithms](../blog/posts/2026-05-13-AI_vs_Conventional_Algos.md)
 
-<strong> [▶ **Evolution Towards AI: From Rules to Goals**](../blog/posts/2026-06-19-EvolutionOfComuting_Rules_to_Goals.md)</strong>
+[▶ Evolution Towards AI: From Rules to Goals](../blog/posts/2026-06-19-EvolutionOfComuting_Rules_to_Goals.md)
 
-<strong> [▶ **Direct Learning vs. Iterative Optimization**](../blog/posts/2026-06-28-DirectVsIterativeLearning.md)</strong>
+[▶ Direct Learning vs. Iterative Optimization](../blog/posts/2026-06-28-DirectVsIterativeLearning.md)
 
-<strong> [▶ **Beyond 3D: Extending the Mathematics We Already Know**](../blog/posts/2026-07-08-HigherDimensionMaths.md)</strong>
+[▶ Beyond 3D: Extending the Mathematics We Already Know](../blog/posts/2026-07-08-HigherDimensionMaths.md)
 
 
 ### **Supervised/Unsupervised Algorithms**
 
-<strong> [▶ **Support Vector Machine (SVM)**](../aiml/supervised/svm.md)</strong>
+[▶ Support Vector Machine (SVM)](../aiml/supervised/svm.md)
 
-<strong> [▶ **Unsupervised Learning: From Recognition to Discovery**](../blog/posts/2026-05-13-AI_vs_Conventional_Algos.md)</strong>
+[▶ Unsupervised Learning: From Recognition to Discovery](../blog/posts/2026-05-13-AI_vs_Conventional_Algos.md)
 
 
 ### **Advanced Topics and Applications**

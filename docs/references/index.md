@@ -12,56 +12,65 @@ tags:
 
 > <font color='red'> **Focus:** Understanding the **how** of software development—practical implementations, reusable code, and programming techniques.</font>
 
+---
+**Explore the following categories**
 
-| **Explore the Following Categories** | |
-|---|---|
-| • Python and C Programming| • Linux & Systems |
-| • Networking & Distributed Systems | • Embedded Systems Software/Firmware |
-| • Development Tools | • Robotics | 
-|• Media & Streaming | • AI & Machine Learning | |
-
-
-## <font color='green'> 1. Python and C Programming </font>
-
-<strong> [▶ **Python:** Programming with Advanced Topics (A Series)](../programming/languages/python/index.md) </strong>
-<br>*Advanced Python programming and practical software development.*
-
-<strong> [▶ **C Language:** Beyond textbooks (A Series)](../programming/languages/clang/index.md) </strong>
-<br>*Advanced C programming for systems and embedded software.*
+<table style="border-collapse: collapse; width:100%;">
+<tr>
+    <td style="border:1px solid #999;">Python and C Programming</td>
+    <td style="border:1px solid #999;">Embedded Systems Software/Firmware</td>
+    <td style="border:1px solid #999;">Robotics & Fleet Managment</td>
+    <td style="border:1px solid #999;">Linux & Systems</td>
+</tr>
+<tr>
+    <td style="border:1px solid #999;">Backend & Distributed Systems</td>
+    <td style="border:1px solid #999;">Development Tools</td>
+    <td style="border:1px solid #999;">Media & Streaming</td>
+    <td style="border:1px solid #999;">AI & Machine Learning</td>
+</tr>
+</table>
 
 
 ---
-## <font color='green'> 2. Embedded Systems </font>
+## <font color='green'> 1. Python and C Programming </font>
+
+[▶ Python Programming with Advanced Topics (A Series)](../programming/languages/python/index.md)
+
+[▶ Advanced C programming: Beyond textbooks (A Series)](../programming/languages/clang/index.md)
+
+
+---
+## <font color='green'> 2. Real-Time & Embedded Systems </font>
 *Firmware, Embedded Linux, RTOS, and embedded software development.*
 
 ### **Embedded Software and Firmware**
-<strong> [▶ **Topics in C for Embedded Systems (A Series)**](../programming/languages/clang/index.md) </strong>
+[▶ Topics in C for Embedded Systems (A Series)](../programming/languages/clang/index.md)
 
 
 ### **Modems and Routers**
-<strong> [▶ **Quectel RM530N-GL Mode**](../drobots/modems/Quectel-RM530N-GL/index.md)</strong>
+[▶ Quectel RM530N-GL Mode](../drobots/modems/Quectel-RM530N-GL/index.md)
 <br> *(Hardware/Software setup, AT commands, connection diagrams)*
 
 
 
 ---
-## <font color='green'> 3. Robots & Fleets</font>
+## <font color='green'> 3. Robotics & Fleet Managment</font>
 *Robot software, ROS2, connectivity, simulation, and fleet management.*
 
-### Mobile Robot Platforms
-<strong> [▶ **Yahboom MicroROS-Pi5**](../drobots/platforms/yahboom-pi5/index.md) </strong>
+### **Mobile Robot Platforms**
+[▶ Yahboom MicroROS-Pi5](../drobots/platforms/yahboom-pi5/index.md)
 
 
 
 ### **ROS and ROS-Based Tools**
 
-<strong> [▶ **ROS2 Core (Various Topics)**](../drobots/ros/ros2/index.md) </strong>
+[▶ ROS2 Core (Various Topics)](../drobots/ros/ros2/index.md)
 
-<strong> [▶ **OpenRMF**](../drobots/openrmf/index.md) </strong>
+[▶ OpenRMF](../drobots/openrmf/index.md)
 
-<strong> [▶ **RVIZ**](../drobots/rviz/index.md) </strong>
+[▶ RVIZ](../drobots/rviz/index.md)
 
-<strong> [▶ **Gazebo**](../drobots/gazebo/index.md) </strong>
+[▶ Gazebo](../drobots/gazebo/index.md)
 
 
 
@@ -71,18 +80,18 @@ tags:
 
 ### **CLI, Bash, Scripting and Automation**
 
-<strong> [▶ **Command Line Reference**](../linux/cli-bash/linux-cli.md)</strong>
+[▶ Command Line Reference](../linux/cli-bash/linux-cli.md)
 
-<strong> [▶ **Bash Scripting**](../linux/cli-bash/bash.md)</strong>
+[▶ Bash Scripting](../linux/cli-bash/bash.md)
 
-<strong> [▶ **System Services**](../linux/cli-bash/services.md)</strong>
+[▶ System Services](../linux/cli-bash/services.md)
 
-<strong> [▶ **TMUX (Terminal Multiplexer)**](../linux/cli-bash/tmux.md)</strong>
+[▶ TMUX (Terminal Multiplexer)](../linux/cli-bash/tmux.md)
 
 
 ### **Linux Virtual Machines**
 
-<strong> [▶ **WSL Quick Reference**](../linux/linuxvm/wsl/wsl-setup.md)</strong>
+[▶ WSL Quick Reference](../linux/linuxvm/wsl/wsl-setup.md)
 
 
 ### **Networking in Linux**
@@ -93,16 +102,16 @@ tags:
 
 
 ---
-## <font color='green'> 5. Networking & Distributed Systems </font>
+## <font color='green'> 5. Backend & Distributed Systems </font>
 *Network programming, APIs, protocols, and distributed communication.*
 
 ### **Web Frontend and Backend**
 
-<strong> [▶ **JavaScript in Browser(A Reference)**](../web/fe/jsfe/index.md)</strong>
+[▶ JavaScript in Browser(A Reference)](../web/fe/jsfe/index.md)
 
 ### **QUIC-GO**
 
-<strong> [▶ **QUIC-GO 101 (A Series)**](../programming/quicgo/index.md)</strong>
+[▶ QUIC-GO 101 (A Series)](../programming/quicgo/index.md)
 
 
 
@@ -111,7 +120,7 @@ tags:
 ## <font color='green'> 6. Development Tools </font>
 *Development tools, debugging, build systems, containers, and automation.*
 
-<strong> [▶ **Docker 101 (A Series)**](../programming/sweng/docker/index.md)</strong>
+[▶ **Docker 101 (A Series)**](../programming/sweng/docker/index.md)
 
 
 ---
@@ -120,11 +129,11 @@ tags:
 
 ### **Camera and Streaming Tools**
 
-<strong> [▶ **Video for Linux (v4l)**](../programming/media-streaming/v4l.md)</strong>
+[▶ **Video for Linux (v4l)**](../programming/media-streaming/v4l.md)
 
-<strong> [▶ **Reading Camera in Python**](../programming/media-streaming/camera_in_python_linux.md)</strong>
+[▶ **Reading Camera in Python**](../programming/media-streaming/camera_in_python_linux.md)
 
-<strong> [▶ **ffmpeg quick reference**](../programming/media-streaming/ffmpeg-reference.md)</strong>
+[▶ **ffmpeg quick reference**](../programming/media-streaming/ffmpeg-reference.md)
 
 ---
 ## <font color='green'> 8. AI & Machine Learning </font>
