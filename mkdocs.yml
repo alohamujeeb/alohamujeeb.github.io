@@ -132,8 +132,9 @@ nav:
       - Contact Info: about/contact.md
     - <font color='green'><h3>Whispers of Heart</h3></font>: woh.md
     - <font color='green'><h3>My Inspiration</h3></font>: about/inspiration.md
-    - <font color='green'><h3>Search</h3></font>:
-      - Keywords/Tags: tags.md
+    - <font color='tomato'><h3>Design Notes</h3></font>: design/index.md
+    - <font color='tomato'><h3>Developer Reference</h3></font>: references/index.md
+    - <font color='green'><h3>Search</h3></font>: tags.md
 
   - Design-Notes: 
     - Design: design/index.md
