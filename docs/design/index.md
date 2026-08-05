@@ -45,9 +45,13 @@ tags:
 ## <font color='green'> 2. Real-Time & Embedded Systems </font>
 *Embedded software architecture, firmware design, RTOS, and real-world engineering practices.*
 
+### **Real-Time Systems and RTOS**
 [▶ Bare Metal vs Operating Systems in Embedded Systems](../blog/posts/2026-08-03-BaremetalvsOS.md)
 
 [▶ Real-Time Does Not Mean Fast: A Beginner's Misconception](../blog/posts/2026-08-05-RTimeDoesntMeanFast.md)
+
+### **Embedded Software and Firmware**
+[▶ Embedded C Programming vs. Conventional C Programming](../blog/posts/2026-08-06-ConventionalVsEmbeddedC.md)
 
 
 ---
@@ -81,11 +85,11 @@ tags:
 ---
 ## <font color='green'> 5. Backend & Distributed Systems </font>
 
-[▶ Persistent vs Non-Persistent Connections](../blog/posts/2026-07-31-Persistent_and_NonPersistent.md
+[▶ Persistent vs Non-Persistent Connections](../blog/posts/2026-07-31-Persistent_and_NonPersistent.md)
 
 ### **QUIC Protocol**
 
-[▶ QUIC Protocol (An Evolving Modern Transport Method)](../programming/media-streaming/protocols/quic.md)
+[▶ QUIC Protocol (An Evolving Modern Transport Protocol)](../programming/media-streaming/protocols/quic.md)
 
 [▶ WebTransport- An Introduction](../blog/posts/2026-05-29-WebTransport_Intro.md)
 

@@ -13,70 +13,70 @@ Understanding where every Python concept fits and when to use it.
 --- 
 ### 1. Misc. Topics
 
-<strong><font> [Python Virutal Environment](python-env.md) </font></strong>
+[▶ Python Virutal Environment](python-env.md)
 
 ---
 ### 2. Foundational Concepts
 
-<strong><font> [Data Types in Python](dtypes.md)</font></strong>
+[▶ Data Types in Python](dtypes.md)</font></strong>
 
-<strong><font> [Python Features That May Be Unfamiliar to C/Java Programmers](unusualfeatures.md)</font></strong>
+[▶ Python Features That May Be Unfamiliar to C/Java Programmers](unusualfeatures.md)
 
-<strong><font> [Variables Store References, Not Values in Python](variablesarereferences.md)</font></strong>
+[▶ Variables Store References, Not Values in Python](variablesarereferences.md)
 
-<strong><font> [Confusing Operations in Python (== vs is, append() vs insert() etc.](confusingoperations.md)</font></strong>
+[▶ Confusing Operations in Python (== vs is, append() vs insert() etc.](confusingoperations.md)
 
-<strong><font> [Shallow vs Deep Copy](shallowdeepcopy.md)</font></strong>
+[▶ Shallow vs Deep Copy](shallowdeepcopy.md)
 
-<strong><font> [Lamda functions](lamda.md)</font></strong>
+[▶ Lamda functions](lamda.md)
 
-<strong><font> [args and kargs- Variable Parameters](args-kargs.md)</font></strong>
+[▶ args and kargs- Variable Parameters](args-kargs.md)
 
 
 ---
 ### 3. OOP in Python
 
-<strong><font> [Philosophy Behind Classes and Objects (OOP)](oop/oopphilosophy.md)</font></strong>
+[▶ Philosophy Behind Classes and Objects (OOP)](oop/oopphilosophy.md)
 
-<strong><font> [Encapsulation: Why Combine Data and Operations in a Class](oop/combinedataoperations.md)</font></strong>
+[▶ Encapsulation: Why Combine Data and Operations in a Class](oop/combinedataoperations.md)
 
-<strong><font> [Creating Classes and Objects in Python](oop/creatingclasses.md)</font></strong>
+[▶ Creating Classes and Objects in Python](oop/creatingclasses.md)
 
 
 ---
 ### 4. Beyond Fundamentals
 
-<strong><font> [LEGB Rule and Variable Scope](legbscope.md)</font></strong>
+[▶ LEGB Rule and Variable Scope](legbscope.md)
 
-<strong><font> [Function as a Parameter](functionAsParameter.md)</font></strong>
+[▶ Function as a Parameter](functionAsParameter.md)
 
-<strong><font> [Function as First Class Citizens](firstclassfunctions.md)</font></strong>
+[▶ Function as First Class Citizens](firstclassfunctions.md)
 
-<strong><font> [generator functions- yield and return in Python](yieldreturn.md)</font></strong>
+[▶ generator functions- yield and return in Python](yieldreturn.md)
 
-<strong><font> [Closures in Python](closuresinpythohn.md)</font></strong>
+[▶ Closures in Python](closuresinpythohn.md)
 
-<strong><font> [Decorators in Python](decoratorsinpythohn.md)</font></strong>
+[▶ Decorators in Python](decoratorsinpythohn.md)
 
-<strong><font> [Iterators in Python](iterators.md)</font></strong>
+[▶ Iterators in Python](iterators.md)
 
-<strong><font> [Context Managers](contextmanager.md)</font></strong>
+[▶ Context Managers](contextmanager.md)
 
-<strong><font> [Python Interpreters-CPython/JPython](python-implementations.md)</font></strong>
+[▶ Python Interpreters-CPython/JPython](python-implementations.md)
 
-<strong><font> [Garbage Collection in Python](pythongc.md)</font></strong>
+[▶ Garbage Collection in Python](pythongc.md)
 
-<strong><font> [GIL- Concurrency is not Parallel](gil-parallelism.md)</font></strong>
+[▶ GIL- Concurrency is not Parallel](gil-parallelism.md)
 
-<strong><font> [Threading in Python](threading.md)</font></strong>
+[▶ Threading in Python](threading.md)
 
-<strong><font> [Python Bytecode vs Native Code](bytecodenativecode.md)</font></strong>
+[▶ Python Bytecode vs Native Code](bytecodenativecode.md)
 
 
 ---
 ### 5. Advanced Topics/Experiences
 
-<strong><font> [Reading camera in python](../../media-streaming/camera_in_python_linux.md) </font></strong>
+[▶ Reading camera in python](../../media-streaming/camera_in_python_linux.md) 
 
 
 

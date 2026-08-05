@@ -15,102 +15,104 @@ Exploring real-world C techniques beyond textbook fundamentals.
 ---
 ### 1. Misc Topics
 
-<strong><font> [Why C++ is Not My First Choice](../../../blog/posts/2026-07-29-WhyCppNotMyFirstChoice.md)</font></strong>
+[▶ Why C++ is Not My First Choice](../../../blog/posts/2026-07-29-WhyCppNotMyFirstChoice.md)
 
-<strong><font> [Undefined Behaviour in C](undefinedbehaviour.md)</font></strong>
+[▶ Undefined Behaviour in C](undefinedbehaviour.md)
 
-<strong><font> [Atomic Operations](atomicoperations.md)</font></strong>
+[▶ Atomic Operations](atomicoperations.md)
 
-<strong><font> [Const Correctness in C](constantcorrectness.md)</font></strong>
+[▶ Const Correctness in C](constantcorrectness.md)
 
-<strong><font> [Callback Design Patterns](callbackpatterns.md)</font></strong>
+[▶ Callback Design Patterns](callbackpatterns.md)
 
-<strong><font> [C API Design](capidesign.md)</font></strong>
+[▶ C API Design](capidesign.md)
 
 
 
 ---
 ### 2. Algorithms and Data Structures in C
 
-<strong><font> [Built-in Sorting and Searching Algorithms in C: `qsort()` and `bsearch()`](qsortbsearch.md)</font></strong>
+[▶ Built-in Sorting and Searching Algorithms in C: `qsort()` and `bsearch()`](qsortbsearch.md)
 
-<strong><font> [C Structures: Building Class-Like Objects](structuresasclasses.md)</font></strong>
+[▶ C Structures: Building Class-Like Objects](structuresasclasses.md)
 
 
 ---
 ### 3. Pointers and Arrays
 
-<strong><font> [Understanding malloc(), calloc(), realloc(), and free()](pointermalloc.md)</font></strong>
+[▶ Understanding malloc(), calloc(), realloc(), and free()](pointermalloc.md)
 
-<strong><font> [Pointer Arithmetic](pointerarithmetic.md)</font></strong>
+[▶ Pointer Arithmetic](pointerarithmetic.md)
 
-<strong><font> [Pointers and Array Names](pointer_and_arraynames.md)</font></strong>
+[▶ Pointers and Array Names](pointer_and_arraynames.md)
 
-<strong><font> [NULL Pointers in C](nullpointers.md)</font></strong>
+[▶ NULL Pointers in C](nullpointers.md)
 
-<strong><font> [Dangling Pointers in C](danglingpointers.md)</font></strong>
+[▶ Dangling Pointers in C](danglingpointers.md)
 
-<strong><font> [Shallow and Deep Copy in C](shallowdeepinc.md)</font></strong>
+[▶ Shallow and Deep Copy in C](shallowdeepinc.md)
 
-<strong><font> [Function Pointers: The Foundation of Callback Functions](functionpointers.md)</font></strong>
+[▶ Function Pointers: The Foundation of Callback Functions](functionpointers.md)
 
-<strong><font> [Pointer to Pointer: Various Scenarios](pointertopointer.md)</font></strong>
+[▶ Pointer to Pointer: Various Scenarios](pointertopointer.md)
 
-<strong><font> [Generic Programming with `void *`](genericprogramming.md)</font></strong>
+[▶ Generic Programming with `void *`](genericprogramming.md)
 
-<strong><font> [Opaque Pointers in C](opaquepointers.md)</font></strong>
+[▶ Opaque Pointers in C](opaquepointers.md)
 
-<strong><font> [Flexible Array Members](flexiblearraymembers.md)</font></strong>
+[▶ Flexible Array Members](flexiblearraymembers.md)
 
 ---
 ### 4. Memory Managment
 
-<strong><font> [Memory Types in C: Stack, Heap, and Global Memory](stackheap.md)</font></strong>
+[▶ Memory Types in C: Stack, Heap, and Global Memory](stackheap.md)
 
-<strong><font> [Understanding Memory Leaks in C (Some Scenarios)](memoryleaks.md)</font></strong>
+[▶ Understanding Memory Leaks in C (Some Scenarios)](memoryleaks.md)
 
-<strong><font> [Stack Overflow: Why Did My Program Crash?](stackoverflow.md)</font></strong>
+[▶ Stack Overflow: Why Did My Program Crash?](stackoverflow.md)
 
-<strong><font> [Memory Ownership in C: Who Is Responsible for Freeing Memory?](memoryownership.md)</font></strong>
+[▶ Memory Ownership in C: Who Is Responsible for Freeing Memory?](memoryownership.md)
 
-<strong><font> [Memory Segmentation: Where Your Code and Variables Live](memorysegmentation.md)</font></strong>
+[▶ Memory Segmentation: Where Your Code and Variables Live](memorysegmentation.md)
 
-<strong><font> [Memory Fragmentation: When Free Memory Can't Be Used](memoryfragmentation.md)</font></strong>
+[▶ Memory Fragmentation: When Free Memory Can't Be Used](memoryfragmentation.md)
 
-<strong><font> [Memory Alignment & Padding in C](memoryalignment.md)</font></strong>
+[▶ Memory Alignment & Padding in C](memoryalignment.md)
 
-<strong><font> [Memory Pools: Fast and Predictable Memory Allocation](memorypool.md)</font></strong>
+[▶ Memory Pools: Fast and Predictable Memory Allocation](memorypool.md)
 
 ---
 ### 5. Embedded C Techniques
 
-<strong><font> [Understanding Lookup Tables (LUTs) in C](lut.md)</font></strong>
+[▶ Embedded C Programming vs. Conventional C Programming](../../../blog/posts/2026-08-06-ConventionalVsEmbeddedC.md)
 
-<strong><font> [Fixed-Point Arithmetic in Embedded C](fixedpoint.md)</font></strong>
+[▶ Understanding Lookup Tables (LUTs) in C](lut.md)
 
-<strong><font> [`volatile`: When the Compiler Must Not Optimize](volatilekeyword.md)</font></strong>
+[▶ Fixed-Point Arithmetic in Embedded C](fixedpoint.md)
 
-<strong><font> [`volatile` is NOT thread-safe](volatilenotthreadsafe.md)</font></strong>
+[▶ `volatile`: When the Compiler Must Not Optimize](volatilekeyword.md)
 
-<strong><font> [Memory-Mapped I/O](memorymappedio.md)</font></strong>
+[▶ `volatile` is NOT thread-safe](volatilenotthreadsafe.md)
 
-<strong><font> [Interrupts and IRQs: How Hardware Gets the CPU's Attention](irq.md)</font></strong>
+[▶ Memory-Mapped I/O](memorymappedio.md)
 
-<strong><font> [Watchdog Timers: Keeping Embedded Systems Alive](watchdogtimer.md)</font></strong>
+[▶ Interrupts and IRQs: How Hardware Gets the CPU's Attention](irq.md)
 
-<strong><font> [Software Timers: Extending Limited Hardware Timers ](swtimers.md)</font></strong>
+[▶ Watchdog Timers: Keeping Embedded Systems Alive](watchdogtimer.md)
 
-<strong><font> [Bit Manipulation in C: Low-Level and Hardware Programming](bitwiseoperations.md)</font></strong>
+[▶ Software Timers: Extending Limited Hardware Timers ](swtimers.md)
 
-<strong><font> [Bit Fields in C: Packing Data into Individual Bits](bitfields.md)</font></strong>
+[▶ Bit Manipulation in C: Low-Level and Hardware Programming](bitwiseoperations.md)
 
-<strong><font> [Bit Fields vs Bit Masks in C: When Position Matters](bitfields_vs_bitmasks.md)</font></strong>
+[▶ Bit Fields in C: Packing Data into Individual Bits](bitfields.md)
 
-<strong><font> [Endianness in C: Understanding Big-Endian and Little-Endian](endiansinc.md)</font></strong>
+[▶ Bit Fields vs Bit Masks in C: When Position Matters](bitfields_vs_bitmasks.md)
 
-<strong><font> [Circular Buffers: Never Run Out of Buffer Space](circularbuffersinc.md)</font></strong>
+[▶ Endianness in C: Understanding Big-Endian and Little-Endian](endiansinc.md)
 
-<strong><font> [Finite State Machines: Simplifying Complex Program Logic](finitestatemachine.md)</font></strong>
+[▶ Circular Buffers: Never Run Out of Buffer Space](circularbuffersinc.md)
 
-<strong><font> [Recursion in Embedded Systems: A Red Zone for Stack Memory](recursionines.md)</font></strong>
+[▶ Finite State Machines: Simplifying Complex Program Logic](finitestatemachine.md)
+
+[▶ Recursion in Embedded Systems: A Red Zone for Stack Memory](recursionines.md)
 

@@ -120,7 +120,7 @@ tags:
 ## <font color='green'> 6. Development Tools </font>
 *Development tools, debugging, build systems, containers, and automation.*
 
-[▶ **Docker 101 (A Series)**](../programming/sweng/docker/index.md)
+[▶ Docker 101 (A Series)](../programming/sweng/docker/index.md)
 
 
 ---
@@ -129,11 +129,11 @@ tags:
 
 ### **Camera and Streaming Tools**
 
-[▶ **Video for Linux (v4l)**](../programming/media-streaming/v4l.md)
+[▶ Video for Linux (v4l)](../programming/media-streaming/v4l.md)
 
-[▶ **Reading Camera in Python**](../programming/media-streaming/camera_in_python_linux.md)
+[▶ Reading Camera in Python](../programming/media-streaming/camera_in_python_linux.md)
 
-[▶ **ffmpeg quick reference**](../programming/media-streaming/ffmpeg-reference.md)
+[▶ ffmpeg quick reference](../programming/media-streaming/ffmpeg-reference.md)
 
 ---
 ## <font color='green'> 8. AI & Machine Learning </font>
