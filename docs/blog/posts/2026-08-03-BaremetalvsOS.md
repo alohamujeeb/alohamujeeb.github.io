@@ -10,11 +10,13 @@ author:
 readtime: 10
 
 categories:
-  - Programming
-
+  - Embedded Systems
+  
 tags:
-  - Bare Meta
+  - Bare Metal
   - RTOS
+  - Embedded Linux
+  - Embedded Systems
   
 ---
 
