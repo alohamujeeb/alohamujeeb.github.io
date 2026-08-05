@@ -26,7 +26,7 @@ This article explains what "real-time" actually means, why it is often misunders
 <!-- more -->
 
 ---
-## <font color='green'>1. A Big Misconception</font>
+## <font color='green'>1. A Misconception</font>
 
 Ask someone what a **real-time system** is, and one of the most common answers is:
 
