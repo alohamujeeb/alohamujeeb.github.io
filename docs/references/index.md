@@ -3,11 +3,11 @@ hide:
      - navigation
 
 tags:
-    - Code Reference
+    - Developer Reference
 
 ---
 
-# <font color='green'>Code Reference</font>
+# <font color='green'>Developer Reference</font>
 *(Practical code snippets, examples, recipes, and quick references for everyday software development.)*
 
 > <font color='red'> **Focus:** Understanding the **how** of software development—practical implementations, reusable code, and programming techniques.</font>
@@ -37,23 +37,21 @@ tags:
 ### **Embedded Software and Firmware**
 <strong> [▶ **Topics in C for Embedded Systems (A Series)**](../programming/languages/clang/index.md) </strong>
 
+
 ### **Modems and Routers**
-
-Quectel RM530N-GL Mode 
-
-<strong> [▶ **What is Quectel RM530N-GL Modem?**](../web/fe/jsfe/index.md)</strong>
-
-<strong> [▶ **Hardware Setup**](../drobots/modems/Quectel-RM530N-GL/01-hw-setup-pi5.md)</strong>
-
-<strong> [▶ **Software Setup**](../drobots/modems/Quectel-RM530N-GL/02-sw-setup-pi5.md)</strong>
-
-<strong> [▶ **AT Command Reference**](../drobots/modems/Quectel-RM530N-GL/03-at-commands.md)</strong>
+<strong> [▶ **Quectel RM530N-GL Mode**](../drobots/modems/Quectel-RM530N-GL/index.md)</strong>
+<br> *(Hardware/Software setup, AT commands, connection diagrams)*
 
 
 
 ---
 ## <font color='green'> 3. Robots & Fleets</font>
 *Robot software, ROS2, connectivity, simulation, and fleet management.*
+
+### Mobile Robot Platforms
+<strong> [▶ **Yahboom MicroROS-Pi5**](../drobots/platforms/yahboom-pi5/index.md) </strong>
+
+
 
 ### **ROS and ROS-Based Tools**
 

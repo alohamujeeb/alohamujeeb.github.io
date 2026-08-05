@@ -1,4 +1,7 @@
 ---
+hide:
+     - navigation
+     
 tags:
   - quectel
   - RM530N-GL

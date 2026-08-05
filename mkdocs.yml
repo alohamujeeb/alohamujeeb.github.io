@@ -137,10 +137,10 @@ nav:
     - <font color='green'><h3>Search</h3></font>:
       - Keywords/Tags: tags.md
 
-  - Design Notes: 
+  - Design-Notes: 
     - Design: design/index.md
     
-  - Code References: 
+  - Developer-Reference: 
     - References: references/index.md
 
   - Blogs:
