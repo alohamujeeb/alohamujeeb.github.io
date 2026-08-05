@@ -127,8 +127,6 @@ plugins:
 nav:
   - Home:
     - Home: index.md
-    - <strong><font color='red'><h3>Important Topics</h3></font></strong>: 
-      - Important Topics: featured/index.md  
     - <font color='green'><h3>Introduction</h3></font>:
       - About Me: about/aboutme.md
       - Contact Info: about/contact.md
