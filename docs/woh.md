@@ -77,7 +77,6 @@ search:
 
 
 ---
-
 ## <font color="tomato">Honour, Respect, and Freedom</font>
 
 - <i>"Loyalty above all—except honour"</i>;  I wonder if those who call themselves loyal understand that true loyalty is guided by honour, not blind obedience.
