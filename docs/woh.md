@@ -31,21 +31,17 @@ search:
 
 - <font color='red'>**Do yourself a favour, GET RICH. Life gets better with money, not with time.**</font>
 
-- Winners focus on winning; Losers focus on winners.
-
 - **My favorite sports, media, or business celebrity isn't paying my bills. Why am I investing my attention where I expect no return? I won't become a hero-worshipper at the cost of my own success.** (Mujeeb)
 
 - Preaching self-denial and the virtues of poverty rings hollow when you and your children live like kings. **What's harder to understand is why anyone still buys it.** (Mujeeb)
-
-- If you dont let go of wrong people, you'll never meet right people. 
 
 - Ships are safe in harbor; But that not what ships are for.
 
 - Roaing harder doesn't help if the boat is headed in wrong direction.
 
-- <font color='red'>If you want to know what a man/woman is like, take a good look at how they treats their inferiors, not their equals. </font>
+- If you want to know what a man/woman is like, take a good look at how they treats their inferiors, not their equals.
 
-- **A friend once asked me how to read a woman he was planning to marry. I told him, "Observe how she treats waiters and janitors." (Mujeeb)**
+- <font color='red'>**A friend once asked me how to read a woman he was planning to marry. I told him, "Observe how she treats waiters and janitors." (Mujeeb)** </font>
 
 - Women and cats will do as they please, and men and dogs should relax and get used to the idea.
 
