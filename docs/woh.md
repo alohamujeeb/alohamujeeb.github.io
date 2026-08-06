@@ -24,8 +24,6 @@ search:
 
 - You dont need more time; You need less distractions.
 
-- Never memorize something that you can look up.
-
 
 ---
 
@@ -33,36 +31,27 @@ search:
 
 - <font color='red'>**Do yourself a favour, GET RICH. Life gets better with money, not with time.**</font>
 
+- Winners focus on winning; Losers focus on winners.
+
+- **My favorite sports, media, or business celebrity isn't paying my bills. Why am I investing my attention where I expect no return? I won't become a hero-worshipper at the cost of my own success.** (Mujeeb)
+
 - Preaching self-denial and the virtues of poverty rings hollow when you and your children live like kings. **What's harder to understand is why anyone still buys it.** (Mujeeb)
+
+- If you dont let go of wrong people, you'll never meet right people. 
 
 - Ships are safe in harbor; But that not what ships are for.
 
-- If you dont let go of wrong people, you'll never meet right people.
-
 - Roaing harder doesn't help if the boat is headed in wrong direction.
-
-- Winners focus on winning; Losers focus on winners.
-
-- Be selfish with your time; A lot of people dont deserve it.
-
-- Don't call me lucky; I failed more times than you even tried.
 
 - <font color='red'>If you want to know what a man/woman is like, take a good look at how they treats their inferiors, not their equals. </font>
 
-- A woman is like a tea bag; you never know how strong it is until it's in hot water.
+- **A friend once asked me how to read a woman he was planning to marry. I told him, "Observe how she treats waiters and janitors." (Mujeeb)**
 
 - Women and cats will do as they please, and men and dogs should relax and get used to the idea.
 
 - Don't take advice from someone who has never succeeded—or never failed. The best advice comes from those who have failed, learned, and then succeeded. (Mujeeb)
 
-- Not all those who wander are lost.
-
-- Do not pity the dead, Harry. Pity the living, and, above all those who live without love.” (J.K. Rowling, Harry Potter)
-
-- **I am free of all prejudice. I hate everyone equally**
-
-- I would die for you. But I won't live for you.
-
+- **I am free of all prejudice. I hate everyone equally.**
 
 ---
 
@@ -98,5 +87,8 @@ search:
 - **There's talk of freedom everywhere, yet people outsource their thinking at the very first opportunity.** 
 
 - Never tolerae disrespect; Not even from yourself.
+
+- I would die for you. But I won't live for you.
+
 
 
