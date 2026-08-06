@@ -24,6 +24,8 @@ search:
 
 - You dont need more time; You need less distractions.
 
+- **Back when my understanding was shallow, I had answers for everything. The deeper I went, the more every answer came with ten conditions. With every new understanding, I become less confident.** (Mujeeb)
+
 
 ---
 
@@ -65,9 +67,9 @@ search:
 
 - What are they trying to cover up behind those flashy slides? (Mujeeb)
 
-- A paper no one can understand isn't necessarily profound. Sometimes jargon isn't protecting a complex idea—it's protecting the absence of one. (Mujeeb)
+- **Hey interviewer, be careful. Every question you ask exposes you more than my answers expose me.** (Mujeeb)
 
-- **The manager wasn't impressed because the idea was clear. He wanted layers of jargon and complexity—not to communicate better, but to create the illusion that something extraordinary was happening.** (Mujeeb)
+- **A paper no one understands isn't always profound. Sometimes jargons are just camouflage for an empty idea.**
 
 - Be nice to nerds. You may end up working for them. We all could.
 
