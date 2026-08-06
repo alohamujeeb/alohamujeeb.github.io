@@ -8,7 +8,7 @@ search:
 *Here are some of my favorite quotes. I hope some of them reach my heart and change me. I hope they do the same for you.*
 
 ---
-<font color='green'>Have you noticed that most impractical and boring quotes seem to come from preachers? (Mujeeb)</font> 
+<font color='red'>Have you noticed that most impractical and boring quotes seem to come from preachers? (Mujeeb)</font> 
 
 ---
 
@@ -61,9 +61,18 @@ search:
 
 - **I am free of all prejudice. I hate everyone equally**
 
+- I would die for you. But I won't live for you.
+
+
+---
+
+## <font color="tomato"> Magic Worlds</font>
+
 - Those who don't believe in magic will never find it. 
 
-- I would die for you. But I won't live for you.
+- **I'm surprised at you. You have the internet, AI, instant communication, and rockets landing themselves—and you still say, "Magic doesn't exist." (Mujeeb)**
+
+- Disbelief in magic can force a poor soul into believing in government and business. 
 
 ---
 
