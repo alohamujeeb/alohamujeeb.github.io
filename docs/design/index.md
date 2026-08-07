@@ -48,8 +48,15 @@ tags:
 
 [▶ Real-Time Does Not Mean Fast: A Beginner's Misconception](../blog/posts/2026-08-05-RTimeDoesntMeanFast.md)
 
+[▶ Can a Bare-Metal System Be Real-Time?](../blog/posts/2026-08-07-CanBareMetalBeRTsystems.md)
+
+[▶ Polling vs. Interrupts – Two Mechanisms for Handling Hardware Events](../blog/posts/2026-08-09-PollingVsInterrupts.md)
+
+
 ### **Embedded Software and Firmware**
 [▶ Embedded C Programming vs. Conventional C Programming](../blog/posts/2026-08-06-ConventionalVsEmbeddedC.md)
+
+[▶ Hardware vs Software Timers](../blog/posts/2026-08-08-HardwareVsSoftwareTimers.md)
 
 
 ---
@@ -128,7 +135,7 @@ tags:
 
 ### **Supervised/Unsupervised Algorithms**
 
-[▶ Support Vector Machine (SVM)](../aiml/supervised/svm.md)
+[▶ Support Vector Machine (SVM)](../aiarena/supervised/svm.md)
 
 [▶ Unsupervised Learning: From Recognition to Discovery](../blog/posts/2026-05-13-AI_vs_Conventional_Algos.md)
 
