@@ -52,11 +52,11 @@ tags:
 
 [▶ Polling vs. Interrupts – Two Mechanisms for Handling Hardware Events](../blog/posts/2026-08-09-PollingVsInterrupts.md)
 
+[▶ Hardware vs Software Timers](../blog/posts/2026-08-08-HardwareVsSoftwareTimers.md)
+
 
 ### **Embedded Software and Firmware**
 [▶ Embedded C Programming vs. Conventional C Programming](../blog/posts/2026-08-06-ConventionalVsEmbeddedC.md)
-
-[▶ Hardware vs Software Timers](../blog/posts/2026-08-08-HardwareVsSoftwareTimers.md)
 
 
 ---
