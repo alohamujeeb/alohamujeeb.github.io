@@ -20,8 +20,6 @@ search:
 
 - I used to think my elders were wise. **Now that I have grey hair of my own, wisdom is still nowhere to be found.** I have merely become too tired to argue, and people, desperate to find wisdom in old age, mistake my exhaustion for enlightenment. (Mujeeb)
 
-- **"Why every old folk seems desperate to give advice, especially to the young?** Age may bring wrinkles, but wisdom is clearly optional. Brain decay, however, appears to be guaranteed.” (Mujeeb)
-
 
 ---
 ## <font color="tomato">Life and Humor</font>
