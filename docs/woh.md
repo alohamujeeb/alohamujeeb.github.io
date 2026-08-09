@@ -8,7 +8,7 @@ search:
 *Here are some of my favorite quotes. I hope some of them reach my heart and change me. I hope they do the same for you.*
 
 ---
-<font color='blue'>Have you noticed that most impractical and boring quotes seem to come from preachers? (Mujeeb)</font> 
+<font color='blue'>Have you noticed that most impractical and boring quotes seem to come from preachers and so-called holy men? (Mujeeb)</font> 
 
 ---
 
