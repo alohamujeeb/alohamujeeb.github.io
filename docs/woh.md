@@ -95,7 +95,5 @@ search:
 
 - A gentle night rain tapping on the rooftop... perhaps the most beautiful lullaby I have ever known. (Mujeeb)
 
-- Who says cold is death? A cold, silent night may feel dead outside, but sit down, be in your own company, and you may find yourself strangely full of life. (Mujeeb)
-
-
+- Who says cold is death? A cold, silent night may feel dead outside, **but sit down, be in your own company,** and you may find yourself strangely full of life. (Mujeeb)
 
