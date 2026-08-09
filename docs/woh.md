@@ -35,7 +35,6 @@ search:
 
 
 ---
-
 ## <font color="tomato">Life and Humor</font>
 
 - <font color='blue'>**Do yourself a favour, GET RICH. Life gets better with money, not with time.**</font>
