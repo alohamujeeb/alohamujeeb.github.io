@@ -51,7 +51,7 @@ search:
 
 - **Dear interviewer, be mindful. Every question you ask exposes you more than my answers expose me.** (Mujeeb)
 
-- A "research" paper no one understands isn't always profound. Sometimes jargons are just camouflage for an empty idea. (Mujeeb)
+- I marvel at the magic: a “research” paper nobody understands, or will ever bother to read. Yet somehow gets published and applauded.
 
 - Be nice to nerds. You may end up working for them. We all could.
 
