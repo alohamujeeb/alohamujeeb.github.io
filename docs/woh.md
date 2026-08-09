@@ -28,7 +28,7 @@ search:
 
 - **“Every old fool seems desperate to give advice, especially to the young. Age may bring wrinkles, but wisdom is clearly optional. Brain decay, however, appears to be guaranteed.”** (Mujeeb)
  
-- School and self-help gurus taught me: ‘Never give up. Keep trying.’ So apparently, if you keep whacking your head against the same wall long enough, that’s called success. No—it’s called being stupd. Sometimes the smartest move isn’t to try harder. It’s to step back, rethink the strategy, and look for the goddamn door. (Mujeeb)
+- School and self-help gurus taught me: ‘Never give up. Keep trying.’ So apparently, if you keep whacking your head against the same wall long enough, that’s called success. No—it’s called being stupid. Sometimes the smartest move isn’t to try harder; It’s to step back, rethink the strategy, and look for the goddamn door. (Mujeeb)
 
 
 ---
@@ -48,8 +48,6 @@ search:
 - If you want to know what a man/woman is like, take a good look at how they treats their inferiors, not their equals.
 
 - **<font color='red'>A friend once asked me how to read a woman he was planning to marry. I told him, "Observe how she treats waiters and janitors."</font>** (Mujeeb)
-
-- Women and cats will do as they please, and men and dogs should relax and get used to the idea.
 
 - Don't take advice from someone who has never succeeded—or never failed. The best advice comes from those who have failed, learned, and then succeeded. (Mujeeb)
 
@@ -92,6 +90,8 @@ search:
 - Never tolerae disrespect; Not even from yourself.
 
 - I would die for you. But I won't live for you.
+
+- **Everyone worships Clark Kent—the ultimate people-pleaser, bending to everyone’s expectations and calling it virtue. I’ll take Lex Luthor—the real visionary. At least the man believes in greatness and has the audacity to chase it, while Clark sits on a tall building, smirking like he personally saved the world.**
 
 
 
