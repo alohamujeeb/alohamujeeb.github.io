@@ -14,14 +14,14 @@ search:
 
 ## <font color="tomato">Learning and Reading</font>
 
-- My posts aren’t here to keep you busy with flashy animations, clever visuals, and noise—with nothing to take away. They’re here to give you a practical idea, a useful technique, or something you can apply. **If you finish reading and have nothing you can use, I’ve wasted your attention.** (Mujeeb)
+- My posts aren’t here to keep you busy with flashy animations, clever visuals, and noise; with nothing to take away. They’re here to give you a practical idea, a useful technique, or something you can apply. **If you finish reading and have nothing you can use, I’ve wasted your attention.** (Mujeeb)
 
 
-- A 300-page self-help book is a recipe for the writer's success—not the reader's. (Mujeeb)
+- A 300-page self-help book is a recipe for the writer's success, not the reader's. (Mujeeb)
 
 - A self-help book can be a bestseller without being the best advice. Once it crosses 50 pages, it's often selling pages more than wisdom. (Mujeeb)
 
-- **People who give you 20 tips for success are usually filling pages only**, not changing lives. One insight is enough—if it truly hits. (Mujeeb)
+- **People who give you 20 tips for success are usually filling pages only**, not changing lives. One insight is enough, if it truly hits. (Mujeeb)
 
 - You dont need more time; You need less distractions.
 
@@ -29,7 +29,7 @@ search:
 
 - **“Every old fool seems desperate to give advice, especially to the young.** Age may bring wrinkles, but wisdom is clearly optional. Brain decay, however, appears to be guaranteed.” (Mujeeb)
  
-- School and self-help gurus taught me: ‘Never give up. Keep trying.’ So apparently, if you keep whacking your head against the same wall long enough, that’s called success. No—it’s called being stupid. Sometimes the smartest move isn’t to try harder; It’s to step back, rethink the strategy, and look for the goddamn door. (Mujeeb)
+- School and self-help gurus taught me: ‘Never give up. Keep trying.’ So apparently, if you keep whacking your head against the same wall long enough, that’s called success. No, it’s called being stupid. Sometimes the smartest move isn’t to try harder; It’s to step back, rethink the strategy, and look for the goddamn door. (Mujeeb)
 
 
 ---
@@ -50,9 +50,9 @@ search:
 
 - **<font color='red'>A friend once asked me how to read a woman he was planning to marry. I told him, "Observe how she treats waiters and janitors."</font>** (Mujeeb)
 
-- Don't take advice from someone who has never succeeded—or never failed. The best advice comes from those who have failed, learned, and then succeeded. (Mujeeb)
+- Don't take advice from someone who has never succeeded or never failed. The best advice comes from those who have failed, learned, and then succeeded. (Mujeeb)
 
-- I’ve aged, but I’m still looking around inside myself, trying to figure out where the hell wisdom is hiding—the very wisdom we were told comes with age. So far, all I’ve found is more mileage and fewer answers. (Mujeeb)
+- I’ve aged, but I’m still looking around inside myself, trying to figure out where the hell wisdom is hiding, the very wisdom we were told comes with age. So far, all I’ve found is more mileage and fewer answers. (Mujeeb)
 
 - **I am free of all prejudice. I hate everyone equally.**
 
@@ -62,7 +62,7 @@ search:
 
 - Those who don't believe in magic will never find it. 
 
-- **I'm surprised at you. You have the internet, AI, instant communication, and rockets landing themselves—and you still say, "Magic doesn't exist." (Mujeeb)**
+- **I'm surprised at you. You have the internet, AI, instant communication, and rockets landing themselves, and you still say, "Magic doesn't exist." (Mujeeb)**
 
 - Disbelief in magic can force a poor soul into believing in government and business. 
 
@@ -82,7 +82,7 @@ search:
 ---
 ## <font color="tomato">Honour, Respect, and Freedom</font>
 
-- <i>"Loyalty above all—except honour"</i>;  I wonder if those who call themselves loyal understand that true loyalty is guided by honour, not blind obedience.
+- <i>"Loyalty above all, except honour"</i>;  I wonder if those who call themselves loyal understand that true loyalty is guided by honour, not blind obedience.
 
 - **Why do so many people think the only way to show respect for someone else is to degrade themselves?** (Mujeeb)
 
@@ -92,7 +92,7 @@ search:
 
 - I would die for you. But I won't live for you.
 
-- **Everyone worships Clark Kent—the ultimate people-pleaser, bending to everyone’s expectations and calling it virtue. I’ll take Lex Luthor—the real visionary.** At least the man believes in greatness and has the audacity to chase it, while Clark sits on a tall building, smirking like he personally saved the world. (Mujeeb)
+- **Everyone worships Clark Kent, the ultimate people-pleaser, bending to everyone’s expectations and calling it virtue. I’ll take Lex Luthor, the real visionary.** At least the man believes in greatness and has the audacity to chase it, while Clark sits on a tall building, smirking like he personally saved the world. (Mujeeb)
 
 
 
