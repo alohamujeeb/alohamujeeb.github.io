@@ -84,8 +84,9 @@ If something here helps you make a better design decision, solve a difficult pro
 
 ## <font color='green'> Contact </font>
 
-
+<!--
 **Email:** aloha.mujeeb AT yahoo.com *(please use @ instead of AT)*
+-->
 
 **LinkedIn:** [Connect with me on LinkedIn →](https://www.linkedin.com/in/alohamujeeb/){:target="_blank"}
 
