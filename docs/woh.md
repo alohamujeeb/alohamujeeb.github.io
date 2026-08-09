@@ -91,7 +91,8 @@ search:
 
 - I would die for you. But I won't live for you.
 
-- **Everyone worships Clark Kent—the ultimate people-pleaser, bending to everyone’s expectations and calling it virtue. I’ll take Lex Luthor—the real visionary. At least the man believes in greatness and has the audacity to chase it, while Clark sits on a tall building, smirking like he personally saved the world.**
+- **Everyone worships Clark Kent—the ultimate people-pleaser, bending to everyone’s expectations and calling it virtue. I’ll take Lex Luthor—the real visionary. At least the man believes in greatness and has the audacity to chase it, while Clark sits on a tall building, smirking like he personally saved the world.** (Mujeeb)
+
 
 
 
