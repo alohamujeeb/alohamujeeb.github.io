@@ -1,4 +1,10 @@
-# My Inspiration
+---
+search:
+  exclude: flase
+  
+---
+
+# <font color='green'> My Inspiration </font>
 
 Throughout history, there have been many remarkable people whose contributions changed the world. Such as **Isaac Newton**, **Albert Einstein**, **Nikola Tesla**, **Alan Turing**, and many others. Their work continues to inspire generations of scientists, engineers, and innovators.
 
