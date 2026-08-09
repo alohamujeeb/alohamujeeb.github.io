@@ -11,7 +11,7 @@ Throughout history, there have been many remarkable people whose contributions c
 
 ---
 
-## A Person Who Inspires Me.. <font color='red'>Srinivasa Ramanujan</font>
+## A Person Who Inspires Me... <font color='red'>Srinivasa Ramanujan</font>
 
 Among them, the person who inspires me the most is **Srinivasa Ramanujan**.
 

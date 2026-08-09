@@ -89,9 +89,13 @@ search:
 
 
 ---
-## <font color='tomato'>My Soul Companions (Plants, Animals & Pets) </font>
+## <font color='tomato'>My Soul Companions (Nature and Animals) </font>
 
 - **Until one has loved an animal, a part of one's soul remains unawakened.**
+
+- A gentle night rain tapping on the rooftop... perhaps the most beautiful lullaby I have ever known. (Mujeeb)
+
+- Who says cold is death? A cold, silent night may feel dead outside, but sit down, be in your own company, and you may find yourself strangely full of life. (Mujeeb)
 
 
 
