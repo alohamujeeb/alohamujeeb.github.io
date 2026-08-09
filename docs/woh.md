@@ -26,6 +26,10 @@ search:
 
 - **Back when my understanding was shallow, I had answers for everything. The deeper I went, the more every answer came with ten conditions. With every new understanding, I become less confident.** (Mujeeb)
 
+- **“Every old fool seems desperate to give advice, especially to the young. Age may bring wrinkles, but wisdom is clearly optional. Brain decay, however, appears to be guaranteed.”** (Mujeeb)
+ 
+- School and self-help gurus taught me: ‘Never give up. Keep trying.’ So apparently, if you keep whacking your head against the same wall long enough, that’s called success. No—it’s called being stupd. Sometimes the smartest move isn’t to try harder. It’s to step back, rethink the strategy, and look for the goddamn door. (Mujeeb)
+
 
 ---
 
@@ -51,11 +55,6 @@ search:
 
 - I’ve aged, but I’m still looking around inside myself, trying to figure out where the hell wisdom is hiding—the very wisdom we were told comes with age. So far, all I’ve found is more mileage and fewer answers. (Mujeeb)
 
-- **“Every old fool seems desperate to give advice, especially to the young. Age may bring wrinkles, but wisdom is clearly optional. Brain decay, however, appears to be guaranteed.”** (Mujeeb)
- 
-- School and self-help gurus taught me: ‘Never give up. Keep trying.’ So apparently, if you keep whacking your head against the same wall long enough, that’s called success. No—it’s called being stupd. Sometimes the smartest move isn’t to try harder. It’s to step back, rethink the strategy, and look for the goddamn door. (Mujeeb)
-
-
 - **I am free of all prejudice. I hate everyone equally.**
 
 ---
@@ -76,7 +75,7 @@ search:
 
 - **Hey interviewer, be careful. Every question you ask exposes you more than my answers expose me.** (Mujeeb)
 
-- **A paper no one understands isn't always profound. Sometimes jargons are just camouflage for an empty idea.**
+- **A paper no one understands isn't always profound. Sometimes jargons are just camouflage for an empty idea.** (Mujeeb)
 
 - Be nice to nerds. You may end up working for them. We all could.
 
