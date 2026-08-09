@@ -673,7 +673,7 @@ A watchdog timer **does not prevent software bugs**.
 
 Instead, it provides an automatic recovery mechanism when those bugs prevent the application from operating normally.
 
-It should complement—not replace—good software engineering practices such as:
+It should complement, not replace good software engineering practices such as:
 
 - Careful design
 - Code reviews
@@ -757,7 +757,7 @@ Although the application has failed, the timer interrupt continues executing and
 
 As a result, the watchdog never expires, and the software remains permanently stuck.
 
-A watchdog should normally be refreshed by the application logic whose health it is intended to monitor—not by an independent interrupt.
+A watchdog should normally be refreshed by the application logic whose health it is intended to monitor, not by an independent interrupt.
 
 ---
 
@@ -903,7 +903,7 @@ This approach provides a much more accurate indication of overall system health 
 
 ### 7.2 Windowed Watchdogs
 
-Some microcontrollers provide a **windowed watchdog** instead of—or in addition to—a standard watchdog.
+Some microcontrollers provide a **windowed watchdog** instead of, or in addition to a standard watchdog.
 
 A standard watchdog only requires the application to refresh the watchdog **before** the timeout expires.
 

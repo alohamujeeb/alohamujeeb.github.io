@@ -176,7 +176,7 @@ Representing data in hundreds or thousands of dimensions is only the first step.
 
 > Although **these mathematical techniques are far more advanced than the geometry taught in school, they are built upon the same fundamental ideas of coordinates, vectors, distances, and transformations.** 
 
-Higher-dimensional mathematics is therefore not a completely new subject—it is a natural extension of the mathematics we already know.
+Higher-dimensional mathematics is therefore not a completely new subject; it is a natural extension of the mathematics we already know.
 
 ---
 ## 7. From School Mathematics to Modern Applications
@@ -189,7 +189,7 @@ As mathematics is extended to higher dimensions, it also becomes more applicatio
 
 The key difference is not that the mathematics becomes completely different, but that it becomes more abstract and more widely applicable. Instead of describing physical objects in space, the same mathematical principles are used to analyze data, recognize patterns, make predictions, and solve complex real-world problems.
 
-In this sense, higher-dimensional mathematics represents the natural evolution of the mathematics we learn in school—from understanding the physical world around us to solving problems in science, engineering, and artificial intelligence.
+In this sense, higher-dimensional mathematics represents the natural evolution of the mathematics we learn in school; from understanding the physical world around us to solving problems in science, engineering, and artificial intelligence.
 
 ---
 ## 8. Conclusion
