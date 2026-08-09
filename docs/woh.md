@@ -41,16 +41,19 @@ search:
 
 - Roaing harder doesn't help if the boat is headed in wrong direction.
 
-- **If you want to know what a man/woman is like, take a good look at how they treats their inferiors, not their equals.**
+- If you want to know what a man/woman is like, take a good look at how they treats their inferiors, not their equals.
 
-- <font color='red'>**A friend once asked me how to read a woman he was planning to marry. I told him, "Observe how she treats waiters and janitors." (Mujeeb)** </font>
+- **<font color='red'>A friend once asked me how to read a woman he was planning to marry. I told him, "Observe how she treats waiters and janitors."</font>** (Mujeeb)
 
 - Women and cats will do as they please, and men and dogs should relax and get used to the idea.
 
 - Don't take advice from someone who has never succeeded—or never failed. The best advice comes from those who have failed, learned, and then succeeded. (Mujeeb)
 
-- School and self-help gurus taught me: ‘Never give up. Keep trying.’ So apparently, if you keep whacking your head against the same wall long enough, that’s called success. No—it’s called being stupd. Sometimes the smartest move isn’t to try harder. It’s to step back, rethink the strategy, and look for the goddamn door. (Mujeeb)
+- I’ve aged, but I’m still looking around inside myself, trying to figure out where the hell wisdom is hiding—the very wisdom we were told comes with age. So far, all I’ve found is more mileage and fewer answers. (Mujeeb)
 
+- **“Every old fool seems desperate to give advice, especially to the young. Age may bring wrinkles, but wisdom is clearly optional. Brain decay, however, appears to be guaranteed.”** (Mujeeb)
+ 
+- School and self-help gurus taught me: ‘Never give up. Keep trying.’ So apparently, if you keep whacking your head against the same wall long enough, that’s called success. No—it’s called being stupd. Sometimes the smartest move isn’t to try harder. It’s to step back, rethink the strategy, and look for the goddamn door. (Mujeeb)
 
 
 - **I am free of all prejudice. I hate everyone equally.**
