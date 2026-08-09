@@ -51,7 +51,7 @@ search:
 
 - **Dear interviewer, be mindful. Every question you ask exposes you more than my answers expose me.** (Mujeeb)
 
-- I marvel at the magic: a “research” paper nobody understands, or will ever bother to read. Yet somehow gets published and applauded.
+- I marvel at the magic: **“research” papers nobody understands, including the authors,** or will ever bother to read. Yet somehow, they get published and applauded.
 
 - Be nice to nerds. You may end up working for them. We all could.
 
