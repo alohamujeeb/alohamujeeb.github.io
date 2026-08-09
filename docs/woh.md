@@ -25,9 +25,9 @@ search:
 
 - You dont need more time; You need less distractions.
 
-- **Back when my understanding was shallow, I had answers for everything. The deeper I went, the more every answer came with ten conditions. With every new understanding, I become less confident.** (Mujeeb)
+- **Back when my understanding was shallow, I had answers for everything.** The deeper I went, the more every answer came with ten conditions. With every new understanding, I become less confident. (Mujeeb)
 
-- **“Every old fool seems desperate to give advice, especially to the young. Age may bring wrinkles, but wisdom is clearly optional. Brain decay, however, appears to be guaranteed.”** (Mujeeb)
+- **“Every old fool seems desperate to give advice, especially to the young.** Age may bring wrinkles, but wisdom is clearly optional. Brain decay, however, appears to be guaranteed.” (Mujeeb)
  
 - School and self-help gurus taught me: ‘Never give up. Keep trying.’ So apparently, if you keep whacking your head against the same wall long enough, that’s called success. No—it’s called being stupid. Sometimes the smartest move isn’t to try harder; It’s to step back, rethink the strategy, and look for the goddamn door. (Mujeeb)
 
@@ -38,9 +38,9 @@ search:
 
 - <font color='red'>**Do yourself a favour, GET RICH. Life gets better with money, not with time.**</font>
 
-- **My favorite sports, media, or business celebrity isn't paying my bills. Why am I investing my attention where I expect no return? I won't become a hero-worshipper at the cost of my own success.** (Mujeeb)
+- **My favorite sports, media, or business celebrity isn't paying my bills.** Why am I investing my attention where I expect no return? I won't become a hero-worshipper at the cost of my own success. (Mujeeb)
 
-- Preaching self-denial and the virtues of poverty rings hollow when you and your children live like kings. **What's harder to understand is why anyone still buys it.** (Mujeeb)
+- **Preaching self-denial and the virtues of poverty rings hollow when you and your children live like kings.** What's harder to understand is why anyone still buys it. (Mujeeb)
 
 - Ships are safe in harbor; But that not what ships are for.
 
@@ -92,8 +92,7 @@ search:
 
 - I would die for you. But I won't live for you.
 
-- **Everyone worships Clark Kent—the ultimate people-pleaser, bending to everyone’s expectations and calling it virtue. I’ll take Lex Luthor—the real visionary. At least the man believes in greatness and has the audacity to chase it, while Clark sits on a tall building, smirking like he personally saved the world.** (Mujeeb)
-
+- **Everyone worships Clark Kent—the ultimate people-pleaser, bending to everyone’s expectations and calling it virtue. I’ll take Lex Luthor—the real visionary.** At least the man believes in greatness and has the audacity to chase it, while Clark sits on a tall building, smirking like he personally saved the world. (Mujeeb)
 
 
 
