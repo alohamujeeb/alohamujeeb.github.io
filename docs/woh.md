@@ -88,11 +88,8 @@ search:
 - How can you not see the shallowness in mentors who parrot, “Work smart, not hard.” **Before mastery, that’s just a polished excuse for avoiding hard work, and a way to attract lazy audience for quick money.** (Mujeeb)
 
 - *"Everything is possible if you have courage, will and a GOOD PLAN."* (from a movie). 
-<br>Dear self-help gurus, where is the damn PLANNING in your training? All I get is motivational waffle, not practical advice on how to plan. (Mujeeb)
+<br>Dear self-help gurus, where is the damn PLANNING? All I get is motivational waffle, not practical advice on how to plan. (Mujeeb)
 
-- School and self-help gurus taught me: “Never give up.” So apparently, banging your head against the same wall is called perseverance. No, it’s called stupidity. Sometimes, the smart move is to step back, rethink, and find the damn door. (Mujeeb)
-
-- I have seen people ridicule religious sermons, yet get mesmerized by self-help ramblings. Others ridicule self-help, yet cling blindly to empty sermons. Different sermons, same gullibility. (Mujeeb)
 
 
 ---
