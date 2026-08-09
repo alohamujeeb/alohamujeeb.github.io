@@ -49,6 +49,10 @@ search:
 
 - Don't take advice from someone who has never succeeded—or never failed. The best advice comes from those who have failed, learned, and then succeeded. (Mujeeb)
 
+- School and self-help gurus taught me: ‘Never give up. Keep trying.’ So apparently, if you keep whacking your head against the same wall long enough, that’s called success. No—it’s called being stupd. Sometimes the smartest move isn’t to try harder. It’s to step back, rethink the strategy, and look for the goddamn door. (Mujeeb)
+
+
+
 - **I am free of all prejudice. I hate everyone equally.**
 
 ---
