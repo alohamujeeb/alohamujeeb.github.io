@@ -78,7 +78,7 @@ search:
 
 - Be nice to nerds. You may end up working for them. We all could.
 
-- How can you not see the shallowness in mentors who parrot, “Work smart, not hard.” **Before mastery, that’s just a polished excuse for avoiding hard work—and a way to attract lazy audience for quick money.**
+- How can you not see the shallowness in mentors who parrot, “Work smart, not hard.” **Before mastery, that’s just a polished excuse for avoiding hard work, and a way to attract lazy audience for quick money.**
 
 ---
 ## <font color="tomato">Honour, Respect, and Freedom</font>
