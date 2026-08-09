@@ -39,8 +39,6 @@ search:
 ---
 ## <font color="tomato"> Magic Worlds</font>
 
-- Those who don't believe in magic will never find it. 
-
 - **I'm surprised at you. You have the internet, AI, instant communication, and rockets landing themselves, and you still say, "Magic doesn't exist." (Mujeeb)**
 
 - Disbelief in magic can force a poor soul into believing in government and business. 
@@ -51,9 +49,9 @@ search:
 
 - What are they trying to cover up behind those flashy slides? (Mujeeb)
 
-- **Hey interviewer, be careful. Every question you ask exposes you more than my answers expose me.** (Mujeeb)
+- **Dear interviewer, be mindful. Every question you ask exposes you more than my answers expose me.** (Mujeeb)
 
-- A paper no one understands isn't always profound. Sometimes jargons are just camouflage for an empty idea. (Mujeeb)
+- A "research" paper no one understands isn't always profound. Sometimes jargons are just camouflage for an empty idea. (Mujeeb)
 
 - Be nice to nerds. You may end up working for them. We all could.
 
