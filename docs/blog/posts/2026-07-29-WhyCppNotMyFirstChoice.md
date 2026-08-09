@@ -39,8 +39,8 @@ When starting a new project, my goal is **not** to choose the most popular langu
 
 For me, two factors carry the greatest weight:
 
-- **Performance** — execution speed, memory footprint, and efficient use of system resources.
-- **Simplicity** — how easy the language is to learn, write, read, debug, and maintain throughout the lifetime of the software.
+- **Performance**: execution speed, memory footprint, and efficient use of system resources.
+- **Simplicity**: how easy the language is to learn, write, read, debug, and maintain throughout the lifetime of the software.
 
 Performance is undoubtedly important, especially for systems programming and embedded software. However, software is typically written once but maintained for many years. During that time, development cost is dominated by people rather than processors.
 
@@ -367,7 +367,7 @@ My typical decision process is relatively simple:
 
 Given these choices, I find that C++ is no longer my default option for many new projects.
 
-That does not mean C++ is obsolete or ineffective—it simply means that, for my priorities, another language is often a better fit.
+That does not mean C++ is obsolete or ineffective. It simply means that, for my priorities, another language is often a better fit.
 
 ---
 ## <font color='green'>6. When I Would Still Choose C++</font>
@@ -441,7 +441,7 @@ When these features provide clear advantages, C++ can be an excellent choice.
 
 C++ has powered some of the world's most successful software systems and continues to evolve.
 
-However, when I evaluate a **new** project based on the factors discussed in this article—performance, simplicity, maintainability, development cost, and available alternatives—I often find myself choosing another language instead.
+However, when I evaluate a **new** project based on the factors discussed in this article. Performance, simplicity, maintainability, development cost, and available alternatives. I often find myself choosing another language instead.
 
 Ultimately, selecting the right programming language is about making the best engineering decision for the problem at hand, not about proving that one language is universally superior.
 

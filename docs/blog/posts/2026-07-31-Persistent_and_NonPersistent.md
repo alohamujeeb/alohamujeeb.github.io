@@ -67,7 +67,7 @@ In this article, we'll first explore the concepts of **persistent** and **non-pe
 
 Before comparing persistent and non-persistent communication, we first need to understand what a **connection** actually is.
 
-In computer networking, a connection is a communication channel established between two endpoints—typically a client and a server—that allows them to exchange data.
+In computer networking, a connection is a communication channel established between two endpoints; typically a client and a server, that allows them to exchange data.
 
 Depending on the communication technology being used, this channel may exist only for a single interaction or remain available for multiple interactions.
 
@@ -279,7 +279,7 @@ Servers must maintain resources for every active connection, including:
 - Connection state
 - Timeout management
 
-As the number of connected clients grows, managing thousands—or even millions—of simultaneous connections becomes a scalability challenge.
+As the number of connected clients grows, managing thousands, or even millions of simultaneous connections becomes a scalability challenge.
 
 ### A Persistent Connection Doesn't Mean Continuous Data
 

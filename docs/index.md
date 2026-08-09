@@ -36,7 +36,7 @@ The content is organized into two complementary sections:
 
 ### Design Notes
 
-Explore the **why** behind software engineering—design decisions, architectural trade-offs, technology choices, and practical lessons learned from building real software systems.
+Explore the **why** behind software engineering; design decisions, architectural trade-offs, technology choices, and practical lessons learned from building real software systems.
 
 ### Code Reference
 
@@ -62,7 +62,7 @@ The content spans a broad range of software engineering topics, including:
 * Artificial Intelligence
 * Modern Software Development
 
-As the site continues to grow, additional learning resources—including books, guides, and courses—will complement these notes and references.
+As the site continues to grow, additional learning resources including books, guides, and courses—will complement these notes and references.
 
 ---
 
