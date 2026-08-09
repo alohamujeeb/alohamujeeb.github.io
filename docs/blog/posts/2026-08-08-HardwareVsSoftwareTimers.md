@@ -230,7 +230,7 @@ As a general guideline:
 
 The most important takeaway is this:
 
-> **Software timers do not replace hardware timers—they extend them.**
+> **Software timers do not replace hardware timers; they extend them.**
 
 A few hardware timers provide the accurate time base, while software timers allow an application to create many independent timers without requiring additional hardware peripherals. Together, they provide a flexible and efficient timing solution for modern embedded systems.
 

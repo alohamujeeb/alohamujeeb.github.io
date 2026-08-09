@@ -129,7 +129,7 @@ int main(void)
 }
 ```
 
-Whenever an external event occurs—such as a timer expiring, a button being pressed, or a communication packet arriving—the processor temporarily suspends the main loop and executes the appropriate interrupt service routine.
+Whenever an external event occurs, such as a timer expiring, a button being pressed, or a communication packet arriving, the processor temporarily suspends the main loop and executes the appropriate interrupt service routine.
 
 Once the interrupt has been handled, execution resumes exactly where the main loop left off.
 
@@ -780,7 +780,7 @@ In the next section, we will compare **bare-metal** and **RTOS-based** systems t
 ---
 ## <font color='green'>8. Bare-Metal vs. RTOS</font>
 
-Both **bare-metal** and **RTOS-based** systems are widely used in embedded applications. Neither approach is universally better—the choice depends on the application's complexity, timing requirements, available resources, and long-term maintenance needs.
+Both **bare-metal** and **RTOS-based** systems are widely used in embedded applications. Neither approach is universally better. The choice depends on the application's complexity, timing requirements, available resources, and long-term maintenance needs.
 
 The following table summarizes the main differences.
 
@@ -831,7 +831,7 @@ The defining question remains the same:
 
 > **Can the application consistently complete its required operations before their specified deadlines?**
 
-If the answer is **yes**, then the system is real-time—regardless of whether it is implemented as a bare-metal application or as an RTOS-based application.
+If the answer is **yes**, then the system is real-time, regardless of whether it is implemented as a bare-metal application or as an RTOS-based application.
 
 
 ---
@@ -846,7 +846,7 @@ A **bare-metal application can absolutely be a real-time system** if it consiste
 The key points discussed in this article are summarized below:
 
 - **Bare-metal** simply means the application runs directly on the hardware without an operating system.
-- **Real-time** means meeting application deadlines—not using a particular software architecture.
+- **Real-time** means meeting application deadlines; not using a particular software architecture.
 - A bare-metal application can achieve real-time behavior using:
   - Hardware timers
   - Hardware interrupts and ISRs
@@ -859,7 +859,7 @@ The key points discussed in this article are summarized below:
   - Small memory footprint
   - Direct control of hardware
 - As applications become larger and more complex, organizing everything within a single super loop becomes increasingly difficult.
-- In such cases, developers often adopt an RTOS—not because bare-metal is no longer real-time, but because an RTOS provides a more structured way to organize complex software.
+- In such cases, developers often adopt an RTOS; not because bare-metal is no longer real-time, but because an RTOS provides a more structured way to organize complex software.
 
 The most important takeaway is this:
 

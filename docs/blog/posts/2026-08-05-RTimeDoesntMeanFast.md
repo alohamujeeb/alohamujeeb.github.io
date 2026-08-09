@@ -144,7 +144,7 @@ If the controller consistently completes within **1 ms**, the system operates no
 
 If it occasionally requires **3 ms**, the controller may become unstable because it missed its required update interval.
 
-Again, the calculation itself may be perfectly correct—it simply arrived **too late**.
+Again, the calculation itself may be perfectly correct, it simply arrived **too late**.
 
 ---
 
@@ -285,7 +285,7 @@ This does **not** mean that one application is "more real-time" than another. It
 
 ---
 
-### The Same Hardware Can Be Real-Time—or Not
+### The Same Hardware Can Be Real-Time or Not
 
 Whether a system is considered real-time depends on **both the application and the hardware**.
 
@@ -913,7 +913,7 @@ For a real-time application, it may be unacceptable.
 
 Consider an automotive ABS controller that must respond within **2 ms**.
 
-If the operating system occasionally delays execution to **5 ms**, the application has failed—even if it usually completes within **500 μs**.
+If the operating system occasionally delays execution to **5 ms**, the application has failed, even if it usually completes within **500 μs**.
 
 Real-time systems are designed around the **worst-case response time**, not the average response time.
 
@@ -1024,7 +1024,7 @@ Not necessarily.
 
 For many industrial applications, PREEMPT_RT Linux provides sufficient real-time performance.
 
-However, extremely time-critical systems—such as high-speed motor controllers, automotive airbag controllers, or flight control computers—often continue to use dedicated RTOSes or bare-metal firmware because they offer even tighter control over timing and system behavior.
+However, extremely time-critical systems, such as high-speed motor controllers, automotive airbag controllers, or flight control computers often continue to use dedicated RTOSes or bare-metal firmware because they offer even tighter control over timing and system behavior.
 
 ---
 

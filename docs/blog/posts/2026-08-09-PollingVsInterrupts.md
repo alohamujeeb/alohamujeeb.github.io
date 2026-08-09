@@ -300,7 +300,7 @@ For example, a simple data acquisition system might:
 
 By selecting the appropriate technique for each task, developers can build systems that are both efficient and easy to maintain.
 
-The choice is therefore **not** between polling *or* interrupts—it is often a matter of deciding **where each technique is most appropriate**.
+The choice is therefore **not** between polling *or* interrupts, it is often a matter of deciding **where each technique is most appropriate**.
 
 
 ---

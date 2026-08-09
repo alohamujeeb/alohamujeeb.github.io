@@ -200,7 +200,7 @@ An embedded programmer, however, is expected to understand topics such as:
 - ADCs and DACs
 - Clock systems
 
-In other words, learning Embedded C is not just about learning the C language—it is equally about understanding the hardware on which that code executes.
+In other words, learning Embedded C is not just about learning the C language. it is equally about understanding the hardware on which that code executes.
 
 
 ---
@@ -690,7 +690,7 @@ No.
 
 The C language fully supports recursion, and some embedded applications use it successfully.
 
-However, many embedded projects—particularly those with limited RAM or real-time requirements—either discourage recursion or prohibit it through coding standards such as **MISRA C**.
+However, many embedded projects, particularly those with limited RAM or real-time requirements, either discourage recursion or prohibit it through coding standards such as **MISRA C**.
 
 The objective is not to avoid recursion because it is incorrect, but to ensure that **stack usage remains predictable and bounded**.
 
@@ -1047,7 +1047,7 @@ Examples include:
 
 In these applications, predictable timing is often essential for reliable operation.
 
-Consequently, embedded programmers spend considerable effort measuring, analyzing, and optimizing execution time—not simply to make the software faster, but to ensure that it behaves predictably under all operating conditions.
+Consequently, embedded programmers spend considerable effort measuring, analyzing, and optimizing execution time; not simply to make the software faster, but to ensure that it behaves predictably under all operating conditions.
 
 In the next section, we will examine another important consideration in embedded systems: **power consumption and energy-efficient programming**.
 
@@ -1236,9 +1236,9 @@ Modern compilers provide optimization options to reduce code size.
 
 Common optimization levels include:
 
-- `-Os` — Optimize for code size
-- `-O2` — Optimize for execution speed
-- `-O3` — Aggressive performance optimization
+- `-Os`:  Optimize for code size
+- `-O2`:  Optimize for execution speed
+- `-O3`:  Aggressive performance optimization
 
 Embedded developers often choose the optimization level that provides the best balance between program size and performance.
 
@@ -1449,7 +1449,8 @@ In Embedded C programming, another equally important question is asked:
 
 Designing for long-term reliability influences almost every aspect of embedded software development, from memory management and interrupt handling to error recovery and system testing.
 
-In the next section, we will compare the three major Embedded C software platforms—**bare-metal**, **RTOS-based systems**, and **Embedded Linux**—and discuss where each approach is most appropriate.
+In the next section, we will compare the three major Embedded C software platforms. 
+<br>**Bbare-metal**, **RTOS-based systems**, and **Embedded Linux**, and discuss where each approach is most appropriate.
 
 
 ---
@@ -1593,7 +1594,7 @@ Selecting the appropriate platform is one of the first and most important design
 ---
 ## <font color='green'>16. Embedded Linux: More Like Conventional C Programming</font>
 
-Most of the programming practices discussed in this article—such as avoiding dynamic memory allocation, minimizing stack usage, limiting floating-point arithmetic, and carefully optimizing code size—primarily apply to **resource-constrained embedded systems** based on microcontrollers.
+Most of the programming practices discussed in this article, such as avoiding dynamic memory allocation, minimizing stack usage, limiting floating-point arithmetic, and carefully optimizing code size; primarily apply to **resource-constrained embedded systems** based on microcontrollers.
 
 Modern **Embedded Linux** platforms are often very different.
 
@@ -1647,7 +1648,7 @@ This demonstrates that **Embedded C is a broad field**, ranging from tiny 8-bit 
 ---
 ## <font color='green'>16. Embedded Linux: More Like Conventional C Programming</font>
 
-Most of the programming practices discussed in this article—such as avoiding dynamic memory allocation, minimizing stack usage, limiting floating-point arithmetic, and carefully optimizing code size—primarily apply to **resource-constrained embedded systems** based on microcontrollers.
+Most of the programming practices discussed in this article, such as avoiding dynamic memory allocation, minimizing stack usage, limiting floating-point arithmetic, and carefully optimizing code size; primarily apply to **resource-constrained embedded systems** based on microcontrollers.
 
 Modern **Embedded Linux** platforms are often very different.
 
@@ -1724,7 +1725,7 @@ Some of the most important takeaways are:
 
 Perhaps the most important lesson is this:
 
-> **Embedded C is not a different programming language—it is a different way of thinking about software development.**
+> **Embedded C is not a different programming language; it is a different way of thinking about software development.**
 
 An embedded programmer must not only solve the problem correctly, but also ensure that the solution fits within the limitations of the target hardware, meets timing requirements, uses memory efficiently, and operates reliably throughout the product's lifetime.
 

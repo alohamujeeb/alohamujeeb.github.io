@@ -22,7 +22,7 @@ tags:
 
 # <font color='green'>Bare Metal vs Operating Systems in Embedded Systems: Choosing the Right Software Architecture</font>
 
-Understanding Bare Metal, RTOS, and Embedded Linux—and when each approach is the right choice for your embedded project.
+Understanding Bare Metal, RTOS, and Embedded Linux, and when each approach is the right choice for your embedded project.
 
 <!-- more -->
 In this article, we'll explore the different software architectures used in embedded systems, from bare metal programming to Real-Time Operating Systems (RTOS) and Embedded Linux. By the end, you'll understand how hardware capabilities influence the choice of software platform and when each approach is the most appropriate.
@@ -35,7 +35,7 @@ Embedded systems are built for a wide range of applications, from simple LED bli
 
 - Some devices have only a few kilobytes of memory and run a **single application**.
 - Others have enough processing power and memory to execute **multiple tasks simultaneously**.
-- As hardware capabilities increase, the software architecture also evolves—from **Bare Metal**, to **RTOS**, and eventually **Embedded Linux**.
+- As hardware capabilities increase, the software architecture also evolves from **Bare Metal**, to **RTOS**, and eventually **Embedded Linux**.
 - Choosing the right approach depends on the application's complexity, timing requirements, and available hardware resources.
 
 In the following sections, we'll explore each of these software architectures and understand where they fit in the embedded systems landscape.
@@ -106,7 +106,7 @@ This approach offers several advantages:
 - Fast startup and predictable execution.
 - Complete control over the hardware.
 
-For small embedded applications, the Super Loop is often the most efficient solution. However, as the application grows in complexity—with multiple peripherals, communication interfaces, and time-critical operations—the single-loop architecture becomes increasingly difficult to manage.
+For small embedded applications, the Super Loop is often the most efficient solution. However, as the application grows in complexity with multiple peripherals, communication interfaces, and time-critical operations, the single-loop architecture becomes increasingly difficult to manage.
 
 This naturally leads to the question:
 
@@ -138,7 +138,7 @@ Although interrupts can help improve responsiveness, they are not a complete sol
 
 As applications become larger and more sophisticated, developers need a better way to organize software into independent tasks while ensuring each task receives CPU time when needed.
 
-This is where an **Operating System (OS)**—particularly a **Real-Time Operating System (RTOS)**—becomes useful.
+This is where an **Operating System (OS)**, particularly a **Real-Time Operating System (RTOS)** becomes useful.
 
 ---
 ## <font color='green'>5. Understanding Operating Systems in Embedded Systems</font>
