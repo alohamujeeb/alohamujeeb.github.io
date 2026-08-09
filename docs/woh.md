@@ -16,22 +16,11 @@ search:
 
 - My posts and articles aren’t here to keep you busy with flashy animations, color visuals, and nothing to take away. They’re here to give you a practical idea, a useful technique, or something you can apply. **If you finish reading and have nothing you can use, I’ve wasted your attention.** (Mujeeb)
 
-
-- A 300-page self-help book is a recipe for the writer's success, not the reader's. (Mujeeb)
-
-- A self-help book can be a bestseller without being the best advice. Once it crosses 50 pages, it's often selling pages more than wisdom. (Mujeeb)
-
-- **People who give you 20 tips for success are usually filling pages only**, not changing lives. One insight is enough, if it truly hits. (Mujeeb)
-
-- You dont need more time; You need less distractions.
-
-- **Back when my understanding was shallow, I had answers for everything.** The deeper I went, the more every answer came with a dozen conditions. With every new understanding, I become less confident. (Mujeeb)
-
-- **"Why every old folk seems desperate to give advice, especially to the young?** Age may bring wrinkles, but wisdom is clearly optional. Brain decay, however, appears to be guaranteed.” (Mujeeb)
+- When someone says, “I don’t have enough time to do this,” it often means, “I’m not interested enough.” Even the President of the United States can find hours everyday for something he or she really wants to do. (Mujeeb)
 
 - I used to think my elders were wise. **Now that I have grey hair of my own, wisdom is still nowhere to be found.** I have merely become too tired to argue, and people, desperate to find wisdom in old age, mistake my exhaustion for enlightenment. (Mujeeb)
- 
-- School and self-help gurus taught me: ‘Never give up. If you fail, do it again and again.’ So apparently, if you keep whacking your head against the same wall long enough, that’s called success. No, it’s called being stupid. Sometimes the smartest move isn’t to try harder; It’s to step back, rethink the strategy, and look for the goddamn door. (Mujeeb)
+
+- **"Why every old folk seems desperate to give advice, especially to the young?** Age may bring wrinkles, but wisdom is clearly optional. Brain decay, however, appears to be guaranteed.” (Mujeeb)
 
 
 ---
@@ -40,12 +29,6 @@ search:
 - <font color='blue'>**Do yourself a favour, GET RICH. Life gets better with money, not with time.**</font>
 
 - **My favorite sports, media, or business celebrity isn't paying my bills.** Why am I investing my attention where I expect no return? I won't become a hero-worshipper at the cost of my own success. (Mujeeb)
-
-- **Preaching self-denial and the virtues of poverty rings hollow when you and your children live like kings.** What's harder to understand is why anyone still buys it. (Mujeeb)
-
-- Ships are safe in harbor; But that not what ships are for.
-
-- Roaing harder doesn't help if the boat is headed in wrong direction.
 
 - If you want to know what a man/woman is like, take a good look at how they treats their inferiors, not their equals.
 
@@ -56,7 +39,6 @@ search:
 - **I am free of all prejudice. I hate everyone equally.**
 
 ---
-
 ## <font color="tomato"> Magic Worlds</font>
 
 - Those who don't believe in magic will never find it. 
@@ -65,19 +47,18 @@ search:
 
 - Disbelief in magic can force a poor soul into believing in government and business. 
 
----
 
+---
 ## <font color="tomato">Job and Work</font>
 
 - What are they trying to cover up behind those flashy slides? (Mujeeb)
 
 - **Hey interviewer, be careful. Every question you ask exposes you more than my answers expose me.** (Mujeeb)
 
-- **A paper no one understands isn't always profound. Sometimes jargons are just camouflage for an empty idea.** (Mujeeb)
+- A paper no one understands isn't always profound. Sometimes jargons are just camouflage for an empty idea. (Mujeeb)
 
 - Be nice to nerds. You may end up working for them. We all could.
 
-- How can you not see the shallowness in mentors who parrot, “Work smart, not hard.” **Before mastery, that’s just a polished excuse for avoiding hard work, and a way to attract lazy audience for quick money.**
 
 ---
 ## <font color="tomato">Honour, Respect, and Freedom</font>
@@ -93,6 +74,25 @@ search:
 - I would die for you. But I won't live for you.
 
 - **Everyone worships Clark Kent, the ultimate people-pleaser, bending to everyone’s expectations and calling it virtue. I’ll take Lex Luthor, the real visionary.** At least the man believes in greatness and has the audacity to chase it, while Clark sits on a tall building, smirking like he personally saved the world. (Mujeeb)
+
+
+---
+### <font color='tomato'> Self-Help & Other Empty Talks </font>
+
+- A 300-page self-help book is a recipe for the writer's success, not the reader's. (Mujeeb)
+
+- A self-help book can be a bestseller without being the best advice. Once it crosses 50 pages, it's often selling pages more than wisdom. (Mujeeb)
+
+- **People who give you 20 tips for success are usually filling pages only**, not changing lives. One insight is enough, if it truly hits. (Mujeeb)
+
+- How can you not see the shallowness in mentors who parrot, “Work smart, not hard.” **Before mastery, that’s just a polished excuse for avoiding hard work, and a way to attract lazy audience for quick money.** (Mujeeb)
+
+- *"Everything is possible if you have courage, will and a GOOD PLAN."* (from a movie). 
+<br>Dear self-help gurus, where is the damn PLANNING in your training? All I get is motivational waffle, not practical advice on how to plan. (Mujeeb)
+
+- School and self-help gurus taught me: “Never give up.” So apparently, banging your head against the same wall is called perseverance. No, it’s called stupidity. Sometimes, the smart move is to step back, rethink, and find the damn door. (Mujeeb)
+
+- I have seen people ridicule religious sermons, yet get mesmerized by self-help ramblings. Others ridicule self-help, yet cling blindly to empty sermons. Different sermons, same gullibility. (Mujeeb)
 
 
 ---
