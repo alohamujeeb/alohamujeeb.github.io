@@ -43,6 +43,7 @@ tags:
 ## <font color='green'> 2. Real-Time & Embedded Systems </font>
 *Embedded software architecture, firmware design, RTOS, and real-world engineering practices.*
 
+
 ### **Real-Time Systems and RTOS**
 [▶ Bare Metal vs Operating Systems in Embedded Systems](../blog/posts/2026-08-03-BaremetalvsOS.md)
 
@@ -59,11 +60,18 @@ tags:
 [▶ Embedded C Programming vs. Conventional C Programming](../blog/posts/2026-08-06-ConventionalVsEmbeddedC.md)
 
 
+### **Embedded Systems Connectivity Over Network**
+[▶ On-Device vs Edge vs Cloud Computing](../blog/posts/2026-08-10-EdgevsCloud_Computing.md)
+
+
 ---
 ## <font color='green'> 3. Robotics and Fleet Managment </font>
 
 ### **ROS/ROS2**
 [▶ OpenRMF-  A Technical Assessment](./openrmf_assessment.md)
+
+
+
 
 
 ---

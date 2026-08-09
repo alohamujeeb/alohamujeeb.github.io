@@ -8,7 +8,7 @@ search:
 *Here are some of my favorite quotes. I hope some of them reach my heart and change me. I hope they do the same for you.*
 
 ---
-<font color='red'>Have you noticed that most impractical and boring quotes seem to come from preachers? (Mujeeb)</font> 
+<font color='blue'>Have you noticed that most impractical and boring quotes seem to come from preachers? (Mujeeb)</font> 
 
 ---
 
@@ -41,7 +41,7 @@ search:
 
 - Roaing harder doesn't help if the boat is headed in wrong direction.
 
-- If you want to know what a man/woman is like, take a good look at how they treats their inferiors, not their equals.
+- **If you want to know what a man/woman is like, take a good look at how they treats their inferiors, not their equals.**
 
 - <font color='red'>**A friend once asked me how to read a woman he was planning to marry. I told him, "Observe how she treats waiters and janitors." (Mujeeb)** </font>
 
