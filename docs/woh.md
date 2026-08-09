@@ -14,7 +14,8 @@ search:
 
 ## <font color="tomato">Learning and Reading</font>
 
-- When you finish a post, video, or blog, ask yourself: "What did I take away?" (Mujeeb)
+- My posts aren’t here to keep you busy with flashy animations, clever visuals, and noise—with nothing to take away. They’re here to give you a practical idea, a useful technique, or something you can apply. **If you finish reading and have nothing you can use, I’ve wasted your attention.** (Mujeeb)
+
 
 - A 300-page self-help book is a recipe for the writer's success—not the reader's. (Mujeeb)
 
