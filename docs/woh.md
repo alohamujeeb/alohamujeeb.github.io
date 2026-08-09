@@ -1,6 +1,7 @@
 ---
 search:
   exclude: true
+  
 ---
 
 
@@ -11,10 +12,9 @@ search:
 <font color='blue'>Have you noticed that most impractical and boring quotes seem to come from preachers and so-called holy men? (Mujeeb)</font> 
 
 ---
-
 ## <font color="tomato">Learning and Reading</font>
 
-- My posts aren’t here to keep you busy with flashy animations, clever visuals, and noise; with nothing to take away. They’re here to give you a practical idea, a useful technique, or something you can apply. **If you finish reading and have nothing you can use, I’ve wasted your attention.** (Mujeeb)
+- My posts and articles aren’t here to keep you busy with flashy animations, color visuals, and nothing to take away. They’re here to give you a practical idea, a useful technique, or something you can apply. **If you finish reading and have nothing you can use, I’ve wasted your attention.** (Mujeeb)
 
 
 - A 300-page self-help book is a recipe for the writer's success, not the reader's. (Mujeeb)
@@ -25,11 +25,13 @@ search:
 
 - You dont need more time; You need less distractions.
 
-- **Back when my understanding was shallow, I had answers for everything.** The deeper I went, the more every answer came with ten conditions. With every new understanding, I become less confident. (Mujeeb)
+- **Back when my understanding was shallow, I had answers for everything.** The deeper I went, the more every answer came with a dozen conditions. With every new understanding, I become less confident. (Mujeeb)
 
-- **“Every old fool seems desperate to give advice, especially to the young.** Age may bring wrinkles, but wisdom is clearly optional. Brain decay, however, appears to be guaranteed.” (Mujeeb)
+- **"Why every old folk seems desperate to give advice, especially to the young?** Age may bring wrinkles, but wisdom is clearly optional. Brain decay, however, appears to be guaranteed.” (Mujeeb)
+
+- I used to think my elders were wise. **Now that I have grey hair of my own, wisdom is still nowhere to be found.** I have merely become too tired to argue, and people, desperate to find wisdom in old age, mistake my exhaustion for enlightenment. (Mujeeb)
  
-- School and self-help gurus taught me: ‘Never give up. Keep trying.’ So apparently, if you keep whacking your head against the same wall long enough, that’s called success. No, it’s called being stupid. Sometimes the smartest move isn’t to try harder; It’s to step back, rethink the strategy, and look for the goddamn door. (Mujeeb)
+- School and self-help gurus taught me: ‘Never give up. If you fail, do it again and again.’ So apparently, if you keep whacking your head against the same wall long enough, that’s called success. No, it’s called being stupid. Sometimes the smartest move isn’t to try harder; It’s to step back, rethink the strategy, and look for the goddamn door. (Mujeeb)
 
 
 ---
@@ -51,8 +53,6 @@ search:
 - **<font color='red'>A friend once asked me how to read a woman he was planning to marry. I told him, "Observe how she treats waiters and janitors."</font>** (Mujeeb)
 
 - Don't take advice from someone who has never succeeded or never failed. The best advice comes from those who have failed, learned, and then succeeded. (Mujeeb)
-
-- I’ve aged, but I’m still looking around inside myself, trying to figure out where the hell wisdom is hiding, the very wisdom we were told comes with age. So far, all I’ve found is more mileage and fewer answers. (Mujeeb)
 
 - **I am free of all prejudice. I hate everyone equally.**
 
