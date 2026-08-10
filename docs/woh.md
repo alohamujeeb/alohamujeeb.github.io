@@ -43,6 +43,8 @@ search:
 
 - Disbelief in magic can force a poor soul into believing in government and business. 
 
+- **Happiness index? What horse crap. How can they possibly measure happiness? You mean distractions dressed up as happiness?**
+
 
 ---
 ## <font color="tomato">Job and Work</font>
