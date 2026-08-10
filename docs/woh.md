@@ -34,6 +34,8 @@ search:
 
 - Don't take advice from someone who has never succeeded or never failed. The best advice comes from those who have failed, learned, and then succeeded. (Mujeeb)
 
+- **Happiness index? What horse crap. How can they possibly measure happiness? You mean distractions dressed up as happiness?** (Mujeeb)
+
 - **I am free of all prejudice. I hate everyone equally.**
 
 ---
@@ -42,9 +44,6 @@ search:
 - **I'm surprised at you. You have the internet, AI, instant communication, and rockets landing themselves, and you still say, "Magic doesn't exist." (Mujeeb)**
 
 - Disbelief in magic can force a poor soul into believing in government and business. 
-
-- **Happiness index? What horse crap. How can they possibly measure happiness? You mean distractions dressed up as happiness?** (Mujeeb)
-
 
 ---
 ## <font color="tomato">Job and Work</font>
