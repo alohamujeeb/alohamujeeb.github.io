@@ -156,7 +156,7 @@ typedef struct
 
 Unlike an ordinary array, the compiler does **not** allocate storage for `name` as part of the structure. Instead, `name` serves as a placeholder indicating that additional storage may follow the fixed portion of the structure.
 
-This is why the declaration is known as a **Flexible Array Member**—its size is determined when the structure is allocated, not when the structure type is defined.
+This is why the declaration is known as a **Flexible Array Member**. Its size is determined when the structure is allocated, not when the structure type is defined.
 
 ### Flexible Array Members Must Be the Last Member
 
@@ -416,7 +416,7 @@ Therefore, only a single call to `free()` is required.
 free(s);
 ```
 
->This is one of the primary advantages of Flexible Array Members—they simplify memory management by treating the fixed members and the variable-length data as a single object.
+>This is one of the primary advantages of Flexible Array Members. They simplify memory management by treating the fixed members and the variable-length data as a single object.
 
 ---
 ## <font color='green'>4. Common Usage Patterns</font>

@@ -97,7 +97,7 @@ Unlike desktop applications, where a stack overflow may simply terminate the pro
 - Corrupt memory.
 - Stop responding altogether.
 
-> For this reason, many embedded software projects discourage—or even prohibit—the use of recursion. Instead, developers often prefer iterative solutions whose stack usage is predictable and easy to analyze.
+> For this reason, many embedded software projects discourage, or even prohibit the use of recursion. Instead, developers often prefer iterative solutions whose stack usage is predictable and easy to analyze.
 
 
 ---
@@ -349,7 +349,7 @@ In safety-critical systems, such uncertainty is unacceptable.
 
 Standards used in industries such as automotive, aerospace, railway, and medical devices often discourage or completely prohibit recursion because the worst-case stack usage cannot always be determined with confidence.
 
-For many embedded developers, the concern is not that recursion is inherently incorrect—it is that its stack usage can be difficult to predict and verify.
+For many embedded developers, the concern is not that recursion is inherently incorrect. It is that its stack usage can be difficult to predict and verify.
 
 ---
 ## <font color='green'>4. Recursion vs Iteration</font>
@@ -468,7 +468,7 @@ The following table compares the two approaches.
 
 This does **not** mean that recursion is inherently bad.
 
-For some problems—such as traversing trees or processing hierarchical data—recursive solutions can be elegant and easy to understand.
+For some problems, such as traversing trees or processing hierarchical data, recursive solutions can be elegant and easy to understand.
 
 However, in embedded systems where stack memory is limited and deterministic behavior is important, developers often replace recursion with iteration to reduce memory usage and make the program's stack requirements easier to predict.
 

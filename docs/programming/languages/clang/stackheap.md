@@ -357,7 +357,7 @@ In short
 Stack: Small because it is a fixed-size, high-speed area optimized for function calls.
 Heap: Large because it is a dynamic area that can grow as the program requests more memory.
 
-That's the fundamental reason. The size difference isn't a property of C itself—it's a deliberate design choice made by operating systems and runtime environments to balance speed (stack) and flexibility (heap).
+That's the fundamental reason. The size difference isn't a property of C itself; it's a deliberate design choice made by operating systems and runtime environments to balance speed (stack) and flexibility (heap).
 
 
 

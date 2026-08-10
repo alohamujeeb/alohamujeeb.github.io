@@ -69,7 +69,6 @@ Understanding endianness is important when exchanging binary data between differ
 
 > If two systems use different byte orders, multi-byte values must be interpreted using the correct byte ordering to ensure interoperability.
 
-The next section examines the two byte-ordering schemes—**big-endian** and **little-endian**—in more detail.
 
 ---
 ## <font color='green'>2. Big-Endian vs Little-Endian</font>

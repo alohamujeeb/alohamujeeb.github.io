@@ -63,7 +63,7 @@ Applications including `stack.h` can therefore declare pointers to `Stack`.
 Stack *stack;
 ```
 
-This pointer is called an **opaque pointer** because the type it points to is **opaque**—its internal representation is hidden from the application.
+This pointer is called an **opaque pointer** because the type it points to is **opaque**. Its internal representation is hidden from the application.
 
 From the application's perspective, the object looks like this.
 

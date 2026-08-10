@@ -343,7 +343,7 @@ Accessing memory after it has been freed results in undefined behavior because t
 
 ---
 
-Although these mistakes appear different, they all originate from the same problem: **the ownership of the allocated memory is unclear or violated**. Clearly defining who owns each allocation—and ensuring that only the owner calls `free()`—eliminates most memory-management bugs in C programs.
+Although these mistakes appear different, they all originate from the same problem: **the ownership of the allocated memory is unclear or violated**. Clearly defining who owns each allocation and ensuring that only the owner calls `free()` eliminates most memory-management bugs in C programs.
 
 ---
 ## <font color='green'>5. Memory Ownership Best Practices</font>
@@ -428,7 +428,7 @@ The key ideas are:
 - Borrowed pointers may use memory but must never call `free()`.
 - Memory should be released exactly once by its current owner.
 
-Most memory-management bugs—including memory leaks, double-free errors, and dangling pointers—occur because ownership is unclear or violated.
+Most memory-management bugs including memory leaks, double-free errors, and dangling pointers occur because ownership is unclear or violated.
 
 By clearly defining ownership throughout a program, dynamic memory becomes predictable, easier to reason about, and significantly less error-prone.
 

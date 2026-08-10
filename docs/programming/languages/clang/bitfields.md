@@ -3,8 +3,8 @@ hide:
   - navigation
   
 tags:
-  - Bit fields
-  
+  - Bit Fields
+
 ---
 
 # Bit Fields in C: Packing Data into Individual Bits
@@ -183,7 +183,7 @@ Since the total width is 8 bits, a compiler may choose to pack all the fields in
 - The alignment requirements of bit fields.
 - Whether padding bits are inserted between fields.
 
-Consequently, two different compilers—or even the same compiler running on different target architectures—may produce different memory layouts for the same bit-field declaration.
+Consequently, two different compilers, or even the same compiler running on different target architectures may produce different memory layouts for the same bit-field declaration.
 
 For this reason, programs should not assume a particular bit-field layout unless it is guaranteed by the target compiler and platform. This is especially important when interfacing with hardware registers, communication protocols, or binary file formats that require an exact bit layout.
 

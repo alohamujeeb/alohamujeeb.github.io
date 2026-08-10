@@ -18,8 +18,8 @@ Sorting and searching are two of the most fundamental operations performed on co
 
 > Unlike C++, whose Standard Template Library (STL) provides a rich collection of generic algorithms, the C Standard Library includes only two generic algorithms for working with arrays:
 
-- `qsort()` — Sorts the elements of an array.
-- `bsearch()` — Performs a binary search on a sorted array.
+- `qsort()`: Sorts the elements of an array.
+- `bsearch()`: Performs a binary search on a sorted array.
 
 These two functions are declared in the `<stdlib.h>` header.
 

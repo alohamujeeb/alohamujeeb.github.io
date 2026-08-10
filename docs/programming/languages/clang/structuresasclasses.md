@@ -66,13 +66,13 @@ This design offers several advantages:
 - Encourages modular software design.
 - Simplifies maintenance as projects grow.
 
-This concept is known as **encapsulation**—bringing together the data that represents an object and the operations that manipulate it.
+This concept is known as **encapsulation**, bringing together the data that represents an object and the operations that manipulate it.
 
 Although C does not provide classes as a language feature, nothing prevents us from organizing our software in a similar way. By combining structures with well-designed functions, we can create reusable, object-like components that are easy to understand and maintain.
 
 In fact, this design philosophy is widely used in many large C codebases, including operating systems, embedded firmware, networking libraries, graphics frameworks, and device drivers.
 
-Throughout this article, we will see that a C structure is much more than a passive container for variables—it can serve as the foundation of a clean, modular, and class-like software design.
+Throughout this article, we will see that a C structure is much more than a passive container for variables. It can serve as the foundation of a clean, modular, and class-like software design.
 
 
 ---
@@ -589,7 +589,7 @@ Both approaches are valid, and each has its own advantages.
 
 ---
 
-### 6.1 Method 1 — Functions Outside the Structure
+### 6.1 Method 1: Functions Outside the Structure
 
 This is the approach used throughout the previous sections.
 
@@ -662,7 +662,7 @@ This is why most C libraries adopt this design.
 
 ---
 
-### 6.2 Method 2 — Function Pointers Inside the Structure
+### 6.2 Method 2: Function Pointers Inside the Structure
 
 Another approach is to store pointers to the functions inside the structure itself.
 
@@ -796,7 +796,7 @@ Method&nbsp;1 avoids this duplication because every object shares the same imple
 
 For this reason, **Method&nbsp;1 is the preferred design for most C software**.
 
-Function pointers become valuable only when different objects need different implementations—for example, when implementing callbacks, device drivers, plug-in architectures, or runtime polymorphism.
+Function pointers become valuable only when different objects need different implementations. For example, when implementing callbacks, device drivers, plug-in architectures, or runtime polymorphism.
 
 
 ### 6.4 Why Can't C Store Ordinary Functions Inside a Structure?
@@ -847,7 +847,7 @@ The only way to associate behavior with a structure is therefore one of the foll
 
 This explains why Method&nbsp;2 uses **function pointers** rather than ordinary functions.
 
-It is not a design preference—it is a language requirement.
+It is not a design preference; it is a language requirement.
 
 This is also one of the fundamental differences between C structures and C++ classes.
 
@@ -1218,7 +1218,7 @@ For applications requiring even greater flexibility, function pointers can be us
 
 Perhaps the most important takeaway is this:
 
-> **A C structure is not merely a collection of related data—it is the foundation upon which an entire software abstraction can be built.**
+> **A C structure is not merely a collection of related data. It is the foundation upon which an entire software abstraction can be built.**
 
 This philosophy has been successfully applied for decades in operating systems, embedded firmware, graphics libraries, networking stacks, and countless other large C projects.
 

@@ -134,7 +134,7 @@ Memory Pool
 Preallocated Memory
 ```
 
-The operating system is involved only once—when the pool itself is created.
+The operating system is involved only once; when the pool itself is created.
 
 All subsequent allocations and deallocations are handled by the Memory Pool, making them significantly faster and more predictable than repeated calls to `malloc()` and `free()`.
 
