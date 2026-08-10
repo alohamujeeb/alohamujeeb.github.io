@@ -97,7 +97,7 @@ search:
 
 - **A gentle night rain tapping on the rooftop**... perhaps the most beautiful lullaby I have ever known. (Mujeeb)
 
-- A cold, silent night may feel lifeless outside, **but sit down and keep company with your own self,** and you may find yourself strangely full of life. (Mujeeb)
+- A cold night in winter may feel lifeless outside, **but sit down and keep company with your own self,** and you may find yourself strangely full of life. (Mujeeb)
 
 
 
