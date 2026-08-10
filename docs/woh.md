@@ -74,7 +74,7 @@ search:
 
 
 ---
-### <font color='tomato'> Self-Help & Other Empty Talks </font>
+## <font color='tomato'> Self-Help & Other Empty Talks </font>
 
 - A 300-page self-help book is a recipe for the writer's success, not the reader's. (Mujeeb)
 
