@@ -32,7 +32,7 @@ With the rise of mobile internet usage, traditional TCP struggles to handle thes
 
 - **Multiplexed Streams:** In single QUIC connection, multiple data streams can be created for different purposes (e.g. text, video, audio), each with its own connection requirments. In TCP, we had to create multiple TCP sessions for each independent data streams.
 
-- **Less Head-of-Line blocking:** It enables stream multiplexing over a single connection, which eliminates head-of-line blocking at the transport layer—a major limitation in TCP.
+- **Less Head-of-Line blocking:** It enables stream multiplexing over a single connection, which eliminates head-of-line blocking at the transport layer, a major limitation in TCP.
 
 ---
 ## 2. Feature 1 (QUIC for IP independence)
@@ -129,7 +129,7 @@ With the rise of mobile internet usage, traditional TCP struggles to handle thes
 
 - **Streams** provide reliable, ordered delivery similar to TCP, making them suitable for tasks like file transfers or web page loading. 
 
-- **Datagrams**, on the other hand, offer unreliable, unordered delivery—much like traditional UDP—ideal for real-time applications such as gaming or video conferencing where low latency is more important than reliability. 
+- **Datagrams**, on the other hand, offer unreliable, unordered delivery, much like traditional UDP which is ideal for real-time applications such as gaming or video conferencing where low latency is more important than reliability. 
 
 - QUIC allows both types of data transmission to **coexist within a single connection**, giving applications the flexibility to use the most appropriate method for each use case.
 
@@ -161,7 +161,7 @@ graph LR
 
 - Unlike TCP, which relies on a separate handshake for TLS (e.g., in HTTPS), QUIC **combines the transport and encryption handshakes**, reducing round-trip time and startup latency. 
 
-- This integration ensures that all QUIC **traffic is secure**, with features like forward secrecy, authentication, and integrity protection built in from the start—enhancing both performance and security.
+- This integration ensures that all QUIC **traffic is secure**, with features like forward secrecy, authentication, and integrity protection built in from the start, enhancing both performance and security.
 
 - In TCP, TLS is optional and implemented through external libraries or protocols (like HTTPS). In contrast, QUIC makes it **mandatory.**
 

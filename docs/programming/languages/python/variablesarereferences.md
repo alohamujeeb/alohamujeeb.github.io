@@ -237,7 +237,7 @@ Unlike assignment, `copy()` creates a new list object, allowing each variable to
 ---
 ## <font color='green'>4. Learn More About Copying Objects</font>
 
-In this article, we learned that assigning one variable to another creates a new **reference** to the same object—it does **not** create a copy.
+In this article, we learned that assigning one variable to another creates a new **reference** to the same object. It does **not** create a copy.
 
 If you need to create an independent copy of an object, Python provides several ways to do so. Understanding when to use a shallow copy versus a deep copy is an important topic on its own.
 

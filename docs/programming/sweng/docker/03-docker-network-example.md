@@ -47,7 +47,7 @@ In this section, we demonstrate the concept of a Docker network by creating two 
 - The virtual network is a Docker-managed component that establishes the TCP link between the server and the client, enabling seamless communication.
 
 ### How many containers and networks
-In this example, we will set up two containers—one for the client and one for the server—and connect them using a single network, as illustrated below
+In this example, we will set up two containers. One for the client and one for the server, and connect them using a single network, as illustrated below
 
 
 ---

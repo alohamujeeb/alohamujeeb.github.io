@@ -208,7 +208,7 @@ ffmpeg -i input.mp4 -filter:v "scale=1280:720" -filter:a "volume=1.5" output.mp4
 | Command   | Purpose    | Explanation   |
 |-----------|------------|---------------|
 | `ffmpeg -i input.mp4 -vf subtitles=subtitle.srt output.mp4` | Burn subtitles into video         | Adds the subtitles from `subtitle.srt` directly onto the video frames of `input.mp4` and saves the result as `output.mp4`. Uses a video filter. |
-| `ffmpeg -i input.mkv -map 0:s:0 subs.srt`  | Extract subtitle stream   |0 refers to the first input file (input.mkv in this case)<br> s — selects subtitle streams <br>0 — picks the first subtitle stream <br> So 0:s:0 = first subtitle stream of first input. |
+| `ffmpeg -i input.mkv -map 0:s:0 subs.srt`  | Extract subtitle stream   |0 refers to the first input file (input.mkv in this case)<br> selects subtitle streams <br>0: picks the first subtitle stream <br> So 0:s:0 = first subtitle stream of first input. |
 
 ---
 ## 9. Stream/play to/from a network

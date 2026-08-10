@@ -43,7 +43,7 @@ touch requirements.txt 		# (optional) dependencies such as required python modul
 ## 2. File contents
 
 A Docker container must include the application code, which is its fundamental purpose.
-In addition to the code, it can also contain build tools, runtime environments, and configuration files — these will be explained in the next section.
+In addition to the code, it can also contain build tools, runtime environments, and configuration files. These will be explained in the next section.
 
 Below is an example of the application code that we are using in this example. 
 
@@ -98,13 +98,13 @@ CMD ["python", "./hello_world.py"]
     Note: If your app includes more files or folders, you need to copy those too.
 
     WORKDIR .
-    Sets the working directory inside the container — this is where commands will run from.
+    Sets the working directory inside the container. This is where commands will run from.
 
     RUN pip install --no-cache-dir -r requirements.txt
     Installs the Python dependencies listed in requirements.txt using pip.
 
     CMD ["python", "./hello_world.py"]
-    Defines the default command that runs when the container starts — in this case, it runs the Python script.
+    Defines the default command that runs when the container starts. In this case, it runs the Python script.
 	
 	
 	
@@ -129,7 +129,7 @@ cd ~/hello-python-docker
 ``` bash
 sudo docker build -t my_first_docker .
 ```
-The resulting Docker image is saved locally on your system — not as a file but inside Docker’s internal storage.
+The resulting Docker image is saved locally on your system, not as a file but inside Docker’s internal storage.
 ``` bash
 sudo docker images
 ```

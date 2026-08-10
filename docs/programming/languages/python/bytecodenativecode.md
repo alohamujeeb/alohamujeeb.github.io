@@ -210,7 +210,7 @@ This reduces the startup time of Python programs.
 
 ### Simplified Interpreter Design
 
-The Python interpreter only needs to understand one instruction set—the Python bytecode instruction set.
+The Python interpreter only needs to understand one instruction set, the Python bytecode instruction set.
 
 Regardless of the operating system or processor, the interpreter executes the same bytecode instructions.
 
@@ -388,7 +388,7 @@ High-performance libraries are often implemented using algorithms and data struc
 
 As a result, a single function call in Python may trigger thousands or even millions of highly optimized native machine instructions behind the scenes.
 
-This is why Python applications can achieve excellent performance despite being an interpreted language—the performance-critical parts of the program are often executed as optimized native machine code rather than Python bytecode.
+This is why Python applications can achieve excellent performance despite being an interpreted language. The performance-critical parts of the program are often executed as optimized native machine code rather than Python bytecode.
 
 
 ---

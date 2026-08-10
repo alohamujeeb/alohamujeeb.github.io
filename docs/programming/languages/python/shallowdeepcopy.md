@@ -133,7 +133,7 @@ Variables                  Memory
 +---+
 ```
 
-> However, integers are **immutable**—they cannot be modified in place. The expression `y += 5` creates a **new integer object** (`15`) and updates `y` to reference it.
+> However, integers are **immutable**. They cannot be modified in place. The expression `y += 5` creates a **new integer object** (`15`) and updates `y` to reference it.
 
 ```text
 Variables                  Memory

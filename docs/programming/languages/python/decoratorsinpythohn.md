@@ -695,7 +695,7 @@ The decorator should be configured **once**, while the function may be called **
 
 A parameterized decorator works in two completely different phases.
 
-**Phase 1 — Decoration Time:**
+**Phase 1: Decoration Time**
 
 This happens only once, when Python loads the file.
 
@@ -716,7 +716,7 @@ times = 3
 ```
 
 ---
-**Phase 2 — Runtime:**
+**Phase 2: Runtime**
 
 Every time the function is called:
 
@@ -1082,6 +1082,6 @@ Decorators are a design pattern implemented using Python's support for higher-or
 
 At their core, decorators simply take a function, wrap it with additional functionality, and return a new function. The `@decorator` syntax is merely a convenient shorthand for replacing a function with its decorated version.
 
-Although decorators initially appear complex, they become intuitive once the underlying concepts—first-class functions, higher-order functions, closures, and function wrapping—are understood.
+Although decorators initially appear complex, they become intuitive once the underlying concepts, i.e. first-class functions, higher-order functions, closures, and function wrapping are understood.
 
 Mastering decorators is an important milestone in becoming a proficient Python developer, as they are widely used throughout the Python ecosystem and form the foundation of many modern libraries and frameworks.

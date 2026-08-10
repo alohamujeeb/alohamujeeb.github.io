@@ -187,7 +187,7 @@ None is commonly used when:
 	A value is optional, missing, or unknown.
 
 
->None is the value, while NoneType is the data type of that value—just as 10 is a value of type int, None is a value of type NoneType.
+>None is the value, while NoneType is the data type of that value. Just as 10 is a value of type int, None is a value of type NoneType.
 
 
 ??? example "Examples of `None` and `NoneType`"

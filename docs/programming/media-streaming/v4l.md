@@ -117,7 +117,7 @@ v4l2-ctl -d /dev/video0 --get-parm
 
 v4l2-ctl lets you choose how frames are transferred between kernel and userspace.
 
-### i. MMAP (memory-mapped buffers) — most common
+### i. MMAP (memory-mapped buffers) which is most common
 - Kernel allocates buffers
 - Userspace maps them into memory
 - Very fast, low overhead

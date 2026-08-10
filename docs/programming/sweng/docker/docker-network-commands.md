@@ -177,5 +177,5 @@ Here, the base image (python:3.11-slim) includes:
 - Python interpreter
 - pip
 
-Note: In ```FROM python:3.11-slim```, you are using an image named python:3.11-slim, but it inherits from an underlying OS base — typically Debian.
+Note: In ```FROM python:3.11-slim```, you are using an image named python:3.11-slim, but it inherits from an underlying OS base, typically Debian.
 

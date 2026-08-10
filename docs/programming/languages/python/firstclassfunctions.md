@@ -100,7 +100,7 @@ Notice:
 
 There are **no parentheses**.
 
-We're copying the reference—not calling the function.
+We're copying the reference, not calling the function.
 
 Now:
 
@@ -199,7 +199,7 @@ greet
 greet()
 ```
 
-Because we want to pass the function itself—not its return value.
+Because we want to pass the function itself, not its return value.
 
 This is one of the most important ideas in Python.
 
