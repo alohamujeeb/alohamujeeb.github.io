@@ -97,5 +97,6 @@ search:
 
 - Who says cold is death? A cold, silent night may feel dead outside, **but sit down, be in your own company,** and you may find yourself strangely full of life. (Mujeeb)
 
-- **Want to know someone's true nature? Watch how they treat an animal.** If they can abuse a helpless creature, you can be sure their talk of love and compassion is just empty words.
+- **Want to know someone's true nature? Watch how they treat an animal.** If they can abuse a helpless creature, you can be sure their talk of love and compassion is just empty words. (Mujeeb)
+
 
