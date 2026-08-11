@@ -25,3 +25,5 @@ tags:
 
 [▶ Content Delivery Networks (CDN)](../blog/posts/2026-08-12-CDN.md)
 
+[▶ Edge AI: AI At the Edge](../blog/posts/2026-08-13-EdgeAI.md)
+

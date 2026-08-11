@@ -152,3 +152,8 @@ tags:
 ### **Advanced Topics and Applications**
 
 
+[▶ Edge AI: AI At the Edge](../blog/posts/2026-08-13-EdgeAI.md)
+
+
+
+
