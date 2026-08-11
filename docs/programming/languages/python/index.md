@@ -78,5 +78,6 @@ Understanding where every Python concept fits and when to use it.
 
 [▶ Reading camera in python](../../media-streaming/camera_in_python_linux.md) 
 
+[▶ Python vs. Bash for Linux Automation](../../../blog/posts/2026-08-14-BashVsPythonForAutomation.md)
 
 
