@@ -72,6 +72,8 @@ search:
 
 - **Everyone worships Clark Kent, the ultimate people-pleaser, bending to everyone’s expectations and calling it virtue. I’ll take Lex Luthor, the real visionary.** At least the man believes in greatness and has the audacity to chase it, while Clark sits on a tall building, smirking like he personally saved the world. (Mujeeb)
 
+- I know I am going to hell. Paradise demands that I serve and bow to “superior bloodlines.” I’d rather burn than surrender my equality as a human being. (Mujeeb)
+
 
 ---
 ## <font color='tomato'> Self-Help & Other Empty Talks </font>
@@ -86,7 +88,6 @@ search:
 
 - *"Everything is possible if you have courage, will and a GOOD PLAN."* (from a movie). 
 <br>Dear self-help gurus, where is the damn PLANNING? All I get is motivational waffle, not practical advice on how to plan. (Mujeeb)
-
 
 
 ---
