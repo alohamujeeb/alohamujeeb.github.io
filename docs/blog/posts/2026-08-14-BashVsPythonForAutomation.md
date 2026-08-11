@@ -249,6 +249,10 @@ A simple rule is:
 In practice, Bash and Python can also be used together, with each handling the part of the automation for which it is best suited.
 
 ---
+## <font color='green'> Useful Link(s) </font>
+
+[Automate the Boring Stuff with Python (External Link)](https://automatetheboringstuff.com/)
+
 
 
 
