@@ -60,8 +60,9 @@ tags:
 [▶ Embedded C Programming vs. Conventional C Programming](../blog/posts/2026-08-06-ConventionalVsEmbeddedC.md)
 
 
-### **Embedded Systems Connectivity Over Network**
-[▶ On-Device vs Edge vs Cloud Computing](../blog/posts/2026-08-10-EdgevsCloud_Computing.md)
+### **Edge Computing, Cloud Computing, MEC, CDN**
+[▶ Edge, Cloud, MEC, CDV (Multiple Articles/Blogs)](./edgecomputing.md)
+
 
 
 ---
