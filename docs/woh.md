@@ -26,7 +26,7 @@ search:
 
 - <font color='blue'>**Do yourself a favour, GET RICH. Life gets better with money, not with time.**</font>
 
-- **My favorite sports, media, or business celebrity isn't paying my bills.** Why am I investing my attention where I expect no return? I won't become a hero-worshipper at the cost of my own success. (Mujeeb)
+- **My favorite sports, media, or business celebrity isn't paying my bills.** Why invest my attention in someone else's life when I have a life of my own to handle? I won't become a hero-worshipper at the cost of neglecting my own life. (Mujeeb)
 
 - If you want to know what a man/woman is like, take a good look at how they treats their inferiors, not their equals.
 
