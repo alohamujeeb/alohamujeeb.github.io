@@ -18,7 +18,7 @@ search:
 
 - When someone says, “I don’t have enough time to do this,” it ACTUALLY means, “I’m not interested enough.” **Even the President of the United States can find hours everyday** for something he or she really wants to do. (Mujeeb)
 
-- When I was youg, I used to think my elders were wise. **Now that I have grey hair of my own, I realize not much is achieved just by growing old.** I have become more exhausted, rigid and less willing to think, yet people somehow find wisdom in my advice. (Mujeeb)
+- When I was youg, I used to think my elders were wise. **Now that I have grey hair of my own, I realize not much is achieved just by growing old.** I have become more exhausted, rigid and less willing to think, yet people somehow find "wisdom" in my advice. (Mujeeb)
 
 
 ---
