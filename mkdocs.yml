@@ -4,6 +4,10 @@ site_url: https://alohamujeeb.github.io/
 extra:
   generator: false # Disable footer with "Made with Material for MkDocs" message
   mathjax: true
+ 
+  analytics:      # Setup Google Analytics
+    provider: google
+    property: G-TNXHTHNJW1
     
 markdown_extensions:
   - pymdownx.arithmatex:
