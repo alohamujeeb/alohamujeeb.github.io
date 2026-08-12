@@ -83,6 +83,10 @@ tags:
 
 [▶ Snap vs APT Package Managers (A Comparision)](../blog/posts/2026-05-05-Apt_vs_Snap.md)
 
+[▶ Bash vs Python Automation (A Comparision)](../blog/posts/2026-08-14-BashVsPythonForAutomation.md)
+
+
+
 ### **Networking in Linux**
 
 [▶ Network Address Translation (NAT)](../linux/linux-networking/nat.md)
