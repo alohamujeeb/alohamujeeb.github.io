@@ -20,6 +20,12 @@ search:
 
 - When I was youg, I used to think my elders were wise. **Now that I have grey hair of my own, I realize not much is achieved just by growing old.** I have become more exhausted, rigid and less willing to think, yet people somehow find "wisdom" in my advice. (Mujeeb)
 
+- My friend asked me, **“Why don’t you have a big audience on your channels, despite the fact that your material is useful and has depth?”** 	
+
+	I replied, **“Well, you just answered your own question.”** (Mujeeb)
+
+- Who says *"products"* are sold? **What really sells is dreams, hopes, and sometimes fear.** (Mujeeb)
+
 
 ---
 ## <font color="tomato">Life and Humor</font>
