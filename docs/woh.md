@@ -14,7 +14,10 @@ search:
 ---
 ## <font color="tomato">Education & Learning</font>
 
+<!--
 - My posts and articles aren’t here to keep you busy with flashy animations, color visuals, and nothing to take away. They’re here to give you a practical idea, a useful technique, or something you can apply. **If you finish reading and have nothing you can use, I’ve wasted your attention.** (Mujeeb)
+-->
+
 
 - When someone says, “I don’t have enough time to do this,” it ACTUALLY means, “I’m not interested enough.” **Even the President of the United States can find hours everyday** for something he or she really wants to do. (Mujeeb)
 
