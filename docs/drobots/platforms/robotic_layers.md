@@ -23,9 +23,9 @@ A robotic system consists of many components and tools. A modular structure is t
 
 When working on a robot, whether as a student or a professional, we need to understand **where our focus lies**. A robotic system can broadly be viewed through three layers:
 
-- **Controller layer** — handles motors, actuators, basic sensors, and low-level control.
-- **On-board computing layer** — handles the operating system, cameras, perception, SLAM, and other advanced algorithms.
-- **Backend layer** — handles connectivity, communication, fleet management, and user interfaces.
+- **Controller layer**: handles motors, actuators, basic sensors, and low-level control.
+- **On-board computing layer**: handles the operating system, cameras, perception, SLAM, and other advanced algorithms.
+- **Backend layer**: handles connectivity, communication, fleet management, and user interfaces.
 
 Understanding these layers helps us identify **which part of the robotic system we are working on and what we need to learn in depth**.
 
@@ -116,9 +116,9 @@ The backend layer is the part of the robotic system that exists **outside the ro
 
 Communication between the robot and the backend requires **connectivity**. Depending on the application, this may be provided through:
 
-- **Wi-Fi** — commonly used when robots operate within a local network, such as a factory or warehouse.
-- **Cellular networks** — useful when robots operate over larger areas or need connectivity outside a local network.
-- **Ethernet or other wired networks** — used when a reliable physical connection is available.
+- **Wi-Fi**: commonly used when robots operate within a local network, such as a factory or warehouse.
+- **Cellular networks**: useful when robots operate over larger areas or need connectivity outside a local network.
+- **Ethernet or other wired networks**: used when a reliable physical connection is available.
 
 A typical backend system may provide:
 
