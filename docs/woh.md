@@ -12,7 +12,7 @@ search:
 <font color='blue'>Have you noticed that most impractical and boring quotes seem to come from preachers and so-called holy men? (Mujeeb)</font> 
 
 ---
-## <font color="tomato">Learning and Reading</font>
+## <font color="tomato">Education & Learning</font>
 
 - My posts and articles aren’t here to keep you busy with flashy animations, color visuals, and nothing to take away. They’re here to give you a practical idea, a useful technique, or something you can apply. **If you finish reading and have nothing you can use, I’ve wasted your attention.** (Mujeeb)
 
@@ -25,6 +25,19 @@ search:
 	I replied, **“Well, you just answered your own question.”** (Mujeeb)
 
 - Who says *"products"* are sold? **What really sells is dreams, hopes, and surprisingly fear too.** (Mujeeb)
+
+
+
+---
+## <font color="tomato">Technology and Science</font>
+
+- Every technological civilization rests on an invisible foundation of mathematics. Neglect the foundation long enough, and eventually the marvels above it begin to disappear. (Mujeeb)
+
+- **Mathematics and the arts are the invisible wings of a technological nation**; one gives it precision, the other gives it imagination. (Mujeeb)
+
+- If you want your children to be intelligent, read them fairy tales. If you want them to be more intelligent, read them more fairy tales.
+<br>(You might be wondering what this has got to do with "Technology & Science". Well, :) )
+
 
 
 ---
@@ -78,7 +91,7 @@ search:
 
 - **Everyone worships Clark Kent, the ultimate people-pleaser, bending to everyone’s expectations and calling it virtue. I’ll take Lex Luthor, the real visionary.** At least the man believes in greatness and has the audacity to chase it, while Clark sits on a tall building, smirking like he personally saved the world. (Mujeeb)
 
-- I know I am going to hell. Paradise demands that I serve and bow to “superior bloodlines.” I’d rather burn than surrender my equality as a human being. (Mujeeb)
+- **I know I am going to hell. Paradise demands that I serve and bow to “superior bloodlines.”** I’d rather burn than surrender my equality as a human being. (Mujeeb)
 
 
 ---
