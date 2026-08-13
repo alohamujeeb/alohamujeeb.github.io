@@ -389,6 +389,11 @@ In practice, systems may use one or more of these approaches depending on their 
 Understanding these three models provides the foundation for deciding where data should be processed in a distributed system.
 
 
+---
+## Relevant Link(s)
+
+[Back to Edge Computing Series](../../design/edgecomputing.md)
+
 
 
 

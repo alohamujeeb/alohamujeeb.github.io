@@ -12,7 +12,6 @@ tags:
     - Content Delivery Network
     - Cloud Computing
     - Distributed Computing
-
 ---
 
 # <font color='green'>Notes on Edge Computing</font>
@@ -26,4 +25,6 @@ tags:
 [▶ Content Delivery Networks (CDN)](../blog/posts/2026-08-12-CDN.md)
 
 [▶ Edge AI: AI At the Edge](../blog/posts/2026-08-13-EdgeAI.md)
+
+[▶ Edge Computing for IoT](./edgecomputingforiot.md)
 
