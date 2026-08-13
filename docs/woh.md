@@ -24,7 +24,7 @@ search:
 
 	I replied, **“Well, you just answered your own question.”** (Mujeeb)
 
-- Who says *"products"* are sold? **What really sells is dreams, hopes, and sometimes fear.** (Mujeeb)
+- Who says *"products"* are sold? **What really sells is dreams, hopes, and surprisingly fear too.** (Mujeeb)
 
 
 ---
