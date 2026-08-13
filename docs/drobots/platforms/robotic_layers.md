@@ -3,7 +3,10 @@ hide:
   - navigation
   
 tags:
-  - raspberry pi
+  - Robotic Systems
+  - Robotics
+  - Robot Control
+  - Robot Platforms
 
 ---
 
