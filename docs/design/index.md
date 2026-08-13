@@ -68,6 +68,10 @@ tags:
 ---
 ## <font color='green'> 3. Robotics and Fleet Managment </font>
 
+[▶ Robotic Systems: Understanding the Three Computing Layers](../drobots/platforms/robotic_layers.md)
+
+
+
 ### **ROS/ROS2**
 [▶ OpenRMF-  A Technical Assessment](./openrmf_assessment.md)
 

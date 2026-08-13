@@ -39,7 +39,7 @@ search:
 - **Mathematics and the arts are the invisible wings of a technological nation**; one gives it precision, the other gives it imagination. (Mujeeb)
 
 - If you want your children to be intelligent, read them fairy tales. If you want them to be more intelligent, read them more fairy tales. (Einstein?)
-<br>(You might be wondering what this has got to do with "Technology & Science". Well, :) )
+<br>You might be wondering what this has got to do with "Technology & Science". Well, :) )
 
 
 
