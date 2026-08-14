@@ -144,7 +144,7 @@ The backend can therefore act as a central system through which users and other 
 
 For example, in a fleet of delivery robots, the backend may receive the status and location of every robot, assign tasks, monitor the fleet, store operational data, and provide a dashboard for operators.
 
-Therefore, this layer is mainly concerned with **connectivity, communication, coordination, management, and interaction with robots from outside the robot itself**.
+> Therefore, this layer is mainly concerned with **connectivity, communication, coordination, management, and interaction with robots from outside the robot itself**.
 
 ---
 ## <font color='green'> 5. How the Layers Work Together </font>
@@ -264,5 +264,7 @@ The important point is that **you do not need to learn everything in equal depth
 
 > **Understand the whole system, but go deep where your work lies.**
 
+---
+## Relevant Link(s)
 
-
+[▶ Yahboom Pi5 Robot: Understanding Its Computing Layers](./yahboom-pi5/yahboompi5_layers.md)

@@ -68,7 +68,11 @@ tags:
 ---
 ## <font color='green'> 3. Robotics and Fleet Managment </font>
 
+### **Robotic Platforms**
+
 [▶ Robotic Systems: Understanding the Three Computing Layers](../drobots/platforms/robotic_layers.md)
+
+[▶ Yahboom Pi5 Robot: Understanding Its Computing Layers](../drobots/platforms/yahboom-pi5/yahboompi5_layers.md)
 
 
 

@@ -55,7 +55,7 @@ tags:
 ## <font color='green'> 3. Robotics & Fleet Managment</font>
 *Robot software, ROS2, connectivity, simulation, and fleet management.*
 
-### **Mobile Robot Platforms**
+### **Robotic Platforms**
 [▶ Yahboom MicroROS-Pi5](../drobots/platforms/yahboom-pi5/index.md)
 
 
