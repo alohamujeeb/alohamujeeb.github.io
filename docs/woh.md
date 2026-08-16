@@ -6,7 +6,7 @@ search:
 
 
 # <font color='green'> Whispers of the Heart </font>
-*Here are some of my favorite quotes. I hope some of them reach my heart and change me. I hope they do the same for you.*
+*My heart has a mind of its own; it keeps nudging me, though I keep ignoring it...*
 
 ---
 <font color='blue'>Have you noticed that most impractical and boring quotes seem to come from preachers and so-called holy men? (Mujeeb)</font> 
@@ -111,17 +111,25 @@ search:
 - *"Everything is possible if you have courage, will and a GOOD PLAN."* (from a movie). 
 <br>Dear self-help gurus, where is the damn PLANNING? All I get is motivational waffle, not practical advice on how to plan. (Mujeeb)
 
+- **They reject religion, then worship self-help gurus.** Same wine, different bottle; same comforting nonsense, different costume.
 
 ---
-## <font color='tomato'>My Soul Companions (Nature and Animals) </font>
+## <font color='tomato'>My Soul Companions (Animals) </font>
 
 - **Until one has loved an animal, a part of one's soul remains unawakened.**
 
 - **Want to know someone's true nature? Watch how they treat an animal.** If they can abuse a helpless creature, you can be sure their talk of love and compassion is just empty words. (Mujeeb)
 
+- A starving kitten showed up at the door. My aunt said, “Don’t feed it, or it’ll keep coming back.” She often talks about how little we do to end suffering in the world. **She’ll save the world, provided it doesn’t disturb her holiday.**
+
+- **When a “place of God” turns away a suffering animal, I wonder what exactly is being worshipped there.**
+
+
+---
+## <font color='tomato'> Nature </font>
+
 - **A gentle night rain tapping on the rooftop**... perhaps the most beautiful lullaby I have ever known. (Mujeeb)
 
 - A cold night in winter may feel lifeless outside, **but sit down and keep company with your own self,** and you may find yourself strangely full of life. (Mujeeb)
-
 
 
