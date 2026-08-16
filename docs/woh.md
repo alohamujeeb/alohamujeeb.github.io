@@ -111,7 +111,7 @@ search:
 - *"Everything is possible if you have courage, will and a GOOD PLAN."* (from a movie). 
 <br>Dear self-help gurus, where is the damn PLANNING? All I get is motivational waffle, not practical advice on how to plan. (Mujeeb)
 
-- **They reject religion, then worship self-help gurus.** Same wine, different bottle; same comforting nonsense, different costume.
+- **They reject religion, then worship self-help gurus.** Same wine, different bottle; same comforting nonsense, different costume. (Mujeeb)
 
 ---
 ## <font color='tomato'>My Soul Companions (Animals) </font>
@@ -120,9 +120,9 @@ search:
 
 - **Want to know someone's true nature? Watch how they treat an animal.** If they can abuse a helpless creature, you can be sure their talk of love and compassion is just empty words. (Mujeeb)
 
-- A starving kitten showed up at the door. My aunt said, “Don’t feed it, or it’ll keep coming back.” She often talks about how little we do to end suffering in the world. **She’ll save the world, provided it doesn’t disturb her holiday.**
+- A starving kitten showed up at the door. My aunt said, “Don’t feed it, or it’ll keep coming back.” She often talks about how little we do to end suffering in the world. **She’ll save the world, provided it doesn’t disturb her holiday.** (Mujeeb)
 
-- **When a “place of God” turns away a suffering animal, I wonder what exactly is being worshipped there.**
+- **When a “place of God” turns away a suffering animal, I wonder what exactly is being worshipped there.** (Mujeeb)
 
 
 ---
