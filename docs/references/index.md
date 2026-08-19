@@ -8,8 +8,6 @@ tags:
 # <font color='green'>Developer Reference</font>
 *(Practical code snippets, examples, recipes, and quick references for everyday software development.)*
 
-> <font color='red'> **Focus:** Understanding the **how** of software development—practical implementations, reusable code, and programming techniques.</font>
-
 ---
 **Explore the following categories**
 

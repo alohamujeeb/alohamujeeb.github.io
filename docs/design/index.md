@@ -8,7 +8,6 @@ tags:
 # <font color='green'>Design/Decision Notes</font>
 *(Design decisions, trade-offs, and practical lessons from real software engineering projects.)*
 
-> <font color='red'> **Focus:** Understanding the **why** behind software engineering—the thinking process behind better design and engineering decisions.</font>
 
 ---
 **Explore the following categories**

@@ -131,11 +131,15 @@ plugins:
 nav:
   - Home:
     - Home: index.md
-    - <font color='tomato'><h3>Design/Decision Notes</h3></font>: design/index.md
-    - <font color='tomato'><h3>Developer Reference</h3></font>: references/index.md
     - <font color='green'><h3>Whispers of Heart</h3></font>: woh.md
     - <font color='green'><h3>My Inspiration</h3></font>: inspiration.md
     - <font color='green'><h3>Search</h3></font>: tags.md
+
+  - Engg-Notes: 
+    - Engg-Notes: enggnotes/index.md
+    - <font color='green'><h3>Design and Decision Notes</h3></font>: design/index.md
+    - <font color='green'><h3>Developer Reference</h3></font>: references/index.md
+
 
   - AI-in-Context:
     - AI-in-Context: aiincontext/index.md
@@ -144,13 +148,15 @@ nav:
     - <font color='green'><h3>3. AI Models</h3></font>: aiincontext/aimodels.md
     - <font color='green'><h3>4. AI Applications</h3></font>: aiincontext/aiapplications.md
     - <font color='green'><h3>5. AI Systems & Integration</h3></font>: aiincontext/aisystems.md
-    
 
+  #To be enabled later
+  #- Mathelogy:
+     #- Mathelogy: mathelogy/inderx.md
+  #- Courses:
+    #- Courses: courses/index.md
 
   - Blogs:
     - blog/index.md
   
-  #- Courses:
-  #  - courses/index.md
 
  
