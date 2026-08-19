@@ -6,7 +6,7 @@ tags:
   
 ---
 
-# <font color='green'>AI in Context: Learning & Decision Methods</font>
+# <font color='green'>Learning & Decision Methods</font>
 
 *Explore how computational systems learn, adapt, search, and make decisions.*
 

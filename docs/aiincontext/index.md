@@ -33,7 +33,7 @@ The **AI in Context** project is organised around five major areas:
 These areas provide a broad framework for the project. They are not intended as a fixed curriculum; material will be added and developed organically as the project progresses.
 
 ---
-## <font color='green'>1. Back to Basics</font>
+## [▶ <font color='green'>1. Back to Basics</font>](basics.md)
 
 The foundations beneath AI and intelligent computing.
 
@@ -47,7 +47,7 @@ The foundations beneath AI and intelligent computing.
 
 ---
 
-## <font color='green'>2. Learning & Decision Methods</font>
+## [▶ <font color='green'>2. Learning & Decision Methods</font>](learningmethods.md)
 
 Different ways computational systems can learn, adapt, search, and make decisions.
 
@@ -62,7 +62,7 @@ Different ways computational systems can learn, adapt, search, and make decision
 
 ---
 
-## <font color='green'>3. Representation & AI Models</font>
+## [▶ <font color='green'>3. Representation & AI Models</font>](aimodels.md)
 
 How information, knowledge, and patterns are represented and processed by intelligent systems.
 
@@ -79,7 +79,8 @@ How information, knowledge, and patterns are represented and processed by intell
 
 ---
 
-## <font color='green'>4. Modern AI & Applications</font>
+## [▶ <font color='green'>4. Modern AI Applications</font>](aiapplications.md)
+
 
 Modern AI capabilities and the problems they can help solve.
 
@@ -99,7 +100,9 @@ Modern AI capabilities and the problems they can help solve.
 
 ---
 
-## <font color='green'>5. AI Systems & Engineering</font>
+## [▶ <font color='green'>5. AI Systems & Integration</font>](aisystems.md)
+
+
 
 Turning AI models and computational methods into useful, reliable systems.
 

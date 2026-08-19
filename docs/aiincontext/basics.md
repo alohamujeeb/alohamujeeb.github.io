@@ -6,7 +6,7 @@ tags:
   
 ---
 
-# <font color='green'>AI in Context: Back to Basics</font>
+# <font color='green'>Back to Basics</font>
 
 *Understand the foundations behind AI and computing.*
 

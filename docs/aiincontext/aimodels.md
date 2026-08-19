@@ -5,7 +5,7 @@ tags:
   - AI in Context
 ---
 
-# <font color='green'>AI in Context: AI Learning Models</font>
+# <font color='green'>AI Learning Models</font>
 
 *Explore how machines learn from data, experience, and interaction.*
 
