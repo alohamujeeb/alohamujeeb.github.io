@@ -16,15 +16,13 @@ tags:
 <table style="border-collapse: collapse; width:100%;">
 <tr>
     <td style="border:1px solid #999;">Python and C Programming</td>
-    <td style="border:1px solid #999;">Embedded Systems Software/Firmware</td>
-    <td style="border:1px solid #999;">Robotics & Fleet Managment</td>
+    <td style="border:1px solid #999;">Embedded Systems & Robotics</td>
     <td style="border:1px solid #999;">Linux & Systems</td>
 </tr>
 <tr>
     <td style="border:1px solid #999;">Backend & Distributed Systems</td>
-    <td style="border:1px solid #999;">Development Tools</td>
+    <td style="border:1px solid #999;">Software Engineering</td>
     <td style="border:1px solid #999;">Media & Streaming</td>
-    <td style="border:1px solid #999;">AI & Machine Learning</td>
 </tr>
 </table>
 
@@ -39,7 +37,8 @@ tags:
 
 ---
 ## <font color='green'> 2. Real-Time & Embedded Systems </font>
-*Firmware, Embedded Linux, RTOS, and embedded software development.*
+*Robotics, ROS Embedded Linux, RTOS, and embedded software development.*
+
 
 ### **Embedded Software and Firmware**
 [▶ Topics in C for Embedded Systems (A Series)](../programming/languages/clang/index.md)
@@ -49,15 +48,8 @@ tags:
 [▶ Quectel RM530N-GL Mode](../drobots/modems/Quectel-RM530N-GL/index.md)
 <br> *(Hardware/Software setup, AT commands, connection diagrams)*
 
-
-
----
-## <font color='green'> 3. Robotics & Fleet Managment</font>
-*Robot software, ROS2, connectivity, simulation, and fleet management.*
-
 ### **Robotic Platforms**
 [▶ Yahboom MicroROS-Pi5](../drobots/platforms/yahboom-pi5/index.md)
-
 
 
 ### **ROS and ROS-Based Tools**
@@ -73,7 +65,7 @@ tags:
 
 
 ---
-## <font color='green'> 4. Linux & Systems </font>
+## <font color='green'> 3. Linux & Systems </font>
 *Linux programming, automation, server applications, and embedded platforms.*
 
 ### **CLI, Bash, Scripting and Automation**
@@ -100,7 +92,7 @@ tags:
 
 
 ---
-## <font color='green'> 5. Backend & Distributed Systems </font>
+## <font color='green'> 4. Backend & Distributed Systems </font>
 *Network programming, APIs, protocols, and distributed communication.*
 
 ### **Web Frontend and Backend**
@@ -115,14 +107,14 @@ tags:
 
 
 ---
-## <font color='green'> 6. Development Tools </font>
+## <font color='green'> 5. Software Engineering </font>
 *Development tools, debugging, build systems, containers, and automation.*
 
 [▶ Docker 101 (A Series)](../programming/sweng/docker/index.md)
 
 
 ---
-## <font color='green'> 7. Media & Streaming Systems </font>
+## <font color='green'> 6. Media & Streaming Systems </font>
 *Practical media streaming using GStreamer, FFmpeg, WebRTC, RTP/RTSP, media servers, codecs, and multimedia programming.*
 
 ### **Camera and Streaming Tools**
@@ -132,9 +124,5 @@ tags:
 [▶ Reading Camera in Python](../programming/media-streaming/camera_in_python_linux.md)
 
 [▶ ffmpeg quick reference](../programming/media-streaming/ffmpeg-reference.md)
-
----
-## <font color='green'> 8. AI & Machine Learning </font>
-*Practical AI programming, machine learning, computer vision, robotic perception, model integration, and intelligent application development.*
 
 

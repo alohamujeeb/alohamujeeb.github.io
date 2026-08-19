@@ -5,9 +5,7 @@ tags:
 
 ---
 
-
----
-# <font color='green'>Design Notes</font>
+# <font color='green'>Design/Decision Notes</font>
 *(Design decisions, trade-offs, and practical lessons from real software engineering projects.)*
 
 > <font color='red'> **Focus:** Understanding the **why** behind software engineering—the thinking process behind better design and engineering decisions.</font>
@@ -18,15 +16,13 @@ tags:
 <table style="border-collapse: collapse; width:100%;">
 <tr>
     <td style="border:1px solid #999;">Programming and Languages</td>
-    <td style="border:1px solid #999;">Real-Time Embedded Systems</td>
-    <td style="border:1px solid #999;">Robotics and Fleet Managment</td>
+    <td style="border:1px solid #999;">Embedded Systems & Robotics</td>
     <td style="border:1px solid #999;">Linux &amp; Systems</td>
 </tr>
 <tr>
     <td style="border:1px solid #999;">Backend &amp; Distributed Systems</td>
-    <td style="border:1px solid #999;">Software Development Practices &amp; Tools</td>
+    <td style="border:1px solid #999;">Software Engineering </td>
     <td style="border:1px solid #999;">Media &amp; Streaming Systems</td>
-    <td style="border:1px solid #999;">AI &amp; Machine Learning</td>
 </tr>
 </table>
 
@@ -40,8 +36,8 @@ tags:
 [▶ Big(O) Notation Is About Scalability, Not Speed](../blog/posts/2026-07-14-BigONotation.md)
 
 ---
-## <font color='green'> 2. Real-Time & Embedded Systems </font>
-*Embedded software architecture, firmware design, RTOS, and real-world engineering practices.*
+## <font color='green'> 2. Robotics & Embedded Systems </font>
+*Embedded software architecture, RTOS, Robotics, real-world engineering practices.*
 
 
 ### **Real-Time Systems and RTOS**
@@ -64,16 +60,11 @@ tags:
 [▶ Edge, Cloud, MEC, CDV (Multiple Articles/Blogs)](./edgecomputing.md)
 
 
-
----
-## <font color='green'> 3. Robotics and Fleet Managment </font>
-
 ### **Robotic Platforms**
 
 [▶ Robotic Systems: Understanding the Three Computing Layers](../drobots/platforms/robotic_layers.md)
 
 [▶ Yahboom Pi5 Robot: Understanding Its Computing Layers](../drobots/platforms/yahboom-pi5/yahboompi5_layers.md)
-
 
 
 ### **ROS/ROS2**
@@ -84,7 +75,7 @@ tags:
 
 
 ---
-## <font color='green'> 4. Linux & Systems </font>
+## <font color='green'> 3. Linux & Systems </font>
 *Linux platforms, embedded Linux, server systems, automation, and systems engineering.*
 
 [▶ Operating System Components: A Conceptual Overview](../blog/posts/2026-05-22-Operating_Systems_Components.md)
@@ -109,7 +100,7 @@ tags:
 
 
 ---
-## <font color='green'> 5. Backend & Distributed Systems </font>
+## <font color='green'> 4. Backend & Distributed Systems </font>
 
 [▶ Persistent vs Non-Persistent Connections](../blog/posts/2026-07-31-Persistent_and_NonPersistent.md)
 
@@ -121,7 +112,7 @@ tags:
 
 
 ---
-## <font color='green'> 6. Software Development Practices & Tools </font>
+## <font color='green'> 5. Software Engineering </font>
 
 [▶ Software Isolation- Docker vs Python `venv`](../blog/posts/2025-10-01-docker-img_vs_python-venv.md)
 
@@ -131,40 +122,13 @@ tags:
 
 
 ---
-## <font color='green'> 7. Media & Streaming Systems </font>
+## <font color='green'> 6. Media & Streaming Systems </font>
 
 [▶ Video and Image Encoding Algorithms(2-parts)](../blog/posts/2026-04-29-video_encoding_p1.md)
 
 [▶ Video Quality Assessment Methods(3-parts)](../blog/posts/2026-04-01-VideoQuality-P1.md)
 
 [▶ WebRTC(Web-based Real-Time Streaming)](../programming/media-streaming/protocols/webrtc.md)
-
-
----
-## <font color='green'> 8. AI & Machine Learning </font>
-
-### **Back to Basics**
-
-[▶ AI Algorithms vs. Conventional Algorithms](../blog/posts/2026-05-13-AI_vs_Conventional_Algos.md)
-
-[▶ Evolution Towards AI: From Rules to Goals](../blog/posts/2026-06-19-EvolutionOfComuting_Rules_to_Goals.md)
-
-[▶ Direct Learning vs. Iterative Optimization](../blog/posts/2026-06-28-DirectVsIterativeLearning.md)
-
-[▶ Beyond 3D: Extending the Mathematics We Already Know](../blog/posts/2026-07-08-HigherDimensionMaths.md)
-
-
-### **Supervised/Unsupervised Algorithms**
-
-[▶ Support Vector Machine (SVM)](../aiarena/supervised/svm.md)
-
-[▶ Unsupervised Learning: From Recognition to Discovery](../blog/posts/2026-05-13-AI_vs_Conventional_Algos.md)
-
-
-### **Advanced Topics and Applications**
-
-
-[▶ Edge AI: AI At the Edge](../blog/posts/2026-08-13-EdgeAI.md)
 
 
 
