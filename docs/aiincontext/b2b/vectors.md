@@ -113,7 +113,7 @@ For the examples above:
 
 ---
 
-## <font color='green'>4. From Features to Vectors</font>
+## <font color='green'>4. From Features to Vectors to Matrices</font>
 
 In machine learning, information about an object or event is often described through **features**.
 
@@ -128,19 +128,11 @@ These features can be represented as numbers and arranged into a vector:
 
 **house = [size, rooms, age, location]**
 
-The vector therefore provides a numerical representation of the features that a machine learning model can process.
-
 > **Information → Features → Vector → Machine Learning Model**
 
-This simple conversion from features to vectors is one of the basic ideas underlying many machine learning algorithms.
+When we have many examples, their feature vectors can be arranged together to form a **matrix**.
 
----
-
-## <font color='green'>5. From Vectors to Matrices</font>
-
-When we have many vectors representing different examples, we can arrange them together to form a **matrix**.
-
-For example, if each house is represented by a vector of four features:
+For example:
 
 **house₁ = [1200, 3, 10, 2]**
 
@@ -148,18 +140,16 @@ For example, if each house is represented by a vector of four features:
 
 **house₃ = [950, 2, 20, 1]**
 
-These vectors can be arranged as rows in a matrix.
-
-A matrix therefore gives us a convenient way to represent **many examples and their features together**.
+These vectors can be arranged as rows in a matrix, giving us a convenient way to represent **many examples and their features together**.
 
 > **One example → Vector**  
 > **Many examples → Matrix**
 
-This is important because many machine learning operations are performed on entire matrices rather than individual vectors.
+This progression from **features to vectors to matrices** is fundamental to how machine learning systems represent and process data.
 
 ---
 
-## <font color='green'>6. Vector Similarity</font>
+## <font color='green'>5. Vector Similarity</font>
 
 In many AI applications, we want to know how similar two vectors are.
 
@@ -209,7 +199,7 @@ The value is still high because the size feature dominates the vectors. This als
 
 ---
 
-## <font color='green'>7. Embeddings: From Information to Vectors</font>
+## <font color='green'>6. Embeddings: From Information to Vectors</font>
 
 An **embedding** is a vector representation of information such as a word, sentence, image, or other object.
 
@@ -234,7 +224,7 @@ A **feature vector** and an **embedding** are both vector representations of inf
 The main difference is how they are produced:
 
 - **Feature vector:** features are usually explicitly selected or calculated.
-- **Embedding:** features are typically learned automatically from data.
+- **Embedding:** <font color='red'>features are typically learned automatically from data.</font>
 
 In both cases, the result is a vector that allows a machine learning system to perform mathematical operations on the represented information.
 
@@ -242,7 +232,7 @@ In both cases, the result is a vector that allows a machine learning system to p
 
 ---
 
-## <font color='green'>8. High-Dimensional Vectors</font>
+## <font color='green'>7. High-Dimensional Vectors</font>
 
 Modern AI systems often work with vectors containing hundreds or thousands of dimensions.
 
@@ -262,7 +252,7 @@ The underlying mathematics remains the same. The structures simply become larger
 
 ---
 
-## <font color='green'>9. Vectors in Modern AI Models</font>
+## <font color='green'>8. Vectors in Modern AI Models</font>
 
 Vectors and matrices are fundamental to how modern AI models represent and process information.
 
@@ -300,7 +290,7 @@ Modern computer vision models process these numerical representations to identif
 
 ---
 
-## <font color='green'>10. Conclusion</font>
+## <font color='green'>9. Conclusion</font>
 
 In AI, vectors provide an efficient way to represent **features and other numerical information** so that computers can perform mathematical operations on them at large scale.
 
@@ -316,3 +306,13 @@ Vectors and matrices therefore appear throughout AI, including:
 
 Understanding vectors is therefore an important step toward understanding how modern AI systems represent and process information.
 
+
+
+---
+## Relevant Link(s)
+
+[AI in Context Main Page](../index.md)
+
+[▶ Beyond 3D: Extending the Mathematics We Already Know](../../blog/posts/2026-07-08-HigherDimensionMaths.md)
+
+[▶ Tensors: Extending Vectors and Matrices](./tensors.md)
