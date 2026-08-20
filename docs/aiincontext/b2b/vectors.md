@@ -199,6 +199,108 @@ The value is still high because the size feature dominates the vectors. This als
 
 > <font color='red'>**Mathematically, "same direction" means the vectors point in the same direction. In AI, it means that the information represented by the vectors has a similar pattern or meaning.**</font>
 
+
+
+### Computing Cosine Similarity
+
+Cosine similarity is calculated using the **dot product** of two vectors and their **magnitudes**.
+
+**Cosine similarity = (A · B) / (|A| × |B|)**
+
+### Example 1: Two-Value Vectors
+
+Consider two vectors:
+
+**A = [2, 3]**
+
+**B = [4, 6]**
+
+The dot product is:
+
+**A · B = (2 × 4) + (3 × 6) = 26**
+
+Their magnitudes are:
+
+**|A| = √(2² + 3²) = √13**
+
+**|B| = √(4² + 6²) = √52**
+
+Therefore:
+
+**Cosine similarity = 26 / (√13 × √52) = 1**
+
+The vectors have the same proportions, so their cosine similarity is **1**.
+
+In Python:
+
+    import numpy as np
+
+    A = np.array([2, 3])
+    B = np.array([4, 6])
+
+    similarity = np.dot(A, B) / (
+        np.linalg.norm(A) * np.linalg.norm(B)
+    )
+
+    print(similarity)
+
+Output:
+
+    1.0
+
+### Example 2: Two 2×2 Matrices
+
+Cosine similarity can also be applied to matrices by treating each matrix as a single vector.
+
+Consider:
+
+**A = [[1, 2], [3, 4]]**
+
+**B = [[1, 2], [4, 3]]**
+
+First, flatten the matrices:
+
+**A → [1, 2, 3, 4]**
+
+**B → [1, 2, 4, 3]**
+
+We can now calculate their cosine similarity just as we did with ordinary vectors.
+
+In Python:
+
+    A = np.array([[1, 2], [3, 4]])
+    B = np.array([[1, 2], [4, 3]])
+
+    similarity = np.dot(
+        A.flatten(),
+        B.flatten()
+    ) / (
+        np.linalg.norm(A) * np.linalg.norm(B)
+    )
+
+    print(similarity)
+
+Output:
+
+    0.9333
+
+The matrices are similar, but not identical, so their cosine similarity is less than **1**.
+
+> **A matrix can be flattened into a vector, allowing vector-based similarity measures such as cosine similarity to be applied to it.**
+
+> <font color='red'>Cosine similarity is fundamentally a vector operation. For matrices or higher-dimensional tensors, they can be flattened into vectors, or similarity can be calculated along specific dimensions depending on what the dimensions represent. </font>
+
+
+### Applications of Vector Similarity
+
+- **Semantic search:** Find documents whose embeddings are most similar to a user's query.
+- **Recommendation:** Find products similar to a product the user likes.
+- **Image search:** Find images visually similar to a reference image.
+- **Duplicate detection:** Identify documents or images with highly similar representations.
+- **Classification:** Compare a new data point with known examples or class representations.
+- **RAG:** Find relevant information for an LLM query.
+
+
 ---
 
 ## <font color='green'>6. Embeddings: From Information to Vectors</font>
@@ -294,19 +396,24 @@ Modern computer vision models process these numerical representations to identif
 
 ## <font color='green'>9. Conclusion</font>
 
-In AI, vectors provide an efficient way to represent **features and other numerical information** so that computers can perform mathematical operations on them at large scale.
+Vectors provide an efficient way to represent **features and other numerical information** so that AI systems can perform mathematical operations on them at large scale.
 
-The same idea extends naturally from **vectors to matrices and higher-dimensional structures**, allowing increasingly complex information to be represented and processed efficiently.
+We have seen how vectors can be used to:
 
-Vectors and matrices therefore appear throughout AI, including:
+- Represent features and information
+- Organize multiple examples into matrices
+- Compare representations using **vector similarity**
+- Measure relationships between data using **cosine similarity**
+- Represent learned features through **embeddings**
+- Support computation in neural networks
+- Represent text in Large Language Models
+- Represent numerical image data in computer vision
 
-- Machine learning
-- Neural networks
-- Large Language Models
-- Computer vision
-- Embeddings and similarity search
+The key progression is:
 
-Understanding vectors is therefore an important step toward understanding how modern AI systems represent and process information.
+> **Information → Features → Vectors → Matrices → AI Computation**
+
+Understanding vectors therefore provides a practical foundation for understanding how modern AI systems **represent, compare, transform, and process information**.
 
 
 
