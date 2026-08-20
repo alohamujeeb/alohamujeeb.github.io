@@ -25,6 +25,10 @@ The emphasis is on **understanding the ideas, experimenting with them, and seein
 
 This is an evolving collection. Topics and material will be added as the project develops.
 
+
+[▶ Support Vector Machine (SVM)](./learningmethods/supervised/svm.md)
+
+
 ---
 
 ## Relevant Link(s)

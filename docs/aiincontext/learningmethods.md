@@ -29,7 +29,12 @@ The emphasis is on **understanding the underlying ideas and seeing them work in 
 This is an evolving collection. Topics and material will be added as the project develops.
 
 
-[▶ Support Vector Machine (SVM)](./learningmethods/supervised/svm.md)
+
+[▶ AI Algorithms vs. Conventional Algorithms](../blog/posts/2026-05-13-AI_vs_Conventional_Algos.md)
+
+[▶ Evolution Towards AI: From Rules to Goals](../blog/posts/2026-06-19-EvolutionOfComuting_Rules_to_Goals.md)
+
+[▶ Direct Learning vs. Iterative Optimization](../blog/posts/2026-06-28-DirectVsIterativeLearning.md)
 
 [▶ Unsupervised Learning: From Recognition to Discovery](../blog/posts/2026-05-13-AI_vs_Conventional_Algos.md)
 
