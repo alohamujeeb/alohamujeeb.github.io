@@ -36,7 +36,7 @@ This is an evolving collection. Topics and material will be added as the project
 
 [▶ Direct Learning vs. Iterative Optimization](../blog/posts/2026-06-28-DirectVsIterativeLearning.md)
 
-[▶ Unsupervised Learning: From Recognition to Discovery](../blog/posts/2026-05-13-AI_vs_Conventional_Algos.md)
+[▶ Unsupervised Learning: From Recognition to Discovery](../blog/posts/2026-06-25-UL_UnknownPatterns.md)
 
 
 ---
