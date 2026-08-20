@@ -34,6 +34,9 @@ This is an evolving collection. Topics and material will be added as the project
 
 [▶ Beyond 3D: Extending the Mathematics We Already Know](../blog/posts/2026-07-08-HigherDimensionMaths.md)
 
+[▶ Optimization: How Machines Find Better Solutions](./b2b/optimization.md)
+
+
 
 
 ---
