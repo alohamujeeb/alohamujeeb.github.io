@@ -38,6 +38,8 @@ This is an evolving collection. Topics and material will be added as the project
 
 [▶ Unsupervised Learning: From Recognition to Discovery](../blog/posts/2026-06-25-UL_UnknownPatterns.md)
 
+[▶ Supervised vs. Unsupervised: We Teach Them or They Learn by Themselves](./learningmethods/supervised_unsupervised.md)
+
 
 ---
 
