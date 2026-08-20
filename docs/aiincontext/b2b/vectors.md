@@ -4,6 +4,8 @@ hide:
 tags:
   - AI in Context
   - Vectors
+  - Embeddings
+  
 ---
 
 # <font color='green'>Vectors: The Language of Modern AI</font>
