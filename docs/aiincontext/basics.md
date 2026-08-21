@@ -36,6 +36,7 @@ This is an evolving collection. Topics and material will be added as the project
 
 [▶ Optimization: How Machines Find Better Solutions](./b2b/optimization.md)
 
+[▶ Conditional Probabilty & Bays' Theorom Series](./b2b/s1-cprobbays/p1.md)
 
 
 
