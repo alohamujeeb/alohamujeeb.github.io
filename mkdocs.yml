@@ -131,6 +131,8 @@ plugins:
 nav:
   - Home:
     - Home: index.md
+    - <font color='tomato'><h3>Engg Notes</h3></font>: enggnotes/index.md
+    - <font color='tomato'><h3>AI in Context</h3></font>: aiincontext/index.md
     - <font color='green'><h3>Whispers of Heart</h3></font>: woh.md
     - <font color='green'><h3>My Inspiration</h3></font>: inspiration.md
     - <font color='green'><h3>Search</h3></font>: tags.md
