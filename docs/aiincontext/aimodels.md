@@ -28,6 +28,8 @@ This is an evolving collection. Topics and material will be added as the project
 
 [▶ Support Vector Machine (SVM)](./learningmethods/supervised/svm.md)
 
+[▶ Naive Bays](./b2b/s1-cprobbays/p4.md)
+
 
 ---
 
