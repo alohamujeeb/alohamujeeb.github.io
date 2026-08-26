@@ -27,8 +27,8 @@ A practical mental model of how an open Wi-Fi system is built, from the operatin
 
 This article explains what OpenWrt provides, what it depends on, where OpenWiFi fits, and the different options available underneath OpenWrt.
 
----
 
+---
 ## <font color='green'>1. The Big Picture: What Makes Up a Wi-Fi System</font>
 
 A Wi-Fi device is a combination of **hardware, low-level radio software, Wi-Fi protocols, and higher-level networking software**.
@@ -87,27 +87,8 @@ It is best thought of as the **software platform that runs the networking device
 - **Web and command-line management**
 - Support for various **Wi-Fi stacks and drivers**
 
+
 This makes OpenWrt much more than a simple Wi-Fi configuration system. We can use it to build a customized router, access point, mesh node, gateway, or other networking device.
-
-OpenWrt **does not itself contain all the hardware needed to transmit Wi-Fi**.
-
-For example:
-
-```text
-OpenWrt
-   ↓
-Linux networking + Wi-Fi software
-   ↓
-Wi-Fi driver
-   ↓
-Wi-Fi hardware
-   ↓
-RF / Antenna
-```
-
-<font color='red'>The Wi-Fi hardware, chipset, RF components, and antenna are separate.</font>
-
-Therefore:
 
 > **OpenWrt gives us the open software platform for the networking device; the actual Wi-Fi implementation depends on the hardware and Wi-Fi driver underneath it.**
 
@@ -115,7 +96,7 @@ Therefore:
 ---
 ### What OpenWrt Does Not Provide
 
-OpenWrt provides the **operating system and networking environment**, but it does not automatically provide the complete Wi-Fi radio system.
+OpenWrt provides the **operating system and networking environment**, but it **does not itself contain all the hardware needed to transmit Wi-Fi**.
 
 To turn an OpenWrt device into a Wi-Fi device, additional hardware and software are required: 
 
@@ -129,32 +110,7 @@ To turn an OpenWrt device into a Wi-Fi device, additional hardware and software 
 
 These components normally come from the **Wi-Fi hardware platform or its manufacturer**.
 
-### A More Complete Picture
-
-```text
-                 OpenWrt
-                    ↓
-        Linux + Networking Software
-                    ↓
-             Wi-Fi Stack
-                    ↓
-             Wi-Fi Driver
-                    ↓
-        ┌─────────────────────┐
-        │   Wi-Fi Hardware    │
-        │                     │
-        │ MAC / PHY / Baseband│
-        │ RF Frontend         │
-        │ Firmware            │
-        └─────────────────────┘
-                    ↓
-                 Antenna
-```
-
 The important point is that **OpenWrt sits above the physical Wi-Fi implementation**.
-
-For example, installing OpenWrt on a commercial router does **not** mean that the router's Wi-Fi PHY or baseband suddenly becomes open source. The underlying Wi-Fi chipset may still contain proprietary hardware and firmware.
-
 
 ---
 ## <font color='green'>3. How OpenWrt Talks to Wi-Fi Hardware</font>
@@ -223,8 +179,6 @@ Open-source
 
 Even if everything above the chipset is open source, the **chipset, firmware, or PHY/baseband can still be proprietary**.
 
-This is one of the key differences between using OpenWrt with a conventional Wi-Fi chipset and using a project such as **open-sdr/openwifi**, where much deeper parts of the Wi-Fi implementation are exposed for modification.
-
 
 ---
 ## <font color='green'>4. OpenWrt with Commercial / Vendor Wi-Fi</font>
@@ -232,24 +186,6 @@ This is one of the key differences between using OpenWrt with a conventional Wi-
 The most common way to use OpenWrt is with a **commercial Wi-Fi chipset** supplied by a hardware manufacturer.
 
 However, **we cannot take any Wi-Fi chipset and simply install OpenWrt on it**. The hardware must be supported by OpenWrt/Linux, including having a compatible **Wi-Fi driver** and, where required, compatible firmware.
-
-A typical system looks like:
-
-```text
-OpenWrt
-   ↓
-Linux Wi-Fi subsystem
-   ↓
-Compatible Wi-Fi Driver
-   ↓
-Supported Wi-Fi Chipset
-   ↓
-PHY / Baseband
-   ↓
-RF Frontend
-   ↓
-Antenna
-```
 
 ### Hardware Compatibility
 
@@ -268,7 +204,7 @@ Therefore:
 
 > **OpenWrt support is hardware-specific. We must choose a supported device/chipset rather than assuming that any Wi-Fi hardware will work.**
 
-### What This Gives Us
+### What Is Under Our Control
 
 With a supported commercial Wi-Fi platform, OpenWrt can be used to build:
 
@@ -303,6 +239,7 @@ With a typical commercial Wi-Fi chipset, some lower-level components may remain 
 
 Therefore, **OpenWrt does not automatically make the entire Wi-Fi device open source**.
 
+
 ### The Practical Model
 
 Think of the relationship as:
@@ -315,7 +252,8 @@ Think of the relationship as:
 
 If our goal is to build a **router, AP, mesh node, or specialized network device**, this combination is usually sufficient.
 
-If we want to modify the **actual Wi-Fi PHY, MAC, or baseband implementation**, we need to look beyond a conventional commercial Wi-Fi chipset. That is where projects such as **open-sdr/openwifi** become relevant.
+If we want to modify the **actual Wi-Fi PHY, MAC, or baseband implementation**, we need to look beyond a conventional commercial Wi-Fi chipset. That is where projects such as **open-sdr/openwifi** become relevant (as described below).
+
 
 ---
 ## <font color='green'>5. open-sdr/openwifi: An Open Wi-Fi Implementation</font>
@@ -471,7 +409,7 @@ Linux Wi-Fi stack
    ↓
 Supported Wi-Fi driver
    ↓
-Commercial Wi-Fi chipset
+Commercial Wi-Fi chipset 
    ↓
 RF / Antenna
 ```
@@ -496,7 +434,7 @@ RF / Antenna
 
 This is appropriate when we want to **modify or research the Wi-Fi implementation itself**.
 
-### Choosing Between Them
+### Choosing Between Commercial vs. Openwifi
 
 | Goal | Better option |
 |---|---|
@@ -519,7 +457,7 @@ This is the main decision to make when choosing what goes underneath OpenWrt.
 
 
 ---
-## <font color='green'>7. Open vs Proprietary Wi-Fi</font>
+## <font color='green'>7. Open vs Proprietary Layers</font>
 
 Using OpenWrt does **not automatically mean that the entire Wi-Fi system is open source**.
 
@@ -578,39 +516,9 @@ When evaluating a Wi-Fi platform, it is useful to ask which of these are open:
 - **Hardware design**
 - **RF hardware**
 
-A system can be open at one layer and closed at another.
+> <font color='red'>A system can be open at one layer and closed at another.</font>
 
 
-### Open Source vs Open Hardware
-
-These are also different concepts.
-
-**Open-source software** means the software source code is available under an appropriate open-source license.
-
-**Open hardware** means the hardware design itself is available for inspection, modification, and reuse under appropriate terms.
-
-> For example, having an open-source Linux driver does **not** mean that the Wi-Fi chipset hardware design is open.
-
-
-### Why This Matters
-
-The level of openness determines **what we can actually change**.
-
-If our goal is to modify:
-
-- routing → OpenWrt is enough
-- QoS → OpenWrt/Linux may be enough
-- mesh behavior → OpenWrt + appropriate mesh software may be enough
-- Wi-Fi MAC → we need access to the MAC implementation
-- Wi-Fi PHY → we need access to the PHY/baseband implementation
-
-So the right question is not simply:
-
-> **"Is this Wi-Fi system open?"**
-
-It is:
-
-> **"Which layers are open, and which layers can I actually modify?"**
 
 ---
 ## <font color='green'>8. Choosing the Right Platform</font>
@@ -664,6 +572,7 @@ This makes sense when our research involves:
 - PHY-level sensing
 - Wireless TSN
 - Other low-level wireless research
+
 
 ### A Simple Decision Table
 
@@ -787,6 +696,7 @@ The key takeaway is:
 > **open-sdr/openwifi becomes valuable when we want to inspect, modify, and research the Wi-Fi implementation itself.**
 
 This distinction provides the foundation for understanding more advanced topics such as **Wi-Fi mesh, MANETs, TSN, long-range wireless networking, and programmable wireless systems**.
+
 
 ![Wifi System Architecture Stack](./images/Wi-Fi System Architecture Stack.png)
 
