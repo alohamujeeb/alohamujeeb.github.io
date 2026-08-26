@@ -9,6 +9,8 @@ readtime: 15
 
 categories: 
   - 5G
+  - Wifi
+  
 tags:
   - 5G
   - N3IWF

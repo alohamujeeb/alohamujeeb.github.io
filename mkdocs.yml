@@ -107,19 +107,20 @@ plugins:
       blog_toc: true
       categories_allowed:
         - 5G
+        - Wifi
+        - Data Communication
+        - Computer Networking
         - Embedded Systems
         - Robotics
-        - ROS
         - Linux
         - Programming
-        - Algorithms
         - Life experiences
-        - Multimedia
-        - Video
         - Artificial Intelligence
         - Machine Learning
-        - Computer Networking
-        - Streaming
+        - Multimedia
+        - Video
+        - Audio
+        
   - search
   - meta
   - exclude-search:

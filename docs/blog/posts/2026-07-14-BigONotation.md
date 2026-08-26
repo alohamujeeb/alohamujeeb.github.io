@@ -10,7 +10,7 @@ author:
 readtime: 10
 
 categories:
-  - Algorithms
+  - Programming
 
 tags:
   - Big O Notation
