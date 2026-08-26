@@ -20,7 +20,7 @@ tags:
        
 ---
 
-# <font color='green'>Understanding OpenWrt, OpenWiFi, and the Open Wireless Stack</font>
+# <font color='green'>Open Wifi Part 1: Understanding OpenWrt, OpenWiFi, and Wireless Stack</font>
 
 A practical mental model of how an open Wi-Fi system is built, from the operating system and networking software to the Wi-Fi hardware and radio layer.
 <!-- more -->
