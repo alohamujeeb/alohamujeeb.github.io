@@ -97,6 +97,8 @@ tags:
 
 [▶ Modem Manager](../linux/linux-networking/modem-manager.md)
 
+[▶ Wifi Topics: OpenWRT, OpenWif, Wifi Stack](../linux/linux-networking/wifi.md)
+
 
 ---
 ## <font color='green'> 4. Backend & Distributed Systems </font>
