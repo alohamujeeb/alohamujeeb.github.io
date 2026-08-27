@@ -1,7 +1,7 @@
 ---
 date:
-  created: 2026-08-24
-  posted: 2026-08-24
+  created: 2026-08-23
+  posted: 2026-08-23
 
 author:
   name: Mujeeb
