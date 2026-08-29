@@ -15,21 +15,17 @@ Throughout history, there have been many remarkable people whose contributions c
 
 Among them, the person who inspires me the most is **Srinivasa Ramanujan**.
 
-I am not a mathematician, nor do I work in pure mathematics. What inspires me is not only his extraordinary mathematical ability, but also his curiosity, originality, and passion for discovering new ideas.
-
 Despite limited formal mathematical training and many personal challenges, Ramanujan pursued mathematics because he loved uncovering patterns and solving problems. **His life reminds me that the joy of learning and discovering new ideas is a reward in itself.**
 
-Although my field is software engineering, I try to bring the same mindset to my own work: to keep learning, keep exploring, and never stop being curious.
+I am not a mathematician, nor do I work in pure mathematics. What fascinates me about Ramanujan is his extraordinary intuition and **the mystery of his visions and dreams, through which he believed his goddess revealed mathematical ideas to him**. 
 
 
 ---
 ## The Mystery of Ramanujan's Genius
 
-<font color='green'>
+<font color='tomato'>
 
-- Srinivasa Ramanujan is regarded as one of the greatest mathematicians in history for his extraordinary intuition.
-
-- He often arrived at deep mathematical identities and formulas with little or no written derivation, leaving other mathematicians to establish rigorous proofs afterward.
+- Srinivasa Ramanujan often arrived at deep mathematical identities and formulas with little or no written derivation, leaving other mathematicians to establish rigorous proofs afterward.
 
 - Ramanujan himself believed that many of these insights came to him through the blessings of his goddess, often describing them as revelations in dreams or moments of inspiration.
 
