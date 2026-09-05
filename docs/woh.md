@@ -126,6 +126,23 @@ search:
 
 
 ---
+## <font color='tomato'>My Spirit Talks </font>
+
+- ‘Love God, and you’ll find God.’ **What the hell does that even mean? Love comes from knowing someone.** You miss someone because you’ve met them. I’m not going to pretend I love some invisible stranger just because a spiritual teacher told me to. I’d rather go looking for myself. (Mujeeb)
+
+- Why should I love a God I’ve never met? Let me meet Him first. Then we’ll talk about love. (Mujeeb)
+
+- They call it faith when you stop asking questions. I call it giving up the search. (Mujeeb)
+
+- If God is real, I don’t need someone else’s story about Him. I want my own experience. (Mujeeb)
+
+- I’d rather spend my life searching for the truth than spend it pretending I already have it. (Mujeeb)
+
+- If your God is threatened by my questions, I’m not interested in your God. (Mujeeb)
+
+
+
+---
 ## <font color='tomato'> Nature </font>
 
 - **A gentle night rain tapping on the rooftop**... perhaps the most beautiful lullaby I have ever known. (Mujeeb)
