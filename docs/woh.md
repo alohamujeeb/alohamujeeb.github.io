@@ -96,6 +96,10 @@ search:
 
 - **I know I am going to hell. Paradise demands that I serve and bow to “superior bloodlines.”** I’d rather burn than surrender my equality as a human being. (Mujeeb)
 
+- Unconditional loyalty is never respected. **Even in a society that loves dogs, being called a ‘dog’ is still an insult.**
+
+- **Some minds are simply not made for self-respect.** Give them respect, and they’ll still go looking for someone’s feet to sit at. Just leave them alone.
+
 
 ---
 ## <font color='tomato'> Self-Help & Other Empty Talks </font>
@@ -132,7 +136,7 @@ search:
 
 - Don’t mock people for clinging to blind faith. You can’t demand a mind to grasp what it simply wasn’t built to grasp. **My cat will never understand calculus, no matter how sincerely it tries.** Some limitations deserve understanding, not ridicule. (Mujeeb)
 
-- I have yet to see a human grand enough to fully grasp what is happening around us. DNA. Nanotechnology. GPS. Microchips. Scary AI. We struggle to understand what we’ve built, let alone create it from nothing. And yet we have the arrogance to declare, ‘There is nothing godly behind any of this.’ Really? Have you ever seen a human capable of something even remotely this grand? (Mujeeb)
+- DNA. Nanotechnology. GPS. Microchips. Scary AI. We struggle to understand what we’ve built, let alone create it from nothing. And yet we have the arrogance to declare, ‘There is nothing godly behind any of this.’ Really? **Have you ever seen a human capable of something even remotely this grand?** (Mujeeb)
 
 
 ---
