@@ -96,9 +96,9 @@ search:
 
 - **I know I am going to hell. Paradise demands that I serve and bow to “superior bloodlines.”** I’d rather burn than surrender my equality as a human being. (Mujeeb)
 
-- Unconditional loyalty is never respected. **Even in a society that loves dogs, being called a ‘dog’ is still an insult.**
+- Unconditional loyalty is never respected. **Even in a society that loves dogs, being called a ‘dog’ is still an insult.** (Mujeeb)
 
-- **Some minds are simply not made for self-respect.** Give them respect, and they’ll still go looking for someone’s feet to sit at. Just leave them alone.
+- **Some minds are simply not made for self-respect.** Give them respect, and they’ll still go looking for someone’s feet to sit at. Just leave them alone. (Mujeeb)
 
 
 ---
