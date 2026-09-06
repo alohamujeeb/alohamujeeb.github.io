@@ -130,16 +130,9 @@ search:
 
 - ‘Love God, and you’ll find God.’ **What the hell does that even mean? Love comes from knowing someone.** You miss someone because you’ve met them. I’m not going to pretend I love some invisible stranger just because a spiritual teacher told me to. I’d rather go looking for myself. (Mujeeb)
 
-- Why should I love a God I’ve never met? Let me meet Him first. Then we’ll talk about love. (Mujeeb)
+- Don’t mock people for clinging to blind faith. You can’t demand a mind to grasp what it simply wasn’t built to grasp. **My cat will never understand calculus, no matter how sincerely it tries.** Some limitations deserve understanding, not ridicule. (Mujeeb)
 
-- They call it faith when you stop asking questions. I call it giving up the search. (Mujeeb)
-
-- If God is real, I don’t need someone else’s story about Him. I want my own experience. (Mujeeb)
-
-- I’d rather spend my life searching for the truth than spend it pretending I already have it. (Mujeeb)
-
-- If your God is threatened by my questions, I’m not interested in your God. (Mujeeb)
-
+- I have yet to see a human grand enough to fully grasp what is happening around us. DNA. Nanotechnology. GPS. Microchips. Scary AI. We struggle to understand what we’ve built, let alone create it from nothing. And yet we have the arrogance to declare, ‘There is nothing godly behind any of this.’ Really? Have you ever seen a human capable of something even remotely this grand? (Mujeeb)
 
 
 ---
