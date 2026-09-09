@@ -42,7 +42,7 @@ This page provides quick-access cheat sheets for Linux CLI commands.
 		|```mv [source] [destination]```| Move or rename files/folders|
 		
 
-	=== "Viewing"
+	=== "Viewing file contents"
 		|command|description|
 		|---|---|
 		|```cat [filename]```|Display file content|
@@ -279,8 +279,54 @@ The -exec Option in the find Command is not same as exec...It is just an option 
 	| `sudo ufw reset`                | Reset firewall rules to default             |
 
 
+
+
 ---
-## 6. System Monitoring and Process Management
+## 6. User Management
+
+| Command | Description | Example |
+|---|---|---|
+| `whoami` | Display the current username | `whoami` |
+| `id` | Display user ID, group ID, and group memberships | `id john` |
+| `useradd <user>` | Create a new user account | `sudo useradd john` |
+| `useradd -m <user>` | Create a user account and home directory | `sudo useradd -m john` |
+| `adduser <user>` | Interactively create a new user account | `sudo adduser john` |
+| `passwd <user>` | Set or change a user's password | `sudo passwd john` |
+| `usermod -aG <group> <user>` | Add a user to a group | `sudo usermod -aG sudo john` |
+| `groups <user>` | Display groups a user belongs to | `groups john` |
+| `userdel <user>` | Delete a user account | `sudo userdel john` |
+| `userdel -r <user>` | Delete a user and their home directory | `sudo userdel -r john` |
+| `groupadd <group>` | Create a new group | `sudo groupadd developers` |
+| `groupdel <group>` | Delete a group | `sudo groupdel developers` |
+| `su - <user>` | Switch to another user | `su - john` |
+| `sudo -u <user> <command>` | Run a command as another user | `sudo -u john whoami` |
+| `sudo -i` | Open a root login shell | `sudo -i` |
+| `visudo` | Safely edit the sudoers configuration | `sudo visudo` |
+
+---
+## 7. System Information & Identity
+
+| Command | Description |
+|---|---|
+| `hostname` | Display the system hostname |
+| `hostnamectl` | Display hostname and detailed system information |
+| `uname -a` | Display kernel and system information |
+| `uname -r` | Display the running kernel version |
+| `cat /etc/os-release` | Display Linux distribution and OS information |
+| `lscpu` | Display CPU information |
+| `nproc` | Display the number of available CPU cores |
+| `free -h` | Display memory and swap usage |
+| `uptime` | Display system uptime and load averages |
+| `timedatectl` | Display system date, time, timezone, and NTP status |
+| `lsblk` | Display disks and block devices |
+| `lspci` | Display PCI devices |
+| `lsusb` | Display USB devices |
+
+
+
+
+---
+## 8. System Monitoring and Process Management
 
 | **Utility** | **Description**     | **Common Use Case**    |
 |-------------|----------|----------|
@@ -368,6 +414,7 @@ pkill chrome       # Terminate all processes with name 'chrome'
 pkill -u alice     # Kill all processes owned by user 'alice'
 pkill -9 python    # Force kill all 'python' processes
 ```
+
 
 
 
