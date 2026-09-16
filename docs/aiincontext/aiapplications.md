@@ -4,7 +4,7 @@ tags:
   - AI in Context
 ---
 
-# <font color='green'> AI Applications</font>
+# <font color='tomato'> AI Applications</font>
 
 *Explore how AI can be applied to real-world problems and domains.*
 

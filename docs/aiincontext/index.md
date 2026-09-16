@@ -3,11 +3,11 @@ tags:
   - AI in Context
 ---
 
-# <font color='green'>AI in Context</font>
+# <font color='tomato'>AI in Context</font>
 *Making AI simple, practical, and useful.*
 
 ---
-**AI in Context is an ongoing project.** This section will grow continuously as I continue my journey: exploring, experimenting, building, and sharing.
+**AI in Context is an ongoing project of mine.** This section will grow continuously as I continue my journey: exploring, experimenting, building, and sharing.
 
 ---
 
@@ -49,10 +49,11 @@ The foundations beneath AI and intelligent computing.
 
 ## [▶ <font color='green'>2. Learning & Decision Methods</font>](learningmethods.md)
 
-Different ways computational systems can learn, adapt, search, and make decisions.
+Learning methods describe how an AI system learns. They define the type of information or feedback available during learning and how that information is used to improve the system.
 
-- Machine Learning
+
 - Supervised and Unsupervised Learning
+- Semi-supervised learning
 - Reinforcement Learning
 - Evolutionary Computation
 - Search & Planning
@@ -64,7 +65,9 @@ Different ways computational systems can learn, adapt, search, and make decision
 
 ## [▶ <font color='green'>3. Representation & AI Models</font>](aimodels.md)
 
-How information, knowledge, and patterns are represented and processed by intelligent systems.
+AI models are the algorithms and architectures that learn patterns from data and use those patterns to produce an output. Different models are designed to handle different types of problems and data.
+
+Examples include:
 
 - Neural Networks
 - Deep Learning
@@ -74,7 +77,6 @@ How information, knowledge, and patterns are represented and processed by intell
 - Symbolic Methods
 - Vision & Language Models
 - Multimodal Models
-- Other AI Models
 
 
 ---

@@ -4,7 +4,7 @@ tags:
   - AI in Context
 ---
 
-# <font color='green'>AI Systems & Integration</font>
+# <font color='tomato'>AI Systems & Integration</font>
 
 *Turn AI capabilities into useful, reliable systems.*
 

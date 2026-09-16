@@ -6,8 +6,7 @@ tags:
   
 ---
 
-# <font color='green'>Back to Basics</font>
-
+# <font color='tomato'>Back to Basics</font>
 *Understand the foundations behind AI and computing.*
 
 ---

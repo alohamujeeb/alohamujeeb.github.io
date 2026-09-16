@@ -6,9 +6,7 @@ tags:
   
 ---
 
-# <font color='green'>Learning & Decision Methods</font>
-
-*Explore how computational systems learn, adapt, search, and make decisions.*
+# <font color='tomato'> Learning & Decision Methods </font>
 
 ---
 

@@ -3,32 +3,51 @@
 
 tags:
   - AI in Context
----
-
-# <font color='green'>AI Learning Models</font>
-
-*Explore how machines learn from data, experience, and interaction.*
 
 ---
 
-## <font color='green'>Why AI Learning Models?</font>
-
-AI systems can learn in different ways. Understanding these learning models helps us understand both the capabilities and limitations of modern AI.
-
-This section explores the main approaches used to build systems that learn, adapt, and improve.
+# <font color='tomato'> AI Learning Models </font>
 
 The emphasis is on **understanding the ideas, experimenting with them, and seeing how they can be applied in practice**.
 
+
 ---
+### <font color='green'>1. Data Representation </font>
 
-## <font color='green'>Topics Covered</font>
+[▶ Data and Features in AI](./datarep/dataandfeatures.md)
 
-This is an evolving collection. Topics and material will be added as the project develops.
+[▶ Feature Engineering in AI](./datarep/featureeng.md)
 
+
+
+---
+### <font color='green'>2. Classical ML Models</font>
 
 [▶ Support Vector Machine (SVM)](./learningmethods/supervised/svm.md)
 
 [▶ Naive Bays](./b2b/s1-cprobbays/p4.md)
+
+
+
+---
+### <font color='green'> 3. Neural Network Models </font>
+
+(WIP)
+
+
+---
+### <font color='green'> 4. Attention & Transformers </font>
+
+(WIP)
+
+
+---
+### <font color='green'> 5. Generative/Foundation Models </font>
+
+(WIP)
+
+
+
 
 
 ---
