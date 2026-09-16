@@ -18,6 +18,8 @@ The emphasis is on **understanding the ideas, experimenting with them, and seein
 
 [▶ Feature Engineering in AI](./datarep/featureeng.md)
 
+[▶ Representation Learning in AI](./datarep/replearn.md)
+
 
 
 ---
