@@ -21,7 +21,6 @@ The emphasis is on **understanding the ideas, experimenting with them, and seein
 [▶ Representation Learning in AI](./datarep/replearn.md)
 
 
-
 ---
 ### <font color='green'>2. Classical ML Models</font>
 
@@ -34,7 +33,15 @@ The emphasis is on **understanding the ideas, experimenting with them, and seein
 ---
 ### <font color='green'> 3. Neural Network Models </font>
 
-(WIP)
+
+[▶ Neural Network Fundamentals - Part 1: Understanding How Neural Networks Work](./nn/nnp1.md)
+
+[▶ Neural Network Fundamentals - Part 2: Training Neural Networks](./nn/nnp2.md)
+
+[▶ Activation Function and Non-Linearity in Neural Networks](./nn/activationfunction.md)
+
+[▶ Normalization of Inputs in Neural Networks](./nn/normalization.md)
+
 
 
 ---
