@@ -103,14 +103,11 @@ tags:
 ---
 ## <font color='green'> 4. Backend & Distributed Systems </font>
 
-[▶ Persistent vs Non-Persistent Connections](../blog/posts/2026-07-31-Persistent_and_NonPersistent.md)
+### **[TCP/IP & Network Programming (multiple topics)](tcpip-networkprogramming.md)**
+*Beyond TCP/IP basics. Exploring lesser-known concepts, practical behavior, and real-world network programming.*
 
-### **QUIC Protocol**
-
-[▶ QUIC Protocol (An Evolving Modern Transport Protocol)](../programming/media-streaming/protocols/quic.md)
-
-[▶ WebTransport- An Introduction](../blog/posts/2026-05-29-WebTransport_Intro.md)
-
+### **[HTTP3 and QUIC Protocol (multiple topics)](quic-http3.md)**
+*Beyond HTTP basics. Understanding QUIC, HTTP/3, and the design decisions behind modern web communication.*
 
 ---
 ## <font color='green'> 5. Software Engineering </font>

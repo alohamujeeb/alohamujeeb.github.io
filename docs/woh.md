@@ -121,10 +121,6 @@ search:
 
 - **They reject religion, then worship self-help gurus.** Same wine, different bottle; same comforting nonsense, different costume. (Mujeeb)
 
-- Mr. Guru Chopra, you call aging a disease and sell “reverse-aging” products. Yet you look 10 years older than your age. Your “reverse-aging” cure is supposedly based on “holy scripture” knowledge. So why isn’t it working for you?
-
-- **Mr. Guru Chopra, I’m surprised people are buying your "reverse-aging" products when it’s so obvious they don’t even work on you.**
-
 
 ---
 ## <font color='tomato'>My Soul Companions (Animals) </font>
