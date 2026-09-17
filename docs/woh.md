@@ -98,7 +98,7 @@ search:
 
 - **Some minds are simply not made for self-respect.** Give them respect, and they’ll still go looking for someone’s feet to sit at. Just leave them alone. (Mujeeb)
 
-My friend’s spiritual teacher told him to sit near shoes to “weaken” his ego. My friend invited the teacher to do the same. The teacher was enraged by the “insult.” **Apparently, weakening the ego is for followers, not the guru teacher.** (Mujeeb)
+- My friend’s spiritual teacher told him to sit near shoes to “weaken” his ego. My friend invited the teacher to do the same. The teacher was enraged by the “insult.” **Apparently, weakening the ego is for followers, not the guru teacher.** (Mujeeb)
 
 - **Do not kill the ego. It is a beautiful thing that teaches us self-respect.** It only turns ugly when we display it before those we see as weaker. (Mujeeb)
 
