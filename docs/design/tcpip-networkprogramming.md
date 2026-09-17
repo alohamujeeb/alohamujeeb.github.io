@@ -15,9 +15,9 @@ tags:
 ---
 [▶ Persistent vs Non-Persistent Connections](../blog/posts/2026-07-31-Persistent_and_NonPersistent.md)
 
-[▶ Persistent vs Non-Persistent Connections](../blog/posts/2026-07-31-Persistent_and_NonPersistent.md)
-
 [▶ TCP is Reliable, But Not Message-Oriented](tcpip-programming/tcp-is-reliable-not-message-oriented.md)
+
+[▶ WebSocket vs TCP: What’s the Difference?](tcpip-programming/tcp-vs-websockets.md)
 
 
 ---
