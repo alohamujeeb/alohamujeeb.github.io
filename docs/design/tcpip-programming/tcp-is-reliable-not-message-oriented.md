@@ -422,7 +422,6 @@ If an application needs messages, it must define its own framing mechanism. Comm
 Protocols such as **WebSocket** solve this at a higher level by providing message framing over a TCP connection.
 
 
-
 ---
 ## Relevant Link(s)
 
