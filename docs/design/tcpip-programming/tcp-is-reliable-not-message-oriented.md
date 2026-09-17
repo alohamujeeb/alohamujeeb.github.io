@@ -11,10 +11,11 @@ tags:
 
 # <font color='tomato'>TCP is Reliable. TCP is Not Message-Oriented</font>
 
-In TCP network programming, a single send() does not correspond to a single recv(). 
+In **TCP network programming**, a single `send()` does not correspond to a single `recv()`.
 
-Data from one send can be split across multiple receives, and multiple sends can be combined into one receive.
+Data from one `send()` can be split across multiple receives, and multiple sends can be combined into one receive.
 
+This short article looks at **how TCP handles data boundaries, how applications deal with them, and where UDP and other protocols differ.**
 
 ---
 ## <font color='green'>1. What Does “Reliable” Actually Mean? </font>
