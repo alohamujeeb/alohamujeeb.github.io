@@ -492,8 +492,8 @@ Training neural networks will be covered in **[Neural Network Fundamentals - Par
 
 [Neural Network Fundamentals - Part 2: Training Neural Networks](nnp2.md)
 
-[Activation Function and Nonlinearity](activationfunction.md)
-
 [Normalization of Inputs in Neural Networks](normalization.md)
+
+[Activation Function and Nonlinearity](activationfunction.md)
 
 [Evolution of Computing: From rules to Goals](../../blog/posts/2026-06-19-EvolutionOfComuting_Rules_to_Goals.md)
