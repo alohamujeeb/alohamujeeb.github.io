@@ -84,7 +84,7 @@ search:
 
 - <i>"Loyalty above all, except honour"</i>;  I wonder if those who call themselves loyal understand that true loyalty is guided by honour, not blind obedience.
 
-- **Why do so many people think the only way to show respect for someone else is to degrade themselves?** (Mujeeb)
+- **Why do so many people think they must humiliate themselves to prove respect for someone else?** (Mujeeb)
 
 - **There's talk of freedom everywhere, yet people outsource their thinking at the very first opportunity.** 
 
@@ -96,9 +96,13 @@ search:
 
 - **I know I am going to hell. Paradise demands that I serve and bow to “superior bloodlines.”** I’d rather burn than surrender my equality as a human being. (Mujeeb)
 
-- Unconditional loyalty is never respected. **Even in a society that loves dogs, being called a ‘dog’ is still an insult.** (Mujeeb)
-
 - **Some minds are simply not made for self-respect.** Give them respect, and they’ll still go looking for someone’s feet to sit at. Just leave them alone. (Mujeeb)
+
+My friend’s spiritual teacher told him to sit near shoes to “weaken” his ego. My friend invited the teacher to do the same. The teacher was enraged by the “insult.” **Apparently, weakening the ego is for followers, not the guru teacher.** (Mujeeb)
+
+- **Do not kill the ego. It is a beautiful thing that teaches us self-respect.** It only turns ugly when we display it before those we see as weaker. (Mujeeb)
+
+- Unconditional loyalty is never respected. **Even in a society that loves dogs, being called a ‘dog’ is still an insult.** (Mujeeb)
 
 
 ---
@@ -113,9 +117,14 @@ search:
 - How can you not see the shallowness in mentors who parrot, “Work smart, not hard.” **Before mastery, that’s just a polished excuse for avoiding hard work, and a way to attract lazy audience for quick money.** (Mujeeb)
 
 - *"Everything is possible if you have courage, will and a GOOD PLAN."* (from a movie). 
-<br>Dear self-help gurus, where is the damn PLANNING? All I get is motivational waffle, not practical advice on how to plan. (Mujeeb)
+<br>Dear self-help gurus, where is the damn PLANNING component in your ramblings? All I get is motivational waffle, not practical advice on how to plan. (Mujeeb)
 
 - **They reject religion, then worship self-help gurus.** Same wine, different bottle; same comforting nonsense, different costume. (Mujeeb)
+
+- Mr. Guru Chopra, you call aging a disease and sell “reverse-aging” products. Yet you look 10 years older than your age. Your “reverse-aging” cure is supposedly based on “holy scripture” knowledge. So why isn’t it working for you?
+
+- **Mr. Guru Chopra, I’m surprised people are buying your "reverse-aging" products when it’s so obvious they don’t even work on you.**
+
 
 ---
 ## <font color='tomato'>My Soul Companions (Animals) </font>
@@ -134,7 +143,8 @@ search:
 
 - ‘Love God, and you’ll find God.’ **What the hell does that even mean? Love comes from knowing someone.** You miss someone because you’ve met them. I’m not going to pretend I love some invisible stranger just because a spiritual teacher told me to. I’d rather go looking for myself. (Mujeeb)
 
-- Don’t mock people for clinging to blind faith. You can’t demand a mind to grasp what it simply wasn’t built to grasp. **My cat will never understand calculus, no matter how sincerely it tries.** Some limitations deserve understanding, not ridicule. (Mujeeb)
+- Don’t ridicule people for clinging to blind faith. **My cat will never understand calculus, no matter how sincerely it tries.** Some limitations deserve understanding, not ridicule. Just leave them alone. (Mujeeb)
+
 
 - DNA. Nanotechnology. GPS. Microchips. Scary AI. We struggle to understand what we’ve built, let alone create it from nothing. And yet we have the arrogance to declare, ‘There is nothing godly behind any of this.’ Really? **Have you ever seen a human capable of something even remotely this grand?** (Mujeeb)
 
