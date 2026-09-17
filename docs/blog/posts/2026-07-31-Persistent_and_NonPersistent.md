@@ -20,10 +20,10 @@ tags:
 
 # <font color='green'>Persistent vs Non-Persistent Connections: Choosing the Right Communication Model</font>
 
-Modern distributed systems are built on communication. Whether we're designing a REST API, a chat application, a video conferencing platform, or an IoT system, one of the earliest architectural decisions we'll make is **how components communicate**. One important decision we often have to make is: **Should connections be short-lived or long-lived?**
+Modern distributed systems are built on communication. One of the earliest architectural decisions we'll make is **how components communicate**. One important decision we often have to make is: **Should connections be short-lived or long-lived?**
 
 <!-- more -->
-In this article, we'll examine how different protocols establish and manage connections, compare persistent and non-persistent communication models, and discuss where each approach is most appropriate. By the end, we'll have a practical framework for deciding whether our application should use traditional request-response communication or maintain long-lived connections for real-time interactions.
+In this article, we'll examine how different protocols establish and manage connections, compare persistent and non-persistent communication models, and discuss where each approach is most appropriate. 
 
 
 ---
@@ -31,11 +31,9 @@ In this article, we'll examine how different protocols establish and manage conn
 
 Modern distributed systems are built on communication. Whether we're designing a REST API, a chat application, a video conferencing platform, or an IoT system, one of the earliest design decisions we make is **how components should communicate**.
 
-Should every interaction establish a new connection? Or should a connection remain open and be reused?
+> Should every interaction establish a new connection? Or should a connection remain open and be reused?
 
 This choice defines the application's **communication model** and has a significant impact on latency, scalability, resource utilization, and user experience.
-
-When discussing networking, we often hear terms such as *persistent connections*, *keep-alive*, *HTTP*, *REST*, *WebSocket*, *gRPC*, *MQTT*, *Server-Sent Events (SSE)*, and *WebRTC*. These technologies are frequently mentioned together, but they represent different concepts and are often misunderstood.
 
 It is common to hear statements such as:
 
@@ -43,7 +41,7 @@ It is common to hear statements such as:
 - *"WebSockets are faster than HTTP."*
 - *"Persistent connections are always better."*
 
-Although these statements contain some truth, they often oversimplify the underlying concepts. More importantly, they blur the distinction between **communication models**, **architectural styles**, **application protocols**, and **transport protocols**.
+Although these statements contain some truth, they often oversimplify the underlying concepts. 
 
 Choosing between persistent and non-persistent communication is **not** about selecting the newest or fastest technology. Instead, it is about choosing the communication model that best fits the application's requirements.
 
@@ -150,7 +148,7 @@ That design decision leads us to the two communication models discussed througho
 ---
 ## <font color='green'>3. Non-Persistent Connections</font>
 
-A **non-persistent connection** is a communication model in which a new connection is established for each interaction and closed immediately after the communication is complete.
+> A **non-persistent connection** is a communication model in which a new connection is established for each interaction and closed immediately after the communication is complete.
 
 Every request follows the same lifecycle:
 
@@ -223,13 +221,11 @@ Non-persistent communication is commonly used for applications such as:
 
 These applications naturally follow a **request-response** pattern. Once the server has responded, the interaction is complete, making it unnecessary to keep the connection open.
 
-In the next section, we'll explore the opposite approach: **persistent connections**, where the same communication channel is reused for multiple interactions.
-
 
 ---
 ## <font color='green'>4. Persistent Connections</font>
 
-A **persistent connection** is a communication model in which a connection is established once and reused for multiple interactions between the client and the server.
+> A **persistent connection** is a communication model in which a connection is established once and reused for multiple interactions between the client and the server.
 
 Instead of creating a new connection for every request, the existing connection remains available until one side closes it or it times out.
 
@@ -331,7 +327,7 @@ At this point, we've discussed two communication models:
 - **Non-persistent communication**
 - **Persistent communication**
 
-A common misconception is to associate these models directly with technologies such as HTTP, WebSocket, or TCP. In reality, these technologies operate at different layers and solve different problems.
+> A common misconception is to associate persistent and non-persistent connections directly with technologies such as HTTP, WebSocket, or TCP. In reality, these technologies operate at different layers and solve different problems.
 
 To understand where persistence fits, we first need to distinguish between a **communication model**, an **application protocol**, and a **transport protocol**.
 
@@ -381,12 +377,6 @@ In the next section, we'll see how common communication technologies apply these
 
 ---
 ## <font color='green'>6. Communication Technologies in Practice</font>
-
-Now that we've understood the concepts of persistent and non-persistent communication, let's see how they are applied by some of the most common communication technologies.
-
-One important thing to remember is that these technologies are **not competing with each other**. They were designed to solve different problems, and each adopts the communication model that best fits its intended use.
-
-In the following sections, we'll briefly examine each technology, identify its communication model, and discuss the types of applications for which it is best suited.
 
 ### 6.1 REST
 
@@ -713,7 +703,7 @@ The following table summarizes when each communication model is typically approp
 
 Ultimately, the communication model should be driven by the application's requirements rather than by the popularity of a particular technology.
 
-> **Key takeaway:** Start by understanding **how your application needs to communicate**. Once the communication model is clear, selecting an appropriate protocol or technology becomes much easier.
+> **Key takeaway:** We start by understanding **how our application needs to communicate**. Once the communication model is clear, selecting an appropriate protocol or technology becomes much easier.
 
 
 ---
