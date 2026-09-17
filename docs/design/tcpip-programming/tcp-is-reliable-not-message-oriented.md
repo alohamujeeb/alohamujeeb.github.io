@@ -416,9 +416,8 @@ If an application needs messages, it must define its own framing mechanism. Comm
 - **Fixed-length messages**
 - **Delimiter-based messages**
 - **Length-prefixed messages**
-- **Connection-based framing**
 
-This is why a single `send()` does not necessarily correspond to a single `recv()`.
+> This is why a single `send()` does not necessarily correspond to a single `recv()`.
 
 Protocols such as **WebSocket** solve this at a higher level by providing message framing over a TCP connection.
 
