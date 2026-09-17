@@ -9,7 +9,7 @@ tags:
     
 ---
 
-# <font color='tomato'>TCP is Reliable. TCP is Not Message-Oriented</font>
+# <font color='tomato'>TCP is Reliable, But Not Message-Oriented</font>
 
 In **TCP network programming**, a single `send()` does not correspond to a single `recv()`.
 
