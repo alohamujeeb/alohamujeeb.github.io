@@ -10,7 +10,10 @@ tags:
 ---
 
 # <font color='tomato'>TCP is Reliable. TCP is Not Message-Oriented</font>
-*Concepts, architectures, and practical considerations for computing and content delivery at the edge.*
+
+In TCP network programming, a single send() does not correspond to a single recv(). 
+
+Data from one send can be split across multiple receives, and multiple sends can be combined into one receive.
 
 
 ---
