@@ -24,6 +24,7 @@ tags:
 
 [▶ Linear Programming Part 5- LP Algorithms](./LP-Pt5.md)
 
+[▶ Linear Programming Part 6- LP vs Integer Programming vs Mixed-Integer Programming](./LP-Pt6.md)
 
 
 ---

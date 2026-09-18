@@ -50,6 +50,10 @@ The emphasis is on **understanding rather than memorizing**, and on going back t
 
 [▶ Linear Programming Part 5- LP Algorithms](./b2b/LP/LP-Pt5.md)
 
+[▶ Linear Programming Part 6- LP vs Integer Programming vs Mixed-Integer Programming](./b2b/LP/LP-Pt6.md)
+
+
+
 ---
 
 ## Relevant Link(s)
