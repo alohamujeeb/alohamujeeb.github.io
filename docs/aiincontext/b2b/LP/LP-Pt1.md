@@ -11,15 +11,17 @@ tags:
 *A introduction to LP and its role in AI systems*
 
 ---
+[▶ Linear Programming Part 0- About This Series](./LP-Pt0.md)
+
 [▶ Linear Programming Part 1- Where LP Fits in AI Systems](./LP-Pt1.md)
 
 [▶ Linear Programming Part 2- Fundamental Building Blocks](./LP-Pt2.md)
 
-[▶ Linear Programming Part 3 - Solving LP Problems](./LP-Pt3.md)
+[▶ Linear Programming Part 3- Solving LP Problems](./LP-Pt3.md)
 
-[▶ Linear Programming Part 4 - Practical Scenarios](./LP-Pt4.md)
+[▶ Linear Programming Part 4- Practical Scenarios](./LP-Pt4.md)
 
-[▶ Linear Programming Part 5 - LP Algorithms](./LP-Pt5.md)
+[▶ Linear Programming Part 5- LP Algorithms](./LP-Pt5.md)
 
 
 

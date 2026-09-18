@@ -37,15 +37,17 @@ The emphasis is on **understanding rather than memorizing**, and on going back t
 ---
 ## <font color='green'> Linear Programming Series </font>
 
+[▶ Linear Programming Part 0- About This Series](./b2b/LP/LP-Pt0.md)
+
 [▶ Linear Programming Part 1- Where LP Fits in AI Systems](./b2b/LP/LP-Pt1.md)
 
 [▶ Linear Programming Part 2- Fundamental Building Blocks](./b2b/LP/LP-Pt2.md)
 
-[▶ Linear Programming Part 3 - Solving LP Problems](./b2b/LP/LP-Pt3.md)
+[▶ Linear Programming Part 3- Solving LP Problems](./b2b/LP/LP-Pt3.md)
 
-[▶ Linear Programming Part 4 - Practical Scenarios](./b2b/LP/LP-Pt4.md)
+[▶ Linear Programming Part 4- Practical Scenarios](./b2b/LP/LP-Pt4.md)
 
-[▶ Linear Programming Part 5 - LP Algorithms](./b2b/LP/LP-Pt5.md)
+[▶ Linear Programming Part 5- LP Algorithms](./b2b/LP/LP-Pt5.md)
 
 ---
 

@@ -12,6 +12,8 @@ tags:
 *How optimization solvers find optimal solutions*
 
 ---
+[▶ Linear Programming Part 0- About This Series](./LP-Pt0.md)
+
 [▶ Linear Programming Part 1- Where LP Fits in AI Systems](./LP-Pt1.md)
 
 [▶ Linear Programming Part 2- Fundamental Building Blocks](./LP-Pt2.md)
