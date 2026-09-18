@@ -32,7 +32,7 @@ The emphasis is on **understanding rather than memorizing**, and on going back t
 
 [▶ Optimization: How Machines Find Better Solutions](./b2b/optimization.md)
 
-[▶ Conditional Probabilty & Bays' Theorem Series](./b2b/s1-cprobbays/p1.md)
+[▶ Conditional Probabilty & Bays' Theorem **<font color='red'>(Series)</font>**](./b2b/s1-cprobbays/p1.md)
 
 
 ---
