@@ -35,7 +35,7 @@ The emphasis is on **understanding rather than memorizing**, and on going back t
 [▶ Conditional Probabilty & Bays' Theorem Series](./b2b/s1-cprobbays/p1.md)
 
 ---
-## <font color='green'> Linear Programming </font>
+## <font color='green'> Linear Programming Series </font>
 
 [▶ Linear Programming Part 1- Where LP Fits in AI Systems](./b2b/LP/LP-Pt1.md)
 
