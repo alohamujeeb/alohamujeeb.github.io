@@ -22,10 +22,7 @@ The emphasis is on **understanding rather than memorizing**, and on going back t
 
 ---
 
-## <font color='green'>Topics Covered</font>
-
-This is an evolving collection. Topics and material will be added as the project develops.
-
+## <font color='green'> Maths for AI </font>
 
 [▶ Vectors: The Language of Modern AI](./b2b/vectors.md)
 
@@ -37,7 +34,18 @@ This is an evolving collection. Topics and material will be added as the project
 
 [▶ Conditional Probabilty & Bays' Theorem Series](./b2b/s1-cprobbays/p1.md)
 
+---
+## <font color='green'> Linear Programming </font>
 
+[▶ Linear Programming Part 1- Where LP Fits in AI Systems](./b2b/LP/LP-Pt1.md)
+
+[▶ Linear Programming Part 2- Fundamental Building Blocks](./b2b/LP/LP-Pt2.md)
+
+[▶ Linear Programming Part 3 - Solving LP Problems](./b2b/LP/LP-Pt3.md)
+
+[▶ Linear Programming Part 4 - Practical Scenarios](./b2b/LP/LP-Pt4.md)
+
+[▶ Linear Programming Part 5 - LP Algorithms](./b2b/LP/LP-Pt5.md)
 
 ---
 
