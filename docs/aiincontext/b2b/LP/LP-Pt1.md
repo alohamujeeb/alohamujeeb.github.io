@@ -64,6 +64,8 @@ LP is one optimization technique that can be used in this broader system.
 > The goal here is not to treat LP as AI, but to understand **where LP can fit into an AI system and what role it can play**.
 
 
+![concept](images/part1-idea.png)
+
 ---
 ## <font color='green'> 2 What Does LP Actually Do? </font>
 

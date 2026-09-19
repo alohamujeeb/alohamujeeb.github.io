@@ -53,6 +53,10 @@ For example, a company may need to decide:
 
 These decisions, goals, and limitations can be expressed mathematically and combined into an LP problem.
 
+![concept](images/part2-idea.png)
+
+
+
 The following sections introduce each building block step by step.
 
 ---
