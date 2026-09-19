@@ -56,7 +56,7 @@ The emphasis is on **understanding rather than memorizing**, and on going back t
 
 [▶ Linear Programming Part 8- Sensitivity Analysis](./b2b/LP/LP-Pt8.md)
 
-[▶ Linear Programming Part 9- Understanding Solver Output<](./b2b/LP/LP-Pt9.md)
+[▶ Linear Programming Part 9- Understanding Solver Output](./b2b/LP/LP-Pt9.md)
 
 [▶ Linear Programming Part 10- End to End Case Study](./b2b/LP/LP-Pt10.md)
 
