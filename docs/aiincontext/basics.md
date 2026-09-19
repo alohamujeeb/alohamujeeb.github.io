@@ -36,7 +36,7 @@ The emphasis is on **understanding rather than memorizing**, and on going back t
 
 
 ---
-## <font color='green'> My Linear Programming Notebook </font>
+## <font color='green'> Linear Programming- A Practitionar's Guide </font>
 
 [▶ Linear Programming Part 0- About This Series](./b2b/LP/LP-Pt0.md)
 
@@ -52,6 +52,13 @@ The emphasis is on **understanding rather than memorizing**, and on going back t
 
 [▶ Linear Programming Part 6- LP vs Integer Programming vs Mixed-Integer Programming](./b2b/LP/LP-Pt6.md)
 
+[▶ Linear Programming Part 7- Limiations of LP](./b2b/LP/LP-Pt7.md)
+
+[▶ Linear Programming Part 8- Sensitivity Analysis](./b2b/LP/LP-Pt8.md)
+
+[▶ Linear Programming Part 9- Understanding Solver Output<](./b2b/LP/LP-Pt9.md)
+
+[▶ Linear Programming Part 10- End to End Case Study](./b2b/LP/LP-Pt10.md)
 
 
 ---

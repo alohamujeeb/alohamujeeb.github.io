@@ -4,12 +4,13 @@ hide:
   
 tags:
   - Linear Programming
-  - LP Solver
+  - Integer Programming
+  - Mixed-Integer Programming
   
 ---
 
 # <font color='tomato'> Linear Programming Part 6- LP vs Integer Programming vs Mixed-Integer Programming</font>
-*Choosing the right optimization model for real-world decisions*
+*Integer variables, binary variables, mixed-integer models, solver differences, and Python implementation*
 
 
 ---
@@ -27,6 +28,13 @@ tags:
 
 [▶ Linear Programming Part 6- LP vs Integer Programming vs Mixed-Integer Programming](./LP-Pt6.md)
 
+[▶ Linear Programming Part 7- Limiations of LP](./LP-Pt7.md)
+
+[▶ Linear Programming Part 8- Sensitivity Anddalysis](./LP-Pt8.md)
+
+[▶ Linear Programming Part 9- Understanding Solver Output](./LP-Pt9.md)
+
+[▶ Linear Programming Part 10- End to End Case Study](./LP-Pt10.md)
 
 ---
 ## <font color='green'> 1. Introduction </font>

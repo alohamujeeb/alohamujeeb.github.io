@@ -10,7 +10,7 @@ tags:
 
 
 # <font color='tomato'> Linear Programming Part 3 - Solving LP Problems</font>
-*From an LP formulation to an optimal solution*
+*  Manual solving, optimal solution, Python, and LP solvers*
 
 ---
 [▶ Linear Programming Part 0- About This Series](./LP-Pt0.md)
@@ -27,6 +27,13 @@ tags:
 
 [▶ Linear Programming Part 6- LP vs Integer Programming vs Mixed-Integer Programming](./LP-Pt6.md)
 
+[▶ Linear Programming Part 7- Limiations of LP](./LP-Pt7.md)
+
+[▶ Linear Programming Part 8- Sensitivity Anddalysis](./LP-Pt8.md)
+
+[▶ Linear Programming Part 9- Understanding Solver Output](./LP-Pt9.md)
+
+[▶ Linear Programming Part 10- End to End Case Study](./LP-Pt10.md)
 
 ---
 ## <font color='green'> 1. Introduction </font>
